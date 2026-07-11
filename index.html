@@ -7,8 +7,6 @@
 <style>
 * { margin:0; padding:0; box-sizing:border-box; }
 body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; min-height:100vh; }
-a { text-decoration:none !important; color:inherit; }
-.card, .card *, a:hover, a:focus, a:visited { text-decoration:none !important; }
 header { background:#0d0d0d; border-bottom:2px solid #6b3a1f; padding:36px 24px 32px; text-align:center; }
 header .mark { font-size:0.66rem; letter-spacing:0.34em; text-transform:uppercase; color:#CD853F; margin-bottom:12px; }
 header h1 { font-size:2.1rem; font-weight:normal; letter-spacing:0.14em; text-transform:uppercase; }
@@ -17,8 +15,12 @@ main { max-width:1120px; margin:0 auto; padding:38px 24px 64px; }
 .grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }
 @media (max-width:900px){ .grid { grid-template-columns:repeat(2,1fr); } }
 @media (max-width:520px){ .grid { grid-template-columns:1fr; } }
-.card { display:flex; flex-direction:column; min-height:210px; background:#141414; border:1px solid #333; border-left:4px solid #6b3a1f; border-radius:6px; padding:18px 20px; transition:transform 0.12s, border-color 0.15s, background 0.15s; }
-a.card:hover { transform:translateY(-3px); border-color:#CD853F; border-left-color:#CD853F; background:#181818; }
+.card { position:relative; display:flex; flex-direction:column; min-height:210px; background:#141414; border:1px solid #333; border-left:4px solid #6b3a1f; border-radius:6px; padding:18px 20px; transition:transform 0.12s, border-color 0.15s, background 0.15s; }
+/* whole-card click target — an EMPTY link overlay, so no text is ever inside an anchor */
+.stretch { position:absolute; inset:0; z-index:1; border-radius:6px; }
+.card > *:not(.stretch) { position:relative; z-index:0; }
+.card.link { cursor:pointer; }
+.card.link:hover { transform:translateY(-3px); border-color:#CD853F; border-left-color:#CD853F; background:#181818; }
 .status { display:flex; align-items:center; gap:7px; font-size:0.56rem; text-transform:uppercase; letter-spacing:0.12em; color:#888; margin-bottom:9px; }
 .dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
 .dot.live { background:#57c24a; box-shadow:0 0 7px #57c24a; animation:blink 2.2s ease-in-out infinite; }
@@ -31,12 +33,12 @@ a.card:hover { transform:translateY(-3px); border-color:#CD853F; border-left-col
 .card .foot { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-top:14px; }
 .card .count { font-size:0.72rem; color:#CD853F; letter-spacing:0.02em; }
 .cta { display:inline-block; flex-shrink:0; font-size:0.58rem; text-transform:uppercase; letter-spacing:0.07em; color:#CD853F; border:1px solid #6b3a1f; border-radius:3px; padding:5px 10px; transition:background 0.15s, color 0.15s, border-color 0.15s; }
-a.card:hover .cta { background:#CD853F; color:#141414; border-color:#CD853F; }
+.card.link:hover .cta { background:#CD853F; color:#141414; border-color:#CD853F; }
 .card.queue { border-left-color:#57c24a; }
-a.card.queue:hover { border-color:#8fdd7a; border-left-color:#8fdd7a; }
+.card.queue.link:hover { border-color:#8fdd7a; border-left-color:#8fdd7a; }
 .card.queue .count { color:#8fdd7a; }
 .card.queue .cta { color:#8fdd7a; border-color:#3f6a34; }
-a.card.queue:hover .cta { background:#8fdd7a; color:#141414; border-color:#8fdd7a; }
+.card.queue.link:hover .cta { background:#8fdd7a; color:#141414; border-color:#8fdd7a; }
 .card.coming, .card.tbd { opacity:0.62; border-left-color:#444; }
 .card.coming .count, .card.tbd .count { color:#8a8272; }
 .card.coming .cta, .card.tbd .cta { color:#777; border-color:#3a3a3a; }
@@ -54,37 +56,41 @@ footer .contact { color:#CD853F; }
 <main>
   <div class="grid">
 
-    <a class="card" href="./calvary/index.html">
+    <div class="card link">
+      <a class="stretch" href="./calvary/index.html" aria-label="Open Calvary Cemetery map"></a>
       <div class="status"><i class="dot live"></i> Live</div>
       <h2>Calvary Cemetery</h2>
       <div class="addr">1040 Northampton Street · Est. c. 1870s</div>
       <div class="desc">Holyoke's principal Catholic burial ground, serving Sacred Heart, Our Lady of the Holy Rosary, and Blessed Sacrament parishes. Spans the Civil War through Vietnam.</div>
       <div class="foot"><span class="count">375 veterans documented</span><span class="cta">Open map →</span></div>
-    </a>
+    </div>
 
-    <a class="card" href="./forestdale/index.html">
+    <div class="card link">
+      <a class="stretch" href="./forestdale/index.html" aria-label="Open Forestdale Cemetery map"></a>
       <div class="status"><i class="dot live"></i> Live</div>
       <h2>Forestdale Cemetery</h2>
       <div class="addr">304 Cabot Street · Est. 1860</div>
       <div class="desc">Holyoke's public secular cemetery, organized in 1860 and dedicated in 1862. Contains GAR plots, a potter's field, and the grave of Medal of Honor recipient John MacKenzie (WWI).</div>
       <div class="foot"><span class="count">243 veterans documented</span><span class="cta">Open map →</span></div>
-    </a>
+    </div>
 
-    <a class="card" href="./elmwood/index.html">
+    <div class="card link">
+      <a class="stretch" href="./elmwood/index.html" aria-label="Open Elmwood Cemetery map"></a>
       <div class="status"><i class="dot live"></i> Live</div>
       <h2>Elmwood Cemetery</h2>
       <div class="addr">2190 Northampton Street · Oldest burial 1755</div>
       <div class="desc">The oldest burial ground in Holyoke, given to the city in 1955. Home to veterans of the French &amp; Indian War, Revolutionary War, and Civil War through World War II — including two veterans killed in 1777 and a WWI Navy Yeomanette.</div>
       <div class="foot"><span class="count">44 veterans documented</span><span class="cta">Open map →</span></div>
-    </a>
+    </div>
 
-    <a class="card queue" href="./research-queue/index.html">
+    <div class="card queue link">
+      <a class="stretch" href="./research-queue/index.html" aria-label="Open the research queue"></a>
       <div class="status"><i class="dot live"></i> Live</div>
       <h2>Research Queue</h2>
       <div class="addr">Burial location unknown · Research ongoing</div>
       <div class="desc">Holyoke veterans identified in the records but not yet located, listed alphabetically — those approved and awaiting geolocation, and those of record whose research is ongoing.</div>
       <div class="foot"><span class="count">314 veterans in queue</span><span class="cta">Open queue →</span></div>
-    </a>
+    </div>
 
     <div class="card coming">
       <div class="status"><i class="dot coming"></i> In progress</div>
