@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veteran Archives — Holyoke, MA</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100vh; display:flex; flex-direction:column; overflow:hidden; }
+
+#header {
+  background:#0d0d0d; border-bottom:2px solid #6b3a1f;
+  padding:10px 18px; display:flex; align-items:center;
+  justify-content:space-between; flex-shrink:0; z-index:1000;
+}
+#header h1 { font-size:1.05rem; font-weight:normal; letter-spacing:0.08em; text-transform:uppercase; }
+#header .sub { font-size:0.72rem; color:#888; margin-top:2px; }
+#header .home { font-size:0.62rem; color:#CD853F; text-decoration:none; letter-spacing:0.06em; text-transform:uppercase; }
+#header .home:hover { color:#f0c98a; }
+#vet-count { font-size:0.85rem; color:#CD853F; letter-spacing:0.04em; }
+
+#main { position:relative; flex:1; overflow:hidden; }
+#map { position:absolute; inset:0; z-index:1; }
+
+/* ERA LEGEND — bottom left */
+#legend {
+  position:absolute; bottom:14px; left:8px;
+  background:rgba(8,8,8,0.9); border:1px solid #3a3a3a;
+  border-radius:4px; padding:8px 10px; z-index:800; min-width:124px;
+}
+#legend h4 { font-size:0.52rem; text-transform:uppercase; letter-spacing:0.12em; color:#888; margin-bottom:6px; }
+.leg-row { display:flex; align-items:center; gap:6px; margin-bottom:4px; cursor:pointer; transition:opacity 0.15s; }
+.leg-row:hover { opacity:0.75; }
+.leg-sym { width:13px; text-align:center; font-size:0.66rem; }
+.leg-label { font-size:0.58rem; color:#ccc; flex:1; }
+.leg-count { font-size:0.54rem; color:#ccc; }
+.leg-row.dimmed { opacity:0.28; }
+
+/* SIDEBAR — right */
+#sidebar {
+  position:absolute; top:0; right:0; bottom:0; width:265px;
+  background:rgba(10,10,10,0.93); border-left:1px solid #2a2a2a;
+  display:flex; flex-direction:column; z-index:800; overflow:hidden;
+}
+#sidebar-top { padding:10px 11px 8px; border-bottom:1px solid #222; background:#0a0a0a; }
+#search {
+  width:100%; background:#1a1a1a; border:1px solid #3a3a3a; color:#f0e8d8;
+  padding:6px 9px; font-family:Georgia,serif; font-size:0.8rem;
+  border-radius:3px; margin-bottom:7px; outline:none;
+}
+#search:focus { border-color:#CD853F; }
+#search::placeholder { color:#555; }
+#era-filters { display:flex; flex-wrap:wrap; gap:3px; }
+.era-btn {
+  padding:2px 6px; border-radius:2px; border:2px solid transparent;
+  font-size:0.5rem; cursor:pointer; font-family:Georgia,serif;
+  color:white; text-shadow:0 1px 2px rgba(0,0,0,0.6);
+  transition:opacity 0.2s, border-color 0.15s;
+  opacity:0.8;
+}
+.era-btn.selected { opacity:1; border-color:rgba(255,255,255,0.9); filter:brightness(1.3); }
+
+#vet-list { overflow-y:auto; flex:1; padding:3px 0; }
+#vet-list::-webkit-scrollbar { width:4px; }
+#vet-list::-webkit-scrollbar-thumb { background:#333; border-radius:3px; }
+.vet-item {
+  padding:6px 11px; cursor:pointer; border-bottom:1px solid #181818;
+  display:flex; align-items:center; gap:7px; transition:background 0.1s;
+}
+.vet-item:hover { background:#1c1c1c; }
+.vet-item.active { background:#000; border-left:3px solid #CD853F; padding-left:8px; }
+.vet-item.active .v-name { color:#fff; text-shadow:0 0 4px rgba(255,255,255,0.9), 0 0 10px rgba(255,255,255,0.5); }
+.vet-item.active .v-era { color:#fff; text-shadow:0 0 4px rgba(255,255,255,0.8); }
+.vet-item.queued .v-name { color:#b9ad97; font-style:italic; }
+@keyframes symPulse {
+  0%   { text-shadow:0 0 2px rgba(255,255,255,0.3); opacity:0.4; }
+  50%  { text-shadow:0 0 8px rgba(255,255,255,1), 0 0 18px rgba(255,255,255,0.7); opacity:1; }
+  100% { text-shadow:0 0 2px rgba(255,255,255,0.3); opacity:0.4; }
+}
+.vet-item.active .v-sym { animation:symPulse 1.2s ease-in-out infinite; display:inline-block; }
+.v-sym { font-size:0.8rem; width:15px; text-align:center; flex-shrink:0; }
+.v-name { font-size:0.78rem; color:#d4c9b8; flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.v-era { font-size:0.63rem; color:#777; }
+.v-badge-q { font-size:0.5rem; color:#6b5; letter-spacing:0.04em; }
+#no-results { padding:18px; color:#555; font-size:0.8rem; text-align:center; display:none; }
+
+/* POPUP */
+#popup {
+  display:none; position:fixed; inset:0;
+  background:rgba(0,0,0,0); z-index:3000;
+  pointer-events:none;
+}
+#popup.show { display:block; }  /* overlay stays pointer-events:none so the index underneath keeps scrolling */
+#pbox {
+  position:absolute;
+  top:50%; right:275px;
+  transform:translateY(-50%);
+  background:#141414; border:1px solid #444; border-radius:6px;
+  width:310px; max-height:78vh; overflow-y:scroll; scroll-behavior:smooth;
+  padding:20px; box-shadow:0 8px 40px rgba(0,0,0,0.7);
+  pointer-events:auto;
+}
+#pbox.center { right:auto; left:50%; transform:translate(-50%,-50%); }
+#pclose {
+  position:absolute; top:9px; right:12px;
+  background:none; border:none; color:#888; font-size:1.5rem; cursor:pointer;
+}
+#pclose:hover { color:#fff; }
+#pphoto { width:100%; max-height:340px; object-fit:contain; background:#0a0a0a; border-radius:4px; margin-bottom:12px; display:none; }
+#pname { font-size:1.05rem; color:#f0e8d8; margin-bottom:3px; }
+#pservice { font-size:0.78rem; color:#CD853F; margin-bottom:9px; letter-spacing:0.04em; }
+#pstory { font-size:0.78rem; color:#aaa; line-height:1.65; }
+#pstory.queued { color:#8a8578; font-style:italic; }
+#pflags { display:flex; flex-wrap:wrap; gap:5px; margin-bottom:9px; }
+.fbadge { padding:3px 8px; border-radius:3px; font-size:0.68rem; font-weight:bold; }
+
+@keyframes markerPulse {
+  0%,100% { transform:scale(1); box-shadow:0 1px 5px rgba(0,0,0,0.8); }
+  50% { transform:scale(1.25); box-shadow:0 0 12px rgba(255,255,255,0.7); }
+}
+.marker-pulse > div { animation:markerPulse 1s ease-in-out infinite; }
+</style>
+</head>
+<body>
+
+<div id="header">
+  <div>
+    <h1 id="site-title">Veteran Archives</h1>
+    <div class="sub"><span id="site-sub"></span> &nbsp;·&nbsp; <a class="home" href="../index.html">← All Sites</a></div>
+  </div>
+  <div id="vet-count"></div>
+</div>
+
+<div id="main">
+  <div id="map"></div>
+
+  <div id="legend">
+    <h4>Era</h4>
+    <div id="leg-rows"></div>
+  </div>
+
+  <div id="sidebar">
+    <div id="sidebar-top">
+      <input id="search" type="text" placeholder="Search veterans…">
+      <div id="era-filters"></div>
+    </div>
+    <div id="vet-list"></div>
+    <div id="no-results">No veterans found</div>
+  </div>
+</div>
+
+<div id="popup">
+  <div id="pbox">
+    <button id="pclose" onclick="closePopup()">×</button>
+    <img id="pphoto" src="" alt="">
+    <div id="pextra"></div>
+    <div id="pname"></div>
+    <div id="pservice"></div>
+    <div id="pflags"></div>
+    <div id="pstory"></div>
+  </div>
+</div>
+
+<!-- Per-site data. This is the ONLY file that changes between sites. -->
+<script src="data.js"></script>
+<script>
+/* ============================================================
+   VETERAN ARCHIVES — canonical template.
+   Identical for every site. All per-site content lives in data.js
+   as window.VA = { site:{...}, veterans:[...] }.
+   ============================================================ */
+const SITE = (window.VA && window.VA.site) || {};
+const veterans = (window.VA && window.VA.veterans) || [];
+const IS_QUEUE = SITE.kind === 'queue';
+
+const QUEUE_TEXT = 'This veteran has been identified but is still in the research queue — a narrative has not yet been written. The entry is held here until research and grave location are complete.';
+
+document.getElementById('site-title').textContent = SITE.title || SITE.name || 'Veteran Archives';
+document.getElementById('site-sub').textContent = SITE.address || '';
+document.title = (SITE.title || 'Veteran Archives') + ' — Holyoke, MA';
+
+const ERA_COLORS = {
+  'Civil War Era':'#8B4513',
+  'Spanish-American War':'#CD853F',
+  'World War I':'#4682B4',
+  'World War II':'#2E8B57',
+  'Korean War':'#9370DB',
+  'Vietnam':'#DC143C',
+  'Peacetime Navy (1899–1916)':'#2a6496',
+  'Unknown Era':'#666',
+};
+const ERA_ORDER = ['Civil War Era','Spanish-American War','Peacetime Navy (1899–1916)','World War I','World War II','Korean War','Vietnam','Unknown Era'];
+
+function normEra(raw) {
+  if (!raw) return 'Unknown Era';
+  const s = raw.trim();
+  if (s.includes('Civil')) return 'Civil War Era';
+  if (s.includes('Spanish')) return 'Spanish-American War';
+  if (s.includes('Peacetime')) return 'Peacetime Navy (1899–1916)';
+  if (s.includes('Vietnam')) return 'Vietnam';
+  if (s.includes('World War II')) return 'World War II';
+  if (s.includes('World War I')) return 'World War I';
+  if (s.includes('Korean')) return 'Korean War';
+  return 'Unknown Era';
+}
+function eraColor(raw) { return ERA_COLORS[normEra(raw)] || '#666'; }
+
+function branchSym(branch) {
+  if (!branch) return '✦';
+  const b = branch.toUpperCase();
+  if (b.includes('NAVY')) return '⚓';
+  if (b.includes('MARINE') || b.includes('USMC')) return '🦅';
+  if (b.includes('AIR') || b.includes('USAF')) return '✈';
+  if (b.includes('COAST')) return '⚑';
+  if (b.includes('ARMY')) return '★';
+  return '✦';
+}
+
+const map = L.map('map', {preferCanvas:true, minZoom:13, maxZoom:20})
+  .setView(SITE.center || [42.2043,-72.6162], SITE.zoom || 15);
+
+const satellite = L.tileLayer(
+  'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+  {attribution:'© Esri', maxNativeZoom:19, maxZoom:20}
+);
+const street = L.tileLayer(
+  'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
+  {attribution:'© CARTO', subdomains:'abcd', maxNativeZoom:19, maxZoom:20}
+);
+const terrain = L.tileLayer(
+  'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',
+  {attribution:'© OpenTopoMap', subdomains:'abc', maxNativeZoom:17, maxZoom:20}
+);
+satellite.addTo(map);
+L.control.layers({'Satellite':satellite,'Street':street,'Terrain':terrain},{},{position:'topleft'}).addTo(map);
+
+let activeEras = new Set(ERA_ORDER);
+let markerMap = {};
+let activeIdx = null;
+let searchTerm = '';
+let activeMarker = null;
+
+function hasCoords(v){ return v && v.lat!=null && v.lng!=null && !isNaN(v.lat) && !isNaN(v.lng); }
+
+function buildMarkers() {
+  Object.values(markerMap).forEach(m => map.removeLayer(m));
+  markerMap = {};
+  veterans.forEach((v, idx) => {
+    if (!activeEras.has(normEra(v.era))) return;
+    if (!hasCoords(v)) return;
+    const color = eraColor(v.era);
+    const sym = branchSym(v.branch);
+    const icon = L.divIcon({
+      className:'',
+      html:`<div style="width:26px;height:26px;border-radius:50%;background:${color};border:2px solid rgba(255,255,255,0.65);display:flex;align-items:center;justify-content:center;font-size:11px;box-shadow:0 1px 5px rgba(0,0,0,0.8);cursor:pointer;">${sym}</div>`,
+      iconSize:[26,26], iconAnchor:[13,13]
+    });
+    const m = L.marker([v.lat, v.lng], {icon});
+    m.on('click', () => openPopup(v, idx));
+    m.addTo(map);
+    markerMap[idx] = m;
+  });
+}
+
+function openPopup(v, idx) {
+  if (activeMarker) activeMarker.getElement()?.classList.remove('marker-pulse');
+  const queued = !((v.narrative||'').trim());
+  document.getElementById('pname').textContent = v.name;
+  document.getElementById('pservice').textContent =
+    v.branchLabel || [v.branch, normEra(v.era)].filter(Boolean).join(' • ');
+  const storyEl = document.getElementById('pstory');
+  storyEl.textContent = queued ? QUEUE_TEXT : v.narrative;
+  storyEl.classList.toggle('queued', queued);
+
+  const photo = document.getElementById('pphoto');
+  if (v.photo) { photo.src = v.photo; photo.style.display = 'block'; }
+  else { photo.style.display = 'none'; }
+
+  const extEl = document.getElementById('pextra');
+  extEl.innerHTML = '';
+  (v.extraPhotos||[]).forEach(ep => {
+    const link = document.createElement('a');
+    link.href = ep.src; link.target = '_blank';
+    link.style.cssText = 'display:block;margin-bottom:10px;color:#c8b97a;font-size:0.82rem;text-decoration:none;border:1px solid #444;border-radius:6px;padding:8px 12px;background:#1a1a1a;';
+    link.textContent = ep.caption || 'View document';
+    extEl.appendChild(link);
+  });
+
+  const flagsEl = document.getElementById('pflags');
+  flagsEl.innerHTML = '';
+  const fs = {'KIA':['#8B0000','#fff'],'Purple Heart':['#7B2D8B','#fff'],'Bronze Star':['#B8860B','#fff'],'Air Medal':['#1a6abf','#fff'],'Female Veteran':['#C71585','#fff'],'Silver Star':['#71797E','#fff'],'Distinguished Service Cross':['#2c1b4d','#fff'],'Croix de Guerre':['#2d5a3d','#fff'],'Died in Service':['#5a3d2d','#fff'],'Medical Officer':['#2d5a5a','#fff'],'Retake Needed':['#333','#c99']};
+  (v.badges||[]).forEach(f => {
+    const [bg,fg] = fs[f]||['#444','#fff'];
+    const b = document.createElement('span');
+    b.className='fbadge'; b.style.background=bg; b.style.color=fg; b.textContent=f;
+    flagsEl.appendChild(b);
+  });
+
+  // Window always sits left of the sidebar, so the index stays clear and scrollable.
+  if (hasCoords(v)) {
+    const clickedMarker = markerMap[idx];
+    if (clickedMarker) { clickedMarker.getElement()?.classList.add('marker-pulse'); activeMarker = clickedMarker; }
+    const mapW = map.getContainer().offsetWidth;
+    const popupLeft = mapW - 275 - 310;
+    const graveTargetX = popupLeft * 0.45;
+    const currentCenter = map.project(map.getCenter(), map.getZoom());
+    const gravePoint = map.project([v.lat, v.lng], map.getZoom());
+    const currentGraveX = gravePoint.x - currentCenter.x + mapW / 2;
+    const shiftX = currentGraveX - graveTargetX;
+    const newCenter = map.unproject([currentCenter.x + shiftX, currentCenter.y], map.getZoom());
+    map.panTo(newCenter, {animate:true, duration:0.7});
+  }
+  // else: queue / not-yet-located — no pin to pan to; the window still opens in place.
+
+  document.querySelectorAll('.vet-item').forEach(el => el.classList.remove('active'));
+  const si = document.querySelector(`.vet-item[data-i="${idx}"]`);
+  if (si) { si.classList.add('active'); si.scrollIntoView({block:'nearest',behavior:'smooth'}); }
+  activeIdx = idx;
+  document.getElementById('popup').classList.add('show');
+}
+
+function closePopup() {
+  document.getElementById('popup').classList.remove('show');
+  if (activeMarker) { activeMarker.getElement()?.classList.remove('marker-pulse'); activeMarker = null; }
+  document.querySelectorAll('.vet-item').forEach(el => el.classList.remove('active'));
+  activeIdx = null;
+}
+map.on('click', () => {
+  if (document.getElementById('popup').classList.contains('show')) closePopup();
+});
+
+const SUF = /^(Sr|Jr|II|III|IV|MD)\.?$/i;
+function sortKey(n){
+  return n.includes(',') ? n.split(',')[0].trim()
+    : (() => { const w=n.split(' '); return SUF.test(w[w.length-1])?(w[w.length-2]||w[0]):w[w.length-1]; })();
+}
+function displayName(n){
+  return n.includes(',') ? n
+    : (() => { const p=n.trim().split(/\s+/); return p.length>1 ? p[p.length-1]+', '+p.slice(0,-1).join(' ') : n; })();
+}
+
+function buildSidebar() {
+  const list = document.getElementById('vet-list');
+  const none = document.getElementById('no-results');
+  list.innerHTML = '';
+  const term = searchTerm.toLowerCase();
+  let shown = 0;
+  const sorted = veterans.map((v,i)=>({v,i})).sort((a,b)=>
+    sortKey(a.v.name).localeCompare(sortKey(b.v.name)) || a.v.name.localeCompare(b.v.name));
+  sorted.forEach(({v,i:idx}) => {
+    if (!activeEras.has(normEra(v.era))) return;
+    if (term && !v.name.toLowerCase().includes(term) && !(v.branch||'').toLowerCase().includes(term)) return;
+    shown++;
+    const queued = !((v.narrative||'').trim());
+    const el = document.createElement('div');
+    el.className = 'vet-item' + (idx===activeIdx?' active':'') + (queued?' queued':'');
+    el.dataset.i = idx;
+    const q = queued ? `<div class="v-badge-q">◔ queue</div>` : '';
+    el.innerHTML = `<div class="v-sym" style="color:${eraColor(v.era)}">${branchSym(v.branch)}</div><div style="flex:1;min-width:0"><div class="v-name">${displayName(v.name)}</div><div class="v-era">${normEra(v.era)}</div></div>${q}`;
+    el.addEventListener('click', () => {
+      if (hasCoords(v)) { map.flyTo([v.lat, v.lng], 19, {duration:1.0}); setTimeout(() => openPopup(v, idx), 350); }
+      else { openPopup(v, idx); }
+    });
+    list.appendChild(el);
+  });
+  none.style.display = shown===0 ? 'block' : 'none';
+}
+
+function updateCount() {
+  const showing = veterans.filter(v => activeEras.has(normEra(v.era))).length;
+  const total = veterans.length;
+  const label = IS_QUEUE ? 'In the Research Queue' : 'Documented Veterans';
+  document.getElementById('vet-count').textContent =
+    showing === total ? `${total} ${label}` : `${showing} of ${total}`;
+}
+
+const eraCounts = {};
+veterans.forEach(v => { const e=normEra(v.era); eraCounts[e]=(eraCounts[e]||0)+1; });
+
+const filterDiv = document.getElementById('era-filters');
+ERA_ORDER.forEach(era => {
+  if (!eraCounts[era]) return;
+  const color = ERA_COLORS[era];
+  const short = era.replace(' Era','').replace('World War ','WW').replace('Korean War','Korea').replace('Spanish-American War','Span-Am');
+  const btn = document.createElement('button');
+  btn.className='era-btn'; btn.style.background=color;
+  btn.dataset.era=era; btn.textContent=short;
+  btn.addEventListener('click', () => {
+    if (btn.classList.contains('selected')) {
+      btn.classList.remove('selected');
+      activeEras.delete(era);
+      if (activeEras.size===0) {
+        ERA_ORDER.forEach(e => activeEras.add(e));
+        document.querySelectorAll('.era-btn').forEach(b => b.classList.remove('selected'));
+      }
+    } else {
+      const anySelected = document.querySelector('.era-btn.selected');
+      if (!anySelected) { activeEras = new Set([era]); }
+      else { activeEras.add(era); }
+      btn.classList.add('selected');
+    }
+    ERA_ORDER.forEach(e => {
+      const row = document.querySelector(`.leg-row[data-era="${e}"]`);
+      if (row) {
+        if (activeEras.size < ERA_ORDER.length && !activeEras.has(e)) row.classList.add('dimmed');
+        else row.classList.remove('dimmed');
+      }
+    });
+    buildMarkers(); buildSidebar(); updateCount();
+  });
+  filterDiv.appendChild(btn);
+});
+
+const legRows = document.getElementById('leg-rows');
+ERA_ORDER.forEach(era => {
+  if (!eraCounts[era]) return;
+  const row = document.createElement('div');
+  row.className='leg-row'; row.dataset.era=era;
+  row.innerHTML=`<div class="leg-sym" style="color:${ERA_COLORS[era]}">●</div><div class="leg-label">${era.replace(' Era','')}</div><div class="leg-count">${eraCounts[era]}</div>`;
+  row.addEventListener('click', () => document.querySelector(`.era-btn[data-era="${era}"]`)?.click());
+  legRows.appendChild(row);
+});
+
+document.getElementById('search').addEventListener('input', e => { searchTerm = e.target.value; buildSidebar(); });
+document.getElementById('search').addEventListener('keydown', e => {
+  if (e.key==='Enter') {
+    const term = e.target.value.toLowerCase();
+    const idx = veterans.findIndex(v => v.name.toLowerCase().includes(term));
+    if (idx>=0) {
+      const match = veterans[idx];
+      if (hasCoords(match)) { map.flyTo([match.lat, match.lng], 19, {duration:1.0}); setTimeout(() => openPopup(match, idx), 350); }
+      else { openPopup(match, idx); }
+    }
+  }
+});
+
+updateCount();
+buildMarkers();
+buildSidebar();
+</script>
+</body>
+</html>
