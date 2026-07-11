@@ -8,9 +8,9 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; min-height:100vh; }
 header { background:#0d0d0d; border-bottom:2px solid #6b3a1f; padding:36px 24px 32px; text-align:center; }
-header .mark { font-size:0.66rem; letter-spacing:0.34em; text-transform:uppercase; color:#CD853F; margin-bottom:12px; }
+header .mark { font-size:0.66rem; letter-spacing:0.34em; text-transform:uppercase; color:#e6a95f; margin-bottom:12px; }
 header h1 { font-size:2.1rem; font-weight:normal; letter-spacing:0.14em; text-transform:uppercase; }
-header .sub { font-size:0.86rem; color:#a89e8c; margin:12px auto 0; max-width:700px; line-height:1.7; }
+header .sub { font-size:0.86rem; color:#d6c9b2; margin:12px auto 0; max-width:700px; line-height:1.7; }
 main { max-width:1120px; margin:0 auto; padding:38px 24px 64px; }
 .grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }
 @media (max-width:900px){ .grid { grid-template-columns:repeat(2,1fr); } }
@@ -21,18 +21,18 @@ main { max-width:1120px; margin:0 auto; padding:38px 24px 64px; }
 .card > *:not(.stretch) { position:relative; z-index:0; }
 .card.link { cursor:pointer; }
 .card.link:hover { transform:translateY(-3px); border-color:#CD853F; border-left-color:#CD853F; background:#181818; }
-.status { display:flex; align-items:center; gap:7px; font-size:0.56rem; text-transform:uppercase; letter-spacing:0.12em; color:#888; margin-bottom:9px; }
+.status { display:flex; align-items:center; gap:7px; font-size:0.56rem; text-transform:uppercase; letter-spacing:0.12em; color:#b3b3b3; margin-bottom:9px; }
 .dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
 .dot.live { background:#57c24a; box-shadow:0 0 7px #57c24a; animation:blink 2.2s ease-in-out infinite; }
 @keyframes blink { 0%,100%{opacity:1;} 50%{opacity:0.45;} }
 .dot.coming { background:#d0a24c; }
 .dot.tbd { background:#555; }
 .card h2 { font-size:1.05rem; font-weight:normal; letter-spacing:0.03em; margin-bottom:3px; color:#f0e8d8; }
-.card .addr { font-size:0.63rem; color:#c4b79e; margin-bottom:22px; }
-.card .desc { font-size:0.71rem; color:#ab9f8b; line-height:1.5; flex:1; }
+.card .addr { font-size:0.63rem; color:#e6d8bd; margin-bottom:22px; }
+.card .desc { font-size:0.71rem; color:#d8cbb2; line-height:1.5; flex:1; }
 .card .foot { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-top:14px; }
-.card .count { font-size:0.72rem; color:#CD853F; letter-spacing:0.02em; }
-.cta { display:inline-block; flex-shrink:0; font-size:0.58rem; text-transform:uppercase; letter-spacing:0.07em; color:#CD853F; border:1px solid #6b3a1f; border-radius:3px; padding:5px 10px; transition:background 0.15s, color 0.15s, border-color 0.15s; }
+.card .count { font-size:0.72rem; color:#e6a95f; letter-spacing:0.02em; }
+.cta { display:inline-block; flex-shrink:0; font-size:0.58rem; text-transform:uppercase; letter-spacing:0.07em; color:#e6a95f; border:1px solid #6b3a1f; border-radius:3px; padding:5px 10px; transition:background 0.15s, color 0.15s, border-color 0.15s; }
 .card.link:hover .cta { background:#CD853F; color:#141414; border-color:#CD853F; }
 .card.queue { border-left-color:#57c24a; }
 .card.queue.link:hover { border-color:#8fdd7a; border-left-color:#8fdd7a; }
@@ -43,7 +43,7 @@ main { max-width:1120px; margin:0 auto; padding:38px 24px 64px; }
 .card.coming .count, .card.tbd .count { color:#8a8272; }
 .card.coming .cta, .card.tbd .cta { color:#777; border-color:#3a3a3a; }
 .card.tbd h2 { color:#7a7365; font-style:italic; }
-footer { text-align:center; padding:26px; font-size:0.68rem; color:#666; border-top:1px solid #222; line-height:1.7; }
+footer { text-align:center; padding:26px; font-size:0.68rem; color:#8c8c8c; border-top:1px solid #222; line-height:1.7; }
 footer .contact { color:#CD853F; }
 </style>
 </head>
@@ -62,7 +62,7 @@ footer .contact { color:#CD853F; }
       <h2>Calvary Cemetery</h2>
       <div class="addr">1040 Northampton Street · Est. c. 1870s</div>
       <div class="desc">Holyoke's principal Catholic burial ground, serving Sacred Heart, Our Lady of the Holy Rosary, and Blessed Sacrament parishes. Spans the Civil War through Vietnam.</div>
-      <div class="foot"><span class="count">375 Veterans documented</span><span class="cta">Open map →</span></div>
+      <div class="foot"><span class="count">375 Veterans Geolocated</span><span class="cta">Open map →</span></div>
     </div>
 
     <div class="card link">
@@ -71,7 +71,7 @@ footer .contact { color:#CD853F; }
       <h2>Forestdale Cemetery</h2>
       <div class="addr">304 Cabot Street · Est. 1860</div>
       <div class="desc">Holyoke's public secular cemetery, organized in 1860 and dedicated in 1862. Contains GAR plots, a potter's field, and the grave of Medal of Honor recipient John MacKenzie (WWI).</div>
-      <div class="foot"><span class="count">243 Veterans documented</span><span class="cta">Open map →</span></div>
+      <div class="foot"><span class="count">243 Veterans Geolocated</span><span class="cta">Open map →</span></div>
     </div>
 
     <div class="card link">
@@ -80,7 +80,7 @@ footer .contact { color:#CD853F; }
       <h2>Elmwood Cemetery</h2>
       <div class="addr">2190 Northampton Street · Oldest burial 1755</div>
       <div class="desc">The oldest burial ground in Holyoke, given to the city in 1955. Home to veterans of the French &amp; Indian War, Revolutionary War, and Civil War through World War II — including two veterans killed in 1777 and a WWI Navy Yeomanette.</div>
-      <div class="foot"><span class="count">44 Veterans documented</span><span class="cta">Open map →</span></div>
+      <div class="foot"><span class="count">44 Veterans Geolocated</span><span class="cta">Open map →</span></div>
     </div>
 
     <div class="card queue link">
