@@ -422,8 +422,8 @@ window.VA = {
    "source": "elmwood-migrate"
   },
   {
-   "id": "fmo_unknown",
-   "name": "Unknown Veteran",
+   "id": "unknown_soldier_1",
+   "name": "Unknown Soldier 1",
    "era": "Unknown Era",
    "branch": "Unknown",
    "branchLabel": "",
@@ -559,8 +559,8 @@ window.VA = {
    "source": "elmwood-migrate"
   },
   {
-   "id": "unknown_vet_2",
-   "name": "Unknown Veteran",
+   "id": "unknown_soldier_2",
+   "name": "Unknown Soldier 2",
    "era": "Civil War",
    "branch": "Army",
    "branchLabel": "",
@@ -574,8 +574,8 @@ window.VA = {
    "source": "elmwood-migrate"
   },
   {
-   "id": "vet_unknown3",
-   "name": "Unknown Veteran",
+   "id": "unknown_soldier_3",
+   "name": "Unknown Soldier 3",
    "era": "Unknown Era",
    "branch": "Army",
    "branchLabel": "",
@@ -664,8 +664,8 @@ window.VA = {
    "source": "elmwood-migrate"
   },
   {
-   "id": "rmday_unknown",
-   "name": "Unknown Veteran",
+   "id": "unknown_soldier_4",
+   "name": "Unknown Soldier 4",
    "era": "Unknown Era",
    "branch": "Unknown",
    "branchLabel": "",

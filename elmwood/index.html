@@ -109,6 +109,8 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 }
 #pclose:hover { color:#fff; }
 #pphoto { width:100%; max-height:340px; object-fit:contain; background:#0a0a0a; border-radius:4px; margin-bottom:12px; display:none; }
+#pphoto-ph { display:none; width:100%; min-height:150px; border:1px dashed #4a4238; border-radius:4px; background:#0e0e0e; color:#8a8172; font-size:0.72rem; letter-spacing:0.05em; align-items:center; justify-content:center; text-align:center; margin-bottom:12px; padding:16px; }
+#pphoto-ph.show { display:flex; }
 #pname { font-size:1.05rem; color:#f0e8d8; margin-bottom:3px; }
 #pservice { font-size:0.78rem; color:#CD853F; margin-bottom:9px; letter-spacing:0.04em; }
 #pstory { font-size:0.78rem; color:#aaa; line-height:1.65; }
@@ -155,6 +157,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   <div id="pbox">
     <button id="pclose" onclick="closePopup()">×</button>
     <img id="pphoto" src="" alt="">
+    <div id="pphoto-ph">Resting Place Pending Geo-location</div>
     <div id="pextra"></div>
     <div id="pname"></div>
     <div id="pservice"></div>
@@ -275,8 +278,10 @@ function openPopup(v, idx) {
   storyEl.classList.toggle('queued', queued);
 
   const photo = document.getElementById('pphoto');
-  if (v.photo) { photo.src = v.photo; photo.style.display = 'block'; }
-  else { photo.style.display = 'none'; }
+  const ph = document.getElementById('pphoto-ph');
+  if (v.photo) { photo.src = v.photo; photo.style.display = 'block'; ph.classList.remove('show'); }
+  else if (!hasCoords(v)) { photo.style.display = 'none'; ph.classList.add('show'); }   // queue: pending geo-location
+  else { photo.style.display = 'none'; ph.classList.remove('show'); }
 
   const extEl = document.getElementById('pextra');
   extEl.innerHTML = '';
@@ -333,10 +338,12 @@ map.on('click', () => {
 
 const SUF = /^(Sr|Jr|II|III|IV|MD)\.?$/i;
 function sortKey(n){
+  if(/^unknown/i.test(n)) return n;   // "Unknown Soldier N" -> sorts under U, in order
   return n.includes(',') ? n.split(',')[0].trim()
     : (() => { const w=n.split(' '); return SUF.test(w[w.length-1])?(w[w.length-2]||w[0]):w[w.length-1]; })();
 }
 function displayName(n){
+  if(/^unknown/i.test(n)) return n;   // show as-is, don't reformat to "N, Unknown Soldier"
   return n.includes(',') ? n
     : (() => { const p=n.trim().split(/\s+/); return p.length>1 ? p[p.length-1]+', '+p.slice(0,-1).join(' ') : n; })();
 }
