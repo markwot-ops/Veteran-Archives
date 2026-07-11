@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veteran Archives — City of Holyoke, MA</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; min-height:100vh; }
+a { text-decoration:none; color:inherit; }
+header { background:#0d0d0d; border-bottom:2px solid #6b3a1f; padding:34px 24px 30px; text-align:center; }
+header .mark { font-size:0.66rem; letter-spacing:0.34em; text-transform:uppercase; color:#CD853F; margin-bottom:12px; }
+header h1 { font-size:2rem; font-weight:normal; letter-spacing:0.14em; text-transform:uppercase; }
+header .sub { font-size:0.82rem; color:#999; margin-top:10px; line-height:1.6; }
+header .stat { font-size:0.72rem; color:#CD853F; margin-top:14px; letter-spacing:0.06em; }
+main { max-width:1080px; margin:0 auto; padding:40px 24px 60px; }
+.section-label { font-size:0.6rem; text-transform:uppercase; letter-spacing:0.2em; color:#777; margin:26px 0 12px; border-bottom:1px solid #2a2a2a; padding-bottom:6px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:16px; }
+.card { display:block; background:#141414; border:1px solid #333; border-left:4px solid #6b3a1f; border-radius:6px; padding:20px 22px; transition:transform 0.12s, border-color 0.15s, background 0.15s; }
+a.card:hover { transform:translateY(-3px); border-color:#CD853F; border-left-color:#CD853F; background:#181818; }
+.card h2 { font-size:1.15rem; font-weight:normal; letter-spacing:0.04em; margin-bottom:5px; color:#f0e8d8; }
+.card .addr { font-size:0.72rem; color:#8f8676; line-height:1.5; min-height:2.1em; }
+.card .foot { display:flex; align-items:center; justify-content:space-between; margin-top:16px; }
+.card .count { font-size:0.8rem; color:#CD853F; letter-spacing:0.03em; }
+.cta { display:inline-block; font-size:0.64rem; text-transform:uppercase; letter-spacing:0.08em; color:#CD853F; border:1px solid #6b3a1f; border-radius:3px; padding:5px 11px; transition:background 0.15s, color 0.15s, border-color 0.15s; }
+a.card:hover .cta { background:#CD853F; color:#141414; border-color:#CD853F; }
+.card.queue { border-left-color:#5a7d4a; }
+a.card.queue:hover { border-color:#8fb87a; border-left-color:#8fb87a; }
+.card.queue .count { color:#8fb87a; }
+.card.queue .cta { color:#8fb87a; border-color:#3f5a34; }
+a.card.queue:hover .cta { background:#8fb87a; color:#141414; border-color:#8fb87a; }
+.card.coming, .card.tbd { opacity:0.6; border-left-color:#444; }
+.card.coming .count, .card.tbd .count { color:#888; }
+.card.coming .cta, .card.tbd .cta { color:#777; border-color:#3a3a3a; }
+.card.tbd h2 { color:#777; font-style:italic; }
+footer { text-align:center; padding:26px; font-size:0.68rem; color:#666; border-top:1px solid #222; line-height:1.7; }
+footer .contact { color:#CD853F; }
+</style>
+</head>
+<body>
+<header>
+  <div class="mark">City of Holyoke &nbsp;·&nbsp; Veterans Graves Officer</div>
+  <h1>Veteran Archives</h1>
+  <div class="sub">An interactive record of the veterans laid to rest across the cemeteries of Holyoke,<br>and a research queue of those not yet located.</div>
+  <div class="stat" id="totals"></div>
+</header>
+<main>
+  <div class="section-label">Cemeteries — Live</div>
+  <div class="grid">
+    <a class="card" href="./calvary/index.html">
+      <h2>Calvary Cemetery</h2>
+      <div class="addr">1040 Northampton Street, Holyoke, MA</div>
+      <div class="foot"><span class="count">375 documented</span><span class="cta">Open map →</span></div>
+    </a>
+    <a class="card" href="./forestdale/index.html">
+      <h2>Forestdale Cemetery</h2>
+      <div class="addr">70 Saint Jerome Avenue, Holyoke, MA</div>
+      <div class="foot"><span class="count">243 documented</span><span class="cta">Open map →</span></div>
+    </a>
+    <a class="card" href="./elmwood/index.html">
+      <h2>Elmwood Cemetery</h2>
+      <div class="addr">493 Northampton Street, Holyoke, MA</div>
+      <div class="foot"><span class="count">44 documented</span><span class="cta">Open map →</span></div>
+    </a>
+  </div>
+  <div class="section-label">Research Queue</div>
+  <div class="grid">
+    <a class="card queue" href="./research-queue/index.html">
+      <h2>Research Queue</h2>
+      <div class="addr">Holyoke veterans identified but not yet located.</div>
+      <div class="foot"><span class="count">314 in the queue</span><span class="cta">Open queue →</span></div>
+    </a>
+  </div>
+  <div class="section-label">Cemeteries — Coming</div>
+  <div class="grid">
+    <div class="card coming">
+      <h2>St. Jerome Cemetery</h2>
+      <div class="addr">339 Hillside Avenue, Holyoke, MA</div>
+      <div class="foot"><span class="count">In progress</span><span class="cta">Soon</span></div>
+    </div>
+    <div class="card coming">
+      <h2>Rock Valley Cemetery</h2>
+      <div class="addr">Rock Valley Road, Holyoke, MA</div>
+      <div class="foot"><span class="count">In progress</span><span class="cta">Soon</span></div>
+    </div>
+    <div class="card tbd">
+      <h2>To Be Determined</h2>
+      <div class="addr">Reserved — name and records to be assigned.</div>
+      <div class="foot"><span class="count">Placeholder</span><span class="cta">—</span></div>
+    </div>
+    <div class="card tbd">
+      <h2>To Be Determined</h2>
+      <div class="addr">Reserved — name and records to be assigned.</div>
+      <div class="foot"><span class="count">Placeholder</span><span class="cta">—</span></div>
+    </div>
+  </div>
+</main>
+<footer>
+  City of Holyoke Veterans Graves Officer &nbsp;·&nbsp; 310 Appleton Street, 1st Floor, Holyoke, MA 01040 &nbsp;·&nbsp; (413) 322-5630<br>
+  Have information on a veteran? <span class="contact">Contact the Graves Officer.</span>
+</footer>
+<script>
+  const live = 375 + 243 + 44, queue = 314;
+  document.getElementById('totals').textContent =
+    live.toLocaleString() + ' documented across three cemeteries · ' + queue + ' in the research queue';
+</script>
+</body>
+</html>
