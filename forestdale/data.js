@@ -4420,8 +4420,8 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
-   "name": "Unknown Veteran (Forestdale 1)",
+   "id": "unknown_soldier_1",
+   "name": "Unknown Soldier 1",
    "era": "Unknown Era",
    "branch": "U.S. Military",
    "branchLabel": "Veteran",
@@ -4435,8 +4435,8 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
-   "name": "Unknown Veteran (Forestdale 2)",
+   "id": "unknown_soldier_2",
+   "name": "Unknown Soldier 2",
    "era": "Unknown Era",
    "branch": "U.S. Military",
    "branchLabel": "Veteran",
@@ -4450,8 +4450,8 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
-   "name": "Unknown Veteran (Forestdale 3)",
+   "id": "unknown_soldier_3",
+   "name": "Unknown Soldier 3",
    "era": "Unknown Era",
    "branch": "U.S. Military",
    "branchLabel": "Veteran",
@@ -4465,8 +4465,8 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
-   "name": "Unknown Veteran (Forestdale 4)",
+   "id": "unknown_soldier_4",
+   "name": "Unknown Soldier 4",
    "era": "Unknown Era",
    "branch": "U.S. Military",
    "branchLabel": "",
@@ -4480,8 +4480,8 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "unknown_vet_4_civil_war",
-   "name": "Unknown Veteran 4",
+   "id": "unknown_soldier_5",
+   "name": "Unknown Soldier 5",
    "era": "Civil War Era",
    "branch": "U.S. Military",
    "branchLabel": "",
@@ -4495,8 +4495,8 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
-   "name": "Fales (Unknown)",
+   "id": "unknown_soldier_6",
+   "name": "Unknown Soldier 6",
    "era": "World War II",
    "branch": "U.S. Military",
    "branchLabel": "",
