@@ -5257,8 +5257,8 @@ window.VA = {
    "source": "session7"
   },
   {
-   "id": "unknown_vet",
-   "name": "Unknown Vet",
+   "id": "unknown_soldier_1",
+   "name": "Unknown Soldier 1",
    "era": "Unknown Era",
    "branch": "",
    "branchLabel": "Unknown",
@@ -5272,8 +5272,8 @@ window.VA = {
    "source": "session7"
   },
   {
-   "id": "retake",
-   "name": "Unknown Veteran",
+   "id": "unknown_soldier_2",
+   "name": "Unknown Soldier 2",
    "era": "Unknown Era",
    "branch": "Unknown",
    "branchLabel": "Unknown Branch",
@@ -5287,8 +5287,8 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "unknown2",
-   "name": "Unknown Veteran",
+   "id": "unknown_soldier_3",
+   "name": "Unknown Soldier 3",
    "era": "Unknown Era",
    "branch": "Unknown",
    "branchLabel": "Unknown Branch",
@@ -5302,8 +5302,8 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "veteran__unknown1",
-   "name": "Unknown Veteran",
+   "id": "unknown_soldier_4",
+   "name": "Unknown Soldier 4",
    "era": "Unknown Era",
    "branch": "Unknown",
    "branchLabel": "",
