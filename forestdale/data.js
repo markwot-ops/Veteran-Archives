@@ -5,8 +5,8 @@ window.VA = {
   "address": "304 Cabot Street, Holyoke, MA",
   "kind": "cemetery",
   "center": [
-   42.192,
-   -72.635
+   42.20742,
+   -72.62321
   ],
   "zoom": 17
  },
