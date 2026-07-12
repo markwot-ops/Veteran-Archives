@@ -77,7 +77,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   transition:opacity 0.2s, border-color 0.15s, filter 0.15s;
   opacity:0.32;
 }
-.era-btn.selected { opacity:1; border-color:rgba(255,255,255,0.55); filter:brightness(1.15); }
+.era-btn.selected { opacity:1; border-color:#fff; filter:none; box-shadow:inset 0 0 0 999px rgba(0,0,0,0.2); }
 .era-btn .eb-n { opacity:0.85; font-size:0.46rem; margin-left:1px; }
 
 #vet-list { overflow-y:auto; flex:1; padding:3px 0; }
@@ -210,17 +210,15 @@ const ERA_COLORS = {
   'Korean War':'#9370DB',
   'Vietnam':'#DC143C',
   'Cold War':'#5f9ea0',
-  'Peacetime Navy (1899–1916)':'#2a6496',
   'Unknown Era':'#666',
 };
-const ERA_ORDER = ['Civil War Era','Spanish-American War','Peacetime Navy (1899–1916)','World War I','World War II','Korean War','Vietnam','Cold War','Unknown Era'];
+const ERA_ORDER = ['Civil War Era','Spanish-American War','World War I','World War II','Korean War','Vietnam','Cold War','Unknown Era'];
 
 function normEra(raw) {
   if (!raw) return 'Unknown Era';
   const s = raw.trim();
   if (s.includes('Civil')) return 'Civil War Era';
   if (s.includes('Spanish')) return 'Spanish-American War';
-  if (s.includes('Peacetime')) return 'Peacetime Navy (1899–1916)';
   if (s.includes('Vietnam')) return 'Vietnam';
   if (s.includes('World War II')) return 'World War II';
   if (s.includes('World War I')) return 'World War I';
@@ -456,7 +454,7 @@ if (!Object.keys(distCounts).length) {
     const row = document.createElement('div');
     row.className = 'leg-row dist'; row.dataset.dist = d;
     row.style.setProperty('--dc', DISTINCTION_COLORS[d] || '#888');
-    row.innerHTML = `<span class="leg-dot"></span><div class="leg-label">${DISTINCTION_SHORT[d]||d}</div><div class="leg-count">${distCounts[d]}</div>`;
+    row.innerHTML = `<div class="leg-sym" style="color:${DISTINCTION_COLORS[d]||'#888'};font-size:0.55rem">●</div><div class="leg-label">${DISTINCTION_SHORT[d]||d}</div><div class="leg-count">${distCounts[d]}</div>`;
     row.addEventListener('click', () => {
       if (activeDistinction === d) { activeDistinction = null; row.classList.remove('on'); }
       else {
