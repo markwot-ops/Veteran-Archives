@@ -53,6 +53,14 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 #search:focus { border-color:#CD853F; }
 #search::placeholder { color:#555; }
 #era-filters { display:flex; flex-wrap:wrap; gap:3px; }
+.dist-label { width:100%; font-size:0.5rem; text-transform:uppercase; letter-spacing:0.1em; color:#8a8272; margin:9px 0 3px; }
+#distinction-filters { display:flex; flex-wrap:wrap; gap:3px; }
+.dist-btn { display:inline-flex; align-items:center; gap:4px; padding:2px 6px; border-radius:2px; border:1px solid #3a3a3a; background:#161616; color:#cfc6b6; font-size:0.5rem; font-family:Georgia,serif; cursor:pointer; transition:border-color .15s, background .15s; }
+.dist-btn .dc-dot { width:7px; height:7px; border-radius:50%; background:var(--dc); box-shadow:0 0 4px var(--dc); flex-shrink:0; }
+.dist-btn .dc-n { color:#8a8272; }
+.dist-btn:hover { background:#1e1e1e; }
+.dist-btn.on { border-color:var(--dc); color:#fff; background:#232323; }
+.dist-btn.on .dc-n { color:#cfc6b6; }
 .era-btn {
   padding:2px 6px; border-radius:2px; border:2px solid transparent;
   font-size:0.5rem; cursor:pointer; font-family:Georgia,serif;
@@ -147,6 +155,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
     <div id="sidebar-top">
       <input id="search" type="text" placeholder="Search veterans…">
       <div id="era-filters"></div>
+      <div id="distinction-wrap"></div>
     </div>
     <div id="vet-list"></div>
     <div id="no-results">No veterans found</div>
@@ -240,10 +249,24 @@ satellite.addTo(map);
 L.control.layers({'Satellite':satellite,'Street':street,'Terrain':terrain},{},{position:'topleft'}).addTo(map);
 
 let activeEras = new Set(ERA_ORDER);
+let activeDistinction = null;
 let markerMap = {};
 let activeIdx = null;
 let searchTerm = '';
 let activeMarker = null;
+
+// Major distinctions, most prestigious first. Each cemetery builds chips from whichever it actually has.
+const DISTINCTION_ORDER = ['Medal of Honor','Distinguished Service Cross','Distinguished Service Medal','Silver Star','Bronze Star','Air Medal','Purple Heart','Croix de Guerre','KIA'];
+const DISTINCTION_COLORS = {
+  'Medal of Honor':'#e6c14a','Distinguished Service Cross':'#9b7ede','Distinguished Service Medal':'#7c6fb0',
+  'Silver Star':'#b9c0c7','Bronze Star':'#c99a3a','Air Medal':'#4a9be0','Purple Heart':'#a24bb3',
+  'Croix de Guerre':'#4e8f63','KIA':'#c0392b'
+};
+const DISTINCTION_SHORT = {'Distinguished Service Cross':'DSC','Distinguished Service Medal':'DSM'};
+function canonBadge(b){ const low=(b||'').toLowerCase(); for(const n of DISTINCTION_ORDER){ if(n.toLowerCase()===low) return n; } return null; }
+function vetDistinctions(v){ return (v.badges||[]).map(canonBadge).filter(Boolean); }
+function isDistinguished(v){ return vetDistinctions(v).length>0; }
+function passesFilters(v){ return activeEras.has(normEra(v.era)) && (!activeDistinction || vetDistinctions(v).includes(activeDistinction)); }
 
 function hasCoords(v){ return v && v.lat!=null && v.lng!=null && !isNaN(v.lat) && !isNaN(v.lng); }
 
@@ -251,13 +274,17 @@ function buildMarkers() {
   Object.values(markerMap).forEach(m => map.removeLayer(m));
   markerMap = {};
   veterans.forEach((v, idx) => {
-    if (!activeEras.has(normEra(v.era))) return;
+    if (!passesFilters(v)) return;
     if (!hasCoords(v)) return;
     const color = eraColor(v.era);
     const sym = branchSym(v.branch);
+    const dist = isDistinguished(v);
+    const rim = dist
+      ? 'border:2px solid #ffd757;box-shadow:0 0 7px 1px rgba(255,205,70,0.85);'
+      : 'border:2px solid rgba(255,255,255,0.65);box-shadow:0 1px 5px rgba(0,0,0,0.8);';
     const icon = L.divIcon({
       className:'',
-      html:`<div style="width:26px;height:26px;border-radius:50%;background:${color};border:2px solid rgba(255,255,255,0.65);display:flex;align-items:center;justify-content:center;font-size:11px;box-shadow:0 1px 5px rgba(0,0,0,0.8);cursor:pointer;">${sym}</div>`,
+      html:`<div style="width:26px;height:26px;border-radius:50%;background:${color};${rim}display:flex;align-items:center;justify-content:center;font-size:11px;cursor:pointer;">${sym}</div>`,
       iconSize:[26,26], iconAnchor:[13,13]
     });
     const m = L.marker([v.lat, v.lng], {icon});
@@ -338,10 +365,12 @@ map.on('click', () => {
 
 const SUF = /^(Sr|Jr|II|III|IV|MD)\.?$/i;
 function sortKey(n){
+  if(/^unknown/i.test(n)) return n;   // "Unknown Soldier N" -> sorts under U, in order
   return n.includes(',') ? n.split(',')[0].trim()
     : (() => { const w=n.split(' '); return SUF.test(w[w.length-1])?(w[w.length-2]||w[0]):w[w.length-1]; })();
 }
 function displayName(n){
+  if(/^unknown/i.test(n)) return n;   // show as-is, don't reformat to "N, Unknown Soldier"
   return n.includes(',') ? n
     : (() => { const p=n.trim().split(/\s+/); return p.length>1 ? p[p.length-1]+', '+p.slice(0,-1).join(' ') : n; })();
 }
@@ -355,7 +384,7 @@ function buildSidebar() {
   const sorted = veterans.map((v,i)=>({v,i})).sort((a,b)=>
     sortKey(a.v.name).localeCompare(sortKey(b.v.name)) || a.v.name.localeCompare(b.v.name));
   sorted.forEach(({v,i:idx}) => {
-    if (!activeEras.has(normEra(v.era))) return;
+    if (!passesFilters(v)) return;
     if (term && !v.name.toLowerCase().includes(term) && !(v.branch||'').toLowerCase().includes(term)) return;
     shown++;
     const queued = !((v.narrative||'').trim());
@@ -374,7 +403,7 @@ function buildSidebar() {
 }
 
 function updateCount() {
-  const showing = veterans.filter(v => activeEras.has(normEra(v.era))).length;
+  const showing = veterans.filter(passesFilters).length;
   const total = veterans.length;
   const label = IS_QUEUE ? 'In the Research Queue' : 'Documented Veterans';
   document.getElementById('vet-count').textContent =
@@ -427,6 +456,36 @@ ERA_ORDER.forEach(era => {
   row.addEventListener('click', () => document.querySelector(`.era-btn[data-era="${era}"]`)?.click());
   legRows.appendChild(row);
 });
+
+// Distinction filter chips — built only from the distinctions this site actually has.
+const distCounts = {};
+veterans.forEach(v => vetDistinctions(v).forEach(d => distCounts[d] = (distCounts[d]||0)+1));
+const distWrap = document.getElementById('distinction-wrap');
+if (Object.keys(distCounts).length) {
+  const label = document.createElement('div');
+  label.className = 'dist-label'; label.textContent = 'Distinctions';
+  distWrap.appendChild(label);
+  const distDiv = document.createElement('div');
+  distDiv.id = 'distinction-filters';
+  distWrap.appendChild(distDiv);
+  DISTINCTION_ORDER.forEach(d => {
+    if (!distCounts[d]) return;
+    const btn = document.createElement('button');
+    btn.className = 'dist-btn'; btn.dataset.dist = d;
+    btn.style.setProperty('--dc', DISTINCTION_COLORS[d] || '#888');
+    btn.innerHTML = `<span class="dc-dot"></span>${DISTINCTION_SHORT[d]||d} <span class="dc-n">${distCounts[d]}</span>`;
+    btn.addEventListener('click', () => {
+      if (activeDistinction === d) { activeDistinction = null; btn.classList.remove('on'); }
+      else {
+        activeDistinction = d;
+        document.querySelectorAll('.dist-btn').forEach(b => b.classList.remove('on'));
+        btn.classList.add('on');
+      }
+      buildMarkers(); buildSidebar(); updateCount();
+    });
+    distDiv.appendChild(btn);
+  });
+}
 
 document.getElementById('search').addEventListener('input', e => { searchTerm = e.target.value; buildSidebar(); });
 document.getElementById('search').addEventListener('keydown', e => {
