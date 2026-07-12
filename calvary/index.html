@@ -428,7 +428,7 @@ veterans.forEach(v => { const e=normEra(v.era); eraCounts[e]=(eraCounts[e]||0)+1
 const filterDiv = document.getElementById('era-filters');
 ERA_ORDER.forEach(era => {
   if (!eraCounts[era]) return;
-  const short = era.replace(' Era','').replace('World War ','WW').replace('Korean War','Korea').replace('Spanish-American War','Span-Am');
+  const short = era.replace(' Era','').replace('World War ','WW').replace('Korean War','Korea');
   const btn = document.createElement('button');
   btn.className='era-btn'; btn.style.background=ERA_COLORS[era]; btn.dataset.era=era;
   btn.innerHTML=`${short} <span class="eb-n">${eraCounts[era]}</span>`;
