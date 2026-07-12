@@ -61,7 +61,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 }
 #search:focus { border-color:#CD853F; }
 #search::placeholder { color:#555; }
-#era-filters { display:grid; grid-template-columns:1fr 1fr; gap:3px; }
+#era-filters { display:flex; flex-wrap:wrap; gap:3px; }
 .dist-label { width:100%; font-size:0.5rem; text-transform:uppercase; letter-spacing:0.1em; color:#8a8272; margin:9px 0 3px; }
 #distinction-filters { display:flex; flex-wrap:wrap; gap:3px; }
 .dist-btn { display:inline-flex; align-items:center; gap:4px; padding:2px 6px; border-radius:2px; border:1px solid #3a3a3a; background:#161616; color:#cfc6b6; font-size:0.5rem; font-family:Georgia,serif; cursor:pointer; transition:border-color .15s, background .15s; }
@@ -75,7 +75,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   font-size:0.5rem; cursor:pointer; font-family:Georgia,serif;
   color:white; text-shadow:0 1px 2px rgba(0,0,0,0.6);
   transition:opacity 0.2s, border-color 0.15s;
-  opacity:0.8; width:100%; text-align:center; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+  opacity:0.8; flex:1 1 auto; min-width:52px; text-align:center; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
 }
 .era-btn.selected { opacity:1; border-color:rgba(255,255,255,0.9); filter:brightness(1.3); }
 .era-btn .eb-n { opacity:0.85; font-size:0.46rem; margin-left:1px; }
@@ -6133,6 +6133,7 @@ ERA_ORDER.forEach(era => {
   btn.className='era-btn'; btn.style.background=ERA_COLORS[era]; btn.dataset.era=era;
   btn.innerHTML=`${short} <span class="eb-n">${eraCounts[era]}</span>`;
   btn.addEventListener('click', () => {
+    if (activeDistinction) { activeDistinction = null; document.querySelectorAll('.leg-row.dist').forEach(r => r.classList.remove('on')); }
     if (btn.classList.contains('selected')) {
       btn.classList.remove('selected'); activeEras.delete(era);
       if (activeEras.size===0){ ERA_ORDER.forEach(e=>activeEras.add(e)); document.querySelectorAll('.era-btn').forEach(b=>b.classList.remove('selected')); }
@@ -6165,6 +6166,8 @@ if (!Object.keys(distCounts).length) {
         activeDistinction = d;
         document.querySelectorAll('.leg-row.dist').forEach(r => r.classList.remove('on'));
         row.classList.add('on');
+        activeEras = new Set(ERA_ORDER);
+        document.querySelectorAll('.era-btn').forEach(b => b.classList.remove('selected'));
       }
       buildMarkers(); buildSidebar(); updateCount();
     });
