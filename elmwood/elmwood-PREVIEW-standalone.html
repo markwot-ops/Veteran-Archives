@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Veteran Archives — Holyoke, MA</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100vh; display:flex; flex-direction:column; overflow:hidden; }
+
+#header {
+  background:#0d0d0d; border-bottom:2px solid #6b3a1f;
+  padding:10px 18px; display:flex; align-items:center;
+  justify-content:space-between; flex-shrink:0; z-index:1000;
+}
+#header h1 { font-size:1.05rem; font-weight:normal; letter-spacing:0.08em; text-transform:uppercase; }
+#header .sub { font-size:0.72rem; color:#888; margin-top:2px; }
+#header .home { font-size:0.62rem; color:#CD853F; text-decoration:none; letter-spacing:0.06em; text-transform:uppercase; }
+#header .home:hover { color:#f0c98a; }
+#vet-count { font-size:0.85rem; color:#CD853F; letter-spacing:0.04em; }
+
+#main { position:relative; flex:1; overflow:hidden; }
+#map { position:absolute; inset:0; z-index:1; }
+
+/* ERA LEGEND — bottom left */
+#legend {
+  position:absolute; bottom:14px; left:8px;
+  background:rgba(8,8,8,0.9); border:1px solid #3a3a3a;
+  border-radius:4px; padding:8px 10px; z-index:800; min-width:124px;
+  max-height:calc(100vh - 120px); overflow-y:auto;
+}
+#legend h4 { font-size:0.52rem; text-transform:uppercase; letter-spacing:0.12em; color:#888; margin-bottom:6px; }
+#legend h4.dist-head { margin-top:9px; border-top:1px solid #2c2c2c; padding-top:8px; }
+.leg-row { display:flex; align-items:center; gap:6px; margin-bottom:4px; cursor:pointer; transition:opacity 0.15s; }
+.leg-row:hover { opacity:0.75; }
+.leg-sym { width:13px; text-align:center; font-size:0.66rem; }
+.leg-dot { width:8px; height:8px; border-radius:50%; margin:0 3px; box-shadow:0 0 4px var(--dc); background:var(--dc); flex-shrink:0; }
+.leg-label { font-size:0.58rem; color:#ccc; flex:1; }
+.leg-count { font-size:0.54rem; color:#ccc; }
+.leg-row.dimmed { opacity:0.28; }
+.leg-row.dist.on .leg-label { color:#fff; font-weight:bold; }
+.leg-row.dist.on { opacity:1; }
+
+/* SIDEBAR — right */
+#sidebar {
+  position:absolute; top:0; right:0; bottom:0; width:265px;
+  background:rgba(10,10,10,0.93); border-left:1px solid #2a2a2a;
+  display:flex; flex-direction:column; z-index:800; overflow:hidden;
+}
+#sidebar-top { padding:10px 11px 8px; border-bottom:1px solid #222; background:#0a0a0a; }
+#search {
+  width:100%; background:#1a1a1a; border:1px solid #3a3a3a; color:#f0e8d8;
+  padding:6px 9px; font-family:Georgia,serif; font-size:0.8rem;
+  border-radius:3px; margin-bottom:7px; outline:none;
+}
+#search:focus { border-color:#CD853F; }
+#search::placeholder { color:#555; }
+#era-filters { display:flex; flex-wrap:wrap; gap:3px; }
+.dist-label { width:100%; font-size:0.5rem; text-transform:uppercase; letter-spacing:0.1em; color:#8a8272; margin:9px 0 3px; }
+#distinction-filters { display:flex; flex-wrap:wrap; gap:3px; }
+.dist-btn { display:inline-flex; align-items:center; gap:4px; padding:2px 6px; border-radius:2px; border:1px solid #3a3a3a; background:#161616; color:#cfc6b6; font-size:0.5rem; font-family:Georgia,serif; cursor:pointer; transition:border-color .15s, background .15s; }
+.dist-btn .dc-dot { width:7px; height:7px; border-radius:50%; background:var(--dc); box-shadow:0 0 4px var(--dc); flex-shrink:0; }
+.dist-btn .dc-n { color:#8a8272; }
+.dist-btn:hover { background:#1e1e1e; }
+.dist-btn.on { border-color:var(--dc); color:#fff; background:#232323; }
+.dist-btn.on .dc-n { color:#cfc6b6; }
+.era-btn {
+  padding:2px 6px; border-radius:2px; border:2px solid transparent;
+  font-size:0.5rem; cursor:pointer; font-family:Georgia,serif;
+  color:white; text-shadow:0 1px 2px rgba(0,0,0,0.6);
+  transition:opacity 0.2s, border-color 0.15s;
+  opacity:0.8;
+}
+.era-btn.selected { opacity:1; border-color:rgba(255,255,255,0.9); filter:brightness(1.3); }
+
+#vet-list { overflow-y:auto; flex:1; padding:3px 0; }
+#vet-list::-webkit-scrollbar { width:4px; }
+#vet-list::-webkit-scrollbar-thumb { background:#333; border-radius:3px; }
+.vet-item {
+  padding:6px 11px; cursor:pointer; border-bottom:1px solid #181818;
+  display:flex; align-items:center; gap:7px; transition:background 0.1s;
+}
+.vet-item:hover { background:#1c1c1c; }
+.vet-item.active { background:#000; border-left:3px solid #CD853F; padding-left:8px; }
+.vet-item.active .v-name { color:#fff; text-shadow:0 0 4px rgba(255,255,255,0.9), 0 0 10px rgba(255,255,255,0.5); }
+.vet-item.active .v-era { color:#fff; text-shadow:0 0 4px rgba(255,255,255,0.8); }
+.vet-item.queued .v-name { color:#b9ad97; font-style:italic; }
+@keyframes symPulse {
+  0%   { text-shadow:0 0 2px rgba(255,255,255,0.3); opacity:0.4; }
+  50%  { text-shadow:0 0 8px rgba(255,255,255,1), 0 0 18px rgba(255,255,255,0.7); opacity:1; }
+  100% { text-shadow:0 0 2px rgba(255,255,255,0.3); opacity:0.4; }
+}
+.vet-item.active .v-sym { animation:symPulse 1.2s ease-in-out infinite; display:inline-block; }
+.v-sym { font-size:0.8rem; width:15px; text-align:center; flex-shrink:0; }
+.v-name { font-size:0.78rem; color:#d4c9b8; flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.v-era { font-size:0.63rem; color:#777; }
+.v-badge-q { font-size:0.5rem; color:#6b5; letter-spacing:0.04em; }
+#no-results { padding:18px; color:#555; font-size:0.8rem; text-align:center; display:none; }
+
+/* POPUP */
+#popup {
+  display:none; position:fixed; inset:0;
+  background:rgba(0,0,0,0); z-index:3000;
+  pointer-events:none;
+}
+#popup.show { display:block; }  /* overlay stays pointer-events:none so the index underneath keeps scrolling */
+#pbox {
+  position:absolute;
+  top:50%; right:275px;
+  transform:translateY(-50%);
+  background:#141414; border:1px solid #444; border-radius:6px;
+  width:310px; max-height:78vh; overflow-y:scroll; scroll-behavior:smooth;
+  padding:20px; box-shadow:0 8px 40px rgba(0,0,0,0.7);
+  pointer-events:auto;
+}
+#pbox.center { right:auto; left:50%; transform:translate(-50%,-50%); }
+#pclose {
+  position:absolute; top:9px; right:12px;
+  background:none; border:none; color:#888; font-size:1.5rem; cursor:pointer;
+}
+#pclose:hover { color:#fff; }
+#pphoto { width:100%; max-height:340px; object-fit:contain; background:#0a0a0a; border-radius:4px; margin-bottom:12px; display:none; }
+#pphoto-ph { display:none; width:100%; min-height:150px; border:1px dashed #4a4238; border-radius:4px; background:#0e0e0e; color:#8a8172; font-size:0.72rem; letter-spacing:0.05em; align-items:center; justify-content:center; text-align:center; margin-bottom:12px; padding:16px; }
+#pphoto-ph.show { display:flex; }
+#pname { font-size:1.05rem; color:#f0e8d8; margin-bottom:3px; }
+#pservice { font-size:0.78rem; color:#CD853F; margin-bottom:9px; letter-spacing:0.04em; }
+#pstory { font-size:0.78rem; color:#aaa; line-height:1.65; }
+#pstory.queued { color:#8a8578; font-style:italic; }
+#pflags { display:flex; flex-wrap:wrap; gap:5px; margin-bottom:9px; }
+.fbadge { padding:3px 8px; border-radius:3px; font-size:0.68rem; font-weight:bold; }
+
+@keyframes markerPulse {
+  0%,100% { transform:scale(1); box-shadow:0 1px 5px rgba(0,0,0,0.8); }
+  50% { transform:scale(1.25); box-shadow:0 0 12px rgba(255,255,255,0.7); }
+}
+.marker-pulse > div { animation:markerPulse 1s ease-in-out infinite; }
+</style>
+</head>
+<body>
+
+<div id="header">
+  <div>
+    <h1 id="site-title">Veteran Archives</h1>
+    <div class="sub"><span id="site-sub"></span> &nbsp;·&nbsp; <a class="home" href="../index.html">← All Sites</a></div>
+  </div>
+  <div id="vet-count"></div>
+</div>
+
+<div id="main">
+  <div id="map"></div>
+
+  <div id="legend">
+    <h4>Era</h4>
+    <div id="leg-rows"></div>
+    <div id="leg-distinct"></div>
+  </div>
+
+  <div id="sidebar">
+    <div id="sidebar-top">
+      <input id="search" type="text" placeholder="Search veterans…">
+      <div id="era-filters"></div>
+    </div>
+    <div id="vet-list"></div>
+    <div id="no-results">No veterans found</div>
+  </div>
+</div>
+
+<div id="popup">
+  <div id="pbox">
+    <button id="pclose" onclick="closePopup()">×</button>
+    <img id="pphoto" src="" alt="">
+    <div id="pphoto-ph">Resting Place Pending Geo-location</div>
+    <div id="pextra"></div>
+    <div id="pname"></div>
+    <div id="pservice"></div>
+    <div id="pflags"></div>
+    <div id="pstory"></div>
+  </div>
+</div>
+
+<!-- Per-site data. This is the ONLY file that changes between sites. -->
+<script>window.VA = {
+ "site": {
+  "name": "Elmwood Cemetery",
+  "title": "Elmwood Cemetery Veterans Memorial",
+  "address": "493 Northampton Street, Holyoke, MA",
+  "kind": "cemetery",
+  "center": [
+   42.1869,
+   -72.6291
+  ],
+  "zoom": 17,
+  "nameField": "bio"
+ },
+ "veterans": [
+  {
+   "id": "aaron_f_baldwin_cw",
+   "name": "Aaron F. Baldwin",
+   "era": "Civil War",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.187094,
+   "lng": -72.629106,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/Baldwin.jpg",
+   "extraPhotos": [],
+   "narrative": "Aaron F. Baldwin served as a soldier in the Union Army during the Civil War, assigned to Company F of the 27th Massachusetts Volunteer Infantry. The 27th Massachusetts saw action across multiple theaters of the war, including service in North Carolina and Virginia. Baldwin returned to Holyoke, where he is buried alongside his family at Elmwood Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "carlton_r_baush_wwi",
+   "name": "Carlton R. Baush",
+   "era": "World War I",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.187072,
+   "lng": -72.629203,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/C Baush.jpg",
+   "extraPhotos": [],
+   "narrative": "Carlton R. Baush served as a Sergeant in Company C of the 321st Machine Gun Battalion during World War I. The 321st Machine Gun Battalion was assigned to the 164th Infantry Brigade of the 82nd Division — the All-American Division, so named because its draftees came from all 48 states. The 82nd deployed to France in 1918 and fought in the Lorraine campaign, the Battle of St. Mihiel, and the Meuse-Argonne Offensive — one of the largest military operations in American history. Machine gun battalions provided the sustained defensive fire that anchored infantry positions on the Western Front. Baush was born February 20, 1896 and died May 30, 1965. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "lo_carpenter_cw",
+   "name": "L.O. Carpenter",
+   "era": "Civil War",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.187439,
+   "lng": -72.629928,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/Carpenter.jpg",
+   "extraPhotos": [],
+   "narrative": "L.O. Carpenter served as a First Lieutenant and Assistant Surgeon with the 57th Massachusetts Volunteer Infantry during the Civil War. Military surgeons operated under fire, performing amputations and field medicine that saved countless lives under conditions of extreme hardship. The 57th Massachusetts was organized in 1864 and saw heavy combat in the Overland Campaign under General Grant. A Grand Army of the Republic marker stands at his grave, recognizing his Union service. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "patrick_j_curran_wwi",
+   "name": "Patrick J. Curran",
+   "era": "World War I",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.186917,
+   "lng": -72.629203,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/Curren.jpg",
+   "extraPhotos": [],
+   "narrative": "Patrick J. Curran served as a Sergeant in Company C of the 336th Battalion, Tank Corps, during World War I. The Tank Corps was established by the American Expeditionary Forces in 1917, with Captain George S. Patton among its first officers, to deploy the new technology of armored warfare on the Western Front. A total of 29 tank battalions were raised, but the armistice of November 1918 came before most of them could reach the front — only four Tank Corps battalions saw combat. Curran's unit was among those that trained and prepared but did not reach the fighting line before the war ended. The Tank Corps was formally disbanded in 1920. Curran was born March 12, 1892 and died December 5, 1965. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "edward_day_rev",
+   "name": "Edward Day",
+   "era": "Revolutionary War",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.187144,
+   "lng": -72.629197,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/Day.jpg",
+   "extraPhotos": [],
+   "narrative": "Edward Day died on October 25, 1777, at the age of 19, during the Revolutionary War. He was the fourth of eleven children born to Joel and Eunice Day of Holyoke, a family that gave more than most to the struggle for independence: Joel Day and five of his sons served, and two of those sons did not come home. Edward died at Troy, New York, wounded in a skirmish and taken by illness within days. His younger brother Robert had died two months earlier, ambushed while carrying supplies to American forces near Ticonderoga. Both brothers are commemorated on the Joel Day family stone at Elmwood Cemetery, one of the most significant Revolutionary War memorials in the Pioneer Valley. Eunice Day, their mother, is honored by a Daughters of the American Revolution tablet for her family’s sacrifice. The DAR chapter in Holyoke named itself the Eunice Day Chapter in her memory. The stone at Elmwood stands as a record of what this city gave, at the very beginning of the American republic, in the persons of two sons who did not return. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "robert_day_rev",
+   "name": "Robert Day",
+   "era": "Revolutionary War",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.187164,
+   "lng": -72.629197,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/Day.jpg",
+   "extraPhotos": [],
+   "narrative": "Robert Day was 13 years old when he was killed on August 27, 1777, ambushed while carrying supplies and food to American forces near Ticonderoga, New York. He was the sixth child of Joel and Eunice Day of Holyoke, a family whose service to the Revolutionary cause was extraordinary: Joel Day and five of his sons served, and Robert and his brother Edward both died in 1777, two months apart. Robert was not an enlisted soldier — he was a boy in service to his country’s cause, and he did not come home. His brother Edward died that same October at Troy, New York. Both are recorded on the Joel Day family stone at Elmwood Cemetery, one of the oldest and most consequential markers in the Pioneer Valley. Their mother Eunice Day is honored by a Daughters of the American Revolution tablet for what she gave to the founding of this nation. Robert’s age and the circumstances of his death make his story one of the most striking in Elmwood Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "william_r_dempsey_wwii",
+   "name": "William R. Dempsey",
+   "era": "World War II",
+   "branch": "Navy",
+   "branchLabel": "",
+   "lat": 42.187283,
+   "lng": -72.628631,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/dempsey.jpg",
+   "extraPhotos": [],
+   "narrative": "William R. Dempsey served as a Pharmacist's Mate First Class in the United States Navy during World War II. Navy pharmacist's mates served as frontline medical corpsmen, providing emergency medical care aboard ships and with Marine units under combat conditions. Dempsey was born August 2, 1925 and died November 23, 1998. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "hugo_dudman_wwi_wwii",
+   "name": "Hugo Dudman",
+   "era": "World War II",
+   "branch": "Navy",
+   "branchLabel": "",
+   "lat": 42.187114,
+   "lng": -72.629281,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/dudman.jpg",
+   "extraPhotos": [],
+   "narrative": "Hugo Dudman served as a Signalman Second Class in the United States Navy through both World War I and World War II — a rare distinction that spans more than two decades of naval service. Signalmen were responsible for visual communications between vessels, a critical role before the era of reliable radio. Dudman was born July 28, 1897 and died April 28, 1946, shortly after the close of World War II. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "elisha_chapin_colonial",
+   "name": "Elisha Chapin",
+   "era": "French & Indian War",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.187378,
+   "lng": -72.629561,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/E Chapin.jpg",
+   "extraPhotos": [],
+   "narrative": "Captain Elisha Chapin, born July 16, 1707, was a provincial militia officer who commanded Fort Massachusetts — the westernmost fortification in the line of forts defending British colonial Massachusetts — from 1752 to 1754. Fort Massachusetts stood on the Hoosac River frontier of Berkshire County, the last organized defense against French and Indian forces moving south from Canada. Chapin served on the most exposed edge of the British colonial world, in a region where raids, ambushes, and sudden death were facts of daily life. On July 11, 1756, while searching for strayed cattle near Hemlock Brook at West Hoosac — the settlement that would become Williamstown — Chapin was killed by a party of Native warriors. The attack occurred as the French and Indian War was escalating across the Western Massachusetts frontier. Chapin’s marker is among the oldest military gravestones in the region. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "jno_eveleth_cw",
+   "name": "John Eveleth",
+   "era": "Civil War",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.186958,
+   "lng": -72.629272,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/eveleth.jpg",
+   "extraPhotos": [],
+   "narrative": "John Eveleth — listed on his marker as Jno. Eveleth — served with the 15th Massachusetts Battery during the Civil War. The 15th Massachusetts Battery was a light artillery unit that served in the Eastern Theater, providing cannon support in engagements across Virginia and Maryland. Artillery units like the 15th were essential to Union battlefield tactics, delivering fire that could determine the outcome of an engagement. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "arthur_emil_ezold_wwii",
+   "name": "Arthur Emil Ezold",
+   "era": "World War II",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.186986,
+   "lng": -72.629242,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/ezold.jpg",
+   "extraPhotos": [],
+   "narrative": "Arthur Emil Ezold served as a Sergeant in the 1460th Service Command Unit of the United States Army during World War II. Service command units were the logistical backbone of the American war effort, managing the supply chains, depots, and transport networks that kept combat forces equipped and operational across multiple theaters. Ezold was born June 15, 1906 and died September 27, 1967. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "fred_k_burnham_cw",
+   "name": "Frederick K. Burnham",
+   "era": "Civil War",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.187283,
+   "lng": -72.629058,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/F Burnham.jpg",
+   "extraPhotos": [],
+   "narrative": "Frederick K. Burnham — recorded on his marker as Fred'k Burnham — served in Company I of the 10th Massachusetts Volunteer Infantry during the Civil War. The 10th Massachusetts saw action in some of the war's most consequential engagements, including the Peninsular Campaign, Antietam, and the Overland Campaign. A GAR marker stands at his grave, placed by the Grand Army of the Republic in recognition of his Union service. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "david_w_mulligan_unk",
+   "name": "David W. Mulligan",
+   "era": "Unknown Era",
+   "branch": "Unknown",
+   "branchLabel": "",
+   "lat": 42.187531,
+   "lng": -72.628983,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/D Mulligan.jpg",
+   "extraPhotos": [],
+   "narrative": "David W. Mulligan was born in 1918 and died in 1965, having lived through both World War II and the Korean War era. An American flag marks his grave at Elmwood Cemetery, confirming his veteran status. Men born in 1918 were of prime service age when the United States entered World War II in December 1941, and Mulligan would have been 23 years old at the time of Pearl Harbor. His branch of service and unit assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "oswald_f_friedrich",
+   "name": "Oswald F. Friedrich",
+   "era": "Unknown Era",
+   "branch": "Unknown",
+   "branchLabel": "",
+   "lat": 42.187283,
+   "lng": -72.628983,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/Friedrich.jpg",
+   "extraPhotos": [],
+   "narrative": "Oswald F. Friedrich was born in 1862 and died in 1947, having lived through the Civil War, the Spanish-American War, both World Wars, and into the postwar era. A U.S. veteran marker stands at his grave at Elmwood Cemetery. Born in 1862, Friedrich was of enlistment age during the Spanish-American War of 1898 and may also have served during the era of the Philippine Insurrection that followed. His specific branch of service and unit have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "george_a_baush_wwii",
+   "name": "George A. Baush",
+   "era": "World War II",
+   "branch": "Coast Guard",
+   "branchLabel": "",
+   "lat": 42.187089,
+   "lng": -72.62915,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/G Baush.jpg",
+   "extraPhotos": [],
+   "narrative": "George A. Baush served in the United States Coast Guard during World War II. The Coast Guard's wartime mission expanded dramatically after Pearl Harbor: its cutters and crews escorted convoys across the North Atlantic, conducted amphibious landings including D-Day and the Pacific island campaigns, and maintained port security along the American coastline. Coast Guardsmen crewed many of the landing craft that carried troops ashore at Normandy, Guadalcanal, and Iwo Jima — among the most dangerous assignments of the war. Baush was born January 2, 1928 and died October 15, 2015. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "g_burnham_cw",
+   "name": "G. Burnham",
+   "era": "Civil War",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.187283,
+   "lng": -72.629036,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/G Burnham.jpg",
+   "extraPhotos": [],
+   "narrative": "G. Burnham served as a Musician in Company I of the 10th Massachusetts Volunteer Infantry during the Civil War. Regimental musicians kept time on the march and relayed battlefield commands through drum signals under fire. The 10th Massachusetts saw action in some of the war's most consequential campaigns. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "gooley_unknown",
+   "name": "Gooley",
+   "era": "Unknown Era",
+   "branch": "Unknown",
+   "branchLabel": "",
+   "lat": 42.187422,
+   "lng": -72.629144,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/Gooley.jpg",
+   "extraPhotos": [],
+   "narrative": "This veteran's stone at Elmwood Cemetery is too worn to read clearly. An American flag marks the grave, confirming veteran status. Name may be Gooley. Branch of service and era have not yet been confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "harold_c_baush_wwii",
+   "name": "Harold C. Baush",
+   "era": "World War II",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.187056,
+   "lng": -72.62925,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/H Baush.jpg",
+   "extraPhotos": [],
+   "narrative": "Harold C. Baush served as a Technician Fifth Grade in the United States Army during World War II. The grade of Technician Fifth Class, or TEC 5, was introduced by the Army in 1942 to recognize soldiers with specialized technical skills — including mechanics, medics, radio operators, and supply specialists — who did not hold command responsibilities. TEC 5 soldiers were the trained backbone of Army logistics and support, keeping weapons, vehicles, and communications operational under combat conditions. Baush was born March 11, 1922 and died May 1, 2001. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "sa_hall_cw",
+   "name": "S.A. Hall",
+   "era": "Civil War",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.187461,
+   "lng": -72.628814,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/Hall.jpg",
+   "extraPhotos": [],
+   "narrative": "S.A. Hall served in Company B of the 46th Massachusetts Volunteer Infantry during the Civil War. The 46th Massachusetts was organized in the fall of 1862 as a nine-month regiment, one of many raised to meet the Union Army's urgent need for manpower following early setbacks in the war. It served in North Carolina under General John Foster, participating in operations aimed at disrupting Confederate supply lines and controlling the sounds and ports of the Carolina coast. The regiment mustered out in September 1863, having completed its term of service. A GAR marker at the grave recognizes Hall's Union service. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "hupfer_unknown",
+   "name": "Hupfer",
+   "era": "Unknown Era",
+   "branch": "Unknown",
+   "branchLabel": "",
+   "lat": 42.187003,
+   "lng": -72.629211,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/hupper1.jpg",
+   "extraPhotos": [],
+   "narrative": "A U.S. War Veteran marker stands at the Hupfer family stone at Elmwood Cemetery. The specific veteran's first name, branch of service, and era have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "john_hynd_unknown",
+   "name": "John Hynd",
+   "era": "Unknown Era",
+   "branch": "Unknown",
+   "branchLabel": "",
+   "lat": 42.187236,
+   "lng": -72.629578,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/Hynd.jpg",
+   "extraPhotos": [],
+   "narrative": "John Hynd was born August 18, 1893 and died February 20, 1971. An American flag marks his grave at Elmwood Cemetery, confirming his veteran status. Born in 1893, Hynd was 23 years old when the United States entered World War I in April 1917, placing him squarely within the generation that fought on the Western Front with the American Expeditionary Forces. He was also 48 years old at the time of Pearl Harbor, within the upper range of wartime service age. His branch of service and unit assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "capt_joseph_day_rev",
+   "name": "Joseph Day",
+   "era": "Revolutionary War",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.187106,
+   "lng": -72.629914,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/J Day.jpg",
+   "extraPhotos": [],
+   "narrative": "Captain Joseph Day served during the Revolutionary War era and died March 19, 1813, aged 67 years. A member of the Day family of Holyoke — which gave multiple sons to the cause of American independence — Joseph Day may be related to Joel Day, whose stone commemorates the deaths of sons Edward and Robert in 1777. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "james_humeston_rev",
+   "name": "James Humeston",
+   "era": "Revolutionary War",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.187344,
+   "lng": -72.629303,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/J Humeston.jpg",
+   "extraPhotos": [],
+   "narrative": "James Humeston served during the Revolutionary War era and is honored at Elmwood Cemetery in Holyoke, where both an American flag and a Holyoke Lodge marker stand at his wife Martha's stone. The Connecticut River Valley contributed significantly to the Revolutionary War effort: Massachusetts militia units from this region served at Bunker Hill, in the defense of Boston, and in the northern campaigns that culminated in the American victory at Saratoga in 1777. James Humeston's specific regiment and dates of service have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "josiah_rogers_rev",
+   "name": "Josiah Rogers",
+   "era": "Revolutionary War",
+   "branch": "Unknown",
+   "branchLabel": "",
+   "lat": 42.187431,
+   "lng": -72.629539,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/JosiahRogers.com.JPG",
+   "extraPhotos": [],
+   "narrative": "Deacon Josiah Rogers died in December 1792 in the 28th year of his age, as recorded on his stone at Elmwood Cemetery. His wife Sarah died in September 1779 at Waterbury, Connecticut. A veteran marker indicates military service connected to this grave. Born around 1764 and dying at 28, Rogers was of the generation that came of age during the Revolutionary War; if the veteran connection is to Rogers himself, he would have been a young soldier or militia member during the final years of the conflict. The specific nature of his service has not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "robert_alfred_krause_wwii",
+   "name": "Robert Alfred Krause",
+   "era": "World War II",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.187417,
+   "lng": -72.629311,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/krause.jpg",
+   "extraPhotos": [],
+   "narrative": "Robert Alfred Krause served as a Sergeant in the United States Army during World War II and was awarded the Purple Heart for wounds received in combat. The Purple Heart, authorized by George Washington in 1782, is awarded to members of the armed forces wounded or killed in action against an enemy of the United States. Receiving it as a Sergeant indicates Krause served in a leadership role at the squad or section level, typically responsible for a small group of men under fire. Krause was born February 11, 1918 and died November 1, 1991. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Purple Heart"
+   ],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "lt_martin_chapin_rev",
+   "name": "Martin Chapin",
+   "era": "Revolutionary War",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.187131,
+   "lng": -72.629922,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/M Chapin.jpg",
+   "extraPhotos": [],
+   "narrative": "Lieutenant Martin Chapin died April 24, 1793, as recorded on his carved sandstone marker at Elmwood Cemetery — one of the most ornate early gravestones in the burial ground. The Chapin family had deep roots in the Connecticut River Valley stretching back to the founding generation of Springfield in the 1630s. Martin Chapin served as a lieutenant during the Revolutionary War era, in a family that produced multiple officers across several conflicts. His brother Elisha Chapin, also buried at Elmwood, was killed by Native warriors in 1756 during the French and Indian War. The specific regiment and engagements of Martin Chapin's service have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "jno_montgomery_cw",
+   "name": "John Montgomery",
+   "era": "Civil War",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.186914,
+   "lng": -72.628739,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/montgomery.jpg",
+   "extraPhotos": [],
+   "narrative": "John Montgomery — listed on his marker as Jno. Montgomery — served in Company C of the 25th New Jersey Volunteer Infantry during the Civil War. The 25th New Jersey was organized in the fall of 1862 as a nine-month regiment, serving in the defenses around Washington before moving into Virginia and Maryland operations. Montgomery's burial in Holyoke suggests he settled in the Connecticut River Valley after the war, as many veterans did, drawn by the growing mill economy of the Pioneer Valley. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "unknown_soldier_1",
+   "name": "Unknown Soldier 1",
+   "era": "Unknown Era",
+   "branch": "Unknown",
+   "branchLabel": "",
+   "lat": 42.187164,
+   "lng": -72.629944,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/FMO?.jpg",
+   "extraPhotos": [],
+   "narrative": "This veteran's stone at Elmwood Cemetery is too worn to read. An American flag marks the grave, confirming veteran status. Name, branch, and era have not yet been confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "capt_joseph_morgan_colonial",
+   "name": "Joseph Morgan",
+   "era": "French & Indian War",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.187164,
+   "lng": -72.629706,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/Morgan.jpg",
+   "extraPhotos": [],
+   "narrative": "Captain Joseph Morgan’s gravestone at Elmwood Cemetery records that he was “captured and included in the capitulation of Fort William Henry” in August 1757 — placing him at one of the most harrowing events of the French and Indian War. Fort William Henry stood at the southern end of Lake George in what is now New York, garrisoned by a British and provincial force under Lieutenant Colonel George Monro. In early August 1757, a French army of more than eight thousand men, including nearly two thousand Native warriors, surrounded the fort under General Montcalm. After six days of bombardment and no relief from the British commander at Fort Edward, Monro surrendered. Montcalm offered the garrison full honors of war and safe passage to Fort Edward. What followed was not safe passage. As the British column withdrew on August 10, Montcalm’s Indian allies, who had been promised plunder and were denied it by the terms of capitulation, attacked the evacuating soldiers, camp followers, women, and children. Scores were killed; hundreds were taken captive. Morgan was among those captured in the massacre. He survived, and he lived long enough to see the United States win its independence from the same British empire he had fought for as a young man. He died December 18, 1813, in the 78th year of his age. The events Morgan survived later became the backdrop for James Fenimore Cooper’s novel The Last of the Mohicans. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "richard_j_powers_navy",
+   "name": "Richard J. Powers",
+   "era": "World War II",
+   "branch": "Navy",
+   "branchLabel": "",
+   "lat": 42.187325,
+   "lng": -72.628822,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/Powers.jpg",
+   "extraPhotos": [],
+   "narrative": "Richard J. Powers served as a Fireman First Class in the United States Navy. Born February 20, 1914 and died January 13, 1984, Powers served during the World War II era. Firemen in the Navy maintained the propulsion systems that kept ships underway in combat conditions. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "raymond_f_humeston_wwi",
+   "name": "Raymond F. Humeston",
+   "era": "World War I",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.187397,
+   "lng": -72.629342,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/R Humeston.jpg",
+   "extraPhotos": [],
+   "narrative": "Raymond F. Humeston served as a Private in the United States Army during World War I. He entered service on August 31, 1918, and was stationed at Camp Jackson, South Carolina — one of the great wartime training camps where hundreds of thousands of American soldiers were prepared for the front. Born in 1895, Humeston was among the young men of Holyoke who answered the call, though the armistice of November 1918 came before many of the late-summer draftees could ship overseas. He died in 1982, having lived nearly a century. He may be related to James Humeston, a Revolutionary War veteran also buried at Elmwood, though the connection is not confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "otto_ernest_riedel_wwii",
+   "name": "Otto Ernest Riedel",
+   "era": "World War II",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.187381,
+   "lng": -72.629272,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/riedel.jpg",
+   "extraPhotos": [],
+   "narrative": "Otto Ernest Riedel served as a Private in the United States Army during World War II. Born in 1911 and 30 years old at the time of Pearl Harbor, Riedel served within the broad mobilization that expanded the Army from fewer than 200,000 men in 1939 to more than eight million by 1945. Army Privates formed the essential foundation of that force, serving in every theater from North Africa to the Pacific. Riedel is buried in the Hupfer family plot at Elmwood Cemetery and died in 1985. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "lawrence_w_robinson_wwii",
+   "name": "Lawrence W. Robinson",
+   "era": "World War II",
+   "branch": "Army Air Forces",
+   "branchLabel": "",
+   "lat": 42.187458,
+   "lng": -72.629836,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/Robinson.jpg",
+   "extraPhotos": [],
+   "narrative": "Lawrence W. Robinson served as a Private First Class in the United States Army Air Forces during World War II. The Army Air Forces was the aerial warfare service of the United States during the war, predecessor to the modern Air Force. Robinson was born November 27, 1923 and died February 22, 2002. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "elsie_a_schenker_wwi",
+   "name": "Elsie A. Schenker",
+   "era": "World War I",
+   "branch": "Navy",
+   "branchLabel": "",
+   "lat": 42.187319,
+   "lng": -72.628722,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/schenker.jpg",
+   "extraPhotos": [],
+   "narrative": "Elsie A. Schenker served as a Yeoman Second Class — Yeoman (F) — in the United States Navy during World War I, making her among the first women in American history to serve in the military in a non-nursing capacity. The program began in March 1917, when Secretary of the Navy Josephus Daniels, finding no law requiring that a yeoman be a man, began enlisting women into the Naval Reserve. More than eleven thousand women ultimately served, popularly known as Yeomanettes — a nickname many of them disliked, preferring simply to be called Sailors. They worked as stenographers, bookkeepers, telephone operators, translators, fingerprint experts, and camouflage designers; a few served in France. They received equal pay with men of the same rank and served under the same military regulations. Schenker was born November 21, 1890 and died June 17, 1976. She is the only female veteran documented at Elmwood Cemetery. All Yeoman (F) enlistments formally ended in October 1920, and women would not serve in the uniformed Navy again until 1942. Elsie Schenker’s gravestone at Elmwood Cemetery is a record of a moment when the country asked something new of its women, and they answered. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Female Veteran"
+   ],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "alfred_b_sefton_wwii",
+   "name": "Alfred B. Sefton",
+   "era": "World War II",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.187594,
+   "lng": -72.629417,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/sefton.jpg",
+   "extraPhotos": [],
+   "narrative": "Alfred B. Sefton served as a Staff Sergeant in the United States Army. Born January 26, 1919, Sefton was 22 years old when the United States entered World War II in December 1941. Staff Sergeants served as non-commissioned officers leading rifle squads and weapons teams, typically in direct combat or close support roles. The rank carried significant responsibility: a Staff Sergeant was expected to keep his soldiers alive, maintain unit cohesion under fire, and execute orders when officers were not present. Sefton died September 19, 1999. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "william_f_tauscher_wwi",
+   "name": "William F. Tauscher",
+   "era": "World War I",
+   "branch": "Navy",
+   "branchLabel": "",
+   "lat": 42.186961,
+   "lng": -72.629614,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/tauscher.jpg",
+   "extraPhotos": [],
+   "narrative": "William F. Tauscher served as a Cook in the United States Naval Reserve Force during World War I. The USNRF expanded rapidly after America entered the war in 1917, drawing men from across Massachusetts to serve in a variety of naval roles. Tauscher was born September 4, 1894 and died January 10, 1963. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "unknown_soldier_2",
+   "name": "Unknown Soldier 2",
+   "era": "Civil War",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.18695,
+   "lng": -72.629172,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/unknown vet 2.jpg",
+   "extraPhotos": [],
+   "narrative": "This Civil War veteran's stone at Elmwood Cemetery is too worn to read clearly. The standard Union Army shield marker shape and partial text suggest Massachusetts service. Name and unit have not yet been confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "unknown_soldier_3",
+   "name": "Unknown Soldier 3",
+   "era": "Unknown Era",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.187428,
+   "lng": -72.629144,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/vet unknown3.jpg",
+   "extraPhotos": [],
+   "narrative": "This veteran's stone at Elmwood Cemetery is too worn to read clearly. An American flag marks the grave, confirming veteran status. Name and unit have not yet been confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "ernest_j_hupfer",
+   "name": "Ernest J. Hupfer",
+   "era": "Unknown Era",
+   "branch": "Unknown",
+   "branchLabel": "",
+   "lat": 42.187394,
+   "lng": -72.629319,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/vetunknown4.jpg",
+   "extraPhotos": [],
+   "narrative": "Ernest J. Hupfer was born in 1883 and died in 1954. An American flag marks the Hupfer family stone at Elmwood Cemetery, indicating veteran status. Born in 1883, Hupfer was 34 years old when the United States entered World War I in 1917, within the eligible range for military service under the Selective Service Act of that year, which applied to men ages 21 to 31 at first registration, later expanded to 18 to 45. He may be the veteran recognized by the flag at this plot, though a second family member, also a veteran, is listed nearby. His branch of service and unit assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "frank_h_wade",
+   "name": "Frank H. Wade",
+   "era": "Unknown Era",
+   "branch": "Unknown",
+   "branchLabel": "",
+   "lat": 42.187133,
+   "lng": -72.629953,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/Wade Batchelor.jpg",
+   "extraPhotos": [],
+   "narrative": "Frank H. Wade was born in 1872 and died in 1952. An American flag marks his grave at Elmwood Cemetery, indicating veteran status. Born in 1872, Wade was 25 years old during the Spanish-American War of 1898 and 44 years old when the United States entered World War I in 1917, making Spanish-American War service the most likely era for his military service. Massachusetts contributed thousands of volunteers to the Spanish-American War, many of whom served in Cuba, Puerto Rico, and the Philippines. His branch of service and unit assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "paul_f_wagner",
+   "name": "Paul F. Wagner",
+   "era": "World War I",
+   "branch": "Unknown",
+   "branchLabel": "",
+   "lat": 42.187386,
+   "lng": -72.629539,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/Wagner.jpg",
+   "extraPhotos": [],
+   "narrative": "Paul F. Wagner was born in 1889 and died in 1945. A veteran marker stands at his grave at Elmwood Cemetery. Born in 1889, Wagner was 27 years old when the United States entered World War I in April 1917, and was precisely within the first class of men to register under the Selective Service Act — men ages 21 to 31. Over 189,000 Massachusetts men and women served in the armed forces during World War I. Wagner died in 1945, the final year of World War II, though whether his death was related to wartime service has not been confirmed. His branch of service and unit assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "allen_s_walker_wwii",
+   "name": "Allen S. Walker",
+   "era": "World War II",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.187436,
+   "lng": -72.628569,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/walker.jpg",
+   "extraPhotos": [],
+   "narrative": "Allen S. Walker served as a Technician Fourth Grade in the United States Army during World War II. TEC 4 was a specialist rank recognizing skilled technical work such as engineering, communications, or medical support. Walker was born May 11, 1911 and died May 29, 1996. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "lo_white_cw",
+   "name": "L.O. White",
+   "era": "Civil War",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.187256,
+   "lng": -72.629111,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/white.jbg.JPG",
+   "extraPhotos": [],
+   "narrative": "L.O. White served in Company B of the 46th Massachusetts Volunteer Infantry during the Civil War — the same regiment as fellow Elmwood Cemetery veteran S.A. Hall. The 46th Massachusetts was a nine-month regiment organized in 1862, serving in North Carolina. White's standard Union shield marker stands as one of several Civil War stones at Elmwood Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  },
+  {
+   "id": "unknown_soldier_4",
+   "name": "Unknown Soldier 4",
+   "era": "Unknown Era",
+   "branch": "Unknown",
+   "branchLabel": "",
+   "lat": 42.187156,
+   "lng": -72.629953,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/elmwood-map/main/RMDay.JPG",
+   "extraPhotos": [],
+   "narrative": "This veteran's stone at Elmwood Cemetery is too worn to read. An American flag marks the grave, confirming veteran status. The inscription is partially visible but not yet confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "elmwood-migrate"
+  }
+ ]
+};
+</script>
+<script>
+/* ============================================================
+   VETERAN ARCHIVES — canonical template.
+   Identical for every site. All per-site content lives in data.js
+   as window.VA = { site:{...}, veterans:[...] }.
+   ============================================================ */
+const SITE = (window.VA && window.VA.site) || {};
+const veterans = (window.VA && window.VA.veterans) || [];
+const IS_QUEUE = SITE.kind === 'queue';
+
+const QUEUE_TEXT = 'This veteran has been identified but is still in the research queue — a narrative has not yet been written. The entry is held here until research and grave location are complete.';
+
+document.getElementById('site-title').textContent = SITE.title || SITE.name || 'Veteran Archives';
+document.getElementById('site-sub').textContent = SITE.address || '';
+document.title = (SITE.title || 'Veteran Archives') + ' — Holyoke, MA';
+
+const ERA_COLORS = {
+  'Civil War Era':'#8B4513',
+  'Spanish-American War':'#CD853F',
+  'World War I':'#4682B4',
+  'World War II':'#2E8B57',
+  'Korean War':'#9370DB',
+  'Vietnam':'#DC143C',
+  'Peacetime Navy (1899–1916)':'#2a6496',
+  'Unknown Era':'#666',
+};
+const ERA_ORDER = ['Civil War Era','Spanish-American War','Peacetime Navy (1899–1916)','World War I','World War II','Korean War','Vietnam','Unknown Era'];
+
+function normEra(raw) {
+  if (!raw) return 'Unknown Era';
+  const s = raw.trim();
+  if (s.includes('Civil')) return 'Civil War Era';
+  if (s.includes('Spanish')) return 'Spanish-American War';
+  if (s.includes('Peacetime')) return 'Peacetime Navy (1899–1916)';
+  if (s.includes('Vietnam')) return 'Vietnam';
+  if (s.includes('World War II')) return 'World War II';
+  if (s.includes('World War I')) return 'World War I';
+  if (s.includes('Korean')) return 'Korean War';
+  return 'Unknown Era';
+}
+function eraColor(raw) { return ERA_COLORS[normEra(raw)] || '#666'; }
+
+function branchSym(branch) {
+  if (!branch) return '✦';
+  const b = branch.toUpperCase();
+  if (b.includes('NAVY')) return '⚓';
+  if (b.includes('MARINE') || b.includes('USMC')) return '🦅';
+  if (b.includes('AIR') || b.includes('USAF')) return '✈';
+  if (b.includes('COAST')) return '⚑';
+  if (b.includes('ARMY')) return '★';
+  return '✦';
+}
+
+const map = L.map('map', {preferCanvas:true, minZoom:13, maxZoom:20})
+  .setView(SITE.center || [42.2043,-72.6162], SITE.zoom || 15);
+
+const satellite = L.tileLayer(
+  'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+  {attribution:'© Esri', maxNativeZoom:19, maxZoom:20}
+);
+const street = L.tileLayer(
+  'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
+  {attribution:'© CARTO', subdomains:'abcd', maxNativeZoom:19, maxZoom:20}
+);
+const terrain = L.tileLayer(
+  'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',
+  {attribution:'© OpenTopoMap', subdomains:'abc', maxNativeZoom:17, maxZoom:20}
+);
+satellite.addTo(map);
+L.control.layers({'Satellite':satellite,'Street':street,'Terrain':terrain},{},{position:'topleft'}).addTo(map);
+
+let activeEras = new Set(ERA_ORDER);
+let activeDistinction = null;
+let markerMap = {};
+let activeIdx = null;
+let searchTerm = '';
+let activeMarker = null;
+
+// Major distinctions, most prestigious first. Each cemetery builds chips from whichever it actually has.
+const DISTINCTION_ORDER = ['Medal of Honor','Distinguished Service Cross','Distinguished Service Medal','Silver Star','Bronze Star','Air Medal','Purple Heart','Croix de Guerre','KIA'];
+const DISTINCTION_COLORS = {
+  'Medal of Honor':'#e6c14a','Distinguished Service Cross':'#9b7ede','Distinguished Service Medal':'#7c6fb0',
+  'Silver Star':'#b9c0c7','Bronze Star':'#c99a3a','Air Medal':'#4a9be0','Purple Heart':'#a24bb3',
+  'Croix de Guerre':'#4e8f63','KIA':'#c0392b'
+};
+const DISTINCTION_SHORT = {'Distinguished Service Cross':'DSC','Distinguished Service Medal':'DSM'};
+function canonBadge(b){ const low=(b||'').toLowerCase(); for(const n of DISTINCTION_ORDER){ if(n.toLowerCase()===low) return n; } return null; }
+function vetDistinctions(v){ return (v.badges||[]).map(canonBadge).filter(Boolean); }
+function isDistinguished(v){ return vetDistinctions(v).length>0; }
+function passesFilters(v){ return activeEras.has(normEra(v.era)) && (!activeDistinction || vetDistinctions(v).includes(activeDistinction)); }
+
+function hasCoords(v){ return v && v.lat!=null && v.lng!=null && !isNaN(v.lat) && !isNaN(v.lng); }
+
+function buildMarkers() {
+  Object.values(markerMap).forEach(m => map.removeLayer(m));
+  markerMap = {};
+  veterans.forEach((v, idx) => {
+    if (!passesFilters(v)) return;
+    if (!hasCoords(v)) return;
+    const color = eraColor(v.era);
+    const sym = branchSym(v.branch);
+    const dist = isDistinguished(v);
+    const rim = dist
+      ? 'border:2px solid #ffd757;box-shadow:0 0 7px 1px rgba(255,205,70,0.85);'
+      : 'border:2px solid rgba(255,255,255,0.65);box-shadow:0 1px 5px rgba(0,0,0,0.8);';
+    const icon = L.divIcon({
+      className:'',
+      html:`<div style="width:26px;height:26px;border-radius:50%;background:${color};${rim}display:flex;align-items:center;justify-content:center;font-size:11px;cursor:pointer;">${sym}</div>`,
+      iconSize:[26,26], iconAnchor:[13,13]
+    });
+    const m = L.marker([v.lat, v.lng], {icon});
+    m.on('click', () => openPopup(v, idx));
+    m.addTo(map);
+    markerMap[idx] = m;
+  });
+}
+
+function openPopup(v, idx) {
+  if (activeMarker) activeMarker.getElement()?.classList.remove('marker-pulse');
+  const queued = !((v.narrative||'').trim());
+  document.getElementById('pname').textContent = v.name;
+  document.getElementById('pservice').textContent =
+    v.branchLabel || [v.branch, normEra(v.era)].filter(Boolean).join(' • ');
+  const storyEl = document.getElementById('pstory');
+  storyEl.textContent = queued ? QUEUE_TEXT : v.narrative;
+  storyEl.classList.toggle('queued', queued);
+
+  const photo = document.getElementById('pphoto');
+  const ph = document.getElementById('pphoto-ph');
+  if (v.photo) { photo.src = v.photo; photo.style.display = 'block'; ph.classList.remove('show'); }
+  else if (!hasCoords(v)) { photo.style.display = 'none'; ph.classList.add('show'); }   // queue: pending geo-location
+  else { photo.style.display = 'none'; ph.classList.remove('show'); }
+
+  const extEl = document.getElementById('pextra');
+  extEl.innerHTML = '';
+  (v.extraPhotos||[]).forEach(ep => {
+    const link = document.createElement('a');
+    link.href = ep.src; link.target = '_blank';
+    link.style.cssText = 'display:block;margin-bottom:10px;color:#c8b97a;font-size:0.82rem;text-decoration:none;border:1px solid #444;border-radius:6px;padding:8px 12px;background:#1a1a1a;';
+    link.textContent = ep.caption || 'View document';
+    extEl.appendChild(link);
+  });
+
+  const flagsEl = document.getElementById('pflags');
+  flagsEl.innerHTML = '';
+  const fs = {'KIA':['#8B0000','#fff'],'Purple Heart':['#7B2D8B','#fff'],'Bronze Star':['#B8860B','#fff'],'Air Medal':['#1a6abf','#fff'],'Female Veteran':['#C71585','#fff'],'Silver Star':['#71797E','#fff'],'Distinguished Service Cross':['#2c1b4d','#fff'],'Croix de Guerre':['#2d5a3d','#fff'],'Died in Service':['#5a3d2d','#fff'],'Medical Officer':['#2d5a5a','#fff'],'Retake Needed':['#333','#c99']};
+  (v.badges||[]).forEach(f => {
+    const [bg,fg] = fs[f]||['#444','#fff'];
+    const b = document.createElement('span');
+    b.className='fbadge'; b.style.background=bg; b.style.color=fg; b.textContent=f;
+    flagsEl.appendChild(b);
+  });
+
+  // Window always sits left of the sidebar, so the index stays clear and scrollable.
+  if (hasCoords(v)) {
+    const clickedMarker = markerMap[idx];
+    if (clickedMarker) { clickedMarker.getElement()?.classList.add('marker-pulse'); activeMarker = clickedMarker; }
+    const mapW = map.getContainer().offsetWidth;
+    const popupLeft = mapW - 275 - 310;
+    const graveTargetX = popupLeft * 0.45;
+    const currentCenter = map.project(map.getCenter(), map.getZoom());
+    const gravePoint = map.project([v.lat, v.lng], map.getZoom());
+    const currentGraveX = gravePoint.x - currentCenter.x + mapW / 2;
+    const shiftX = currentGraveX - graveTargetX;
+    const newCenter = map.unproject([currentCenter.x + shiftX, currentCenter.y], map.getZoom());
+    map.panTo(newCenter, {animate:true, duration:0.7});
+  }
+  // else: queue / not-yet-located — no pin to pan to; the window still opens in place.
+
+  document.querySelectorAll('.vet-item').forEach(el => el.classList.remove('active'));
+  const si = document.querySelector(`.vet-item[data-i="${idx}"]`);
+  if (si) { si.classList.add('active'); si.scrollIntoView({block:'nearest',behavior:'smooth'}); }
+  activeIdx = idx;
+  document.getElementById('popup').classList.add('show');
+}
+
+function closePopup() {
+  document.getElementById('popup').classList.remove('show');
+  if (activeMarker) { activeMarker.getElement()?.classList.remove('marker-pulse'); activeMarker = null; }
+  document.querySelectorAll('.vet-item').forEach(el => el.classList.remove('active'));
+  activeIdx = null;
+}
+map.on('click', () => {
+  if (document.getElementById('popup').classList.contains('show')) closePopup();
+});
+
+const SUF = /^(Sr|Jr|II|III|IV|MD)\.?$/i;
+function sortKey(n){
+  if(/^unknown/i.test(n)) return n;   // "Unknown Soldier N" -> sorts under U, in order
+  return n.includes(',') ? n.split(',')[0].trim()
+    : (() => { const w=n.split(' '); return SUF.test(w[w.length-1])?(w[w.length-2]||w[0]):w[w.length-1]; })();
+}
+function displayName(n){
+  if(/^unknown/i.test(n)) return n;   // show as-is, don't reformat to "N, Unknown Soldier"
+  return n.includes(',') ? n
+    : (() => { const p=n.trim().split(/\s+/); return p.length>1 ? p[p.length-1]+', '+p.slice(0,-1).join(' ') : n; })();
+}
+
+function buildSidebar() {
+  const list = document.getElementById('vet-list');
+  const none = document.getElementById('no-results');
+  list.innerHTML = '';
+  const term = searchTerm.toLowerCase();
+  let shown = 0;
+  const sorted = veterans.map((v,i)=>({v,i})).sort((a,b)=>
+    sortKey(a.v.name).localeCompare(sortKey(b.v.name)) || a.v.name.localeCompare(b.v.name));
+  sorted.forEach(({v,i:idx}) => {
+    if (!passesFilters(v)) return;
+    if (term && !v.name.toLowerCase().includes(term) && !(v.branch||'').toLowerCase().includes(term)) return;
+    shown++;
+    const queued = !((v.narrative||'').trim());
+    const el = document.createElement('div');
+    el.className = 'vet-item' + (idx===activeIdx?' active':'') + (queued?' queued':'');
+    el.dataset.i = idx;
+    const q = queued ? `<div class="v-badge-q">◔ queue</div>` : '';
+    el.innerHTML = `<div class="v-sym" style="color:${eraColor(v.era)}">${branchSym(v.branch)}</div><div style="flex:1;min-width:0"><div class="v-name">${displayName(v.name)}</div><div class="v-era">${normEra(v.era)}</div></div>${q}`;
+    el.addEventListener('click', () => {
+      if (hasCoords(v)) { map.flyTo([v.lat, v.lng], 19, {duration:1.0}); setTimeout(() => openPopup(v, idx), 350); }
+      else { openPopup(v, idx); }
+    });
+    list.appendChild(el);
+  });
+  none.style.display = shown===0 ? 'block' : 'none';
+}
+
+function updateCount() {
+  const showing = veterans.filter(passesFilters).length;
+  const total = veterans.length;
+  const label = IS_QUEUE ? 'In the Research Queue' : 'Documented Veterans';
+  document.getElementById('vet-count').textContent =
+    showing === total ? `${total} ${label}` : `${showing} of ${total}`;
+}
+
+const eraCounts = {};
+veterans.forEach(v => { const e=normEra(v.era); eraCounts[e]=(eraCounts[e]||0)+1; });
+
+const filterDiv = document.getElementById('era-filters');
+ERA_ORDER.forEach(era => {
+  if (!eraCounts[era]) return;
+  const color = ERA_COLORS[era];
+  const short = era.replace(' Era','').replace('World War ','WW').replace('Korean War','Korea').replace('Spanish-American War','Span-Am');
+  const btn = document.createElement('button');
+  btn.className='era-btn'; btn.style.background=color;
+  btn.dataset.era=era; btn.textContent=short;
+  btn.addEventListener('click', () => {
+    if (btn.classList.contains('selected')) {
+      btn.classList.remove('selected');
+      activeEras.delete(era);
+      if (activeEras.size===0) {
+        ERA_ORDER.forEach(e => activeEras.add(e));
+        document.querySelectorAll('.era-btn').forEach(b => b.classList.remove('selected'));
+      }
+    } else {
+      const anySelected = document.querySelector('.era-btn.selected');
+      if (!anySelected) { activeEras = new Set([era]); }
+      else { activeEras.add(era); }
+      btn.classList.add('selected');
+    }
+    ERA_ORDER.forEach(e => {
+      const row = document.querySelector(`.leg-row[data-era="${e}"]`);
+      if (row) {
+        if (activeEras.size < ERA_ORDER.length && !activeEras.has(e)) row.classList.add('dimmed');
+        else row.classList.remove('dimmed');
+      }
+    });
+    buildMarkers(); buildSidebar(); updateCount();
+  });
+  filterDiv.appendChild(btn);
+});
+
+const legRows = document.getElementById('leg-rows');
+ERA_ORDER.forEach(era => {
+  if (!eraCounts[era]) return;
+  const row = document.createElement('div');
+  row.className='leg-row'; row.dataset.era=era;
+  row.innerHTML=`<div class="leg-sym" style="color:${ERA_COLORS[era]}">●</div><div class="leg-label">${era.replace(' Era','')}</div><div class="leg-count">${eraCounts[era]}</div>`;
+  row.addEventListener('click', () => document.querySelector(`.era-btn[data-era="${era}"]`)?.click());
+  legRows.appendChild(row);
+});
+
+// Distinctions — rendered in the legend box under Era, only those this site has.
+const distCounts = {};
+veterans.forEach(v => vetDistinctions(v).forEach(d => distCounts[d] = (distCounts[d]||0)+1));
+const legDistinct = document.getElementById('leg-distinct');
+if (Object.keys(distCounts).length) {
+  const head = document.createElement('h4');
+  head.className = 'dist-head'; head.textContent = 'Distinctions';
+  legDistinct.appendChild(head);
+  DISTINCTION_ORDER.forEach(d => {
+    if (!distCounts[d]) return;
+    const row = document.createElement('div');
+    row.className = 'leg-row dist'; row.dataset.dist = d;
+    row.style.setProperty('--dc', DISTINCTION_COLORS[d] || '#888');
+    row.innerHTML = `<span class="leg-dot"></span><div class="leg-label">${DISTINCTION_SHORT[d]||d}</div><div class="leg-count">${distCounts[d]}</div>`;
+    row.addEventListener('click', () => {
+      if (activeDistinction === d) { activeDistinction = null; row.classList.remove('on'); }
+      else {
+        activeDistinction = d;
+        document.querySelectorAll('.leg-row.dist').forEach(r => r.classList.remove('on'));
+        row.classList.add('on');
+      }
+      buildMarkers(); buildSidebar(); updateCount();
+    });
+    legDistinct.appendChild(row);
+  });
+}
+
+document.getElementById('search').addEventListener('input', e => { searchTerm = e.target.value; buildSidebar(); });
+document.getElementById('search').addEventListener('keydown', e => {
+  if (e.key==='Enter') {
+    const term = e.target.value.toLowerCase();
+    const idx = veterans.findIndex(v => v.name.toLowerCase().includes(term));
+    if (idx>=0) {
+      const match = veterans[idx];
+      if (hasCoords(match)) { map.flyTo([match.lat, match.lng], 19, {duration:1.0}); setTimeout(() => openPopup(match, idx), 350); }
+      else { openPopup(match, idx); }
+    }
+  }
+});
+
+updateCount();
+buildMarkers();
+buildSidebar();
+</script>
+</body>
+</html>
