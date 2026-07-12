@@ -29,14 +29,19 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   position:absolute; bottom:14px; left:8px;
   background:rgba(8,8,8,0.9); border:1px solid #3a3a3a;
   border-radius:4px; padding:8px 10px; z-index:800; min-width:124px;
+  max-height:calc(100vh - 120px); overflow-y:auto;
 }
 #legend h4 { font-size:0.52rem; text-transform:uppercase; letter-spacing:0.12em; color:#888; margin-bottom:6px; }
+#legend h4.dist-head { margin-top:9px; border-top:1px solid #2c2c2c; padding-top:8px; }
 .leg-row { display:flex; align-items:center; gap:6px; margin-bottom:4px; cursor:pointer; transition:opacity 0.15s; }
 .leg-row:hover { opacity:0.75; }
 .leg-sym { width:13px; text-align:center; font-size:0.66rem; }
+.leg-dot { width:8px; height:8px; border-radius:50%; margin:0 3px; box-shadow:0 0 4px var(--dc); background:var(--dc); flex-shrink:0; }
 .leg-label { font-size:0.58rem; color:#ccc; flex:1; }
 .leg-count { font-size:0.54rem; color:#ccc; }
 .leg-row.dimmed { opacity:0.28; }
+.leg-row.dist.on .leg-label { color:#fff; font-weight:bold; }
+.leg-row.dist.on { opacity:1; }
 
 /* SIDEBAR — right */
 #sidebar {
@@ -149,13 +154,13 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   <div id="legend">
     <h4>Era</h4>
     <div id="leg-rows"></div>
+    <div id="leg-distinct"></div>
   </div>
 
   <div id="sidebar">
     <div id="sidebar-top">
       <input id="search" type="text" placeholder="Search veterans…">
       <div id="era-filters"></div>
-      <div id="distinction-wrap"></div>
     </div>
     <div id="vet-list"></div>
     <div id="no-results">No veterans found</div>
@@ -457,33 +462,30 @@ ERA_ORDER.forEach(era => {
   legRows.appendChild(row);
 });
 
-// Distinction filter chips — built only from the distinctions this site actually has.
+// Distinctions — rendered in the legend box under Era, only those this site has.
 const distCounts = {};
 veterans.forEach(v => vetDistinctions(v).forEach(d => distCounts[d] = (distCounts[d]||0)+1));
-const distWrap = document.getElementById('distinction-wrap');
+const legDistinct = document.getElementById('leg-distinct');
 if (Object.keys(distCounts).length) {
-  const label = document.createElement('div');
-  label.className = 'dist-label'; label.textContent = 'Distinctions';
-  distWrap.appendChild(label);
-  const distDiv = document.createElement('div');
-  distDiv.id = 'distinction-filters';
-  distWrap.appendChild(distDiv);
+  const head = document.createElement('h4');
+  head.className = 'dist-head'; head.textContent = 'Distinctions';
+  legDistinct.appendChild(head);
   DISTINCTION_ORDER.forEach(d => {
     if (!distCounts[d]) return;
-    const btn = document.createElement('button');
-    btn.className = 'dist-btn'; btn.dataset.dist = d;
-    btn.style.setProperty('--dc', DISTINCTION_COLORS[d] || '#888');
-    btn.innerHTML = `<span class="dc-dot"></span>${DISTINCTION_SHORT[d]||d} <span class="dc-n">${distCounts[d]}</span>`;
-    btn.addEventListener('click', () => {
-      if (activeDistinction === d) { activeDistinction = null; btn.classList.remove('on'); }
+    const row = document.createElement('div');
+    row.className = 'leg-row dist'; row.dataset.dist = d;
+    row.style.setProperty('--dc', DISTINCTION_COLORS[d] || '#888');
+    row.innerHTML = `<span class="leg-dot"></span><div class="leg-label">${DISTINCTION_SHORT[d]||d}</div><div class="leg-count">${distCounts[d]}</div>`;
+    row.addEventListener('click', () => {
+      if (activeDistinction === d) { activeDistinction = null; row.classList.remove('on'); }
       else {
         activeDistinction = d;
-        document.querySelectorAll('.dist-btn').forEach(b => b.classList.remove('on'));
-        btn.classList.add('on');
+        document.querySelectorAll('.leg-row.dist').forEach(r => r.classList.remove('on'));
+        row.classList.add('on');
       }
       buildMarkers(); buildSidebar(); updateCount();
     });
-    distDiv.appendChild(btn);
+    legDistinct.appendChild(row);
   });
 }
 
