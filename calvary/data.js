@@ -998,7 +998,8 @@ window.VA = {
    "badges": [
     "KIA",
     "Distinguished Service Cross",
-    "Croix de Guerre"
+    "Croix de Guerre",
+    "Distinguished Service Medal"
    ],
    "status": "located",
    "source": ""
