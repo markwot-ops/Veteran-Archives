@@ -4525,6 +4525,2222 @@ window.VA = {
    ],
    "status": "located",
    "source": ""
+  },
+  {
+   "id": "fd_new_goller",
+   "name": "Goller",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206728,
+   "lng": -72.622864,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Goller%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_unknown_img_7557_medium",
+   "name": "Unknown — IMG_7557 Medium",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207739,
+   "lng": -72.623986,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/IMG_7557%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_mccorkindale",
+   "name": "Mccorkindale",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207019,
+   "lng": -72.624511,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/McCorkindale%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/mcCorkindale2%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/miffert%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/oscar%20t%3F%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/stanisewski%20f%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_mcclean",
+   "name": "Mcclean",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206478,
+   "lng": -72.622658,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Mcclean2%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Mclean2%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_thomas",
+   "name": "Thomas",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206994,
+   "lng": -72.623672,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Thomas%20%3F%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/delphia%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_adamson",
+   "name": "Adamson",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207336,
+   "lng": -72.624031,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/adamson%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/adamson%202%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_aiken_h",
+   "name": "Aiken, H.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207225,
+   "lng": -72.624039,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/aiken%20h%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/aiken%3F%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/peterhansel%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_albert",
+   "name": "Albert",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207253,
+   "lng": -72.623956,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/albert%3F%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_alden",
+   "name": "Alden",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207344,
+   "lng": -72.624481,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/alden%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/wallace%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_allyn",
+   "name": "Allyn",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207192,
+   "lng": -72.623956,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/allyn%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/neumani%3F%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_almond",
+   "name": "Almond",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207606,
+   "lng": -72.625022,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/almond.JPG",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_audette",
+   "name": "Audette",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207236,
+   "lng": -72.624992,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/audette%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/audette%202%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/robson%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/santiago%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/westbrook%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_baker",
+   "name": "Baker",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207767,
+   "lng": -72.624397,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/baker3.JPG",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_glover",
+   "name": "Glover",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206967,
+   "lng": -72.624811,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/glover%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/barnett2%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_batchelor_g",
+   "name": "Batchelor, G.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206997,
+   "lng": -72.624069,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/batchelor%20g%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/tardy%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_bilodeau",
+   "name": "Bilodeau",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206939,
+   "lng": -72.624564,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/bilodeau%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/camuse%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/daunheimer%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/pappas%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schwember%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_bluemer",
+   "name": "Bluemer",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207097,
+   "lng": -72.624053,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/bluemer%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cain%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/jackson%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lang%20J%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_bolduc",
+   "name": "Bolduc",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207039,
+   "lng": -72.6249,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/bolduc%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/bombard%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/pinkney%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/scribner%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/strachan%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_booker",
+   "name": "Booker",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207081,
+   "lng": -72.624594,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/booker%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/giroux%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/giroux%20j%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_brakey",
+   "name": "Brakey",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206936,
+   "lng": -72.622336,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/brakey2%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_burnett_w_b",
+   "name": "Burnett, W. B.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207028,
+   "lng": -72.624214,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/burnett%20w%20b%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/rekully%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sharpe%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_butterfield",
+   "name": "Butterfield",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207017,
+   "lng": -72.624603,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/butterfield%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/heinicke%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/herlihy%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/price%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/turner%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_campbell",
+   "name": "Campbell",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206894,
+   "lng": -72.624053,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/campbell%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/spillios%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_caudill",
+   "name": "Caudill",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207144,
+   "lng": -72.624436,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/caudill%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/harre%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/kemp%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/stathis%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_cieplik",
+   "name": "Cieplik",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207069,
+   "lng": -72.624756,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cieplik%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/desormier%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/higgins%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/morin%20h%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_clark",
+   "name": "Clark",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207092,
+   "lng": -72.624428,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/clark%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/kurtz3%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_cody",
+   "name": "Cody",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206967,
+   "lng": -72.624656,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cody%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cody%20p%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cronacher%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_constantelos",
+   "name": "Constantelos",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207128,
+   "lng": -72.624367,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/constantelos%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/duxbury%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/duxbury%20r%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/duxbury2%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/kroll%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_cook",
+   "name": "Cook",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206864,
+   "lng": -72.622186,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cook%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/unknown%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_coon",
+   "name": "Coon",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207183,
+   "lng": -72.624481,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/coon%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_cruz",
+   "name": "Cruz",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207131,
+   "lng": -72.624886,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cruz%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lawrence%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/millen%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_cunliffe",
+   "name": "Cunliffe",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207367,
+   "lng": -72.624283,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cunliffe%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_day",
+   "name": "Day",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207594,
+   "lng": -72.624214,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/day3.JPG",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_dinapoli",
+   "name": "Dinapoli",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207122,
+   "lng": -72.624261,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/dinapoli%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/mahoney%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/mahoney%20w%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/torlai%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/torlai%20f%202%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_ebert",
+   "name": "Ebert",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207294,
+   "lng": -72.624092,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/ebert%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/ebert%20l%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_elves",
+   "name": "Elves",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206925,
+   "lng": -72.623794,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/elves%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/elves%3F%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/nimchick%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/nimchick2%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_farmer",
+   "name": "Farmer",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207097,
+   "lng": -72.624503,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/farmer%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/owens%20d%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_fern",
+   "name": "Fern",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.208114,
+   "lng": -72.624756,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/fern2.JPG",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_fimbel",
+   "name": "Fimbel",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207144,
+   "lng": -72.624039,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/fimbel%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/fimbel%20e%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_fish",
+   "name": "Fish",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207108,
+   "lng": -72.624831,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/fish%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schmidt%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/shaw%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_fletcher_w_t",
+   "name": "Fletcher, W. T.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206931,
+   "lng": -72.623689,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/fletcher%20w%20t%20%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/scott%20j%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/white%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_frank",
+   "name": "Frank",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207178,
+   "lng": -72.623839,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/frank%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/mason%3F%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/steadward%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_garcia",
+   "name": "Garcia",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207011,
+   "lng": -72.625053,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/garcia%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_goodwin_j_c",
+   "name": "Goodwin, J. C.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206972,
+   "lng": -72.623047,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/goodwin%20J%20c%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/phillips%20g%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/warren2%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/warreni2%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_gould_p",
+   "name": "Gould, P.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206803,
+   "lng": -72.623558,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/gould%20P%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/gould2%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_gould_p_a",
+   "name": "Gould, P. A.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206836,
+   "lng": -72.623511,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/gould%20p%20a%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/vlohiotis%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/vlohiotis%20s%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_graham",
+   "name": "Graham",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207081,
+   "lng": -72.624939,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/graham%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/montmeny%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_grenert_a",
+   "name": "Grenert, A.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206986,
+   "lng": -72.623114,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/grenert%20a%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/grenert2%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/grenert3%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/phillips3%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/worth%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_griot",
+   "name": "Griot",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207047,
+   "lng": -72.623856,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/griot%3F%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/korontjis%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_guillerie",
+   "name": "Guillerie",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206742,
+   "lng": -72.622453,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/guillerie2%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/gullerie2%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_haczynski",
+   "name": "Haczynski",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207006,
+   "lng": -72.624328,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/haczynski%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/holland%20E%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hurley%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hurley%20r%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/rock%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_hammond",
+   "name": "Hammond",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207453,
+   "lng": -72.622931,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hammond%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_hill",
+   "name": "Hill",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206972,
+   "lng": -72.624244,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hill%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hill%20h%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hill2%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/huber%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_hills_j",
+   "name": "Hills, J.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207097,
+   "lng": -72.624122,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hills%20j%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/ley%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/millen%20j%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_holland",
+   "name": "Holland",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206972,
+   "lng": -72.624381,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/holland%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/malouin%20A%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/malouin%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/ryder%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/ryder%20f%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_hynd",
+   "name": "Hynd",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207139,
+   "lng": -72.624756,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hynd%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hynd%20d%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/marr%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_krausse",
+   "name": "Krausse",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207506,
+   "lng": -72.624878,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/krausse2.JPG",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_lance_c",
+   "name": "Lance, C.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207081,
+   "lng": -72.624322,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lance%20C%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lance%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/washington%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_lang",
+   "name": "Lang",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207339,
+   "lng": -72.624153,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lang%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lang%20c%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lang%20c2%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lang2%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/powers%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_langer",
+   "name": "Langer",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207244,
+   "lng": -72.624825,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/langer%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sykes%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_larose",
+   "name": "Larose",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207111,
+   "lng": -72.625014,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/larose%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_larounis",
+   "name": "Larounis",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206678,
+   "lng": -72.621847,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/larounis2%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_levreault",
+   "name": "Levreault",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206978,
+   "lng": -72.623786,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/levreault%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/murray%20w%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_lubold",
+   "name": "Lubold",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207081,
+   "lng": -72.624214,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lubold%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schiesske%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_lynch",
+   "name": "Lynch",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206314,
+   "lng": -72.623375,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lynch%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_macdonald_c",
+   "name": "Macdonald, C.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206986,
+   "lng": -72.624161,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/macdonald%20c%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/potter%20c%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/stewart%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_mcclean_2",
+   "name": "Mcclean",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206569,
+   "lng": -72.622581,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/mcclean3%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/mclean%203%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_schroeder",
+   "name": "Schroeder",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207122,
+   "lng": -72.623772,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schroeder%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/miller2%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_nicolas",
+   "name": "Nicolas",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206772,
+   "lng": -72.624589,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/nicolas%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_oliveras",
+   "name": "Oliveras",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206964,
+   "lng": -72.622278,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/oliveras%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_panopoulos_g",
+   "name": "Panopoulos, G.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206944,
+   "lng": -72.624489,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/panopoulos%20G%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_papianou",
+   "name": "Papianou",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206872,
+   "lng": -72.624739,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/papianou%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_pappas",
+   "name": "Pappas",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206786,
+   "lng": -72.623444,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/pappas3%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_parilla",
+   "name": "Parilla",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206947,
+   "lng": -72.624719,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/parilla%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_parr",
+   "name": "Parr",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206806,
+   "lng": -72.621986,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/parr%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_pete",
+   "name": "Pete",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206953,
+   "lng": -72.623978,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/pete%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/strong%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_phillips",
+   "name": "Phillips",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206931,
+   "lng": -72.623122,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/phillips%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/phillips2%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/worth%20w%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/worth2%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_pickup",
+   "name": "Pickup",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206978,
+   "lng": -72.623389,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/pickup%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/pickup%20g%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schoenfeldt%204%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schoenfeldt2%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schoenfeldt4%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_poniatowski",
+   "name": "Poniatowski",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207044,
+   "lng": -72.623925,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/poniatowski%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_renardson",
+   "name": "Renardson",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206969,
+   "lng": -72.623864,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/renardson%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_robinson",
+   "name": "Robinson",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207031,
+   "lng": -72.624831,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/robinson%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_root",
+   "name": "Root",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207431,
+   "lng": -72.624681,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/root%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_sander",
+   "name": "Sander",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206703,
+   "lng": -72.622064,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sander%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_sanders_j",
+   "name": "Sanders, J.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206464,
+   "lng": -72.621719,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sanders%20J%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sanders%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_sanders_j_2",
+   "name": "Sanders, J.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206586,
+   "lng": -72.621986,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sanders%20J2%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sanders2%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_schimke_d",
+   "name": "Schimke, D.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206136,
+   "lng": -72.623589,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schimke%20d%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_schimke_d_2",
+   "name": "Schimke, D.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.20625,
+   "lng": -72.623389,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schimke%20d2%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schimke3%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_schoenfeldt",
+   "name": "Schoenfeldt",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206989,
+   "lng": -72.623322,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schoenfeldt3%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_sibley",
+   "name": "Sibley",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206894,
+   "lng": -72.622672,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sibley%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_simpson_g_e",
+   "name": "Simpson, G. E.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206928,
+   "lng": -72.623344,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/simpson%20G%20E%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_simpson_g_jr",
+   "name": "Simpson, G. Jr",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206881,
+   "lng": -72.623353,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/simpson%20g%20jr%20%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/simson%20g%20Jr%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_smith_p_t",
+   "name": "Smith, P. T.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206756,
+   "lng": -72.623619,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/smith%20P%20T%20%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_stewart_n",
+   "name": "Stewart, N.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207256,
+   "lng": -72.623656,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/stewart%20n%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/stewart%20n2%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_sullivan_j",
+   "name": "Sullivan, J.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206619,
+   "lng": -72.622978,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sullivan%20j%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_sussengut",
+   "name": "Sussengut",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206814,
+   "lng": -72.621919,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sussengut%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_sykes",
+   "name": "Sykes",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207289,
+   "lng": -72.624869,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sykes2%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_taylor",
+   "name": "Taylor",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206681,
+   "lng": -72.622733,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/taylor%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/taylor%20s%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_taylor_j",
+   "name": "Taylor, J.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206733,
+   "lng": -72.622781,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/taylor%20j%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/taylor2%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_thompson_c",
+   "name": "Thompson, C.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207039,
+   "lng": -72.624014,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/thompson%20c%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_traouair_b",
+   "name": "Traouair, B.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207114,
+   "lng": -72.623094,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/traouair%20B%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/traouair%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/unk%20vet%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/unknown%20vet%207%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/unknown%20vet6%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_traquair",
+   "name": "Traquair",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207061,
+   "lng": -72.6231,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/traquair%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_tripp_e",
+   "name": "Tripp, E.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207036,
+   "lng": -72.623414,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/tripp%20e%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/tripp2%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_unknown_vet",
+   "name": "Unknown, Vet",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207247,
+   "lng": -72.624642,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/unknown%20vet5%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_utley",
+   "name": "Utley",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207114,
+   "lng": -72.623453,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/utley%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/utley%20R%20K%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/utley%20w%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/utley2%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_vlohiotis",
+   "name": "Vlohiotis",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206467,
+   "lng": -72.623419,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/vlohiotis2%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_williamson",
+   "name": "Williamson",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206653,
+   "lng": -72.622636,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/williamson%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/williamson2%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/williamson3%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "fd_new_wisniowski",
+   "name": "Wisniowski",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206881,
+   "lng": -72.621697,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/wisniowski2%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/wisnowski2%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD4-5"
   }
  ]
 };
