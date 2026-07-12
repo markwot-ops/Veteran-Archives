@@ -31,7 +31,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   border-radius:4px; padding:9px 11px; z-index:800;
   max-height:calc(100vh - 120px); overflow-y:auto; white-space:nowrap;
 }
-#legend h4 { font-size:0.52rem; text-transform:uppercase; letter-spacing:0.12em; color:#888; margin-bottom:7px; }
+#legend h4 { font-size:0.52rem; text-transform:uppercase; letter-spacing:0.12em; color:#ccc; margin-bottom:7px; }
 #legend h4.dist-head { margin-top:9px; border-top:1px solid #2c2c2c; padding-top:8px; }
 .leg-row { display:flex; align-items:center; gap:7px; margin-bottom:5px; cursor:pointer; transition:opacity 0.15s; }
 .leg-row:last-child { margin-bottom:0; }
@@ -44,8 +44,16 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 .leg-row.era-row.selected .leg-label { color:#fff; font-weight:bold; }
 .leg-row.dist.on .leg-label { color:#fff; font-weight:bold; }
 .leg-row.dist.on { opacity:1; }
-.leg-row.dist.on .leg-label { color:#fff; font-weight:bold; }
-.leg-row.dist.on { opacity:1; }
+@keyframes honorDotPulse {
+  0%,100% { text-shadow:0 0 3px currentColor; transform:scale(1); }
+  50%     { text-shadow:0 0 9px currentColor, 0 0 15px currentColor; transform:scale(1.35); }
+}
+.leg-row.dist.on .leg-sym { animation:honorDotPulse 1.1s ease-in-out infinite; display:inline-block; }
+@keyframes honorMarkerPulse {
+  0%,100% { box-shadow:0 0 6px 1px rgba(255,205,70,0.85); }
+  50%     { box-shadow:0 0 16px 5px rgba(255,220,95,1); }
+}
+.hpulse { animation:honorMarkerPulse 1.1s ease-in-out infinite; }
 
 /* SIDEBAR — right */
 #sidebar {
@@ -60,7 +68,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   border-radius:3px; margin-bottom:7px; outline:none;
 }
 #search:focus { border-color:#CD853F; }
-#search::placeholder { color:#555; }
+#search::placeholder { color:#888; }
 #era-filters { display:flex; flex-wrap:wrap; gap:3px; }
 .dist-label { width:100%; font-size:0.5rem; text-transform:uppercase; letter-spacing:0.1em; color:#8a8272; margin:9px 0 3px; }
 #distinction-filters { display:flex; flex-wrap:wrap; gap:3px; }
@@ -291,9 +299,10 @@ function buildMarkers() {
     const rim = dist
       ? 'border:2px solid #ffd757;box-shadow:0 0 7px 1px rgba(255,205,70,0.85);'
       : 'border:2px solid rgba(255,255,255,0.65);box-shadow:0 1px 5px rgba(0,0,0,0.8);';
+    const pulseCls = activeDistinction ? 'hpulse' : '';
     const icon = L.divIcon({
       className:'',
-      html:`<div style="width:26px;height:26px;border-radius:50%;background:${color};${rim}display:flex;align-items:center;justify-content:center;font-size:11px;cursor:pointer;">${sym}</div>`,
+      html:`<div class="${pulseCls}" style="width:26px;height:26px;border-radius:50%;background:${color};${rim}display:flex;align-items:center;justify-content:center;font-size:11px;cursor:pointer;">${sym}</div>`,
       iconSize:[26,26], iconAnchor:[13,13]
     });
     const m = L.marker([v.lat, v.lng], {icon});
