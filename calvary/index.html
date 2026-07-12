@@ -40,6 +40,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 .leg-label { font-size:0.58rem; color:#ccc; flex:1; }
 .leg-count { font-size:0.54rem; color:#ccc; }
 .leg-row.dimmed { opacity:0.28; }
+.leg-row.era-row.selected .leg-label { color:#fff; font-weight:bold; }
 .leg-row.dist.on .leg-label { color:#fff; font-weight:bold; }
 .leg-row.dist.on { opacity:1; }
 
@@ -74,6 +75,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   opacity:0.8;
 }
 .era-btn.selected { opacity:1; border-color:rgba(255,255,255,0.9); filter:brightness(1.3); }
+.era-btn .eb-n { opacity:0.85; font-size:0.46rem; margin-left:1px; }
 
 #vet-list { overflow-y:auto; flex:1; padding:3px 0; }
 #vet-list::-webkit-scrollbar { width:4px; }
@@ -152,8 +154,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   <div id="map"></div>
 
   <div id="legend">
-    <h4>Era</h4>
-    <div id="leg-rows"></div>
+    <h4>Distinctions</h4>
     <div id="leg-distinct"></div>
   </div>
 
@@ -418,58 +419,35 @@ function updateCount() {
 const eraCounts = {};
 veterans.forEach(v => { const e=normEra(v.era); eraCounts[e]=(eraCounts[e]||0)+1; });
 
+// Era filters (with counts) live above the names in the sidebar.
 const filterDiv = document.getElementById('era-filters');
 ERA_ORDER.forEach(era => {
   if (!eraCounts[era]) return;
-  const color = ERA_COLORS[era];
   const short = era.replace(' Era','').replace('World War ','WW').replace('Korean War','Korea').replace('Spanish-American War','Span-Am');
   const btn = document.createElement('button');
-  btn.className='era-btn'; btn.style.background=color;
-  btn.dataset.era=era; btn.textContent=short;
+  btn.className='era-btn'; btn.style.background=ERA_COLORS[era]; btn.dataset.era=era;
+  btn.innerHTML=`${short} <span class="eb-n">${eraCounts[era]}</span>`;
   btn.addEventListener('click', () => {
     if (btn.classList.contains('selected')) {
-      btn.classList.remove('selected');
-      activeEras.delete(era);
-      if (activeEras.size===0) {
-        ERA_ORDER.forEach(e => activeEras.add(e));
-        document.querySelectorAll('.era-btn').forEach(b => b.classList.remove('selected'));
-      }
+      btn.classList.remove('selected'); activeEras.delete(era);
+      if (activeEras.size===0){ ERA_ORDER.forEach(e=>activeEras.add(e)); document.querySelectorAll('.era-btn').forEach(b=>b.classList.remove('selected')); }
     } else {
-      const anySelected = document.querySelector('.era-btn.selected');
-      if (!anySelected) { activeEras = new Set([era]); }
-      else { activeEras.add(era); }
+      const any=document.querySelector('.era-btn.selected');
+      if(!any){ activeEras=new Set([era]); } else { activeEras.add(era); }
       btn.classList.add('selected');
     }
-    ERA_ORDER.forEach(e => {
-      const row = document.querySelector(`.leg-row[data-era="${e}"]`);
-      if (row) {
-        if (activeEras.size < ERA_ORDER.length && !activeEras.has(e)) row.classList.add('dimmed');
-        else row.classList.remove('dimmed');
-      }
-    });
     buildMarkers(); buildSidebar(); updateCount();
   });
   filterDiv.appendChild(btn);
 });
 
-const legRows = document.getElementById('leg-rows');
-ERA_ORDER.forEach(era => {
-  if (!eraCounts[era]) return;
-  const row = document.createElement('div');
-  row.className='leg-row'; row.dataset.era=era;
-  row.innerHTML=`<div class="leg-sym" style="color:${ERA_COLORS[era]}">●</div><div class="leg-label">${era.replace(' Era','')}</div><div class="leg-count">${eraCounts[era]}</div>`;
-  row.addEventListener('click', () => document.querySelector(`.era-btn[data-era="${era}"]`)?.click());
-  legRows.appendChild(row);
-});
-
-// Distinctions — rendered in the legend box under Era, only those this site has.
+// Distinctions — fill the bottom-left box; hide it entirely if this site has none.
 const distCounts = {};
 veterans.forEach(v => vetDistinctions(v).forEach(d => distCounts[d] = (distCounts[d]||0)+1));
 const legDistinct = document.getElementById('leg-distinct');
-if (Object.keys(distCounts).length) {
-  const head = document.createElement('h4');
-  head.className = 'dist-head'; head.textContent = 'Distinctions';
-  legDistinct.appendChild(head);
+if (!Object.keys(distCounts).length) {
+  document.getElementById('legend').style.display = 'none';
+} else {
   DISTINCTION_ORDER.forEach(d => {
     if (!distCounts[d]) return;
     const row = document.createElement('div');
