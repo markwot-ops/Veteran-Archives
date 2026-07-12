@@ -1,9 +1,4 @@
-
- "veterans": [
-  {
-   "id": "arble_clair_e_af_korea",
-   "name": "Arble, Clair E.",
-   window.VA = {
+window.VA = {
  "site": {
   "name": "Forestdale Cemetery",
   "title": "Forestdale Cemetery Veterans Memorial",
@@ -14,7 +9,12 @@
    -72.62321
   ],
   "zoom": 17
- },"era": "Korean War",
+ },
+ "veterans": [
+  {
+   "id": "arble_clair_e_af_korea",
+   "name": "Arble, Clair E.",
+   "era": "Korean War",
    "branch": "U.S. Air Force",
    "branchLabel": "Air Force · Korea",
    "lat": 42.207306,
