@@ -28,18 +28,22 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 #legend {
   position:absolute; bottom:14px; left:8px;
   background:rgba(8,8,8,0.9); border:1px solid #3a3a3a;
-  border-radius:4px; padding:8px 10px; z-index:800; min-width:124px;
-  max-height:calc(100vh - 120px); overflow-y:auto;
+  border-radius:4px; padding:9px 11px; z-index:800;
+  max-height:calc(100vh - 120px); overflow-y:auto; white-space:nowrap;
 }
-#legend h4 { font-size:0.52rem; text-transform:uppercase; letter-spacing:0.12em; color:#888; margin-bottom:6px; }
+#legend h4 { font-size:0.52rem; text-transform:uppercase; letter-spacing:0.12em; color:#888; margin-bottom:7px; }
 #legend h4.dist-head { margin-top:9px; border-top:1px solid #2c2c2c; padding-top:8px; }
-.leg-row { display:flex; align-items:center; gap:6px; margin-bottom:4px; cursor:pointer; transition:opacity 0.15s; }
+.leg-row { display:flex; align-items:center; gap:7px; margin-bottom:5px; cursor:pointer; transition:opacity 0.15s; }
+.leg-row:last-child { margin-bottom:0; }
 .leg-row:hover { opacity:0.75; }
 .leg-sym { width:13px; text-align:center; font-size:0.66rem; }
-.leg-dot { width:8px; height:8px; border-radius:50%; margin:0 3px; box-shadow:0 0 4px var(--dc); background:var(--dc); flex-shrink:0; }
-.leg-label { font-size:0.58rem; color:#ccc; flex:1; }
-.leg-count { font-size:0.54rem; color:#ccc; }
+.leg-dot { width:9px; height:9px; border-radius:50%; box-shadow:0 0 4px var(--dc); background:var(--dc); flex-shrink:0; }
+.leg-label { font-size:0.6rem; color:#ccc; flex:1; padding-right:10px; }
+.leg-count { font-size:0.56rem; color:#9a9a9a; min-width:18px; text-align:right; }
 .leg-row.dimmed { opacity:0.28; }
+.leg-row.era-row.selected .leg-label { color:#fff; font-weight:bold; }
+.leg-row.dist.on .leg-label { color:#fff; font-weight:bold; }
+.leg-row.dist.on { opacity:1; }
 .leg-row.dist.on .leg-label { color:#fff; font-weight:bold; }
 .leg-row.dist.on { opacity:1; }
 
@@ -74,6 +78,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   opacity:0.8;
 }
 .era-btn.selected { opacity:1; border-color:rgba(255,255,255,0.9); filter:brightness(1.3); }
+.era-btn .eb-n { opacity:0.85; font-size:0.46rem; margin-left:1px; }
 
 #vet-list { overflow-y:auto; flex:1; padding:3px 0; }
 #vet-list::-webkit-scrollbar { width:4px; }
@@ -152,8 +157,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   <div id="map"></div>
 
   <div id="legend">
-    <h4>Era</h4>
-    <div id="leg-rows"></div>
+    <h4>Honors</h4>
     <div id="leg-distinct"></div>
   </div>
 
@@ -205,10 +209,11 @@ const ERA_COLORS = {
   'World War II':'#2E8B57',
   'Korean War':'#9370DB',
   'Vietnam':'#DC143C',
+  'Cold War':'#5f9ea0',
   'Peacetime Navy (1899–1916)':'#2a6496',
   'Unknown Era':'#666',
 };
-const ERA_ORDER = ['Civil War Era','Spanish-American War','Peacetime Navy (1899–1916)','World War I','World War II','Korean War','Vietnam','Unknown Era'];
+const ERA_ORDER = ['Civil War Era','Spanish-American War','Peacetime Navy (1899–1916)','World War I','World War II','Korean War','Vietnam','Cold War','Unknown Era'];
 
 function normEra(raw) {
   if (!raw) return 'Unknown Era';
@@ -220,6 +225,7 @@ function normEra(raw) {
   if (s.includes('World War II')) return 'World War II';
   if (s.includes('World War I')) return 'World War I';
   if (s.includes('Korean')) return 'Korean War';
+  if (s.includes('Cold War')) return 'Cold War';
   return 'Unknown Era';
 }
 function eraColor(raw) { return ERA_COLORS[normEra(raw)] || '#666'; }
@@ -261,13 +267,13 @@ let searchTerm = '';
 let activeMarker = null;
 
 // Major distinctions, most prestigious first. Each cemetery builds chips from whichever it actually has.
-const DISTINCTION_ORDER = ['Medal of Honor','Distinguished Service Cross','Distinguished Service Medal','Silver Star','Bronze Star','Air Medal','Purple Heart','Croix de Guerre','KIA'];
+const DISTINCTION_ORDER = ['Medal of Honor','KIA','Purple Heart','Croix de Guerre','Distinguished Service Cross','Distinguished Service Medal','Air Medal','Silver Star','Bronze Star'];
 const DISTINCTION_COLORS = {
   'Medal of Honor':'#e6c14a','Distinguished Service Cross':'#9b7ede','Distinguished Service Medal':'#7c6fb0',
   'Silver Star':'#b9c0c7','Bronze Star':'#c99a3a','Air Medal':'#4a9be0','Purple Heart':'#a24bb3',
   'Croix de Guerre':'#4e8f63','KIA':'#c0392b'
 };
-const DISTINCTION_SHORT = {'Distinguished Service Cross':'DSC','Distinguished Service Medal':'DSM'};
+const DISTINCTION_SHORT = {};  // spell every distinction out in full
 function canonBadge(b){ const low=(b||'').toLowerCase(); for(const n of DISTINCTION_ORDER){ if(n.toLowerCase()===low) return n; } return null; }
 function vetDistinctions(v){ return (v.badges||[]).map(canonBadge).filter(Boolean); }
 function isDistinguished(v){ return vetDistinctions(v).length>0; }
@@ -418,58 +424,35 @@ function updateCount() {
 const eraCounts = {};
 veterans.forEach(v => { const e=normEra(v.era); eraCounts[e]=(eraCounts[e]||0)+1; });
 
+// Era filters (with counts) live above the names in the sidebar.
 const filterDiv = document.getElementById('era-filters');
 ERA_ORDER.forEach(era => {
   if (!eraCounts[era]) return;
-  const color = ERA_COLORS[era];
   const short = era.replace(' Era','').replace('World War ','WW').replace('Korean War','Korea').replace('Spanish-American War','Span-Am');
   const btn = document.createElement('button');
-  btn.className='era-btn'; btn.style.background=color;
-  btn.dataset.era=era; btn.textContent=short;
+  btn.className='era-btn'; btn.style.background=ERA_COLORS[era]; btn.dataset.era=era;
+  btn.innerHTML=`${short} <span class="eb-n">${eraCounts[era]}</span>`;
   btn.addEventListener('click', () => {
     if (btn.classList.contains('selected')) {
-      btn.classList.remove('selected');
-      activeEras.delete(era);
-      if (activeEras.size===0) {
-        ERA_ORDER.forEach(e => activeEras.add(e));
-        document.querySelectorAll('.era-btn').forEach(b => b.classList.remove('selected'));
-      }
+      btn.classList.remove('selected'); activeEras.delete(era);
+      if (activeEras.size===0){ ERA_ORDER.forEach(e=>activeEras.add(e)); document.querySelectorAll('.era-btn').forEach(b=>b.classList.remove('selected')); }
     } else {
-      const anySelected = document.querySelector('.era-btn.selected');
-      if (!anySelected) { activeEras = new Set([era]); }
-      else { activeEras.add(era); }
+      const any=document.querySelector('.era-btn.selected');
+      if(!any){ activeEras=new Set([era]); } else { activeEras.add(era); }
       btn.classList.add('selected');
     }
-    ERA_ORDER.forEach(e => {
-      const row = document.querySelector(`.leg-row[data-era="${e}"]`);
-      if (row) {
-        if (activeEras.size < ERA_ORDER.length && !activeEras.has(e)) row.classList.add('dimmed');
-        else row.classList.remove('dimmed');
-      }
-    });
     buildMarkers(); buildSidebar(); updateCount();
   });
   filterDiv.appendChild(btn);
 });
 
-const legRows = document.getElementById('leg-rows');
-ERA_ORDER.forEach(era => {
-  if (!eraCounts[era]) return;
-  const row = document.createElement('div');
-  row.className='leg-row'; row.dataset.era=era;
-  row.innerHTML=`<div class="leg-sym" style="color:${ERA_COLORS[era]}">●</div><div class="leg-label">${era.replace(' Era','')}</div><div class="leg-count">${eraCounts[era]}</div>`;
-  row.addEventListener('click', () => document.querySelector(`.era-btn[data-era="${era}"]`)?.click());
-  legRows.appendChild(row);
-});
-
-// Distinctions — rendered in the legend box under Era, only those this site has.
+// Distinctions — fill the bottom-left box; hide it entirely if this site has none.
 const distCounts = {};
 veterans.forEach(v => vetDistinctions(v).forEach(d => distCounts[d] = (distCounts[d]||0)+1));
 const legDistinct = document.getElementById('leg-distinct');
-if (Object.keys(distCounts).length) {
-  const head = document.createElement('h4');
-  head.className = 'dist-head'; head.textContent = 'Distinctions';
-  legDistinct.appendChild(head);
+if (!Object.keys(distCounts).length) {
+  document.getElementById('legend').style.display = 'none';
+} else {
   DISTINCTION_ORDER.forEach(d => {
     if (!distCounts[d]) return;
     const row = document.createElement('div');
