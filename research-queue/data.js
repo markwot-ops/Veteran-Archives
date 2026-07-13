@@ -6664,7 +6664,7 @@ window.VA = {
    "lng": null,
    "photo": "",
    "extraPhotos": [],
-   "narrative": "",
+   "narrative": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. Dr. William J. Curry was commissioned a major in the United States Public Health Service on December 4, 1918, and stationed at Bridgeport, Connecticut, as assistant surgeon and consulting hygienist. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-officers"
@@ -6679,7 +6679,7 @@ window.VA = {
    "lng": null,
    "photo": "",
    "extraPhotos": [],
-   "narrative": "",
+   "narrative": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. Dr. John J. Morton entered the service in 1915 as a first lieutenant. In May 1917 he went overseas with the Harvard Hospital Unit and served in a Red Cross hospital that the Germans bombed from the air. He was promoted to captain in France in February 1918, and later to major. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-officers"
@@ -6694,7 +6694,7 @@ window.VA = {
    "lng": null,
    "photo": "",
    "extraPhotos": [],
-   "narrative": "",
+   "narrative": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. Earl C. Popp was commissioned a first lieutenant on September 21, 1917, and stationed at the camp at the American University in Washington, D.C. In October 1917 he was the honor man in the field-training section for gas defense, and was a member of the first overseas detachment that November, attached to the divisional staff. In May 1918 he was wounded and shell-shocked. He was commissioned a captain in France on October 7, 1918, and later promoted to major. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-officers"
@@ -6709,7 +6709,7 @@ window.VA = {
    "lng": null,
    "photo": "",
    "extraPhotos": [],
-   "narrative": "",
+   "narrative": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. George H. Richter was commissioned a major at Washington in September 1918, and named to the War Department's board of chemical engineers in charge of gas warfare and chemical development. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-officers"
@@ -6724,7 +6724,7 @@ window.VA = {
    "lng": null,
    "photo": "",
    "extraPhotos": [],
-   "narrative": "",
+   "narrative": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. John L. Riley was commissioned a major in September 1918 and placed in charge of General Hospital No. 6 at Fort McPherson, Georgia, doing physical reconstruction work. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-officers"
@@ -6739,7 +6739,7 @@ window.VA = {
    "lng": null,
    "photo": "",
    "extraPhotos": [],
-   "narrative": "",
+   "narrative": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. Anthony O. Adams entered the service in September 1908 and did duty on the Mexican border and at posts in Texas, Louisiana, Missouri, Minnesota, and Arizona, earning many marksman medals. He was commissioned a first lieutenant at Fort Crook, Nebraska, and assigned as an instructor in machine gunnery; he was later transferred to Camp Funston, Kansas, for overseas duty, but was held there by the signing of the Armistice. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-officers"
@@ -6754,7 +6754,7 @@ window.VA = {
    "lng": null,
    "photo": "",
    "extraPhotos": [],
-   "narrative": "",
+   "narrative": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. Dr. Fred H. Allen was commissioned a captain on July 13, 1918, and sent to Camp Greenleaf, Fort Oglethorpe, Georgia. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-officers"
@@ -6769,7 +6769,7 @@ window.VA = {
    "lng": null,
    "photo": "",
    "extraPhotos": [],
-   "narrative": "",
+   "narrative": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. Charles T. Beaupré enlisted in Company D, 2nd Massachusetts Infantry, and went to the Mexican border in 1916. He went overseas as a first sergeant in Company D, 104th Infantry, but was taken ill in England in October 1917. He attended Officers' Training School in France, and after a four-month course received a commission as second lieutenant in July 1918, standing fourth on a list of five hundred and fifty candidates. He was promoted to first lieutenant and then to captain. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-officers"
@@ -6784,7 +6784,7 @@ window.VA = {
    "lng": null,
    "photo": "",
    "extraPhotos": [],
-   "narrative": "",
+   "narrative": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. Dr. D. I. Beaupré was commissioned a first lieutenant on August 11, 1917, and assigned to Fort Benjamin Harrison, Indiana. In February 1918 he was transferred to the Post Hospital of the Signal Aviation Corps at Belleville, Illinois. On November 25, 1918, he was commissioned a captain, assigned to the 137th Aero Squadron while in France. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-officers"
@@ -6799,7 +6799,7 @@ window.VA = {
    "lng": null,
    "photo": "",
    "extraPhotos": [],
-   "narrative": "",
+   "narrative": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. Dr. Joseph Brindamour was commissioned a captain on October 29, 1918, and stationed at Camp Greenleaf, Fort Oglethorpe, Georgia. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-officers"
@@ -6814,7 +6814,7 @@ window.VA = {
    "lng": null,
    "photo": "",
    "extraPhotos": [],
-   "narrative": "",
+   "narrative": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. Gerald J. Callahan entered the Plattsburg training camp in May 1917 and was recommended for a second course, entering again on September 27, 1917. He was commissioned a first lieutenant on November 26, 1917, and assigned to Camp Stanley, Texas, then transferred to Camp Wheeler, Georgia, where he trained candidates for officers' training camp. He was promoted to captain. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-officers"
@@ -6829,7 +6829,7 @@ window.VA = {
    "lng": null,
    "photo": "",
    "extraPhotos": [],
-   "narrative": "",
+   "narrative": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. Dr. J. J. Carroll was commissioned a first lieutenant on September 25, 1918, in the United States Public Health Service, and stationed at Boston as state director of venereal diseases. He was promoted to captain. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-officers"
@@ -6844,7 +6844,7 @@ window.VA = {
    "lng": null,
    "photo": "",
    "extraPhotos": [],
-   "narrative": "",
+   "narrative": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. Dr. Thomas E. Cavanaugh was commissioned a captain on October 3, 1918, and stationed at Camp Greenleaf, Fort Oglethorpe, Georgia, then transferred to Hospital No. 29 at Fort Snelling, Minnesota. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-officers"
@@ -6859,7 +6859,7 @@ window.VA = {
    "lng": null,
    "photo": "",
    "extraPhotos": [],
-   "narrative": "",
+   "narrative": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. Dr. Robert E. Cleary was commissioned a junior lieutenant in the Naval Reserves, Coast Defense, in November 1917, and stationed at the Charlestown Navy Yard in Boston. Transferred overseas on September 21, 1918, he went first to London and then to Brest, France, and was commissioned a captain in the Marine Corps. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-officers"
@@ -6874,7 +6874,7 @@ window.VA = {
    "lng": null,
    "photo": "",
    "extraPhotos": [],
-   "narrative": "",
+   "narrative": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. Dr. Stanley C. Cox was commissioned a captain on July 2, 1918, and assigned to Roosevelt Hospital, New York, then transferred to Camp Gordon, Georgia, and later to Hospital No. 30 at Camp Greene, North Carolina. He arrived in France in November 1918 and was assigned to Evacuation Hospital No. 30 at Le Mans. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-officers"
@@ -6889,7 +6889,7 @@ window.VA = {
    "lng": null,
    "photo": "",
    "extraPhotos": [],
-   "narrative": "",
+   "narrative": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. Dr. Wilfred G. Drouin returned from France in March 1917 after eighteen months of active service in the Edith Cavell hospital in Paris. He had enlisted with the French Medical Corps and worked for weeks in underground hospitals near the front — at Bar-le-Duc near Verdun, and in the Somme region — and was at Verdun when Fort Vaux was captured. After receiving his commission from the United States Government on June 12, 1918, he was ordered to report to Camp Yaphank, Long Island. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-officers"
@@ -6904,7 +6904,7 @@ window.VA = {
    "lng": null,
    "photo": "",
    "extraPhotos": [],
-   "narrative": "",
+   "narrative": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. Herbert L. Frink entered Plattsburg on May 12, 1917, and was commissioned a second lieutenant on August 10, 1917, assigned to Camp Devens in the 1st Battalion, 2nd Company, Depot Brigade. He was commissioned a first lieutenant on April 5, 1918, and promoted to captain at Camp Devens. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-officers"
@@ -6919,7 +6919,7 @@ window.VA = {
    "lng": null,
    "photo": "",
    "extraPhotos": [],
-   "narrative": "",
+   "narrative": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. Donald R. Green entered Plattsburg on May 12, 1917, and was commissioned a first lieutenant of cavalry on August 10, 1917, later assigned to the 6th Field Artillery, 1st Division. He went overseas with Pershing and fought in the battle of the Marne on the Soissons front. He was commissioned a captain on September 14, 1918, and transferred to Fort Sill, Oklahoma, to attend the school of gunnery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-officers"
@@ -6934,7 +6934,7 @@ window.VA = {
    "lng": null,
    "photo": "",
    "extraPhotos": [],
-   "narrative": "",
+   "narrative": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. John Hazen entered Plattsburg on May 12, 1917, and was commissioned a second lieutenant on August 10, 1917. He was promoted to first lieutenant and later to captain, and stationed at Washington, D.C. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-officers"
