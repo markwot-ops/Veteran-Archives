@@ -5397,7 +5397,7 @@ window.VA = {
    "lng": null,
    "photo": "",
    "extraPhotos": [],
-   "narrative": "Reginald Turner of Holyoke served with Company E of the First United States Engineers. Attached to the 18th Infantry during its time at the front in November 1917, his detachment rebuilt a front-line trench and worked on through a gas alarm with a coolness that won the commendation of the officers present. He was cited by name for that willing, able service under difficult conditions. What became of Turner afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Reginald Turner was born in Holyoke on July 24, 1893, in the city that would hold him from his first day to his last. He was twenty-four when America entered the Great War, and he became a soldier in the United States Army, serving with Company E of the First U.S. Engineers — the men who built and repaired the trenches, roads, and bridges that kept an army moving, often working in the open within reach of enemy guns. Turner was among the earliest American troops to reach France. In November 1917, while most of the Army was still crossing the ocean, he was already at the front, his detachment attached to the 18th Infantry. The men were rebuilding a forward trench when a gas alarm broke over them; they masked and carried on without breaking, and that coolness under threat earned them the commendation of the officers present. Turner was named among them. Upon discharge he returned home to Holyoke and lived out his years there, dying October 29, 1945, at the age of fifty-two. He rests at Forestdale Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-heroes"
@@ -5419,7 +5419,7 @@ window.VA = {
   },
   {
    "id": "zack_connor_george_s_l",
-   "name": "Connor, George S. L.",
+   "name": "Connor, Rev. George S. L.",
    "era": "World War I",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War I",
@@ -5427,8 +5427,10 @@ window.VA = {
    "lng": null,
    "photo": "",
    "extraPhotos": [],
-   "narrative": "The Reverend George S. L. Connor of Holyoke served as senior corps chaplain of the 3rd Army — and was the classmate and close friend of Holyoke's own Chaplain William Davitt, whom he laid to rest in France. His work under fire was called an inspiration to the men of the command, and he was cited for it by the division commander. What became of Connor in his later ministry has not yet been traced here; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
+   "narrative": "George S. L. Connor was a Holyoke boy who first made his name on the playing fields of Holy Cross — captain of the football team twice, captain of the basketball team, the only athlete in the college's history to captain three of its teams, graduating with the class of 1907 alongside his chum and teammate William Davitt of Holyoke. Ordained a priest, he was serving the Diocese of Springfield when the country called: first to the Mexican border in 1917 as chaplain of the 2nd Massachusetts Regiment, then commissioned in the United States Army and sent to France with the 26th 'Yankee' Division. He rose to senior chaplain of the 32nd Division and finally senior chaplain of the Third Army Corps, and his work under fire — carried out where the men were, not behind them — earned him France's Croix de Guerre for bravery in action. The war asked one more thing of him: on the morning of the Armistice his lifelong friend Chaplain Davitt was killed by a shell, the last American officer to die in the war, and it was Father Connor who read the burial service over him in France. He came home to the Diocese of Springfield, answered the call again in the Second World War as Vicar Delegate of the Military Ordinariate, and finished his ministry as Monsignor and Vicar General of the Springfield diocese. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Croix de Guerre"
+   ],
    "status": "queue",
    "source": "zack-heroes"
   },
