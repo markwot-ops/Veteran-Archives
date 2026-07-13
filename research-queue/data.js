@@ -5933,12 +5933,17 @@ window.VA = {
    "id": "zack_roster_foote_alfred",
    "name": "Foote, Alfred F.",
    "era": "World War I",
-   "branch": "",
+   "branch": "Army",
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "photo": "",
-   "extraPhotos": [],
+   "extraPhotos": [
+    {
+     "caption": "📜 Lt. Col. Foote's Homecoming Tribute (1919)",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/foote.html"
+    }
+   ],
    "narrative": "",
    "badges": [],
    "status": "queue",
