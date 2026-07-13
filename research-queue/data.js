@@ -6608,6 +6608,46 @@ window.VA = {
    "badges": [],
    "status": "queue",
    "source": "zack-roster-placeholder"
+  },
+  {
+   "id": "zack_macmenigall_roy",
+   "name": "MacMenigall, Roy",
+   "era": "World War I",
+   "branch": "Army",
+   "branchLabel": "U.S. Army – World War I",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [
+    {
+     "caption": "📜 Corporal MacMenigall's Story — Chateau-Thierry & Capture",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/macmenigall.html"
+    }
+   ],
+   "narrative": "",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-hero"
+  },
+  {
+   "id": "zack_flynn_raymond",
+   "name": "Flynn, Raymond",
+   "era": "World War I",
+   "branch": "Army",
+   "branchLabel": "U.S. Army – World War I",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [
+    {
+     "caption": "📜 The Lost Battalion — his firsthand account",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/lost-battalion.html"
+    }
+   ],
+   "narrative": "",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-hero"
   }
  ]
 };
