@@ -5113,7 +5113,12 @@ window.VA = {
    "lat": null,
    "lng": null,
    "photo": "",
-   "extraPhotos": [],
+   "extraPhotos": [
+    {
+     "caption": "📜 The Mayor of Joinville's Testimony (1918)",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/ryan-joinville.html"
+    }
+   ],
    "narrative": "William P. Ryan went to the First World War as a Holyoke man and a physician, commissioned a major in the Army's Medical Reserve Corps — his war fought not with a weapon but with the skill to keep other men alive. In July 1918 he was passing through the French town of Joinville when German aircraft came over it, killing five and wounding seventeen, many of them women and children. Ryan did not take shelter. He went into the streets under the bombardment to reach the wounded, cleared the downed electrical wires tangled across the railway station, and made his way to the military hospital, where he operated through the night on soldiers and civilians alike, leaving only when he was certain he was no longer needed. The mayor of Joinville set the town's gratitude down in writing. For this the Army awarded Major Ryan the Distinguished Service Medal. What became of him afterward — his practice, his years back home — has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "Distinguished Service Medal"
