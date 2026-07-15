@@ -28,15 +28,32 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 #legend {
   position:absolute; bottom:14px; left:8px;
   background:rgba(8,8,8,0.9); border:1px solid #3a3a3a;
-  border-radius:4px; padding:8px 10px; z-index:800; min-width:124px;
+  border-radius:4px; padding:9px 11px; z-index:800;
+  max-height:calc(100vh - 120px); overflow-y:auto; white-space:nowrap;
 }
-#legend h4 { font-size:0.52rem; text-transform:uppercase; letter-spacing:0.12em; color:#888; margin-bottom:6px; }
-.leg-row { display:flex; align-items:center; gap:6px; margin-bottom:4px; cursor:pointer; transition:opacity 0.15s; }
+#legend h4 { font-size:0.52rem; text-transform:uppercase; letter-spacing:0.12em; color:#ccc; margin-bottom:7px; }
+#legend h4.dist-head { margin-top:9px; border-top:1px solid #2c2c2c; padding-top:8px; }
+.leg-row { display:flex; align-items:center; gap:7px; margin-bottom:5px; cursor:pointer; transition:opacity 0.15s; }
+.leg-row:last-child { margin-bottom:0; }
 .leg-row:hover { opacity:0.75; }
 .leg-sym { width:13px; text-align:center; font-size:0.66rem; }
-.leg-label { font-size:0.58rem; color:#ccc; flex:1; }
-.leg-count { font-size:0.54rem; color:#ccc; }
+.leg-dot { width:7px; height:7px; border-radius:50%; box-shadow:0 0 4px var(--dc); background:var(--dc); flex-shrink:0; }
+.leg-label { font-size:0.6rem; color:#d4c9b8; flex:1; padding-right:10px; }
+.leg-count { font-size:0.56rem; color:#d4c9b8; min-width:18px; text-align:right; }
 .leg-row.dimmed { opacity:0.28; }
+.leg-row.era-row.selected .leg-label { color:#fff; font-weight:bold; }
+.leg-row.dist.on .leg-label { color:#fff; font-weight:bold; }
+.leg-row.dist.on { opacity:1; }
+@keyframes honorDotPulse {
+  0%,100% { text-shadow:0 0 3px currentColor; transform:scale(1); }
+  50%     { text-shadow:0 0 9px currentColor, 0 0 15px currentColor; transform:scale(1.35); }
+}
+.leg-row.dist.on .leg-sym { animation:honorDotPulse 1.1s ease-in-out infinite; display:inline-block; }
+@keyframes honorMarkerPulse {
+  0%,100% { box-shadow:0 0 6px 1px rgba(255,205,70,0.85); }
+  50%     { box-shadow:0 0 16px 5px rgba(255,220,95,1); }
+}
+.hpulse { animation:honorMarkerPulse 1.1s ease-in-out infinite; }
 
 /* SIDEBAR — right */
 #sidebar {
@@ -51,16 +68,25 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   border-radius:3px; margin-bottom:7px; outline:none;
 }
 #search:focus { border-color:#CD853F; }
-#search::placeholder { color:#555; }
+#search::placeholder { color:#888; }
 #era-filters { display:flex; flex-wrap:wrap; gap:3px; }
+.dist-label { width:100%; font-size:0.5rem; text-transform:uppercase; letter-spacing:0.1em; color:#8a8272; margin:9px 0 3px; }
+#distinction-filters { display:flex; flex-wrap:wrap; gap:3px; }
+.dist-btn { display:inline-flex; align-items:center; gap:4px; padding:2px 6px; border-radius:2px; border:1px solid #3a3a3a; background:#161616; color:#cfc6b6; font-size:0.5rem; font-family:Georgia,serif; cursor:pointer; transition:border-color .15s, background .15s; }
+.dist-btn .dc-dot { width:7px; height:7px; border-radius:50%; background:var(--dc); box-shadow:0 0 4px var(--dc); flex-shrink:0; }
+.dist-btn .dc-n { color:#8a8272; }
+.dist-btn:hover { background:#1e1e1e; }
+.dist-btn.on { border-color:var(--dc); color:#fff; background:#232323; }
+.dist-btn.on .dc-n { color:#cfc6b6; }
 .era-btn {
-  padding:2px 6px; border-radius:2px; border:2px solid transparent;
+  padding:3px 6px; border-radius:2px; border:2px solid transparent;
   font-size:0.5rem; cursor:pointer; font-family:Georgia,serif;
   color:white; text-shadow:0 1px 2px rgba(0,0,0,0.6);
-  transition:opacity 0.2s, border-color 0.15s;
-  opacity:0.8;
+  transition:opacity 0.2s, border-color 0.15s, filter 0.15s;
+  opacity:0.32;
 }
-.era-btn.selected { opacity:1; border-color:rgba(255,255,255,0.9); filter:brightness(1.3); }
+.era-btn.selected { opacity:1; border-color:#fff; filter:none; box-shadow:inset 0 0 0 999px rgba(0,0,0,0.2); }
+.era-btn .eb-n { opacity:0.85; font-size:0.46rem; margin-left:1px; }
 
 #vet-list { overflow-y:auto; flex:1; padding:3px 0; }
 #vet-list::-webkit-scrollbar { width:4px; }
@@ -75,12 +101,12 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 .vet-item.active .v-era { color:#fff; text-shadow:0 0 4px rgba(255,255,255,0.8); }
 .vet-item.queued .v-name { color:#b9ad97; font-style:italic; }
 @keyframes symPulse {
-  0%   { text-shadow:0 0 2px rgba(255,255,255,0.3); opacity:0.4; }
-  50%  { text-shadow:0 0 8px rgba(255,255,255,1), 0 0 18px rgba(255,255,255,0.7); opacity:1; }
-  100% { text-shadow:0 0 2px rgba(255,255,255,0.3); opacity:0.4; }
+  0%   { filter:brightness(1.6); text-shadow:0 0 4px rgba(255,255,255,0.5); }
+  50%  { filter:brightness(2.6); text-shadow:0 0 10px rgba(255,255,255,1), 0 0 20px rgba(255,255,255,0.8); }
+  100% { filter:brightness(1.6); text-shadow:0 0 4px rgba(255,255,255,0.5); }
 }
-.vet-item.active .v-sym { animation:symPulse 1.2s ease-in-out infinite; display:inline-block; }
-.v-sym { font-size:0.8rem; width:15px; text-align:center; flex-shrink:0; }
+.vet-item.active .v-sym { animation:symPulse 1.1s ease-in-out infinite; display:inline-block; }
+.v-sym { font-size:0.8rem; width:15px; text-align:center; flex-shrink:0; filter:brightness(1.55); }
 .v-name { font-size:0.78rem; color:#d4c9b8; flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
 .v-era { font-size:0.63rem; color:#777; }
 .v-badge-q { font-size:0.5rem; color:#6b5; letter-spacing:0.04em; }
@@ -109,6 +135,8 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 }
 #pclose:hover { color:#fff; }
 #pphoto { width:100%; max-height:340px; object-fit:contain; background:#0a0a0a; border-radius:4px; margin-bottom:12px; display:none; }
+#pphoto-ph { display:none; width:100%; min-height:150px; border:1px dashed #4a4238; border-radius:4px; background:#0e0e0e; color:#8a8172; font-size:0.72rem; letter-spacing:0.05em; align-items:center; justify-content:center; text-align:center; margin-bottom:12px; padding:16px; }
+#pphoto-ph.show { display:flex; }
 #pname { font-size:1.05rem; color:#f0e8d8; margin-bottom:3px; }
 #pservice { font-size:0.78rem; color:#CD853F; margin-bottom:9px; letter-spacing:0.04em; }
 #pstory { font-size:0.78rem; color:#aaa; line-height:1.65; }
@@ -137,8 +165,8 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   <div id="map"></div>
 
   <div id="legend">
-    <h4>Era</h4>
-    <div id="leg-rows"></div>
+    <h4>Honors</h4>
+    <div id="leg-distinct"></div>
   </div>
 
   <div id="sidebar">
@@ -155,6 +183,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   <div id="pbox">
     <button id="pclose" onclick="closePopup()">×</button>
     <img id="pphoto" src="" alt="">
+    <div id="pphoto-ph">Resting Place Pending Geo-location</div>
     <div id="pextra"></div>
     <div id="pname"></div>
     <div id="pservice"></div>
@@ -188,21 +217,21 @@ const ERA_COLORS = {
   'World War II':'#2E8B57',
   'Korean War':'#9370DB',
   'Vietnam':'#DC143C',
-  'Peacetime Navy (1899–1916)':'#2a6496',
+  'Cold War':'#5f9ea0',
   'Unknown Era':'#666',
 };
-const ERA_ORDER = ['Civil War Era','Spanish-American War','Peacetime Navy (1899–1916)','World War I','World War II','Korean War','Vietnam','Unknown Era'];
+const ERA_ORDER = ['Civil War Era','Spanish-American War','World War I','World War II','Korean War','Vietnam','Cold War','Unknown Era'];
 
 function normEra(raw) {
   if (!raw) return 'Unknown Era';
   const s = raw.trim();
   if (s.includes('Civil')) return 'Civil War Era';
   if (s.includes('Spanish')) return 'Spanish-American War';
-  if (s.includes('Peacetime')) return 'Peacetime Navy (1899–1916)';
   if (s.includes('Vietnam')) return 'Vietnam';
   if (s.includes('World War II')) return 'World War II';
   if (s.includes('World War I')) return 'World War I';
   if (s.includes('Korean')) return 'Korean War';
+  if (s.includes('Cold War')) return 'Cold War';
   return 'Unknown Era';
 }
 function eraColor(raw) { return ERA_COLORS[normEra(raw)] || '#666'; }
@@ -237,10 +266,31 @@ satellite.addTo(map);
 L.control.layers({'Satellite':satellite,'Street':street,'Terrain':terrain},{},{position:'topleft'}).addTo(map);
 
 let activeEras = new Set(ERA_ORDER);
+let activeDistinction = null;
 let markerMap = {};
 let activeIdx = null;
 let searchTerm = '';
 let activeMarker = null;
+
+// --- sidebar render state: sort once, render in chunks as you scroll ---
+let SORTED = null;          // cached sorted index — built once, never re-sorted
+let FILTERED = [];          // current filter/search result set
+let RENDERED = 0;           // how many rows are actually in the DOM
+let searchTimer = null;     // debounce handle
+const CHUNK = 150;          // rows added per pass
+
+// Major distinctions, most prestigious first. Each cemetery builds chips from whichever it actually has.
+const DISTINCTION_ORDER = ['Medal of Honor','Distinguished Service Cross','Croix de Guerre','KIA','Purple Heart','Distinguished Service Medal','Air Medal','Silver Star','Bronze Star'];
+const DISTINCTION_COLORS = {
+  'Medal of Honor':'#e6c14a','Distinguished Service Cross':'#9b7ede','Distinguished Service Medal':'#7c6fb0',
+  'Silver Star':'#b9c0c7','Bronze Star':'#c99a3a','Air Medal':'#4a9be0','Purple Heart':'#a24bb3',
+  'Croix de Guerre':'#4e8f63','KIA':'#c0392b'
+};
+const DISTINCTION_SHORT = {};  // spell every distinction out in full
+function canonBadge(b){ const low=(b||'').toLowerCase(); for(const n of DISTINCTION_ORDER){ if(n.toLowerCase()===low) return n; } return null; }
+function vetDistinctions(v){ return (v.badges||[]).map(canonBadge).filter(Boolean); }
+function isDistinguished(v){ return vetDistinctions(v).length>0; }
+function passesFilters(v){ return activeEras.has(normEra(v.era)) && (!activeDistinction || vetDistinctions(v).includes(activeDistinction)); }
 
 function hasCoords(v){ return v && v.lat!=null && v.lng!=null && !isNaN(v.lat) && !isNaN(v.lng); }
 
@@ -248,13 +298,20 @@ function buildMarkers() {
   Object.values(markerMap).forEach(m => map.removeLayer(m));
   markerMap = {};
   veterans.forEach((v, idx) => {
-    if (!activeEras.has(normEra(v.era))) return;
+    if (!passesFilters(v)) return;
     if (!hasCoords(v)) return;
     const color = eraColor(v.era);
     const sym = branchSym(v.branch);
+    const dist = isDistinguished(v);
+    const isKIA = (v.badges||[]).some(b => (b||'').toLowerCase()==='kia');
+    const rim = dist
+      ? 'border:2px solid #ffd757;box-shadow:0 0 7px 1px rgba(255,205,70,0.85);'
+      : 'border:2px solid rgba(255,255,255,0.65);box-shadow:0 1px 5px rgba(0,0,0,0.8);';
+    const pulseCls = activeDistinction ? 'hpulse' : '';
+    const star = isKIA ? '<div style="position:absolute;top:-9px;right:-7px;font-size:13px;color:#ffd54a;line-height:1;text-shadow:0 0 3px #000,0 0 6px rgba(255,210,70,0.9);pointer-events:none;">★</div>' : '';
     const icon = L.divIcon({
       className:'',
-      html:`<div style="width:26px;height:26px;border-radius:50%;background:${color};border:2px solid rgba(255,255,255,0.65);display:flex;align-items:center;justify-content:center;font-size:11px;box-shadow:0 1px 5px rgba(0,0,0,0.8);cursor:pointer;">${sym}</div>`,
+      html:`<div style="position:relative;width:26px;height:26px;">${star}<div class="${pulseCls}" style="width:26px;height:26px;border-radius:50%;background:${color};${rim}display:flex;align-items:center;justify-content:center;font-size:11px;cursor:pointer;">${sym}</div></div>`,
       iconSize:[26,26], iconAnchor:[13,13]
     });
     const m = L.marker([v.lat, v.lng], {icon});
@@ -275,8 +332,10 @@ function openPopup(v, idx) {
   storyEl.classList.toggle('queued', queued);
 
   const photo = document.getElementById('pphoto');
-  if (v.photo) { photo.src = v.photo; photo.style.display = 'block'; }
-  else { photo.style.display = 'none'; }
+  const ph = document.getElementById('pphoto-ph');
+  if (v.photo) { photo.src = v.photo; photo.style.display = 'block'; ph.classList.remove('show'); }
+  else if (!hasCoords(v)) { photo.style.display = 'none'; ph.classList.add('show'); }   // queue: pending geo-location
+  else { photo.style.display = 'none'; ph.classList.remove('show'); }
 
   const extEl = document.getElementById('pextra');
   extEl.innerHTML = '';
@@ -333,43 +392,66 @@ map.on('click', () => {
 
 const SUF = /^(Sr|Jr|II|III|IV|MD)\.?$/i;
 function sortKey(n){
+  if(/^unknown/i.test(n)) return n;   // "Unknown Soldier N" -> sorts under U, in order
   return n.includes(',') ? n.split(',')[0].trim()
     : (() => { const w=n.split(' '); return SUF.test(w[w.length-1])?(w[w.length-2]||w[0]):w[w.length-1]; })();
 }
 function displayName(n){
+  if(/^unknown/i.test(n)) return n;   // show as-is, don't reformat to "N, Unknown Soldier"
   return n.includes(',') ? n
     : (() => { const p=n.trim().split(/\s+/); return p.length>1 ? p[p.length-1]+', '+p.slice(0,-1).join(' ') : n; })();
+}
+
+function sortedList() {
+  if (!SORTED) SORTED = veterans.map((v,i)=>({v,i})).sort((a,b)=>
+    sortKey(a.v.name).localeCompare(sortKey(b.v.name)) || a.v.name.localeCompare(b.v.name));
+  return SORTED;
+}
+
+function makeRow(v, idx) {
+  const queued = !((v.narrative||'').trim());
+  const el = document.createElement('div');
+  el.className = 'vet-item' + (idx===activeIdx?' active':'') + (queued?' queued':'');
+  el.dataset.i = idx;
+  const q = queued ? `<div class="v-badge-q">\u25d4 queue</div>` : '';
+  el.innerHTML = `<div class="v-sym" style="color:${eraColor(v.era)}">${branchSym(v.branch)}</div><div style="flex:1;min-width:0"><div class="v-name">${displayName(v.name)}</div><div class="v-era">${normEra(v.era)}</div></div>${q}`;
+  el.addEventListener('click', () => {
+    if (hasCoords(v)) { map.flyTo([v.lat, v.lng], 19, {duration:1.0}); setTimeout(() => openPopup(v, idx), 350); }
+    else { openPopup(v, idx); }
+  });
+  return el;
+}
+
+function renderMore() {
+  const list = document.getElementById('vet-list');
+  const frag = document.createDocumentFragment();
+  const end = Math.min(RENDERED + CHUNK, FILTERED.length);
+  for (let n = RENDERED; n < end; n++) frag.appendChild(makeRow(FILTERED[n].v, FILTERED[n].i));
+  list.appendChild(frag);
+  RENDERED = end;
 }
 
 function buildSidebar() {
   const list = document.getElementById('vet-list');
   const none = document.getElementById('no-results');
-  list.innerHTML = '';
   const term = searchTerm.toLowerCase();
-  let shown = 0;
-  const sorted = veterans.map((v,i)=>({v,i})).sort((a,b)=>
-    sortKey(a.v.name).localeCompare(sortKey(b.v.name)) || a.v.name.localeCompare(b.v.name));
-  sorted.forEach(({v,i:idx}) => {
-    if (!activeEras.has(normEra(v.era))) return;
-    if (term && !v.name.toLowerCase().includes(term) && !(v.branch||'').toLowerCase().includes(term)) return;
-    shown++;
-    const queued = !((v.narrative||'').trim());
-    const el = document.createElement('div');
-    el.className = 'vet-item' + (idx===activeIdx?' active':'') + (queued?' queued':'');
-    el.dataset.i = idx;
-    const q = queued ? `<div class="v-badge-q">◔ queue</div>` : '';
-    el.innerHTML = `<div class="v-sym" style="color:${eraColor(v.era)}">${branchSym(v.branch)}</div><div style="flex:1;min-width:0"><div class="v-name">${displayName(v.name)}</div><div class="v-era">${normEra(v.era)}</div></div>${q}`;
-    el.addEventListener('click', () => {
-      if (hasCoords(v)) { map.flyTo([v.lat, v.lng], 19, {duration:1.0}); setTimeout(() => openPopup(v, idx), 350); }
-      else { openPopup(v, idx); }
-    });
-    list.appendChild(el);
-  });
-  none.style.display = shown===0 ? 'block' : 'none';
+  FILTERED = sortedList().filter(({v}) =>
+    passesFilters(v) &&
+    (!term || v.name.toLowerCase().includes(term) || (v.branch||'').toLowerCase().includes(term)));
+  list.innerHTML = '';
+  list.scrollTop = 0;
+  RENDERED = 0;
+  renderMore();
+  none.style.display = FILTERED.length===0 ? 'block' : 'none';
 }
 
+document.getElementById('vet-list').addEventListener('scroll', function () {
+  if (RENDERED >= FILTERED.length) return;
+  if (this.scrollTop + this.clientHeight >= this.scrollHeight - 400) renderMore();
+});
+
 function updateCount() {
-  const showing = veterans.filter(v => activeEras.has(normEra(v.era))).length;
+  const showing = veterans.filter(passesFilters).length;
   const total = veterans.length;
   const label = IS_QUEUE ? 'In the Research Queue' : 'Documented Veterans';
   document.getElementById('vet-count').textContent =
@@ -379,51 +461,62 @@ function updateCount() {
 const eraCounts = {};
 veterans.forEach(v => { const e=normEra(v.era); eraCounts[e]=(eraCounts[e]||0)+1; });
 
+// Era filters (with counts) live above the names in the sidebar.
 const filterDiv = document.getElementById('era-filters');
 ERA_ORDER.forEach(era => {
   if (!eraCounts[era]) return;
-  const color = ERA_COLORS[era];
-  const short = era.replace(' Era','').replace('World War ','WW').replace('Korean War','Korea').replace('Spanish-American War','Span-Am');
+  const short = era.replace(' Era','').replace('World War ','WW').replace('Korean War','Korea');
   const btn = document.createElement('button');
-  btn.className='era-btn'; btn.style.background=color;
-  btn.dataset.era=era; btn.textContent=short;
+  btn.className='era-btn selected'; btn.style.background=ERA_COLORS[era]; btn.dataset.era=era;
+  btn.innerHTML=`${short} <span class="eb-n">${eraCounts[era]}</span>`;
   btn.addEventListener('click', () => {
+    if (activeDistinction) { activeDistinction = null; document.querySelectorAll('.leg-row.dist').forEach(r => r.classList.remove('on')); }
     if (btn.classList.contains('selected')) {
-      btn.classList.remove('selected');
-      activeEras.delete(era);
-      if (activeEras.size===0) {
-        ERA_ORDER.forEach(e => activeEras.add(e));
-        document.querySelectorAll('.era-btn').forEach(b => b.classList.remove('selected'));
-      }
+      btn.classList.remove('selected'); activeEras.delete(era);   // darken → those vets fall off
     } else {
-      const anySelected = document.querySelector('.era-btn.selected');
-      if (!anySelected) { activeEras = new Set([era]); }
-      else { activeEras.add(era); }
-      btn.classList.add('selected');
+      btn.classList.add('selected'); activeEras.add(era);          // re-light → they come back
     }
-    ERA_ORDER.forEach(e => {
-      const row = document.querySelector(`.leg-row[data-era="${e}"]`);
-      if (row) {
-        if (activeEras.size < ERA_ORDER.length && !activeEras.has(e)) row.classList.add('dimmed');
-        else row.classList.remove('dimmed');
-      }
-    });
     buildMarkers(); buildSidebar(); updateCount();
   });
   filterDiv.appendChild(btn);
 });
 
-const legRows = document.getElementById('leg-rows');
-ERA_ORDER.forEach(era => {
-  if (!eraCounts[era]) return;
-  const row = document.createElement('div');
-  row.className='leg-row'; row.dataset.era=era;
-  row.innerHTML=`<div class="leg-sym" style="color:${ERA_COLORS[era]}">●</div><div class="leg-label">${era.replace(' Era','')}</div><div class="leg-count">${eraCounts[era]}</div>`;
-  row.addEventListener('click', () => document.querySelector(`.era-btn[data-era="${era}"]`)?.click());
-  legRows.appendChild(row);
-});
+// Distinctions — fill the bottom-left box; hide it entirely if this site has none.
+const distCounts = {};
+veterans.forEach(v => vetDistinctions(v).forEach(d => distCounts[d] = (distCounts[d]||0)+1));
+const legDistinct = document.getElementById('leg-distinct');
+if (!Object.keys(distCounts).length) {
+  document.getElementById('legend').style.display = 'none';
+} else {
+  DISTINCTION_ORDER.forEach(d => {
+    if (!distCounts[d]) return;
+    const row = document.createElement('div');
+    row.className = 'leg-row dist'; row.dataset.dist = d;
+    row.style.setProperty('--dc', DISTINCTION_COLORS[d] || '#888');
+    const dotHtml = (d==='KIA')
+      ? `<div class="leg-sym" style="color:#e6c14a;font-size:0.7rem;text-shadow:0 0 4px rgba(230,193,74,0.7)">★</div>`
+      : `<div class="leg-sym" style="color:${DISTINCTION_COLORS[d]||'#888'};font-size:0.55rem">●</div>`;
+    row.innerHTML = `${dotHtml}<div class="leg-label">${DISTINCTION_SHORT[d]||d}</div><div class="leg-count">${distCounts[d]}</div>`;
+    row.addEventListener('click', () => {
+      if (activeDistinction === d) { activeDistinction = null; row.classList.remove('on'); }
+      else {
+        activeDistinction = d;
+        document.querySelectorAll('.leg-row.dist').forEach(r => r.classList.remove('on'));
+        row.classList.add('on');
+        activeEras = new Set(ERA_ORDER);
+        document.querySelectorAll('.era-btn').forEach(b => b.classList.add('selected'));
+      }
+      buildMarkers(); buildSidebar(); updateCount();
+    });
+    legDistinct.appendChild(row);
+  });
+}
 
-document.getElementById('search').addEventListener('input', e => { searchTerm = e.target.value; buildSidebar(); });
+document.getElementById('search').addEventListener('input', e => {
+  searchTerm = e.target.value;
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(buildSidebar, 120);
+});
 document.getElementById('search').addEventListener('keydown', e => {
   if (e.key==='Enter') {
     const term = e.target.value.toLowerCase();
