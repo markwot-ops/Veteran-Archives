@@ -272,6 +272,13 @@ let activeIdx = null;
 let searchTerm = '';
 let activeMarker = null;
 
+// --- sidebar render state: sort once, render in chunks as you scroll ---
+let SORTED = null;          // cached sorted index — built once, never re-sorted
+let FILTERED = [];          // current filter/search result set
+let RENDERED = 0;           // how many rows are actually in the DOM
+let searchTimer = null;     // debounce handle
+const CHUNK = 150;          // rows added per pass
+
 // Major distinctions, most prestigious first. Each cemetery builds chips from whichever it actually has.
 const DISTINCTION_ORDER = ['Medal of Honor','Distinguished Service Cross','Croix de Guerre','KIA','Purple Heart','Distinguished Service Medal','Air Medal','Silver Star','Bronze Star'];
 const DISTINCTION_COLORS = {
@@ -395,32 +402,53 @@ function displayName(n){
     : (() => { const p=n.trim().split(/\s+/); return p.length>1 ? p[p.length-1]+', '+p.slice(0,-1).join(' ') : n; })();
 }
 
+function sortedList() {
+  if (!SORTED) SORTED = veterans.map((v,i)=>({v,i})).sort((a,b)=>
+    sortKey(a.v.name).localeCompare(sortKey(b.v.name)) || a.v.name.localeCompare(b.v.name));
+  return SORTED;
+}
+
+function makeRow(v, idx) {
+  const queued = !((v.narrative||'').trim());
+  const el = document.createElement('div');
+  el.className = 'vet-item' + (idx===activeIdx?' active':'') + (queued?' queued':'');
+  el.dataset.i = idx;
+  const q = queued ? `<div class="v-badge-q">\u25d4 queue</div>` : '';
+  el.innerHTML = `<div class="v-sym" style="color:${eraColor(v.era)}">${branchSym(v.branch)}</div><div style="flex:1;min-width:0"><div class="v-name">${displayName(v.name)}</div><div class="v-era">${normEra(v.era)}</div></div>${q}`;
+  el.addEventListener('click', () => {
+    if (hasCoords(v)) { map.flyTo([v.lat, v.lng], 19, {duration:1.0}); setTimeout(() => openPopup(v, idx), 350); }
+    else { openPopup(v, idx); }
+  });
+  return el;
+}
+
+function renderMore() {
+  const list = document.getElementById('vet-list');
+  const frag = document.createDocumentFragment();
+  const end = Math.min(RENDERED + CHUNK, FILTERED.length);
+  for (let n = RENDERED; n < end; n++) frag.appendChild(makeRow(FILTERED[n].v, FILTERED[n].i));
+  list.appendChild(frag);
+  RENDERED = end;
+}
+
 function buildSidebar() {
   const list = document.getElementById('vet-list');
   const none = document.getElementById('no-results');
-  list.innerHTML = '';
   const term = searchTerm.toLowerCase();
-  let shown = 0;
-  const sorted = veterans.map((v,i)=>({v,i})).sort((a,b)=>
-    sortKey(a.v.name).localeCompare(sortKey(b.v.name)) || a.v.name.localeCompare(b.v.name));
-  sorted.forEach(({v,i:idx}) => {
-    if (!passesFilters(v)) return;
-    if (term && !v.name.toLowerCase().includes(term) && !(v.branch||'').toLowerCase().includes(term)) return;
-    shown++;
-    const queued = !((v.narrative||'').trim());
-    const el = document.createElement('div');
-    el.className = 'vet-item' + (idx===activeIdx?' active':'') + (queued?' queued':'');
-    el.dataset.i = idx;
-    const q = queued ? `<div class="v-badge-q">◔ queue</div>` : '';
-    el.innerHTML = `<div class="v-sym" style="color:${eraColor(v.era)}">${branchSym(v.branch)}</div><div style="flex:1;min-width:0"><div class="v-name">${displayName(v.name)}</div><div class="v-era">${normEra(v.era)}</div></div>${q}`;
-    el.addEventListener('click', () => {
-      if (hasCoords(v)) { map.flyTo([v.lat, v.lng], 19, {duration:1.0}); setTimeout(() => openPopup(v, idx), 350); }
-      else { openPopup(v, idx); }
-    });
-    list.appendChild(el);
-  });
-  none.style.display = shown===0 ? 'block' : 'none';
+  FILTERED = sortedList().filter(({v}) =>
+    passesFilters(v) &&
+    (!term || v.name.toLowerCase().includes(term) || (v.branch||'').toLowerCase().includes(term)));
+  list.innerHTML = '';
+  list.scrollTop = 0;
+  RENDERED = 0;
+  renderMore();
+  none.style.display = FILTERED.length===0 ? 'block' : 'none';
 }
+
+document.getElementById('vet-list').addEventListener('scroll', function () {
+  if (RENDERED >= FILTERED.length) return;
+  if (this.scrollTop + this.clientHeight >= this.scrollHeight - 400) renderMore();
+});
 
 function updateCount() {
   const showing = veterans.filter(passesFilters).length;
@@ -484,7 +512,11 @@ if (!Object.keys(distCounts).length) {
   });
 }
 
-document.getElementById('search').addEventListener('input', e => { searchTerm = e.target.value; buildSidebar(); });
+document.getElementById('search').addEventListener('input', e => {
+  searchTerm = e.target.value;
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(buildSidebar, 120);
+});
 document.getElementById('search').addEventListener('keydown', e => {
   if (e.key==='Enter') {
     const term = e.target.value.toLowerCase();
