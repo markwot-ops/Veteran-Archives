@@ -141,6 +141,8 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 #pservice { font-size:0.78rem; color:#CD853F; margin-bottom:9px; letter-spacing:0.04em; }
 #pstory { font-size:0.78rem; color:#aaa; line-height:1.65; }
 #pstory.queued { color:#8a8578; font-style:italic; }
+    #psrc { font-size:0.66rem; color:#7d7768; line-height:1.55; margin-top:8px; font-style:italic; }
+    #pcontact { font-size:0.72rem; color:#8f8a7d; line-height:1.6; margin-top:10px; }
 #pflags { display:flex; flex-wrap:wrap; gap:5px; margin-bottom:9px; }
 .fbadge { padding:3px 8px; border-radius:3px; font-size:0.68rem; font-weight:bold; }
 
@@ -189,6 +191,8 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
     <div id="pservice"></div>
     <div id="pflags"></div>
     <div id="pstory"></div>
+      <div id="psrc"></div>
+      <div id="pcontact"></div>
   </div>
 </div>
 
@@ -204,6 +208,7 @@ const SITE = (window.VA && window.VA.site) || {};
 const veterans = (window.VA && window.VA.veterans) || [];
 const IS_QUEUE = SITE.kind === 'queue';
 
+const CONTACT_CLOSE = 'If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.';
 const QUEUE_TEXT = 'This veteran has been identified but is still in the research queue — a narrative has not yet been written. The entry is held here until research and grave location are complete.';
 
 document.getElementById('site-title').textContent = SITE.title || SITE.name || 'Veteran Archives';
@@ -330,6 +335,15 @@ function openPopup(v, idx) {
   const storyEl = document.getElementById('pstory');
   storyEl.textContent = queued ? QUEUE_TEXT : v.narrative;
   storyEl.classList.toggle('queued', queued);
+
+  const srcEl = document.getElementById('psrc');
+  srcEl.textContent = v.sourceNote || '';
+  srcEl.style.display = v.sourceNote ? 'block' : 'none';
+
+  const conEl = document.getElementById('pcontact');
+  const showContact = !!v.sourceNote;              // legacy entries carry the close inside narrative
+  conEl.textContent = showContact ? CONTACT_CLOSE : '';
+  conEl.style.display = showContact ? 'block' : 'none';
 
   const photo = document.getElementById('pphoto');
   const ph = document.getElementById('pphoto-ph');
