@@ -671,6 +671,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Patrick J. Curran of Holyoke entered the service in September 1918 through the Students' Army Training Corps at Amherst College — the program that put college men into uniform on their own campuses as the Army raced to build an officer corps. He never reached France. He died of pneumonia at Amherst on December 9, 1918, a month after the Armistice, in the influenza pandemic that swept the training camps and killed more American servicemen than the enemy did. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -1662,6 +1663,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "William Henderson of Holyoke entered the service in 1914 in Canada, in the war's first months, three years before America came in. He was gassed at Ypres in July 1917 — in the salient where Canadian troops had first met chlorine gas in 1915 and held a line that should not have held. He was killed in action in France in August 1917, within weeks of being gassed. He had been at war for three years. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "badges": [
     "KIA"
    ],
@@ -1887,6 +1889,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "John J. Kelly, a Holyoke man, entered the service on June 20, 1916, and served on the Mexican Border that summer. He went overseas as a private with Company D, 104th Infantry, and rose to Corporal. He was killed in action on June 16, 1918, while rescuing women from a French town that was being shelled. He died saving civilians — not in an assault, but carrying the helpless out of the fire. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "badges": [
     "KIA"
    ],
@@ -1902,6 +1905,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Martin P. Kennedy, a Holyoke man, entered the service on November 7, 1917, and was stationed at Camp Devens, then Camp Merritt, New Jersey. He went overseas in April 1918 with the 3rd Company, 1st Infantry Training Battalion, and was killed in action in France on May 27, 1918 — the first day of the German Aisne offensive, the last great enemy drive of the war. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "badges": [
     "KIA"
    ],
@@ -2180,6 +2184,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Thomas Francis Leary of Holyoke served as a Fireman First Class aboard the battleship USS West Virginia. The firemen worked below the armored deck, in the boiler rooms, tending the fires that made the steam that moved the ship — the deepest compartment a man could be in, and the hardest to get out of. On December 7, 1941, the West Virginia was struck by at least seven torpedoes and two bombs at Battleship Row and sank at her moorings. More than a hundred of her men died, and some were trapped alive in the flooded compartments for days. Leary was killed that morning. He was survived by his mother, Mrs. Nora M. Leary. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "badges": [
     "KIA",
     "Purple Heart"
@@ -2319,6 +2324,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Edward Leo Mann of Holyoke entered the service on December 4, 1916, at Fort Slocum, and was transferred to Texas. He went overseas with the first United States contingent to reach France — among the very first Americans in the war — serving with Company L, 26th Infantry, and was promoted to Corporal in France. He died of wounds received in action on July 22, 1918. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "badges": [
     "KIA"
    ],
@@ -2334,6 +2340,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Edmond A. Marion of Holyoke entered the service on February 26, 1918, and served with Company E, 305th Infantry, in the 77th Division — the “Melting Pot” division raised from the streets of New York and the towns of the Northeast. The 305th fought through the Oise-Aisne and the Meuse-Argonne, where the division's Lost Battalion was cut off for five days in the Argonne Forest. He is numbered among Holyoke's honored dead of World War I. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -2376,6 +2383,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Thomas P. Martin of Holyoke entered the service on December 13, 1915, and rose to the rank of Sergeant in Company A, First Engineers. The engineers went in ahead of the infantry and stayed after it passed, building the roads, bridges, and dugouts that made an army's advance possible, and doing it under fire. He died of meningitis on February 23, 1918 — the first Holyoke boy reported dead in France. His was the first of the telegrams that would come to the city by the score before the war was through. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -2478,6 +2486,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "John F. McCarthy, a son of Holyoke, entered the service in April 1917 and was for a time stationed at San Antonio, Texas. He served as a Corporal with Battery I, 19th Field Artillery. He was killed in action in France on October 14, 1918, during the Meuse-Argonne. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "badges": [
     "KIA"
    ],
@@ -2624,6 +2633,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Joseph J. Moriarty of Holyoke entered the service on May 22, 1917, and was stationed at Fort Ethan Allen, Vermont, then Camp Syracuse, New York. He was assigned to a Machine Gun Company and later shifted back to the infantry, serving with Company G, 16th Infantry, in the 1st Division — the first American troops to reach France. He went overseas in November 1917 and died in France on June 22, 1918, of wounds received in action, in the fighting around Cantigny where his division won America's first battle of the war. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -3315,6 +3325,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "John F. Sheehan entered the service in 1915. He was killed in an explosion accident at the Mexican Border on August 21, 1917 — the first Holyoke man to die in United States service in the Great War. He died before the city had sent a single soldier to France, and before it understood what the war would cost. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -3327,6 +3338,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "George Simpson of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -3402,6 +3414,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Richard Smith of Holyoke entered the service in August 1918 and was stationed at Camp Devens. He died there on September 30, 1918, of influenza. Devens was the camp where the pandemic first took hold in America — in that single month it killed men faster than the barracks could be emptied, and the Army sent for extra coffins before it sent for doctors. Smith was six weeks a soldier, and never left Massachusetts. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -3537,6 +3550,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Jeremiah F. Sullivan entered the service on June 20, 1916, and served at the Mexican Border that summer. He was a Corporal in Company D, 104th Infantry. He was killed in action in France on July 22, 1918, at Chateau-Thierry — the same day that took several of his Holyoke comrades in the same company. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "badges": [
     "KIA"
    ],
@@ -3789,6 +3803,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Edward J. Welch, a Holyoke man, entered the service on December 6, 1917, at Washington, D.C., and served with the 289th Aero Squadron, Signal Corps. He was stationed at Fort Sam Houston, Texas, where he died of pneumonia on January 15, 1918. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -4611,6 +4626,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Henry A. Brown of Holyoke served with Company D of the 104th Infantry, 'Holyoke's Own.' On July 18–21, 1918, at Belleau during the second battle of the Marne, he carried messages under heavy enemy fire, and for that gallant conduct his name and deed were ordered entered in the record of the Yankee Division. What became of Brown afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-heroes"
   },
@@ -5567,7 +5583,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Dr. Thomas E. Cavanaugh was commissioned a captain on October 3, 1918, and stationed at Camp Greenleaf, Fort Oglethorpe, Georgia, then transferred to Hospital No. 29 at Fort Snelling, Minnesota.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-officers"
   },
@@ -5892,7 +5908,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "The Reverend Charles L. Foley was commissioned a first lieutenant on April 17, 1918, and given a purse of gold by the parishioners of Holy Cross Church. He was stationed at Camp Greenleaf, Fort Oglethorpe, Georgia, as senior post chaplain.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-officers"
   },
@@ -5944,7 +5960,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Howard W. Aiken enlisted in the regular army in 1915 and was commissioned a second lieutenant at Leon Springs, Texas, on August 12, 1917. He was assigned to the quartermaster corps at Camp Devens, transferred to Camp Johnston, Jacksonville, Florida, and assigned to the transport corps with the American Expeditionary Forces.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-officers"
   },
@@ -6321,7 +6337,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Harold Fitzsimmons entered the service on September 7, 1917, stationed at Camp Devens, was promoted to sergeant, selected for officers' training school, and commissioned a second lieutenant at Camp Devens in April 1918. Assigned to infantry, he was transferred to Camp Gordon and later Vancouver Barracks as an infantry instructor. [Investigate whether the same man as Harold A. Fitzsimmons on the Calvary map.]",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-officers"
   },
@@ -6373,7 +6389,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Dr. Frank L. Gibson was commissioned a first lieutenant on July 15, 1918, ordered to Camp Greenleaf and assigned to the base hospital, then went overseas and was stationed at the base hospital in Brest, France.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-officers"
   },
@@ -6412,7 +6428,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Addison B. Green entered the Plattsburg Camp on August 23, 1917, was commissioned a second lieutenant, then a first lieutenant in March 1918, assigned to the 16th Field Artillery, and went overseas in May 1918.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-officers"
   },
@@ -6763,7 +6779,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "John P. McCarthy entered the service on October 8, 1917, in the Aviation Corps, trained at MIT and Cornell, then transferred to the Tank Corps at Gettysburg. Promoted to sergeant in May 1918, he was commissioned a second lieutenant on October 5, 1918, and went overseas in November 1918. [Investigate whether the same man as John F. McCarthy in the Research Queue.]",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-officers"
   },
@@ -6867,7 +6883,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Edwin A. Moore entered the service in December 1917, was stationed at Washington and promoted to sergeant of ordnance in the Engraving Bureau, and was commissioned a second lieutenant in the motor transportation service on September 28, 1918, then transferred to Florida. [Investigate whether related to Edwin J. T. Moore, MD, on the Calvary map — appears to be a different man.]",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-officers"
   },
@@ -8297,7 +8313,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Corporal Leo Baillargeon entered service June 1917, serving in Company D, 47th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack records him wounded in action.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -8336,7 +8352,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private James J. Baker entered service September 18, 1918, serving in the 5th Company, 2nd Battalion, 151st Depot Brigade of the United States Army in the First World War. He was stationed at Camp Devens.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -8362,7 +8378,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Anthony Baldwin entered service December 6, 1917, serving in the United States Army in the First World War. He was stationed at Camp Devens.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -8388,7 +8404,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Charles J. T. Barnett entered service May 1, 1918, serving in Company A, 330th Battalion, Medical Corps of the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -8440,7 +8456,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Edward Barrett entered service February 26, 1918, serving in the Field Artillery of the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -8453,7 +8469,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Edward T. Barrett entered service November 30, 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He was stationed at Camp Devens. Zack records him wounded in action.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -8544,7 +8560,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private George Batchelor entered service July 23, 1918, serving in Motor Corps, 12th Division of the United States Army in the First World War. He was stationed at Camp Devens.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -9116,7 +9132,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Harry Berger entered service July 15, 1918, serving in the United States Army in the First World War. He was stationed at Fort Slocum.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -10013,7 +10029,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private James Bowler entered service December 5, 1917, serving in the 3rd Company, Depot Brigade of the United States Army in the First World War. He served with the American Expeditionary Forces. He was stationed at Camp Devens.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -10364,7 +10380,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Matthew Bresnahan served in the United States Army in the First World War. Zack's roster records: Private United States Army. Entered service July 23, 1918. Stationed at Camp Devens. BRESNAHAN, ^^CHAEL J., Private, United States Army. Entered service July 23, 1918. Stationed at Camp Devens.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -10538,19 +10554,6 @@ window.VA = {
    "source": "zack-enlisted-A-F"
   },
   {
-   "id": "zack_enl_broderick_walterj",
-   "name": "Broderick, Walter J.",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "U.S. Army – World War I",
-   "lat": null,
-   "lng": null,
-   "narrative": "Private Walter J. Broderick entered service July 9, 1918, serving in Headquarters Company, 31st Field Artillery of the United States Army in the First World War. He was stationed at Fort Slocum, N. Y. Transferred to Camp Meade, Me.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
-   "status": "queue",
-   "source": "zack-enlisted-A-F"
-  },
-  {
    "id": "zack_enl_brodeur_leoa",
    "name": "Brodeur, Leo A.",
    "era": "World War I",
@@ -10676,7 +10679,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Daniel G. Brown entered service March 24, 1917, serving in Company F, 8th Field Artillery of the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -10910,7 +10913,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private James F. Burke entered service April 24, 1918, serving in the C. A. C of the United States Army in the First World War. He was stationed at Camp Gordon, Ga. Zack adds: BURKE,^ JOHN J., Private, United States Army.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -10923,7 +10926,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private John J. Burke entered service May 17, 1918, serving in the Engineers of the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -12210,7 +12213,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private John F. Clark served in the United States Cavalry of the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -12275,7 +12278,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Corporal Walter Clayton entered service May 18, 1918, serving in the 546th Motor Truck Company, Ordnance Department of the United States Army in the First World War. He was stationed at Wentworth Institute, Boston, Mass.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -12483,7 +12486,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Daniel J. Collins entered service September 14, 1918, serving in the Barracks C, Quartermaster Corps of the United States Army in the First World War. He was stationed at Camp Devens.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -12509,7 +12512,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private James Collins entered service March 19, 1918, serving in the Aviation Corps of the United States Army in the First World War. He was stationed at Kelly Field, Texas.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -12522,19 +12525,6 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Corporal Lucien Collins served in Company L, 53d Infantry of the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
-   "status": "queue",
-   "source": "zack-enlisted-A-F"
-  },
-  {
-   "id": "zack_enl_collins_parkerw",
-   "name": "Collins, Parker W.",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "U.S. Army – World War I",
-   "lat": null,
-   "lng": null,
-   "narrative": "Private Parker W. Collins entered service June 22, 1918, serving in Company K, 73rd Infantry of the United States Army in the First World War. He was stationed at Camp Devens.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
@@ -12678,7 +12668,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Thomas Connor entered service July 9, 1918, serving in the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -12691,7 +12681,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private William P. Connor entered service September 17, 1918, serving in the Sanitary Corps, Medical Department of the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -12795,7 +12785,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Corporal John Conway entered service January 12, 1918, serving in Company A, 3rd Battalioii, United States Guards of the United States Army in the First World War. He was stationed at Long Wharf, Boston, Mass. He was later transferred to Spring eld Armory, Mass.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -13055,19 +13045,6 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Daniel H. Courtney entered service December 13, 1917, serving in the 6th Company, C. A. C of the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
-   "status": "queue",
-   "source": "zack-enlisted-A-F"
-  },
-  {
-   "id": "zack_enl_courtney_michaeld",
-   "name": "Courtney, Michael D.",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "U.S. Army – World War I",
-   "lat": null,
-   "lng": null,
-   "narrative": "Private Michael D. Courtney entered service July 9, 1918, serving in Company C, 38th Field Artillery of the United States Army in the First World War.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
@@ -13627,7 +13604,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Peter Curran entered service July 23, 1918, serving in the 36th Machine Gun Company of the United States Army in the First World War. He was stationed at Camp Devens.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -13900,7 +13877,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Raoul Davignon served in the United States Army in the First World War. Zack's roster records: Private Company D, 102d Engineers. Entered service January 4, 1918.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -13913,7 +13890,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Romeo Davignon entered service March 25, 1918, serving in Company C, 245th C. A. C of the United States Army in the First World War. He was stationed at Camp Devens.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -14732,7 +14709,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Jeremiah F. Donoghue entered service July 23, 1918, serving in the United States Army in the First World War. He was stationed at Camp Devens.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -14745,7 +14722,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private John S. Donoghue entered service May 27, 1918, serving in the Medical Corps, United States Base Hospital No. 10:2 of the United States Army in the First World War. He was stationed at Camp Upton, L. I. Later v/ith American Expeditionary Forces. Zack adds: (Italian front.).",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -14758,7 +14735,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Joseph L. Donoghue entered service May 31, 1918, serving in the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -14776,19 +14753,6 @@ window.VA = {
    "source": "zack-enlisted-A-F"
   },
   {
-   "id": "zack_enl_dooley_thomasf",
-   "name": "Dooley, Thomas F.",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "U.S. Army – World War I",
-   "lat": null,
-   "lng": null,
-   "narrative": "Sergeant Thomas F. Dooley entered service May 31, 1918, serving in Battery B, 11th Regiment, F. A. R. D of the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
-   "status": "queue",
-   "source": "zack-enlisted-A-F"
-  },
-  {
    "id": "zack_enl_dougherty_danield",
    "name": "Dougherty, Daniel D.",
    "era": "World War I",
@@ -14797,19 +14761,6 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Daniel D. Dougherty entered service May 27, 1918, serving in the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
-   "status": "queue",
-   "source": "zack-enlisted-A-F"
-  },
-  {
-   "id": "zack_enl_dougherty_johnc",
-   "name": "Dougherty, John C.",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "U.S. Army – World War I",
-   "lat": null,
-   "lng": null,
-   "narrative": "Private John C. Dougherty served in the Medical Corps. Enlisted March 5, 1918 of the United States Army in the First World War.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
@@ -14862,7 +14813,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Francis J. Dowd served in the United States Army in the First World War. Zack's roster records: Sergeant-Major. Company D, 104th Infantry. Entered service September 1, 1915. Mexican border service. With American Expeditionary Forces. Wounded in action. Transferred to Headquarters, 104th Infantry. ' DOWD, FREDERICK A., Corporal, Company D, 104th Infantry. Entered service June 1, 1916. Mexican border service. With the American Expeditionary Forces. Wounded in action.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -15239,7 +15190,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private James Duffy entered service July 23, 1918, serving in the 15th Company, 12th Military Police of the United States Army in the First World War. He was stationed at Camp Devens.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -16162,7 +16113,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private James J. Finn entered service June 20, 1918, serving in the 147th Signal Corps, United States Marines in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -16344,7 +16295,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Corporal Raphael Fitzsimmons served in the 15th Quartermaster Corps of the United States Army in the First World War. He was stationed at Camp Joseph E. Zack adds: Johnston, Fla.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -16968,7 +16919,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Charles O. Friedrich entered service September 23, 1917, serving in Company C, 101st United States Engineers of the United States Army in the First World War. He served with the American Expeditionary Forces.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-A-F"
   },
@@ -17358,7 +17309,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Brandon Garvey entered service June 27, 1918, serving in Company M, 345th Infantrv of the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -18099,7 +18050,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Joseph C. Goodwin entered service April 29, 1918, serving in the Medical Corps of the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -19399,7 +19350,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Allen Henderson entered service June 8, 1918, serving in the 55th Coast Artillery of the United States Army in the First World War. He served with the American Expeditionary Forces. He was stationed at Fort Worth, Texas.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -19763,7 +19714,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private James Hogan entered service July 2, 1917, serving in the 15th Company, 4th Battalion, 155th Depot Brigade of the United States Army in the First World War. He was stationed at Camp Lee, Va.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -19776,7 +19727,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private James Hogan entered service August 3, 1918, serving in the 18th Company, 55th Battalion, Depot Brigade of the United States Army in the First World War. He was stationed at Camp Devens.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -19789,7 +19740,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private John W. Hogan entered service December 1917, serving in the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -19802,7 +19753,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Joseph M. Hogan entered service February 26, 1918, serving in the 305th Infantry, 77th Division of the United States Army in the First World War. He served with the American Expeditionary Forces.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -19828,7 +19779,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Thomas F. Hogan entered service June 26, 1918, serving in Company M, 338th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -20106,19 +20057,6 @@ window.VA = {
    "source": "zack-enlisted-G-L"
   },
   {
-   "id": "zack_enl_humeston_raymondf",
-   "name": "Humeston, Raymond F.",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "U.S. Army – World War I",
-   "lat": null,
-   "lng": null,
-   "narrative": "Private Raymond F. Humeston entered service August 31, 1918, serving in the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
-   "status": "queue",
-   "source": "zack-enlisted-G-L"
-  },
-  {
    "id": "zack_enl_hunter_george",
    "name": "Hunter, George",
    "era": "World War I",
@@ -20179,7 +20117,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private James Hurley entered service July 5, 1918, serving in the 87th Company, Signal Corps, United States Marine Corps in the First World War. He was stationed at Camp Edwin C. Zack adds: Fuller, Penn.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -20504,7 +20442,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Corporal Harold Jones served in Company H, 12th Division of the United States Army in the First World War. He was stationed at Camp Devens.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -20647,7 +20585,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Edward B. Kane entered service July 17, 1918, serving in the Signal Corps of the United States Army in the First World War. He was stationed at Fort Leavenworth, Kan.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -20660,7 +20598,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Corporal Edwardj. Kane entered service August 30, 1918, serving in the 20th Company, Depot Brigade of the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -20699,7 +20637,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private James H. Kane entered service December 13, 1917, serving in the Medical Corps, 34th Infantry of the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -20712,7 +20650,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private John Kane entered service September 15, 1918, serving in the 30th Supply Company, Quartermaster Corps of the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -20725,7 +20663,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private John A. Kane entered service July 9, 1918, serving in the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -20738,7 +20676,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private John J. Kane entered service February 19, 1917, serving in Company K, 29th Regiment of the United States Army in the First World War. He was stationed at Canal Zone, Panama.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -20751,7 +20689,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private John J. Kane entered service June 29, 1918, serving in Company F, 345th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -20764,7 +20702,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private John J. Kane entered service December 11, 1917, serving in the Ordnance Corps of the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -20777,7 +20715,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Corporal Thomas Kane entered service December 12, 1917, serving in Company B, 303d Signal Battalion of the United States Army in the First World War. He served with the American Expeditionary Forces.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -20790,7 +20728,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private William E. Kane entered service September 5, 1918, serving in the 2d Company, 71st Engineers of the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -20803,7 +20741,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Sergeant William H. Kane entered service May 10, 1918, serving in Troop C, Cavalry of the United States Army in the First World War. He was stationed at Fort Ethan Allen, Vt.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -20816,7 +20754,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private William V. Kane entered service May 31, 1918, serving in the 5th Regiment, F. A. R. D of the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -20998,7 +20936,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private James F. Kelly served in the 2nd Caisson Company, 2nd Ammunition Train^ of the United States Army in the First World War. He served with the American Expeditionary Forces.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -21011,7 +20949,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Musician James J. Kelly served in the 104th Infantry Band of the United States Army in the First World War. He served with the American Expeditionary Forces.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -21076,7 +21014,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Corporal Edward F. Kennedy entered service February 26, 1918, serving in Company D, 305th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -21102,7 +21040,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private John Kennedy entered service March 29, 1918, serving in the United States Army in the First World War. He was stationed at Camp Devens.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -21115,7 +21053,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Joseph J. Kennedy entered service November 28, 1917, serving in Company B, Mounted Police of the United States Army in the First World War. He was stationed at Camp Devens.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -21141,7 +21079,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Corporal Raymond Kennedy entered service July 1917, serving in Headquarters Company, 23rd United States Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -21154,7 +21092,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Richard L. Kennedy entered service June 27, 1918, serving in Company F, 312th Engineers of the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -22038,7 +21976,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Herman Lacoste served in the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -22350,7 +22288,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Frederick Lajoie entered service May 17, 1917, serving in Company A, 7th Infantry of the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -22363,7 +22301,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Joseph Lajoie entered service July 9, 1918, serving in Company D, 34th Coast Artillery Corps of the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -22623,7 +22561,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Fred W. Lange entered service March 29, 1918, serving in Machine Gun Company, 58th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack records him wounded in action.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -22870,7 +22808,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Bernard Lappin entered service March 7, 1918, serving in the Medical Corps of the United States Army in the First World War. He served with the American Expeditionary Forces. He was stationed at Fort Oglethorpe, Ga.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -23156,7 +23094,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Sergeant Daniel F. Leahy entered service September 1917, serving in Headquarters Company of the United States Army in the First World War. Zack adds: ' LEAHY< JOHN Private, United States Army.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -23169,7 +23107,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private John J. Leahy entered service July 15, 1918, serving in the Third Army of Occupation of the United States Army in the First World War. He served with the American Expeditionary Forces.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -23208,7 +23146,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Frank Leary entered service July 9, 1918, serving in the 18th Anti-Aircraft Battalion of the United States Army in the First World War. He served with the American Expeditionary Forces.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -23429,7 +23367,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Robert E. Lee entered service August 1, 1917, serving in Company I, 50th Infantry of the United States Army in the First World War.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -23988,7 +23926,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private William B. Losty entered service May 1917, serving in Company A, 77th Field Artillery of the United States Army in the First World War. He served with the American Expeditionary Forces.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
@@ -24183,7 +24121,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private Eugene A. Lynch served in the United States Army in the First World War. He was stationed at Camp Lee, V\"a.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
+   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "zack-enlisted-G-L"
   },
