@@ -101,11 +101,11 @@ To add or migrate a site:
 
 | Site | Entries | Status |
 |---|---|---|
-| Landing | — | live |
+| Landing | — | live (shows 1,879) |
 | Calvary | 375 | live |
-| Forestdale | 244 | live |
+| Forestdale | 351 | live |
 | Elmwood | 44 | live |
-| Research Queue | 314 | live |
+| Research Queue | **1,879** | live |
 
 Photos currently load from the **old repos** (`calvary-map`, `forestdale-map`, `elmwood-map`) via raw URLs. Those repos are still live and must not have their image files deleted yet.
 
@@ -223,3 +223,95 @@ Long hero stories from Zack's attach as a LINK under a vet's photo via the exist
 **NEXT UP:** the ENLISTED MEN section of Zack's (follows the officers chapter) — Mark will start it later. Same workflow: cross-check all sites → show new names in chat → load as placeholders with Zack service records → stack. Also pending: write real person-first narratives for the ~officer placeholders; the 3 Roll-of-Honor fallen; deep-dig citation men (Leduc/LaFlesh/etc via his city records); OCR-garbled Roll-of-Honor names (manual 2nd pass); "investigate whether same as" flags left on Fitzsimmons, Greaney, McCarthy J.P., Moore Edwin A., Stapleton E.J.
 
 **TONE:** He's a community historian doing sacred work — honoring Holyoke's veterans. Match that seriousness. He runs low on weekly usage; don't waste turns. When he says the standard's finally right, he means it — hold to it.
+
+---
+
+## ============================================================
+## SESSION 12 — Zack's ENLISTED chapter, A–L (mined) + sidebar rebuild
+## ============================================================
+
+### What happened
+
+**Research Queue went 581 → 1,879.** Two batches of Zack's enlisted men mined and loaded as placeholders:
+
+| Batch | In Zack | Built | Held for Mark | Unreadable |
+|---|---|---|---|---|
+| **A–F** (Army) | 786 | **734** | 11 exact + 19 doubtful | 18 |
+| **G–L** | 588 | **564** | 11 exact + 13 doubtful | 2 |
+
+**Mark's filter rule, established this session — follow it exactly:**
+1. Zack man **already on a map (geolocated)** → NO new queue entry. Zack's info becomes an **enhancement** to the existing entry, and **Mark reviews every enhancement before it goes in.**
+2. Zack man **already in the Q** → no duplicate; enhance.
+3. **Everyone else** → new Q placeholder, Zack basics only, needs geolocation + enhancement.
+4. Q placeholders that later get geolocated → move onto the map **as placeholders until final review**.
+
+**Scope is not a problem.** Mark's expectation was always *every* Holyoke man who served — roughly 3,500+ when M–Z lands. Do not push back on queue size; it was always the design. Split data.js by letter/era if the file gets unmanageable.
+
+### Placeholder format (copy exactly — matches the Officers chapter)
+```
+"narrative": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) —
+full researched narrative pending. {First Last} served in the United States Army in the
+First World War. Zack's roster records: {Zack's own sentences, OCR-repaired} {CONTACT CLOSE}"
+"badges": [], "status": "queue", "source": "zack-enlisted-{A-F|G-L|M-Z}"
+"id": "zack_enl_{last}_{first}"
+```
+No badges on placeholders even where Zack says wounded/gassed/cited — that's unverified. Branch = Army unless the text says Marine.
+
+### OCR is the main hazard — a garbled name is a man nobody can find
+Zack's scan is badly corrupted. **~160 names repaired so far.** Signature patterns:
+`AV→W` (BOAVE→Bowe, AVILLIAM→William) · `X→N` (DOXOGHUE→Donoghue, DOXOVAX→Donovan) ·
+`^→M/R` (M^ILLIAM→William, CON^NOR→Connor) · `3I→M` (JA3IES→James) · `Iv/li→K/L` (BURIvE→Burke) ·
+`CROQUETTE→Choquette` · `l()4th→104th` · lost periods on trailing initials (`Herman C`→`Herman C.`).
+
+**Line-break hyphenation** was the worst: 333 broken words ("ser- vice", "En- tered", "Sep- tember",
+"Expedi- tionary"). Fix is `re.sub(r'([a-z])- ([a-z])', r'\1\2', text)` — safe, leaves Franklin-Union,
+Anti-Aircraft, shell-shocked intact. **Run this on every future batch.** It was caught only after A–F
+had already been uploaded, and fixed retroactively.
+
+**Never invent a name to fill a gap.** If a surname can't be repaired honestly, hold it and tell Mark.
+
+### Sidebar rebuild (template)
+1,315+ entries made the old sidebar crawl. Fixed:
+- **Sort cached once** (`SORTED`) instead of re-sorting all entries on every keystroke
+- **Chunked render** — 150 rows, more appended on scroll (`renderMore()`, scroll listener on `#vet-list`)
+- **Search debounced** 120ms
+
+### ⚠️ TRAP FOUND: root template.html was STALE
+Root `template.html` had never received July's Honors rebuild — no gold rings, no pulse, no legend.
+Anyone following "copy template.html to each site" would have **wiped the Honors system.**
+Fixed this session: root template.html and research-queue/index.html are now the same corrected shell.
+Calvary / Forestdale / Elmwood index.html are identical to each other and still on the **pre-sidebar-fix**
+shell — they can take the new one whenever; they're small enough not to need it.
+
+### ⚠️ VERIFICATION: raw.githubusercontent.com LIES
+It served stale content through **three hard cache-busted retries** — I twice told Mark an upload had
+failed when it had actually succeeded. **Verify by byte size instead:**
+`https://api.github.com/repos/markwot-ops/Veteran-Archives/contents/{dir}?ref=main` → compare `size`
+to the local file. The API rate-limits often; when it does, retry, and treat a raw mismatch as
+unproven rather than as failure. **When Mark says he uploaded it, believe him and verify by size.**
+
+---
+
+## PARKED — held out of the Q, needs Mark's ruling or hand-entry
+
+### A. EXACT matches → Zack could enrich a man already on a map/Q (Mark reviews each before merge)
+**A–F (11):** Abelein, George F. (Forestdale) · Aitchison, James G. (Forestdale) · Burnett, David Andrew (Forestdale) · Burnett, Harold C. (Forestdale) · Brown, Henry A. (Q) · Flood, John R. (Q)
+*…and 5 with a RANK CONFLICT — in the Q as **officers**, but the enlisted chapter lists them as Private/Corporal/Sergeant. Either Zack listed them twice (enlisted then commissioned) or they're different men. Unresolved:* Burkhardt, Edwin H. · Collingwood, Frank M. · Cunniff, John R. · Dalton, William E. · Eidman, Frank L.
+
+**G–L (11):** Goss, Edwin G. (Q) · Greaney, Howard B. (Calvary) · Horne, Arthur A. (Forestdale) · Horne, John N. (Forestdale) · Howard, David B. (Q) · Hurley, John E. (Forestdale) · Hyde, William W. (Forestdale) · Jenkins, William C. Jr. (Forestdale) · Kelly, John J. (Q) · Kennedy, William T. (Q) · **LaFlesh, John D. (Q)** — deep-dig citation man; Zack has him wounded twice, gassed, taken prisoner, released, cited for bravery
+
+### B. DOUBTFUL matches → NOT merged, Mark's call (classic same-name traps)
+**A–F (19):** Baker, Arthur · Baker, John · Blais, Albert · Buckley, Frank E. (vs Q's Frank **L.**) · Burns, James F. (vs James **E.**) · Carey, James R. (vs James **F.**) · Clarke, George · Cleary, James · Conway, William J. · Cowie, William · Curran, Patrick · Desilets, Patrick S. · Dowd, James J. (vs James **E.**) · Doyle, William H. · Fay, Albert · Fitzgerald, James · Flynn, Raymond · Foley, William F. *and* Foley, William K. (both vs William **E.**)
+
+**G–L (13):** Gagnon, Arthur A. (vs Arthur **J.**) · Gerbert, Edward G. (vs Edward **W.** Sr.) · Greaney, George B. (vs George **F.**) · Hall, Harry P. (vs Harry **C.**) · Henderson, William R. · Hooks, William · Hurley, John J. (vs John **E.**) · Joyal, Desire · Kennedy, William · Kureck, John · Lally, Patrick J. (vs Patrick **F.**) · Levenson, Samuel · Lyle, William
+
+### C. HAND-ENTRY — OCR too broken to parse (20 men, transcribe from the page)
+**A–F (18):** Bieber, Harry P. · Bonacker, Alexander Jr. · Chevalier, Louis A. · Comeau, Joseph (*cited for bravery*) · Crane, Michael V. · Crepeau, J. Eugene · Crimi, Harry J. · Denardo, Tony · Desmond, Frank M. · Dickinson, Willard · Dillon, Jeremiah J. · Donoghue, Timothy · **Depkahpo, Antonio** (surname unrecoverable) · **Dorhnick, Vincenty** (surname unrecoverable) · +4 more garbled starts
+**G–L (2):** **Garabedian, Oscar J.** · **Leahy, John** — OCR ate their commas
+
+### D. NEXT CONTENT
+- **M–Z of Zack's enlisted chapter** — Mark supplies the transfer PDF; run the same pipeline
+- **Three Roll-of-Honor fallen still not added:** Ault, Arthur J. (3rd Aero Sqdn, first Holyoker to pilot in France, KIA Mar 7 1918) · Wilber, Charles I. (126th Inf, KIA Sep 2 1918) · Gately, Edward P. (Co. C, died of pneumonia Jan 2 1918)
+- **Deep-dig citation men** still owed full research: Leduc, LaFlesh, MacDonald, Young, Levenson, Leverault, Comeau
+- **"Needs narrative" sidebar filter** — at 1,879 (soon 3,500+) the Q can't be browsed by scrolling; finding unresearched men has to be a filter. Proposed, not built.
+- **Calvary photo work** — 70 files still 404; 16 entries need brand-new stone photos; 22 duplicate-name pairs not yet deduplicated. Untouched this session.
