@@ -49,6 +49,7 @@ Each site = a folder containing an **identical `index.html`** (a copy of `templa
 | `photo` | full URL, or "" |
 | `extraPhotos` | list of `{src, caption}` — renders as "View document" links |
 | `narrative` | the story text; "" → template shows the queue placeholder text |
+| `sourceNote` | small dim credit line rendered UNDER the narrative. If present, the template also renders the standard contact close from its own constant. Legacy entries have no `sourceNote` and keep the close inside `narrative`. |
 | `badges` | list, e.g. ["KIA","Purple Heart"] |
 | `status` | "located" or "queue" |
 | `source` | provenance note |
@@ -101,11 +102,11 @@ To add or migrate a site:
 
 | Site | Entries | Status |
 |---|---|---|
-| Landing | — | live (shows 1,879) |
+| Landing | — | live (shows 375 / 351 / 44 / 2,996) |
 | Calvary | 375 | live |
 | Forestdale | 351 | live |
 | Elmwood | 44 | live |
-| Research Queue | **1,879** | live |
+| Research Queue | **2,996** | live |
 
 Photos currently load from the **old repos** (`calvary-map`, `forestdale-map`, `elmwood-map`) via raw URLs. Those repos are still live and must not have their image files deleted yet.
 
@@ -315,3 +316,99 @@ unproven rather than as failure. **When Mark says he uploaded it, believe him an
 - **Deep-dig citation men** still owed full research: Leduc, LaFlesh, MacDonald, Young, Levenson, Leverault, Comeau
 - **"Needs narrative" sidebar filter** — at 1,879 (soon 3,500+) the Q can't be browsed by scrolling; finding unresearched men has to be a filter. Proposed, not built.
 - **Calvary photo work** — 70 files still 404; 16 entries need brand-new stone photos; 22 duplicate-name pairs not yet deduplicated. Untouched this session.
+
+
+## ============================================================
+## SESSION 13 — Zack's ENLISTED chapter finished (M–Z), narrative reformat, Q audit
+## ============================================================
+
+### Headline
+**Research Queue 1,879 → 2,996.** Zack's enlisted chapter is now COMPLETE, A–Z. There is no more of it to mine.
+
+### The transfer PDFs
+Mark uploaded `Transfer_M-O.pdf` and `transfer_to_O-Z.pdf`. **The second one is not O–Z — it is the ENTIRE enlisted chapter, A–Z** (2,304 records, ABBOTT → ZWIRBLIO). It supersedes the first. It is the definitive text; if any enlisted question arises, re-mine from it.
+
+### NEW PLACEHOLDER FORMAT (Mark's, approved this session — use for all future placeholders)
+Rank-led sentence first, Zack credit small and LAST, contact close after it:
+
+```
+name:        "Albert, Fred C."
+branchLabel: "U.S. Army – World War I"
+narrative:   "Private Fred C. Albert entered service July 3, 1918, serving in the Aviation
+              Corps of the United States Army in the First World War."
+sourceNote:  "Service record, from Charles S. Zack, Holyoke in the Great War (1919) —
+              full researched narrative pending."
+```
+The contact close is NO LONGER stored in the data for these entries — the template holds it as `CONTACT_CLOSE` and renders it whenever `sourceNote` exists. Do not re-add it to the narrative or it will print twice.
+
+Sentence grammar: `{Rank} {Full name} entered service {date}, serving in {unit} of the United States Army in the First World War.` (no date → "served in"). Then, as separate sentences: AEF service, station, Mexican border service, then ONE deed line ("Zack records him wounded in action.", gassed, shell-shocked, taken prisoner, cited for bravery). Any Zack sentence the composer doesn't recognise is appended verbatim rather than dropped — **never let a Zack sentence vanish.**
+
+Qualifier text appended to `sourceNote`:
+- TBD (same-name trap): " TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled."
+- In-Zack duplicate name: " TBD — Zack's roster lists more than one Holyoke man under this name; the entries are kept separate until each man is identified."
+- OCR-damaged name: " The name as printed in Zack's roster is damaged in the scan and awaits transcription from the page."
+- Recovered from damaged passage: " This entry was recovered from a damaged passage of Zack's roster; the name awaits confirmation from the printed page."
+
+### Template changes (root template.html + research-queue/index.html)
+- New `#psrc` slot: renders `sourceNote` at 0.66rem, dim, italic.
+- New `#pcontact` slot: renders the `CONTACT_CLOSE` constant, shown only when `sourceNote` exists.
+- Calvary / Forestdale / Elmwood index.html were NOT re-copied — they have no `sourceNote` entries, so nothing changes for them. They remain on the pre-sidebar-fix shell.
+
+### Reformat of existing entries
+**1,461 existing Zack entries** rewritten into the new format (734 A–F, 564 G–L, 140 officers, 22 Navy officers, 1 other). The 72 name-only roster placeholders and the 33 hero narratives were left alone.
+
+### ⚠️ THREE PARSING TRAPS — apply to any future OCR mining
+1. **Dehyphenation must be `([a-z])-\s+([a-z])`, not `([a-z])-\n([a-z])`.** The break is hyphen + space + newline. The narrower rule leaves `serv- ice` intact. This alone recovered 5 records.
+2. **The scan eats the comma after a surname** (`MARIER HENRY J.`, `REILLY^ TERRENCE A.`, `SANSOUCL HECTOR A.`). Those records get swallowed into the man above and disappear silently. The reliable tell: **a second rank word inside one record.** This recovered **56 records**, 34 of them in A–L — meaning session 12's A–F/G–L passes had lost them.
+3. **State abbreviations split records.** `Camp Green, N. C. COUNIHAN, ...` — the splitter treats `C. COUNIHAN` as a surname. Fix: the first token of a record may not be a lone initial.
+
+### ⚠️ NEVER blanket-substitute OCR letters
+The first M–Z build applied `X→N`, `li→L`, `^→M` across the board and invented men who never existed — "Xliken", "Oounihan", "Pobbs". It was thrown out. **Repairs must come from a curated token dictionary** (`3I`→M, `AV`→W, `]\I`→M, `I)`→D, `>n`/`^n`→Mi, `xl`→A, plus named one-offs). Anything not on the list is HELD, not guessed. `AVILA` is a real given name — do not "repair" it to WILA.
+
+### Queue audit against the maps (all 3,002 vs all 770 located men)
+- **6 men removed from the Q — they were already geolocated** and had leaked through session 12's filter: Broderick Walter J. (Calvary) · Collins Parker W. (Calvary) · Courtney Michael D. (Calvary) · Dooley Thomas F. (Calvary) · Dougherty John C. (Calvary) · Humeston Raymond F. (Elmwood). **Their Zack records are below — they belong on the map entries as enrichments, Mark reviews each.**
+- **167 first-initial overlaps now carry the TBD qualifier** (95 of them were older entries carrying no warning at all).
+- **Franklin, Paul** left in the Q deliberately, pending the Mass Archives check (see §8).
+
+### Zack records owed to the 6 map entries (enrichment, not new entries)
+- **Broderick, Walter J.** (Calvary) — Private, Headquarters Company, 31st Field Artillery. Entered service July 9, 1918. Stationed Fort Slocum, N. Y.; transferred to Camp Meade.
+- **Collins, Parker W.** (Calvary) — Private, Company K, 73rd Infantry. Entered service June 22, 1918. Camp Devens.
+- **Courtney, Michael D.** (Calvary) — Private, Company C, 38th Field Artillery. Entered service July 9, 1918.
+- **Dooley, Thomas F.** (Calvary) — Sergeant, Battery B, 11th Regiment, F. A. R. D. Entered service May 31, 1918.
+- **Dougherty, John C.** (Calvary) — Private, Medical Corps. Enlisted March 5, 1918.
+- **Humeston, Raymond F.** (Elmwood) — Private, United States Army. Entered service August 31, 1918.
+
+### 21 EXACT matches HELD OUT of the Q — Zack enriches a man already in the archive (Mark reviews each)
+Calvary: McAllister Bernard R. · Scanlon Michael · Stapleton Thomas H. · Tauscher Otto H. · Thorpe William G. · Vershon Raymond A. · Ward Patrick · Whalen John S.
+Queue: McNulty John · MacMenigall Roy · Moriarty Joseph J. · Moynihan Frank J. · Moynihan Patrick J. · Roy Ernest J. · Russell Stewart A. · Stefanik John · Sullivan Jeremiah F. · Tremblay George · Turner Reginald · Wruck William F. · Young Ernest H.
+(MacMenigall has a hero story; Turner is the WWI-officer exemplar; Young is a deep-dig citation man.)
+
+### Names too damaged to guess — IN the Q as-is, awaiting transcription from the printed page
+Mark's ruling: insert as-is, fix by edit later. Each carries the OCR qualifier in its `sourceNote`.
+`Oounihan, Patrick J.` (Counihan?) · `rOURNi:pR, Aime J.` (Fournier?) · `Mevette, KOLAM)` (Roland?) · `Millar, John 15.` (John B.?) · `Perreatjlit, Joseph R.` (Perreault?) · `Presconiia, Edward F.` (Prescott?) · `QUENNEl^LLE, ARMAND.L.` (Quenneville?) · `Racicot, \VILERB]I> A.` (Wilfred?) · `RAI\AU1>, Ulric A.` (Rainault? — a known trap surname) · `Sansouci, E^VOLE`
+**`McEwan`** — given name eaten entirely by the scan; never built. Needs hand entry from the page.
+Plus 33 of the 129 A–L recovered men have visibly damaged names.
+
+### A–L recovered
+**129 men loaded** (source `zack-enlisted-A-L-recovered`) who were in Zack but never made it into the archive — session 12's held/unreadable list plus the newly-recovered swallowed records. 4 more turned out to already be in the Q under the same damaged spelling and were skipped.
+
+### ⚠️ UPLOAD TRAP — two files named index.html
+The landing index.html and the research-queue index.html both download as `index.html`; the browser renames the second `index (1).html` and **they go in crossed** — it happened this session and 404'd the site. **Ship them one at a time**, and have Mark clear Downloads between. Sizes are the tell: landing = 8,757 bytes, shell = 26,332 bytes.
+
+### ⚠️ raw.githubusercontent.com LIED AGAIN
+It served the stale 8,757 file for research-queue/index.html through repeated cache-busted requests after a successful commit. **Ground truth is the git tree:**
+`git clone --depth 1 --filter=blob:none --sparse https://github.com/markwot-ops/Veteran-Archives` then `git ls-tree HEAD --format='%(objectsize) %(path)'`.
+The GitHub API is rate-limited to uselessness from this environment. **When Mark says he uploaded it, believe him and check the tree.**
+
+---
+
+## SESSION 13 — NEXT UP
+
+- **Write real person-first narratives** for the ~2,400 Zack placeholders. This is now the whole job — the mining is done. Needs the "needs narrative" filter first (below) or they can't be found.
+- **"Needs narrative" sidebar filter** — at 2,996 the Q cannot be browsed by scrolling. Proposed, still not built. This is the blocker on all narrative work.
+- **The 6 map enrichments** and **the 21 exact holds** — Mark reviews each.
+- **The hand-entry names** — transcribe from the printed page.
+- **Three Roll-of-Honor fallen** still not added: Ault, Arthur J. · Wilber, Charles I. · Gately, Edward P.
+- **Deep-dig citation men**: Leduc, LaFlesh, MacDonald, Young, Levenson, Leverault, Comeau.
+- **Calvary photo work** — 70 files still 404; 16 entries need new stone photos; 22 duplicate-name pairs. Untouched for two sessions.
+- **Landing count** is hand-typed text, not calculated. It read 243 for Forestdale (actual 351) and 2,865 for a Q holding 1,879. **Fix it whenever the data changes** — or make it read from the data.
