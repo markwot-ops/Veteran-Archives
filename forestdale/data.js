@@ -6755,6 +6755,21 @@ window.VA = {
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
+  },
+  {
+   "id": "harper_rev_morgan_erastus",
+   "name": "Morgan, Erastus",
+   "era": "Revolutionary War",
+   "branch": "",
+   "branchLabel": "Revolutionary War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Erastus Morgan served in the Revolutionary War and lies in Forestdale Cemetery, within the limits of what is now Holyoke. Harper's list of the graves of Revolutionary soldiers and sailors buried in the city names him there. His unit, his dates, and the location of his grave within the burial ground await survey.",
+   "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
+   "badges": [],
+   "status": "located",
+   "source": "harper-revolutionary-graves"
   }
  ]
 };
