@@ -553,7 +553,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_konrad_emery_e",
    "name": "Konrad, Emery E.",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -575,7 +575,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_kusnick_walter_e",
    "name": "Kusnick, Walter E.",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -595,7 +595,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_lempke_ronald_r",
    "name": "Lempke, Ronald R.",
    "era": "Vietnam",
    "branch": "U.S. Air Force",
@@ -615,7 +615,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_malcolm_james",
    "name": "Malcolm, James",
    "era": "World War I",
    "branch": "U.S. Military",
@@ -635,7 +635,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_rae_charles_c",
    "name": "Rae, Charles C.",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -655,7 +655,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_martin_ervin_f",
    "name": "Martin, Ervin F.",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -675,7 +675,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_mcclellan_elmer_l",
    "name": "McClellan, Elmer L.",
    "era": "World War II",
    "branch": "U.S. Army Air Forces",
@@ -695,7 +695,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_miles_alex_chapman",
    "name": "Miles, Alex Chapman",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -710,7 +710,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_miller_edmund_p_sr",
    "name": "Miller, Edmund P. Sr.",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -730,7 +730,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_mitchell_robert",
    "name": "Mitchell, Robert",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -745,7 +745,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_murray_charles_stuart",
    "name": "Murray, Charles Stuart",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -765,7 +765,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_orcutt_clifford_l",
    "name": "Orcutt, Clifford L.",
    "era": "Korean War",
    "branch": "U.S. Air Force",
@@ -780,7 +780,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_paquette_raymond_ernest_sr",
    "name": "Paquette, Raymond Ernest Sr.",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -800,7 +800,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_platanitis_george",
    "name": "Platanitis, George",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -815,7 +815,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_roberts_paul_v",
    "name": "Roberts, Paul V.",
    "era": "World War II",
    "branch": "U.S. Navy",
@@ -835,7 +835,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_rock_homer_joseph",
    "name": "Rock, Homer Joseph",
    "era": "World War II",
    "branch": "U.S. Navy",
@@ -855,7 +855,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_roe_john_f",
    "name": "Roe, John F.",
    "era": "Vietnam",
    "branch": "U.S. Army",
@@ -870,7 +870,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_rollins_william_j",
    "name": "Rollins, William J.",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -885,7 +885,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_rys_john_joseph",
    "name": "Rys, John Joseph",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -905,7 +905,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_scott_john",
    "name": "Scott, John",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -920,7 +920,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_sinclair_james_w",
    "name": "Sinclair, James W.",
    "era": "Civil War Era",
    "branch": "U.S. Military",
@@ -935,7 +935,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_smith_raymond_a_jr",
    "name": "Smith, Raymond A. Jr.",
    "era": "World War II",
    "branch": "U.S. Coast Guard",
@@ -950,7 +950,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_stallmann_charles_d",
    "name": "Stallmann, Charles D.",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -965,7 +965,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_stocks_frederick_j",
    "name": "Stocks, Frederick J.",
    "era": "World War II",
    "branch": "U.S. Navy",
@@ -985,7 +985,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_streeter_p_a",
    "name": "Streeter, P.A.",
    "era": "Civil War Era",
    "branch": "U.S. Military",
@@ -1000,7 +1000,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_tagliolato_john_j",
    "name": "Tagliolato, John J.",
    "era": "World War I",
    "branch": "U.S. Army",
@@ -1015,7 +1015,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_tenney_raymond_w",
    "name": "Tenney, Raymond W.",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -1030,7 +1030,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_thayer_harry_h_jr",
    "name": "Thayer, Harry H. Jr.",
    "era": "World War II",
    "branch": "U.S. Navy / Army Air Corps",
@@ -1050,7 +1050,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_thayer_thomas_clark",
    "name": "Thayer, Thomas Clark",
    "era": "Post-Vietnam",
    "branch": "U.S. Navy",
@@ -1070,7 +1070,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_thieme_william_e",
    "name": "Thieme, William E.",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -1085,7 +1085,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_wightman_alfred_d",
    "name": "Wightman, Alfred D.",
    "era": "World War I",
    "branch": "U.S. Military",
@@ -1100,7 +1100,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_bingle_john_a",
    "name": "Bingle, John A.",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -1115,7 +1115,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_desrosiers_joseph_l",
    "name": "Desrosiers, Joseph L.",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -1130,7 +1130,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_gaunt_george_s",
    "name": "Gaunt, George S.",
    "era": "Vietnam",
    "branch": "U.S. Military",
@@ -1145,7 +1145,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_parfitt_john_r",
    "name": "Parfitt, John R.",
    "era": "Unknown Era",
    "branch": "U.S. Military",
@@ -1169,7 +1169,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_racoske_adolf",
    "name": "Racoske, Adolf",
    "era": "Spanish-American War",
    "branch": "U.S. Military",
@@ -1189,7 +1189,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_fielding_edson_e",
    "name": "Fielding, Edson E.",
    "era": "World War I",
    "branch": "U.S. Military",
@@ -1209,7 +1209,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_councill_evelyn_gladys",
    "name": "Councill, Evelyn Gladys",
    "era": "World War II",
    "branch": "U.S. Coast Guard",
@@ -1229,7 +1229,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_councill_james_h",
    "name": "Councill, James H.",
    "era": "World War II",
    "branch": "U.S. Coast Guard",
@@ -1249,7 +1249,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_cousins_mary_alice",
    "name": "Cousins, Mary Alice",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -1269,7 +1269,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_denton_kenneth_n",
    "name": "Denton, Kenneth N.",
    "era": "Korean War",
    "branch": "U.S. Army",
@@ -1284,7 +1284,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_dowdall",
    "name": "Dowdall",
    "era": "Unknown Era",
    "branch": "U.S. Army Air Forces",
@@ -1299,7 +1299,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_downing_jeremiah_t",
    "name": "Downing, Jeremiah T.",
    "era": "Unknown Era",
    "branch": "U.S. Coast Guard",
@@ -1319,7 +1319,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_feldon_richard_alan",
    "name": "Feldon, Richard Alan",
    "era": "Korean War",
    "branch": "U.S. Marine Corps",
@@ -1339,7 +1339,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_fifield_henry_a",
    "name": "Fifield, Henry A.",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -1354,7 +1354,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_follett_warren_o",
    "name": "Follett, Warren O.",
    "era": "Korean War",
    "branch": "U.S. Army",
@@ -1369,7 +1369,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_green_alfred_r",
    "name": "Green, Alfred R.",
    "era": "Spanish-American War",
    "branch": "U.S. Military",
@@ -1389,7 +1389,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_jenkins_william_c_jr",
    "name": "Jenkins, William C. Jr.",
    "era": "World War I",
    "branch": "U.S. Military",
@@ -1409,7 +1409,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_junkins_clifford_e_jr",
    "name": "Junkins, Clifford E. Jr.",
    "era": "World War II",
    "branch": "U.S. Navy",
@@ -1433,7 +1433,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_kelley_harold_park",
    "name": "Kelley, Harold Park",
    "era": "World War I",
    "branch": "U.S. Navy",
@@ -1453,7 +1453,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_kershaw_frank_e",
    "name": "Kershaw, Frank E.",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -1485,7 +1485,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_knox_barron_dwinell",
    "name": "Knox, Barron Dwinell",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -1505,7 +1505,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_lassard_donald_a",
    "name": "Lassard, Donald A.",
    "era": "World War II",
    "branch": "U.S. Navy",
@@ -1520,7 +1520,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_macdonald_george_d",
    "name": "MacDonald, George D.",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -1540,7 +1540,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_miller_george_robert",
    "name": "Miller, George Robert",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -1555,7 +1555,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_miller_edward_w",
    "name": "Miller, Edward W.",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -1572,7 +1572,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_sachs_edward_a_jr",
    "name": "Sachs, Edward A. Jr.",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -1592,7 +1592,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_sattler_walter_ernest",
    "name": "Sattler, Walter Ernest",
    "era": "World War I",
    "branch": "U.S. Army",
@@ -1607,7 +1607,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_shea_stephen_robinson",
    "name": "Shea, Stephen Robinson",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -1631,7 +1631,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_siegert_oscar_w",
    "name": "Siegert, Oscar W.",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -1651,7 +1651,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_smith_george",
    "name": "Smith, George",
    "era": "World War I",
    "branch": "U.S. Military",
@@ -1671,7 +1671,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_thomson_alexander_s",
    "name": "Thomson, Alexander S.",
    "era": "Unknown Era",
    "branch": "U.S. Military",
@@ -1686,7 +1686,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_tidswell_william_f",
    "name": "Tidswell, William F.",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -1701,7 +1701,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_twing_edward_l",
    "name": "Twing, Edward L.",
    "era": "World War I",
    "branch": "U.S. Military",
@@ -1716,7 +1716,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_baldwin_leonard_m",
    "name": "Baldwin, Leonard M.",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -1736,7 +1736,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_beeching_albert_g",
    "name": "Beeching, Albert G.",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -1751,7 +1751,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_berger_harold_e",
    "name": "Berger, Harold E.",
    "era": "World War II",
    "branch": "U.S. Army Air Forces",
@@ -1771,7 +1771,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_brown_otho_w",
    "name": "Brown, Otho W.",
    "era": "World War I",
    "branch": "U.S. Army",
@@ -1807,7 +1807,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_brown_david_r",
    "name": "Brown, David R.",
    "era": "Korean War",
    "branch": "U.S. Army",
@@ -1822,7 +1822,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_bush_stephen_p",
    "name": "Bush, Stephen P.",
    "era": "World War I",
    "branch": "U.S. Army",
@@ -1842,7 +1842,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_cameron_duncan_b",
    "name": "Cameron, Duncan B.",
    "era": "World War II",
    "branch": "U.S. Navy",
@@ -1862,7 +1862,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_carl_alfred_r_sr",
    "name": "Carl, Alfred R. Sr.",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -1877,7 +1877,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_carter_edmond_j",
    "name": "Carter, Edmond J.",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -1892,7 +1892,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_aitchison_james_g",
    "name": "Aitchison, James G.",
    "era": "World War I",
    "branch": "U.S. Army",
@@ -1912,7 +1912,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_auld_thomas_c_jr",
    "name": "Auld, Thomas C. Jr.",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -1936,7 +1936,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_ballard_willis_d",
    "name": "Ballard, Willis D.",
    "era": "Spanish-American War",
    "branch": "U.S. Army",
@@ -1960,7 +1960,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_schuster_christian_frederick",
    "name": "Schuster, Christian Frederick",
    "era": "Spanish-American War",
    "branch": "U.S. Military",
@@ -1980,7 +1980,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_nash_marjorie_virginia",
    "name": "Nash, Marjorie Virginia",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -1995,7 +1995,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_neumann_clarence_e",
    "name": "Neumann, Clarence E.",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -2015,7 +2015,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_hill_paul_newland",
    "name": "Hill, Paul Newland",
    "era": "World War I",
    "branch": "U.S. Army",
@@ -2039,7 +2039,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_baker_glenn_royal",
    "name": "Baker, Glenn Royal",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -2063,7 +2063,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_batchelor_charles_f",
    "name": "Batchelor, Charles F.",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -2082,7 +2082,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_briggs_george_e",
    "name": "Briggs, George E.",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -2097,7 +2097,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_whiting_richard_cooley",
    "name": "Whiting, Richard Cooley",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -2112,7 +2112,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_cummings_leo_v",
    "name": "Cummings, Leo V.",
    "era": "Unknown Era",
    "branch": "U.S. Military",
@@ -2127,7 +2127,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_day_e_russell",
    "name": "Day, E. Russell",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -2151,7 +2151,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_fern_david_a",
    "name": "Fern, David A.",
    "era": "Vietnam",
    "branch": "U.S. Army",
@@ -2175,7 +2175,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_fern_robert",
    "name": "Fern, Robert",
    "era": "Korean War",
    "branch": "U.S. Army",
@@ -2199,7 +2199,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_gammie_robert_e",
    "name": "Gammie, Robert E.",
    "era": "World War II",
    "branch": "U.S. Marine Corps",
@@ -2214,7 +2214,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_gerhardt_christine_j",
    "name": "Gerhardt, Christine J.",
    "era": "World War II",
    "branch": "U.S. Navy",
@@ -2229,7 +2229,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_gerhardt_john_h",
    "name": "Gerhardt, John H.",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -2249,7 +2249,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_gerhardt_walter_h",
    "name": "Gerhardt, Walter H.",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -2273,7 +2273,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_goss_john_e",
    "name": "Goss, John E.",
    "era": "Spanish-American War",
    "branch": "U.S. Army",
@@ -2293,7 +2293,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_gray_harold_g_sr",
    "name": "Gray, Harold G. Sr.",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -2313,7 +2313,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_hastings_francis_h",
    "name": "Hastings, Francis H.",
    "era": "Spanish-American War",
    "branch": "U.S. Military",
@@ -2333,7 +2333,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_holgate_colonel",
    "name": "Holgate, Colonel",
    "era": "Spanish-American War",
    "branch": "U.S. Military",
@@ -2348,7 +2348,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_hoyt_mason_n",
    "name": "Hoyt, Mason N.",
    "era": "World War I",
    "branch": "U.S. Military",
@@ -2363,7 +2363,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_ironside_alexander",
    "name": "Ironside, Alexander",
    "era": "Civil War Era",
    "branch": "U.S. Military",
@@ -2378,7 +2378,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_ironside_william_a",
    "name": "Ironside, William A.",
    "era": "Unknown Era",
    "branch": "U.S. Military",
@@ -2393,7 +2393,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_kellett_ralph_c",
    "name": "Kellett, Ralph C.",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -2413,7 +2413,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_scott_thomas_jr",
    "name": "Scott, Thomas Jr.",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -2433,7 +2433,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_krausse_robert_c",
    "name": "Krausse, Robert C.",
    "era": "World War II",
    "branch": "U.S. Navy",
@@ -2453,7 +2453,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_kuenzel_arthur_h",
    "name": "Kuenzel, Arthur H.",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -2473,7 +2473,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_markert_violet_e",
    "name": "Markert, Violet E.",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -2493,7 +2493,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_mcgart_arthur_w",
    "name": "McGart, Arthur W.",
    "era": "World War I",
    "branch": "U.S. Army",
@@ -2513,7 +2513,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_parry_thomas_berger",
    "name": "Parry, Thomas Berger",
    "era": "World War II",
    "branch": "U.S. Air Force",
@@ -2545,7 +2545,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_phelps_veteran",
    "name": "Phelps, (Veteran)",
    "era": "Unknown Era",
    "branch": "U.S. Military",
@@ -2565,7 +2565,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_reuger_raymond_c",
    "name": "Reuger, Raymond C.",
    "era": "World War I",
    "branch": "U.S. Army",
@@ -2585,7 +2585,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_shafer_edith_b",
    "name": "Shafer, Edith B.",
    "era": "World War II",
    "branch": "U.S. Army",
@@ -2605,7 +2605,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_silinski_arthur_a",
    "name": "Silinski, Arthur A.",
    "era": "World War II",
    "branch": "U.S. Army Air Forces",
@@ -2620,7 +2620,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_haunton_thurlow_clark",
    "name": "Haunton, Thurlow Clark",
    "era": "World War I",
    "branch": "U.S. Navy",
@@ -2644,7 +2644,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_heywood_milton",
    "name": "Heywood, Milton",
    "era": "Spanish-American War",
    "branch": "U.S. Military",
@@ -2664,7 +2664,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_horne_arthur_a",
    "name": "Horne, Arthur A.",
    "era": "World War I",
    "branch": "U.S. Military",
@@ -2817,7 +2817,7 @@ window.VA = {
    "source": "stone"
   },
   {
-   "id": "",
+   "id": "fd_bagg_earl_f",
    "name": "Bagg, Earl F.",
    "era": "World War II",
    "branch": "Army",
@@ -2837,7 +2837,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_baker_arthur_j",
    "name": "Baker, Arthur J.",
    "era": "World War II",
    "branch": "Navy",
@@ -2857,7 +2857,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_hanson_ralph_e",
    "name": "Hanson, Ralph E.",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -2872,7 +2872,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_bell_samuel",
    "name": "Bell, Samuel",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -2892,7 +2892,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_bentley_archie",
    "name": "Bentley, Archie",
    "era": "World War I",
    "branch": "U.S. Navy",
@@ -2916,7 +2916,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_berard_armand_d",
    "name": "Berard, Armand D.",
    "era": "World War II",
    "branch": "Army",
@@ -2931,7 +2931,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_bowler_john_s",
    "name": "Bowler, John S.",
    "era": "World War II",
    "branch": "Army",
@@ -2951,7 +2951,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_brakey_george_a",
    "name": "Brakey, George A.",
    "era": "World War II",
    "branch": "Coast Guard",
@@ -2975,7 +2975,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_broucham_ernest_l",
    "name": "Broucham, Ernest L.",
    "era": "World War I",
    "branch": "Navy",
@@ -2990,7 +2990,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_buchanan_clarence_m",
    "name": "Buchanan, Clarence M.",
    "era": "World War II",
    "branch": "Army",
@@ -3014,7 +3014,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_abelein_george_f",
    "name": "Abelein, George F.",
    "era": "World War I",
    "branch": "Army",
@@ -3034,7 +3034,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_geoffrion_albert_c",
    "name": "Geoffrion, Albert C.",
    "era": "World War I",
    "branch": "U.S. Army",
@@ -3058,7 +3058,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_colgan_howard_w",
    "name": "Colgan, Howard W.",
    "era": "World War II",
    "branch": "Navy",
@@ -3078,7 +3078,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_corsair_dorothy_c",
    "name": "Corsair, Dorothy C.",
    "era": "World War II",
    "branch": "Army",
@@ -3093,7 +3093,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_craven_william_b",
    "name": "Craven, William B.",
    "era": "World War I",
    "branch": "Army",
@@ -3119,7 +3119,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_fletcher_archibald_r_g",
    "name": "Fletcher, Archibald R.G.",
    "era": "World War I",
    "branch": "U.S. Military",
@@ -3134,7 +3134,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_fletcher_donald_w",
    "name": "Fletcher, Donald W.",
    "era": "World War II",
    "branch": "Army",
@@ -3168,7 +3168,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_franklin_paul",
    "name": "Franklin, Paul",
    "era": "World War II",
    "branch": "Army",
@@ -3185,7 +3185,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_frederick_earl",
    "name": "Frederick, Earl",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -3205,7 +3205,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_frederick_george",
    "name": "Frederick, George",
    "era": "World War I",
    "branch": "U.S. Military",
@@ -3220,7 +3220,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_frey_arthur_w",
    "name": "Frey, Arthur W.",
    "era": "World War II",
    "branch": "Army",
@@ -3240,7 +3240,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_frost_donald_r",
    "name": "Frost, Donald R.",
    "era": "World War II",
    "branch": "Army",
@@ -3260,7 +3260,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_gerbert_edward_w_sr",
    "name": "Gerbert, Edward W. Sr.",
    "era": "World War I",
    "branch": "Army",
@@ -3284,7 +3284,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_gibson_douglas_m",
    "name": "Gibson, Douglas M.",
    "era": "World War I",
    "branch": "U.S. Military",
@@ -3308,7 +3308,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_gillies_neil",
    "name": "Gillies, Neil",
    "era": "Spanish-American War",
    "branch": "U.S. Military",
@@ -3332,7 +3332,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_goebel_henry_g_iii",
    "name": "Goebel, Henry G. III",
    "era": "World War II",
    "branch": "Army",
@@ -3352,7 +3352,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_goller_frederick_w",
    "name": "Goller, Frederick W.",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -3367,7 +3367,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_goodwin_leonard_o_jr",
    "name": "Goodwin, Leonard O. Jr.",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -3382,7 +3382,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_goodwin_john_cooper",
    "name": "Goodwin, John Cooper",
    "era": "World War I",
    "branch": "U.S. Military",
@@ -3402,7 +3402,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_gould_philip_a",
    "name": "Gould, Philip A.",
    "era": "Vietnam",
    "branch": "Army",
@@ -3422,7 +3422,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_gould_donald_w",
    "name": "Gould, Donald W.",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -3437,7 +3437,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_grenert_alfred",
    "name": "Grenert, Alfred",
    "era": "World War I",
    "branch": "U.S. Military",
@@ -3461,7 +3461,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_guillerie_delphis_m",
    "name": "Guillerie, Delphis M.",
    "era": "World War I",
    "branch": "Navy",
@@ -3481,7 +3481,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_ashford_ashfield",
    "name": "Ashford, Ashfield",
    "era": "Spanish-American War",
    "branch": "U.S. Military",
@@ -3496,7 +3496,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_astley_frank_h",
    "name": "Astley, Frank H.",
    "era": "World War I",
    "branch": "U.S. Military",
@@ -3516,7 +3516,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_brill_owen_h",
    "name": "Brill, Owen H.",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -3531,7 +3531,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_burnett_robert",
    "name": "Burnett, Robert",
    "era": "World War I",
    "branch": "Army",
@@ -3548,7 +3548,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_burnett_david_andrew",
    "name": "Burnett, David Andrew",
    "era": "World War I",
    "branch": "Army",
@@ -3563,7 +3563,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_haglund_karl_e",
    "name": "Haglund, Karl E.",
    "era": "Spanish-American War",
    "branch": "U.S. Military",
@@ -3578,7 +3578,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_hall_harry_c",
    "name": "Hall, Harry C.",
    "era": "Spanish-American War",
    "branch": "U.S. Military",
@@ -3598,7 +3598,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_hampson_walter_r",
    "name": "Hampson, Walter R.",
    "era": "World War II",
    "branch": "Coast Guard",
@@ -3613,7 +3613,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_hance_thomas_william",
    "name": "Hance, Thomas William",
    "era": "Vietnam",
    "branch": "Air Force",
@@ -3628,7 +3628,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_hannah_earl_f_sr",
    "name": "Hannah, Earl F. Sr.",
    "era": "World War II",
    "branch": "Navy",
@@ -3643,7 +3643,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_hassett_helen_g",
    "name": "Hassett, Helen G.",
    "era": "World War II",
    "branch": "Army",
@@ -3667,7 +3667,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_henderson_george_l",
    "name": "Henderson, George L.",
    "era": "World War II",
    "branch": "Army",
@@ -3687,7 +3687,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_henderson_walter_l",
    "name": "Henderson, Walter L.",
    "era": "Spanish-American War",
    "branch": "Army",
@@ -3707,7 +3707,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_hooks_william_m",
    "name": "Hooks, William M.",
    "era": "World War I",
    "branch": "Army",
@@ -3731,7 +3731,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_horne_john_neill",
    "name": "Horne, John Neill",
    "era": "World War I",
    "branch": "U.S. Military",
@@ -3746,7 +3746,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_cowie_william_g",
    "name": "Cowie, William G.",
    "era": "World War I",
    "branch": "U.S. Military",
@@ -3766,7 +3766,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_inman_william_m",
    "name": "Inman, William M.",
    "era": "World War I",
    "branch": "Army",
@@ -3786,7 +3786,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_judson_joseph",
    "name": "Judson, Joseph",
    "era": "World War I",
    "branch": "U.S. Military",
@@ -3801,7 +3801,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_kerr_george",
    "name": "Kerr, George",
    "era": "World War I",
    "branch": "U.S. Military",
@@ -3816,7 +3816,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_kupec_george_j",
    "name": "Kupec, George J.",
    "era": "World War II",
    "branch": "Army",
@@ -3836,7 +3836,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_kupec_john_w",
    "name": "Kupec, John W.",
    "era": "World War II",
    "branch": "Marines",
@@ -3856,7 +3856,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_kureck_john",
    "name": "Kureck, John",
    "era": "World War I",
    "branch": "U.S. Army",
@@ -3871,7 +3871,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_kurtz_robert_e",
    "name": "Kurtz, Robert E.",
    "era": "World War II",
    "branch": "Army",
@@ -3891,7 +3891,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_kurtz_walter_e",
    "name": "Kurtz, Walter E.",
    "era": "Korean War",
    "branch": "Army",
@@ -3914,7 +3914,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_lacoste_jean_l",
    "name": "Lacoste, Jean L.",
    "era": "Korean War",
    "branch": "Navy",
@@ -3938,7 +3938,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_lamont_james",
    "name": "Lamont, James",
    "era": "World War I",
    "branch": "U.S. Military",
@@ -3953,7 +3953,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_larounis_john_d",
    "name": "Larounis, John D.",
    "era": "World War II",
    "branch": "Navy",
@@ -3977,7 +3977,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_littlejohn_david_j",
    "name": "Littlejohn, David J.",
    "era": "World War II",
    "branch": "U.S. Military",
@@ -3999,7 +3999,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_littlejohn_louis_b",
    "name": "Littlejohn, Louis B.",
    "era": "World War II",
    "branch": "Army",
@@ -4016,7 +4016,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_littlejohn_william",
    "name": "Littlejohn, William",
    "era": "Unknown Era",
    "branch": "U.S. Military",
@@ -4040,7 +4040,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_lyle_william",
    "name": "Lyle, William",
    "era": "Unknown Era",
    "branch": "U.S. Military",
@@ -4055,7 +4055,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_lynch_edgar_r",
    "name": "Lynch, Edgar R.",
    "era": "World War II",
    "branch": "Army",
@@ -4075,7 +4075,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_mathieson_wilson_jr",
    "name": "Mathieson, Wilson Jr.",
    "era": "World War II",
    "branch": "Army Air Corps",
@@ -4092,7 +4092,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_mathieson_wilson_sr",
    "name": "Mathieson, Wilson Sr.",
    "era": "World War I",
    "branch": "British Army",
@@ -4107,7 +4107,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_mcbride_david",
    "name": "McBride, David",
    "era": "Spanish-American War",
    "branch": "U.S. Military",
@@ -4122,7 +4122,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_mcfadden_john_d",
    "name": "McFadden, John D.",
    "era": "Unknown Era",
    "branch": "U.S. Military",
@@ -4137,7 +4137,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_mclean_robert_a",
    "name": "McLean, Robert A.",
    "era": "World War II",
    "branch": "Navy",
@@ -4154,7 +4154,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_meschke_harry_a",
    "name": "Meschke, Harry A.",
    "era": "Unknown Era",
    "branch": "U.S. Military",
@@ -4169,7 +4169,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_mielke_william_g",
    "name": "Mielke, William G.",
    "era": "World War I",
    "branch": "Army",
@@ -4193,7 +4193,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_mielke_william_a",
    "name": "Mielke, William A.",
    "era": "World War II",
    "branch": "Navy",
@@ -4217,7 +4217,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_miles_stanley_j_sr",
    "name": "Miles, Stanley J. Sr.",
    "era": "World War II",
    "branch": "Army",
@@ -4232,7 +4232,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_minkley_edward_w",
    "name": "Minkley, Edward W.",
    "era": "Unknown Era",
    "branch": "U.S. Military",
@@ -4252,7 +4252,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_morrison_joseph_p",
    "name": "Morrison, Joseph P.",
    "era": "World War II",
    "branch": "Navy",
@@ -4267,7 +4267,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_mulholland_howard",
    "name": "Mulholland, Howard",
    "era": "World War II",
    "branch": "Air Force",
@@ -4287,7 +4287,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_munkittrick_leighton_f",
    "name": "Munkittrick, Leighton F.",
    "era": "World War II",
    "branch": "Army",
@@ -4307,7 +4307,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_munkittrick_raymond_j",
    "name": "Munkittrick, Raymond J.",
    "era": "World War II",
    "branch": "Navy",
@@ -4327,7 +4327,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_myers_thomas_w",
    "name": "Myers, Thomas W.",
    "era": "World War II",
    "branch": "Marines",
@@ -4344,7 +4344,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_nelson_charles_s",
    "name": "Nelson, Charles S.",
    "era": "World War II",
    "branch": "Army",
@@ -4359,7 +4359,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_nichols_winifred_e",
    "name": "Nichols, Winifred E.",
    "era": "World War II",
    "branch": "Women's Army Corps",
@@ -4374,7 +4374,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_o_connell_raymond_m",
    "name": "O'Connell, Raymond M.",
    "era": "World War I",
    "branch": "Army",
@@ -4389,7 +4389,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_oliver_james_w",
    "name": "Oliver, James W.",
    "era": "Unknown Era",
    "branch": "U.S. Military",
@@ -4404,7 +4404,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_burnett_harold_c",
    "name": "Burnett, Harold C.",
    "era": "World War I",
    "branch": "Army",
@@ -4518,7 +4518,7 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
+   "id": "fd_mackenzie_john",
    "name": "MacKenzie, John",
    "era": "World War I",
    "branch": "Navy",
