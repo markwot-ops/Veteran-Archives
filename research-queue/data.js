@@ -22,7 +22,8 @@ window.VA = {
    "narrative": "Alfred S. Anderson, a son of Holyoke, entered the service in April 1917, shortly after the declaration of war, and served as a Musician in the Band of the 104th Infantry. Regimental bandsmen were not spectators: in battle they laid down their instruments and served as stretcher-bearers, carrying the wounded out under fire. Anderson was awarded the Distinguished Service Medal for bravery and gallant conduct in action from April 2nd to April 14th, 1918, during the 26th Division's defense of the Bois Brule sector, when the Yankee Division held against enemy raids in superior numbers and heavy artillery fire. He was killed in action in France on June 16, 1918. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA",
-    "Distinguished Service Medal"
+    "Distinguished Service Medal",
+    "Cited for Bravery"
    ],
    "status": "queue",
    "source": "research-queue"
@@ -148,6 +149,12 @@ window.VA = {
    "branchLabel": "U.S. Army – Spanish-American War",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 San Juan and El Caney (1898)",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
+    }
+   ],
    "narrative": "Samuel C. Bogart served as a Sergeant among Holyoke's own in Company D, 2nd Massachusetts Volunteer Infantry, during the Santiago campaign of 1898. He endured the landing in Cuba, the battle at El Caney, and the fever camps that emptied the ranks of his regiment before it could be carried home to the quarantine grounds at Montauk. He died in his nation's service, remembered here among the Holyoke men who answered the call. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
@@ -176,6 +183,12 @@ window.VA = {
    "branchLabel": "U.S. Army – Spanish-American War",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 San Juan and El Caney (1898)",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
+    }
+   ],
    "narrative": "Joseph Bonneville was one of Holyoke's young volunteers — a name reflecting the French-Canadian families who had made the city their home — who went to Cuba with Company D of the 2nd Massachusetts in 1898. He shared in the regiment's fight at El Caney and in the weeks of siege, hunger, and fever that followed before Santiago fell. He died in the service of his country, remembered among Holyoke's own of the Spanish-American War. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
@@ -375,6 +388,12 @@ window.VA = {
    "branchLabel": "U.S. Army – Spanish-American War",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 San Juan and El Caney (1898)",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
+    }
+   ],
    "narrative": "Timothy J. Canavan answered the call from Holyoke and served with the city's Company D, 2nd Massachusetts, in the Santiago campaign. He was among the volunteers who fought at El Caney and held the trench lines before the city, enduring the tropical fevers that swept through the ranks. He gave his life in his nation's service in 1898, one of Holyoke's own. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
@@ -423,6 +442,12 @@ window.VA = {
    "branchLabel": "U.S. Army – Spanish-American War",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 San Juan and El Caney (1898)",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
+    }
+   ],
    "narrative": "Allen B. Chamberlain marched with Holyoke's Company D from Daiquiri to the fighting at El Caney, one of the volunteers who went into battle with an outdated rifle against an entrenched enemy. He survived the fight only to enter the longer trial of the disease-ridden camps around Santiago. He died in his country's service in the Cuban campaign of 1898, a Holyoke man of the 2nd Massachusetts. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
@@ -526,6 +551,12 @@ window.VA = {
    "branchLabel": "U.S. Army – Spanish-American War",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 San Juan and El Caney (1898)",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
+    }
+   ],
    "narrative": "Ruel H. Coit answered Holyoke's call in the spring of 1898 and served as a Corporal in the city's Company D, 2nd Massachusetts. He was in the ranks at El Caney and through the siege lines before Santiago, and like so many of his comrades he faced the malaria and yellow fever that proved deadlier than any Spanish position. He gave his life in that campaign, one of Holyoke's own in the war for Cuban independence. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
@@ -538,6 +569,12 @@ window.VA = {
    "branchLabel": "U.S. Army – Spanish-American War",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 San Juan and El Caney (1898)",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
+    }
+   ],
    "narrative": "George A. Collier was a Sergeant of Holyoke's Company D, 2nd Massachusetts Volunteer Infantry, and died in the Santiago campaign of 1898. He stood with the only volunteer regiment in the hard fight at El Caney and through the trench lines thrown up before the city. Like so many of Holyoke's own men in that company, he survived the Spanish guns only to face the deadlier fevers that swept the Cuban camps, and he gave his life in his country's service. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
@@ -901,6 +938,12 @@ window.VA = {
    "branchLabel": "U.S. Army – Spanish-American War",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 San Juan and El Caney (1898)",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
+    }
+   ],
    "narrative": "Anatole Dugas served with Holyoke's own in Cuba in 1898, one of the French-Canadian community that had built much of the city and now sent its sons to the nation's war. He shared in the ordeal of El Caney and the fever camps of Santiago with Company D of the 2nd Massachusetts. He died in his country's service during that campaign, remembered here among Holyoke's men. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
@@ -1650,6 +1693,12 @@ window.VA = {
    "branchLabel": "U.S. Army – Spanish-American War",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 San Juan and El Caney (1898)",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
+    }
+   ],
    "narrative": "Samuel P. Hazelwood went to Cuba with Holyoke's Company D in the summer of 1898. He endured the landing, the battle at El Caney, and the trenches before Santiago, where the volunteers dug in against both the enemy and the disease that thinned their ranks. He gave his life in his nation's service during the campaign, one of the city's own in the 2nd Massachusetts. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
@@ -2335,6 +2384,12 @@ window.VA = {
    "branchLabel": "U.S. Army – Spanish-American War",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 San Juan and El Caney (1898)",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
+    }
+   ],
    "narrative": "Richard Mackey was among the Holyoke men who volunteered in 1898 and sailed for Cuba with the city's Company D, 2nd Massachusetts. He served through the fight at El Caney and the siege before Santiago, sharing in the fever and hardship that marked the regiment's campaign far more than combat did. He died in the service of his country, honored here among Holyoke's own of the Spanish-American War. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
@@ -2476,6 +2531,12 @@ window.VA = {
    "branchLabel": "U.S. Army – Spanish-American War",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 San Juan and El Caney (1898)",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
+    }
+   ],
    "narrative": "Frank G. Mattice went to Cuba in the summer of 1898 as a Sergeant in Holyoke's Company D of the 2nd Massachusetts. He shared in the regiment's baptism of fire at El Caney and in the grinding weeks in the trenches before Santiago, where hunger, exhaustion, and tropical disease wore the volunteers down man by man. He died in the service of his country, one of the city's own Sergeants of the Spanish-American War. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
@@ -3742,6 +3803,12 @@ window.VA = {
    "branchLabel": "U.S. Army – Spanish-American War",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 San Juan and El Caney (1898)",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
+    }
+   ],
    "narrative": "Edgar R. Train served as a Sergeant in Company D — Holyoke's own company — of the 2nd Massachusetts Volunteer Infantry, and gave his life in the Cuban campaign of 1898. As a Sergeant he carried the daily burden of the volunteer soldier's ordeal: the landing at Daiquiri, the fight at El Caney under a haze of black-powder smoke, and the fever-ridden camps that followed before Santiago. He was one of the city's own men, sent to war under its hometown company, who did not come home. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
@@ -4375,7 +4442,8 @@ window.VA = {
    "lng": null,
    "narrative": "Lieutenant William A. Stack of Holyoke served with the 175th Field Artillery. Through his outfit's entire time in the sector he kept communication open, never once losing contact with regimental headquarters even under fire — the unglamorous, essential work on which an artillery regiment's guns depended. For that steadiness he was awarded the Distinguished Service Medal. What became of him afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
-    "Distinguished Service Medal"
+    "Distinguished Service Medal",
+    "Croix de Guerre"
    ],
    "status": "queue",
    "source": "zack-heroes"
@@ -4400,7 +4468,8 @@ window.VA = {
    ],
    "narrative": "William P. Ryan went to the First World War as a Holyoke man and a physician, commissioned a major in the Army's Medical Reserve Corps — his war fought not with a weapon but with the skill to keep other men alive. In July 1918 he was passing through the French town of Joinville when German aircraft came over it, killing five and wounding seventeen, many of them women and children. Ryan did not take shelter. He went into the streets under the bombardment to reach the wounded, cleared the downed electrical wires tangled across the railway station, and made his way to the military hospital, where he operated through the night on soldiers and civilians alike, leaving only when he was certain he was no longer needed. The mayor of Joinville set the town's gratitude down in writing. For this the Army awarded Major Ryan the Distinguished Service Medal. What became of him afterward — his practice, his years back home — has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
-    "Distinguished Service Medal"
+    "Distinguished Service Medal",
+    "Croix de Guerre"
    ],
    "status": "queue",
    "source": "zack-heroes"
@@ -4569,9 +4638,16 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "✈️ The Holyoke Man Who Flew for France",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/parsons-escadrille.html"
+    }
+   ],
    "narrative": "Edwin C. Parsons of Holyoke flew with the Lafayette Escadrille — the squadron of American volunteers who took up French colors before their own country entered the war. An excellent pilot, he was credited with downing seven enemy aircraft. For his record in the air France awarded him both the Croix de Guerre and the French Military Medal. What became of Parsons in later years has not yet been traced here; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
-    "Croix de Guerre"
+    "Croix de Guerre",
+    "Cited for Bravery"
    ],
    "status": "queue",
    "source": "zack-heroes"
@@ -4601,7 +4677,8 @@ window.VA = {
    "lng": null,
    "narrative": "Hugh Weir of Holyoke served with the 46th Canadian Infantry — one of the Holyoke men who went north to enlist under British colors before the United States entered the war. On February 14, 1918, he led a section of seven men in a raid on the enemy's line; though severely wounded in the advance, he pressed his party forward and directed them in clearing the ground assigned to them, all under machine-gun fire, setting a fine example of fearlessness. For that action he was awarded the British Military Medal. What became of Weir afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
-    "British Military Medal"
+    "British Military Medal",
+    "Cited for Bravery"
    ],
    "status": "queue",
    "source": "zack-heroes"
@@ -4627,6 +4704,9 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Alexander MacDonald of Holyoke was a career citizen-soldier. He enlisted in Company D, 2nd Massachusetts Regiment, on March 20, 1895, served in the Spanish-American War as a corporal, and rose over the years through first lieutenant, captain, and major, re-entering as battalion adjutant. At the Mexican border in 1916 he commanded a casual detachment and served as assistant to the commander of base headquarters. He went overseas with the 104th Infantry in October 1917 as adjutant of the 2nd Battalion, and was promoted in France to Divisional Postmaster of the 26th Division, the man who kept an army's letters moving home. He received three citations for bravery. His service was shadowed by grief: on November 28, 1917, while he was in France, one of his little sons died from burns at home. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Cited for Bravery"
+   ],
    "status": "queue",
    "source": "zack-heroes"
   },
@@ -4639,6 +4719,9 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "John D. LaFlesh of Holyoke served with Company D of the 104th Infantry, 'Holyoke's Own.' On July 22, 1918, at Bouresches during the second battle of the Marne, though wounded, he aided the wounded around him, captured one of an enemy group, and dispersed the rest. For that conduct his name and deed were ordered entered in the record of the Yankee Division. What became of LaFlesh afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Cited for Bravery"
+   ],
    "status": "queue",
    "source": "zack-heroes"
   },
@@ -4651,6 +4734,9 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Reginald Turner was born in Holyoke on July 24, 1893, in the city that would hold him from his first day to his last. He was twenty-four when America entered the Great War, and he became a soldier in the United States Army, serving with Company E of the First U.S. Engineers — the men who built and repaired the trenches, roads, and bridges that kept an army moving, often working in the open within reach of enemy guns. Turner was among the earliest American troops to reach France. In November 1917, while most of the Army was still crossing the ocean, he was already at the front, his detachment attached to the 18th Infantry. The men were rebuilding a forward trench when a gas alarm broke over them; they masked and carried on without breaking, and that coolness under threat earned them the commendation of the officers present. Turner was named among them. Upon discharge he returned home to Holyoke and lived out his years there, dying October 29, 1945, at the age of fifty-two. He rests at Forestdale Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Cited for Bravery"
+   ],
    "status": "queue",
    "source": "zack-heroes"
   },
@@ -4663,6 +4749,9 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Ernest H. Young of Holyoke served with Company K of the 104th Infantry. On July 20, 1918, at Bouresches during the second battle of the Marne, though wounded, he killed an enemy sniper and so saved the lives of many of his comrades. For that act his name and deed were ordered entered in the record of the Yankee Division. What became of Young afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Cited for Bravery"
+   ],
    "status": "queue",
    "source": "zack-heroes"
   },
@@ -4676,7 +4765,8 @@ window.VA = {
    "lng": null,
    "narrative": "George S. L. Connor was a Holyoke boy who first made his name on the playing fields of Holy Cross — captain of the football team twice, captain of the basketball team, the only athlete in the college's history to captain three of its teams, graduating with the class of 1907 alongside his chum and teammate William Davitt of Holyoke. Ordained a priest, he was serving the Diocese of Springfield when the country called: first to the Mexican border in 1917 as chaplain of the 2nd Massachusetts Regiment, then commissioned in the United States Army and sent to France with the 26th 'Yankee' Division. He rose to senior chaplain of the 32nd Division and finally senior chaplain of the Third Army Corps, and his work under fire — carried out where the men were, not behind them — earned him France's Croix de Guerre for bravery in action. The war asked one more thing of him: on the morning of the Armistice his lifelong friend Chaplain Davitt was killed by a shell, the last American officer to die in the war, and it was Father Connor who read the burial service over him in France. He came home to the Diocese of Springfield, answered the call again in the Second World War as Vicar Delegate of the Military Ordinariate, and finished his ministry as Monsignor and Vicar General of the Springfield diocese. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
-    "Croix de Guerre"
+    "Croix de Guerre",
+    "Cited for Bravery"
    ],
    "status": "queue",
    "source": "zack-heroes"
@@ -4690,6 +4780,9 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Samuel Levenson of Holyoke served with Company M of the 104th Infantry through the regiment's stand at the Bois-Brûlé sector in April 1918. For his gallantry and meritorious service against the enemy in that action he was commended by the commander of the 26th Division. What became of Levenson afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Cited for Bravery"
+   ],
    "status": "queue",
    "source": "zack-heroes"
   },
@@ -4727,6 +4820,9 @@ window.VA = {
    "lng": null,
    "narrative": "Henry A. Brown of Holyoke served with Company D of the 104th Infantry, 'Holyoke's Own.' On July 18–21, 1918, at Belleau during the second battle of the Marne, he carried messages under heavy enemy fire, and for that gallant conduct his name and deed were ordered entered in the record of the Yankee Division. What became of Brown afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
+   "badges": [
+    "Cited for Bravery"
+   ],
    "status": "queue",
    "source": "zack-heroes"
   },
@@ -4739,6 +4835,9 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Anthony Manley of Holyoke entered the service on June 4, 1917, and was overseas by June 20 with the American Field Ambulance Unit, stationed on the French front. On the nights of October 8 and 9, 1917, driving supplies to the advance depot at LaLoge under heavy fire, he showed a bravery and cool-headedness for which his French commander set down his respects; he was cited for bravery and received a certificate of service from the French Government. Transferred to the Transportation Service, he was commissioned a second lieutenant in France in June 1918 and later moved to the Aviation Corps. (Zack lists him as both Anthony H. and Anthony B. Manley — believed to be the same man.) If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Cited for Bravery"
+   ],
    "status": "queue",
    "source": "zack-heroes"
   },
@@ -4751,6 +4850,9 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Stewart A. Russell of Holyoke served with the Sanitary Detachment of the 104th Infantry. On July 18–23, 1918, at Trugny during the second battle of the Marne, he aided his wounded comrades under heavy enemy fire, and for that devotion his name and deed were ordered entered in the record of the Yankee Division. What became of Russell afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Cited for Bravery"
+   ],
    "status": "queue",
    "source": "zack-heroes"
   },
@@ -4901,6 +5003,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 San Juan and El Caney (1898)",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
+    }
+   ],
    "status": "queue",
    "source": "zack-roster-placeholder"
   },
@@ -5363,6 +5471,10 @@ window.VA = {
     {
      "caption": "📜 Where Company D Went",
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    },
+    {
+     "caption": "📜 San Juan and El Caney (1898)",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
     }
    ],
    "narrative": "Edmund J. Slate enlisted as a private in Company I, 2nd Massachusetts Volunteer Militia, on September 16, 1894, serving three years, then enlisted in Holyoke's Company D and rose through corporal, sergeant, quartermaster sergeant, and first sergeant to be elected captain in December 1913. He served in the Spanish-American War in 1898 and did duty on the Mexican border in 1916. On October 5, 1917, he left Camp Bartlett at the head of Company D, 104th Infantry, and in France was placed in charge of regimental supplies as supply officer of the 26th Division.",
@@ -39666,6 +39778,70 @@ window.VA = {
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. This entry was recovered from a damaged passage of Zack's roster; the name awaits confirmation from the printed page.",
    "status": "queue",
    "source": "zack-enlisted-A-L-recovered"
+  },
+  {
+   "id": "holyoke_slatery_robert_c",
+   "name": "Slatery, Robert C.",
+   "era": "World War I",
+   "branch": "Army",
+   "branchLabel": "U.S. Army – World War I",
+   "lat": null,
+   "lng": null,
+   "narrative": "Robert C. Slatery of Holyoke was awarded the French Croix de Guerre for his service in the First World War. Holyoke's published record of the war names him among the city's Croix de Guerre men; the citation itself, his unit, and his dates of service have not yet been recovered.",
+   "sourceNote": "Named in Holyoke's published record of the war — full researched narrative pending. This man is named in the city's honor rolls but has not yet been located; the spelling of his name awaits confirmation against the service records.",
+   "badges": [
+    "Croix de Guerre"
+   ],
+   "status": "queue",
+   "source": "holyoke-honor-rolls"
+  },
+  {
+   "id": "holyoke_leduc_ray_a",
+   "name": "LeDuc, Ray A.",
+   "era": "World War I",
+   "branch": "Army",
+   "branchLabel": "U.S. Army – World War I",
+   "lat": null,
+   "lng": null,
+   "narrative": "Ray A. LeDuc of Holyoke was cited for bravery in action in the First World War. Holyoke's published record of the war names him among the city's cited men; the citation itself, his unit, and his dates of service have not yet been recovered.",
+   "sourceNote": "Named in Holyoke's published record of the war — full researched narrative pending. This man is named in the city's honor rolls but has not yet been located; the spelling of his name awaits confirmation against the service records.",
+   "badges": [
+    "Cited for Bravery"
+   ],
+   "status": "queue",
+   "source": "holyoke-honor-rolls"
+  },
+  {
+   "id": "holyoke_levereault_arthur_v",
+   "name": "Levereault, Arthur V.",
+   "era": "World War I",
+   "branch": "Army",
+   "branchLabel": "U.S. Army – World War I",
+   "lat": null,
+   "lng": null,
+   "narrative": "Arthur V. Levereault of Holyoke was cited for bravery in action in the First World War. Holyoke's published record of the war names him among the city's cited men; the citation itself, his unit, and his dates of service have not yet been recovered.",
+   "sourceNote": "Named in Holyoke's published record of the war — full researched narrative pending. This man is named in the city's honor rolls but has not yet been located; the spelling of his name awaits confirmation against the service records.",
+   "badges": [
+    "Cited for Bravery"
+   ],
+   "status": "queue",
+   "source": "holyoke-honor-rolls"
+  },
+  {
+   "id": "holyoke_commeau_joseph_e",
+   "name": "Commeau, Joseph E.",
+   "era": "World War I",
+   "branch": "Army",
+   "branchLabel": "U.S. Army – World War I",
+   "lat": null,
+   "lng": null,
+   "narrative": "Joseph E. Commeau of Holyoke was cited for bravery in action in the First World War. Holyoke's published record of the war names him among the city's cited men; the citation itself, his unit, and his dates of service have not yet been recovered.",
+   "sourceNote": "Named in Holyoke's published record of the war — full researched narrative pending. This man is named in the city's honor rolls but has not yet been located; the spelling of his name awaits confirmation against the service records.",
+   "badges": [
+    "Cited for Bravery"
+   ],
+   "status": "queue",
+   "source": "holyoke-honor-rolls"
   }
  ]
 };
