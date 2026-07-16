@@ -50,12 +50,11 @@ footer .contact { color:#CD853F; }
   /* ---- Veterans Honor Roll legend ---- */
   /* the Honors box, exactly as it appears on a map */
   #honor-roll { margin:34px auto 0; max-width:1100px; padding:0 18px; }
-  .hr-h { font-size:1.15rem; font-weight:normal; margin:0 0 4px; color:#e7ddc9; letter-spacing:0.01em; }
-  .hr-sub { font-size:0.78rem; color:#8a8272; margin-bottom:14px; }
+  .hr-sub { font-size:0.74rem; color:#8a8272; margin-top:10px; }
   #hr-legend { display:inline-block; background:rgba(8,8,8,0.9); border:1px solid #3a3a3a;
                border-radius:4px; padding:11px 13px; white-space:nowrap; min-width:250px; }
-  #hr-legend h4 { font-size:0.52rem; text-transform:uppercase; letter-spacing:0.12em; color:#ccc;
-                  margin:0 0 8px; font-weight:normal; }
+  #hr-legend h4 { font-size:0.58rem; text-transform:uppercase; letter-spacing:0.12em; color:#e7ddc9;
+                  margin:0 0 9px; font-weight:normal; border-bottom:1px solid #2c2c2c; padding-bottom:7px; }
   .hr-row { display:flex; align-items:center; gap:7px; margin-bottom:5px; cursor:pointer;
             transition:opacity 0.15s; text-decoration:none; }
   .hr-row:last-child { margin-bottom:0; }
@@ -150,9 +149,11 @@ footer .contact { color:#CD853F; }
   </div>
 
   <section id="honor-roll">
-    <h2 class="hr-h">Veterans Honor Roll</h2>
-    <div class="hr-sub" id="hr-sub">Every honor in the archive, across every burial ground and the research queue. Choose one to see the men who hold it, on the map of the city.</div>
-    <div id="hr-legend"><h4>Honors</h4><div id="hr-rows"><div class="hr-load">Reading the archive…</div></div></div>
+    <div id="hr-legend">
+      <h4>Holyoke Veterans Honor Roll</h4>
+      <div id="hr-rows"><div class="hr-load">Reading the archive…</div></div>
+    </div>
+    <div class="hr-sub" id="hr-sub"></div>
   </section>
 </main>
 <footer>
@@ -164,9 +165,11 @@ footer .contact { color:#CD853F; }
 (function honorRoll(){
   const SITES = ['calvary','forestdale','elmwood','rock-valley','smiths-ferry','research-queue'];
   const NOT_AN_HONOR = new Set(['Retake Needed','Needs Photo','Needs GPS','Duplicate']);
+  // MUST match DISTINCTION_ORDER in the map shell. Anything listed here that the map
+  // cannot filter would open to every man with no lit row to explain why.
   const ORDER = ['Medal of Honor','Distinguished Service Cross','Croix de Guerre','KIA','Purple Heart',
     'Distinguished Service Medal','Cited for Bravery','Air Medal','Silver Star','Bronze Star',
-    'French Military Medal','British Military Medal','Died in Service','Female Veteran','Medical Officer'];
+    'French Military Medal','British Military Medal'];
   const COLOR = {
     'Medal of Honor':'#e6c14a','Distinguished Service Cross':'#9b6bc4','Croix de Guerre':'#4e8f63',
     'KIA':'#c0392b','Purple Heart':'#a24bb3','Distinguished Service Medal':'#7c6fb0',
@@ -186,14 +189,11 @@ footer .contact { color:#CD853F; }
     res.forEach(r => r.status === 'fulfilled' && men.push(...r.value));
     const counts = {}, honoured = new Set();
     men.forEach(m => (m.v.badges||[]).forEach(b => {
-      if (NOT_AN_HONOR.has(b)) return;
+      if (NOT_AN_HONOR.has(b) || !ORDER.includes(b)) return;
       counts[b] = (counts[b]||0) + 1;
       honoured.add(m.slug + '|' + m.v.id);
     }));
-    const keys = Object.keys(counts).sort((a,b) => {
-      const ia = ORDER.indexOf(a), ib = ORDER.indexOf(b);
-      return (ia<0?99:ia) - (ib<0?99:ib) || a.localeCompare(b);
-    });
+    const keys = ORDER.filter(k => counts[k]);   // only honors the map can actually filter
     document.getElementById('hr-rows').innerHTML = keys.map(k => {
       const c = COLOR[k] || '#888';
       const sym = (k === 'KIA')
