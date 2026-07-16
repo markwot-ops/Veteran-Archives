@@ -42,8 +42,18 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 .leg-count { font-size:0.56rem; color:#d4c9b8; min-width:18px; text-align:right; }
 .leg-row.dimmed { opacity:0.28; }
 .leg-row.era-row.selected .leg-label { color:#fff; font-weight:bold; }
-.leg-row.dist.on .leg-label { color:#fff; font-weight:bold; }
+.leg-row.dist.on .leg-label { color:#fff; font-weight:bold; letter-spacing:0.02em; }
 .leg-row.dist.on { opacity:1; }
+/* one honor chosen: the others step back so you can SEE which one you're in */
+#leg-distinct.filtered .leg-row.dist { opacity:0.3; }
+#leg-distinct.filtered .leg-row.dist.on { opacity:1; }
+#leg-distinct.filtered .leg-row.dist.on .leg-count { color:#fff; }
+.leg-row.dist.on .leg-sym { filter:brightness(1.7); }
+#legend h4 { cursor:pointer; transition:color 0.15s; }
+#legend h4:hover { color:#fff; }
+#legend h4 .all-hint { float:right; font-size:0.46rem; letter-spacing:0.06em; color:#6f6a5e; text-transform:none; visibility:hidden; }
+#legend:has(#leg-distinct.filtered) h4 .all-hint { visibility:visible; }
+#legend h4:hover .all-hint { color:#c8b97a; }
 @keyframes honorDotPulse {
   0%,100% { text-shadow:0 0 3px currentColor; transform:scale(1); }
   50%     { text-shadow:0 0 9px currentColor, 0 0 15px currentColor; transform:scale(1.35); }
@@ -170,7 +180,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   <div id="map"></div>
 
   <div id="legend">
-    <h4>Honors</h4>
+    <h4 id="leg-head">Honors<span class="all-hint">show all</span></h4>
     <div id="leg-distinct"></div>
   </div>
 
@@ -714,6 +724,7 @@ if (!Object.keys(distCounts).length) {
         activeEras = new Set(ERA_ORDER);
         document.querySelectorAll('.era-btn').forEach(b => b.classList.add('selected'));
       }
+      legDistinct.classList.toggle('filtered', !!activeDistinction);
       buildMarkers(); buildSidebar(); updateCount();
     });
     legDistinct.appendChild(row);
@@ -724,7 +735,16 @@ if (!Object.keys(distCounts).length) {
     let found = null;
     legDistinct.querySelectorAll('.leg-row.dist').forEach(r => { if (r.dataset.dist === activeDistinction) found = r; });
     if (found) found.classList.add('on'); else activeDistinction = null;
+    legDistinct.classList.toggle('filtered', !!activeDistinction);
   }
+  // the word Honors is the way back to all of them
+  const head = document.getElementById('leg-head');
+  if (head) head.addEventListener('click', () => {
+    activeDistinction = null;
+    legDistinct.querySelectorAll('.leg-row.dist').forEach(r => r.classList.remove('on'));
+    legDistinct.classList.remove('filtered');
+    buildMarkers(); buildSidebar(); updateCount();
+  });
 }
 
 document.getElementById('search').addEventListener('input', e => {
