@@ -40509,6 +40509,74 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper's roll gives his name and nothing further; the spelling awaits confirmation against the muster records.",
    "status": "queue",
    "source": "harper-civil-war-roll"
+  },
+  {
+   "id": "harper_donahue_maurice_a",
+   "name": "Donahue, Maurice A.",
+   "era": "World War II",
+   "branch": "Army",
+   "branchLabel": "U.S. Army Air Force – World War II",
+   "lat": null,
+   "lng": null,
+   "narrative": "Maurice A. Donahue was a Holyoke boy out of St. Jerome's grammar and high schools. He served forty-five months in the United States Army Air Force between 1942 and 1946 — enlisting as a private and leaving as a captain. He went on to Holy Cross, then to the Massachusetts House in 1947 and the Senate two years later, where he was returned nine times and elected President of the Senate in 1964. He was nominated for Governor in 1970 and lost the primary by a close margin.",
+   "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. His unit, his theatre, and his decorations await confirmation against the service records.",
+   "status": "queue",
+   "source": "harper-story-of-holyoke"
+  },
+  {
+   "id": "harper_begley_john_s",
+   "name": "Begley, John S.",
+   "era": [
+    "World War I",
+    "World War II"
+   ],
+   "branch": "Navy",
+   "branchLabel": "U.S. Navy – World War I · World War II",
+   "lat": null,
+   "lng": null,
+   "narrative": "John S. Begley was born in Holyoke and schooled here before Phillips Exeter and Boston University law. He was in naval aviation in the First World War, an ensign — flying when the aeroplane was barely fifteen years old. In the Second World War he served the Springfield Ordnance District covering western Massachusetts and all of Connecticut, first as consultant, then deputy chief, then chief, and sat on the Advisory Council on Naval Affairs to the Commandant of the First Naval District and the civilian advisory board at Westover Field. He was the first commander of American Legion Post #25 of Holyoke.",
+   "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. His First World War naval aviation service is named; whether his Second World War work at the Springfield Ordnance District was uniformed or civilian is not stated and awaits confirmation.",
+   "status": "queue",
+   "source": "harper-story-of-holyoke"
+  },
+  {
+   "id": "harper_moriarty_john_f",
+   "name": "Moriarty, John F.",
+   "era": "World War II",
+   "branch": "Navy",
+   "branchLabel": "U.S. Naval Reserve – World War II",
+   "lat": null,
+   "lng": null,
+   "narrative": "John F. Moriarty came out of Holyoke High School with the class of 1943 and went straight into the war. He entered the Harvard College Naval V-12 unit that July, went on to Columbia University's Midshipman's School, and served on active duty in the United States Naval Reserve from July 1, 1943 to July 5, 1946 — finishing as commanding officer of USS PGM-19 in the Pacific theatre. He came home to the law, served as legal counsel to the City of Holyoke's Gas & Electric Department, and was appointed an Associate Justice of the Superior Court of the Commonwealth in June 1971.",
+   "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. His dates of command and his decorations await confirmation against the Navy records.",
+   "status": "queue",
+   "source": "harper-story-of-holyoke"
+  },
+  {
+   "id": "harper_dwight_donald_r",
+   "name": "Dwight, Donald R.",
+   "era": "Cold War",
+   "branch": "Marine",
+   "branchLabel": "U.S. Marine Corps – Cold War",
+   "lat": null,
+   "lng": null,
+   "narrative": "Donald R. Dwight went into the United States Marine Corps out of Princeton in 1953 and served two years as an infantry officer, including a tour of duty in Japan. He stayed in the reserves six years after his release from active duty. He came back to Holyoke and to the Transcript-Telegram as a reporter, later its associate publisher, and was elected Lieutenant Governor of the Commonwealth in November 1970.",
+   "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper gives the year he entered the Marine Corps and the length of his service but not his unit or his exact dates; whether any part of his service fell within the Korean War awaits confirmation.",
+   "status": "queue",
+   "source": "harper-story-of-holyoke"
+  },
+  {
+   "id": "harper_mcclellan_gerald_d",
+   "name": "McClellan, Gerald D.",
+   "era": "Cold War",
+   "branch": "Army",
+   "branchLabel": "U.S. Army – Cold War",
+   "lat": null,
+   "lng": null,
+   "narrative": "Gerald D. McClellan was Holyoke High School, class of 1957, then the University of Massachusetts and St. John's University law. He was a first lieutenant in a United States Army armoured division in 1961. He came home to the law and was later appointed a probate judge.",
+   "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper gives his rank and year and nothing further; his unit, his dates, and his station await confirmation against the service records.",
+   "status": "queue",
+   "source": "harper-story-of-holyoke"
   }
  ]
 };
