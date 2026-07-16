@@ -102,11 +102,11 @@ To add or migrate a site:
 
 | Site | Entries | Status |
 |---|---|---|
-| Landing | — | live (shows 375 / 352 / 61 / 4 / 4 / 3,047) |
+| Landing | — | live (375 / 352 / 61 / 4 / 4 / 3,052) + the Honors box |
 | Calvary | 375 | live |
 | Forestdale | 351 | live |
 | Elmwood | 44 | live |
-| Research Queue | **3,047** | live |
+| Research Queue | **3,052** | live |
 
 Photos currently load from the **old repos** (`calvary-map`, `forestdale-map`, `elmwood-map`) via raw URLs. Those repos are still live and must not have their image files deleted yet.
 
@@ -611,3 +611,120 @@ I gave Mark a ten-file upload order and put a "note on 6–9, those folders don'
 3. **Rulings on the Harper men above** — Dwight, Donahue, Begley, Moriarty, McClellan, Burnett, Murphy.
 4. **A "needs narrative" filter.** At 3,047 the Queue cannot be browsed. Still the blocker on all narrative work.
 5. **The WWII casualty list** — Mark is sourcing a better copy.
+
+
+## ============================================================
+## SESSION 13D — the index freewheels, and the Honor Roll
+## ============================================================
+
+### ⚠️⚠️ I SHIPPED A BLANK ARCHIVE. READ THIS FIRST.
+Every map went blank on all six sites. Cause: I rewrote the sidebar render to a windowed list but **left the old teardown in `buildSidebar()`** — `list.innerHTML = ''` deleted `#pad-top`, `#rows`, `#pad-bot`, so `getElementById('rows')` returned null and nothing ever drew.
+**I only found it because I finally RAN the page.** I had "verified" the change by checking that the JavaScript *parsed*. Parsing proves nothing.
+**THE RULE: never ship a shell change without running it.** The harness is in the repo — see `reference/tests/`.
+Two more real bugs the harness caught in the same hour:
+- **Any throw inside the scroll-feel block killed the whole page**, index included (jsdom has no `matchMedia`; a real browser has it, but the lesson stands). That block is now wrapped in try/catch — *feel is a nicety, the index is not.*
+- **Scrolling past the end of a filtered list drew zero rows.** Search a name, the old scroll position points beyond the shortened list. Now clamped.
+
+### THE WINDOWED INDEX — how the sidebar works now
+`content-visibility` was tried first and **abandoned**: it needs the row-height estimate to be exact, and mine said 34px when rows are 40px — an 18,000px lie across 3,052 rows, so the list grew as you scrolled and the scrollbar fought your hand.
+Now: **true windowing. Only visible rows exist.**
+```
+ROW_H = 40      // MUST equal .vet-item height in the CSS. If these drift, everything drifts.
+OVERSCAN = 8    // rows drawn beyond each edge so a fling doesn't flash blank
+#vet-list > #pad-top + #rows + #pad-bot
+```
+- `drawWindow(force)` — computes first/last from `scrollTop`, draws that slice into `#rows`, sets the two pads to the exact height of what isn't drawn. **31 rows in the DOM at 3,052 veterans.** Arithmetic verified exact at top, middle and bottom (122,080px every time).
+- `ensureScaffold()` — rebuilds pad/rows/pad if anything wipes them. Self-healing, because that's exactly what bit us.
+- **`buildSidebar()` must clear `#rows` ONLY — never `#vet-list`.**
+- Clicking a man: his row **may not exist**. Never use `scrollIntoView` for an undrawn row — compute `pos * ROW_H`, scroll there, then `drawWindow(true)`.
+- One delegated click handler on `#vet-list` (3,052 per-row listeners is what forced the old chunking).
+
+### SCROLL FEEL
+- **Grab-and-fling**: pointerdown/move/up on the list, velocity smoothed, released with friction 0.93. A drag past 4px suppresses the click so a fling never opens a man.
+- **Notched wheels** (`deltaMode===1 || |deltaY|>=50`) get weighted momentum. **Trackpads are left alone** — they already coast, and double-pushing them feels awful.
+- Touch keeps native momentum. `prefers-reduced-motion` disables all of it.
+
+### THE HOLYOKE VETERANS HONOR ROLL
+**`honor-roll/index.html` IS `template.html`** — the ordinary map shell with one line swapped: the single `<script src="data.js">` becomes all six, loaded in order, each followed by a shim that grabs `window.VA` before the next file overwrites it. **No fetch, no async, no eval.** Then a merge script builds `window.VA` from the lot.
+- Map centres on the **city** — `center:[42.2043,-72.6162], zoom:13` — because these men are scattered across every ground.
+- **Photos need no rewriting**: every `photo` is an absolute `raw.githubusercontent` URL. (This is why the legacy repos' image files must never be deleted.)
+- Each man's `branchLabel` gets his ground appended — *"Navy • World War I — Forestdale Cemetery"*, or *"— resting place not yet known"*. **Fall back to `branch + era` first**, or the label alone silently replaces the service line of anyone whose `branchLabel` is empty.
+- **`window.INIT_DISTINCTION`** (set from `?honor=`) is read by the shell as the starting `activeDistinction`. It does **NOT** cut the data down — all 198 are always loaded; the URL only arrives with that row lit, exactly as if Mark had clicked it. Harmless on cemetery maps (undefined → null).
+- The shell drops `activeDistinction` if no matching legend row exists, rather than show an empty map with nothing lit to explain why.
+
+### ⚠️ TWO LISTS THAT MUST MATCH OR MEN VANISH
+`DISTINCTION_ORDER` in the shell, and `ORDER` in the landing page's script. **If an honor is on the landing box but not in the shell's list, clicking it opens to every man with no lit row** — silent nonsense. The honor map's loader has its own hardcoded `HONORS` set for the same reason (it runs before the shell defines anything). **Three places. Change one, change all three.**
+**Currently 12 honors.** Mark removed **Died in Service, Female Veteran, Medical Officer** — *"irrelevant now, we can revisit later."* The 22 men holding only those are not carried onto the honor map (nobody sits there unreachable); their badges still show on their own entries and cemetery maps.
+
+### THE HONORS BOX
+- **On the landing page** it lives in the grid where its card used to be: title centred — *HOLYOKE VETERANS HONOR ROLL* — twelve honors with rings and counts, footer *"198 honored / See them all →"*. Rows deep-link to `?honor=X`. The card that read "Every decoration in the archive" is gone.
+- **On the map**, one click isolates an honor, clicking again clears it. When one is chosen the other eleven drop to **30% opacity** and the chosen row's dot pulses at full strength — before this, everything sat at full brightness and you couldn't see which one you were in.
+- **Clicking the word "Honors"** at the top of the box brings all of them back. A *"show all"* hint appears beside it only while something is filtered (`#legend:has(#leg-distinct.filtered)`).
+
+### ⚠️ 199 FORESTDALE MEN HAD NO `id` — FIXED
+Over half of Forestdale (199 of 352) had **no `id` field at all**. The maps never cared — they address men by array position — but **everything keyed on id silently collapsed all 199 into one**. My honored count read 209 when the truth was 220. **The bug was hiding eleven honored veterans.**
+All now carry generated ids (`fd_surname_first`); existing ids untouched. Every other site was already clean. **Any new entry must have an id.**
+
+### Numbers, and why they differ
+- **220** — men holding any badge at all.
+- **198** — men holding one of the twelve honors the roll uses. This is what the landing box and the honor map show.
+- **30** of those 198 have graves found. Medal of Honor: **1 of 3**. Purple Heart: **14 of 71**. Cited for Bravery: **1 of 17**. That gap is the work.
+
+### Five more Harper men loaded (Queue 3,047 → 3,052)
+**Donahue, Maurice A.** (USAAF 45 months, private → captain, 1942–46) · **Begley, John S.** (naval aviation, WWI ensign; WWII Springfield Ordnance District — uniformed or civilian is unclear, flagged) · **Moriarty, John F.** (CO, USS PGM-19, Pacific) · **Dwight, Donald R.** (Marine infantry officer, Japan) · **McClellan, Gerald D.** (Army armour, 1st Lt., 1961).
+**Cold War now holds 3 men, Korean War 1** — both filters were empty.
+**Harper, Wyatt E., Jr. already had a full researched narrative** — better than the draft I was about to write. He only needed his era converting to an array. **Always read the entry before writing one.**
+
+### `reference/LOCAL-COLOR.md` — the companion for narrative work
+Harper's Holyoke condensed to **facts in note form, deliberately not his prose** (the repo is public; Harper is in copyright). The B-17s circling the city, the spotters at Ashley Ponds and Scott Tower, Eunice Day's five sons, Heywood's father dying while he was in France, the mills and who ran them. It ends with rules for use — the important one: **describe the city a man left; never invent what he did.**
+
+### `reference/tests/` — RUN THESE BEFORE SHIPPING A SHELL
+`npm install jsdom`, then from a folder holding the shell and the data files:
+- `node test_index.js research-queue` — loads the real shell with real data, stubs Leaflet, asserts rows actually render; then filters, searches, scrolls.
+- `node test_honormap.js "Medal of Honor" "MacKenzie"` — asserts the honor map merges all six sites, lights the right row, dims the rest, and **flies to the man's real coordinates**.
+- `node test_landing.js` — asserts the landing box reads every site and lists only filterable honors.
+**These exist because "it parses" let me hand Mark a blank archive.**
+
+### ⚠️ UPLOADING A NEW FOLDER — the only thing that works
+**GitHub cannot rename a dragged file, and macOS won't allow a slash in a filename.** Do not tell Mark to "type the path."
+**Zip the folders, have him unzip, then drag the folders INSIDE the wrapper.** Dragging the wrapper itself put six shells into a useless `site-shells/` folder — the whole batch missed. The zip is named `DRAG-THESE.zip` and the instruction goes **before** the stack, never after.
+
+### Verified state at end of Session 13D
+| Path | Bytes | |
+|---|---|---|
+| index.html (landing) | ~13.4k | Honors box in the grid |
+| template.html | 34,891 | windowed + freewheel + INIT_DISTINCTION |
+| */index.html (6 sites) | 34,891 | all six on the same shell |
+| honor-roll/index.html | 38,225 | the shell + six data loaders |
+| research-queue/data.js | 1,959,651 | **3,052** |
+| forestdale/data.js | 361,269 | 352, ids fixed |
+| calvary / elmwood / rock-valley / smiths-ferry | — | 375 / 61 / 4 / 4 |
+
+---
+
+## NEXT SESSION — Mark's two projects, then a pause
+
+### 1. STATE CASUALTY LISTS — Korea, Vietnam, World War II
+Mark has state casualty lists broken down **by city**. Every page must be walked to pull the Holyoke men.
+**Before mining a single name, re-read these:**
+- **§13C name matching** — first-initial fallback across centuries is poison. Require an EXACT first-name match.
+- **§13 parsing traps** — dehyphenation is `([a-z])-\s+([a-z])`; the scan eats commas after surnames (a second rank word inside one record is the tell); state abbreviations split records.
+- **Never blanket-substitute OCR letters.** Curated token dictionary only. Hold what you can't read; Mark's ruling is *insert as-is, flagged, fix by edit later.*
+- **The WWII reconciliation is still open**: 197 confirmed / 212 city memorial / 211 Harper. Harper's own WWII chapter says *"over two hundred"*. The Korea and Vietnam lists are **new ground** — the Queue holds only ~13 Vietnam and ~18 Korea-era men.
+- Cross-check every name against **all six sites** before building, and mark same-name traps TBD.
+
+### 2. ~150 FORESTDALE PHOTOS — not yet uploaded
+Mark has ~150 cemetery photographs from Forestdale still on his computer.
+- **GPS**: PIL `img._getexif().get(34853)`, DMS rational tuples via `float()`, apply hemisphere sign.
+- **HEIC → JPEG** conversion, then the *" Medium.jpeg"* filename convention (space, not underscore), URL-encoded, HEAD-checked before use.
+- Photos live in the **legacy repos** (`forestdale-map` etc.) and are linked by absolute raw URL. **Never delete the image files in those repos.**
+- **Verify every upload with a HEAD request to raw.githubusercontent.com.** Never trust "I uploaded it."
+- **raw lies.** Ground truth is the git tree: `git clone --depth 1 --filter=blob:none --sparse …` then `git ls-tree HEAD:<folder>`.
+
+### Still open, older
+- **Real coordinates** for Rock Valley and Smiths Ferry — both centres are provisional guesses.
+- **Four rulings**: Goss / Henderson / Jecker (*Finding of death*), Wiercisewski (*Died of wounds*).
+- **A "needs narrative" filter.** At 3,052 the Queue can't be browsed by eye. Still the blocker on all narrative work.
+- **Calvary photo backlog** — 70 files 404, 16 need new stone photos, 22 duplicate-name pairs. Untouched for three sessions.
+- **Junk to delete**: `site-shells/`, root `data.js`, root `LOCAL-COLOR.md`, the `*-PREVIEW-standalone.html` files, `forestdale.zip`.
+- **Revisit**: Died in Service / Female Veteran / Medical Officer as honors.
