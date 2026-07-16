@@ -46,6 +46,20 @@ main { max-width:1120px; margin:0 auto; padding:38px 24px 64px; }
 .card.tbd h2 { color:#7a7365; font-style:italic; }
 footer { text-align:center; padding:26px; font-size:0.68rem; color:#8c8c8c; border-top:1px solid #222; line-height:1.7; }
 footer .contact { color:#CD853F; }
+
+  /* ---- Veterans Honor Roll legend ---- */
+  #honor-roll { margin:34px auto 0; max-width:1100px; padding:0 18px; }
+  .hr-h { font-size:1.15rem; font-weight:normal; margin:0 0 4px; color:#e7ddc9; letter-spacing:0.01em; }
+  .hr-sub { font-size:0.78rem; color:#8a8272; margin-bottom:14px; }
+  #hr-legend { display:grid; grid-template-columns:repeat(auto-fill,minmax(232px,1fr)); gap:8px; }
+  .hr-row { display:flex; align-items:center; gap:10px; padding:10px 13px; border:1px solid #2a2a2a;
+            border-radius:4px; background:#141414; text-decoration:none; color:#e7ddc9;
+            transition:border-color .15s, background .15s, transform .12s; }
+  .hr-row:hover { background:#1c1c1c; transform:translateY(-1px); }
+  .hr-dot { width:12px; height:12px; border-radius:50%; flex-shrink:0; box-shadow:0 0 7px var(--hc); background:var(--hc); }
+  .hr-name { flex:1; font-size:0.83rem; }
+  .hr-n { font-size:0.72rem; color:#8a8272; }
+  .hr-load { color:#8a8272; font-style:italic; font-size:0.8rem; padding:8px 0; }
 </style>
 </head>
 <body>
@@ -121,20 +135,73 @@ footer .contact { color:#CD853F; }
     </div>
 
     <div class="card link">
-      <a class="stretch" href="./honor-roll/index.html" aria-label="Open the Holyoke Veteran Honor Roll"></a>
+      <a class="stretch" href="./honor-roll/index.html" aria-label="Open the Veterans Honor Roll"></a>
       <div class="status"><i class="dot live"></i> Live</div>
-      <h2>Holyoke Veteran Honor Roll</h2>
+      <h2>Veterans Honor Roll</h2>
       <div class="addr">Every decoration in the archive · all grounds</div>
       <div class="desc">Every honor recorded across the whole archive, gathered in one place — from the Medal of Honor to the men cited for bravery. Choose an honor to see every Holyoke veteran who holds it, and where he lies.</div>
-      <div class="foot"><span class="count">209 Honored</span><span class="cta">Open roll →</span></div>
+      <div class="foot"><span class="count" id="hr-count">Honored</span><span class="cta">Open roll →</span></div>
     </div>
 
   </div>
+
+  <section id="honor-roll">
+    <h2 class="hr-h">Veterans Honor Roll</h2>
+    <div class="hr-sub" id="hr-sub">Every honor recorded across every burial ground and the research queue. Choose one.</div>
+    <div id="hr-legend"><div class="hr-load">Reading the archive…</div></div>
+  </section>
 </main>
 <footer>
   City of Holyoke Veterans Graves Officer &nbsp;·&nbsp; 310 Appleton Street, 1st Floor, Holyoke, MA 01040 &nbsp;·&nbsp; (413) 322-5630<br>
   Have information on a veteran? <span class="contact">Contact the Graves Officer.</span>
 </footer>
 </div>
+<script>
+(function honorRoll(){
+  const SITES = ['calvary','forestdale','elmwood','rock-valley','smiths-ferry','research-queue'];
+  const NOT_AN_HONOR = new Set(['Retake Needed','Needs Photo','Needs GPS','Duplicate']);
+  const ORDER = ['Medal of Honor','Distinguished Service Cross','Croix de Guerre','KIA','Purple Heart',
+    'Distinguished Service Medal','Cited for Bravery','Air Medal','Silver Star','Bronze Star',
+    'French Military Medal','British Military Medal','Died in Service','Female Veteran','Medical Officer'];
+  const COLOR = {
+    'Medal of Honor':'#e6c14a','Distinguished Service Cross':'#9b6bc4','Croix de Guerre':'#4e8f63',
+    'KIA':'#c0392b','Purple Heart':'#a24bb3','Distinguished Service Medal':'#7c6fb0',
+    'Cited for Bravery':'#c07a4a','Air Medal':'#4a9be0','Silver Star':'#b9c0c7','Bronze Star':'#c99a3a',
+    'French Military Medal':'#5b7f8a','British Military Medal':'#8a7d5b','Died in Service':'#7a8a5b',
+    'Female Veteran':'#c98aa8','Medical Officer':'#5bab9e'
+  };
+  const esc = s => { const d=document.createElement('div'); d.textContent = s==null?'':s; return d.innerHTML; };
+
+  Promise.allSettled(SITES.map(async slug => {
+    const r = await fetch('./' + slug + '/data.js', {cache:'no-store'});
+    if (!r.ok) throw new Error(slug);
+    const sb = {}; new Function('window', await r.text())(sb);
+    return ((sb.VA && sb.VA.veterans) || []).map(v => ({v, slug}));
+  })).then(res => {
+    const men = [];
+    res.forEach(r => r.status === 'fulfilled' && men.push(...r.value));
+    const counts = {}, honoured = new Set();
+    men.forEach(m => (m.v.badges||[]).forEach(b => {
+      if (NOT_AN_HONOR.has(b)) return;
+      counts[b] = (counts[b]||0) + 1;
+      honoured.add(m.slug + '|' + m.v.id);
+    }));
+    const keys = Object.keys(counts).sort((a,b) => {
+      const ia = ORDER.indexOf(a), ib = ORDER.indexOf(b);
+      return (ia<0?99:ia) - (ib<0?99:ib) || a.localeCompare(b);
+    });
+    document.getElementById('hr-legend').innerHTML = keys.map(k =>
+      `<a class="hr-row" href="./honor-roll/?honor=${encodeURIComponent(k)}">` +
+      `<span class="hr-dot" style="--hc:${COLOR[k]||'#888'}"></span>` +
+      `<span class="hr-name">${esc(k)}</span><span class="hr-n">${counts[k]}</span></a>`).join('');
+    const c = document.getElementById('hr-count');
+    if (c) c.textContent = honoured.size + ' Honored';
+    document.getElementById('hr-sub').textContent =
+      honoured.size + ' honored men and women across every burial ground and the research queue. Choose an honor.';
+  }).catch(() => {
+    document.getElementById('hr-legend').innerHTML = '<div class="hr-load">Could not read the archive.</div>';
+  });
+})();
+</script>
 </body>
 </html>
