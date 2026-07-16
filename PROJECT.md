@@ -409,6 +409,103 @@ The GitHub API is rate-limited to uselessness from this environment. **When Mark
 - **The 6 map enrichments** and **the 21 exact holds** — Mark reviews each.
 - **The hand-entry names** — transcribe from the printed page.
 - **Three Roll-of-Honor fallen** still not added: Ault, Arthur J. · Wilber, Charles I. · Gately, Edward P.
-- **Deep-dig citation men**: Leduc, LaFlesh, MacDonald, Young, Levenson, Leverault, Comeau.
+- ~~Deep-dig citation men~~ — **DONE.** All are in the archive with full narratives and now carry the Cited for Bravery honor. Their citations are transcribed (see Session 13B).
 - **Calvary photo work** — 70 files still 404; 16 entries need new stone photos; 22 duplicate-name pairs. Untouched for two sessions.
 - **Landing count** is hand-typed text, not calculated. It read 243 for Forestdale (actual 351) and 2,865 for a Q holding 1,879. **Fix it whenever the data changes** — or make it read from the data.
+
+
+## ============================================================
+## SESSION 13B — Honors, citations, story pages, and the source documents
+## ============================================================
+
+### ⚠️ THE RULE CHANGED — Mark, this session
+**Burial location no longer decides inclusion. Service attributed to Holyoke is the test.** A man whose service is credited to Holyoke belongs in the archive whether or not he is buried here. This supersedes the old "use Harper only to enrich vets already sighted/on maps" rule. It widens the archive considerably — act on it.
+
+### Source documents Mark supplied (all OCR of Holyoke's published histories)
+1. **`transfer_to_O-Z.pdf`** — despite the name, the ENTIRE Zack enlisted chapter, A–Z. Definitive. (Session 13)
+2. **A Transcript/centennial-style city history** — Company D itineraries, Dennis J. Buckley's boxing years, Spanish-American War chapter, Edwin Parsons, the 3,797 figure. **TITLE STILL UNKNOWN — ask Mark.** Currently credited in the archive as "Holyoke's published record of the war." Fix the credit once the title is known: it appears on the Buckley entry, both Company D story pages, and the Parsons page.
+3. **`WWII_TEST.pdf`** — the WWII casualty list. **USELESS, do not re-mine.** No image layer; the bad OCR is baked into a Pages document. A–D is destroyed (B→R, C→P/T/f, U→I); F–Z reads clean; and the tail comes apart into a block of names followed by a separate block of dates — the Harper two-column trap. Mark is finding another copy. **Never pair those name/date blocks by position.**
+4. **The citations document** — the full citation text for every Holyoke honor recipient. Mined in full (below).
+
+### NEW HONOR TYPES (template)
+- **`Cited for Bravery`** — ring `#c07a4a`, chip `#7a4a24`. **16 men carry it.**
+- **`French Military Medal`** — ring `#5b7f8a`, chip `#2d4a55`. Parsons only.
+- **`British Military Medal`** and **`Medal of Honor`** were in use but had no chip color and fell through to the default — both now have one.
+`DISTINCTION_ORDER`, `DISTINCTION_COLOR`, and the `fs` chip map at ~line 366 all need an entry for any new honor. Miss one and the badge renders but looks broken.
+
+### Honors applied
+- **Cited for Bravery ×16**: MacKenzie, Connor, Turner, Young, LaFlesh, Levenson, MacDonald, Manley, Russell, Brown, Weir, Parsons, Anderson, Leduc, Leverault, Comeau, Donoghue.
+- **Croix de Guerre** added to **Stack** and **Ryan** — the record puts them among the men awarded BOTH the DSM and the CdG; only the DSM was on their entries.
+- **Parsons** — Croix de Guerre + French Military Medal + Cited for Bravery.
+- Everything else in the DSM/CdG honor rolls was **already correct**. The archive was ahead of the document.
+
+### ⚠️ MY BADGE-READING BUG — do not repeat
+I dumped the three cemetery data.js files with a script that mapped only `{name,id,era,status}` — **it never read `badges`**. Every cemetery man came back looking bare, and I reported to Mark that Davitt and MacKenzie had no honors. Both were fully badged. Mark caught it. **When dumping for a cross-check, dump the whole object or explicitly include every field you intend to judge.**
+
+### ⚠️ I CREATED 4 DUPLICATES — how, and the lesson
+The honor-roll page and the citations page of the same book **spell the same men differently**. I trusted the honor-roll spellings and added four men as "missing" who were already in the archive:
+| I wrongly added | Already present |
+|---|---|
+| Slatery, Robert C. | **Slattery, Robert C.** |
+| LeDuc, Ray A. | **Leduc, Kay A.** ("Kay" = OCR of "Ray") |
+| Levereault, Arthur V. | **Leverault, Arthur V.** |
+| Commeau, Joseph E. | **Comeau, Joseph E.** |
+All four removed; the real entries were badged instead. **Leduc, Kay A. was renamed Leduc, Ray A.** with a note explaining the two spellings. **Lesson: cross-check name variants against the archive BEFORE adding, and treat PROJECT.md's own spellings as a tell.**
+
+### ⚠️ THE CITATIONS ADD NOTHING TO THE NARRATIVES — don't re-do this
+I wrote all 32 citation deeds into the honored men's entries and had to revert every one: **all 32 already have full researched narratives** from session 12's `zack-heroes` work, and the citations only duplicated them. The archive was already right. **Before enriching, check `source` — `zack-heroes` means a real narrative exists. Do not append to it.**
+The citations remain valuable as *verification* — they confirmed the existing narratives are accurate.
+
+### Story pages built (now 9 in /stories)
+| Page | Wired to |
+|---|---|
+| `company-d-104th.html` — "Where Company D Went" | **127 men** (124 Q, 1 Calvary, 2 Forestdale) |
+| `company-d-1898.html` — "San Juan and El Caney" | **13 men** — the 11 Spanish-Am dead + Crosier + Slate |
+| `ryan-story.html` — Major Ryan's Victory Loan speech | Ryan, William P. (his 2nd link) |
+| `parsons-escadrille.html` — "The Holyoke Man Who Flew for France" | Parsons, Edwin C. |
+
+**Company D itinerary** (from the city history): reorganized Camp Bartlett, Hampden Plains, Sept 1917 · Montreal → Halifax → Liverpool Oct 17 · trained at Sartes · Chemin-des-Dames Feb 6–Mar 21, 1918 · Apremont Easter Sunday, then Montsec three months · Belleau Wood · Château-Thierry · St. Mihiel Sept 11–12, took St. Maurice, five miles in thirty hours · north of Verdun, over three times in one day. **Of the original 150 Holyoke men who answered in April 1917, 13 were in the ranks at the Armistice.**
+
+**⚠️ Why a story page and NOT narrative text:** the men joined Company D at different dates — some from the 1916 Mexican border, some spring 1917, some as late replacements. Bolting the company itinerary into 127 narratives would invent service for most of them. The page carries a caution saying so. **Same principle for any future unit-history material.**
+
+### Spanish-American War — Company D, 2nd Mass. Volunteers
+Mustered May 3, 1898 under Capt. William J. Crosier (elected by the company — the last American war fought by volunteers, and the last in which units chose their own officers). Landed Cuba June 21 · Siboney · up the mountain in single file beside the Rough Riders · San Juan surrendered · outpost before Santiago June 27 · **El Caney July 1, where most American casualties fell**. Malaria and yellow fever killed more Americans than Spanish bullets. Lieutenants Robert W. Hunter and Francis D. Phillips were Crosier's aids; Cpl. **Edmund J. Slate** later became a general, from Holyoke.
+**All 11 Spanish-Am dead were already in the Q** — Train, Collier, Mattice, Bogart, Coit, Chamberlain, Bonneville, Canavan, Dugas, Hazelwood, Mackey.
+
+### Dennis J. Buckley — enriched (Calvary)
+Now opens with the boy: boxed as **"Danny Buckley"** in the late thirties, came up through the **Golden Gloves**, fought while still a high school senior, well known throughout New England, then graduated, lost interest in the fight game, and joined the navy. Added: **his mother christened the ship.** All previously verified Navy facts untouched.
+**Conflict noted:** the city history says the explosion killed Danny and **eight** shipmates; the verified Navy record says **seven of the fourteen**. The entry follows the Navy record.
+
+### Edwin C. Parsons — Lafayette Escadrille (unresolved, flagged on his page)
+Joined **January 24, 1917**, one of 38 American volunteers, months before America entered the war. Later FBI special agent, Hollywood technical director, **Rear Admiral** USN in WWII, died Osprey, Florida, **1968**.
+**Open questions, all flagged in a research note on the page:**
+- **Score:** his citation (Official Journal, July 2, 1918) says **three** downed; the footnote adds **four more** = **seven**. The honor-roll page says **eight**.
+- **Name:** printed as both **Edwin C.** and **Edward C. Parsons**.
+- ***Wings*:** the source calls it a book about the Escadrille; it is better known as a 1927 film, and Parsons wrote his own memoir.
+
+### Other men named in the sources, NOT yet in the archive — Mark to rule
+- **Howard J. Burnett** — Lt., USN, **1955–58**. Would be the **first man in the Cold War filter**, which is empty. Holyoke native; W&J College president.
+- **Richard Murphy** — Transcript reporter, ran the **Fort Devens Digest** in service; City Editor 1945, later Managing Editor.
+- **Nathan P. Avery** — Mayor, School Committee, **Holyoke's WWII Draft Board**. Civilian service; probably not an entry.
+- **Richard P. Towne** — Plattsburg ROTC, 1918.
+- **William S. Loomis** — lieutenant, Holyoke's **Company B, 46th regiment**, North Carolina.
+
+### Possible duplicate pairs surfaced (unresolved)
+Boudreau Alexander / Boudreau Alex · Read Harry David / Read Henry D. · Doyle William / Doyle William E. · Twiss Robert R. / Twiss Robert · Ryan William P. / Ryan William · Parsons Edwin C. / Parsons Ernest L. · Blais Albert / Blais Alfred
+
+### Junk sitting in live folders — should be deleted
+`calvary/calvary-PREVIEW-standalone.html` (389,985) · `forestdale/forestdale-PREVIEW-standalone.html` (379,359) · `forestdale/forestdale.zip` (52,087). Old scaffolding. Harmless but confusing.
+
+### ⚠️ CARD ORDER MUST MATCH THE STACK
+When presenting files, present them in the SAME order as the upload stack, and number them. Mark reads card #1 as stack line #1. I presented ten files "most relevant first" against a stack in a different order and confused him. **Number every card to its destination.**
+
+### Verified state at end of Session 13B (git tree, commit 35f937d)
+| Path | Bytes |
+|---|---|
+| index.html (landing, reads 375/351/44/2,996) | 8,757 |
+| template.html | 26,711 |
+| research-queue/data.js — **2,996** | 1,905,963 |
+| research-queue/index.html | 26,711 |
+| calvary/data.js — 375 | 367,057 |
+| forestdale/data.js — 351 | 356,555 |
+| stories/ | 9 pages |
