@@ -102,11 +102,11 @@ To add or migrate a site:
 
 | Site | Entries | Status |
 |---|---|---|
-| Landing | — | live (shows 375 / 351 / 44 / 2,996) |
+| Landing | — | live (shows 375 / 352 / 61 / 4 / 4 / 3,047) |
 | Calvary | 375 | live |
 | Forestdale | 351 | live |
 | Elmwood | 44 | live |
-| Research Queue | **2,996** | live |
+| Research Queue | **3,047** | live |
 
 Photos currently load from the **old repos** (`calvary-map`, `forestdale-map`, `elmwood-map`) via raw URLs. Those repos are still live and must not have their image files deleted yet.
 
@@ -423,7 +423,7 @@ The GitHub API is rate-limited to uselessness from this environment. **When Mark
 
 ### Source documents Mark supplied (all OCR of Holyoke's published histories)
 1. **`transfer_to_O-Z.pdf`** — despite the name, the ENTIRE Zack enlisted chapter, A–Z. Definitive. (Session 13)
-2. **A Transcript/centennial-style city history** — Company D itineraries, Dennis J. Buckley's boxing years, Spanish-American War chapter, Edwin Parsons, the 3,797 figure. **TITLE STILL UNKNOWN — ask Mark.** Currently credited in the archive as "Holyoke's published record of the war." Fix the credit once the title is known: it appears on the Buckley entry, both Company D story pages, and the Parsons page.
+2. **IDENTIFIED — Wyatt E. Harper, *The Story of Holyoke***, published for the centennial of the City of Holyoke (1973). Harper first wrote it in 1948 for the city's 75th; he chaired the History Department at Holyoke High School for 32 of his 42 years teaching there. **This is the same Harper as `HARPER_VETERANS_COMPLETE.md`.** Every city-history chunk Mark has supplied is from this book. Credit is now correct on the Buckley entry, both Company D pages, and the Parsons page. ⚠️ **IN COPYRIGHT — paraphrase, never quote at length.** (Zack 1919 is public domain and may be quoted freely.)
 3. **`WWII_TEST.pdf`** — the WWII casualty list. **USELESS, do not re-mine.** No image layer; the bad OCR is baked into a Pages document. A–D is destroyed (B→R, C→P/T/f, U→I); F–Z reads clean; and the tail comes apart into a block of names followed by a separate block of dates — the Harper two-column trap. Mark is finding another copy. **Never pair those name/date blocks by position.**
 4. **The citations document** — the full citation text for every Holyoke honor recipient. Mined in full (below).
 
@@ -509,3 +509,105 @@ When presenting files, present them in the SAME order as the upload stack, and n
 | calvary/data.js — 375 | 367,057 |
 | forestdale/data.js — 351 | 356,555 |
 | stories/ | 9 pages |
+
+
+## ============================================================
+## SESSION 13C — Harper identified, multi-era, the Civil War and the Revolution
+## ============================================================
+
+### ⚠️ THE SOURCE IS WYATT E. HARPER, *THE STORY OF HOLYOKE* (1973)
+Found by search. Centennial edition; first written 1948 for the city's 75th. Author was Holyoke High's history chairman — **and Captain Wyatt E. Harper Jr., USN, in the archive, is his son.** The book is **in copyright**: two long verbatim passages I had put on story pages (the Company D "150 men… 13 in the ranks" line and the El Caney depot-hospital account) were **replaced with paraphrase**. Do not quote Harper at length. Zack (1919) is public domain — Ryan's whole speech is fine.
+
+### ⚠️ RULE: ALL SERVICE PERIODS ARE DENOTED — `era` NOW ACCEPTS AN ARRAY
+Mark's ruling. The template was rewritten for it:
+- **`normEras(raw)`** — accepts a string OR an array, returns a deduped array sorted by `ERA_ORDER`. **Strings still work; every legacy entry is untouched.**
+- **`eraLabel(raw)`** — joins with ` · ` for the sidebar and the branch line.
+- **`eraColor(raw)`** — uses the FIRST era for the pin colour.
+- **filter** — `normEras(v.era).some(e => activeEras.has(e))`: a man shows if ANY of his periods is lit.
+- **counts** — a multi-era man counts once under EACH of his chips.
+```
+"era": ["World War II","Korean War","Cold War","Vietnam"]   // Harper, Wyatt E., Jr.
+```
+**Korean War and Cold War now have men in them — both filters were empty before.**
+
+### ⚠️ THE ERA FIELD WAS HIDING 27 MEN'S FATES — FIXED
+27 WWII entries had the fate stuffed into `era` as a string: `"World War II · Killed in action"`, `"· Died non-battle"`, `"· Finding of death"`, `"· Died of wounds"`. `normEra` reduced them all to `World War II` and **threw the fate away** — and all 27 carried **no badges at all**. Thirteen of Holyoke's WWII dead had no gold star on them and could not be found by the Honors filter.
+Fixed: `era` cleaned to `"World War II"`; **the fate written into the narrative** ("The War Department's casualty list records him as killed in action.") so it can never be silently lost again; badges applied — **13 KIA**, **10 Died in Service**.
+**⚠️ 4 STILL NEED MARK'S RULING — no badge applied:**
+| Man | Classification |
+|---|---|
+| Goss, Edwin G. | Finding of death |
+| Henderson, John C. | Finding of death |
+| Jecker, Joseph E. Jr. | Finding of death |
+| Wiercisewski, Carimir | Died of wounds |
+*Finding of death* is the legal determination after a man stays missing — not a battle classification. *Died of wounds* is usually counted KIA. **Do not decide these without Mark.**
+
+### TWO NEW CEMETERY SITES — Rock Valley + Smiths Ferry
+Built from Harper's list of Revolutionary graves. Both live, both **100% unplotted** — entries have `lat/lng: null`, which the template handles via `hasCoords()` (sidebar row, no pin, no flyTo). Their landing cards read **"Veterans of Record"**, not "Geolocated", for exactly that reason.
+**⚠️ THE CENTERS ARE PROVISIONAL — MARK MUST CORRECT THEM.** No coordinates for either cemetery exist online; a places search returns nothing. Currently:
+- `rock-valley` — center `[42.2059,-72.6803]`, zoom 16 (Rock Valley Rd, West Holyoke near the Southampton line)
+- `smiths-ferry` — center `[42.2584,-72.6143]`, zoom 16 (the Smiths Ferry area, north of the city)
+
+### 76 MEN LOADED FROM HARPER
+**All 51 Civil War dead → Research Queue** (`source: harper-civil-war-roll`, era `Civil War Era`). Not one was in the archive. Holyoke sent 400+ soldiers and sailors over four years; more than 50 died. **Only Myron C. Pratt carries a badge (KIA)** — Harper says he was killed at Fair Oaks. For the other 50 Harper gives a name and nothing else, so **no fate was guessed.**
+**Pratt's story:** he ran the *Holyoke Mirror*; one day in 1861 he closed the office, went out to lunch, enlisted in the Tenth Massachusetts, and was killed at Fair Oaks.
+**25 Revolutionary men → their cemeteries** (`source: harper-revolutionary-graves`, era `Revolutionary War`, `status: located`, no GPS): Elmwood +17, Forestdale +1 (Erastus Morgan), Rock Valley 4, Smiths Ferry 4.
+**Sgt. John Walker is now in as a Civil War man** — deliberately separate from Calvary's John Francis Walker, per the standing false-match rule. **The strict cross-check re-confirmed that trap**, plus three more the loose matcher invented.
+
+### ⚠️ NAME MATCHING ACROSS CENTURIES — first-initial fallback is POISON
+My first cross-check used a first-initial fallback and produced pure garbage: "John Walker → James J. Walker", "Hiram K. Bean → Bean, Harold F.", "Jedediah Day → Joseph Day", "Jesse Morgan → J. Morgan". **When matching 1770s/1860s rolls against an archive full of WWI/WWII men, require an EXACT first-name match.** Surnames collide across 150 years.
+
+### HARPER IS WRONG TWICE — the archive is right, do not "correct" it to match him
+- Harper: **Elisha Chapin** killed at Williamstown *during King Philip's War*. The Elmwood entry says Fort Massachusetts, 1756 — French & Indian War. King Philip's War ended 1676. **Harper is off by eighty years.**
+- Harper: **Joseph Morgan** captured at the capitulation of *Fort McHenry*. The entry says Fort William Henry, 1757. Fort McHenry is Baltimore, 1814. **The archive is right.**
+Harper is a schoolteacher's popular history, not a primary source. **Treat him as a finding aid, verify against records.**
+
+### Harper material NOT yet used — worth building
+- **Elizur Holyoke**, the city's namesake — lieutenant then captain of militia, **died February 5, 1676 commanding troops in King Philip's War.** Not in the archive; no era filter exists for King Philip's War.
+- **Eunice Day** — gave her husband Joel and all five sons (Joel, Jedediah, Eli, Edward, Robert) to the Revolution. **The Holyoke DAR chapter is named for her.** A story page waiting to be written; her men are now in Elmwood and Smiths Ferry.
+- **Francis C. Heywood** (Croix de Guerre, already in the archive) — Cornell, joined his father at Whitmore Mfg. in 1911, **Mexican border with the National Guard 1916**, France with the AEF 1917. **His father died while he was overseas** and the family interest was sold. Later treasurer of the Marvellum Company. His entry has none of this.
+- Edward Day and Robert Day are named on their father Joel's stone at Elmwood **but are not buried there** — Edward at Troy, N.Y.; Robert at Ticonderoga. Harper confirms what the archive already says.
+
+### More Holyoke men named by Harper, NOT in the archive — Mark to rule
+- **Donald R. Dwight** — Lt. Governor of Massachusetts; Princeton '53, **U.S. Marine Corps infantry officer two years incl. a tour in Japan**, six years reserves.
+- **Maurice A. Donahue** — Senate President; **U.S. Army Air Force 45 months, enlisted a private, discharged a Captain, 1942–46.**
+- **John S. Begley** — **naval aviation in World War I, Ensign**; WWII chief of the Springfield Ordnance District; first commander of American Legion Post #25 of Holyoke.
+- **Judge John F. Moriarty** — Harvard Naval V-12, Columbia Midshipman's School, **commanding officer USS PGM-19, Pacific**, active duty 1943–46.
+- **Judge Gerald D. McClellan** — **U.S. Army Armoured Division, 1st Lieutenant, 1961.**
+- **Howard J. Burnett** — Lt., USN 1955–58. (Still open from 13B.)
+- **Richard Murphy** — ran the *Fort Devens Digest*. (Still open from 13B.)
+⚠️ **Several of these men were living when Harper wrote.** Harper prints home addresses and children's names — **the Harper Jr. entry deliberately omits the family's Alexandria address and the six children.** Do not publish living people's addresses on a public memorial.
+
+### ⚠️ UPLOAD: GitHub CANNOT rename a dragged file
+I told Mark to "type the path into the filename box." **You cannot — the upload page won't let you edit a dropped file's name, and macOS won't allow a slash in a filename.** Smiths Ferry silently failed twice because of this.
+**What works for a NEW folder: zip the folder, have Mark unzip it, and drag the FOLDER onto the upload page.** GitHub keeps the folder path. That is how `smiths-ferry/` finally landed.
+The other route is https://github.com/markwot-ops/Veteran-Archives/new/main — typing `folder/file.ext` there creates the folder.
+
+### ⚠️ NEVER PUT A CAVEAT AFTER THE STACK
+I gave Mark a ten-file upload order and put a "note on 6–9, those folders don't exist yet" **underneath it**. He had already uploaded by the time he read it. **Anything he needs to know goes BEFORE the stack. No exceptions.**
+
+### Verified state at end of Session 13C (git tree, 41aac86)
+| Path | Bytes | Count |
+|---|---|---|
+| index.html (landing) | 9,108 | 375 / 352 / 61 / 4 / 4 / 3,047 |
+| template.html | 27,152 | multi-era shell |
+| research-queue/data.js | 1,954,235 | **3,047** |
+| calvary/data.js | 367,057 | 375 |
+| forestdale/data.js | 357,490 | 352 |
+| elmwood/data.js | 63,807 | 61 |
+| rock-valley/data.js | 4,003 | 4 |
+| smiths-ferry/data.js | 4,004 | 4 |
+| stories/ | — | 9 pages |
+**Calvary is still on the OLD shell (24,406)** — it has no `sourceNote` entries so nothing breaks, but it lacks multi-era and the new honors. Re-copy `template.html` to `calvary/index.html` next time Calvary is touched.
+
+### Junk in live folders — still there, should be deleted
+`calvary/calvary-PREVIEW-standalone.html` · `forestdale/forestdale-PREVIEW-standalone.html` · `forestdale/forestdale.zip` · `elmwood/elmwood-PREVIEW-standalone.html`
+
+---
+
+## OPEN FOR MARK — top of the pile
+1. **Real coordinates** for Rock Valley and Smiths Ferry.
+2. **Four rulings**: Goss / Henderson / Jecker (Finding of death), Wiercisewski (Died of wounds).
+3. **Rulings on the Harper men above** — Dwight, Donahue, Begley, Moriarty, McClellan, Burnett, Murphy.
+4. **A "needs narrative" filter.** At 3,047 the Queue cannot be browsed. Still the blocker on all narrative work.
+5. **The WWII casualty list** — Mark is sourcing a better copy.
