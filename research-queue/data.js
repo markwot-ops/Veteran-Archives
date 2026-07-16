@@ -1632,9 +1632,14 @@ window.VA = {
   {
    "id": "harper_wyatt_e_jr",
    "name": "Harper, Wyatt E., Jr.",
-   "era": "World War II · Korean War · Vietnam War",
+   "era": [
+    "World War II",
+    "Korean War",
+    "Cold War",
+    "Vietnam"
+   ],
    "branch": "Navy",
-   "branchLabel": "U.S. Navy – World War II · Korean War · Vietnam War",
+   "branchLabel": "U.S. Navy – World War II · Korean War · Cold War · Vietnam",
    "lat": null,
    "lng": null,
    "narrative": "Wyatt E. Harper Jr. gave the sea his whole life. A graduate of Holyoke High School and of Amherst College, he enlisted in the Navy in October 1942, during World War II, trained under the Navy's officer program, and was commissioned an Ensign in June 1944. He went straight into the Pacific war aboard the USS Register. She was badly damaged by a kamikaze off Okinawa, and she was among the handful of vessels that pulled survivors of the cruiser USS Indianapolis from the open sea — sailors who had drifted for days among the sharks after the worst disaster in the Navy's history. Over the next three decades he commanded eight U.S. Naval ships, rising to the rank of Captain: the minesweeper USS Grosbeak, the destroyer USS Myles C. Fox, and then the guided-missile destroyer USS Berkeley — which he put into commission in December 1962 as her first commanding officer. He served through the Korean War, and in Vietnam. He completed two combat tours in the waters off the coast, commanding the USS Berkeley and the USS Halsey. He further led Task Force 71.0.4, the Search and Rescue force that plucked downed American airmen out of the Gulf of Tonkin. He was a graduate of the Naval War College and the University of Maryland. Captain Harper died on active duty, having given the Navy thirty years, and left his wife, the former Mary Bennett, three sons and three daughters. From a Holyoke boy in 1942 to a destroyer captain across three wars, his was a full life of service to his country. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
@@ -4054,324 +4059,393 @@ window.VA = {
   {
    "id": "brennan_william_j",
    "name": "Brennan, William J.",
-   "era": "World War II · Died non-battle",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Died non-battle",
    "lat": null,
    "lng": null,
-   "narrative": "William Brennan is confirmed among Holyoke's World War II dead, serving as a Private in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "William Brennan is confirmed among Holyoke's World War II dead, serving as a Private in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as died non-battle. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Died in Service"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "brown_joseph_j",
    "name": "Brown, Joseph J.",
-   "era": "World War II · Killed in action",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Killed in action",
    "lat": null,
    "lng": null,
-   "narrative": "Joseph Brown is confirmed among Holyoke's World War II dead, serving as a Private in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Joseph Brown is confirmed among Holyoke's World War II dead, serving as a Private in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as killed in action. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "clark_george_patrick",
    "name": "Clark, George Patrick",
-   "era": "World War II · Died non-battle",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Died non-battle",
    "lat": null,
    "lng": null,
-   "narrative": "George Clark is confirmed among Holyoke's World War II dead, serving as a Master Sergeant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "George Clark is confirmed among Holyoke's World War II dead, serving as a Master Sergeant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as died non-battle. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Died in Service"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "daly_william_f",
    "name": "Daly, William F.",
-   "era": "World War II · Died non-battle",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Died non-battle",
    "lat": null,
    "lng": null,
-   "narrative": "William Daly is confirmed among Holyoke's World War II dead, serving as a Private in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "William Daly is confirmed among Holyoke's World War II dead, serving as a Private in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as died non-battle. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Died in Service"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "dowd_james_e",
    "name": "Dowd, James E.",
-   "era": "World War II · Killed in action",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Killed in action",
    "lat": null,
    "lng": null,
-   "narrative": "James Dowd is confirmed among Holyoke's World War II dead, serving as a Private First Class in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "James Dowd is confirmed among Holyoke's World War II dead, serving as a Private First Class in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as killed in action. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "foley_william_e",
    "name": "Foley, William E.",
-   "era": "World War II · Killed in action",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Killed in action",
    "lat": null,
    "lng": null,
-   "narrative": "William Foley is confirmed among Holyoke's World War II dead, serving as a Private First Class in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "William Foley is confirmed among Holyoke's World War II dead, serving as a Private First Class in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as killed in action. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "franklin_paul",
    "name": "Franklin, Paul",
-   "era": "World War II · Died non-battle",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Died non-battle",
    "lat": null,
    "lng": null,
-   "narrative": "Paul Franklin is confirmed among Holyoke's World War II dead, serving as a Private in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Paul Franklin is confirmed among Holyoke's World War II dead, serving as a Private in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as died non-battle. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Died in Service"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "gibbons_edward_j_jr",
    "name": "Gibbons, Edward J. Jr.",
-   "era": "World War II · Killed in action",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Killed in action",
    "lat": null,
    "lng": null,
-   "narrative": "Edward Gibbons is confirmed among Holyoke's World War II dead, serving as a First Lieutenant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Edward Gibbons is confirmed among Holyoke's World War II dead, serving as a First Lieutenant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as killed in action. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "goss_edwin_g",
    "name": "Goss, Edwin G.",
-   "era": "World War II · Finding of death",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Finding of death",
    "lat": null,
    "lng": null,
-   "narrative": "Edwin Goss is confirmed among Holyoke's World War II dead, serving as a Second Lieutenant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Edwin Goss is confirmed among Holyoke's World War II dead, serving as a Second Lieutenant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as finding of death. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "greaney_edward_j",
    "name": "Greaney, Edward J.",
-   "era": "World War II · Died non-battle",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Died non-battle",
    "lat": null,
    "lng": null,
-   "narrative": "Edward Greaney is confirmed among Holyoke's World War II dead, serving as a Corporal in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Edward Greaney is confirmed among Holyoke's World War II dead, serving as a Corporal in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as died non-battle. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Died in Service"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "greaney_george_f",
    "name": "Greaney, George F.",
-   "era": "World War II · Killed in action",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Killed in action",
    "lat": null,
    "lng": null,
-   "narrative": "George Greaney is confirmed among Holyoke's World War II dead, serving as a Private First Class in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "George Greaney is confirmed among Holyoke's World War II dead, serving as a Private First Class in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as killed in action. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "healy_edward_f",
    "name": "Healy, Edward F.",
-   "era": "World War II · Killed in action",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Killed in action",
    "lat": null,
    "lng": null,
-   "narrative": "Edward Healy is confirmed among Holyoke's World War II dead, serving as a Private in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Edward Healy is confirmed among Holyoke's World War II dead, serving as a Private in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as killed in action. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "henderson_john_c",
    "name": "Henderson, John C.",
-   "era": "World War II · Finding of death",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Finding of death",
    "lat": null,
    "lng": null,
-   "narrative": "John Henderson is confirmed among Holyoke's World War II dead, serving as a Second Lieutenant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "John Henderson is confirmed among Holyoke's World War II dead, serving as a Second Lieutenant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as finding of death. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "hurley_ronald",
    "name": "Hurley, Ronald",
-   "era": "World War II · Killed in action",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Killed in action",
    "lat": null,
    "lng": null,
-   "narrative": "Ronald Hurley is confirmed among Holyoke's World War II dead, serving as a Private First Class in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Ronald Hurley is confirmed among Holyoke's World War II dead, serving as a Private First Class in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as killed in action. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "jecker_joseph_e_jr",
    "name": "Jecker, Joseph E. Jr.",
-   "era": "World War II · Finding of death",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Finding of death",
    "lat": null,
    "lng": null,
-   "narrative": "Joseph Jecker is confirmed among Holyoke's World War II dead, serving as a Private First Class in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Joseph Jecker is confirmed among Holyoke's World War II dead, serving as a Private First Class in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as finding of death. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "kennedy_william_t",
    "name": "Kennedy, William T.",
-   "era": "World War II · Killed in action",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Killed in action",
    "lat": null,
    "lng": null,
-   "narrative": "William Kennedy is confirmed among Holyoke's World War II dead, serving as a Staff Sergeant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "William Kennedy is confirmed among Holyoke's World War II dead, serving as a Staff Sergeant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as killed in action. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "konopka_peter",
    "name": "Konopka, Peter",
-   "era": "World War II · Died non-battle",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Died non-battle",
    "lat": null,
    "lng": null,
-   "narrative": "Peter Konopka is confirmed among Holyoke's World War II dead, serving as a Private in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Peter Konopka is confirmed among Holyoke's World War II dead, serving as a Private in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as died non-battle. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Died in Service"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "kuenzel_erdman_c",
    "name": "Kuenzel, Erdman C.",
-   "era": "World War II · Killed in action",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Killed in action",
    "lat": null,
    "lng": null,
-   "narrative": "Erdman Kuenzel is confirmed among Holyoke's World War II dead, serving as a Corporal in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Erdman Kuenzel is confirmed among Holyoke's World War II dead, serving as a Corporal in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as killed in action. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "mahoney_harold_e",
    "name": "Mahoney, Harold E.",
-   "era": "World War II · Died non-battle",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Died non-battle",
    "lat": null,
    "lng": null,
-   "narrative": "Harold Mahoney is confirmed among Holyoke's World War II dead, serving as a Staff Sergeant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Harold Mahoney is confirmed among Holyoke's World War II dead, serving as a Staff Sergeant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as died non-battle. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Died in Service"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "neary_thomas_j",
    "name": "Neary, Thomas J.",
-   "era": "World War II · Killed in action",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Killed in action",
    "lat": null,
    "lng": null,
-   "narrative": "Thomas Neary is confirmed among Holyoke's World War II dead, serving as a Staff Sergeant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Thomas Neary is confirmed among Holyoke's World War II dead, serving as a Staff Sergeant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as killed in action. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "o_connell_daniel_f",
    "name": "O'Connell, Daniel F.",
-   "era": "World War II · Killed in action",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Killed in action",
    "lat": null,
    "lng": null,
-   "narrative": "Daniel O'Connell is confirmed among Holyoke's World War II dead, serving as a Technical Sergeant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Daniel O'Connell is confirmed among Holyoke's World War II dead, serving as a Technical Sergeant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as killed in action. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "provost_roland_e",
    "name": "Provost, Roland E.",
-   "era": "World War II · Killed in action",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Killed in action",
    "lat": null,
    "lng": null,
-   "narrative": "Roland Provost is confirmed among Holyoke's World War II dead, serving as a Private First Class in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Roland Provost is confirmed among Holyoke's World War II dead, serving as a Private First Class in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as killed in action. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "rohan_patrick_j",
    "name": "Rohan, Patrick J.",
-   "era": "World War II · Died non-battle",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Died non-battle",
    "lat": null,
    "lng": null,
-   "narrative": "Patrick Rohan is confirmed among Holyoke's World War II dead, serving as a Private in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Patrick Rohan is confirmed among Holyoke's World War II dead, serving as a Private in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as died non-battle. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Died in Service"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "sands_william_jr",
    "name": "Sands, William Jr.",
-   "era": "World War II · Died non-battle",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Died non-battle",
    "lat": null,
    "lng": null,
-   "narrative": "William Sands is confirmed among Holyoke's World War II dead, serving as a Staff Sergeant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "William Sands is confirmed among Holyoke's World War II dead, serving as a Staff Sergeant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as died non-battle. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Died in Service"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "wiercisewski_carimir",
    "name": "Wiercisewski, Carimir",
-   "era": "World War II · Died of wounds",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Died of wounds",
    "lat": null,
    "lng": null,
-   "narrative": "Carimir Wiercisewski is confirmed among Holyoke's World War II dead, serving as a Sergeant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Carimir Wiercisewski is confirmed among Holyoke's World War II dead, serving as a Sergeant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as died of wounds. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "wilson_earl_william",
    "name": "Wilson, Earl William",
-   "era": "World War II · Killed in action",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Killed in action",
    "lat": null,
    "lng": null,
-   "narrative": "Earl Wilson is confirmed among Holyoke's World War II dead, serving as a Private in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Earl Wilson is confirmed among Holyoke's World War II dead, serving as a Private in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as killed in action. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "zebrowski_john_s",
    "name": "Zebrowski, John S.",
-   "era": "World War II · Died non-battle",
+   "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II · Died non-battle",
    "lat": null,
    "lng": null,
-   "narrative": "John Zebrowski is confirmed among Holyoke's World War II dead, serving as a Technician Fifth Grade in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "John Zebrowski is confirmed among Holyoke's World War II dead, serving as a Technician Fifth Grade in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as died non-battle. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Died in Service"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
