@@ -48,18 +48,22 @@ footer { text-align:center; padding:26px; font-size:0.68rem; color:#8c8c8c; bord
 footer .contact { color:#CD853F; }
 
   /* ---- Veterans Honor Roll legend ---- */
+  /* the Honors box, exactly as it appears on a map */
   #honor-roll { margin:34px auto 0; max-width:1100px; padding:0 18px; }
   .hr-h { font-size:1.15rem; font-weight:normal; margin:0 0 4px; color:#e7ddc9; letter-spacing:0.01em; }
   .hr-sub { font-size:0.78rem; color:#8a8272; margin-bottom:14px; }
-  #hr-legend { display:grid; grid-template-columns:repeat(auto-fill,minmax(232px,1fr)); gap:8px; }
-  .hr-row { display:flex; align-items:center; gap:10px; padding:10px 13px; border:1px solid #2a2a2a;
-            border-radius:4px; background:#141414; text-decoration:none; color:#e7ddc9;
-            transition:border-color .15s, background .15s, transform .12s; }
-  .hr-row:hover { background:#1c1c1c; transform:translateY(-1px); }
-  .hr-dot { width:12px; height:12px; border-radius:50%; flex-shrink:0; box-shadow:0 0 7px var(--hc); background:var(--hc); }
-  .hr-name { flex:1; font-size:0.83rem; }
-  .hr-n { font-size:0.72rem; color:#8a8272; }
-  .hr-load { color:#8a8272; font-style:italic; font-size:0.8rem; padding:8px 0; }
+  #hr-legend { display:inline-block; background:rgba(8,8,8,0.9); border:1px solid #3a3a3a;
+               border-radius:4px; padding:11px 13px; white-space:nowrap; min-width:250px; }
+  #hr-legend h4 { font-size:0.52rem; text-transform:uppercase; letter-spacing:0.12em; color:#ccc;
+                  margin:0 0 8px; font-weight:normal; }
+  .hr-row { display:flex; align-items:center; gap:7px; margin-bottom:5px; cursor:pointer;
+            transition:opacity 0.15s; text-decoration:none; }
+  .hr-row:last-child { margin-bottom:0; }
+  .hr-row:hover { opacity:0.75; }
+  .hr-sym { width:13px; text-align:center; font-size:0.66rem; flex-shrink:0; }
+  .hr-name { font-size:0.6rem; color:#d4c9b8; flex:1; padding-right:14px; }
+  .hr-n { font-size:0.56rem; color:#d4c9b8; min-width:18px; text-align:right; }
+  .hr-load { color:#8a8272; font-style:italic; font-size:0.75rem; }
 </style>
 </head>
 <body>
@@ -147,8 +151,8 @@ footer .contact { color:#CD853F; }
 
   <section id="honor-roll">
     <h2 class="hr-h">Veterans Honor Roll</h2>
-    <div class="hr-sub" id="hr-sub">Every honor recorded across every burial ground and the research queue. Choose one.</div>
-    <div id="hr-legend"><div class="hr-load">Reading the archive…</div></div>
+    <div class="hr-sub" id="hr-sub">Every honor in the archive, across every burial ground and the research queue. Choose one to see the men who hold it, on the map of the city.</div>
+    <div id="hr-legend"><h4>Honors</h4><div id="hr-rows"><div class="hr-load">Reading the archive…</div></div></div>
   </section>
 </main>
 <footer>
@@ -190,16 +194,20 @@ footer .contact { color:#CD853F; }
       const ia = ORDER.indexOf(a), ib = ORDER.indexOf(b);
       return (ia<0?99:ia) - (ib<0?99:ib) || a.localeCompare(b);
     });
-    document.getElementById('hr-legend').innerHTML = keys.map(k =>
-      `<a class="hr-row" href="./honor-roll/?honor=${encodeURIComponent(k)}">` +
-      `<span class="hr-dot" style="--hc:${COLOR[k]||'#888'}"></span>` +
-      `<span class="hr-name">${esc(k)}</span><span class="hr-n">${counts[k]}</span></a>`).join('');
+    document.getElementById('hr-rows').innerHTML = keys.map(k => {
+      const c = COLOR[k] || '#888';
+      const sym = (k === 'KIA')
+        ? `<div class="hr-sym" style="color:#e6c14a;font-size:0.7rem;text-shadow:0 0 4px rgba(230,193,74,0.7)">★</div>`
+        : `<div class="hr-sym" style="color:${c};font-size:0.55rem">●</div>`;
+      return `<a class="hr-row" href="./honor-roll/?honor=${encodeURIComponent(k)}">` +
+             `${sym}<div class="hr-name">${esc(k)}</div><div class="hr-n">${counts[k]}</div></a>`;
+    }).join('');
     const c = document.getElementById('hr-count');
     if (c) c.textContent = honoured.size + ' Honored';
     document.getElementById('hr-sub').textContent =
-      honoured.size + ' honored men and women across every burial ground and the research queue. Choose an honor.';
+      honoured.size + ' honored men and women. Choose an honor to see them on the map of the city.';
   }).catch(() => {
-    document.getElementById('hr-legend').innerHTML = '<div class="hr-load">Could not read the archive.</div>';
+    document.getElementById('hr-rows').innerHTML = '<div class="hr-load">Could not read the archive.</div>';
   });
 })();
 </script>
