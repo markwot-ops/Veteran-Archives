@@ -217,42 +217,48 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 
 <script>
 /* ------------------------------------------------------------------
-   Fold the whole archive into one map of Holyoke, then keep only the
-   men who hold this honor. Everything downstream is the ordinary map
-   shell — same markers, same index, same window.
-   ?honor=Medal%20of%20Honor
+   Holyoke Veterans Honor Roll — the whole archive on one map of the city.
+   EVERY honored man is always loaded. ?honor=X does not cut the data down;
+   it only arrives with that honor lit in the Honors box, exactly as if you
+   had clicked it there yourself. Click it again and all of them come back.
    ------------------------------------------------------------------ */
-(function mergeArchive(){
+(function honorRollMap(){
   const honor = new URLSearchParams(location.search).get('honor');
+  // MUST match DISTINCTION_ORDER in the shell below. A man carried here whose honor
+  // the box cannot filter would sit on the map unreachable.
+  const HONORS = new Set(['Medal of Honor','Distinguished Service Cross','Croix de Guerre','KIA',
+    'Purple Heart','Distinguished Service Medal','Cited for Bravery','Air Medal','Silver Star',
+    'Bronze Star','French Military Medal','British Military Medal']);
   const men = [];
   (window.SITES_DATA || []).forEach(({slug, label, VA}) => {
     ((VA && VA.veterans) || []).forEach(v => {
+      if (!(v.badges || []).some(b => HONORS.has(b))) return;   // honored men only
       const c = Object.assign({}, v);
       c._site = slug;
       // photos are absolute raw URLs, so they travel unchanged; append where he lies.
-      // Fall back to branch + era the same way the shell would, or the label alone
-      // would silently replace his service line.
-      const era = Array.isArray(c.era) ? c.era.join(' · ') : (c.era || '');
-      const base = c.branchLabel || [c.branch, era].filter(Boolean).join(' • ');
+      // Fall back to branch + era the way the shell would, or the label alone would
+      // silently replace his service line.
+      const era = Array.isArray(c.era) ? c.era.join(' \u00b7 ') : (c.era || '');
+      const base = c.branchLabel || [c.branch, era].filter(Boolean).join(' \u2022 ');
       c.branchLabel = label
-        ? (base ? base + ' — ' + label : label)
-        : (base ? base + ' — resting place not yet known' : 'Resting place not yet known');
+        ? (base ? base + ' \u2014 ' + label : label)
+        : (base ? base + ' \u2014 resting place not yet known' : 'Resting place not yet known');
       men.push(c);
     });
   });
-  const kept = honor ? men.filter(v => (v.badges || []).includes(honor)) : men.filter(v => (v.badges || []).length);
-  const located = kept.filter(v => typeof v.lat === 'number' && typeof v.lng === 'number').length;
+  const located = men.filter(v => typeof v.lat === 'number' && typeof v.lng === 'number').length;
+  window.INIT_DISTINCTION = honor || null;     // the shell lights this row on load
   window.VA = {
     site: {
-      name:  honor || 'Veterans Honor Roll',
-      title: honor || 'Veterans Honor Roll',
-      address: located + ' of ' + kept.length + ' located in Holyoke',
+      name:  'Holyoke Veterans Honor Roll',
+      title: honor || 'Holyoke Veterans Honor Roll',
+      address: men.length + ' honored \u00b7 ' + located + ' located in Holyoke',
       kind: 'honor',
       center: [42.2043, -72.6162],   // the city, not one burial ground
       zoom: 13,
       nameField: 'bio'
     },
-    veterans: kept
+    veterans: men
   };
 })();
 </script>
@@ -339,7 +345,7 @@ satellite.addTo(map);
 L.control.layers({'Satellite':satellite,'Street':street,'Terrain':terrain},{},{position:'topleft'}).addTo(map);
 
 let activeEras = new Set(ERA_ORDER);
-let activeDistinction = null;
+let activeDistinction = (typeof window.INIT_DISTINCTION === 'string' && window.INIT_DISTINCTION) || null;
 let markerMap = {};
 let activeIdx = null;
 let searchTerm = '';
@@ -712,6 +718,13 @@ if (!Object.keys(distCounts).length) {
     });
     legDistinct.appendChild(row);
   });
+  // arrived with an honor already chosen? light it. If it isn't in this box, drop it
+  // rather than show an empty map with no lit row to explain why.
+  if (activeDistinction) {
+    let found = null;
+    legDistinct.querySelectorAll('.leg-row.dist').forEach(r => { if (r.dataset.dist === activeDistinction) found = r; });
+    if (found) found.classList.add('on'); else activeDistinction = null;
+  }
 }
 
 document.getElementById('search').addEventListener('input', e => {

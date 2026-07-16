@@ -284,7 +284,7 @@ satellite.addTo(map);
 L.control.layers({'Satellite':satellite,'Street':street,'Terrain':terrain},{},{position:'topleft'}).addTo(map);
 
 let activeEras = new Set(ERA_ORDER);
-let activeDistinction = null;
+let activeDistinction = (typeof window.INIT_DISTINCTION === 'string' && window.INIT_DISTINCTION) || null;
 let markerMap = {};
 let activeIdx = null;
 let searchTerm = '';
@@ -657,6 +657,13 @@ if (!Object.keys(distCounts).length) {
     });
     legDistinct.appendChild(row);
   });
+  // arrived with an honor already chosen? light it. If it isn't in this box, drop it
+  // rather than show an empty map with no lit row to explain why.
+  if (activeDistinction) {
+    let found = null;
+    legDistinct.querySelectorAll('.leg-row.dist').forEach(r => { if (r.dataset.dist === activeDistinction) found = r; });
+    if (found) found.classList.add('on'); else activeDistinction = null;
+  }
 }
 
 document.getElementById('search').addEventListener('input', e => {
