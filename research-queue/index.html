@@ -285,11 +285,11 @@ let searchTimer = null;     // debounce handle
 const CHUNK = 150;          // rows added per pass
 
 // Major distinctions, most prestigious first. Each cemetery builds chips from whichever it actually has.
-const DISTINCTION_ORDER = ['Medal of Honor','Distinguished Service Cross','Croix de Guerre','KIA','Purple Heart','Distinguished Service Medal','Cited for Bravery','Air Medal','Silver Star','Bronze Star','British Military Medal'];
+const DISTINCTION_ORDER = ['Medal of Honor','Distinguished Service Cross','Croix de Guerre','KIA','Purple Heart','Distinguished Service Medal','Cited for Bravery','Air Medal','Silver Star','Bronze Star','French Military Medal','British Military Medal'];
 const DISTINCTION_COLORS = {
   'Medal of Honor':'#e6c14a','Distinguished Service Cross':'#9b7ede','Distinguished Service Medal':'#7c6fb0',
   'Silver Star':'#b9c0c7','Bronze Star':'#c99a3a','Air Medal':'#4a9be0','Purple Heart':'#a24bb3',
-  'Croix de Guerre':'#4e8f63','KIA':'#c0392b','Cited for Bravery':'#c07a4a','British Military Medal':'#8a7d5b'
+  'Croix de Guerre':'#4e8f63','KIA':'#c0392b','Cited for Bravery':'#c07a4a','British Military Medal':'#8a7d5b','French Military Medal':'#5b7f8a'
 };
 const DISTINCTION_SHORT = {};  // spell every distinction out in full
 function canonBadge(b){ const low=(b||'').toLowerCase(); for(const n of DISTINCTION_ORDER){ if(n.toLowerCase()===low) return n; } return null; }
@@ -363,7 +363,7 @@ function openPopup(v, idx) {
 
   const flagsEl = document.getElementById('pflags');
   flagsEl.innerHTML = '';
-  const fs = {'KIA':['#8B0000','#fff'],'Purple Heart':['#7B2D8B','#fff'],'Bronze Star':['#B8860B','#fff'],'Air Medal':['#1a6abf','#fff'],'Female Veteran':['#C71585','#fff'],'Silver Star':['#71797E','#fff'],'Distinguished Service Cross':['#2c1b4d','#fff'],'Croix de Guerre':['#2d5a3d','#fff'],'Died in Service':['#5a3d2d','#fff'],'Medical Officer':['#2d5a5a','#fff'],'Retake Needed':['#333','#c99'],'Cited for Bravery':['#7a4a24','#fff'],'British Military Medal':['#4a442d','#fff'],'Medal of Honor':['#8a6d16','#fff'],'Distinguished Service Medal':['#3d356b','#fff']};
+  const fs = {'KIA':['#8B0000','#fff'],'Purple Heart':['#7B2D8B','#fff'],'Bronze Star':['#B8860B','#fff'],'Air Medal':['#1a6abf','#fff'],'Female Veteran':['#C71585','#fff'],'Silver Star':['#71797E','#fff'],'Distinguished Service Cross':['#2c1b4d','#fff'],'Croix de Guerre':['#2d5a3d','#fff'],'Died in Service':['#5a3d2d','#fff'],'Medical Officer':['#2d5a5a','#fff'],'Retake Needed':['#333','#c99'],'Cited for Bravery':['#7a4a24','#fff'],'French Military Medal':['#2d4a55','#fff'],'British Military Medal':['#4a442d','#fff'],'Medal of Honor':['#8a6d16','#fff'],'Distinguished Service Medal':['#3d356b','#fff']};
   (v.badges||[]).forEach(f => {
     const [bg,fg] = fs[f]||['#444','#fff'];
     const b = document.createElement('span');

@@ -20,6 +20,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Alfred S. Anderson, a son of Holyoke, entered the service in April 1917, shortly after the declaration of war, and served as a Musician in the Band of the 104th Infantry. Regimental bandsmen were not spectators: in battle they laid down their instruments and served as stretcher-bearers, carrying the wounded out under fire. Anderson was awarded the Distinguished Service Medal for bravery and gallant conduct in action from April 2nd to April 14th, 1918, during the 26th Division's defense of the Bois Brule sector, when the Yankee Division held against enemy raids in superior numbers and heavy artillery fire. He was killed in action in France on June 16, 1918. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "KIA",
     "Distinguished Service Medal",
@@ -105,6 +106,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Joseph E. Blair of Holyoke entered the service on May 8, 1917, in Orange, and served with Company E, 104th Infantry. On April 12, 1918, during a bombardment, he refused to take shelter in a dugout. He stayed at his exposed post and waited for the enemy attack he knew was coming, and he was killed there. For that act the French awarded him the Croix de Guerre a few days after his death, and on July 12, 1918, the United States Government awarded him the Distinguished Service Medal posthumously. He was decorated twice by two nations for a single act of courage he did not live to hear about. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "KIA",
     "Croix de Guerre",
@@ -2641,6 +2643,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "William H. McNally of Holyoke entered the service in 1909 and served with the 20th Company, 5th Regiment of Marines. He was a Gunnery Sergeant through the fighting at Chateau-Thierry and Belleau Wood — the battle in which the Marine Corps earned its enduring reputation and the name the Germans gave it, Devil Dogs. For his conduct there he was decorated with the French Croix de Guerre and recommended for a commission. He was also cited for bravery and awarded the Distinguished Service Medal: when his platoon commander was wounded, McNally took charge, and against terrific fire led his men forward and captured an enemy gun. He was killed in action in France on July 19, 1918, while leading his battalion. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "KIA",
     "Croix de Guerre",
@@ -4381,6 +4384,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Alexander Boudreau of Holyoke served as a sergeant in the Machine Gun Company of the 104th Infantry — the 26th 'Yankee' Division regiment New England, and Holyoke especially, claimed as its own. In the desperate fighting of 1918, when one of his machine guns jammed at the height of a German advance, Boudreau climbed onto the parapet in full view of the enemy and hurled hand grenades with both hands, stopping only when the gun was back in action. For that stand he was awarded the Distinguished Service Medal, given for exceptionally meritorious service. What became of him after the war has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Distinguished Service Medal"
    ],
@@ -4396,6 +4400,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "William Doyle of Holyoke was a sergeant in Company D of the 104th Infantry — 'Holyoke's Own.' At Château-Thierry, ordered to clear a German machine-gun nest, he led a platoon forward under fire; when two of his men fell, Doyle went on single-handed and took six prisoners from a shell hole, then used them as a shield while his men came up to capture the gun and its crew. For his coolness and daring he received the Distinguished Service Medal. What became of Doyle after the war has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Distinguished Service Medal"
    ],
@@ -4411,6 +4416,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Harry David Read of Holyoke served with the Machine Gun Company of the 104th Infantry through one of the regiment's hardest trials — the defense of the Bois-Brûlé sector in April 1918, when the 104th withstood raids by superior numbers and days of heavy artillery fire, and became the first American regiment decorated by France. For his gallantry and meritorious conduct through that fortnight, Read was awarded the Distinguished Service Medal. What became of him afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Distinguished Service Medal"
    ],
@@ -4426,6 +4432,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Ernest J. Roy of Holyoke served as a musician, third-class, with Headquarters of the 104th Infantry — one of the regimental bandsmen who, when the guns opened, put down their instruments to carry messages, aid the wounded, and stretcher men out of the line. Cited by name for gallantry during the 104th's stand at Bois-Brûlé in April 1918, Roy was awarded the Distinguished Service Medal. What became of him after the war has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Distinguished Service Medal"
    ],
@@ -4441,6 +4448,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Lieutenant William A. Stack of Holyoke served with the 175th Field Artillery. Through his outfit's entire time in the sector he kept communication open, never once losing contact with regimental headquarters even under fire — the unglamorous, essential work on which an artillery regiment's guns depended. For that steadiness he was awarded the Distinguished Service Medal. What became of him afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Distinguished Service Medal",
     "Croix de Guerre"
@@ -4483,6 +4491,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "John McNulty of Holyoke served as a sergeant in Company C, 6th Machine Gun Battalion, United States Marines. On October 4, 1918, between Blanc Mont and St. Étienne, he was severely wounded during a German counterattack — and stayed. With the crew of his machine gun all killed or wounded around him, McNulty went on working the gun alone under heavy fire until the enemy was repulsed and his commanding officer ordered him to the rear, an example that steadied the whole company. For this he was awarded the Distinguished Service Medal. What became of him afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Distinguished Service Medal"
    ],
@@ -4498,6 +4507,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Albert Blais of Holyoke served with Headquarters Company of the 9th Infantry. For seven days near Médeah Ferme he carried messages to the front-line trenches through intense artillery and machine-gun fire — the runner's work, done alone and in the open, on which a regiment's coordination depended. For that service France awarded him the Croix de Guerre, its decoration for bravery in the face of the enemy and seldom given to an American. What became of Blais afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Croix de Guerre"
    ],
@@ -4513,6 +4523,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "John R. Flood of Holyoke served with Headquarters Company of the 104th Infantry through the regiment's stand at the Bois-Brûlé sector in April 1918 — the fortnight of raids and bombardment for which the 104th became the first American regiment decorated by France. Cited for gallantry and meritorious service in that action, Flood was awarded the Croix de Guerre. What became of him afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Croix de Guerre"
    ],
@@ -4528,6 +4539,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Corporal Patrick Desilets of Holyoke served with the 30th United States Infantry. In full daylight he led a patrol under fire, made a reconnaissance of both the American and German first-line positions, and brought back valuable information — then guided the remaining men to their places of combat through a violent bombardment. Cited in the order of his regiment with the approval of the French Commander-in-Chief, Desilets was awarded the Croix de Guerre. What became of him afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Croix de Guerre"
    ],
@@ -4543,6 +4555,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Robert C. Slattery of Holyoke served with Headquarters of the 104th Infantry as a stretcher bearer during the Bois-Brûlé fighting of April 1918. On the 10th, 12th, and 13th he exposed himself in the front line to carry out the dead and wounded, steadying his comrades by word and example through the worst of the shellfire. For that courage France awarded him the Croix de Guerre. What became of Slattery afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Croix de Guerre"
    ],
@@ -4558,6 +4571,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Robert R. Twiss of Holyoke served with Headquarters of the 104th Infantry, and like his fellow stretcher bearers went into the front line during the Bois-Brûlé bombardment of April 1918 to bring out the dead and wounded, encouraging the men around him by his example. For that service France awarded him the Croix de Guerre. What became of Twiss afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Croix de Guerre"
    ],
@@ -4573,6 +4587,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Richard M. Weiser of Holyoke served with the Medical Corps of the 104th Infantry. Refusing shelter during the April 1918 bombardments, he gave first aid to the wounded under fire on the 12th and 13th, worked the advanced dressing post, and ran messages between the aid stations across ground swept by artillery. For that exceptional courage and devotion France awarded him the Croix de Guerre. What became of Weiser afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Croix de Guerre"
    ],
@@ -4588,6 +4603,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "William F. Wruck of Holyoke served with Headquarters of the 104th Infantry as one of the stretcher bearers who, during the Bois-Brûlé fighting of April 1918, exposed themselves in the front line to evacuate the dead and wounded and hold up the spirits of the men around them. For that courage France awarded him the Croix de Guerre. What became of Wruck afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Croix de Guerre"
    ],
@@ -4603,6 +4619,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "John Stefanik was one of the Holyoke men who crossed to France with Company G of the 104th Infantry, the regiment of the 26th 'Yankee' Division that New England, and Holyoke especially, thought of as its own. In April 1918 the 104th held the Bois-Brûlé sector near Apremont, and for two weeks stood against repeated German assaults — a stand for which it became the first American regiment ever decorated by France. Stefanik earned his own honor. On April 8, before Apremont, two squads ahead of him — sixteen men — had been killed or wounded trying to silence a German machine-gun nest. Stefanik went out after them and took the nest, killing its crew of seventeen, and came back the only man of his squad unhurt. For that morning's work France awarded him the Croix de Guerre. What became of Stefanik afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Croix de Guerre"
    ],
@@ -4624,6 +4641,7 @@ window.VA = {
     }
    ],
    "narrative": "Francis C. Heywood of Holyoke enlisted in Company D, 2nd Massachusetts Regiment, in March 1916, and went to the Mexican border, for a time with the supply company of the 2nd Regiment. He went to France as a sergeant in Company D, 104th Infantry — Holyoke's Own — and was commissioned a second lieutenant in France in April 1918, assigned to Company G, 11th Infantry. While awaiting his commission he was detached to specialize in the application of gas attacks, and in the great German drive of March 21, 1918, while serving with the French, he was cited for distinguished service and awarded the Croix de Guerre. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Croix de Guerre"
    ],
@@ -4647,6 +4665,7 @@ window.VA = {
    "narrative": "Edwin C. Parsons of Holyoke flew with the Lafayette Escadrille — the squadron of American volunteers who took up French colors before their own country entered the war. An excellent pilot, he was credited with downing seven enemy aircraft. For his record in the air France awarded him both the Croix de Guerre and the French Military Medal. What became of Parsons in later years has not yet been traced here; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "Croix de Guerre",
+    "French Military Medal",
     "Cited for Bravery"
    ],
    "status": "queue",
@@ -4661,8 +4680,10 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Major Michael J. Donoghue of Holyoke served with the 339th Infantry in one of the war's strangest chapters — the American expedition to northern Russia, where his men fought on after the Armistice in the West. For gallantry in action at the Dvina River he was cited by the British, and for four months' courage and contempt of danger as commander of the Americans in the Kadish sector he was awarded the Croix de Guerre. What became of him after the war has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
-    "Croix de Guerre"
+    "Croix de Guerre",
+    "Cited for Bravery"
    ],
    "status": "queue",
    "source": "zack-heroes"
@@ -4676,6 +4697,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Hugh Weir of Holyoke served with the 46th Canadian Infantry — one of the Holyoke men who went north to enlist under British colors before the United States entered the war. On February 14, 1918, he led a section of seven men in a raid on the enemy's line; though severely wounded in the advance, he pressed his party forward and directed them in clearing the ground assigned to them, all under machine-gun fire, setting a fine example of fearlessness. For that action he was awarded the British Military Medal. What became of Weir afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "British Military Medal",
     "Cited for Bravery"
@@ -4685,13 +4707,17 @@ window.VA = {
   },
   {
    "id": "zack_leduc_kay_a",
-   "name": "Leduc, Kay A.",
+   "name": "Leduc, Ray A.",
    "era": "World War I",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "narrative": "Kay A. Leduc of Holyoke served with Company H of the 104th Infantry. On the night of February 13, 1918, he was among the first men of the regiment to go out on an official mission against the enemy — a combined American and French patrol — and his colonel entered his name in the regimental records for the creditable way he carried out his duty. He was cited for gallantry, an honor short of a medal but recorded to his lasting credit. What became of Leduc afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "The city's honor roll gives his name as Ray A. LeDuc; the citations page prints KAY, an OCR reading of the same name.",
+   "badges": [
+    "Cited for Bravery"
+   ],
    "status": "queue",
    "source": "zack-heroes"
   },
@@ -4704,6 +4730,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Alexander MacDonald of Holyoke was a career citizen-soldier. He enlisted in Company D, 2nd Massachusetts Regiment, on March 20, 1895, served in the Spanish-American War as a corporal, and rose over the years through first lieutenant, captain, and major, re-entering as battalion adjutant. At the Mexican border in 1916 he commanded a casual detachment and served as assistant to the commander of base headquarters. He went overseas with the 104th Infantry in October 1917 as adjutant of the 2nd Battalion, and was promoted in France to Divisional Postmaster of the 26th Division, the man who kept an army's letters moving home. He received three citations for bravery. His service was shadowed by grief: on November 28, 1917, while he was in France, one of his little sons died from burns at home. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Cited for Bravery"
    ],
@@ -4719,6 +4746,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "John D. LaFlesh of Holyoke served with Company D of the 104th Infantry, 'Holyoke's Own.' On July 22, 1918, at Bouresches during the second battle of the Marne, though wounded, he aided the wounded around him, captured one of an enemy group, and dispersed the rest. For that conduct his name and deed were ordered entered in the record of the Yankee Division. What became of LaFlesh afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Cited for Bravery"
    ],
@@ -4734,6 +4762,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Reginald Turner was born in Holyoke on July 24, 1893, in the city that would hold him from his first day to his last. He was twenty-four when America entered the Great War, and he became a soldier in the United States Army, serving with Company E of the First U.S. Engineers — the men who built and repaired the trenches, roads, and bridges that kept an army moving, often working in the open within reach of enemy guns. Turner was among the earliest American troops to reach France. In November 1917, while most of the Army was still crossing the ocean, he was already at the front, his detachment attached to the 18th Infantry. The men were rebuilding a forward trench when a gas alarm broke over them; they masked and carried on without breaking, and that coolness under threat earned them the commendation of the officers present. Turner was named among them. Upon discharge he returned home to Holyoke and lived out his years there, dying October 29, 1945, at the age of fifty-two. He rests at Forestdale Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Cited for Bravery"
    ],
@@ -4749,6 +4778,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Ernest H. Young of Holyoke served with Company K of the 104th Infantry. On July 20, 1918, at Bouresches during the second battle of the Marne, though wounded, he killed an enemy sniper and so saved the lives of many of his comrades. For that act his name and deed were ordered entered in the record of the Yankee Division. What became of Young afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Cited for Bravery"
    ],
@@ -4764,6 +4794,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "George S. L. Connor was a Holyoke boy who first made his name on the playing fields of Holy Cross — captain of the football team twice, captain of the basketball team, the only athlete in the college's history to captain three of its teams, graduating with the class of 1907 alongside his chum and teammate William Davitt of Holyoke. Ordained a priest, he was serving the Diocese of Springfield when the country called: first to the Mexican border in 1917 as chaplain of the 2nd Massachusetts Regiment, then commissioned in the United States Army and sent to France with the 26th 'Yankee' Division. He rose to senior chaplain of the 32nd Division and finally senior chaplain of the Third Army Corps, and his work under fire — carried out where the men were, not behind them — earned him France's Croix de Guerre for bravery in action. The war asked one more thing of him: on the morning of the Armistice his lifelong friend Chaplain Davitt was killed by a shell, the last American officer to die in the war, and it was Father Connor who read the burial service over him in France. He came home to the Diocese of Springfield, answered the call again in the Second World War as Vicar Delegate of the Military Ordinariate, and finished his ministry as Monsignor and Vicar General of the Springfield diocese. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Croix de Guerre",
     "Cited for Bravery"
@@ -4780,6 +4811,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Samuel Levenson of Holyoke served with Company M of the 104th Infantry through the regiment's stand at the Bois-Brûlé sector in April 1918. For his gallantry and meritorious service against the enemy in that action he was commended by the commander of the 26th Division. What became of Levenson afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Cited for Bravery"
    ],
@@ -4795,6 +4827,10 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Arthur V. Leverault of Holyoke served with Headquarters of the 104th Infantry during the Bois-Brûlé fighting of April 1918, when the regiment held its ground against superior numbers and heavy bombardment. He was commended by name by the commander of the 26th Division for gallantry and meritorious service in that action. What became of Leverault afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
+   "badges": [
+    "Cited for Bravery"
+   ],
    "status": "queue",
    "source": "zack-heroes"
   },
@@ -4807,6 +4843,10 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Joseph E. Comeau of Holyoke served with Headquarters of the 104th Infantry, and was among the men commended by the commander of the 26th Division for gallantry and meritorious service during the regiment's defense of the Bois-Brûlé sector in April 1918. What became of Comeau afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
+   "badges": [
+    "Cited for Bravery"
+   ],
    "status": "queue",
    "source": "zack-heroes"
   },
@@ -4835,6 +4875,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Anthony Manley of Holyoke entered the service on June 4, 1917, and was overseas by June 20 with the American Field Ambulance Unit, stationed on the French front. On the nights of October 8 and 9, 1917, driving supplies to the advance depot at LaLoge under heavy fire, he showed a bravery and cool-headedness for which his French commander set down his respects; he was cited for bravery and received a certificate of service from the French Government. Transferred to the Transportation Service, he was commissioned a second lieutenant in France in June 1918 and later moved to the Aviation Corps. (Zack lists him as both Anthony H. and Anthony B. Manley — believed to be the same man.) If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Cited for Bravery"
    ],
@@ -4850,6 +4891,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Stewart A. Russell of Holyoke served with the Sanitary Detachment of the 104th Infantry. On July 18–23, 1918, at Trugny during the second battle of the Marne, he aided his wounded comrades under heavy enemy fire, and for that devotion his name and deed were ordered entered in the record of the Yankee Division. What became of Russell afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Cited for Bravery"
    ],
@@ -39778,70 +39820,6 @@ window.VA = {
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. This entry was recovered from a damaged passage of Zack's roster; the name awaits confirmation from the printed page.",
    "status": "queue",
    "source": "zack-enlisted-A-L-recovered"
-  },
-  {
-   "id": "holyoke_slatery_robert_c",
-   "name": "Slatery, Robert C.",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "U.S. Army – World War I",
-   "lat": null,
-   "lng": null,
-   "narrative": "Robert C. Slatery of Holyoke was awarded the French Croix de Guerre for his service in the First World War. Holyoke's published record of the war names him among the city's Croix de Guerre men; the citation itself, his unit, and his dates of service have not yet been recovered.",
-   "sourceNote": "Named in Holyoke's published record of the war — full researched narrative pending. This man is named in the city's honor rolls but has not yet been located; the spelling of his name awaits confirmation against the service records.",
-   "badges": [
-    "Croix de Guerre"
-   ],
-   "status": "queue",
-   "source": "holyoke-honor-rolls"
-  },
-  {
-   "id": "holyoke_leduc_ray_a",
-   "name": "LeDuc, Ray A.",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "U.S. Army – World War I",
-   "lat": null,
-   "lng": null,
-   "narrative": "Ray A. LeDuc of Holyoke was cited for bravery in action in the First World War. Holyoke's published record of the war names him among the city's cited men; the citation itself, his unit, and his dates of service have not yet been recovered.",
-   "sourceNote": "Named in Holyoke's published record of the war — full researched narrative pending. This man is named in the city's honor rolls but has not yet been located; the spelling of his name awaits confirmation against the service records.",
-   "badges": [
-    "Cited for Bravery"
-   ],
-   "status": "queue",
-   "source": "holyoke-honor-rolls"
-  },
-  {
-   "id": "holyoke_levereault_arthur_v",
-   "name": "Levereault, Arthur V.",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "U.S. Army – World War I",
-   "lat": null,
-   "lng": null,
-   "narrative": "Arthur V. Levereault of Holyoke was cited for bravery in action in the First World War. Holyoke's published record of the war names him among the city's cited men; the citation itself, his unit, and his dates of service have not yet been recovered.",
-   "sourceNote": "Named in Holyoke's published record of the war — full researched narrative pending. This man is named in the city's honor rolls but has not yet been located; the spelling of his name awaits confirmation against the service records.",
-   "badges": [
-    "Cited for Bravery"
-   ],
-   "status": "queue",
-   "source": "holyoke-honor-rolls"
-  },
-  {
-   "id": "holyoke_commeau_joseph_e",
-   "name": "Commeau, Joseph E.",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "U.S. Army – World War I",
-   "lat": null,
-   "lng": null,
-   "narrative": "Joseph E. Commeau of Holyoke was cited for bravery in action in the First World War. Holyoke's published record of the war names him among the city's cited men; the citation itself, his unit, and his dates of service have not yet been recovered.",
-   "sourceNote": "Named in Holyoke's published record of the war — full researched narrative pending. This man is named in the city's honor rolls but has not yet been located; the spelling of his name awaits confirmation against the service records.",
-   "badges": [
-    "Cited for Bravery"
-   ],
-   "status": "queue",
-   "source": "holyoke-honor-rolls"
   }
  ]
 };
