@@ -1,4152 +1,1282 @@
 window.VA = {
  "site": {
-  "name": "Forestdale Cemetery",
-  "title": "Forestdale Cemetery Veterans Memorial",
-  "address": "304 Cabot Street, Holyoke, MA",
+  "name": "Calvary Cemetery",
+  "title": "Calvary Cemetery Veterans Memorial",
+  "address": "1040 Northampton Street, Holyoke, MA",
   "kind": "cemetery",
   "center": [
-   42.20742,
-   -72.62321
+   42.18855,
+   -72.6291
   ],
   "zoom": 17
  },
  "veterans": [
   {
-   "id": "arble_clair_e_af_korea",
-   "name": "Arble, Clair E.",
-   "era": "Korean War",
-   "branch": "U.S. Air Force",
-   "branchLabel": "Air Force · Korea",
-   "lat": 42.207306,
-   "lng": -72.621619,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Arble.JPG",
-   "extraPhotos": [],
-   "narrative": "Clair E. Arble served as an Airman First Class in the United States Air Force during the Korean War. The Air Force he joined was the youngest of the American services — barely five years old when the fighting in Korea began — and airmen of Arble's rank kept it flying: the operations, communications, armament, and maintenance trades behind every sortie flown over the peninsula. A Holyoke man in the first generation of an independent Air Force, in its first war. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "johnston_john_army_wwii",
-   "name": "Johnston, John",
+   "id": "ackronis__j_navy_ww_ii",
+   "name": "Joseph J. Ackronis",
    "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "Army · WWII",
-   "lat": 42.207192,
-   "lng": -72.622742,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Johnston.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "John Johnston served as a Technical Sergeant in the United States Army during World War II. Technical Sergeant was a senior non-commissioned officer rank responsible for leading sections and squads in the field. The Johnston family monument also commemorates Andrew R. Johnston (1892–1960) and George R. Johnston (1900–2000), both of whom may have served in WWI or WWII. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "chambers_edward_a_sr_army_wwii",
-   "name": "Chambers, Edward A. Sr.",
-   "era": "World War II",
-   "branch": "U.S. Army Air Corps",
-   "branchLabel": "Army Air Corps · WWII",
-   "lat": 42.207222,
-   "lng": -72.621597,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Chambers%20E%20Sr.JPG",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Chambers%20E2.JPG",
-     "caption": "📷 Family stone"
-    }
-   ],
-   "narrative": "Edward A. Chambers Sr. served as a Corporal in the United States Army Air Corps during World War II. The Army Air Corps was the forerunner of the modern U.S. Air Force, responsible for all military aviation during the war. Corporals in the Air Corps filled essential roles in aircraft maintenance, ground support, and base operations across every combat theater. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "cullen_george_f_korea",
-   "name": "Cullen, George F.",
-   "era": "Korean War",
-   "branch": "U.S. Army / U.S. Air Force",
-   "branchLabel": "Army & Air Force · Korea",
-   "lat": 42.207211,
-   "lng": -72.621589,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Cullen.JPG",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1884694,
+   "lng": -72.6288833,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/ackronis__j_navy_ww_ii.jpg",
    "extraPhotos": [],
-   "narrative": "George F. Cullen served in both the United States Army and the United States Air Force during the Korean War era, a distinction noted on his grave marker. He held the rank of Private First Class in the Army and Airman Third Class in the Air Force. His service in two branches reflects the military transition period of the early 1950s, when the Air Force had recently separated from the Army and many servicemen transferred between branches. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "J. Ackronis served in the United States Navy during World War II, attaining the rate of Fireman First Class. Firemen kept the engines and boilers running that drove American warships across the Pacific and Atlantic — essential work that rarely made headlines but kept the fleet in the fight. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "kelliher_raymond_army_wwii",
-   "name": "Kelliher, Raymond",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "Army · WWII",
-   "lat": 42.207172,
-   "lng": -72.621606,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Kelliher.JPG",
+   "id": "allen__w_ct_inf_span_am_war",
+   "name": "Allen, William M.",
+   "era": "Spanish-American War",
+   "branch": "Connecticut Infantry",
+   "branchLabel": "CT Infantry · Span-Am War",
+   "lat": 42.1879167,
+   "lng": -72.627875,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/allen__w_ct_inf_span_am_war.jpg",
    "extraPhotos": [],
-   "narrative": "Raymond Kelliher served as a Sergeant in the United States Army during World War II and was awarded the Purple Heart, the nation's oldest military decoration, given to those wounded or killed in action against an enemy. His marker records a birth month of May 1921 and death in August 1997. The Purple Heart designation on his stone marks him as someone who paid a personal price in combat during one of the most consequential conflicts in American history. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "W. Allen served in the Connecticut Infantry during the Spanish-American War of 1898. As a member of the Connecticut Infantry, Allen may have fought in Cuba or the Philippines alongside Theodore Roosevelt's Rough Riders. His stone is a rare link to the 19th century military interred at Calvary Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "engel_alfred_jr_army_wwii",
-   "name": "Engel, Alfred Jr.",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "Army · WWII",
-   "lat": 42.207128,
-   "lng": -72.621567,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Engel.JPG",
-   "extraPhotos": [],
-   "narrative": "Alfred Engel Jr. served as a Technician Fifth Grade in the United States Army during World War II. TEC 5 was a specialist rank equivalent to Corporal, held by soldiers with technical skills in areas such as communications, mechanics, or medical support. These specialists were essential to keeping the Army's complex machinery — human and mechanical — functioning in the field. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "armitage_john_h_army_wwi",
-   "name": "Armitage, John H.",
+   "id": "baker__j_army_ww_i",
+   "name": "Baker, John J. Sr.",
    "era": "World War I",
    "branch": "U.S. Army",
    "branchLabel": "Army · WWI",
-   "lat": 42.207225,
-   "lng": -72.622619,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Armitage%20J.JPG",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Armitage2.JPG",
-     "caption": "📷 Family stone"
-    }
+   "lat": 42.18944167,
+   "lng": -72.62864722,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/baker__j_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "John J. Baker served in the United States Army during World War I. Holyokers answered the call when America entered the Great War in 1917, and Baker was among those who served. He may be related to John J. Baker, a World War II Army veteran also interred at Calvary Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "baker__j_f_army_ww_ii",
+   "name": "John J. Baker",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.18774722,
+   "lng": -72.62711389,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/baker__j_f_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "John J. Baker served in the United States Army during World War II, attaining the rank of Private First Class. PFCs were the first step in the Army's enlisted leadership — soldiers who had proven themselves in training and in the field. He may be related to John J. Baker, a World War I Army veteran also interred at Calvary Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "barnett__c_army_ww_ii",
+   "name": "Clifford M. Barnett",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.187325,
+   "lng": -72.627608,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/barnett__c_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Clifford M. Barnett served in the United States Army during World War II, attaining the rank of Corporal. Corporals were the backbone of the Army's small unit leadership — non-commissioned officers responsible for their squad in the field, whether in the Pacific or the European theater. He may be related to John A.C. Barnett, a World War I Navy veteran also interred at Calvary Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "barnett__j_navy_ww_i",
+   "name": "John A.C. Barnett",
+   "era": "World War I",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWI",
+   "lat": 42.187297,
+   "lng": -72.627678,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/barnett__j_navy_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "John A.C. Barnett served in the United States Navy during World War I, attaining the rate of Boatswain's Mate. Boatswain's Mates were skilled deck petty officers responsible for seamanship, ship maintenance, and supervising deck crews — one of the Navy's oldest and most essential ratings, dating to the American Revolution. He may be related to Clifford M. Barnett, a World War II Army veteran also interred at Calvary Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "barrett__e_army_ww_ii",
+   "name": "Edward F. Barrett",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1878,
+   "lng": -72.6289667,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/barrett__e_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Edward F. Barrett served in the United States Army during World War II, attaining the rank of First Lieutenant. First Lieutenants were commissioned officers who led platoons in combat and served as executive officers of rifle companies — responsible for the lives of the men under their command. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "bartley__j_mass_usnrf",
+   "name": "John William Bartley",
+   "era": "World War I",
+   "branch": "Massachusetts USNRF",
+   "branchLabel": "USNRF · WWI",
+   "lat": 42.186967,
+   "lng": -72.627633,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/bartley__j_mass_usnrf.jpg",
+   "extraPhotos": [],
+   "narrative": "John William Bartley served in the United States Naval Reserve Force during World War I, attaining the rate of Aviation Rigger 2nd Class. Aviation Riggers were specialists responsible for rigging, maintaining, and repairing the wings, control surfaces, and structural components of early naval aircraft — a critical and highly skilled role in the Navy's first generation of combat aviation. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "batchelor__h_army_ww_ii",
+   "name": "Howard F. Batchelor",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.188897,
+   "lng": -72.629028,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/batchelor__h_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Howard F. Batchelor served in the United States Army during World War II, attaining the rank of Technician Fifth Grade. TEC 5 was a specialist rank equivalent to Corporal — soldiers with technical skills in communications, mechanics, medicine, or supply who kept the Army's complex machinery running in the field. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "beaulieu__w_f_air_force",
+   "name": "William T. Beaulieu",
+   "era": "Unknown Era",
+   "branch": "U.S. Air Force",
+   "branchLabel": "USAF",
+   "lat": 42.188011,
+   "lng": -72.62925,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/beaulieu__w_f_air_force.jpg",
+   "extraPhotos": [],
+   "narrative": "William T. Beaulieu served as an Airman First Class in the United States Air Force, a member of the 539th Air Force Band. Not every airman worked a flight line or a radar scope — some served with an instrument in hand. The 539th traced its lineage to a band activated at Moffett Field, California, in 1941, carried through the Second World War as an Army Air Forces band, and became one of the Air Force's own musical units when the service gained its independence in 1947; in time it grew into the U.S. Air Force Band of the West. As a bandsman, Beaulieu was part of the Air Force's public face — the music that carried military ceremony, honored the fallen at funerals, lifted the troops, and represented the service to the American people. The era of his service is not recorded on the stone; the rank of Airman First Class dates from 1952, which places him after the Second World War and most likely in the Korea era, though this has not been confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "begley__d_ww_i_kia",
+   "name": "Dennis Begley",
+   "era": "World War I",
+   "branch": "U.S. Military",
+   "branchLabel": "KIA · WWI",
+   "lat": 42.187825,
+   "lng": -72.627372,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/begley_d_ww_i_kia.jpg",
+   "extraPhotos": [],
+   "narrative": "Private Dennis Begley of Holyoke entered the service in September 1917, going to Camp Devens with the first draft contingent. He served with the 165th Infantry Regiment — the legendary \"Fighting 69th\" of New York, one of the most storied regiments in the American Expeditionary Forces. The 165th suffered devastating losses in the Aisne-Marne offensive at the Ourcq River in late July 1918, among the bloodiest American engagements of the war. Pvt. Begley was killed in action in France on July 29, 1918, in his 26th year. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
    ],
-   "narrative": "John H. Armitage served in a Motor Truck Company during World War I, entering service on May 27, 1918, and stationed at Camp Devens. His gravestone records the rank of Corporal; the city's war record lists him as a Private at entry — a promotion likely earned during his service. Motor transport was the war's new circulatory system, the truck companies moving men, ammunition, and supplies at a pace horses never could. Born February 7, 1894, Armitage died on January 11, 1929, at just 34 years old — barely a decade after the war's end. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "belisle__r_usaaf_ww_ii",
+   "name": "Russell L. Belisle",
+   "era": "World War II",
+   "branch": "U.S. Army Air Forces",
+   "branchLabel": "USAAF · WWII",
+   "lat": 42.187625,
+   "lng": -72.627936,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/belisle__r_usaaf_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Russell L. Belisle served in the United States Army Air Forces during World War II, attaining the rank of Second Lieutenant. Second Lieutenants in the USAAF were commissioned officers — many served as pilots, bombardiers, or navigators on combat missions over Europe and the Pacific, where officer casualty rates were among the highest of any branch. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "bell__e_army_ww_ii",
+   "name": "Elizabeth M. Greaney Bell",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1877028,
+   "lng": -72.6272278,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/bell__e_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Second Lieutenant Elizabeth Bell served in the United States Army during World War II. As a commissioned officer, she was one of the pioneering women of WAC, the Women's Army Corps, who served in administrative, communications, and intelligence roles that freed men for combat. Born December 31, 1915, she passed away June 22, 1998 at the age of 82. She is buried at Calvary Cemetery alongside her husband Lawrence H. Bell. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": ""
   },
   {
-   "id": "austin_t_spanish_american_war",
-   "name": "Austin, T.",
-   "era": "Spanish-American War",
-   "branch": "U.S. Military",
-   "branchLabel": "Spanish-American War",
-   "lat": 42.207197,
-   "lng": -72.622017,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Austin%20T.JPG",
-   "extraPhotos": [],
-   "narrative": "T. Austin served during the Spanish-American War era, as indicated by the campaign marker at his grave. He was born in 1870 and died in 1932. The Spanish-American War of 1898 was a brief but pivotal conflict that drew thousands of New England men into service in Cuba, Puerto Rico, and the Philippines. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "becher_john_s_army_wwii",
-   "name": "Becher, John S.",
+   "id": "bell__l_h_army_ww_ii",
+   "name": "Lawrence H. Bell",
    "era": "World War II",
    "branch": "U.S. Army",
    "branchLabel": "Army · WWII",
-   "lat": 42.207111,
-   "lng": -72.621475,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Becher.JPG",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Becher2.JPG",
-     "caption": "📷 Family stone"
-    }
-   ],
-   "narrative": "John S. Becher served as a Major in the United States Army during World War II. Major was a field-grade officer rank responsible for commanding battalions and serving on regimental and division staffs. Officers of his rank were instrumental in the planning and execution of operations across every theater of the war. Born in 1908, John was in his thirties when he took up that responsibility; he lived until 1979, dying at the age of 71. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "brosseau_gerald_j_army_wwii",
-   "name": "Brosseau, Gerald J.",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "Army · WWII",
-   "lat": 42.206531,
-   "lng": -72.621894,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Brosseau.JPG",
+   "lat": 42.187706,
+   "lng": -72.627228,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/bell_l_h_army_ww_ii.jpg",
    "extraPhotos": [],
-   "narrative": "Gerald J. Brosseau served as a Private in the United States Army during World War II. The private was the foundation on which every army stood — the man in the rifle company and the supply line who did the hard, unglamorous work of war, from the beaches to the depots to the long roads between. Born in 1917, Gerald was of the generation that carried the country through its greatest conflict, and he lived a long life afterward, passing on October 8, 2004. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Lawrence H. Bell served in the United States Army during World War II, attaining the rank of Technician Fourth Grade. TEC 4 was a specialist rank equivalent to Sergeant — soldiers with advanced technical skills in communications, mechanics, or supply whose expertise kept the Army functioning in the field. Born December 28, 1922 in Saint Louis, Missouri, TEC 4 Bell passed away September 18, 2007 at the age of 84. He is buried at Calvary Cemetery alongside his wife Elizabeth M. Greaney Bell. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "kenney_francis_w_usmc_wwii",
-   "name": "Kenney, Francis W.",
+   "id": "blaine__g_army_ww_i",
+   "name": "George Blaine",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.187431,
+   "lng": -72.627686,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/blaine__g_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "George Blaine served in the United States Army during World War I, attaining the rank of Private First Class. Born in 1893, Blaine was among the Massachusetts men who answered the call when America entered the Great War in 1917. If you have further details about his service, including unit assignment, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "boisjolie__e_navy_korea",
+   "name": "Ernest G. Boisjolie",
+   "era": "Korean War",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · Korea",
+   "lat": 42.188208,
+   "lng": -72.629075,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/boisjolie__e_navy_korea.jpg",
+   "extraPhotos": [],
+   "narrative": "Ernest G. Boisjolie served in the United States Navy during the Korean War, attaining the rate of Seaman. Seamen were the backbone of the Navy's enlisted force — deck hands, support crew, and the men who kept ships operational during one of America's most demanding and underrecognized conflicts. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "boles__j_navy_ww_i",
+   "name": "James H. Boles",
+   "era": "World War I",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWI",
+   "lat": 42.189697,
+   "lng": -72.629158,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/boles__j_navy_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "James H. Boles served in the United States Navy during World War I, attaining the rate of Yeoman First Class. Yeomen were the Navy's administrative specialists — responsible for clerical work, records, correspondence, and the paperwork that kept a wartime fleet running. Yeoman First Class was a senior petty officer rating, reflecting significant skill and experience. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "brennan__j_usmc_ww_ii",
+   "name": "John J. Brennan",
    "era": "World War II",
    "branch": "U.S. Marine Corps",
    "branchLabel": "USMC · WWII",
-   "lat": 42.207183,
-   "lng": -72.622139,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Kenny.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Francis W. Kenney served as a Private First Class in the United States Marine Corps during World War II. He was killed in action on September 4, 1944. PFC Kenney's name is inscribed on the Chambers family stone alongside three generations of that family, a testament to the bond between families and the Marines who served alongside their sons. A Marine Corps League marker stands at the stone. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "KIA"
-   ],
+   "lat": 42.187139,
+   "lng": -72.627411,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/brennan__j_usmc_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "John J. Brennan served in the United States Marine Corps during World War II, attaining the rank of Sergeant. Marine Sergeants were seasoned non-commissioned officers — squad leaders and small unit commanders who formed the combat core of the Corps across the Pacific island campaigns. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "chapman_alexander_c_navy_wwii",
-   "name": "Chapman, Alexander C.",
+   "id": "bresnahan__d_navy_ww_ii",
+   "name": "Donald F. Bresnahan",
    "era": "World War II",
    "branch": "U.S. Navy",
    "branchLabel": "Navy · WWII",
-   "lat": 42.207069,
-   "lng": -72.621444,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Chapman.JPG",
+   "lat": 42.187969,
+   "lng": -72.629019,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/bresnahan__d_navy_ww_ii.jpg",
    "extraPhotos": [],
-   "narrative": "Alexander C. Chapman served as a Coxswain in the United States Navy during World War II. He was born April 4, 1927 and died June 29, 2016. A Coxswain was responsible for the helm and crew of a small vessel, a critical role in amphibious landings, harbor operations, and ship-to-shore movements throughout the Pacific and Atlantic theaters. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Donald F. Bresnahan served in the United States Navy during World War II, attaining the rate of Gunner's Mate Third Class. Gunner's Mates were responsible for the maintenance, operation, and readiness of a ship's weapons systems — from deck guns to torpedo tubes — essential work on every vessel from destroyers to battleships. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "davis_robert_l_army_wwii",
-   "name": "Davis, Robert L.",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "Army · WWII",
-   "lat": 42.206781,
-   "lng": -72.621628,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Davis%20R%20L.JPG",
-   "extraPhotos": [],
-   "narrative": "Robert L. Davis served in the United States Army during World War II. His marker records the years 1918 to 1990. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "desrosiers_leo_andrew_navy",
-   "name": "Desrosiers, Leo Andrew",
-   "era": "Unknown Era",
-   "branch": "U.S. Navy",
-   "branchLabel": "Navy",
-   "lat": 42.207053,
-   "lng": -72.621506,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Desrosiers%20L.JPG",
-   "extraPhotos": [],
-   "narrative": "Leo Andrew Desrosiers served in the United States Navy. He was born October 2, 1946 and died July 10, 1978. Era and unit details are being researched. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "desrosiers_ralph_l_navy_ret",
-   "name": "Desrosiers, Ralph L.",
-   "era": "World War I",
-   "branch": "U.S. Navy",
-   "branchLabel": "Navy · Retired",
-   "lat": 42.207058,
-   "lng": -72.621514,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Desrosiers%20R.JPG",
-   "extraPhotos": [],
-   "narrative": "Ralph L. Desrosiers served as a Seaman in the United States Navy, entering service in November 1918 and serving aboard the U.S.S. New Mexico — the Navy's newest battleship, commissioned that same year. Desrosiers was one of four Holyoke Desrosiers men in the service: Edward and Joseph also went to sea, and Oscar fought with Company D of the 104th Infantry and was wounded in France. Ralph's war ended almost as it began — the Armistice came within days of his entry — but the New Mexico sailed on, and in early 1919 escorted President Wilson home from the Paris Peace Conference. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "dube_roland_n_army_wwii",
-   "name": "Dube, Roland N.",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "Army · WWII",
-   "lat": 42.207153,
-   "lng": -72.621406,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Dube.JPG",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Dube2.JPG",
-     "caption": "📷 Family stone"
-    }
-   ],
-   "narrative": "Roland N. Dube served as a Private First Class in the United States Army during World War II. His marker records a life that ran from 1917 to 1978 — a man born into the shadow of the First World War who came of age just in time for the Second. As a Private First Class he was a soldier who had found his footing in the ranks, trusted with the ordinary and essential work of an army at war. Roland was in his mid-twenties when he served, and lived another three decades after the guns fell silent. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "dykes_john_t_navy_wwii",
-   "name": "Dykes, John T.",
-   "era": "World War II",
-   "branch": "U.S. Navy",
-   "branchLabel": "Navy · WWII",
-   "lat": 42.207103,
-   "lng": -72.621461,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Dykes.JPG",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Dykes2.JPG",
-     "caption": "📷 Family stone"
-    }
-   ],
-   "narrative": "John T. Dykes served as a Chief Radioman in the United States Navy during World War II. He was born October 21, 1919 and died October 17, 1976. Chief Radioman was a senior petty officer rating responsible for communications aboard ships and shore stations — a critical role in coordinating fleet operations across every theater of the war. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "fontanez_eladia_wrc",
-   "name": "Fontanez, Eladia",
-   "era": "Unknown Era",
-   "branch": "U.S. Military",
-   "branchLabel": "Veteran",
-   "lat": 42.206622,
-   "lng": -72.621847,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Fontanez.JPG",
-   "extraPhotos": [],
-   "narrative": "Eladia Fontanez, known as 'Doña Aya,' was born February 18, 1925 and died July 7, 2004. A Women's Relief Corps medallion has been placed at her grave, indicating a connection to military service or a veteran's family. Branch and service details are being researched. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "friedrich_carl_civil_war",
-   "name": "Friedrich, Carl",
-   "era": "Civil War Era",
-   "branch": "U.S. Military",
-   "branchLabel": "Civil War Era",
-   "lat": 42.207086,
-   "lng": -72.622186,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Friedrich.JPG",
-   "extraPhotos": [],
-   "narrative": "Carl Friedrich was born in 1844 and died in 1915. A Grand Army of the Republic star marker has been placed at his grave, identifying him as a Union veteran of the Civil War. The GAR was the preeminent Union veterans organization, and its distinctive star markers remain one of the most recognizable symbols of Civil War service in New England cemeteries. Branch and unit details are being researched. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "gaunt_nelson_harrison_merchant_marine_wwii",
-   "name": "Gaunt, Nelson Harrison",
-   "era": "World War II",
-   "branch": "U.S. Merchant Marine",
-   "branchLabel": "Merchant Marine · WWII",
-   "lat": 42.207211,
-   "lng": -72.62265,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Gaunt.JPG",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Gaunt2.JPG",
-     "caption": "📷 Family stone"
-    }
-   ],
-   "narrative": "Nelson Harrison Gaunt served as an Ordinary Seaman in the United States Merchant Marine during World War II. He was born May 26, 1916 and died April 9, 2011. The Merchant Marine carried vital war supplies across the Atlantic and Pacific under constant threat from enemy submarines and aircraft, suffering the highest casualty rate per capita of any service branch during the war. Merchant Mariners were not recognized as veterans until 1988. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "gillmore_eric_jay_cg_navy",
-   "name": "Gillmore, Eric Jay",
-   "era": "Unknown Era",
-   "branch": "U.S. Coast Guard / U.S. Navy",
-   "branchLabel": "Coast Guard & Navy",
-   "lat": 42.206886,
-   "lng": -72.621606,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Gillmore.JPG",
-   "extraPhotos": [],
-   "narrative": "Eric Jay Gillmore served in both the United States Coast Guard and the United States Navy, retiring as an Electrician's Mate Chief (EMCS). He was born September 20, 1960 and died November 24, 2011. Chief Petty Officers represent the backbone of the Navy and Coast Guard's enlisted leadership, and the EMCS rating required mastery of the electrical systems that keep ships operational at sea. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "grinnell_henry_w_af_wwii_korea_vietnam",
-   "name": "Grinnell, Henry W.",
-   "era": "World War II",
-   "branch": "U.S. Air Force",
-   "branchLabel": "Air Force · WWII/Korea/Vietnam",
-   "lat": 42.207178,
-   "lng": -72.621414,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Grinnell.JPG",
-   "extraPhotos": [],
-   "narrative": "Henry W. Grinnell served as a Staff Sergeant in the United States Air Force across three conflicts — World War II, Korea, and Vietnam. His marker records the years 1924 to 1979. Few veterans carry the distinction of three-war service, and SSgt Grinnell's career spanned the most transformative decades in American air power history. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "heffron_john_w_spanish_american_war",
-   "name": "Heffron, John W.",
-   "era": "Spanish-American War",
-   "branch": "U.S. Military",
-   "branchLabel": "Spanish-American War",
-   "lat": 42.207081,
-   "lng": -72.622208,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Heffron.JPG",
-   "extraPhotos": [],
-   "narrative": "John W. Heffron was born in 1855 and died in 1912. A Spanish-American War veterans marker has been placed at his grave. The Spanish-American War of 1898 was a pivotal conflict that brought the United States onto the world stage as a military power, with campaigns in Cuba, Puerto Rico, and the Philippines. Branch and unit details are being researched. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "hurley_john_e_wwii",
-   "name": "Hurley, John E.",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "WWII",
-   "lat": 42.207097,
-   "lng": -72.622567,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hurley.JPG",
-   "extraPhotos": [],
-   "narrative": "John E. Hurley was born in 1897 and died in 1948. A World War II veterans marker has been placed at his grave. Branch and unit details are being researched. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "hyde_william_wyllie_wwii",
-   "name": "Hyde, William Wyllie",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "WWII",
-   "lat": 42.207156,
-   "lng": -72.621833,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Hyde.JPG",
-   "extraPhotos": [],
-   "narrative": "William Wyllie Hyde was born in 1898 and died in 1949. A Veterans of World War II marker has been placed at his grave. Branch and unit details are being researched. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "jolly_james_civil_war",
-   "name": "Jolly, James",
-   "era": "Civil War Era",
-   "branch": "U.S. Military",
-   "branchLabel": "Civil War Era",
-   "lat": 42.207328,
-   "lng": -72.622108,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Jolly%20J.JPG",
-   "extraPhotos": [],
-   "narrative": "James Jolly was a native of Aberdeen, Scotland, born August 8, 1848 and died March 27, 1902. A Women's Relief Corps marker has been placed at his grave, indicating Civil War veteran status. The WRC was the women's auxiliary of the Grand Army of the Republic, formed to honor and support Union veterans and their families. Branch and unit details are being researched. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "jolly_robert_w_usmc_wwii_korea",
-   "name": "Jolly, Robert W.",
-   "era": "World War II",
-   "branch": "U.S. Marine Corps",
-   "branchLabel": "USMC · WWII/Korea",
-   "lat": 42.207317,
-   "lng": -72.622147,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Jolly%20R%20W%20.JPG",
-   "extraPhotos": [],
-   "narrative": "Robert W. Jolly served as a Sergeant in the United States Marine Corps during both World War II and the Korean War. He was born June 14, 1925 and died April 26, 2003. Marines who served in both conflicts carried the Corps through two of the most brutal chapters in modern warfare, from the island campaigns of the Pacific to the frozen hills of the Korean Peninsula. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "cowan_james_civil_war",
-   "name": "Cowan, James",
-   "era": "Civil War Era",
-   "branch": "U.S. Military",
-   "branchLabel": "Civil War Era",
-   "lat": 42.207231,
-   "lng": -72.6223,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Cowen.JPG",
-   "extraPhotos": [],
-   "narrative": "James Cowan was born in 1841 and died in 1906. His birth year places him squarely within the generation that served in the Civil War, and a flag has been placed at his grave. Branch and unit details are being researched. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "chesley_roy_ernest_army_vietnam",
-   "name": "Chesley, Roy Ernest",
-   "era": "Vietnam",
-   "branch": "U.S. Army",
-   "branchLabel": "Army · Vietnam",
-   "lat": 42.206906,
-   "lng": -72.621558,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Chesley.JPG",
-   "extraPhotos": [],
-   "narrative": "Roy Ernest Chesley served as a Specialist Fourth Class in the United States Army during the Vietnam War. He was born September 10, 1942 and died May 12, 2020. SP4 was a technical specialist rank equivalent to Corporal, held by soldiers with advanced skills in communications, intelligence, or support operations. Vietnam-era specialists served in one of the most complex and politically charged conflicts in American history. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "coleman_john_af_wwii",
-   "name": "Coleman, John",
-   "era": "World War II",
-   "branch": "U.S. Air Force",
-   "branchLabel": "Air Force · WWII",
-   "lat": 42.206994,
-   "lng": -72.621644,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Coleman.JPG",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Coleman2.JPG",
-     "caption": "📷 Family stone"
-    }
-   ],
-   "narrative": "John Coleman served as a Staff Sergeant in the United States Air Force during World War II. He was born August 11, 1924 and died February 14, 1986. Staff Sergeants in the wartime Air Force were senior non-commissioned officers responsible for leading crews and maintaining the aircraft and equipment that carried the war to the skies over Europe and the Pacific. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "davignon_roger_army_wwii",
-   "name": "Davignon, Roger",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "Army · WWII",
-   "lat": 42.207131,
-   "lng": -72.621397,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Davignon%20R.JPG",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Davignon2.JPG",
-     "caption": "📷 Family stone"
-    }
-   ],
-   "narrative": "Roger Davignon served as a Technician Fifth Grade in the United States Army during World War II. The Tec 5 wore a corporal's two stripes with a \"T\" beneath them — the Army's mark for a man whose value lay in a skill rather than in command. These were the mechanics, radio operators, drivers, and technicians who kept a modern army running, and without whom the guns and trucks and radios were so much dead weight. Roger was born in 1926 and served as a young man in the war's later years, living until 1989. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "rankin_robert_h_army_wwii",
-   "name": "Rankin, Robert H.",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "Army · WWII",
-   "lat": 42.207028,
-   "lng": -72.621636,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Rankin.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Robert H. Rankin served as a Technician Fourth Grade in the United States Army during World War II. TEC 4 was a specialist rank equivalent to Sergeant, held by soldiers with advanced technical proficiency. His marker records a birth date of October 13, 1920 and death on November 21, 1996. His wife Dorothy M. Rankin is remembered on the family stone. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Konrad, Emery E.",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "Army · WWII",
-   "lat": 42.207022,
-   "lng": -72.621483,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Konrad.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Emery E. Konrad served as a Sergeant in the United States Army during World War II. His gravestone records the Purple Heart — the nation's oldest military decoration, awarded to those wounded in combat against an enemy of the United States. To carry that medal home from the Second World War was to have paid for it in blood somewhere on a battlefield in Europe or the Pacific. Emery lived more than six decades beyond his wounding, passing on November 18, 2009, at the age of 90. His wife, Rose C. Weglarz Konrad, is remembered alongside him on the family stone.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Purple Heart"
-   ],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Kusnick, Walter E.",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "Army · WWII",
-   "lat": 42.206964,
-   "lng": -72.621606,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Kusnick.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Walter E. Kusnick served as a Sergeant in the United States Army during World War II. Born in 1908, he was in his thirties when the United States entered the war — among the older men in the ranks, likely a steadying presence for the younger soldiers around him. He came home, and lived to see the century turn, passing on July 4, 1999, at the age of 90. His wife, Annie T. Shaker Kusnick, is remembered alongside him on the family stone.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Lempke, Ronald R.",
-   "era": "Vietnam",
-   "branch": "U.S. Air Force",
-   "branchLabel": "Air Force · Vietnam",
-   "lat": 42.206958,
-   "lng": -72.621589,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Lempke.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Ronald R. Lempke served as an Airman First Class in the United States Air Force during the Vietnam War. At that rank, an airman had completed technical training and was carrying out real duties — maintenance, logistics, operations support — the work that kept aircraft flying and missions running. He was born July 16, 1941, and served during one of the most contested periods of American air power. He passed March 13, 2019. The nearby family stone remembers George L. Lempke, who may be related.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Malcolm, James",
-   "era": "World War I",
-   "branch": "U.S. Military",
-   "branchLabel": "WWI",
-   "lat": 42.207128,
-   "lng": -72.622658,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Malcom%20Rae.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "James Malcolm served during World War I. He was born in 1879 — old enough to have watched the Spanish-American War from a distance before he himself was called into uniform a generation later. The WWI veteran's medallion at the base of the family stone marks his service. He passed in 1941, the same year the United States was drawn into a second world war. His wife Cyrilla Rae and other family members are remembered on the same stone. Branch and rank are not recorded on the stone.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Rae, Charles C.",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "WWII",
-   "lat": 42.207142,
-   "lng": -72.62265,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Malcom%20Rae.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Charles C. Rae served during World War II. Born in 1899, he was in his early forties when the war broke out — a man with years of life behind him, called to serve alongside men half his age. He passed in 1946, shortly after the war's end, not living long enough to see the full peace he helped secure. He is remembered on the family stone alongside James Malcolm, a World War I veteran who may have been his father or father-in-law. Branch and rank are not recorded on the stone.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Martin, Ervin F.",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "Veteran",
-   "lat": 42.207097,
-   "lng": -72.622636,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Martin%20J.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Ervin F. Martin is commemorated on the Martin family stone with an American flag marking his grave. Born in 1903, he would have been in his late thirties when the United States entered World War II — the right age and generation for that conflict. He passed in 1967. Branch, rank, and era are not recorded on the stone. The flag at his grave signals his service; the full story of where and how he served awaits further research.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "McClellan, Elmer L.",
-   "era": "World War II",
-   "branch": "U.S. Army Air Forces",
-   "branchLabel": "Army Air Forces · WWII",
-   "lat": 42.207069,
-   "lng": -72.621939,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/McClellan.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Elmer L. McClellan served as a Private in the United States Army Air Forces during World War II. The Army Air Forces were the aerial warfare branch of the U.S. Army — the institution that would become the independent Air Force in 1947. As a Private, McClellan was on the ground level of that force, doing the essential work that kept it running. A Massachusetts man born January 11, 1903, he was nearly forty years old when Pearl Harbor pulled the country into war. He passed July 23, 1965. His wife Helen Taylor McClellan is remembered alongside him on the family stone.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Miles, Alex Chapman",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "WWII",
-   "lat": 42.207072,
-   "lng": -72.621444,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Miles.JPG",
-   "extraPhotos": [],
-   "narrative": "Alex Chapman Miles is commemorated on the Miles family stone with an American flag and a World War II veteran's medallion marking his grave. Born in 1927, he would have been eighteen when the war ended in 1945 — young enough to have served in its final months or to have been called up just as it closed. He passed in 2016 at the age of 88. Branch and rank are not recorded on the stone, but the medallion placed there speaks to his service.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Miller, Edmund P. Sr.",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "Army · WWII",
-   "lat": 42.206822,
-   "lng": -72.621597,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Miller%20E%20P%20Sr.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Edmund P. Miller Sr. served as a Staff Sergeant in the United States Army during World War II. Staff Sergeant was a leadership rank — NCOs who were responsible not just for their own performance but for the soldiers under them, keeping a squad functioning under whatever conditions the war delivered. Born October 21, 1915, Edmund was twenty-six when the United States entered the war. He passed April 5, 1984. His wife Frances P. Scevola Miller is remembered alongside him on the family stone.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Mitchell, Robert",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "WWII",
-   "lat": 42.207008,
-   "lng": -72.621614,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/MitchellJPG.JPG",
-   "extraPhotos": [],
-   "narrative": "Robert Mitchell is commemorated on the Mitchell family stone with an American flag and a World War II veteran's eagle medallion marking his grave. He was born in 1914 and passed in 1977. Branch and rank are not recorded on the stone. His wife Henrietta Mitchell, 1916–1982, is remembered alongside him.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Murray, Charles Stuart",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "Army · WWII",
-   "lat": 42.207081,
-   "lng": -72.621436,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Murray.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Charles Stuart Murray served as a Private First Class in the United States Army during World War II. PFC was the first step above the entry rank — a soldier who had earned some standing in the ranks. Born March 28, 1915, Charles was twenty-six when the country entered the war. He passed January 28, 2000, having lived well into the new century. The family stone nearby remembers Frederick H. Murray, 1915–1989, who may be related.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Orcutt, Clifford L.",
+   "id": "bresnahan__g_army_korea",
+   "name": "Gerald F. Bresnahan",
    "era": "Korean War",
-   "branch": "U.S. Air Force",
-   "branchLabel": "Air Force · Korea",
-   "lat": 42.206867,
-   "lng": -72.621589,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Orcutt.JPG",
-   "extraPhotos": [],
-   "narrative": "Clifford L. Orcutt served in the United States Air Force during the Korean War. The Korean conflict placed the newly independent Air Force — only a few years old as its own branch — into combat operations supporting ground troops and contesting the skies over the peninsula. Clifford was born December 3, 1932, and passed October 15, 1996. Rank is not recorded on the stone.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Paquette, Raymond Ernest Sr.",
-   "era": "World War II",
    "branch": "U.S. Army",
-   "branchLabel": "Army · WWII",
-   "lat": 42.206792,
-   "lng": -72.621628,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Paquette%2C%20R%20E%20Sr.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Raymond Ernest Paquette Sr. served as a Private First Class in the United States Army during World War II. He was born June 6, 1924 — D-Day would fall on his twentieth birthday in 1944, a coincidence that must have carried weight for the rest of his life. He passed December 9, 2003. His wife Marion E. Paquette is remembered on the family stone.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Platanitis, George",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "Veteran",
-   "lat": 42.207211,
-   "lng": -72.621575,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Plantanitis2.JPG",
+   "branchLabel": "Army · Korea",
+   "lat": 42.18895,
+   "lng": -72.629036,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/bresnahan__g_army_korea.jpg",
    "extraPhotos": [],
-   "narrative": "George Platanitis is commemorated on the Platanitis family stone with an American flag and a U.S. veteran's medallion marking his grave. He was born in 1922 and passed in 1996. Branch and rank are not recorded on the stone. His wife Edna A. Platanitis, 1920–1979, is remembered alongside him.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Gerald F. Bresnahan served in the United States Army during the Korean War, attaining the rank of Corporal. Corporals in Korea served as front-line squad leaders during one of the most brutal conflicts in American military history — fighting across the Korean Peninsula in conditions ranging from summer heat to the devastating winter of the Chosin Reservoir campaign. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "",
-   "name": "Roberts, Paul V.",
-   "era": "World War II",
-   "branch": "U.S. Navy",
-   "branchLabel": "Navy · WWII",
-   "lat": 42.206989,
-   "lng": -72.621581,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Roberts.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Paul V. Roberts served as a Pharmacist's Mate Second Class in the United States Navy during World War II. Pharmacist's Mates were the Navy's frontline medical personnel — trained to treat wounds, administer medications, and keep sailors and Marines alive under fire. A PHM2 had earned enough experience to work with real autonomy, often the only medical man available in an emergency. Paul was born July 6, 1925, and passed January 13, 2016, at the age of 90. His wife Doris M. Roberts is remembered on the family stone.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Rock, Homer Joseph",
-   "era": "World War II",
-   "branch": "U.S. Navy",
-   "branchLabel": "Navy · WWII",
-   "lat": 42.206897,
-   "lng": -72.621628,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Rock.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Homer Joseph Rock served as a Motor Machinist's Mate Third Class in the United States Navy during World War II. Motor Machinist's Mates kept the engines running — the men in the engine rooms and below decks who maintained propulsion systems, generators, and the mechanical heart of every vessel they served on. Without them, ships didn't move. Homer was born March 5, 1924, and passed September 16, 1978. His wife Amelia Mary Rock is remembered on the family stone.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Roe, John F.",
-   "era": "Vietnam",
-   "branch": "U.S. Army",
-   "branchLabel": "Army · Vietnam",
-   "lat": 42.207058,
-   "lng": -72.622619,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Roe.JPG",
-   "extraPhotos": [],
-   "narrative": "John F. Roe served as a Specialist Fourth Class in the United States Army during the Vietnam War. SP4 was a technical specialist rank — the Army's way of recognizing soldiers with specific skills who weren't on a leadership track but whose expertise was essential to operations. John was born in 1943 and passed in 1979, just four years after the war's end — one of the generation of Vietnam veterans who came home to a country still working out how to receive them.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Rollins, William J.",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "WWII",
-   "lat": 42.207111,
-   "lng": -72.621453,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Rollins2.JPG",
-   "extraPhotos": [],
-   "narrative": "William J. Rollins is commemorated on the Rollins family stone with an American flag and a World War II veteran's eagle medallion marking his grave. He was born in 1904 and passed in 1980. Branch and rank are not recorded on the stone. His wife Elsa A. Rollins, 1902–1978, is remembered alongside him.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Rys, John Joseph",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "Army · WWII",
-   "lat": 42.206939,
-   "lng": -72.621522,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Rys%20J%20J.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "John Joseph Rys served as a Technician Fourth Grade in the United States Army during World War II. TEC 4 was a specialist rank carrying the authority of a Sergeant but focused on technical skills rather than troop command — the men who operated and maintained the specialized equipment that modern warfare depended on. Born October 27, 1910, John was thirty-one when the United States entered the war. He passed March 15, 1991. His wife Martha A. Raymond Rys is remembered on the family stone.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Scott, John",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "WWII",
-   "lat": 42.207142,
-   "lng": -72.621392,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Scott.JPG",
-   "extraPhotos": [],
-   "narrative": "John Scott is commemorated on the Scott family stone with a World War II veteran's eagle medallion marking his grave. He was born in 1901 and passed in 1981. Branch and rank are not recorded on the stone. The Masonic emblem carved at the top of the stone speaks to a life of civic involvement beyond his military service. His wife Mary Ingram Scott is remembered alongside him.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Sinclair, James W.",
-   "era": "Civil War Era",
-   "branch": "U.S. Military",
-   "branchLabel": "Civil War Era",
-   "lat": 42.207286,
-   "lng": -72.622108,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Sinclair.JPG",
-   "extraPhotos": [],
-   "narrative": "James W. Sinclair served during the Civil War era. He was born in 1856 and passed in 1908. A Woman's Relief Corps marker — the auxiliary organization of the Grand Army of the Republic — stands at his grave, identifying him as a Union veteran whose service was remembered and honored by that organization long after the war ended. His wife Nellie Owen Sinclair and their children John and Blanche are remembered on the family stone.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Smith, Raymond A. Jr.",
-   "era": "World War II",
-   "branch": "U.S. Coast Guard",
-   "branchLabel": "Coast Guard · WWII",
-   "lat": 42.207153,
-   "lng": -72.621178,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Smith%20R%20A%20Jr.JPG",
-   "extraPhotos": [],
-   "narrative": "Raymond A. Smith Jr. served as a Seaman First Class in the United States Coast Guard during World War II. The Coast Guard's wartime role was far broader than its peacetime mission — Coastguardsmen crewed landing craft on D-Day beaches, escorted convoys across the Atlantic, and patrolled American shores against enemy submarines and saboteurs. A Seaman First Class was a capable sailor, trusted with real duties aboard whatever vessel or station needed him. Raymond was born March 24, 1928, and passed August 12, 2004.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Stallmann, Charles D.",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "Army",
-   "lat": 42.207061,
-   "lng": -72.621506,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Stallmann.JPG",
-   "extraPhotos": [],
-   "narrative": "Charles D. Stallmann served in the United States Army. He was born in 1904 and passed in 1989. Era and rank are not recorded on the stone. Born in the same year as the Wright Brothers' first powered flight, Charles lived through nearly a century of American history — including the wars that defined it.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Stocks, Frederick J.",
-   "era": "World War II",
-   "branch": "U.S. Navy",
-   "branchLabel": "Navy · WWII",
-   "lat": 42.207219,
-   "lng": -72.622011,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Stocks%20F.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Frederick J. Stocks served as a Chief Petty Officer in the United States Navy during World War II. CPO is the backbone rank of the Navy's enlisted force — experienced, expert sailors who actually run the ship, train the junior men, and keep operations functioning under any conditions. A Chief Petty Officer earned that rank through years of demonstrated competence and leadership. Frederick was born October 15, 1917, and passed February 23, 2001. The nearby family stone remembers John Stocks 1829–1905 and Fred D. Stocks 1882–1944, who may be related.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Streeter, P.A.",
-   "era": "Civil War Era",
-   "branch": "U.S. Military",
-   "branchLabel": "Civil War Era",
-   "lat": 42.207253,
-   "lng": -72.622047,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Streeter%20P%20A%20.JPG",
-   "extraPhotos": [],
-   "narrative": "P.A. Streeter is commemorated by a weathered Civil War era military marker. The stone is heavily worn and most details are no longer legible, but the distinctive shape and style of the marker identify it as belonging to a Union veteran. Name, dates, and unit await further research.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Tagliolato, John J.",
+   "id": "bresnaban__m_army_ww_i",
+   "name": "Michael J. Bresnahan",
    "era": "World War I",
    "branch": "U.S. Army",
    "branchLabel": "Army · WWI",
-   "lat": 42.207081,
-   "lng": -72.621489,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Tagliolato.JPG",
+   "lat": 42.187378,
+   "lng": -72.627242,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/bresnaban__m_army_ww_i.jpg",
    "extraPhotos": [],
-   "narrative": "John J. Tagliolato served as a Private First Class in the United States Army during World War I. He was born July 4, 1902 — a fact that placed him among the youngest men to see service in that conflict, barely old enough to serve before the Armistice of November 1918. He carried his service with him for the rest of his long life, passing December 16, 1985, at the age of 83.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Michael J. Bresnahan served in the United States Army during World War I. Born in 1892, Private Bresnahan was among millions of Americans who mobilized when the United States entered the Great War in 1917. If you have further information about this veteran's unit and service, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "",
-   "name": "Tenney, Raymond W.",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "Veteran",
-   "lat": 42.207181,
-   "lng": -72.621828,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Tenney.JPG",
+   "id": "broderick__w_field_arty_ww_i",
+   "name": "Walter J. Broderick",
+   "era": "World War I",
+   "branch": "U.S. Field Artillery",
+   "branchLabel": "Field Artillery · WWI",
+   "lat": 42.187089,
+   "lng": -72.628006,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/broderick__w_field_arty_ww_i.jpg",
    "extraPhotos": [],
-   "narrative": "Raymond W. Tenney is commemorated on the family stone with a U.S. veteran's medallion marking his grave. He was born August 24, 1916, and passed June 24, 2004. Branch and rank are not recorded on the stone. His wife Hazel Bertha Webb Tenney is remembered alongside him.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Private Walter J. Broderick served in the United States Army during World War I, assigned to Headquarters Company of the 31st Field Artillery Regiment. The 31st Field Artillery was part of a massive expansion of American artillery power that helped turn the tide on the Western Front. Headquarters Company soldiers kept the regiment's command, communications, and logistics running under fire. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "",
-   "name": "Thayer, Harry H. Jr.",
+   "id": "brown__h_usaf_korea",
+   "name": "Brown, Herbert W. Sr.",
+   "era": "Korean War",
+   "branch": "U.S. Air Force",
+   "branchLabel": "USAF · Korea",
+   "lat": 42.187978,
+   "lng": -72.629692,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/brown__h_usaf_korea.jpg",
+   "extraPhotos": [],
+   "narrative": "Herbert W. Brown Sr. served in the United States Air Force during the Korean War, attaining the rank of Corporal. Air Force Corporals during Korea supported ground operations, airfield security, and logistics — part of the massive American air power presence that flew close air support missions over the Korean Peninsula. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "browne__e_army_ww_i_ii",
+   "name": "Edward J. Browne",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI & WWII",
+   "lat": 42.188086,
+   "lng": -72.628678,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/browne_e_army_ww_i_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Edward J. Browne served in the United States Army during both World War I and World War II — a rare distinction that placed him among the men who answered the nation's call twice across two generations of conflict. Enlisting as a Private, Browne would have been a young man in the trenches of the Great War, and returned to serve again when America entered World War II. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "bryda__s_navy_ww_ii",
+   "name": "Stephen J. Bryda",
    "era": "World War II",
-   "branch": "U.S. Navy / Army Air Corps",
-   "branchLabel": "Navy & Army Air Corps · WWII",
-   "lat": 42.206964,
-   "lng": -72.621461,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Thayer%20H%20H%20Jr.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Harry H. Thayer Jr. served in two branches of the armed forces during World War II — first as a Seaman First Class in the United States Navy, then as a Corporal in the United States Army Air Corps. To have served in both the Navy and the Army Air Corps in a single war speaks to a man who went where the need was, doing his part across two very different branches of American military power. Harry was born December 16, 1925, and passed August 10, 1997.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Thayer, Thomas Clark",
-   "era": "Post-Vietnam",
    "branch": "U.S. Navy",
-   "branchLabel": "Navy",
-   "lat": 42.206978,
-   "lng": -72.621483,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Thayer%20T%20C.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Thomas Clark Thayer served as a Fire Control Technician Seaman Apprentice in the United States Navy. Fire Control Technicians operated and maintained the weapons targeting systems aboard Navy vessels — the precision electronics that guided guns and missiles to their mark. Thomas was born June 17, 1957, and passed May 27, 1979, at just twenty-one years old. He may be related to Harry H. Thayer Jr., also a Navy veteran, remembered on the same family stone.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Thieme, William E.",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "WWII",
-   "lat": 42.207286,
-   "lng": -72.621644,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Thieme2.JPG",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.188511,
+   "lng": -72.628922,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/bryda__s_navy_ww_ii.jpg",
    "extraPhotos": [],
-   "narrative": "William E. Thieme is commemorated on the Thieme family stone with an American flag marking his grave. He was born in 1905 and passed in 1976. Branch and rank are not recorded on the stone. His wife Rosamond P. Tauscher Thieme is remembered alongside him.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Stephen J. Bryda served in the United States Navy during World War II, attaining the rate of Aviation Machinist's Mate Second Class. Aviation Machinist's Mates were responsible for the maintenance and repair of aircraft engines and systems aboard carriers and naval air stations — skilled technicians who kept naval aviation in the fight across both the Pacific and Atlantic theaters. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "",
-   "name": "Wightman, Alfred D.",
+   "id": "bugbee__h_navy_ww_i",
+   "name": "Harold C. Bugbee",
    "era": "World War I",
-   "branch": "U.S. Military",
-   "branchLabel": "Veteran",
-   "lat": 42.207314,
-   "lng": -72.622017,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Wightman.JPG",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWI",
+   "lat": 42.186981,
+   "lng": -72.627486,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/bugbee__h_navy_ww_i_.jpg",
    "extraPhotos": [],
-   "narrative": "Alfred D. Wightman is commemorated on the Wightman family stone with an American flag marking his grave. He was born in 1883 and passed in 1940. Branch and rank are not recorded on the stone. His wife Annie E. and his second wife Helen C. Pease Wightman are remembered alongside him.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Harold Clark Bugbee served in the United States Navy during World War I, attaining the rate of Machinist's Mate First Class. Machinist's Mates were the engineering backbone of the fleet — responsible for the operation and maintenance of engines, boilers, and mechanical systems that kept warships underway. First Class was a senior petty officer rating, reflecting years of skill and experience. Born November 11, 1892 in Wallingford, Connecticut, Bugbee was a longtime resident of Chicopee before moving to West Springfield, Massachusetts, where he worked as a retired substation operator for the Chicopee Electric Light Company for 36 years. He was a member of American Legion Post 207. He passed away April 6, 1977 at the age of 84 and is buried at Calvary Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "",
-   "name": "Bingle, John A.",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "WWII",
-   "lat": 42.207178,
-   "lng": -72.621575,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Bingle2.JPG",
-   "extraPhotos": [],
-   "narrative": "John A. Bingle is commemorated on the Bingle family stone with an American flag marking his grave. He was born in 1903 and passed in 1978. Branch and rank are not recorded on the stone, and his own service has not been confirmed from available records. The Bingle family carried a strong record of service through this era: his sons Donald, who came of age during World War II, and John James, who served in the U.S. Army during the Korean War and rests at the Agawam Veterans Cemetery. His wife Ida E. Bingle is remembered alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Desrosiers, Joseph L.",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "Veteran",
-   "lat": 42.207044,
-   "lng": -72.621489,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Desrosiers2.JPG",
-   "extraPhotos": [],
-   "narrative": "Joseph L. Desrosiers served in the armed forces. He was born March 12, 1899, and passed March 16, 1985. Branch, rank, and era are not recorded on the stone. His wife Thelma C. Nielsen Desrosiers is remembered alongside him. The Desrosiers name appears multiple times among Forestdale's veterans, suggesting a family with deep roots in Holyoke and in its military history.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Gaunt, George S.",
-   "era": "Vietnam",
-   "branch": "U.S. Military",
-   "branchLabel": "Veteran",
-   "lat": 42.207219,
-   "lng": -72.62265,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Gaunt2.JPG",
-   "extraPhotos": [],
-   "narrative": "George S. Gaunt served as a Lieutenant in the armed forces. He was born in 1945 and passed in 1971, at the age of 26 — during the height of the Vietnam War. Branch is not recorded on the family stone. He is remembered on the Gaunt family stone alongside Nelson H. Gaunt, a World War II Merchant Marine veteran who may be his father or other close relation.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Parfitt, John R.",
-   "era": "Unknown Era",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207736,
-   "lng": -72.623544,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/parfitt2%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "John R. Parfitt was born in 1862 and died in 1947, living to the age of 85. The Parfitt name was well established in Holyoke — the family operated Parfitt Furniture Company, a fixture in the city's commercial life. A flag marks his grave. The stone gives no branch or rank, and further research is needed to identify the conflict in which he served. His wife Carrie F. Bryant (1863–1919) and daughter Eunice R. (1899–1901) are also memorialized on the family monument. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Racoske, Adolf",
-   "era": "Spanish-American War",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207356,
-   "lng": -72.623536,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/racoske%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Adolf Racoske was born in 1859 and died in 1941. A flag marks his side of the shared family monument. Born during the antebellum era, he would have been of service age during the Spanish-American War of 1898. The stone gives no branch or rank, and further research is needed to identify the conflict in which he served. His wife Amelia Zabel (1863–1933) is also memorialized on the stone, which he shares with his son-in-law Edson E. Fielding and daughter Olga. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Fielding, Edson E.",
-   "era": "World War I",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207356,
-   "lng": -72.62353,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/fielding%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Edson E. Fielding was born in 1890 and died in 1968. A flag marks his side of the shared family monument he shares with his father-in-law Adolf Racoske. Born in 1890, he was of prime service age during World War I, when American men of his generation answered the call in 1917–1918. The stone gives no branch or rank. His wife Olga Racoske (1888–1932) is also memorialized on the monument. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Councill, Evelyn Gladys",
-   "era": "World War II",
-   "branch": "U.S. Coast Guard",
-   "branchLabel": "",
-   "lat": 42.207619,
-   "lng": -72.623467,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/councill%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Evelyn Gladys Councill served as a Lieutenant in both the United States Navy and the United States Coast Guard during World War II. She was born August 21, 1911, and died March 7, 1991. Women who served as officers in WWII were pioneers — the WAVES in the Navy and the SPARs in the Coast Guard opened new roles for women in uniform, and Councill served in both branches. Buried in the same plot is James H. Councill, who also served in the Coast Guard during WWII. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Councill, James H.",
-   "era": "World War II",
-   "branch": "U.S. Coast Guard",
-   "branchLabel": "",
-   "lat": 42.207614,
-   "lng": -72.623436,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/councill2%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "James H. Councill served as an Aviation Machinist's Mate First Class (AMM1) in the United States Coast Guard during World War II. He was born December 8, 1909, and died in the 1960s. An AMM1 was a senior enlisted specialist responsible for the maintenance and repair of aircraft engines — critical work for the Coast Guard's expanding air operations during the war. He is buried alongside Evelyn Gladys Councill, a Lieutenant who also served in the Coast Guard and Navy during WWII. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Cousins, Mary Alice",
+   "id": "burke__j_army_ww_ii",
+   "name": "James D. Burke",
    "era": "World War II",
    "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207311,
-   "lng": -72.623283,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cousins%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Mary Alice Cousins served as a Technician Fifth Grade in the United States Army during World War II. She was born July 2, 1906, and died November 11, 2000 — Veterans Day — at the age of 94. Women who served in the Women's Army Corps filled essential roles that freed men for combat duty, and Cousins was among them, earning the same government-issue marker as her male counterparts. A World War II commemorative marker stake stands at her grave. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Denton, Kenneth N.",
-   "era": "Korean War",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207822,
-   "lng": -72.623603,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/denton%20Medium.jpeg",
+   "branchLabel": "Army · WWII",
+   "lat": 42.188014,
+   "lng": -72.628731,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/burke__j_army_ww_ii.jpg",
    "extraPhotos": [],
-   "narrative": "Kenneth N. Denton served as a Captain in the United States Army during the Korean War. He was born May 9, 1913, and died February 6, 1998. As a commissioned officer commanding men in Korea, Denton served in one of the most demanding conflicts of the Cold War era — a war fought in brutal terrain against a determined enemy. He was 37 when the war began in 1950, a seasoned man leading younger soldiers through the fight. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "James D. Burke served in the United States Army during World War II, attaining the rank of Private First Class — the first step above entry level, recognizing demonstrated competence in his duties. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "",
-   "name": "Dowdall",
-   "era": "Unknown Era",
-   "branch": "U.S. Army Air Forces",
-   "branchLabel": "",
-   "lat": 42.207286,
-   "lng": -72.622781,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/dowdall%20Medium.jpeg",
+   "id": "butler__d_ww_ii",
+   "name": "David T. Butler",
+   "era": "World War II",
+   "branch": "U.S. Military",
+   "branchLabel": "Military · WWII",
+   "lat": 42.188136,
+   "lng": -72.629617,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/butler__d_ww_ii.jpg",
    "extraPhotos": [],
-   "narrative": "A flag and Army Air Forces marker stand before the Dowdall family monument. The detail stone or flat marker recording this veteran's full name, rank, and service has not yet been photographed. Further information is needed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "David T. Butler served in the United States Army during World War II, attaining the rank of Private First Class, assigned to the 1550th Service Command Unit. Service Command Units were part of the Army Service Forces — the logistical backbone of the American war effort, responsible for supply, transportation, maintenance, and support that kept combat forces equipped and in the field. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "",
-   "name": "Downing, Jeremiah T.",
-   "era": "Unknown Era",
-   "branch": "U.S. Coast Guard",
-   "branchLabel": "",
-   "lat": 42.207506,
-   "lng": -72.623472,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/downing%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Jeremiah T. Downing served in both the United States Coast Guard and the United States Navy across two world wars. He was born June 28, 1896, and died August 30, 1976. Enlisting for WWI in his early twenties, he remained in or returned to service for WWII — a span of commitment that defined his generation. His wife Elizabeth M. Cortis (1924–2008) is memorialized alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Feldon, Richard Alan",
-   "era": "Korean War",
+   "id": "butler__j_usmc_ww_ii",
+   "name": "James L. Butler",
+   "era": "World War II",
    "branch": "U.S. Marine Corps",
-   "branchLabel": "",
-   "lat": 42.207381,
-   "lng": -72.623361,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/feldon%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Richard Alan Feldon served as a First Lieutenant in the United States Marine Corps during the Korean War. He was born August 15, 1931, and died June 7, 2019, at the age of 87. As a commissioned officer in the Marines during Korea, Feldon led men through one of the most intense ground conflicts of the Cold War era. He is remembered as a beloved husband, father, grandfather, and friend. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Fifield, Henry A.",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207542,
-   "lng": -72.623506,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/fifield%20Medium.jpeg",
+   "branchLabel": "USMC · WWII",
+   "lat": 42.187642,
+   "lng": -72.627167,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/butler__j_usmc_ww_ii.jpg",
    "extraPhotos": [],
-   "narrative": "Henry A. Fifield attained the rank of Master Sergeant in the United States Army. He was born in 1923 and died in 1989. A Master Sergeant is among the highest enlisted ranks — earned through years of demonstrated leadership and service. Born in 1923, Fifield came of age during World War II and would have been of service age for Korea as well. The stone gives no conflict designation. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "James L. Butler served in the United States Marine Corps during World War II, attaining the rank of Private First Class. The Marines fought their way across the Pacific in some of the bloodiest engagements of the war — Guadalcanal, Tarawa, Saipan, Iwo Jima, and Okinawa — island by island against a determined enemy. His specific unit, theater, and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "",
-   "name": "Follett, Warren O.",
-   "era": "Korean War",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207333,
-   "lng": -72.623344,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/follett%20Medium.jpeg",
+   "id": "cahill__j_mass_inf",
+   "name": "John W. Cahill",
+   "era": "Civil War Era",
+   "branch": "Massachusetts Infantry",
+   "branchLabel": "MA Infantry · Civil War",
+   "lat": 42.188525,
+   "lng": -72.628028,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/cahill_j_mass_inf.jpg",
    "extraPhotos": [],
-   "narrative": "Warren O. Follett served as a Corporal in the United States Army during the Korean War. He was born July 10, 1933, and died June 27, 1990. Enlisting as a young man in the early 1950s, Follett served in a conflict that demanded everything from the soldiers who fought it — bitter cold, rugged terrain, and a determined enemy. He came home and built his life in Holyoke. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "John W. Cahill served in Company E of the 46th Regiment Massachusetts Volunteer Infantry during the American Civil War, enlisting August 20, 1862 and mustering out July 29, 1863. The 46th was a Hampden County regiment — drawn almost entirely from the men of this region — that answered President Lincoln's 1862 call for 300,000 volunteers. The regiment served in North Carolina and later joined the Army of the Potomac in pursuit of Lee's forces after Gettysburg. Born in 1844 in New York, Cahill settled in Holyoke where he worked as a machinist. He passed away October 17, 1904 at the age of approximately 60. His stone is among the oldest veteran markers at Calvary Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "",
-   "name": "Green, Alfred R.",
-   "era": "Spanish-American War",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207306,
-   "lng": -72.623336,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/green%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Alfred R. Green was born in 1877 and died in 1943. A flag marks his family monument. Born in 1877, he was of service age during the Spanish-American War of 1898 and World War I. The stone gives no branch or rank, and further research is needed to identify the conflict in which he served. His wife Maude E. McGee (1885–1957) and granddaughter Marion Mitchell (1937–1937) are also memorialized. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Jenkins, William C. Jr.",
-   "era": "World War I",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207283,
-   "lng": -72.622911,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/jenkins%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "William C. Jenkins Jr. served as a Sergeant in the Medical Corps during World War I. Jenkins entered service on June 1, 1917 — within two months of the declaration of war — trained at Camp Devens, and went overseas with the American Expeditionary Forces. Medical Corps sergeants ran the aid stations and field hospitals that stood between the wounded and death. Born in 1892, Jenkins was 25 when he enlisted. Jenkins died in 1944 at the age of 52. Both he and his father William C. Jenkins Sr. were Masons, as the square and compass on the family monument records. His wife Lillian M. Isham is also memorialized. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Junkins, Clifford E. Jr.",
-   "era": "World War II",
-   "branch": "U.S. Navy",
-   "branchLabel": "",
-   "lat": 42.207283,
-   "lng": -72.623253,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/junkins%20jr%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Clifford E. Junkins Jr. served as a Seaman First Class in the United States Navy during World War II. He was born November 20, 1926, and died January 30, 2017, at the age of 90. Enlisting as a teenager, Junkins was among the youngest men who served in the final years of the war. The Junkins family has deep roots in Holyoke, with three generations memorialized across two adjacent monuments. His father Clifford E. Junkins Sr. (1899–1994) and his wife Mary Jo White (1924–2011) are memorialized alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Kelley, Harold Park",
-   "era": "World War I",
-   "branch": "U.S. Navy",
-   "branchLabel": "",
-   "lat": 42.207453,
-   "lng": -72.623481,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/kelley%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Harold Park Kelley served as a Yeoman Second Class (Y2) in the United States Navy during World War I. He was born in 1896 and died in 1973. A Yeoman was a Navy administrative specialist — handling correspondence, records, and personnel matters that kept ships and shore stations running. Kelley's service in that role during WWI placed him at the center of the Navy's rapid wartime expansion. His wife Linda B. Gewinner (b.1899) is memorialized alongside him on the family monument. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Kershaw, Frank E.",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.2075,
-   "lng": -72.623406,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/kershaw%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Frank E. Kershaw served as a Technical Sergeant in the United States Army during World War II. He was born May 17, 1909, and died May 2, 1995. A Technical Sergeant led sections and squads in the field — a rank earned through demonstrated competence under pressure. At 32 when the United States entered the war after Pearl Harbor, Kershaw was among the experienced older men who formed the backbone of Army units in every theater. His wife Viola F. Brizard (1913–1997) is memorialized on the family monument alongside his parents Samuel Kershaw (1870–1958) and Maria Sunderland (1873–1963), and his brother C. Winston Kershaw (1904–1957). If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Knox, Barron Dwinell",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207669,
-   "lng": -72.623786,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/knox%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Barron Dwinell Knox served as a Major in the Medical Corps of the Massachusetts Army during World War II. He was born July 12, 1911, and died March 12, 1959. A physician-officer in the Medical Corps, Knox brought his medical training directly to the war effort — treating wounded soldiers under battlefield conditions or in field hospitals. The family monument records him as Barron Dwinell Knox M.D., honoring both his military rank and his medical degree. His parents Frank Robert Knox (1882–1967) and Alice Dwinell (1881–1969) are memorialized on the same stone. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Lassard, Donald A.",
-   "era": "World War II",
-   "branch": "U.S. Navy",
-   "branchLabel": "",
-   "lat": 42.207325,
-   "lng": -72.622911,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lassard%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Donald A. Lassard served as a Fireman (FN) in the United States Navy during World War II. He was born October 25, 1925, and died in 2000. A Fireman in the Navy was an engineering-rate enlisted man responsible for the operation and maintenance of a ship's propulsion systems — the men who kept the engines running in every sea and weather condition. Lassard was 19 or 20 when the war ended, among the youngest men who served. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "MacDonald, George D.",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207367,
-   "lng": -72.623589,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/macdonald%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "George D. MacDonald was born in 1898 and died in 1953. A flag and veteran marker stand at the MacDonald family monument. Born in 1898, he was of prime service age during World War I and would also have been eligible during World War II. The marker is partially obscured and further research is needed to identify his branch, rank, and conflict. His wife Mabel Dixon (1899–1982) and daughter Dorothy M. (1920–1936) are memorialized on the stone. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Miller, George Robert",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207275,
-   "lng": -72.623428,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/miller%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "George Robert Miller served as a Private First Class in the United States Army during World War II. He was born April 6, 1916, and died January 19, 2003, at the age of 86. Born in 1916, he was 25 when the United States entered the war after Pearl Harbor and served through what would become the defining conflict of his generation. He came home to Holyoke and built a long life in the city. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Miller, Edward W.",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207275,
-   "lng": -72.623467,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Miller%20E%20W%20%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Edward W. Miller served in the United States Army during World War II and was awarded the Purple Heart. He was born May 19, 1917, and died June 10, 1978. The Purple Heart is awarded to members of the armed forces wounded or killed in action — Miller was wounded in service to his country. No rank is listed on the stone. He was 24 when the United States entered the war and served through the conflict. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Purple Heart"
-   ],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Sachs, Edward A. Jr.",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207172,
-   "lng": -72.622882,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sachs2%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Edward A. Sachs Jr. was born in 1894 and died in 1950. A flag marks the Sachs family monument. Born at the end of the nineteenth century, he was of service age for both World War I and World War II. The stone, shared with his parents Edward A. Sachs Sr. (1863–1935) and Julia E. Niebergall (1867–1936), gives no branch or rank. Further research is needed to identify the conflict in which he served. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Sattler, Walter Ernest",
-   "era": "World War I",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207375,
-   "lng": -72.623497,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sattler%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Walter Ernest Sattler served as a Corporal in the 103rd Field Artillery — the guns of New England's own 26th Yankee Division — entering service on May 31, 1918, and joining a regiment already a year deep in the fighting in France. His brother Edward E. Sattler served in the Quartermaster Corps at Camp Gordon, Georgia. Born November 29, 1895, Sattler came home and lived to April 11, 1989 — 93 years, long enough to see the century his war opened come nearly to its close. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Shea, Stephen Robinson",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207478,
-   "lng": -72.623383,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/shea%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Stephen Robinson Shea attained the rank of Major in the United States Army and served during World War II. He was born January 20, 1907, and died in 1991 at the age of 84. As a commissioned officer, Shea would have commanded men through some of the most demanding years of that global conflict. His wife Eleanor Lois Benson (1915–1993) and daughter Kathleen Benson Shea (1947–1955) are also memorialized on the family monument. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Siegert, Oscar W.",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207244,
-   "lng": -72.622803,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/siegert%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Oscar W. Siegert served as a Private First Class in the United States Army during World War II. He was born August 8, 1899, and died February 24, 1990, living to 90 years of age — long enough to see the Cold War he helped make possible draw toward its close. Enlisting in his forties, Siegert was among the older men who answered the call after Pearl Harbor. His wife Hattie C. (1898–1982) is memorialized alongside him on the family monument. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Smith, George",
-   "era": "World War I",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207536,
-   "lng": -72.62355,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/smith%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "George Smith was born in 1885 and died in 1956. A flag marks his family monument, which also bears the Masonic square and compass. Born in 1885, he was of prime service age during World War I, when American men of his generation were called up in 1917–1918. The stone gives no branch or rank. His wife Mary M. Forbes (1885–1956) and sons Russell F. (1916–1925) and George S. (b. 1911) are also memorialized. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Thomson, Alexander S.",
+   "id": "carr_",
+   "name": "Carr",
    "era": "Unknown Era",
    "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207686,
-   "lng": -72.623328,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/thomas%20Medium.jpeg",
+   "branchLabel": "Military",
+   "lat": 42.187008,
+   "lng": -72.627219,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/carr.jpg",
    "extraPhotos": [],
-   "narrative": "Alexander S. Thomson is commemorated on the family monument alongside Isabella L. Thomson (1842–193?) and John Thomson (1873–19?). An American Legion marker stands at the base of the stone, identifying him as a veteran. The stone is heavily weathered and dates are partially obscured. Further research is needed to establish his branch, rank, and the conflict in which he served. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Veteran Carr believed to be interred here, is identified by the Carr family monument and a bronze veteran grave marker. Service details have not yet been confirmed but the bronze stake marker is consistent with either a GAR (Civil War) or Spanish-American War veteran grave. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "",
-   "name": "Tidswell, William F.",
+   "id": "carroll__r_mass_signal_corps_ww_ii",
+   "name": "Robert T. Carroll",
    "era": "World War II",
+   "branch": "Massachusetts Signal Corps",
+   "branchLabel": "MA Signal Corps · WWII",
+   "lat": 42.189167,
+   "lng": -72.629058,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/carroll_r_mass_signal_corps_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Robert T. Carroll served in the United States Army during World War II, attaining the rank of Corporal in the Signal Corps. Signal Corps soldiers were responsible for establishing and maintaining communications across the battlefield — from field telephone lines to radio networks — connecting commanders to their troops under fire. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "cassidy_",
+   "name": "Cassidy",
+   "era": "Spanish-American War",
    "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207314,
-   "lng": -72.622764,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Tidswell%20Medium.jpeg",
+   "branchLabel": "Spanish-American War",
+   "lat": 42.187631,
+   "lng": -72.627303,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/cassidy.jpg",
    "extraPhotos": [],
-   "narrative": "William F. Tidswell was born in 1918 and died in 1987. A flag marks his grave. Born in 1918, he came of age just as the nation was drawn into World War II, and his generation bore the weight of that conflict. The stone gives no branch or rank. His wife Thelma L. Tidswell (1923–2000) is memorialized alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Veteran Cassidy served during the Spanish-American War era, as indicated by the United Spanish War Veterans medallion at the base of the family monument. The USWV was the official veterans organization for those who served in the Spanish-American War and the Philippine Insurrection of 1898–1902. If you have further information about this veteran, including branch, unit, and full name, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "",
-   "name": "Twing, Edward L.",
-   "era": "World War I",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.208592,
-   "lng": -72.624472,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/twing%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Edward L. Twing was born November 18, 1879, and died February 20, 1963. A flag and an American Legion marker stand before the imposing Twing family monument — a column-flanked granite structure that speaks to the family's standing in Holyoke. Born in 1879, Edward was 37 or 38 when the United States entered World War I, placing him among the older men who served in that conflict. His wife Catherine E. Struble (1881–1962) is also memorialized on the monument, along with his father William G. Twing (1850–1911) and brother Landon S. (1878–1888). The stone gives no branch or rank. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Baldwin, Leonard M.",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207339,
-   "lng": -72.622764,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Baldwin%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Leonard M. Baldwin served as a Technician Fifth Grade in the United States Army during World War II. He was born March 4, 1907, and died October 11, 1986. A TEC 5 was a skilled specialist — the Army's way of recognizing technical expertise in the ranks. Baldwin was 34 when the United States entered the war, among the older men called to serve. His wife Rachel Chambers (1906–1980) is memorialized alongside him on the family monument, which also honors his sister Maude Baldwin (1905–1989) and brother-in-law Duncan B. Cameron (1901–1978). If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Beeching, Albert G.",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207656,
-   "lng": -72.623406,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/beeching%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Albert G. Beeching served in the United States Army during World War II. He was born July 10, 1906, and died July 17, 1982. The stone gives no rank. Born in 1906, he was 35 when the United States entered the war — among the older men drafted or enlisted in the early years of the conflict. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Berger, Harold E.",
-   "era": "World War II",
-   "branch": "U.S. Army Air Forces",
-   "branchLabel": "",
-   "lat": 42.207619,
-   "lng": -72.623458,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/berger%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Harold E. Berger served as an Aviation Cadet in the United States Army Air Forces during World War II. He was born April 19, 1920, and died October 9, 1996. Aviation Cadets were men in training for pilot or aircrew positions — a rigorous program that washed out many and graduated the airmen who flew for the Army Air Forces across every theater of the war. Whether Berger completed flight training or served in another capacity is not recorded on the stone. His memorial plaque reads \"In Memory of,\" and the monument also honors Jan Attinger Berger Oehler (b. 1929). If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Brown, Otho W.",
-   "era": "World War I",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207653,
-   "lng": -72.623261,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/brown%20o%20w%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Otho W. Brown served as a Private in the United States Army during World War I. He was born in 1901 and died in 1997 — 95 or 96 years of life, spanning from the Progressive Era through the close of the twentieth century. He is memorialized on the large Brown family monument alongside his parents William Elliott Brown (1871–1914) and Lillian Walden Brown (1877–1941) and several siblings. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Brown, David R.",
-   "era": "Korean War",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207633,
-   "lng": -72.623244,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/brown%20d%20r%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "David R. Brown served as a Private First Class in the United States Army. He was born June 13, 1934. The stone gives no conflict designation and the death year is partially obscured. Born in 1934, he would have been of service age during the Korean War era and through Vietnam. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Bush, Stephen P.",
-   "era": "World War I",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207447,
-   "lng": -72.623803,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/bush1%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Stephen P. Bush served as a Corporal in Company D of the 2nd District of Columbia Infantry during the Civil War. He was born January 28, 1843, and died March 6, 1928, at the age of 85 — one of the last living links in Holyoke to the conflict that defined his generation. The 2nd D.C. Infantry was a Union regiment that served in the defenses of Washington and in the field. Bush lived long enough to see the United States enter and win World War I. His wife Luella H. Haley (1853–1941) is memorialized alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Cameron, Duncan B.",
+   "id": "cavanaugh__d_navy_ww_ii",
+   "name": "Daniel F. Cavanaugh",
    "era": "World War II",
    "branch": "U.S. Navy",
-   "branchLabel": "",
-   "lat": 42.207339,
-   "lng": -72.62275,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cameron%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Duncan B. Cameron served as a Cook (CSK) in the United States Navy during World War II. He was born in 1901 and died in 1978. A CSK — Ship's Cook — was an essential rating aboard every naval vessel, responsible for feeding the crew through combat deployments, convoy duty, and long patrols. Cameron shares a family monument with his brother-in-law Leonard M. Baldwin, also a WWII veteran. His wife Maude Baldwin (1905–1989) is also memorialized there. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.187589,
+   "lng": -72.627097,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/cavanaugh_d_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Daniel F. Cavanaugh served in the United States Navy during World War II, attaining the rate of Storekeeper Third Class. Storekeepers were the Navy's supply specialists — responsible for managing parts, equipment, and provisions that kept ships and stations operational across every theater of the war. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "",
-   "name": "Carl, Alfred R. Sr.",
+   "id": "cavanaugh__d_usnr_ww_ii",
+   "name": "Daniel E. Cavanaugh",
+   "era": "World War II",
+   "branch": "U.S. Naval Reserve",
+   "branchLabel": "USNR · WWII",
+   "lat": 42.1868028,
+   "lng": -72.6277,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/cavanaugh_d_usnr_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Daniel E. Cavanaugh served in the United States Naval Reserve during World War II, attaining the rate of Machinist's Mate Second Class. Machinist's Mates were responsible for the operation and maintenance of engines, boilers, and mechanical systems — the engineering specialists who kept the fleet underway in both the Atlantic and Pacific. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "clapp__j_army_ww_ii",
+   "name": "John H. Clapp",
    "era": "World War II",
    "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207206,
-   "lng": -72.622864,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/carl%20sr%20Medium.jpeg",
+   "branchLabel": "Army · WWII",
+   "lat": 42.188592,
+   "lng": -72.629258,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/clapp_j_army_ww_ii.jpg",
    "extraPhotos": [],
-   "narrative": "Alfred R. Carl Sr. served as a Technician Fourth Grade in the United States Army during World War II. He was born January 22, 1916, and died August 13, 2003, at the age of 87. A TEC 4 was a skilled specialist assigned to technical duties requiring expertise and reliability. Carl served and came home to build a long life in Holyoke. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "John H. Clapp served in the United States Army during World War II. He was among the millions of Americans who answered the call when the United States entered the war following Pearl Harbor. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "",
-   "name": "Carter, Edmond J.",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207389,
-   "lng": -72.623603,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/carter%20Medium.jpeg",
+   "id": "clark__j_navy_ww_i",
+   "name": "John J. Clark",
+   "era": "World War I",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWI",
+   "lat": 42.1885,
+   "lng": -72.6293806,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/clark_j_navy_ww_i.jpg",
    "extraPhotos": [],
-   "narrative": "Edmond J. Carter served as a Sergeant in the United States Army during World War II. The sergeant was the Army's spine — the non-commissioned officer who turned the orders of distant staff into the movements of real men on real ground, and who answered for those men when the shooting started. It was a rank no one was handed; Edmond earned his stripes through competence proven under pressure. He lived until 1985. The birth year on his stone has worn away, but the mark of his service has not. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "John J. Clark served in the United States Navy during World War I, attaining the rate of Shipfitter First Class. Shipfitters were skilled hull specialists responsible for the structural integrity of naval vessels — welding, cutting, and repairing the steel frames and plates that kept ships seaworthy under the demands of wartime operations. First Class was a senior petty officer rating reflecting years of technical mastery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "",
-   "name": "Aitchison, James G.",
+   "id": "clayton__w_army_ww_i",
+   "name": "Walter B. Clayton",
    "era": "World War I",
    "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207197,
-   "lng": -72.622781,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/aitchison2%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "James G. Aitchison served as a Private in Battery 9 of the Field Artillery Replacement Depot, entering service on April 27, 1918, at the age of 27, and training at Camp Devens before going overseas with the American Expeditionary Forces. Replacement artillerymen were fed forward to gun batteries thinned by casualties — men who arrived mid-battle, joined crews they had never met, and learned the war at the breech of a working gun. Born in 1891, Aitchison lived until 1951. The Aitchison-Feather family monument also remembers his parents Daniel S. Aitchison and Martha Glass. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Auld, Thomas C. Jr.",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207264,
-   "lng": -72.623108,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/auld%20Jr%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Thomas C. Auld Jr. served as a Technician Fourth Grade in the United States Army during World War II. He was born January 7, 1914, and died May 5, 2001, at the age of 87. A TEC 4 was a skilled specialist — equivalent in pay to a sergeant but assigned to technical duties such as communications, mechanics, or ordnance. Auld came home to Holyoke and outlived much of his generation. His wife Mabel F. Mahoney (1918–1981) and son Lawrence F. Auld (1948–1998) are also memorialized on the family monument alongside his parents Thomas C. Sr. (1884–1945) and Grace V. Donahue (1883–1970). If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Ballard, Willis D.",
-   "era": "Spanish-American War",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207744,
-   "lng": -72.623681,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/ballard%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Colonel Willis D. Ballard was a veteran of three wars. A descendant of Capt. William Ballard, who came to America in 1630, he was born in Georgia, Vermont, and raised in Worcester before coming to Holyoke in 1884 to join the Coburn Trolley Track Manufacturing Company, where he rose to vice president and general manager. He first served as a first lieutenant in the Army during the Spanish-American War, later joined the Massachusetts Naval Brigade, served as an Army intelligence officer in World War I, and returned again as an ordnance officer in World War II — three generations of American conflict answered by one man. The Ordnance Branch is one of the oldest in the U.S. Army, its duties dating back to the colonial era; it supplied and maintained the weapons, ammunition, and equipment that kept American forces in the field across every war Ballard knew. He died at his Holyoke home in June 1950, at the age of 83, survived by his wife Mary E. Ballard, two sons, and two daughters. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Schuster, Christian Frederick",
-   "era": "Spanish-American War",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.20735,
-   "lng": -72.623378,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schuster2%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Christian Frederick Schuster was born September 4, 1868, and died June 25, 1957. A flag marks his grave. Born in the years following the Civil War, he would have been of service age during the Spanish-American War of 1898, when he was 30 years old. The stone gives no branch or rank, and further research is needed to identify the conflict in which he served. He outlived his first wife, Marie Gustine Jones (1869–1945), and his second wife, Laura Elizabeth Chadwick (1886–1980), survived him by many years. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Nash, Marjorie Virginia",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207322,
-   "lng": -72.622811,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/nash%20Medium.jpeg",
+   "branchLabel": "Army · WWI",
+   "lat": 42.188122,
+   "lng": -72.628692,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/clayton_w_army_ww_i.jpg",
    "extraPhotos": [],
-   "narrative": "Marjorie Virginia Nash attained the rank of Major in the United States Army, one of the higher ranks achieved by a woman in the service during the World War II era. She was born June 26, 1916, and died April 27, 1998. A WWII Veteran marker stands at her grave. Women who reached field-grade rank in that era — particularly in the Women's Army Corps — did so through demonstrated leadership and administrative competence at a time when military service for women was still being defined. Major Nash lived to 81, carrying the distinction of her service quietly into the postwar decades. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Walter B. Clayton served in the United States Army during World War I, attaining the rank of Corporal. Corporals were the backbone of the Army's small unit leadership — non-commissioned officers responsible for their squad in the trenches and on the march across the Western Front. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "",
-   "name": "Neumann, Clarence E.",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207511,
-   "lng": -72.623297,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/neumann%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Clarence E. Neumann was born in 1899 and died in 1981. A flag marks the Neumann family monument. Born at the turn of the century, he was of prime service age for both World War I — entering his late teens as the United States mobilized in 1917 — and World War II, when he would have been in his early forties. The stone gives no branch or rank, and further research is needed to identify the conflict in which he served. He is memorialized alongside his parents Alfred H. Neumann (1872–1954) and Emma Tilch (1874–1967), and his brother Nelson A. Neumann (1904–1998). If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Hill, Paul Newland",
+   "id": "coburn__james_died_in_france",
+   "name": "James Coburn",
    "era": "World War I",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207783,
-   "lng": -72.623597,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Hill%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Paul Newland Hill served as a Corporal in the United States Army during World War I. He was born May 31, 1895, and died May 29, 1979 — one day before his 84th birthday. Enlisting in his early twenties, Hill was part of the American Expeditionary Forces generation that crossed the Atlantic in 1917 and 1918 to tip the balance on the Western Front. He outlived the war by more than sixty years. His wife Florence Wycoff Hill (1895–1983) is memorialized alongside him on the family monument. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Baker, Glenn Royal",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207706,
-   "lng": -72.62445,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/baker.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Glenn Royal Baker served as a Technician Fourth Grade in the United States Army from Massachusetts during World War II. He was born July 20, 1912, and died July 15, 1973. TEC4 was a specialist rating — skilled soldiers who kept equipment, communications, and logistics running in the field. He is memorialized on the Baker family monument alongside his parents Perley A. Baker (1874–1964) and Nellie M. Hill (1881–1949). If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Batchelor, Charles F.",
-   "era": "World War II",
    "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207747,
-   "lng": -72.625039,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/batchelor.JPG",
+   "branchLabel": "KIA · France · WWI",
+   "lat": 42.187217,
+   "lng": -72.627625,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/coburn_james_died_in_france.jpg",
    "extraPhotos": [],
-   "narrative": "Staff Sergeant Charles F. Batchelor was killed in action on Luzon, Philippines, on January 19, 1945, when U.S. forces under General Douglas MacArthur rapidly pushed inland across the plains of central Luzon. He was 26 years old. The Luzon campaign was one of the largest and most costly battles of the Pacific War — American forces fought through jungles, mountains, and fortified positions to liberate the Philippine capital of Manila. For his service Charles was awarded the Purple Heart and the Bronze Star; he gave his life in those final brutal months of the war, just months before Japan's surrender. He was the son of Ralph N. and Ella B. Batchelor. His stone reads 1918–1945. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "James Coburn served in the 335th Machine Gun Battalion, 87th Division, American Expeditionary Forces during World War I. Deployed to the Western Front as part of the massive American buildup that broke German lines in the final weeks of the war, the 335th Machine Gun Battalion provided the sustained, concentrated fire that anchored infantry advances and defended hard-won ground. Among the most solemn of Calvary Cemetery's veteran markers, this stone honors a soldier whose body remained overseas while his name is remembered here at home — a KIA memorial for a man who gave everything for his country. James is remembered here on the stone of his mother, Theresa Coburn (1851–1914). If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
-    "KIA",
-    "Purple Heart",
+    "KIA"
+   ],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "collins__d_vietnam_bronze_star",
+   "name": "Donald P. Collins",
+   "era": "Vietnam",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · Vietnam · Bronze Star",
+   "lat": 42.187472,
+   "lng": -72.627481,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/collins_d_vietnam_bronze_star.jpg",
+   "extraPhotos": [],
+   "narrative": "D. Collins served in the United States Army during the Vietnam War, earning the rank of First Lieutenant — and was awarded the Bronze Star, one of the U.S. military's highest combat decorations, recognizing heroic or meritorious achievement in a combat zone. A First Lieutenant in Vietnam carried significant front-line responsibility, typically commanding a platoon of 30 to 40 soldiers through some of the war's most demanding conditions — leading men on jungle patrols, search and destroy missions, and defensive operations, making life-and-death decisions under intense pressure with the full weight of their soldiers' lives in their hands. The Collins family legacy at Calvary Cemetery spans three conflicts: Civil War, World War II, and Vietnam. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
     "Bronze Star"
    ],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "",
-   "name": "Briggs, George E.",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207564,
-   "lng": -72.624481,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/briggs.JPG",
-   "extraPhotos": [],
-   "narrative": "George E. Briggs was born in 1897 and died in 1969. A flag marks his grave. Born in 1897, he was of prime service age when the United States entered World War I in 1917 at age 20, and again during World War II when he would have been in his mid-forties. The stone gives no branch or rank, and further research is needed to identify the conflict in which he served. His wife Olive L. Palmer (1897–1968) is memorialized alongside him. Their son Sumner (1920–1924) died in childhood. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Whiting, Richard Cooley",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207908,
-   "lng": -72.624458,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cooley.JPG",
-   "extraPhotos": [],
-   "narrative": "Richard Cooley Whiting was born July 7, 1922, and died November 18, 2015. A U.S. War Veteran marker stands at his grave. Born in 1922, he was of service age during World War II and would have been in his early twenties when the United States mobilized in 1941. He lived to 93. The stone gives no branch or rank, and further research is needed to identify the conflict in which he served. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Cummings, Leo V.",
-   "era": "Unknown Era",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207614,
-   "lng": -72.624686,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cummings.JPG",
-   "extraPhotos": [],
-   "narrative": "Leo V. Cummings served from Massachusetts, as indicated on his government-issued headstone. The stone is heavily weathered and his rank, branch, and dates are largely obscured. A government-issued marker of this style indicates recognized military service. Further research is needed to establish the conflict in which he served and the full details of his military record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Day, E. Russell",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207558,
-   "lng": -72.624253,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Day.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "E. Russell Day served in the United States Army during World War II. He was born September 5, 1903, and died June 11, 1976. The stone gives no rank. Born in 1903, he was 38 when the United States entered World War II in December 1941 — one of the many men who served beyond the typical draft age of that era. The Day family monument also records David E. Day (1870–1935) and his wife Mabel A. Bramhall (1877–1930). If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Fern, David A.",
-   "era": "Vietnam",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.208119,
-   "lng": -72.624831,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/fern%20d.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "David A. Fern served as a Specialist Fourth Class in the United States Army during the Vietnam War. He was born May 26, 1940, and died April 2, 2014. SP4 was a specialist rank — skilled soldiers who provided technical expertise in the field during one of America's most contested conflicts. He is memorialized on the Fern family monument alongside his parents A. Clarence Fern (1899–1958) and F. Elsie Forknall (1901–1972), and his siblings. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Fern, Robert",
-   "era": "Korean War",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.208497,
-   "lng": -72.625244,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/fern%20r.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Robert Fern served as a Private First Class in the United States Army. He was born in 1927 and died in 1988. Born in 1927, he was 18 when World War II ended in 1945, and of service age during the Korean War, which began in 1950. The stone gives no conflict designation, and further research is needed to confirm which war he served in. He is memorialized on the Fern family monument alongside his parents A. Clarence Fern (1899–1958) and F. Elsie Forknall (1901–1972), and his siblings including his brother David A. Fern, also a veteran. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Gammie, Robert E.",
-   "era": "World War II",
-   "branch": "U.S. Marine Corps",
-   "branchLabel": "",
-   "lat": 42.207619,
-   "lng": -72.624961,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/gammie.JPG",
-   "extraPhotos": [],
-   "narrative": "Private First Class Robert E. Gammie served in the United States Marine Corps during World War II. He was born in 1921 and died in 1944 — giving his life in the service of his country before the war's end. The USMC eagle, globe, and anchor emblem is carved into the stone alongside his dates. He was the son of James H. Gammie (1894–1943) and Catherine W. Gammie (1899–1967). Notably, his father James died in 1943 — just one year before Robert — meaning neither lived to see the war's conclusion. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Gerhardt, Christine J.",
+   "id": "collins__j_navy_ww_ii",
+   "name": "John S. Collins",
    "era": "World War II",
    "branch": "U.S. Navy",
-   "branchLabel": "",
-   "lat": 42.207794,
-   "lng": -72.624992,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/gerhardt%204.JPG",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.187461,
+   "lng": -72.627511,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/collins_j_navy_ww_ii.jpg",
    "extraPhotos": [],
-   "narrative": "Christine J. Gerhardt attained the rank of Lieutenant Commander in the United States Navy during World War II. She was born December 23, 1912, and died December 29, 1998. LCDR was a significant rank for a woman in that era — equivalent to Major in the Army — placing her in senior leadership of the Navy's women's programs at a time when female officers were still pioneering their place in the armed forces. She lived to 86, carrying the distinction of her service across six decades of American history. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "John S. Collins served in the United States Navy during World War II, attaining the rate of Hospital Apprentice Second Class. An HA2 was part of the Navy's medical corps — the enlisted men who formed the backbone of shipboard and battlefield care. Working under senior corpsmen and medical officers, an HA2 administered first aid, assisted in surgical procedures, dispensed medications, and tended to the wounded under conditions that were often dangerous and always demanding. Navy hospital corpsmen served aboard ships, at shore installations, and alongside Marines in some of the Pacific's bloodiest campaigns — their work quiet, essential, and frequently overlooked. The Collins family at Calvary Cemetery spans from the Civil War to Vietnam. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "",
-   "name": "Gerhardt, John H.",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207811,
-   "lng": -72.624931,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/gerhsrdt2.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "John H. Gerhardt served as a First Lieutenant in the United States Army during World War II. He was born November 10, 1919, and died January 11, 2010. First Lieutenant was a commissioned officer rank — men who led platoons in combat and coordinated with higher command in the field. He lived to 90, one of the longest-lived veterans in Forestdale Cemetery. His wife Ruth E. (1923–1993) is memorialized alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Gerhardt, Walter H.",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207889,
-   "lng": -72.624956,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Gerhardt.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Walter H. Gerhardt served as a Sergeant in the United States Army during World War II. He was born January 19, 1915, and died September 30, 1990. The Gerhardt family monument records him as the son of Jacob Gerhardt (1890–1918) — who died the same year World War I ended — and Jennie M. Rekuley (1888–1934). Walter's wife Esther R. Fronheiser (1914–1991) is also memorialized on the family stone. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Goss, John E.",
-   "era": "Spanish-American War",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207611,
-   "lng": -72.624139,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Goss.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "John E. Goss served in Company D of the 2nd Regiment, Massachusetts Volunteers. He was born in 1878 and died in 1931. A GAR-style star marker stands at his grave. The 2nd Massachusetts Infantry was mustered for the Spanish-American War of 1898, when Goss would have been 20 years old. The regiment saw service in the Philippines during the subsequent insurrection. His wife Emma Hyde (1871–1938) is memorialized alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Gray, Harold G. Sr.",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207542,
-   "lng": -72.624389,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/gray.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Harold G. Gray Sr. was born in 1898 and died in 1966. A flag marks his grave. Born in 1898, he was of prime service age for both World War I — entering his twenties as the United States mobilized in 1917 — and World War II, when he would have been in his early forties. The stone gives no branch or rank, and further research is needed to identify the conflict in which he served. His wife Emma M. Pomper (1900–1989) is memorialized alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Hastings, Francis H.",
-   "era": "Spanish-American War",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207681,
-   "lng": -72.624444,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hastings.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Francis H. Hastings was born in 1848 and died in 1921. An eagle veteran marker stands at his grave. Born in 1848, he was of service age during the Civil War, which began in 1861 when he was 13, and continued until he was 17. He may have also served during the postwar Indian Wars era or the Spanish-American War of 1898 at age 50. Further research is needed to establish the conflict in which he served. His wife Emma (1851–1943) outlived him by 22 years. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Holgate, Colonel",
-   "era": "Spanish-American War",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207669,
-   "lng": -72.624969,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/holgate.JPG",
-   "extraPhotos": [],
-   "narrative": "Colonel Holgate was born in 1865 and died in 1922. A flag marks his grave. \"Colonel\" appears to be his given name rather than a military rank. Born in 1865, he was of service age during the Spanish-American War of 1898 at age 33. The stone gives no branch or rank, and further research is needed to identify the conflict in which he served. His wife Emma Shaw (1869–1930) is memorialized alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Hoyt, Mason N.",
-   "era": "World War I",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207664,
-   "lng": -72.624153,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hoyt.JPG",
-   "extraPhotos": [],
-   "narrative": "Mason N. Hoyt was born in 1892 and died in 1928. A veteran marker stands at his grave. Born in 1892, he was 25 when the United States entered World War I in 1917 — placing him squarely in the generation of young men who answered the call to the Western Front. He died in 1928, just a decade after the war's end. His wife Mildred E. (1897–1992) outlived him by 64 years. Further research is needed to confirm his branch and service. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Ironside, Alexander",
+   "id": "collins__p_mass_inf",
+   "name": "Parker W. Collins",
    "era": "Civil War Era",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207719,
-   "lng": -72.624961,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/ironside%202.JPG",
+   "branch": "Massachusetts Infantry",
+   "branchLabel": "MA Infantry · Civil War",
+   "lat": 42.186989,
+   "lng": -72.627664,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/collins_p_mass_inf.jpg",
    "extraPhotos": [],
-   "narrative": "Alexander Ironside was born in 1845 and died in 1895. Born in 1845, he was 16 when the Civil War began in 1861 and 19 at its end in 1865. He would have been of prime service age throughout the conflict. A flag marks his grave. The stone gives no branch or rank, and further research is needed to confirm his service. His wife Catherine Thyne (1845–1917) is memorialized alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Parker W. Collins served in the Massachusetts Infantry, almost certainly during the Civil War (1861–1865) — Massachusetts regiments fought throughout the Eastern Theater, from the First Battle of Bull Run to the surrender at Appomattox. Parker Collins holds a singular distinction of being the first of three generations of the Collins family to answer his nation's call in time of war. Pvt. Collins is among the cemetery's oldest veteran burials — a soldier from America's most costly conflict. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "",
-   "name": "Ironside, William A.",
-   "era": "Unknown Era",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207736,
-   "lng": -72.624992,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/ironside.JPG",
+   "id": "colon__d_army_ww_ii",
+   "name": "Domingo R. Colon",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.18890278,
+   "lng": -72.62973889,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/colon_d_army_ww_ii.jpg",
    "extraPhotos": [],
-   "narrative": "William A. Ironside is identified as a veteran by the flag at his grave. His stone records the burial of his wife Mary E. Lockerby (1880–1921) but does not give his own dates or service details. Further research is needed to establish his branch, rank, and the conflict in which he served. He may be related to Alexander Ironside (1845–1895), also commemorated in Forestdale Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Domingo R. Colon served in the U.S. Army during World War II, attaining the rank of Private First Class. A PFC was the first step up from basic enlisted rank — a soldier who had demonstrated reliability and competence in the field, often serving as an experienced rifleman, runner, or specialist within his squad. PFCs were the backbone of the infantry, carrying the fight forward in every theater of the war. Colon represents Holyoke's Latino community among those who served — Puerto Rican and Latino veterans from Western Massachusetts contributed significantly to the WWII effort, answering their nation's call at a time when their communities faced barriers at home. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "",
-   "name": "Kellett, Ralph C.",
+   "id": "concannon__j_army_ww_ii",
+   "name": "J. Concannon",
    "era": "World War II",
    "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207622,
-   "lng": -72.624481,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/kellett.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Ralph C. Kellett served as a Staff Sergeant in the United States Army during World War II. He was born July 8, 1919, and his death date is partially obscured but appears to be November 26 in the 1990s. Staff Sergeant was a non-commissioned officer rank — experienced soldiers who led squads in combat and were the backbone of the Army's fighting force. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1881,
+   "lng": -72.6276333,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/concannon_j_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Concannon served in the U.S. Army during World War II. Together with M. Concannon (Army) and L. Concannon (USAF, WWII and Korea, Air Medal), the Concannon family represents one of the most remarkable multi-member veteran legacies at Calvary Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "",
-   "name": "Scott, Thomas Jr.",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207764,
-   "lng": -72.625031,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/IMG_7624.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Thomas Scott Jr. served in the United States Army during World War II. He was born in 1922 and died in 1985. The stone gives no rank. Born in 1922, he was 19 when the United States entered World War II in December 1941 — part of the generation of young American men who answered the call immediately after Pearl Harbor. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Krausse, Robert C.",
-   "era": "World War II",
-   "branch": "U.S. Navy",
-   "branchLabel": "",
-   "lat": 42.207678,
-   "lng": -72.624739,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/krausse.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Robert C. Krausse served as an Apprentice Seaman in the United States Navy during World War II. He was born December 7, 1925 — the same date as the attack on Pearl Harbor, though four years before it — and died March 13, 2012. He lived to 86, long enough to see Pearl Harbor Day commemorated for seven decades. AS was the Navy's entry-level enlisted rating, the youngest men stepping aboard ships in wartime. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Kuenzel, Arthur H.",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207669,
-   "lng": -72.624556,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/kuenze.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Arthur H. Kuenzel served in Battery C of the 193rd Field Artillery from Massachusetts during World War II. He was born February 5, 1916, and his death date is partially obscured on the stone. Field Artillery units provided the heavy firepower that supported infantry advances — the 193rd was part of the Army's backbone of fire support across multiple theaters. The Kuenzel family stone records Gustav L. Kuenzel (1876–1942) and Minnie A. Hartling (1874–1955), who may be his parents. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Markert, Violet E.",
-   "era": "World War II",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.208347,
-   "lng": -72.624725,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/markert.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Violet E. Markert served as a Technician Fifth Grade in the United States Army during World War II. She was born September 17, 1904, and died May 23, 1975. TEC5 was a specialist enlisted rating — women in this grade performed vital technical and administrative work that kept the Army functioning. She was 37 when the United States entered the war in December 1941, part of the generation of women who answered the call to serve when the country needed them most. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "McGart, Arthur W.",
-   "era": "World War I",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.208219,
-   "lng": -72.624803,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/mcgart2.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Arthur W. McGart served as a Private First Class in the Machine Gun Company of the 4th Infantry, 12th Division, from Massachusetts during World War I. He was born April 14, 1891, and died August 11, 1964. Machine gunners bore some of the most dangerous assignments of the war — advancing into no man's land with heavy weapons that drew immediate enemy fire. The 12th Division trained stateside and was preparing to deploy when the Armistice came in November 1918. The McGart family monument records his father William McGart, who died February 5, 1914, aged 59. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Parry, Thomas Berger",
+   "id": "concannon__l_usaf_ww_ii_korea",
+   "name": "Luke F. Concannon",
    "era": "World War II",
    "branch": "U.S. Air Force",
-   "branchLabel": "",
-   "lat": 42.207672,
-   "lng": -72.624719,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/parry.JPG",
+   "branchLabel": "USAF · WWII & Korea",
+   "lat": 42.188094,
+   "lng": -72.627747,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/concannon__l_usaf_ww_ii__korea__am.jpg",
    "extraPhotos": [
     {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
+     "src": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/concannon__l_air_medal_ribbon.jpg",
+     "caption": "🎖️ View Air Medal"
     }
    ],
-   "narrative": "Lieutenant Colonel Thomas Berger Parry served in the United States Air Force across three wars — World War II, Korea, and Vietnam. He was born July 7, 1918, and died December 13, 2003. A pilot's wings are carved into the family monument. Lt. Col. is a senior field-grade officer rank; to serve in three separate conflicts spanning three decades requires not only survival but sustained distinction and commitment to service. Parry's career bridged the propeller age of WWII, the jet age of Korea, and the complex air campaigns of Vietnam. His wife Iraida Grencevics Parry (1920–1978) is memorialized alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Phelps, (Veteran)",
-   "era": "Unknown Era",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207814,
-   "lng": -72.624825,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/phelps.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
+   "narrative": "Luke F. Concannon served in the United States Air Force during both World War II and the Korean War — a span of service across two conflicts separated by only a few years of uneasy peace. He may be related to J. Concannon and M. Concannon, also veterans buried at Calvary Cemetery — though those connections have not been confirmed. His specific rank and assignments across both conflicts have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Air Medal"
    ],
-   "narrative": "A flag and U.S. veteran marker stand at the Phelps family monument. The front of the stone gives only the family surname; the detail stone or reverse was not photographed and the veteran's full name, rank, branch, and dates are not yet known. Further research is needed to identify this veteran and the conflict in which they served. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "",
-   "name": "Reuger, Raymond C.",
-   "era": "World War I",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207578,
-   "lng": -72.624328,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/reuger.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Raymond C. Reuger served as a Private First Class in the United States Army during World War I. His dates are partially obscured on the stone but he appears to have been born around 1895 and died around 1970. Born in the 1890s, he was of prime service age when the United States mobilized in 1917. His wife Ruth L. Glaeser (1902–1997) outlived him by many years and is memorialized alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Shafer, Edith B.",
+   "id": "concannon__m_army_ww_ii",
+   "name": "M. Concannon",
    "era": "World War II",
    "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207686,
-   "lng": -72.624694,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/shafer.JPG",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Edith B. Shafer served as a Private First Class in the United States Army during World War II. She was born November 8, 1919, and died September 27, 1992. Women who served as enlisted soldiers in WWII did so through the Women's Army Corps, performing vital roles in administration, communications, and logistics that freed men for combat assignments. Shafer was 22 when the United States entered the war in December 1941. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Silinski, Arthur A.",
-   "era": "World War II",
-   "branch": "U.S. Army Air Forces",
-   "branchLabel": "",
-   "lat": 42.207606,
-   "lng": -72.624594,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/silinski.JPG",
+   "branchLabel": "Army · WWII",
+   "lat": 42.187514,
+   "lng": -72.627183,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/concannon_m_army_ww_ii.jpg",
    "extraPhotos": [],
-   "narrative": "Arthur A. Silinski served as a Sergeant in the 384th Service Group of the Army Air Forces from Massachusetts during World War II. He was born October 12, 1915, and died July 23 in the 1960s. Service Groups in the AAF were the logistical backbone of air operations — the ground crews, mechanics, and support personnel who kept aircraft flying. The 384th Service Group supported combat air operations across multiple theaters. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "M. Concannon served in the U.S. Army during World War II. The Concannon family sent multiple members to serve — M. and J. Concannon in the Army, and L. Concannon in the Air Force spanning WWII and Korea. One of Calvary Cemetery's notable multi-veteran family clusters. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "",
-   "name": "Haunton, Thurlow Clark",
-   "era": "World War I",
-   "branch": "U.S. Navy",
-   "branchLabel": "",
-   "lat": 42.207431,
-   "lng": -72.623489,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hauton%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Thurlow Clark Haunton served as a Seaman Second Class in the United States Navy during World War I, entering service in June 1918. Navy seamen of that war kept the fleet moving through the most dangerous waters in the world — the Atlantic convoy routes hunted by German U-boats. Born in 1898, Haunton was nineteen or twenty when he entered service. The Haunton family monument records his father Herbert Cyrus Haunton, mother Aline Beatrice Clark, and wife Beatrice Maud Boyle. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Heywood, Milton",
-   "era": "Spanish-American War",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207439,
-   "lng": -72.623178,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/haywood%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Milton Heywood was born in 1879 and died in 1950. A flag and U.S. veteran marker stand at the Heywood-Burnett family monument. Born in 1879, he was of service age during both the Spanish-American War of 1898 and World War I, when the United States mobilized in 1917. The stone gives no branch or rank, and further research is needed to identify the conflict in which he served. His wife Ethel Mitchell Minta (1876–1972) is memorialized alongside him, as is Harold C. Burnett (1897–194?), who may be related by marriage, and Gladys O. Minta (1897–1986). If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Horne, Arthur A.",
-   "era": "World War I",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207306,
-   "lng": -72.623458,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/horne%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Arthur A. Horne served as a Private in the 52d Aero Squadron during World War I, entering service in August 1917 — in the earliest months of America's war, when the Air Service was being built almost from nothing. Aero squadrons were the foundation of American military aviation: the mechanics, armorers, and ground personnel who kept the machines aloft. Born on June 9, 1894, Horne was 23 when he entered service. Horne came home to Holyoke and lived until May 1, 1974, reaching the age of 79. A U.S. War Veteran marker and flag stand at the Horne family monument. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "silinski_arthur_aaf_wwii",
-   "name": "Arthur A. Silinski",
+   "id": "connelly_ww_ii",
+   "name": "Connelly",
    "era": "World War II",
-   "branch": "U.S. Army Air Forces",
-   "branchLabel": "",
-   "lat": 42.207589,
-   "lng": -72.624647,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/silinski2.JPG",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/silinski3.JPG",
-     "caption": "Silinski family stone"
-    }
-   ],
-   "narrative": "Arthur A. Silinski served as a Sergeant in the 384th Service Group of the Army Air Forces during World War II. The 384th Service Group provided vital ground support to combat air operations, keeping aircraft mission-ready across multiple theaters of the war. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "skuse_adolf_army_wwi",
-   "name": "Adolf Skuse",
-   "era": "World War I",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207572,
-   "lng": -72.624275,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/skuse3.JPG",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/skuse2.JPG",
-     "caption": "Adolf Skuse military marker"
-    }
-   ],
-   "narrative": "Adolf Skuse served as a Private in the 3rd Company, 151st Depot Brigade during World War I, entering service on March 28, 1918, and stationed at Camp Devens, Massachusetts. The 151st was the depot brigade at Devens — the machinery that received and trained the drafted men of New England before they shipped to France. Born in 1894, Skuse survived the war and lived until October 15, 1981. His family stone bears the German inscription Ruhe Sanft — Rest Softly — alongside the name of his wife Martha Kruger, who preceded him in death in 1928. A German-American family that gave a son to the American Army in a war against Germany — and marked his grave in the language of the old country. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "sopko_theresa_army_wwi",
-   "name": "Theresa Sopko",
-   "era": "World War I",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207731,
-   "lng": -72.624581,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sopko.JPG",
+   "branch": "U.S. Military",
+   "branchLabel": "Military · WWII",
+   "lat": 42.188569,
+   "lng": -72.629119,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/connelly_ww_ii.jpg",
    "extraPhotos": [],
-   "narrative": "Theresa Sopko served in the United States Army during World War I — one of the relatively rare women to receive formal military recognition from that era. She was born August 3, 1892. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Connelly served in the United States military during World War II. Branch, full name, and unit have not been confirmed from the stone or available records. A veteran marker stands at this grave at Calvary Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "wiesel_ralph_army_wwii",
-   "name": "Wiesel, Ralph L.",
+   "id": "conner__c_army_ww_ii",
+   "name": "C. Conner",
    "era": "World War II",
    "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.207664,
-   "lng": -72.624367,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/wiesel.JPG",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/wiesel2.JPG",
-     "caption": "Wiesel family stone"
-    }
-   ],
-   "narrative": "Ralph L. Wiesel served as a Sergeant in the United States Army during World War II. The sergeant's chevrons marked a man his fellow soldiers looked to — the one who kept the squad moving, fed, and disciplined, and who bore the weight of their lives on his judgment. Ralph shares his family stone with his wife, Stella S. McCraken, and with his brother Walter Wiesel, who died a child in 1927, long before Ralph marched off to war. Ralph himself lived a full life, from 1922 to 2011. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "wilson_thomas_wwi",
-   "name": "Wilson, W. Thomas",
-   "era": "World War I",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.2075,
-   "lng": -72.624947,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/wilson.JPG",
+   "branchLabel": "Army · WWII",
+   "lat": 42.188678,
+   "lng": -72.628464,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/conner_c_army_ww_ii.jpg",
    "extraPhotos": [],
-   "narrative": "W. Thomas Wilson is honored at his stone with a veteran's flag. Born in 1872, Wilson was 46 when the Great War reached its final year — past American draft age, but not past service. The city's war record lists a William Wilson, Private, British Army, who entered service on February 14, 1918, and another William Wilson with the Canadian Engineers — and Holyoke's British-born community sent many of its older men back to fight under the flags of their birth. Whether either is the W. Thomas Wilson buried here cannot be said with certainty. He lived until 1954. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "C. Conner served in the United States Army during World War II. The Army mobilized more than eight million men between 1941 and 1945, drawing from every city and town in the country to fight across two hemispheres. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session10"
   },
   {
-   "id": "wood_robert_civil_war",
-   "name": "Wood, Robert J.",
-   "era": "Civil War Era",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207589,
-   "lng": -72.624414,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/wood.JPG",
-   "extraPhotos": [],
-   "narrative": "Robert J. Wood was born in 1856 and lived until 1934. The GAR-style veteran marker at his grave indicates military service, most likely during the Civil War era. His stone also commemorates his wife Helena Webb, who died in 1924. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "young_richard_navy_wwii",
-   "name": "Young, Richard E.",
-   "era": "World War II",
-   "branch": "U.S. Navy",
-   "branchLabel": "",
-   "lat": 42.208175,
-   "lng": -72.624956,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/young.JPG",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/young2.JPG",
-     "caption": "Richard E. Young family stone"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/young3.JPG",
-     "caption": "Young family stone — front view"
-    }
-   ],
-   "narrative": "Richard E. Young served as a Yeoman Second Class in the United States Navy during World War II. The yeoman was the Navy's keeper of records and orders — the sailor who managed the paperwork that moved men, ships, and supplies, work that was unglamorous but without which no fleet could function. Richard was born March 12, 1926, and served as a young man in the war's climactic years. He lived until January 26, 2007. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "",
-   "name": "Bagg, Earl F.",
-   "era": "World War II",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.2067,
-   "lng": -72.623031,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/bagg%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Earl F. Bagg served as a Sergeant in the United States Army during World War II. A sergeant was the backbone of the Army — the non-commissioned officer who led a squad in the field, translated the orders of officers into action, and bore direct responsibility for the men under him and the ground they held. Earl carried that weight in the war that reached every corner of the globe. A Holyoke man, he lived a long life afterward, passing away May 31, 2001, at the age of 86. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Baker, Arthur J.",
-   "era": "World War II",
-   "branch": "Navy",
-   "branchLabel": "",
-   "lat": 42.206853,
-   "lng": -72.621833,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/baker2%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Arthur J. Baker served as a Fire Controlman Second Class in the United States Navy during World War II. Fire controlmen ran the systems that aimed a warship's guns — computing range, bearing, and lead while the ship rolled beneath them and the targets shot back. Born November 21, 1924, Baker went to war before his twentieth birthday. He came home to Holyoke, married Hazel D. Hanson, and lived until June 23, 1999, at the age of 74. He rests at the Hanson-Baker family stone, which also carries the name of Ralph E. Hanson, who died in 1943 at just 23 — in the middle of the same war Baker survived. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Hanson, Ralph E.",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206856,
-   "lng": -72.621833,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/baker2.JPG",
-   "extraPhotos": [],
-   "narrative": "Ralph E. Hanson, son of Percy and Ella Hanson of Holyoke, Massachusetts, died in 1943 during the World War II era. He was in his early twenties at the time of his death. His stone identifies him as the son of Percy Hanson, who may be related to the Hanson family buried nearby. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Bell, Samuel",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206761,
-   "lng": -72.623061,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/bell%20s%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Samuel Bell served in World War II. A veteran's stake at his grave records the years of his service, 1941 to 1945 — the span of America's war from Pearl Harbor to victory. Born in 1894, Samuel was already in his late forties during the war, an older man among those who served. He passed away in 1960, and his wife May Cunliffe is buried alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Bentley, Archie",
-   "era": "World War I",
-   "branch": "U.S. Navy",
-   "branchLabel": "",
-   "lat": 42.206711,
-   "lng": -72.623214,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/bentley%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Archie Bentley served as a Seaman-Guard in the United States Navy, entering service on October 22, 1917. Armed guards were the Navy's answer to the U-boat: gun crews posted aboard merchant ships crossing the Atlantic, standing watch over cargoes the war could not do without, on vessels the enemy was actively hunting. It was quiet duty until the moment it wasn't. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Berard, Armand D.",
-   "era": "World War II",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206864,
-   "lng": -72.621919,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/berard%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Armand D. Berard served as a Private in the United States Army during World War II. The private was the foundation of the Army — the rifleman and laborer who carried the weight of the war on his back, marched the roads, dug the lines, and met the enemy face to face. Armand was one of the great mass of ordinary Holyoke men who answered the call and did the hard, unglamorous work that won the war. A resident of the city his whole life, he passed away August 14, 1986, at the age of 71. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Bowler, John S.",
-   "era": "World War II",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206867,
-   "lng": -72.621772,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/bowler%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "John S. Bowler served as a Private First Class in the United States Army during World War II. As a Private First Class he was a soldier who had found his footing in the ranks, trusted with the ordinary and essential work of an army at war. John came home from the war and lived out his years in Holyoke, passing away January 11, 2000, at the age of 79. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Brakey, George A.",
-   "era": "World War II",
-   "branch": "Coast Guard",
-   "branchLabel": "",
-   "lat": 42.206878,
-   "lng": -72.622331,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/brakey%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "George A. Brakey served as a Machinist's Mate Third Class in the United States Coast Guard during World War II. In wartime the Coast Guard fell under the Navy, and its men crewed the transports, escorts, and landing craft that carried the war across two oceans — Coast Guardsmen manned the boats that put soldiers onto the beaches of Normandy and the Pacific islands alike. As a machinist's mate, George kept the engines turning below deck, in the hot, loud heart of the ship. He came home to Holyoke and lived until August 20, 1989, dying at 69. His wife, Bernice R. Belisle, rests beside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Broucham, Ernest L.",
-   "era": "World War I",
-   "branch": "Navy",
-   "branchLabel": "",
-   "lat": 42.206594,
-   "lng": -72.6221,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/broucham%3F%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Ernest L. Broucham served as a Seaman First Class in the United States Navy Reserve during World War I. His stone, a government-issue marker, identifies him as a Massachusetts sailor. The stone is heavily weathered and some details are difficult to read. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Buchanan, Clarence M.",
-   "era": "World War II",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206642,
-   "lng": -72.622422,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/buchanan%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Clarence M. Buchanan served with the 231st Port Company during World War II. He died in 1945, the final year of the war, and is memorialized on the family stone alongside his father, John G. Buchanan, and mother, Mabel M. Keeler. Port companies were essential to the Allied war effort, managing the massive logistics of unloading troops and supplies at ports across Europe and the Pacific. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Abelein, George F.",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206875,
-   "lng": -72.623231,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/abelein%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "George F. Abelein served as a Corporal in the 618th Aero Squadron during World War I. Abelein entered service on December 12, 1917, and was stationed at Kelly Field, San Antonio, Texas — one of the great training grounds of America's brand-new air service, where mechanics, riggers, and ground crews learned to keep the fragile aircraft of 1918 flying. Born in 1895, Abelein came home to Holyoke and lived to 1980, reaching the age of 85. His government marker stands before the family's Abelein monument. His brother Herman entered service the same day — December 12, 1917 — two brothers answering the call together. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Geoffrion, Albert C.",
-   "era": "World War I",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.206772,
-   "lng": -72.623153,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/geoffrion%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Albert C. Geoffrion served as a Private in Company G, 58th Infantry, 4th Division, entering service in March 1918 and going overseas with the American Expeditionary Forces. The 58th fought through the Aisne-Marne counteroffensive, St. Mihiel, and the grinding advance of the Meuse-Argonne — and Geoffrion was wounded twice. Twice hit, twice returned to the ranks. Wounds like his would later entitle a veteran to the Purple Heart when the medal was revived in 1932, though no decoration is recorded in the city's chronicle — only his portrait, printed in Zack's Holyoke in the Great War among the wounded of the city. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Colgan, Howard W.",
-   "era": "World War II",
-   "branch": "Navy",
-   "branchLabel": "",
-   "lat": 42.206692,
-   "lng": -72.623192,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/colgan%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Howard W. Colgan served as a Machinist's Mate Third Class in the United States Navy during World War II — the men who kept a warship's engines turning in combat conditions. Born June 16, 1911, Colgan was thirty years old when the United States entered the war, a more seasoned man than many of the boys who enlisted fresh out of high school. He passed away December 3, 1991 at the age of 80. His wife Ruth A. McDowell is buried alongside him beneath the Colgan family monument, which carries the Scottish thistle — a nod to the family's heritage. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Corsair, Dorothy C.",
-   "era": "World War II",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206772,
-   "lng": -72.623169,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/corsair%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Dorothy C. Corsair served as a First Lieutenant in the United States Army during World War II — a commissioned officer at a time when women in uniform were still a new and contested idea. The Women's Army Corps, established in 1942, opened officer commissions to women for the first time in American history. Born in 1919, she entered service in her early twenties. Her family stone at Forestdale reveals that she was born Dorothy C. Hassett — the daughter of Edward W. and Jennie O'Connell Hassett. Her sister Helen G. Hassett also served as a First Lieutenant in the United States Army during World War II. Two sisters. Two officers. One Holyoke family. She passed away in 1987 at the age of 68. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Craven, William B.",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206764,
-   "lng": -72.622261,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/craven%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "caption": "📜 Where Company D Went",
-     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
-    }
-   ],
-   "narrative": "William B. Craven entered Company D, 104th Infantry, 26th Division — Holyoke's Own — as a private, and had risen to Sergeant by the time the company reached France. Company D left Camp Bartlett in October 1917, sailed from Montreal, and reached France by way of England in time for a cold Christmas at the village of Sartes. Their first turn in the lines came that February on the Chemin-des-Dames. On Easter Sunday 1918 they rushed by truck to the front at Apremont and held that ground three months through artillery, trench raids, and mustard gas. Then came Belleau Wood, then Château-Thierry — where the company lost five Holyoke men in a single day — then the St. Mihiel drive, and finally the fighting north of Verdun. Of the 250 men who left Holyoke, only thirteen remained in the ranks when the Armistice came. Craven was not among them. In that final Verdun sector, worn down by a year of campaigning, he succumbed to pneumonia on December 9, 1918 — a month after the guns fell silent. He was 29 years old. He is memorialized on the family stone alongside his father William Craven and mother Martha A. Clow. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Died in Service"
-   ],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Fletcher, Archibald R.G.",
-   "era": "World War I",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206844,
-   "lng": -72.623022,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/fletcher%20a%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Archibald R.G. Fletcher was born in 1888 and passed away in 1949. A flag at his grave marks him as a veteran, though branch and conflict are not recorded on the stone. Given his birth year, he would have been of service age during World War I. He is buried alongside his wife Concordia W. Richter. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Fletcher, Donald W.",
-   "era": "World War II",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206964,
-   "lng": -72.622947,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/fletcher%20D%20W%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Donald W. Fletcher served as a First Lieutenant in the United States Army during World War II, earning both the Combat Infantryman Badge and the Purple Heart — two of the most significant recognitions an Army soldier could receive. The Combat Infantryman Badge was awarded only to infantrymen who had been in active ground combat against the enemy; the Purple Heart marked a wound received in that fighting. His family stone carries the engraved Combat Infantryman Badge at the top — a permanent tribute to what he endured. Born December 26, 1912, Fletcher was nearly 29 when Pearl Harbor brought America into the war. He returned to Holyoke and lived until March 13, 1999, at the age of 86. His wife Grace J. Fletcher is buried alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Purple Heart"
-   ],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Franklin, Paul",
-   "era": "World War II",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.207044,
-   "lng": -72.623353,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/franklin%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Paul Franklin was born on May 9, 1921, the son of John E. Franklin and Martha Sharbetjian of Holyoke. He enlisted in the United States Army and was assigned to Headquarters Company, 1st Battalion, 351st Infantry Regiment, 88th Infantry Division, training at Camp Gruber, Oklahoma. He died on November 26, 1942 — before the 88th Division ever shipped overseas. He was 21 years old. The 88th would go on to become one of the most decorated American divisions in Italy, fighting its way up the Italian peninsula through some of the war's bloodiest terrain. Paul Franklin did not make that journey. A U.S. War Veteran marker stands at his grave alongside his parents. He is remembered here as a son of Holyoke who answered the call and did not come home. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Died in Service"
-   ],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Frederick, Earl",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206728,
-   "lng": -72.623008,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/frederick%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Earl Frederick was born in 1914 and served in the military, as marked by the flag at his grave, though branch and conflict are not recorded on the stone. He lived until 2001, reaching the age of 87. The family stone also records his wife Ruth Marion Lingley and their son Donald Lincoln, who died in 1953 at just five years of age — a quiet grief held alongside the family's service. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Frederick, George",
-   "era": "World War I",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206906,
-   "lng": -72.623192,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/frederick3%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "George Frederick was born in 1895 and served during the World War I era, as indicated by the flag at his grave. He passed away in 1980 at the age of 85. His stone also records Bertha W. Abelein, who may be related to George F. Abelein, a World War I Army veteran also memorialized at Forestdale Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Frey, Arthur W.",
-   "era": "World War II",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206936,
-   "lng": -72.622086,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/frey%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Arthur W. Frey served as a Private in the United States Army during World War II. Born September 10, 1902, he was nearly forty years old when America entered the war — among the older men called to serve. A World War I commemorative shield marker also stands at his grave, placed likely by a veterans' organization. He is buried alongside his wife Gladys F. Aitken as part of the extended Aitken family plot. He passed away October 17, 1987, at the age of 85. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Frost, Donald R.",
-   "era": "World War II",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206672,
-   "lng": -72.622536,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/frost%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Donald R. Frost served as a Technical Sergeant in the United States Army during World War II. T/Sgt was a senior non-commissioned rank — men who held it were experienced soldiers trusted with leading sections in the field or managing critical technical functions. Born in 1913, Frost was in his late twenties when the war began. He passed away in 1993 at the age of 80. His wife Anne Oliver Frost is buried alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Gerbert, Edward W. Sr.",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206681,
-   "lng": -72.622139,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/gerbert%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Edward W. Gerbert Sr. served as a Private in the United States Army during World War I, entering service on July 5, 1918, and going overseas with the American Expeditionary Forces. Gerbert was born on February 20, 1896 — and lived until February 22, 1999, dying just two days after his 103rd birthday, one of the last surviving veterans of the Great War in Holyoke. Gerbert outlived his wife Anna Hennemann by nearly half a century, and outlived their son Richard A., who died in 1954 at sixteen. That Edward Gerbert carried those losses and still reached 103 is its own quiet testament. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Gibson, Douglas M.",
-   "era": "World War I",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206739,
-   "lng": -72.622283,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/gibson%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Douglas M. Gibson served in the United States military during the World War I era, as recorded on his government-issue Massachusetts marker — now heavily weathered. He was born in 1898, the son of James D. and Clara F. MacDougall Gibson of Holyoke, and died in 1923 at the age of 25. The cause and circumstances of his early death are not recorded on the stone. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Gillies, Neil",
-   "era": "Spanish-American War",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206728,
-   "lng": -72.623047,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/gillies%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Neil Gillies was born in 1865 and served as a veteran of the Spanish-American War of 1898, as recorded directly on his family stone — one of the few Forestdale veterans whose war service is explicitly carved into the monument itself. A Spanish-American War veteran marker also stands at his grave. He was 33 years old when the war was fought. The Spanish-American War lasted only a few months but sent American forces to Cuba, Puerto Rico, and the Philippines, reshaping the nation's role in the world. He passed away in 1951 at the age of 86. His wife Margaret Bennett is buried alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Goebel, Henry G. III",
-   "era": "World War II",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206703,
-   "lng": -72.623008,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/goebel%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Henry G. Goebel III served as a Technician Fifth Grade in the United States Army during World War II. TEC 5 was a specialist rank equivalent to Corporal — soldiers with technical skills whose expertise in communications, mechanics, or supply kept the Army functioning in the field. Born September 13, 1925, Goebel was just sixteen when Pearl Harbor was attacked and barely eighteen when he entered service. He passed away March 25, 2011 at the age of 85. His wife Gertrude P. Wolf is buried alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Goller, Frederick W.",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206703,
-   "lng": -72.622947,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/goller%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Frederick W. Goller was born in 1907 and served in the military, as indicated by the veteran marker at his grave. Branch and conflict are not recorded on the stone. He passed away in 1975 at the age of approximately 68. He is buried alongside his wife Stasia Gorczyca and his mother Marie Weissbach Goller. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Goodwin, Leonard O. Jr.",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206825,
-   "lng": -72.622997,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/goodwin%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Leonard O. Goodwin Jr. was born in 1921 and served in the military, as marked by the flag at his grave. Branch and conflict are not recorded on the stone. He passed away in 1996 at the age of 75. His wife Shirley P. Guenther is buried alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Goodwin, John Cooper",
-   "era": "World War I",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206867,
-   "lng": -72.622997,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/goodwin%20j%20c%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "John Cooper Goodwin is honored at his family plot with a veteran's flag. Born in 1895, Goodwin died in 1938, at just 43. The city's war record lists a John Goodwin, Private, 9th Scottish Rifles, who entered service in September 1915 with the British forces and was gassed in action — Holyoke's large British-born community sent many sons to fight for Britain before America entered the war. Whether this is the same John Goodwin cannot be said with certainty, but the early death of a man not yet 44 would be consistent with lungs damaged by gas. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Gould, Philip A.",
-   "era": "Vietnam",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206858,
-   "lng": -72.622867,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/gould%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Philip A. Gould served as a Specialist Fifth Class in the United States Army during the Vietnam War. SP5 was a technical specialist rank equivalent to Sergeant — soldiers with advanced skills whose expertise supported the mission. Born May 30, 1943, Gould served during one of the most turbulent chapters in American history. He passed away January 9, 2026, at the age of 82 — one of the most recently interred veterans at Forestdale Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Gould, Donald W.",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206883,
-   "lng": -72.622878,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/gould%20d%20w%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Donald W. Gould was born in 1909 and served in the military during World War II, as indicated by the flag at his grave. He passed away in 1974 at the age of 65. His wife Maxine B. Hardy is buried alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Grenert, Alfred",
-   "era": "World War I",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206839,
-   "lng": -72.622492,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/grenert%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Alfred Grenert was born in 1891 and served during World War I, as marked by the World War I commemorative shield at his grave. Branch and unit are not recorded on the stone. He passed away in 1940 at the age of approximately 49. His wife Anna F. Maus is buried alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Guillerie, Delphis M.",
-   "era": "World War I",
-   "branch": "Navy",
-   "branchLabel": "",
-   "lat": 42.206825,
-   "lng": -72.622522,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/guillerie%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Delphis M. Guillerie served as a Fireman Second Class in the United States Navy during World War I, aboard the U.S.S. Narragansett. Navy Firemen worked the boilers — stoking and maintaining the steam plants that drove warships through the sea, laboring in the heat and noise below decks where few ever saw the war but everyone depended on their work. Born June 25, 1891, Guillerie was in his mid-twenties during his service. Guillerie passed away in December of the 1960s, the final digit obscured on his stone. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Ashford, Ashfield",
-   "era": "Spanish-American War",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207044,
-   "lng": -72.623528,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/ashford%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Ashfield Ashford was born in 1875 and served in the military during an era when Holyoke's young men answered the call in significant numbers. A veterans' star marker at his grave marks him as one of their own. Born in 1875, he would have been of prime service age during the Spanish-American War of 1898. He passed away in 1955 at the age of 80. His wife Rachel Buchanan is buried alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Astley, Frank H.",
-   "era": "World War I",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206886,
-   "lng": -72.623292,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/astley%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Frank H. Astley served as an Airman First Class in the United States Air Force with the 3646th Field Maintenance Squadron. His stone records his service from April 1945 to February 5, 1967 — a span that carried him from the closing months of the Second World War, through the founding of the independent Air Force in 1947, and into the Cold War jet age. A field maintenance squadron kept aircraft airworthy, the skilled ground crews on whom every flight depended. Frank was born in 1891 and passed away in 1969 at the age of 78. He is buried alongside his brother Henry J. Astley (1885–1944) and Henry's wife Alice T. Astley. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Brill, Owen H.",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206825,
-   "lng": -72.623114,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/brill%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Owen H. Brill was born in 1907 and served in the military, as recognized by the American Legion marker placed at his grave. Branch and conflict are not recorded on the stone. He passed away in 1981 at the age of 74, and is buried alongside his wives Julia M., who died in 1949, and Ella M., who lived until 2004. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Burnett, Robert",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206819,
-   "lng": -72.622222,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/burnett%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Robert Burnett was born on May 23, 1893, the son of David and Susan Burnett of Holyoke. He entered service on April 23, 1917 — seventeen days after the declaration of war — trained at Camp Merritt, New Jersey, and went overseas with Company E, 49th Infantry. Private Burnett served six months in France and came home already ill. The war had followed him back. Robert Burnett died of disease at Military Hospital No. 5, the West Haven General Hospital, on March 20, 1919 — four months after the Armistice. He was 25 years old. The war's end did not end its dying: disease, wounds, and the influenza pandemic continued to claim soldiers long after the fighting stopped. His father, David Andrew Burnett, who served in the 151st Depot Brigade, is memorialized at the same Forestdale plot. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Died in Service"
-   ],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Burnett, David Andrew",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206753,
-   "lng": -72.622261,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/burnett2%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "David Andrew Burnett served as a Private in the 151st Depot Brigade, United States Army, during World War I. Depot Brigades were the Army's training infrastructure — the units that received, processed, and prepared raw recruits for assignment to combat divisions. Born December 11, 1880, Burnett was nearly 37 when America entered the war. The final digit of his death year is obscured on his stone. He is buried at the same Forestdale plot as his son Robert, who served in the 49th Infantry and died in March 1919. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Haglund, Karl E.",
-   "era": "Spanish-American War",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206703,
-   "lng": -72.621947,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/haglund%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Karl E. Haglund was born in 1868 and served in the military, as marked by the Armed Forces marker at his grave. Born in 1868, he would have been of service age during the Spanish-American War of 1898 or the era surrounding it. He passed away in 1944 at the age of 76. His wife Anna Johnson and their daughter Esther V., who died in 1917 at the age of fifteen, are buried alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Hall, Harry C.",
-   "era": "Spanish-American War",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206919,
-   "lng": -72.623269,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hall%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Harry C. Hall was born in 1873 and served in the United States military during the Spanish-American War of 1898. Two veterans' markers stand at his grave — a U.S. War Veteran shield and a Spanish-American War Cuba marker, the kind placed by the United Spanish War Veterans organization. Hall was 25 years old when the war was fought. He passed away in 1950 at the age of 77. His wife Ida Foster and daughters Frances Hall Judge and Ruth Hall Mellen are buried alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Hampson, Walter R.",
-   "era": "World War II",
-   "branch": "Coast Guard",
-   "branchLabel": "",
-   "lat": 42.206889,
-   "lng": -72.623419,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hampson%20w%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Walter R. Hampson served as a Fire Controlman Third Class in the United States Coast Guard during World War II. Fire Controlmen operated the targeting and gun fire-control systems aboard vessel. Born July 30, 1920, Hampson was 21 years old when America entered the war. He returned to Holyoke and lived until February 12, 2005, at the age of 84. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Hance, Thomas William",
-   "era": "Vietnam",
-   "branch": "Air Force",
-   "branchLabel": "",
-   "lat": 42.206756,
-   "lng": -72.623031,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hance%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Thomas William Hance served as a Sergeant in the United States Air Force during the Vietnam War. Born September 29, 1947, he came of age in one of the most divided moments in the nation's history and put on the uniform when many of his generation would not. The Air Force's war in Vietnam was not fought only from the sky — its sergeants served on airfields carved out of the jungle, bases ringed by hostile country and struck by rocket and ground attack, where the line between rear and front often blurred. Thomas passed away April 17, 1996, at the age of 48. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Hannah, Earl F. Sr.",
-   "era": "World War II",
-   "branch": "Navy",
-   "branchLabel": "",
-   "lat": 42.206744,
-   "lng": -72.622108,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hannah%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Earl F. Hannah Sr. served as an Electrician's Mate Third Class in the United States Navy during World War II. Electrician's Mates maintained the electrical systems, power distribution, and interior communications aboard ship — work critical to keeping a warship operational in combat. He was born in January 1915; the death date on his stone is partially obscured. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Hassett, Helen G.",
-   "era": "World War II",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206783,
-   "lng": -72.623131,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hassett2%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Helen G. Hassett served as a First Lieutenant in the United States Army during World War II — a commissioned officer at a time when a woman holding that rank represented something genuinely new in American life. The Women's Army Corps opened officer commissions to women beginning in 1942, and First Lieutenants like Hassett held real authority and responsibility. Born in 1912, she was thirty years old when the war began. She is buried at the Hassett family plot alongside her parents Edward W. Hassett and Jennie O'Connell, and her sister Dorothy C. Corsair — herself a First Lieutenant in the United States Army during World War II. Two sisters. Two officers. One Holyoke family. Helen passed away in 1991 at the age of 79. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Henderson, George L.",
-   "era": "World War II",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206661,
-   "lng": -72.622039,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/henderson%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "George L. Henderson served as a Private First Class in the United States Army during World War II. Born in 1913, he was in his late twenties when the United States entered the war after Pearl Harbor. His government-issue flat marker stands before the Henderson family monument alongside the stone of his father Walter L. Henderson, a veteran of both the Spanish-American War and World War I — two generations of service recorded at the same plot. George passed away in 1980. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Henderson, Walter L.",
-   "era": "Spanish-American War",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.20665,
-   "lng": -72.622017,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/henderson2%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Walter L. Henderson served in the United States Army in two wars. A grave-side stake records his Spanish-American War service — noting Cuba, Puerto Rico, and the Philippine Islands, the three major theaters of that 1898 conflict. A second marker records his World War I service, 1917 to 1919. Born in 1880, he was eighteen when the Spanish-American War was fought and thirty-seven when America entered the Great War. He died in 1953 at the age of 73. His son George L. Henderson, a World War II veteran, is buried at the same family plot. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Hooks, William M.",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206875,
-   "lng": -72.621933,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hooks%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "William M. Hooks served as a Private First Class in the Signal Corps, United States Army, during World War I, entering service on March 7, 1918, and stationed at Camp Vail, New Jersey — the Army's Signal Corps training ground. The Signal Corps ran the war's nervous system: telephone lines, telegraph, radio, and the field communications that connected front-line trenches to command. Hooks was born December 23, 1893, and died December 4, 1975, four days before his 82nd birthday. The family monument records him as William Munro Hooks, son of John Hooks and Janet Moffat Munro. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Horne, John Neill",
-   "era": "World War I",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206653,
-   "lng": -72.622031,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/horne%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "John Neill Horne served as a Private in the 152d Depot Brigade during World War I, entering service on August 31, 1918, and stationed at Camp Upton, Long Island. Depot brigades were the Army's training machinery — the units that received raw recruits and made them ready for the divisions fighting in France. The war ended before the brigade's work was done, but the American Legion marker at Horne's grave records that his city counted him among its veterans. Born in 1896, John Neill Horne died in 1953 at the age of 57. His wife Helen B. Horne, who lived until 1995, is remembered alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Cowie, William G.",
-   "era": "World War I",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.2067,
-   "lng": -72.622336,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hunter%20cowie%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "William G. Cowie served as a Private in the Engineer Reserve Corps during World War I, entering service in February 1918. The engineers built what the war required — roads, bridges, railways, trenches, and the vast infrastructure behind the lines that kept armies moving and supplied. Born in 1890, Cowie was 27 when he entered service. Cowie died in 1962 at the age of 72, and is remembered at the Hunter-Cowie family plot alongside his wife Agnes C. Hunter and her parents Cornelius C. Hunter and Janet S. White. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Inman, William M.",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206739,
-   "lng": -72.623161,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/inman%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "William M. Inman served as a Private First Class in Company M, 301st Infantry Regiment, 76th Division, United States Army during World War I. The 76th Division — the Onaway Division — was raised in New England, trained at Camp Devens, Massachusetts, and deployed to France in 1918. Inman's stone is among the more detailed at Forestdale, recording his unit down to the company level — a rare specificity that places him precisely on the Western Front. He was born on November 5, 1895, and died on October 24, 1941. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Judson, Joseph",
-   "era": "World War I",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206636,
-   "lng": -72.622131,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/judson%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Joseph Judson is commemorated at his family plot with a World War I marker dated 1917 to 1919. He died on January 16, 1927 — less than a decade after the Armistice, not long enough to see the country fully reckon with what the war had cost. His wife Agnes Hunter had preceded him in death in December 1921. No branch of service is recorded on the stone. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Kerr, George",
-   "era": "World War I",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206861,
-   "lng": -72.622269,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/kerr%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "George Kerr was born in 1854 — old enough to have been a young man during the Civil War, though the marker at his grave reads “Wars of the United States, 1917–1919,” placing his recorded service in World War I. He would have been in his early sixties when the United States mobilized in 1917. No branch is recorded on the stone. His wife Jane McCready survived him, living until 1928. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Kupec, George J.",
-   "era": "World War II",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206856,
-   "lng": -72.622964,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/kupec%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "George J. Kupec served as a Private First Class in the 18th Infantry Regiment, 1st Infantry Division, United States Army during World War II. The 1st Division — the Big Red One — landed at Oran, Sicily, and Omaha Beach before fighting through France and into Germany. George was born in 1922 and died in 1947, at the age of twenty-five — two years after the war's end. He is memorialized on the family stone alongside his brother John W. Kupec, a Corporal in the 2nd Marine Division. Two brothers, two branches, one Holyoke family. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Kupec, John W.",
-   "era": "World War II",
-   "branch": "Marines",
-   "branchLabel": "",
-   "lat": 42.206856,
-   "lng": -72.622964,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/kupec2%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "John W. Kupec served as a Corporal in Company I, 3rd Battalion, 2nd Marine Division during World War II. The 2nd Marine Division was bloodied at Tarawa in November 1943 — one of the costliest battles per square mile in American military history — and went on to fight at Saipan and Tinian. John was born in 1924 and lived until 1984. He is memorialized alongside his brother George J. Kupec, a Private First Class in the Army's 1st Infantry Division. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Kureck, John",
-   "era": "World War I",
-   "branch": "U.S. Army",
-   "branchLabel": "",
-   "lat": 42.206903,
-   "lng": -72.623275,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/kureck%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "John Kureck served as a Private in Company L, 2nd Battalion, entering service on August 2, 1918, and stationed at Syracuse, New York. Kureck was 28 when he was called — an older draftee, taken as the war's appetite for men grew through its final summer. His younger brother William F. Kureck served in the Medical Corps at Camp Upton. John lived to 1964 and shares the family monument with his parents August and Ernestine Kureck, German immigrants whose two sons wore the American uniform. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Kurtz, Robert E.",
-   "era": "World War II",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206628,
-   "lng": -72.622244,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/kurtz2%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Robert E. Kurtz served as a Technician Fifth Grade in the United States Army during World War II. TEC 5 was a specialist rating — equivalent in pay to a Corporal, assigned to soldiers whose technical skills in communications, mechanics, or supply were essential to the Army's functioning in the field. He was born on September 7, 1927, and died on July 8, 1993. He may be related to Walter E. Kurtz, killed in action in Korea in 1952, whose stone stands nearby. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Kurtz, Walter E.",
-   "era": "Korean War",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206611,
-   "lng": -72.622239,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/kurtz4%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Walter E. Kurtz served as a Private in Company G, 15th Infantry Regiment, 3rd Infantry Division, United States Army during the Korean War. The 3rd Infantry Division 2014 the Rock of the Marne 2014 was one of the most heavily engaged American divisions in Korea. Walter was awarded the Purple Heart. He was born on February 2, 1930, and was killed in action on November 14, 1952, at the age of twenty-two. The armistice that ended the fighting came eight months later. The Kurtz family stone records it without embellishment: 201cKilled in Action in Korea.201d He may be related to Robert E. Kurtz, a World War II veteran buried nearby. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "KIA",
-    "Purple Heart"
-   ],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Lacoste, Jean L.",
-   "era": "Korean War",
-   "branch": "Navy",
-   "branchLabel": "",
-   "lat": 42.206881,
-   "lng": -72.623519,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lacoste%20j%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Jean L. Lacoste served as a Quartermaster Third Class in the United States Navy during the Korean War. Quartermasters were responsible for navigation, charts, and deck watches — the steady work that kept a vessel on course through contested waters. Jean was born on January 17, 1930, and lived until November 9, 2022, at the age of ninety-two. He is memorialized on the Meyer-Krumpholz-Lacoste family monument. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Lamont, James",
-   "era": "World War I",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206925,
-   "lng": -72.623031,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lamont%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "James Lamont is honored at his family plot with a veteran's flag. Born on March 24, 1870, he was twenty-eight when the Spanish-American War was fought and forty-seven when the United States entered World War I — passing through both conflicts at ages that made service possible. No branch or conflict is recorded on the stone. A Masonic emblem appears on his marker as well. He died on May 8, 1955, at the age of eighty-five. His wife Myra Jones and daughter Mary J. Lamont are remembered on the family stone. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Larounis, John D.",
-   "era": "World War II",
-   "branch": "Navy",
-   "branchLabel": "",
-   "lat": 42.206244,
-   "lng": -72.621581,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/larounis%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "John D. Larounis served in the United States Navy during World War II. He was born on June 22, 1925, and died on April 29, 1999. His government flat marker records his service without rank. He is memorialized on the Larounis family monument alongside his wife Golfa Hronis, who lived until 2010. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Littlejohn, David J.",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206958,
-   "lng": -72.623275,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/littlejohn2%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "David J. Littlejohn was born in 1916, the son of William and Agnes Littlejohn of Holyoke. In 1944, at twenty-eight, he was killed in action at Peleliu Island. Peleliu was among the most brutal battles of the Pacific war — American commanders expected to take the small coral island in four days; the fight lasted more than two months and cost over 1,600 American lives. David's father William died the following year, 1945, at fifty-two — he did not live to see the war's end his son died winning. Agnes outlived them both by fifteen years. The family granite carries the words she and William chose for their son: Killed in Action at Peleliu Island. An American Legion marker and flag stand at the stone. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "KIA"
-   ],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Littlejohn, Louis B.",
-   "era": "World War II",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.207039,
-   "lng": -72.624686,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/littlejohn%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Louis B. Littlejohn was born July 29, 1909, and served as a Staff Sergeant in the United States Army during World War II. His government marker carries three letters that speak for themselves: BSM — the Bronze Star Medal, awarded for heroic or meritorious service in combat. Louis was in his mid-thirties when he earned his sergeant's stripes, an older soldier leading younger men. He came home and lived until September 3, 1971, dying at sixty-two. His grave lies a short walk from the Littlejohn family stone where David J. Littlejohn, killed at Peleliu, is remembered — given the shared name in the same cemetery, the two men may have been kin. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Bronze Star"
-   ],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Littlejohn, William",
-   "era": "Unknown Era",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206936,
-   "lng": -72.623283,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/littlejohn%20d%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "William Littlejohn was born in 1893 and died in 1945, at fifty-two — months after his son David was killed in action at Peleliu Island. An American Legion marker stands at the family stone, and William was twenty-four when America entered the First World War — the right age for service — but the stone records no branch or unit, and he does not appear in Zack's chronicle of Holyoke's Great War servicemen. His service awaits confirmation. What the granite does record is a father who buried his son's memory and followed him within the year. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Lyle, William",
-   "era": "Unknown Era",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206833,
-   "lng": -72.622269,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lyle%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "William Lyle was born in 1887 and died in 1955 at sixty-eight. His marble stone, weathered dark with age, names his wife Maude Kerr beside him — she outlived him by twenty-four years. The metal marker planted at his grave reads 'Wars of the United States — Veteran,' attesting to service the stone itself does not record. Born in 1887, William would have been thirty when America entered the First World War — the most likely era of his service, though the stone leaves no confirmation. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Lynch, Edgar R.",
-   "era": "World War II",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206833,
-   "lng": -72.623383,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lynch%20e%20r%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Edgar R. Lynch was born in 1909 and entered the United States Army as a Private during World War II — already in his thirties when he served, older than most of the men beside him. His government-issue marker, cut with the Latin cross, lies in the grass near the Lynch family monument with its carved ivy trailing across rough-hewn granite. Edgar came home from the war and lived another half century in peace, dying in 1997 at eighty-eight. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Mathieson, Wilson Jr.",
+   "id": "connor",
+   "name": "J. Connor",
    "era": "World War II",
    "branch": "Army Air Corps",
-   "branchLabel": "",
-   "lat": 42.206867,
-   "lng": -72.622794,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/mathieson%20w%20Medium.jpeg",
+   "branchLabel": "Army Air Corps · WWII",
+   "lat": 42.18792222222222,
+   "lng": -72.62973055555555,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/connor.jpg",
    "extraPhotos": [],
-   "narrative": "Second Lieutenant Wilson Mathieson Jr. was born in 1922 into a Scottish family — his grandfather John, his grandmother Jane Wilson, his father Wilson, his mother Annie Thomson, all carried on the stone he now shares with them. He earned his commission and his pilot's wings with the 98th Fighter Squadron, 337th Fighter Group, Army Air Corps. The squadron flew P-40 Warhawks at Sarasota Army Air Field in Florida, training the replacement fighter pilots America was sending to every theater of the war — dangerous work that killed thousands of young airmen before they ever saw combat. Wilson died in 1943 at twenty-one. His father had served as a Private in the British Army in the First World War — two generations of service carved on one stone. His pilot's wings are cut beneath his name, and his unit — 98th Ftr. Sq., 337 Ftr. Gp., Air Corps — is carved into the base line, the only man of his family so remembered. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "J. Connor served in the Army Air Corps during World War II. The Army Air Corps — predecessor to the modern U.S. Air Force — flew some of the most dangerous missions of the war, including strategic bombing raids over Nazi-occupied Europe and close air support in the Pacific theater. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "connor__t_army_ww_i",
+   "name": "T. Connor",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.187472,
+   "lng": -72.627411,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/connor_t_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "T. Connor served in the United States Army during World War I. Holyoke sent many sons to the Western Front between 1917 and 1918, and Connor was among them. He may be related to other Connor family veterans buried at Calvary Cemetery — though those connections have not been confirmed. His specific unit, rank, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "connor__w_uscg_res_ww_ii",
+   "name": "W. Connor",
+   "era": "World War II",
+   "branch": "U.S. Coast Guard Reserve",
+   "branchLabel": "USCG Reserve · WWII",
+   "lat": 42.187064,
+   "lng": -72.628228,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/connor_w_uscg_res_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "W. Connor served in the United States Coast Guard Reserve during World War II. The Coast Guard Reserve was fully activated after Pearl Harbor, with reservists serving alongside regular Coast Guard personnel in convoy escort, port security, and amphibious operations. He may be related to other Connor family veterans buried at Calvary Cemetery — though those connections have not been confirmed. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "conway__j_mass_us_guards_ww_i",
+   "name": "J. Conway",
+   "era": "World War I",
+   "branch": "Massachusetts US Guards",
+   "branchLabel": "MA US Guards · WWI",
+   "lat": 42.1891111,
+   "lng": -72.6284472,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/conway_j_mass_us_guards_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Conway served in the Massachusetts United States Guards during World War I — a state defense force organized to protect Massachusetts infrastructure and facilities while the National Guard was federalized and deployed overseas. The Mass. U.S. Guards performed coastal defense, guarded bridges, railroads, and utilities, and maintained order at home during the war years. He may be related to J.E. Conway, a World War II veteran also buried at Calvary Cemetery — though that connection has not been confirmed. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "conway__j_e_uscg_ww_ii",
+   "name": "J.E. Conway",
+   "era": "World War II",
+   "branch": "U.S. Coast Guard",
+   "branchLabel": "USCG · WWII",
+   "lat": 42.187736,
+   "lng": -72.627786,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/conway_j_e_uscg_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J.E. Conway served in the United States Coast Guard during World War II. He may be related to J. Conway, a World War I Massachusetts Guards veteran also buried at Calvary Cemetery — a family that appears to have answered its country’s call across two generations, though that connection has not been confirmed. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "counter__j_army_ww_ii",
+   "name": "J. Counter",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1870028,
+   "lng": -72.6283111,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/counter_j_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Counter served in the United States Army during World War II. Holyoke sent hundreds of its sons into uniform after Pearl Harbor, and Counter was among them. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "courtney__j_armt_ww_ii",
+   "name": "John P. Courtney",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1897694,
+   "lng": -72.6291806,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/courtney_j_armt_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "John P. Courtney served as a Private First Class in the United States Army during World War II. He was born June 1, 1928 — only 17 when the war ended in September 1945 — so his service likely came in the war's very final months or the occupation period that followed. He died January 31, 2013, at age 84. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "courtney__m_army",
+   "name": "Michael D. Courtney",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI (likely)",
+   "lat": 42.1897667,
+   "lng": -72.6291806,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/courtney__m_army_.jpg",
+   "extraPhotos": [],
+   "narrative": "Michael D. Courtney served as a Private in Company C, 38th Field Artillery, during World War I. Born in 1888, he was among the older Holyoke men called up in the war's final year, entering service in July 1918 and training with his battery at Fort Slocum, New York. The field artillery was the great killer of that war — and Courtney was one of the men who worked the guns, the crews who hauled, loaded, and fired the pieces whose massed barrages shattered the trench lines and cleared the way for the infantry's advance. He came home from that work and lived a long life, dying September 7, 1974, at the age of 86. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "courtney",
+   "name": "R. Courtney",
+   "era": "World War II",
+   "branch": "U.S. Marine Corps",
+   "branchLabel": "USMC",
+   "lat": 42.18780833333333,
+   "lng": -72.62921944444444,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/courtney.jpg",
+   "extraPhotos": [],
+   "narrative": "R. Courtney served in the United States Marine Corps during World War II. Marines fought in some of the Pacific's most brutal island campaigns — Guadalcanal, Iwo Jima, Okinawa. Courtney is one of Holyoke's honored sons who wore the eagle, globe, and anchor. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "craven",
+   "name": "J.P. Craven",
+   "era": "World War II",
+   "branch": "Army Air Forces",
+   "branchLabel": "AAF · WWII",
+   "lat": 42.187838888888884,
+   "lng": -72.6295,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/craven.jpg",
+   "extraPhotos": [],
+   "narrative": "J.P. Craven served in the Army Air Forces during World War II. The AAF grew into the largest air force in history during the war, with members flying missions over Europe and the Pacific alike. Further details about his service are being researched. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "cray__j_usaaf_ww_ii",
+   "name": "J. Cray",
+   "era": "World War II",
+   "branch": "U.S. Army Air Forces",
+   "branchLabel": "USAAF · WWII",
+   "lat": 42.18885,
+   "lng": -72.6287917,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/cray_j_usaaf_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Cray served in the United States Army Air Forces during World War II. The USAAF grew to nearly 2.4 million personnel by 1944 and conducted the largest sustained strategic bombing campaign in history, alongside close air support, airlift, and patrol missions across every theater. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "cruz__p_army_vietnam",
+   "name": "P. Cruz",
+   "era": "Vietnam",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · Vietnam",
+   "lat": 42.1874194,
+   "lng": -72.6284417,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/cruz_p_army_vietnam.jpg",
+   "extraPhotos": [],
+   "narrative": "P. Cruz served in the United States Army during the Vietnam War. Cruz represents the significant contribution of Holyoke’s Latino community to the nation’s military — a community that served in disproportionately high numbers in Vietnam, often in front-line combat roles, while fighting for a country that did not always extend full equality to them at home. His specific unit, rank, and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "cullinan_korea",
+   "name": "Cullinan",
+   "era": "Korean War",
+   "branch": "U.S. Military",
+   "branchLabel": "Military",
+   "lat": 42.1888611,
+   "lng": -72.6293944,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/cullinan_korea.jpg",
+   "extraPhotos": [],
+   "narrative": "Cullinan served in the United States military during the Korean War. Branch, full name, and unit have not been confirmed from the stone or available records. A veteran marker stands at this grave at Calvary Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "curran",
+   "name": "P. Curran",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "U.S. Navy",
+   "lat": 42.187952777777774,
+   "lng": -72.62963888888888,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/curran.jpg",
+   "extraPhotos": [],
+   "narrative": "Patrick Curran served as a Storekeeper Third Class in the United States Navy during World War II. The storekeeper kept a warship supplied and running — tracking and issuing the food, fuel, parts, and countless other stores a vessel needed to stay at sea and in the fight. Born January 2, 1913, Patrick was among the Holyoke men who took to the water in the war that spanned two oceans. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "czerwonka__j_g_army_ww_ii",
+   "name": "Joseph G. Czerwonka",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1886639,
+   "lng": -72.6295472,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/czerwonka_j_g_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Joseph G. Czerwonka served as a Corporal in the United States Army during World War II. The rank of Corporal placed him as a junior non-commissioned officer — a team leader responsible for a small group of soldiers in combat or support operations. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "daly__r_navy_ww_ii",
+   "name": "Robert E. Daly",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1885694,
+   "lng": -72.6291278,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/daly_r_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Robert E. Daly served as a Seaman First Class in the United States Navy during World War II. Seaman First Class was a junior enlisted rating, one step above entry level, assigned across the fleet in deck operations, damage control, gunnery, and the countless other duties that kept warships operating in combat. His specific ship assignment and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "davitt__w_ww_i_kia",
+   "name": "Davitt, William Francis, Rev.",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.1883278,
+   "lng": -72.6288694,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/davitt__w_rev_amy_ww_i_dist_svc_cross__kia.jpg",
+   "extraPhotos": [],
+   "narrative": "Rev. William Francis Davitt was born in Holyoke on December 8, 1886, and grew up in nearby Chicopee, where he played football before graduating from Holy Cross College in 1907. He entered the priesthood, and was serving at St. Ann's in Lenox when the United States entered World War I in 1917. Commissioned a First Lieutenant, he volunteered as a Knights of Columbus chaplain and was assigned to the 125th Infantry Regiment, 32nd Division, American Expeditionary Forces. On August 6, 1918, during the advance along the Vesle River in France, Chaplain Davitt led a party of volunteers through machine-gun fire to rescue forty American soldiers trapped in a ravine — all were brought back without a single rescuer lost. For this act he was recommended for the Distinguished Service Cross and was awarded the French Croix de Guerre with palm. Father Davitt was killed in action on November 11, 1918, roughly an hour before the Armistice took effect — he is remembered as the last American officer, and the last American chaplain, killed in World War I. His remains were returned to Holyoke in 1921. He is also memorialized on Chaplains Hill at Arlington National Cemetery, and the William F. Davitt Memorial Bridge in Chicopee bears his name. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
-    "Died in Service"
+    "KIA",
+    "Distinguished Service Cross",
+    "Croix de Guerre",
+    "Distinguished Service Medal"
    ],
    "status": "located",
    "source": ""
   },
   {
-   "id": "",
-   "name": "Mathieson, Wilson Sr.",
-   "era": "World War I",
-   "branch": "British Army",
-   "branchLabel": "",
-   "lat": 42.206867,
-   "lng": -72.622794,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/mathieson%20w%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Wilson Mathieson was born in 1897 into a Scottish family in Holyoke — his father John and mother Jane Wilson carried on the stone above him. When the Great War came, Wilson went the way many sons of Scotland in Holyoke did: he entered service on November 3, 1917, as a Private in the British Army, one of the Holyoke men who crossed the ocean to fight under the flag of their fathers' country. He came home, married Annie Thomson, and lived to eighty-six. His son and namesake, Lieutenant Wilson Mathieson Jr., became an Army Air Corps pilot in the next war and died in service in 1943 — father and son, two wars, one stone. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "McBride, David",
-   "era": "Spanish-American War",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206828,
-   "lng": -72.621764,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/McBride%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "David McBride was born in 1878 and was about twenty years old when the United States went to war with Spain. The bronze cross planted at his stone — the badge of the United Spanish War Veterans, marked Army and Navy, 1898–1902 — names the campaigns of that war on its four arms: Cuba, Porto Rico, the Philippine Islands, U.S.A. David's stone carries the griefs of his life as plainly as his service: his wife Wilhelmina Coulter died in 1917 at thirty-five, and their daughter Grace followed in 1919, seven years old. He was survived by his second wife, Jeanne Cassie, who lived until 1964 — thirty years after David died in 1934 at fifty-six. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "McFadden, John D.",
-   "era": "Unknown Era",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206692,
-   "lng": -72.623122,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/mcfadden%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "John D. McFadden was born in 1923 and died in 1980, at fifty-seven. He shares the family stone with Myrtle D. Guenther, and the granite carries a phrase weathered but still legible near its base. A flag stands at his grave, marking his service, though the stone records no branch or war. Born in 1923, John came of age exactly as America entered the Second World War — the most likely era of his service. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "McLean, Robert A.",
+   "id": "doerpholz",
+   "name": "F. Doerpholz",
    "era": "World War II",
-   "branch": "Navy",
-   "branchLabel": "",
-   "lat": 42.206522,
-   "lng": -72.622025,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/McLean%20Medium.jpeg",
+   "branch": "Army Air Forces",
+   "branchLabel": "AAF · WWII",
+   "lat": 42.1879722,
+   "lng": -72.6292333,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/doerpholz.jpg",
    "extraPhotos": [],
-   "narrative": "Robert A. McLean was born April 1, 1920, and served as a Torpedoman's Mate First Class in the United States Navy during World War II. He was killed on March 23, 1944, at twenty-three — his marker reads \"In Memory Of,\" the words families chose when a sailor was lost at sea or buried far from home, and carries the Purple Heart. In the spring of 1944 the Navy was fighting its way across the Pacific island by island; Robert did not come home from that war. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "F. Doerpholz served in the United States Army Air Forces during World War II — whether as a pilot, navigator, bombardier, gunner, or the ground crew that kept the aircraft flying. The USAAF’s mission spanned strategic bombing over Germany and Japan, close air support for ground forces, and airlift operations across every theater. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "donoghue__h_usmc_ww_ii",
+   "name": "Henry E. Donoghue",
+   "era": "World War II",
+   "branch": "U.S. Marine Corps",
+   "branchLabel": "USMC · WWII",
+   "lat": 42.1884611,
+   "lng": -72.6284778,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/donoghue__h_usmc__ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Henry E. Donoghue served as a Corporal in the United States Marine Corps during World War II. The rank of Corporal in the Marines placed him as a fire team leader — a junior NCO responsible for three riflemen in the most demanding combat environments of the Pacific campaign. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "donoghue__j_usaaf",
+   "name": "Donoghue, James R. Jr.",
+   "era": "World War II",
+   "branch": "U.S. Army Air Forces",
+   "branchLabel": "USAAF",
+   "lat": 42.1884028,
+   "lng": -72.6282194,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/donoghue_j_usaaf.jpg",
+   "extraPhotos": [],
+   "narrative": "James R. Donoghue Jr. served as a Sergeant in the United States Army Air Forces during World War II. Sergeants in the USAAF served as flight crew — gunners, radio operators, flight engineers — and as ground crew supervisors keeping aircraft airworthy through the relentless operational tempo of wartime. His specific unit and theater have not yet been confirmed from available records. He may be related to Henry E. and Gerald F. Donoghue, also veterans buried at Calvary Cemetery — though those connections have not been confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "donogue__g_army_ww_ii",
+   "name": "Gerald F. Donoghue",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1878778,
+   "lng": -72.6278139,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/donogue_g_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Gerald F. Donoghue served as a Private in the United States Army during World War II. Army Privates were the foundation of the force — the men who carried the rifles and bore the weight of ground combat across North Africa, Italy, Western Europe, and the Pacific. He may be related to Henry E. and James R. Donoghue Jr., also veterans buried at Calvary Cemetery — though those connections have not been confirmed. His specific unit and theater have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "donohue__m_army_ww_ii",
+   "name": "Michael J. Donohue",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1893778,
+   "lng": -72.6289444,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/donohue_m_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Michael J. Donohue served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "dooley__t_ww_i",
+   "name": "Thomas F. Dooley",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.1880139,
+   "lng": -72.6296472,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/dooley_t_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "Thomas F. Dooley served as a Sergeant in Battery B, 11th Regiment, Field Artillery Replacement Depot, during World War I. He entered service on May 31, 1918, and was stationed at Camp Jackson, South Carolina, where the Army trained and forwarded the gun crews that fed the artillery regiments in France. As a battery sergeant, Dooley drilled the incoming men on the guns, kept the crews and their equipment ready, and was accountable for turning raw recruits into artillerymen fit to send across the ocean. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "dougherty__j_mass_med_dept_ww_i",
+   "name": "John C. Dougherty",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.18835,
+   "lng": -72.6283417,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/dougherty_j_mass_med_dept_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "John C. Dougherty served in the Massachusetts Medical Department during World War I. Medical Department soldiers and officers provided the essential casualty care that saved thousands of lives on the Western Front — treating the wounded under fire in aid stations, evacuation hospitals, and base hospitals that formed the chain of military medicine. His specific unit, rank, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "dowd__f_mass",
+   "name": "Frederick A. Dowd",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.1875083,
+   "lng": -72.6274806,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/dowd__f_mass_.jpg",
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
+   "narrative": "Frederick A. Dowd served as a Corporal in Company D, 104th Infantry, during World War I. He entered service on June 1, 1916, first seeing duty on the Mexican border before going to France with the American Expeditionary Forces. The 104th was a New England regiment of the 26th \"Yankee\" Division — one of the first American units to reach France. In April 1918, in the woods of Bois Brule near Apremont, the regiment threw back a fierce German assault at the point of the bayonet and in hand-to-hand fighting, and for that stand it became the first American unit ever decorated by a foreign government: the French pinned the Croix de Guerre to its colors, and to the breasts of the commander and more than a hundred of its men. The regiment went on to fight at Chemin des Dames, Chateau-Thierry, the Aisne-Marne, St. Mihiel, and the Meuse-Argonne. Somewhere in that hard service Frederick Dowd was wounded in action, and carried the mark of it home. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Croix de Guerre"
+   ],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "duffy__j_army_ww_i",
+   "name": "J Duffy",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army",
+   "lat": 42.1893778,
+   "lng": -72.6293556,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/duffy_j_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Duffy served in the United States Army during World War I. He may be related to W. Duffy, a World War II Army Air Corps veteran also buried at Calvary Cemetery — though that connection has not been confirmed. His specific unit, rank, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "duffy__w_usaac_ww_ii",
+   "name": "W Duffy",
+   "era": "World War II",
+   "branch": "Army Air Corps",
+   "branchLabel": "Corps",
+   "lat": 42.1886056,
+   "lng": -72.6297306,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/duffy_w_usaac_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "W. Duffy served in the United States Army Air Corps during World War II. The Army Air Corps became the Army Air Forces in 1941 and grew to the largest air force in history, conducting strategic bombing campaigns, close air support, and airlift operations across every theater of the war. He may be related to J. Duffy, a World War I Army veteran also buried at Calvary Cemetery — though that connection has not been confirmed. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "dugan__j_navy_",
+   "name": "Joseph P. Dugan",
+   "era": "World War I",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy",
+   "lat": 42.1891278,
+   "lng": -72.6295472,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/dugan_j_navy.jpg",
+   "extraPhotos": [],
+   "narrative": "Joseph P. Dugan served as a Chief Machinist's Mate in the United States Navy during World War I. Born in 1880, he was a man of nearly forty when the United States entered the war in 1917 — no young recruit, but a seasoned hand, which his rank reflects. The machinist's mate lived in the engine and boiler rooms deep below a warship's decks, tending the steam machinery that drove the vessel; as a Chief, Dugan stood at the top of that trade, the senior enlisted engineer who ran the engine spaces and the men who worked them, the one the officers trusted to keep the ship moving. He lived until 1957. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "dunn__g_army_ww_ii",
+   "name": "George E. Dunn",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1873389,
+   "lng": -72.6279306,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/dunn_g_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "George E. Dunn served as a Private First Class in the United States Army during World War II. Private First Class was the first promotion above entry level, recognizing demonstrated competence. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "egan__j_army_ww_ii",
+   "name": "James B. Egan",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.188,
+   "lng": -72.6287167,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/egan_j_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "James B. Egan served as a Private in the United States Army during World War II. Army Privates formed the essential foundation of the wartime force — the men who carried the rifles and bore the weight of combat across every theater. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "emerson__h_army_ww_i",
+   "name": "Harold E. Emerson",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.1880444,
+   "lng": -72.6292333,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/emerson_h_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "Harold E. Emerson served as a Private in the United States Army during World War I. More than two million Americans served in France with the American Expeditionary Forces, and Privates like Emerson formed the backbone of that force — men who went over the top, advanced through the wire, and bore the weight of the Western Front. His specific unit and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "falcetti__c_navy_ww_ii",
+   "name": "C Falcetti",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy",
+   "lat": 42.189725,
+   "lng": -72.6292417,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/falcetti_c_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "C. Falcetti served in the United States Navy during World War II. He may be related to J. Falcetti, an Army veteran also buried at Calvary Cemetery — though that connection has not been confirmed. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "falcetti__j_d_army_ww_ii",
+   "name": "J Falcetti",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army",
+   "lat": 42.1896944,
+   "lng": -72.6292944,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/falcetti_j_d_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Falcetti served in the United States Army during World War II. He may be related to C. Falcetti, a Navy veteran also buried at Calvary Cemetery — though that connection has not been confirmed. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "felsentreger__h_ww_ii_korea",
+   "name": "H. Felsentreger",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII/Korea",
+   "lat": 42.18880556,
+   "lng": -72.62986111,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/felsentreger__h_navy_ww_ii__korea.jpg",
+   "extraPhotos": [],
+   "narrative": "H. Felsentreger served in the United States Navy during World War II and the Korean War era — a span of service across two of the defining conflicts of the twentieth century. Men who served in both wars were part of an extraordinary generation, entering the Navy as young sailors in the 1940s and returning to uniform when Korea demanded it. He may be related to Howard T. Felsentreger, a Vietnam Marine and Purple Heart recipient also buried at Calvary Cemetery — though that connection has not been confirmed. His specific rates and assignments have not yet been confirmed from available records. ⚠️ GPS correction pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "felsentreger__h_t_usmc_vietnam",
+   "name": "Howard T. Felsentreger",
+   "era": "Vietnam",
+   "branch": "U.S. Marine Corps",
+   "branchLabel": "USMC · Vietnam",
+   "lat": 42.18880556,
+   "lng": -72.62986111,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/felsentreger__h_t_usmc_vietnam__purple_heart.jpg",
+   "extraPhotos": [],
+   "narrative": "Howard T. Felsentreger served as a Sergeant in the United States Marine Corps during the Vietnam War and was awarded the Purple Heart for wounds received in action. He is the veteran whose story first inspired this memorial project — H.T. Felsentreger, a Holyoke Marine who bled in Vietnam and came home carrying the mark of his service. The Purple Heart is awarded to those wounded or killed in action against an enemy of the United States. As a Sergeant, Felsentreger led Marines in one of the most contested and complex conflicts in American history. He may be related to H. Felsentreger, a World War II and Korea veteran also buried at Calvary Cemetery — though that connection has not been confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "Purple Heart"
    ],
@@ -4154,189 +1284,1100 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
-   "name": "Meschke, Harry A.",
-   "era": "Unknown Era",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206786,
-   "lng": -72.621833,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/meschke%20Medium.jpeg",
+   "id": "fenton__j_army_ww_ii",
+   "name": "John P. Fenton",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1883389,
+   "lng": -72.6280222,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/fenton_j_army_ww_ii.jpg",
    "extraPhotos": [],
-   "narrative": "Harry A. Meschke was born in 1898, the elder son of Adolph and Anna Meschke of Holyoke. An American Legion marker stands at the family stone where he is remembered with his parents, his sister Erna, and his brother Edwin. Born in 1898, Harry was of age for the First World War, though the stone records no branch or unit. He lived a long life, dying in 1988 at ninety. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "John P. Fenton served as a Private in the United States Army during World War II. Army Privates were the foundation of the wartime force. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": ""
   },
   {
-   "id": "",
-   "name": "Mielke, William G.",
+   "id": "fetterman__s_cav",
+   "name": "Samuel Fetterman",
+   "era": "Civil War",
+   "branch": "U.S. Army",
+   "branchLabel": "Cavalry · Civil War (likely)",
+   "lat": 42.1880528,
+   "lng": -72.6295556,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/fetterman_s_cav.jpg",
+   "extraPhotos": [],
+   "narrative": "Samuel Fetterman served in a Pennsylvania Cavalry regiment; the exact regiment number is too worn on the stone to confirm with confidence. No era is inscribed, but the marker's shape, the carved shield motif, and the abbreviated \"SAML\" for Samuel are all typical of Civil War-era military headstones, making that the most likely period of his service. If you have information about which regiment or campaign, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "finn__j_army_ww_ii",
+   "name": "John J. Finn",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1876944,
+   "lng": -72.6284722,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/finn_j_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "John J. Finn served as a Private in the United States Army during World War II. He may be related to James J. Finn, a World War I Marine veteran also buried at Calvary Cemetery — though that connection has not been confirmed. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "finn__j_usmc_ww_i",
+   "name": "James J. Finn",
    "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206656,
-   "lng": -72.623108,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/mielke%20w%20g%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "William G. Mielke was born in 1895 and served as a Private in Battery E, 303rd Field Artillery, entering service March 29, 1918. The 303rd was part of the 76th Division, raised in New England — Mielke was one of the Holyoke men who trained through that last spring of the war for the guns of the Western Front. He came home a Private First Class, married Eugenia Konrad, and lived until 1967. His son, William A. Mielke, would serve in the Navy in the next war. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Mielke, William A.",
-   "era": "World War II",
-   "branch": "Navy",
-   "branchLabel": "",
-   "lat": 42.206647,
-   "lng": -72.623086,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/mielke%20w%20a%20%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "William A. Mielke was born May 29, 1922, the son of William G. Mielke, and served as a Seaman First Class in the United States Navy during World War II. A Seaman First Class was a trained hand at the working heart of a warship — standing watch, handling lines and cargo, manning guns at battle stations, and keeping the vessel running through every kind of sea. Where his father had served the field artillery in the First World War, William took to the ocean in the Second. He married Elaine Mae Hardman and lived a long life, dying February 8, 2013, at ninety — father and son, two wars, two branches, one family stone. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Miles, Stanley J. Sr.",
-   "era": "World War II",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206647,
-   "lng": -72.622925,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/miles%20Medium.jpeg",
+   "branch": "U.S. Marine Corps",
+   "branchLabel": "USMC · WWI",
+   "lat": 42.1884278,
+   "lng": -72.6285472,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/finn_j_usmc_ww_i.jpg",
    "extraPhotos": [],
-   "narrative": "Stanley J. Miles Sr. was born May 21, 1914, and served as a Private in the United States Army during World War II. Already in his late twenties when the war came, he was an older soldier among the young draftees. His government marker, cut with the Latin cross, records a life that ran until August 30, 1981, when he died at sixty-seven. The \"Sr.\" on his stone speaks to a son who carried his name forward. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "James J. Finn served as a Private in the United States Marine Corps during World War I. The Marines deployed to France as part of the American Expeditionary Forces and fought in celebrated engagements including Belleau Wood, where the 4th Marine Brigade stopped a German offensive in June 1918 and earned a reputation that endures to this day. He may be related to John J. Finn, a World War II Army veteran also buried at Calvary Cemetery — though that connection has not been confirmed. His specific unit and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": ""
   },
   {
-   "id": "",
-   "name": "Minkley, Edward W.",
+   "id": "fitzsimmons__h_army",
+   "name": "Harold A. Fitzsimmons",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI (likely)",
+   "lat": 42.1887333,
+   "lng": -72.6286778,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/fitzsimmons__h_army_.jpg",
+   "extraPhotos": [],
+   "narrative": "Harold A. Fitzsimmons served as a First Lieutenant in the United States Army. His stone lists no era, but he was born November 27, 1892, making World War I — when he would have been 24 or 25 — far more likely than World War II, when he would have been near 50. He died July 16; the year is too worn to read with confidence. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "fitzsimmons__r_ww_i",
+   "name": "R. Fitzsimmons",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.1887361,
+   "lng": -72.6286694,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/fitzsimmons__r_mass_fa_res_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "R. Fitzsimmons served in the Massachusetts Field Artillery Reserve during World War I. The Field Artillery was the dominant weapon of the Western Front, and Massachusetts reserve units trained alongside regular Army forces to provide the firepower that supported infantry advances through the trenches and mud of France. He may be related to Harold A. Fitzsimmons, also a World War I Army veteran buried at Calvary Cemetery — though that connection has not been confirmed. His specific battery, rank, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "foley__j_j_army_ww_ii",
+   "name": "James J. Foley",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1882167,
+   "lng": -72.6296611,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/foley_j_j_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "James J. Foley served as a First Lieutenant in the United States Army during World War II. A First Lieutenant commanded a platoon — typically 30 to 40 soldiers — and served as the direct link between the company command and the men on the ground. He may be related to Robert Joseph Foley, a Navy veteran also buried at Calvary Cemetery — though that connection has not been confirmed. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "foley__r_navy_ww_ii",
+   "name": "Robert Joseph Foley",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1874306,
+   "lng": -72.6274944,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/foley_r_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Robert Joseph Foley served in the United States Navy during World War II. He may be related to James J. Foley, an Army officer also buried at Calvary Cemetery — though that connection has not been confirmed. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "forhan__m_usnr_ww_ii",
+   "name": "Maurice F. Forhan",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1871444,
+   "lng": -72.6275028,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/forhan_m_usnr_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Maurice F. Forhan served in the United States Naval Reserve during World War II. The Naval Reserve was fully mobilized after Pearl Harbor, with reservists serving alongside regular Navy personnel in every theater and capacity — from North Atlantic convoy escort to Pacific amphibious operations. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "fulponi__j_army_ww_ii",
+   "name": "John L. Fulponi",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1878889,
+   "lng": -72.6292417,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/fulponi__j_army_wwii.jpg",
+   "extraPhotos": [],
+   "narrative": "John L. Fulponi served as a Sergeant in the United States Army during World War II. Sergeants were the Army’s front-line non-commissioned officers, leading squads of eight to twelve men in combat — responsible for keeping their soldiers alive and the mission moving forward. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "gallivan__e_army_ww_ii",
+   "name": "Elmore A. Gallivan",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1879583,
+   "lng": -72.6295472,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/gallivan_e_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Elmore A. Gallivan served as a Private First Class in the United States Army during World War II. Private First Class recognized demonstrated competence in a soldier’s duties — the first step above entry level. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "welch_gar",
+   "name": "Welch, Edward D.",
+   "era": "Civil War Era",
+   "branch": "1st Massachusetts Cavalry",
+   "branchLabel": "Co. A · 1st MA Cavalry · Civil War",
+   "lat": 42.1884416666667,
+   "lng": -72.6292722222222,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/welch_gar.jpg",
+   "extraPhotos": [],
+   "narrative": "Edward D. Welch served in Company A of the 1st Regiment Massachusetts Cavalry during the Civil War. The 1st Massachusetts Cavalry was one of the most active cavalry regiments in the Union Army — raised in 1861, it served throughout the war in the Eastern Theater, participating in numerous engagements including Gettysburg, the Wilderness, and the final pursuit of Lee's army to Appomattox. Cavalrymen like Welch performed reconnaissance, screening, and shock action — the eyes and fast-moving arm of the Union forces. A Grand Army of the Republic marker, bearing the dates 1861–1865, stands at his grave — the GAR was the veterans' organization of Union soldiers who served in the Civil War. Welch died December 7, 1815 as recorded on the stone — the Welch family monument also records his wife Fannie Hickey and children Dennis, Katherine, Ann, Charles, and Thomas. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "garvey__b_army_ww_i",
+   "name": "Brandon A. Garvey",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.18745,
+   "lng": -72.6275722,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/garvey_b_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "Brandon A. Garvey served as a Private in Company M, 45th Infantry, during World War I. He entered service on June 27, 1918, and trained at Camp Dix, New Jersey. More than two million Americans went to France with the American Expeditionary Forces, and privates like Garvey formed the backbone of that force — the men who did the marching, digging, and fighting that carried the war to its end. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "st_germain__l_navy_ww_ii",
+   "name": "L. St Germain",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Navy",
+   "lat": 42.1887583,
+   "lng": -72.6289278,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/st_germain__l_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Leo St. Germain served in the United States Navy during World War II, holding the rate of Ship’s Cook. Ship’s Cooks were essential to every vessel in the fleet — responsible for feeding the crew through the relentless operational tempo of wartime at sea. On a destroyer or cruiser running convoy escort or combat patrols, a cook might prepare thousands of meals a week under conditions that ranged from rough weather to battle stations. His specific ship assignment and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "gervais__w_army_ww_ii",
+   "name": "William A. Gervais",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1884917,
+   "lng": -72.6287083,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/gervais_w_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "William A. Gervais served in the United States Army during World War II, holding the rank of Technician Fifth Grade. The TEC 5 grade recognized soldiers with specialized technical skills — mechanics, medics, radio operators — who held technical responsibilities without command authority. These men were the trained infrastructure of the Army. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "gibbs__f_navy_ww_ii",
+   "name": "Francis R. Gibbs",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1884083,
+   "lng": -72.6282417,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/gibbs_f_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Francis R. Gibbs served in the United States Navy during World War II. The Navy fought across two oceans, from the convoy routes of the North Atlantic to the island campaigns of the Pacific. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "girard__g_navy_ww_i",
+   "name": "George A. Girard",
+   "era": "World War I",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWI",
+   "lat": 42.1871194,
+   "lng": -72.627175,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/girard_g_navy_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "George A. Girard served in the United States Navy during World War I. Born in 1899, he was 18 years old when the United States entered the war in April 1917 — among the youngest men to answer the call. The Navy’s wartime mission included convoy escort across the North Atlantic and support for the American Expeditionary Forces. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "gordon__m_usn_ww_ii",
+   "name": "Mary Gordon",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1882361,
+   "lng": -72.6290806,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/gordon_m_usn_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Mary Gordon served in the United States Navy during World War II — one of the WAVES (Women Accepted for Volunteer Emergency Service), the program that brought more than 86,000 women into the Navy between 1942 and 1946. WAVES served in shore-based roles including communications, intelligence, aviation training, and administration, freeing men for sea duty. Mary Gordon’s service makes her one of the female veterans documented at Calvary Cemetery. Her specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Female Veteran"
+   ],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "gorman_a_navy",
+   "name": "Arthur Thomas Gorman",
+   "era": "Unknown Era",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy",
+   "lat": 42.1881417,
+   "lng": -72.6285333,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/gorman_a_navy_.jpg",
+   "extraPhotos": [],
+   "narrative": "Arthur Thomas Gorman served in the United States Navy. The era of his service has not been confirmed from the stone or available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "gorman",
+   "name": "Gorman",
+   "era": "Unknown Era",
+   "branch": "",
+   "branchLabel": "Unknown",
+   "lat": 42.1874556,
+   "lng": -72.6270611,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/gorman.jpg",
+   "extraPhotos": [],
+   "narrative": "Gorman served in the United States military. Branch, era, and full name have not been confirmed from the stone or available records. A veteran marker stands at this grave at Calvary Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "greaney__h_army_ww_i",
+   "name": "Greaney, Howard B. Sr.",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.1875139,
+   "lng": -72.6282056,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/greaney__h_army_ww_i_.jpg",
+   "extraPhotos": [],
+   "narrative": "Howard B. Greaney Sr. served as a Private in the United States Army during World War I. More than two million Americans went to France with the American Expeditionary Forces, and Privates like Greaney formed the backbone of that force. He may be related to William H. Greaney, a Korean War veteran also buried at Calvary Cemetery — though that connection has not been confirmed. His specific unit and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "greaney__w_navy_korea",
+   "name": "William H. Greaney",
+   "era": "Korean War",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · Korea",
+   "lat": 42.1875139,
+   "lng": -72.6282111,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/greaney_w_navy_korea.jpg",
+   "extraPhotos": [],
+   "narrative": "William H. Greaney served in the United States Navy during the Korean War. He may be related to Howard B. Greaney Sr., a World War I Army veteran also buried at Calvary Cemetery — though that connection has not been confirmed. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "greenough__g_army_korea",
+   "name": "Gerard G. Greenough",
+   "era": "Korean War",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · Korea",
+   "lat": 42.1886361,
+   "lng": -72.6291806,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/greenough_g_army_korea.jpg",
+   "extraPhotos": [],
+   "narrative": "Gerard G. Greenough served in the United States Army during the Korean War. He may be related to Richard E. and Reginald P. Greenough, also veterans buried at Calvary Cemetery — a family that appears to have sent multiple members to serve their country, though those connections have not been confirmed. His specific unit, rank, and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "greenough__r_army_ww_ii",
+   "name": "Richard E. Greenough",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1886417,
+   "lng": -72.6291806,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/greenough_r_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Richard E. Greenough served in the United States Army during World War II. He may be related to Gerard G. and Reginald P. Greenough, also veterans buried at Calvary Cemetery — though those connections have not been confirmed. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "greenough__r_p_army_korea",
+   "name": "Reginald P. Greenough",
+   "era": "Korean War",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · Korea",
+   "lat": 42.1886444,
+   "lng": -72.6291583,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/greenough_r_p_army_korea.jpg",
+   "extraPhotos": [],
+   "narrative": "Reginald P. Greenough served in the United States Army during the Korean War. He may be related to Richard E. and Gerard G. Greenough, also veterans buried at Calvary Cemetery — a family that appears to have served across both World War II and Korea, though those connections have not been confirmed. His specific unit, rank, and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "gresh__j_ww_ii_ph",
+   "name": "John J. Gresh",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1886167,
+   "lng": -72.6281583,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/gresh__j_mass_inf_ww_ii_ph.jpg",
+   "extraPhotos": [],
+   "narrative": "John J. Gresh served in the United States Army during World War II and was awarded the Purple Heart for wounds received in combat. The Purple Heart is awarded to members of the armed forces wounded or killed in action against an enemy of the United States — a recognition that Gresh paid a physical price for his service. His specific unit, the theater in which he was wounded, and the circumstances of his injury have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Purple Heart"
+   ],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "griess__g_navy_ww_ii",
+   "name": "George F. Griess",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1867861,
+   "lng": -72.627625,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/griess_g_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "George F. Griess served as an Electrician’s Mate Second Class in the United States Navy during World War II. Electrician’s Mates maintained the electrical systems that powered every function of a warship — weapons, propulsion, communications, lighting, damage control equipment. On a vessel under attack, a skilled Electrician’s Mate could mean the difference between a ship that fought and one that went dark. His specific ship assignment and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "grudis__j_army_ww_ii",
+   "name": "J Grudis",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army",
+   "lat": 42.188658,
+   "lng": -72.629219,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/grudis_j_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Grudis served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "guiel__p_army_ww_ii",
+   "name": "P. Guiel",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1878056,
+   "lng": -72.6288833,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/guiel_p_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "P. Guiel served in the United States Army during World War II. The Army drew on men from across the Pioneer Valley and beyond, sending them to theaters from North Africa and Italy to Western Europe and the Pacific. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "hafey__f_navy_korea",
+   "name": "F. Hafey",
+   "era": "Korean War",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · Korea",
+   "lat": 42.1889111,
+   "lng": -72.6291583,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/hafey_f_navy_korea.jpg",
+   "extraPhotos": [],
+   "narrative": "F. Hafey served in the United States Navy during the Korean War. The Navy’s role in Korea included carrier-based air strikes, shore bombardment in support of ground forces, the pivotal Inchon amphibious landing of September 1950, and maintenance of the naval blockade of the Korean peninsula. He may be related to J. Hafey, a World War I Army veteran also buried at Calvary Cemetery — though that connection has not been confirmed. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "hafey__j_army_ww_i",
+   "name": "J. Hafey",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.1889694,
+   "lng": -72.6292333,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/hafey_j_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Hafey served in the United States Army during World War I. More than four million American men served in the armed forces during that conflict, with two million deployed to France with the American Expeditionary Forces. He may be related to F. Hafey, a Korean War Navy veteran also buried at Calvary Cemetery — though that connection has not been confirmed. His specific unit, rank, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "hamel__j_uscg_ww_ii",
+   "name": "J. Hamel",
+   "era": "World War II",
+   "branch": "U.S. Coast Guard",
+   "branchLabel": "Coast Guard · WWII",
+   "lat": 42.1878139,
+   "lng": -72.6287222,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/hamel_j_uscg_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Hamel served in the United States Coast Guard during World War II. The Coast Guard’s wartime mission expanded dramatically after Pearl Harbor — its crews escorted convoys across the North Atlantic, conducted amphibious landings including D-Day, and maintained port security along the American coastline. Coast Guardsmen crewed many of the landing craft that carried troops ashore at Normandy, Guadalcanal, and Iwo Jima. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "harrington__t_army_ww_ii",
+   "name": "T. Harrington",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1877056,
+   "lng": -72.6269389,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/harrington_t_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "T. Harrington served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "hart__w_navy_ww_i",
+   "name": "W. Hart",
+   "era": "World War I",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWI",
+   "lat": 42.187775,
+   "lng": -72.6274806,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/hart_w_navy_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "W. Hart served in the United States Navy during World War I. The Navy expanded from fewer than 87,000 personnel in 1917 to more than 497,000 by 1918, taking on the critical mission of countering the German U-boat campaign and escorting American troops safely to France. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "hartling__g_army_korea",
+   "name": "G. Hartling",
+   "era": "Korean War",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · Korea",
+   "lat": 42.1876806,
+   "lng": -72.6270667,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/hartling_g_army_korea.jpg",
+   "extraPhotos": [],
+   "narrative": "G. Hartling served in the United States Army during the Korean War. The Army bore the brunt of ground combat in Korea, fighting from the desperate summer of 1950 through the Inchon breakout, the advance toward the Yalu River, the brutal Chinese intervention, and the grinding stalemate along the 38th parallel that followed. His specific unit, rank, and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "healy__j_t_army_ww_ii",
+   "name": "J.T. Healy",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1878444,
+   "lng": -72.6277,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/healy_j_t_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J.T. Healy served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "hebert",
+   "name": "G. Hebert",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "U.S. Navy",
+   "lat": 42.18954722222222,
+   "lng": -72.62901388888888,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/hebert.jpg",
+   "extraPhotos": [],
+   "narrative": "G. Hebert served in the United States Navy during World War II. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "hegy__f_army",
+   "name": "F. Hegy",
+   "era": "Unknown Era",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · Era Unknown",
+   "lat": 42.1886139,
+   "lng": -72.6285083,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/hegy_f_army.jpg",
+   "extraPhotos": [],
+   "narrative": "F. Hegy served in the United States Army. His stone records his service but not the war in which he served; the era has not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "hegy__g_army_ww_ii",
+   "name": "G. Hegy",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.188625,
+   "lng": -72.6285556,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/hegy_g_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "G. Hegy served in the United States Army during World War II. He may be related to F. Hegy, also an Army veteran buried at Calvary Cemetery — though that connection has not been confirmed. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "heisig__f_usaf",
+   "name": "F. Heisig",
+   "era": "Unknown Era",
+   "branch": "U.S. Air Force",
+   "branchLabel": "Air Force · Era Unknown",
+   "lat": 42.1891861,
+   "lng": -72.6290139,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/heisig_f_usaf.jpg",
+   "extraPhotos": [],
+   "narrative": "F. Heisig served as a Staff Sergeant in the United States Air Force. The staff sergeant was a non-commissioned officer who supervised the airmen below him and answered for their work — in the Air Force, that meant leading the ground crews and technical teams whose skill kept aircraft flying and missions running. The Air Force became an independent service in 1947, and Heisig's rank places him in that modern jet-age force, though the specific years of his service have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "henderson__a_army_ww_i",
+   "name": "A. Henderson",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.1873778,
+   "lng": -72.627525,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/henderson_a_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "A. Henderson served in the United States Army during World War I. His specific unit, rank, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "hennessey__m_navy_ww_i_",
+   "name": "M. Hennessey",
+   "era": "World War I",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWI",
+   "lat": 42.1890194,
+   "lng": -72.6288611,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/hennessey_m_navy_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "M. Hennessey served in the United States Navy during World War I. The Navy’s wartime expansion brought tens of thousands of men into service as the United States worked to counter the German U-boat campaign that threatened Allied supply lines across the Atlantic. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "hickson",
+   "name": "Hickson",
+   "era": "Unknown Era",
+   "branch": "Unknown",
+   "branchLabel": "Unknown · Era Unknown",
+   "lat": 42.1870917,
+   "lng": -72.6272139,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/hickson.jpg",
+   "extraPhotos": [],
+   "narrative": "Hickson served in the United States military. Branch, era, and full name have not been confirmed from the stone or available records. A veteran marker stands at this grave at Calvary Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "higgins__e_army_ww_ii",
+   "name": "E. Higgins",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1873167,
+   "lng": -72.6278444,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/higgins_e_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "E. Higgins served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "hoar__j_j_mass_ord_ww_ii",
+   "name": "J.J. Hoar",
+   "era": "World War II",
+   "branch": "Ordnance Company",
+   "branchLabel": "Ordnance Company · WWII",
+   "lat": 42.1890194,
+   "lng": -72.629075,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/hoar_j_j_mass_ord_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J.J. Hoar served in a Massachusetts Ordnance Company during World War II. The Ordnance Corps was responsible for supplying, maintaining, and repairing the weapons, ammunition, and equipment that kept American forces in the fight — a mission as critical as the combat arms it supported. Ordnance units operated in every theater, often under fire, keeping tanks moving, artillery firing, and infantry armed. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "hoar_r_f_army_ww_ii",
+   "name": "R.F. Hoar",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1880833,
+   "lng": -72.6287167,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/hoar_r_f_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "R.F. Hoar served in the United States Army during World War II. He may be related to J.J. Hoar, also a World War II veteran buried at Calvary Cemetery — though that connection has not been confirmed. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "hogan_ww_i_",
+   "name": "Hogan",
+   "era": "World War I",
+   "branch": "Unknown",
+   "branchLabel": "Unknown · WWI",
+   "lat": 42.1878889,
+   "lng": -72.6282722,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/hogan_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "Hogan served in the United States military during World War I. The first name is not recorded on the stone. His branch, unit, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "hogan__j_navy_ww_i",
+   "name": "J. Hogan",
+   "era": "World War I",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWI",
+   "lat": 42.187825,
+   "lng": -72.6283111,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/hogan_j_navy_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Hogan served in the United States Navy during World War I. He may be related to T. Hogan, a Massachusetts Infantry veteran also buried at Calvary Cemetery — though that connection has not been confirmed. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "hogan__t_mass_inf_",
+   "name": "Thomas Hogan",
+   "era": "Unknown Era",
+   "branch": "Massachusetts Infantry",
+   "branchLabel": "MA Infantry · Era Unknown",
+   "lat": 42.1876028,
+   "lng": -72.6272278,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/hogan_t_mass_inf.jpg",
+   "extraPhotos": [],
+   "narrative": "Thomas Hogan served in the Massachusetts Infantry. Massachusetts infantry units served in conflicts from the Civil War through World War I; the era of his service is not yet confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "hurley__g_r_usaf_vietnam",
+   "name": "G.R. Hurley",
+   "era": "Vietnam",
+   "branch": "U.S. Air Force",
+   "branchLabel": "Air Force · Vietnam",
+   "lat": 42.1879806,
+   "lng": -72.6296306,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/hurley__g_r_usaf_vietnam.jpg",
+   "extraPhotos": [],
+   "narrative": "G.R. Hurley served in the United States Air Force during the Vietnam War. The Air Force conducted more than three million sorties during the Vietnam conflict — including strategic bombing campaigns, close air support for ground forces, combat search and rescue, and airlift operations that sustained American and South Vietnamese forces throughout the war. His specific rank and assignment have not yet been confirmed from available records. He may be related to W. Hurley, a World War II Navy veteran also buried at Calvary Cemetery — though that connection has not been confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "hurley__w_navy_ww_ii",
+   "name": "W. Hurley",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1874861,
+   "lng": -72.6281444,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/hurley__w_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "W. Hurley served in the United States Navy during World War II. He may be related to G.R. Hurley, a Vietnam Air Force veteran also buried at Calvary Cemetery — though that connection has not been confirmed. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "hyde__j_army_ww_ii",
+   "name": "J. Hyde",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1896056,
+   "lng": -72.6292194,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/hyde__j_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Hyde served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "reynoldds_h_army_ww_ii",
+   "name": "Harold F. Reynolds",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.18785,
+   "lng": -72.6277556,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/reynoldds_h_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Harold F. Reynolds served in the United States Army during World War II, holding the rank of Technician Fifth Grade. The grade of Technician Fifth Class — TEC 5 — was introduced in 1942 to recognize soldiers with specialized technical skills, including mechanics, medics, radio operators, and supply specialists, who held technical responsibilities without command authority. TEC 5 soldiers were the trained backbone of Army logistics and support, keeping weapons, vehicles, and communications operational under combat conditions. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "sullivan_c_navy_ww_ii",
+   "name": "Cornelius J. Sullivan",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Navy",
+   "lat": 42.1877167,
+   "lng": -72.6272722,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/sullivan_c_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Cornelius J. Sullivan served in the United States Navy during World War II, holding the rate of Seaman First Class. Seaman First Class was a junior enlisted rating assigned across the fleet in deck operations, gunnery, and the many duties that kept warships operational in combat. His specific ship assignment and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "jones__h_army_ww_i",
+   "name": "H. Jones",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.1868083,
+   "lng": -72.6277,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/jones__h_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "H. Jones served in the United States Army during World War I. He may be related to R. Jones, a World War II Marine also buried nearby at Calvary Cemetery — though that connection has not been confirmed. His specific unit, rank, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "jones__r_usmc_ww_ii",
+   "name": "R. Jones",
+   "era": "World War II",
+   "branch": "U.S. Marine Corps",
+   "branchLabel": "Marine Corps · WWII",
+   "lat": 42.1868333,
+   "lng": -72.6277,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/jones__r_usmc_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "R. Jones served in the United States Marine Corps during World War II. The Marines fought their way across the Pacific in some of the bloodiest engagements of the war — Guadalcanal, Tarawa, Saipan, Iwo Jima, and Okinawa — island by island against a determined enemy in brutal terrain. He is buried adjacent to H. Jones and may be related — though that connection has not been confirmed. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "heigle__c_jr_usaf_vietnam",
+   "name": "Heigle, C. Jr.",
+   "era": "Vietnam",
+   "branch": "U.S. Air Force",
+   "branchLabel": "Air Force · Vietnam",
+   "lat": 42.1870083,
+   "lng": -72.627525,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/heigle_c_jr_usaf_vietnam.jpg",
+   "extraPhotos": [],
+   "narrative": "C. Heigle Jr. served in the United States Air Force during the Vietnam War. The Air Force played a central and complex role in Vietnam — from the strategic bombing campaigns over North Vietnam to close air support missions and the airlift operations that kept forces supplied across a vast and difficult theater. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "bedard__e_jr_usmc_vietnam",
+   "name": "Bedard, Ernest M. Jr.",
+   "era": "Vietnam",
+   "branch": "U.S. Marine Corps",
+   "branchLabel": "USMC · Vietnam",
+   "lat": 42.18956,
+   "lng": -72.6295,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/bedard__e_jr_usmc_vietnam.jpg",
+   "extraPhotos": [],
+   "narrative": "Ernest M. Bedard Jr. served in the United States Marine Corps during the Vietnam era, attaining the rank of Lance Corporal. Lance Corporals were the first non-commissioned rank in the Marine Corps — junior leaders who carried significant responsibility in the close-quarters combat that defined the Vietnam War. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "baldassaro__g_jr_usaf",
+   "name": "Baldassaro, Gerald A. Jr.",
+   "era": "Korean War",
+   "branch": "Air Force",
+   "branchLabel": "Air Force · Korean War Era",
+   "lat": 42.18889,
+   "lng": -72.62875,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/baldassaro__g_jr_usaf.jpg",
+   "extraPhotos": [],
+   "narrative": "Gerald A. Baldassaro Jr. served as an Airman 3rd Class in the United States Air Force Band. He died on March 19, 1954 at the age of 20. He was among six local airmen and officers from Ardmore Air Force Base killed when their C-119 Flying Boxcar exploded and crashed on farmland near Annapolis, Maryland. The plane had taken off from Bolling Air Force Base, Washington D.C. en route to Mitchell Air Force Base, Hempstead, Long Island. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "o_connell__h_jr_usaac_ww_ii",
+   "name": "O'Connell, H. Jr.",
+   "era": "World War II",
+   "branch": "Army Air Corps",
+   "branchLabel": "USAAC · WWII",
+   "lat": 42.1891972,
+   "lng": -72.6288139,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/o_connell_h_jr_usaac_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "H. O’Connell Jr. served in the United States Army Air Corps during World War II. The USAAC became the USAAF in 1941 and grew to the largest air force in history, conducting strategic bombing campaigns over Germany and Japan and close air support for ground forces in every theater. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "anderson__j_sr_army_ww_ii",
+   "name": "Anderson, John W. Sr.",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army",
+   "lat": 42.1882083,
+   "lng": -72.6290056,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/anderson_j_sr_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "John W. Anderson Sr. served as a Private First Class in the United States Army during World War II. The Private First Class was a soldier who had proven himself past the recruit's first days — trusted with the ordinary, essential work of the wartime Army, the man in the ranks who did the marching, the labor, and the fighting that carried the war forward. Born May 23, 1908, John was among the older men of Western Massachusetts called to serve, already in his thirties when he went. He passed away June 4, 1999, at the age of 91. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "chrzan__s_jr_navy_ww_ii",
+   "name": "Chrzan, Stanley P. Jr.",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.188525,
+   "lng": -72.62925,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/chrzan_s_jr_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Stanley P. Chrzan Jr. served in the United States Navy during World War II, attaining the rate of Radarman Second Class. Radarmen were among the Navy's most technically advanced specialists — operating the new radar systems that revolutionized naval warfare by detecting enemy ships, aircraft, and submarines at distances impossible to the naked eye. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session10"
+  },
+  {
+   "id": "halpin__t_jr_usaf_ww_ii",
+   "name": "Halpin, T. Jr.",
+   "era": "World War II",
+   "branch": "U.S. Air Force",
+   "branchLabel": "Air Force · WWII",
+   "lat": 42.1871306,
+   "lng": -72.6279833,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/halpin_t_jr_usaf_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "T. Halpin Jr. served in the United States Air Force during World War II — though the Air Force as an independent service was not yet established during the war, and he likely served in the Army Air Forces, which became the USAAF in 1941. The USAAF grew to nearly 2.4 million personnel by 1944, operating the largest air armada in history across theaters from the skies over Germany to the Pacific. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "martin__t_jr_army_korea",
+   "name": "Martin, T. Jr.",
+   "era": "Korean War",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · Korea",
+   "lat": 42.1870472,
+   "lng": -72.6299667,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/martin__t_jr_army_korea.jpg",
+   "extraPhotos": [],
+   "narrative": "T. Martin Jr. served in the United States Army during the Korean War. The Army bore the brunt of ground combat in Korea across three brutal years of fighting, from the desperate retreat to the Pusan Perimeter to the Inchon breakout, the advance toward the Yalu, and the long stalemate along the 38th parallel. ⚠️ GPS correction pending. His specific unit, rank, and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "lacey__w_f_jr_navy_wwii",
+   "name": "Lacey, W.F. Jr.",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1881111,
+   "lng": -72.6292639,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/lacey__w_f_jr_navy_wwii.jpg",
+   "extraPhotos": [],
+   "narrative": "W.F. Lacey Jr. served in the United States Navy during World War II. He may be related to R.M. Lacey, an Army veteran also buried at Calvary Cemetery — a family that appears to have served in both the Navy and Army, though that connection has not been confirmed. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "kamont__v_navy_ww_ii",
+   "name": "V. Kamont",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.188325,
+   "lng": -72.6292583,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/kamont__v_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "V. Kamont served in the United States Navy during World War II. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "kane_ef",
+   "name": "Edward F. Kane",
+   "era": "Pre-WWI / Early 20th Century",
+   "branch": "U.S. Cavalry",
+   "branchLabel": "U.S. Cavalry",
+   "lat": 42.18864166666666,
+   "lng": -72.62965277777776,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/kane_ef.jpg",
+   "extraPhotos": [],
+   "narrative": "Edward F. Kane served in Company 1, 2nd United States Cavalry, in the years before the First World War. The 2nd Cavalry was one of the Regular Army's oldest mounted regiments, and the cavalry of the early twentieth century stood at a turning point — passing from the horse-mounted troopers of the Indian Wars toward the mechanized force that modern war would demand. In those years the regiment served on the Mexican border and in the Philippines, the hard frontier duty of a peacetime army. Kane rode in its ranks. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "kane__j_usaf_korea",
+   "name": "J. Kane",
+   "era": "Korean War",
+   "branch": "U.S. Air Force",
+   "branchLabel": "Air Force · Korea",
+   "lat": 42.1885,
+   "lng": -72.6293861,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/kane__j_usaf_korea.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Kane served in the United States Air Force during the Korean War. He may be related to other Kane family veterans buried at Calvary Cemetery — though those connections have not been confirmed. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "kane_t",
+   "name": "T. Kane",
    "era": "Unknown Era",
    "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206781,
-   "lng": -72.623231,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/minkley%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Edward W. Minkley was born in 1908 and died in 1950, at forty-two. A World War I–style US veteran's badge stands at the family stone where he rests with his wife Christine Fritz and daughter Arlene. Born in 1908, Edward was too young for the First World War and of prime age for the Second — the badge marks his service, though the stone records no branch or war. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Morrison, Joseph P.",
-   "era": "World War II",
-   "branch": "Navy",
-   "branchLabel": "",
-   "lat": 42.206608,
-   "lng": -72.622161,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/morrison%20Medium.jpeg",
+   "branchLabel": "Military",
+   "lat": 42.188686,
+   "lng": -72.629631,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/kane_t.jpg",
    "extraPhotos": [],
-   "narrative": "Joseph P. Morrison was born March 17, 1927, and served as a Motor Machinist's Mate Third Class in the United States Naval Reserve during World War II. The rating meant he kept a ship's engines running — the men below deck in the heat and noise, on whom every vessel depended. He was still a teenager when he served in the war's final years, and died young, on September 27, 1963, at thirty-six. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "T. Kane served in the United States military. Branch, era, and service record have not been confirmed from the stone or available records. He may be related to other Kane family veterans buried at Calvary Cemetery — though those connections have not been confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": ""
   },
   {
-   "id": "",
-   "name": "Mulholland, Howard",
+   "id": "kane__w_army_ww_ii",
+   "name": "W. Kane",
    "era": "World War II",
-   "branch": "Air Force",
-   "branchLabel": "",
-   "lat": 42.206897,
-   "lng": -72.6232,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/mulholland%20H%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Lieutenant Colonel Howard Mulholland was born in 1912 and served as a career officer in the United States Air Force. He entered service in the era of the Army Air Corps, when military flight was still young, and rose steadily through the ranks over a career that spanned the Second World War, the birth of the independent Air Force in 1947, and into the Cold War jet age. To reach lieutenant colonel was the work of twenty years or more — a field-grade officer who might command a squadron or serve on the senior staff that plans and directs air operations, entrusted with hundreds of airmen and the aircraft they flew. He is remembered on the family stone with his parents, Albert Mulholland and Ella Meals, and died in 1972 at sixty. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Munkittrick, Leighton F.",
-   "era": "World War II",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206994,
-   "lng": -72.622911,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/munkittrick%20L%20F%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Leighton F. Munkittrick was born June 14, 1913, and rose to Master Sergeant in the United States Army, serving in both World War II and Korea. A master sergeant stood at the top of the enlisted ranks — the seasoned professional who ran a company's daily operations, trained and disciplined its soldiers, and served as the crucial link between the officers who gave orders and the men who carried them out. In combat he was the steady hand the young draftees looked to, and Leighton filled that role across two wars, a decade apart. He lived until February 10, 1984, dying at seventy. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Munkittrick, Raymond J.",
-   "era": "World War II",
-   "branch": "Navy",
-   "branchLabel": "",
-   "lat": 42.207019,
-   "lng": -72.622947,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/munkittrick%20r%20j%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Raymond J. Munkittrick was born in 1906 and served in the United States Navy. His marker records his rating as \"R2\" — a Second Class petty officer, though the specialty the letter stands for is ambiguous. In the World War II Navy it could mean Radioman, the sailor who sent and received the coded Morse traffic that carried orders and position reports across the fleet, working a fast hand and a sharp ear through long watches in the radio shack; or Radarman, one of the men who stood before the new radar scopes that were then transforming naval warfare, reading the glowing screens that could find ships and aircraft in darkness and fog long before any lookout. Which of the two Raymond was, the stone does not say. As a Second Class petty officer he was a skilled hand who also supervised the men under him. Older than his kinsman Leighton Munkittrick, he belonged to the generation that came of age between the wars, and lived a long life, dying in 1995 at eighty-nine. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Myers, Thomas W.",
-   "era": "World War II",
-   "branch": "Marines",
-   "branchLabel": "",
-   "lat": 42.206761,
-   "lng": -72.623008,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/myers%20t%20w%20Medium.jpeg",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1874778,
+   "lng": -72.6276694,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/kane__w_army_ww_ii.jpg",
    "extraPhotos": [],
-   "narrative": "Thomas W. Myers was born November 12, 1922, the son of Thomas J. and Lillian Dalton Myers of Holyoke. He served in the United States Marine Corps — the globe-and-anchor is carved on the family stone beside his name — and was killed in action on Guam on July 26, 1944, at twenty-one. The battle to retake Guam had opened just five days before; the Marines fought ashore against dug-in defenders through three weeks of jungle and ridgeline before the island was declared secure. Thomas did not live to see it. His parents chose the plainest and proudest of epitaphs for their son: Killed in Action in Guam. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "W. Kane served in the United States Army during World War II. He may be related to other Kane family veterans buried at Calvary Cemetery — though those connections have not been confirmed. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "kapinos__j_navy_korea",
+   "name": "J. Kapinos",
+   "era": "Korean War",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · Korea",
+   "lat": 42.1895361,
+   "lng": -72.62915,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/kapinos__j_navy_korea.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Kapinos served in the United States Navy during the Korean War. The Navy’s role in Korea included carrier air operations, shore bombardment, the critical Inchon amphibious landing, and sustained blockade operations throughout the conflict. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "kelly__j_t_army_ww_ii",
+   "name": "J Kelly",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army",
+   "lat": 42.188642,
+   "lng": -72.629692,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/kelly__j_t_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Kelly served in the United States Army during World War II. He may be related to other Kelly family veterans buried at Calvary Cemetery — though those connections have not been confirmed. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "kelly__j_j_army_kia_ww_i",
+   "name": "John J. Kelley",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.1870083,
+   "lng": -72.6280833,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/kelly__j_j_army_kia_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "John J. Kelley was killed in action during World War I — one of two veterans of the same name from Holyoke who served in that war, their stones standing in proximity at Calvary Cemetery as testament to a city that gave heavily to the cause. He served in the United States Army and died in service to his country on the Western Front. The full circumstances of his death have not yet been confirmed from available records, but his marker endures as a permanent record of his sacrifice. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
@@ -4344,2417 +2385,3322 @@ window.VA = {
    "source": ""
   },
   {
-   "id": "",
-   "name": "Nelson, Charles S.",
-   "era": "World War II",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206856,
-   "lng": -72.623086,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/nelson%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Charles S. Nelson was born June 16, 1909, and served as a Technician Fifth Grade in Headquarters Battery, 790th Field Artillery Battalion, during World War II. A Tec 5 wore two stripes and did a specialist's skilled work — in a field artillery headquarters battery, that meant the communications, fire-direction, and technical tasks that let the big guns shoot accurately. Already in his thirties when he served, Charles was an older hand among the battery's younger men. He died October 18, 1965, at fifty-six. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "Nichols, Winifred E.",
-   "era": "World War II",
-   "branch": "Women's Army Corps",
-   "branchLabel": "",
-   "lat": 42.206978,
-   "lng": -72.622978,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/nichols%20w%20p%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Winifred E. Nichols was born in 1911 and served in the Women's Army Corps during World War II. She enlisted in New York City on February 8, 1943, having completed two years of college — one of the American women who stepped into uniform so that a man could step into the fight. The WAC took on the Army's clerical, communications, and technical work at posts across the country and overseas, and by war's end more than 150,000 women had served in its ranks. Winifred was among the first year of them. She died in 1958 at forty-seven, and rests on the family stone with Flossie A. and Vera E. Nichols. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "",
-   "name": "O'Connell, Raymond M.",
+   "id": "kelly__j_j_mass_inf_ww_i_ph",
+   "name": "John J. Kelley",
    "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.206828,
-   "lng": -72.622056,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/o'connell%20Medium.jpeg",
+   "branch": "Massachusetts Infantry",
+   "branchLabel": "MA Infantry · WWI",
+   "lat": 42.1877972,
+   "lng": -72.6289,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/kelly__j_j_mass_inf_ww_i_ph.jpg",
    "extraPhotos": [],
-   "narrative": "Raymond M. O'Connell was born November 11, 1896 — a date that would become Armistice Day — and served as a Private in the United States Army during the First World War. He was of the generation of Holyoke men who came of age just as America entered the war in 1917, called from the mills and streets of the city into the great conflict overseas. Raymond lived a long life after, dying December 17, 1985, at eighty-nine, one of the last of Holyoke's Great War veterans. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "John J. Kelley served in the Massachusetts Infantry during World War I and was awarded the Purple Heart for wounds received in action — one of two veterans of the same name from Holyoke whose stones stand at Calvary Cemetery. The Purple Heart, reestablished by President Hoover in 1932 and retroactively awarded to those wounded in World War I, recognized the sacrifice of men who bled for their country. Kelley survived his wounds and came home, carrying the mark of his service for the rest of his life. His specific regiment, company, and the circumstances of his wounding have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Purple Heart"
+   ],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "kelly__t_j_army_ww_ii___korea",
+   "name": "T.J. Kelly",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1867972,
+   "lng": -72.6275417,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/kelly__t_j_army_ww_ii___korea.jpg",
+   "extraPhotos": [],
+   "narrative": "T.J. Kelly served in the United States Army during both World War II and the Korean War — a span of service across two of the defining conflicts of the twentieth century. Men who served in both wars were part of an extraordinary generation that answered their country’s call twice. His specific units, ranks, and service records across both conflicts have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": ""
   },
   {
-   "id": "",
-   "name": "Oliver, James W.",
+   "id": "kelly__w_us_merch_marine_ww_ii",
+   "name": "W. Kelly",
+   "era": "World War II",
+   "branch": "U.S. Merchant Marine",
+   "branchLabel": "Merchant Marine · WWII",
+   "lat": 42.188075,
+   "lng": -72.6273722,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/kelly__w_us_merch_marine_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "W. Kelly served in the United States Merchant Marine during World War II. The Merchant Marine was the lifeline of the Allied war effort — the men who crewed the cargo ships carrying food, fuel, weapons, and supplies across the North Atlantic under constant threat from German U-boats. The Merchant Marine suffered the highest casualty rate of any American service during the war: one in twenty-six mariners died — a higher proportional loss than any branch of the armed forces. They sailed without weapons and without naval escort for much of the war, and they kept the Allies supplied. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "kennedy__e_w_inf_abn_ww_ii",
+   "name": "E.W. Kennedy",
+   "era": "World War II",
+   "branch": "U.S. Infantry",
+   "branchLabel": "Infantry · WWII",
+   "lat": 42.1878694,
+   "lng": -72.6274417,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/kennedy__e_w_inf_abn_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "E.W. Kennedy served in the United States Infantry, Airborne, during World War II. Airborne infantry were the elite shock troops of the Army — parachuting or gliding into combat behind enemy lines, seizing objectives before the main force arrived, and fighting surrounded until relieved. American airborne divisions jumped into Sicily, Normandy, southern France, Holland, and crossed the Rhine in operations that demanded extraordinary physical and mental toughness. His specific division, regiment, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "kennedy__f_army_ww_ii",
+   "name": "F. Kennedy",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1891417,
+   "lng": -72.6287611,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/kennedy__f_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "F. Kennedy served in the United States Army during World War II. He may be related to other Kennedy family veterans buried at Calvary Cemetery — though those connections have not been confirmed. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "kennedy__j_m_us_army_air_corps_ww_ii",
+   "name": "J.M. Kennedy",
+   "era": "World War II",
+   "branch": "U.S. Army Air Corps",
+   "branchLabel": "Army Air Corps · WWII",
+   "lat": 42.1873472,
+   "lng": -72.6276167,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/kennedy__j_m_us_army_air_corps_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J.M. Kennedy served in the United States Army Air Corps during World War II. The Army Air Corps became the Army Air Forces in 1941 and grew to nearly 2.4 million personnel by 1944, conducting strategic bombing campaigns over Germany and Japan, close air support for ground forces, and airlift and patrol missions across every theater. He may be related to other Kennedy family veterans buried at Calvary Cemetery — though those connections have not been confirmed. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "kennedy__j_p_usnrf",
+   "name": "J.P. Kennedy",
+   "era": "World War I",
+   "branch": "U.S. Naval Reserve Force",
+   "branchLabel": "Naval Reserve Force · WWI",
+   "lat": 42.1878278,
+   "lng": -72.6272889,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/kennedy__j_p_usnrf.jpg",
+   "extraPhotos": [],
+   "narrative": "J.P. Kennedy served in the United States Naval Reserve Force during World War I. The Naval Reserve Force was established in 1915 to expand the Navy’s capacity for wartime mobilization, and its members served alongside regular Navy personnel in convoy escort, coastal patrol, and support roles throughout the war. He may be related to other Kennedy family veterans buried at Calvary Cemetery — though those connections have not been confirmed. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "kennedy__m_f_mass_inf_civil_war",
+   "name": "M.F. Kennedy",
+   "era": "Civil War Era",
+   "branch": "Massachusetts Infantry",
+   "branchLabel": "MA Infantry · Civil War",
+   "lat": 42.188175,
+   "lng": -72.6277861,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/kennedy__m_f_mass_inf_civil_war.jpg",
+   "extraPhotos": [],
+   "narrative": "M.F. Kennedy served in the Massachusetts Infantry during the Civil War era. Massachusetts contributed more than 150,000 men to the Union cause across dozens of infantry, cavalry, and artillery regiments, and its men fought in every major campaign of the eastern theater. A GAR marker at his grave recognizes his Union service. His specific regiment, company, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "kennedy__r_mass_infantry_ww_i",
+   "name": "R. Kennedy",
+   "era": "World War I",
+   "branch": "Massachusetts Infantry",
+   "branchLabel": "MA Infantry · WWI",
+   "lat": 42.1891583,
+   "lng": -72.6287611,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/kennedy__r_mass_infantry_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "R. Kennedy served in the Massachusetts Infantry during World War I. The Massachusetts National Guard was federalized in 1917 and its infantry units were reorganized into the 26th Division — the Yankee Division — which served on the Western Front and fought in the Aisne-Marne, St. Mihiel, and Meuse-Argonne campaigns. He is buried near F. Kennedy and may be related — though that connection has not been confirmed. His specific regiment, company, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "kenz__s_army_ww_ii",
+   "name": "S. Kenz",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1882083,
+   "lng": -72.6296833,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/kenz__s_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "S. Kenz served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "king__j_n_navy_wwii",
+   "name": "J.N. King",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1883194,
+   "lng": -72.6295472,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/king__j_n_navy_wwii.jpg",
+   "extraPhotos": [],
+   "narrative": "J.N. King served in the United States Navy during World War II. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "kleindienst__g_coast_art_ww_i",
+   "name": "G. Kleindienst",
+   "era": "World War I",
+   "branch": "U.S. Coast Artillery",
+   "branchLabel": "Coast Artillery · WWI",
+   "lat": 42.1885806,
+   "lng": -72.6283194,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/kleindienst__g_coast_art_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "G. Kleindienst served in the United States Coast Artillery during World War I. The Coast Artillery Corps manned the fixed fortifications and heavy guns that defended American harbors and coastlines, and also provided the large-caliber artillery units that supported Army operations in France. American coast artillery units were reorganized for overseas service and deployed to the Western Front, where their heavy guns contributed to the bombardments of the Meuse-Argonne Offensive. His specific unit, rank, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "kmon__w_army_ww_ii",
+   "name": "W. Kmon",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1870944,
+   "lng": -72.62825,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/kmon__w_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "W. Kmon served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "konopka__c_army_ww_ii",
+   "name": "C. Konopka",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1874306,
+   "lng": -72.6271583,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/konopka__c_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "C. Konopka served in the United States Army during World War II. He is buried near G. Konopka and may be related — though that connection has not been confirmed. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "konopka__g_usn_ww_ii",
+   "name": "G. Konopka",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.187425,
+   "lng": -72.6271972,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/konopka__g_usn_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "G. Konopka served in the United States Navy during World War II. He may be related to C. Konopka, an Army veteran also buried at Calvary Cemetery — though that connection has not been confirmed. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "kosinski__c_navy_ww_ii__korea",
+   "name": "C. Kosinski",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1870694,
+   "lng": -72.6274944,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/kosinski__c_navy_ww_ii__korea.jpg",
+   "extraPhotos": [],
+   "narrative": "C. Kosinski served in the United States Navy during both World War II and the Korean War — a span of service across two conflicts separated by only five years of uneasy peace. Men who served in both wars answered their country’s call twice within a single decade. His specific rates and assignments across both conflicts have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "lacey__r_m_army_ww_ii",
+   "name": "R.M. Lacey",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.188075,
+   "lng": -72.6292639,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/lacey__r_m_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "R.M. Lacey served in the United States Army during World War II. He may be related to W.F. Lacey Jr., a Navy veteran also buried at Calvary Cemetery — though that connection has not been confirmed. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "lacoste__h_army_",
+   "name": "H. Lacoste",
+   "era": "Unknown Era",
+   "branch": "U.S. Army",
+   "branchLabel": "U.S. Army",
+   "lat": 42.1876806,
+   "lng": -72.6278694,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/lacoste_h_army.jpg",
+   "extraPhotos": [],
+   "narrative": "H. Lacoste served in the United States Army. The era of his service is not recorded on the stone and has not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "laferriere__e_usn_",
+   "name": "E. Laferriere",
+   "era": "Unknown Era",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · Era Unknown",
+   "lat": 42.1881222,
+   "lng": -72.6276472,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/laferriere_e_usn.jpg",
+   "extraPhotos": [],
+   "narrative": "E. Laferriere served in the United States Navy. The era of his service is not recorded on the stone and has not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "lajoie__f_mass_inf",
+   "name": "F. Lajoie",
+   "era": "Unknown Era",
+   "branch": "Massachusetts Infantry",
+   "branchLabel": "MA Infantry · Era Unknown",
+   "lat": 42.1884111,
+   "lng": -72.6280833,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/lajoie__f_mass_inf.jpg",
+   "extraPhotos": [],
+   "narrative": "F. Lajoie served in the Massachusetts Infantry. The era of his service is not recorded on the stone — Massachusetts Infantry units served in conflicts from the Civil War through World War I. He may be related to J.E. Lajoie, an Army veteran also buried at Calvary Cemetery — though that connection has not been confirmed. His specific regiment and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "lajoie__j_e_army_ww_ii",
+   "name": "J.E. Lajoie",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1884472,
+   "lng": -72.6280583,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/lajoie__j_e_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J.E. Lajoie served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "lange__f_army_wwi_purple_heart",
+   "name": "F. Lange",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.1871139,
+   "lng": -72.6271528,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/lange__f_army_wwi_purple_heart.jpg",
+   "extraPhotos": [],
+   "narrative": "Fred W. Lange served as a Private in the Machine Gun Company, 58th Infantry, during World War I, and was awarded the Purple Heart for wounds received in action. He entered service March 29, 1918, and went to France with the American Expeditionary Forces. The 58th Infantry belonged to the 4th Division, which fought in the Aisne-Marne counteroffensive of that summer and then through the Meuse-Argonne, the war's climactic battle. The machine-gun companies held the deadliest ground on the Western Front — the massed automatic fire that broke infantry assaults, and drew the enemy's artillery and guns in return. Lange was wounded on that ground and survived, returning to Holyoke carrying the mark of his service. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Purple Heart"
+   ],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "lappin__b_mass_evac_hosp_med_dept",
+   "name": "B. Lappin",
+   "era": "World War I",
+   "branch": "Massachusetts Evacuation Hospital, Medical Dept.",
+   "branchLabel": "MA Evacuation Hospital, Medical Dept. · WWI",
+   "lat": 42.1872417,
+   "lng": -72.6276389,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/lappin__b_mass_evac_hosp_med_dept.jpg",
+   "extraPhotos": [],
+   "narrative": "B. Lappin served in the Massachusetts Evacuation Hospital, Medical Department, during World War I. Evacuation hospitals were the critical middle link in the chain of casualty care on the Western Front — positioned close enough to the front lines to receive the wounded quickly, yet equipped to perform surgery and stabilize men for transport to base hospitals further in the rear. The medical staff of evacuation hospitals worked under fire and under extraordinary pressure, triaging and treating casualties from some of the most intense battles in American history. His specific rank and role within the unit have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "laughter__a_r_usaaf_ww_ii",
+   "name": "A.R. Laughter",
+   "era": "World War II",
+   "branch": "U.S. Army Air Forces",
+   "branchLabel": "Army Air Forces · WWII",
+   "lat": 42.1894944,
+   "lng": -72.6289667,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/laughter__a_r_usaaf_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "A.R. Laughter served in the United States Army Air Forces during World War II. The USAAF grew to nearly 2.4 million personnel by 1944 and conducted the largest sustained strategic bombing campaign in history, alongside close air support, airlift, and patrol missions across every theater. He is buried near J.J. Laughter and may be related — though that connection has not been confirmed. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "laughter__j_j_usmc_vietnam",
+   "name": "J.J. Laughter",
+   "era": "Vietnam",
+   "branch": "U.S. Marine Corps",
+   "branchLabel": "Marine Corps · Vietnam",
+   "lat": 42.1895111,
+   "lng": -72.6289667,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/laughter__j_j_usmc_vietnam.jpg",
+   "extraPhotos": [],
+   "narrative": "J.J. Laughter served in the United States Marine Corps during the Vietnam War. The Marines bore some of the heaviest combat of the Vietnam conflict, particularly in I Corps — the northernmost military region of South Vietnam — where they conducted sustained operations against both North Vietnamese Army regulars and Viet Cong forces in difficult jungle and mountain terrain. He may be related to A.R. Laughter, a World War II USAAF veteran also buried at Calvary Cemetery — though that connection has not been confirmed. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "lavelle__e_navy_ww_ii",
+   "name": "E. Lavelle",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1878583,
+   "lng": -72.6287167,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/lavelle__e_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "E. Lavelle served in the United States Navy during World War II. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "lawrence__g_army_ww_i",
+   "name": "G. Lawrence",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.1870111,
+   "lng": -72.6276083,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/lawrence__g_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "G. Lawrence served in the United States Army during World War I. His specific unit, rank, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "leahy__d_mass_cavalry",
+   "name": "Daniel Francis Leahy",
+   "era": "Civil War Era",
+   "branch": "Massachusetts Cavalry",
+   "branchLabel": "MA Cavalry · Civil War",
+   "lat": 42.1893,
+   "lng": -72.6294694,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/leahy__d_mass_cavalry.jpg",
+   "extraPhotos": [],
+   "narrative": "Daniel Francis Leahy served as a 1st Lieutenant in the Massachusetts Cavalry during the Civil War era. His gravestone carries the GAR emblem — the Grand Army of the Republic, the veteran organization of Union soldiers — confirming his service to the Union cause. Massachusetts cavalry regiments served in the eastern theater, conducting reconnaissance, screening infantry movements, and fighting in the mounted engagements that ranged from Gettysburg to the final campaigns in Virginia. His specific regiment and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "leahy_j_j_mtc_ww_i_",
+   "name": "J.J. Leahy",
+   "era": "World War I",
+   "branch": "Motor Transport Corps",
+   "branchLabel": "MTC · WWI",
+   "lat": 42.1874389,
+   "lng": -72.6273722,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/leahy_j_j_mtc_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "J.J. Leahy served in the Motor Transport Corps during World War I. The Motor Transport Corps was responsible for the trucks, ambulances, and supply vehicles that moved men and materiel across the Western Front — a logistical revolution that made the AEF’s operations possible. Drivers and mechanics of the MTC operated under fire, keeping the supply chain running through mud, bombardment, and gas attacks. He may be related to Daniel Francis Leahy, a Civil War cavalry officer also buried at Calvary Cemetery — though that connection has not been confirmed. His specific unit and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "leary__f_army_wwi",
+   "name": "F. Leary",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.187775,
+   "lng": -72.6277556,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/leary__f_army_wwi.jpg",
+   "extraPhotos": [],
+   "narrative": "F. Leary served in the United States Army during World War I. He may be related to G. Leary and T.F. Leary, World War II veterans also buried at Calvary Cemetery — though those connections have not been confirmed. His specific unit, rank, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "leary__g_navy_ww_ii",
+   "name": "G. Leary",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1871806,
+   "lng": -72.6282417,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/leary__g_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "G. Leary served in the United States Navy during World War II. He may be related to F. Leary and T.F. Leary, also veterans buried at Calvary Cemetery — though those connections have not been confirmed. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "leary__t_f_navy_ww_ii",
+   "name": "T.F. Leary",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1872028,
+   "lng": -72.6274333,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/leary__t_f_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "T.F. Leary served in the United States Navy during World War II. He may be related to F. Leary and G. Leary, also veterans buried at Calvary Cemetery — though those connections have not been confirmed. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "leblanc__a_usmc_ww_i",
+   "name": "A. LeBlanc",
+   "era": "World War I",
+   "branch": "U.S. Marine Corps",
+   "branchLabel": "Marine Corps · WWI",
+   "lat": 42.1872889,
+   "lng": -72.6270917,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/leblanc__a_usmc_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "A. LeBlanc served in the United States Marine Corps during World War I. The Marines deployed to France as part of the American Expeditionary Forces and fought in some of the most celebrated engagements of the war — including the Battle of Belleau Wood in June 1918, where the 4th Marine Brigade stopped a German offensive and earned a reputation for ferocity that endures to this day. His specific unit, rank, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "leclair__e_navy_ww_ii_",
+   "name": "E. LeClair",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1889083,
+   "lng": -72.6289139,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/leclair_e_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "E. LeClair served in the United States Navy during World War II. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "lee__r_army_ww_ii",
+   "name": "R. Lee",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1882278,
+   "lng": -72.6293861,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/lee__r_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "R. Lee served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "liebeck__e_army_ww_ii",
+   "name": "E. Liebeck",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1876444,
+   "lng": -72.6280139,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/liebeck__e_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "E. Liebeck served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "liebel__m_usn_ww_ii",
+   "name": "M. Liebel",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1878556,
+   "lng": -72.6287167,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/liebel__m_usn_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "M. Liebel served in the United States Navy during World War II. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "losty____navy_ww_ii_ph",
+   "name": "John E. Losty",
+   "era": "World War II",
+   "branch": "U.S. Coast Guard",
+   "branchLabel": "Coast Guard · WWII",
+   "lat": 42.1875444,
+   "lng": -72.6270361,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/losty____navy_ww_ii_ph.jpg",
+   "extraPhotos": [],
+   "narrative": "Born June 1, 1915 · Died December 12, 1997. John E. Losty served in the United States Coast Guard during World War II, holding the rate of Seaman Apprentice (SA) — Seaman Apprentices are responsible for general deckhand and shipboard duties. The Coast Guard's role in the war expanded dramatically during this period, growing from roughly 10,000 personnel before Pearl Harbor to over 170,000 by 1945. Placed under Navy command for the war's duration, Coast Guard crews ran anti-submarine patrols against German U-boats along the Atlantic coast, escorted merchant convoys carrying war material overseas, and crewed the troop transports and landing craft that put soldiers ashore at Normandy and across the Pacific islands. The Losty family sent multiple members to serve across different branches during the war — John in the Coast Guard, alongside other family members who served in the Navy and Army — a striking record of one Holyoke family's collective wartime service. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "losty__w_usn_ww_ii_ph",
+   "name": "W. Losty",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1875444,
+   "lng": -72.6270306,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/losty__w_usn_ww_ii_ph.jpg",
+   "extraPhotos": [],
+   "narrative": "W. Losty served in the United States Navy during World War II and was awarded the Purple Heart. The Losty family sent multiple members to serve — W. Losty and another Losty in the Navy, and J. Losty in both the Coast Guard and Army. W. Losty's Purple Heart marks a wound suffered in the service of his country. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Purple Heart"
+   ],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "loudon__n_navy_ww_i",
+   "name": "N. Loudon",
+   "era": "World War I",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWI",
+   "lat": 42.1879806,
+   "lng": -72.6297139,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/loudon__n_navy_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "N. Loudon served in the United States Navy during World War I. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "lupien__h_",
+   "name": "H. Lupien",
+   "era": "Unknown Era",
+   "branch": "Unknown",
+   "branchLabel": "Unknown · Era Unknown",
+   "lat": 42.1869917,
+   "lng": -72.6272056,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/lupien_h.jpg",
+   "extraPhotos": [],
+   "narrative": "H. Lupien served in the United States military. Branch and era of service have not been confirmed from the stone or available records. A veteran marker stands at this grave at Calvary Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "madru__l_army_ww_i",
+   "name": "L. Madru",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.1886778,
+   "lng": -72.62815,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/madru__l_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "Louis Madru served as a Private in Battery F, 3rd Field Artillery, during World War I. He entered service on August 28, 1918, and trained at Camp Jackson, South Carolina. The field artillery was the deadliest arm of the war — the guns that did the greatest share of the killing on the Western Front — and Madru was one of the Holyoke men who crewed them. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "mahoney__w_navy_ww_ii",
+   "name": "William R. Mahoney",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy",
+   "lat": 42.1887806,
+   "lng": -72.6293556,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mahoney__w_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "William R. Mahoney served as a Construction Mechanic First Class in the United States Navy during World War II. Construction Mechanics kept the Navy’s vehicles, heavy equipment, and machinery operational — the rate that built and maintained the Seabees’ infrastructure across forward bases in the Pacific. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "maloney__t_navy_ww_ii",
+   "name": "T. Maloney",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1884306,
+   "lng": -72.6284333,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/maloney__t_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "T. Maloney served in the United States Navy during World War II. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "mann__e_killed_in_france_ww_i",
+   "name": "E. Mann",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.1873028,
+   "lng": -72.6276472,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mann__e_killed_in_france_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "E. Mann was killed in action in France during World War I, and his marker at Calvary Cemetery stands as a memorial to a man who did not come home. He served in the United States Army on the Western Front, where the American Expeditionary Forces fought in some of the bloodiest campaigns in American history — Belleau Wood, the Meuse-Argonne, the final push to end the war. Mann fell on French soil, and his name is recorded here as a permanent record of his sacrifice. He is buried near H.L. Mann and may be related — though that connection has not been confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "mann__e_navy_ww_ii",
+   "name": "E. Mann",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1880028,
+   "lng": -72.6296917,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mann__e_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "E. Mann served in the United States Navy during World War II. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "mann__h_l_inf_",
+   "name": "H.L. Mann",
+   "era": "Unknown Era",
+   "branch": "U.S. Infantry",
+   "branchLabel": "Infantry · Era Unknown",
+   "lat": 42.1873361,
+   "lng": -72.6276167,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mann_h_l_inf.jpg",
+   "extraPhotos": [],
+   "narrative": "H.L. Mann served in the United States Infantry. The era of his service is not recorded on the stone and has not yet been confirmed from available records. He is buried near E. Mann, who was killed in action in France during World War I, and may be related — though that connection has not been confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "marion__e_army_ww_i",
+   "name": "E. Marion",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.18745,
+   "lng": -72.6273194,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/marion__e_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "E. Marion served in the United States Army during World War I. His specific unit, rank, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "marrion__j_army",
+   "name": "J. Marrion",
+   "era": "Unknown Era",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · Era Unknown",
+   "lat": 42.1880917,
+   "lng": -72.6294778,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/marrion__j_army.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Marrion served in the United States Army. The era of his service is not recorded on the stone and has not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "martin__t_uscg_ww_ii",
+   "name": "T. Martin",
+   "era": "World War II",
+   "branch": "U.S. Coast Guard",
+   "branchLabel": "Coast Guard · WWII",
+   "lat": 42.1876611,
+   "lng": -72.6288306,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/martin__t_uscg_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "T. Martin served in the United States Coast Guard during World War II. The Coast Guard expanded dramatically after Pearl Harbor, with its crews conducting convoy escort across the North Atlantic, amphibious operations in every theater, and port security along the American coastline. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "unknown_vet_mass_",
+   "name": "Bernard R. McAllister",
+   "era": "Unknown Era",
+   "branch": "",
+   "branchLabel": "Unknown",
+   "lat": 42.1891138888889,
+   "lng": -72.6284166666667,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/unknown_vet_mass_.jpg",
+   "extraPhotos": [],
+   "narrative": "Bernard R. McAllister served as a Private in the United States Army during World War I, assigned to the 17th Machine Gun Battalion. Machine gun battalions provided the sustained defensive fire that anchored infantry positions on the Western Front — the weapons that defined trench warfare and shaped the tactics of the entire conflict. McAllister’s specific service record and the campaigns of the 17th Machine Gun Battalion have not yet been fully confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "mazzolini__a_usaf_korea",
+   "name": "A. Mazzolini",
+   "era": "Korean War",
+   "branch": "U.S. Air Force",
+   "branchLabel": "Air Force · Korea",
+   "lat": 42.1878861,
+   "lng": -72.6287306,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mazzolini__a_usaf_korea.jpg",
+   "extraPhotos": [],
+   "narrative": "A. Mazzolini served in the United States Air Force during the Korean War. The Air Force established and maintained air superiority over the Korean peninsula, flew close air support missions for ground troops, and conducted interdiction campaigns against North Korean supply lines. He may be related to E. and J. Mazzolini, also veterans buried at Calvary Cemetery — though those connections have not been confirmed. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "mazzolini__e_usaaf_ww_ii",
+   "name": "E. Mazzolini",
+   "era": "World War II",
+   "branch": "U.S. Army Air Forces",
+   "branchLabel": "USAAF · WWII",
+   "lat": 42.1888472,
+   "lng": -72.6292583,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mazzolini__e_usaaf_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "E. Mazzolini served in the United States Army Air Forces during World War II. He may be related to A. and J. Mazzolini, also veterans buried at Calvary Cemetery — a family that appears to have served across multiple branches and conflicts, though those connections have not been confirmed. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "mazzolini__j_army_ww_ii",
+   "name": "J. Mazzolini",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1882139,
+   "lng": -72.6286694,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mazzolini__j_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Mazzolini served in the United States Army during World War II. He may be related to A. and E. Mazzolini, also veterans buried at Calvary Cemetery — though those connections have not been confirmed. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "mcallister__g_army_ww_i",
+   "name": "G. McAllister",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.187675,
+   "lng": -72.6285028,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mcallister__g_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "George McAllister served as a Private in Company L, 325th Infantry, during World War I. He entered service on October 7, 1917, and went overseas with the American Expeditionary Forces. The 325th was part of the 82nd Division — the 'All-American' Division — which saw hard fighting in the St. Mihiel and Meuse-Argonne offensives that broke the German lines in the war's final months. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "mccarthy__c_d_usnr_korea",
+   "name": "C.D. McCarthy",
+   "era": "Korean War",
+   "branch": "U.S. Naval Reserve",
+   "branchLabel": "USNR · Korea",
+   "lat": 42.1889111,
+   "lng": -72.6293806,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mccarthy__c_d_usnr_korea.jpg",
+   "extraPhotos": [],
+   "narrative": "C.D. McCarthy served in the United States Naval Reserve during the Korean War. Naval Reserve personnel served alongside active-duty Navy in all aspects of the Korean conflict, from carrier operations to shore bombardment and the critical Inchon amphibious landing. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "mccarthy__j_f_mass_inf_ww_ii",
+   "name": "J.F. McCarthy",
+   "era": "World War II",
+   "branch": "Massachusetts Infantry",
+   "branchLabel": "MA Infantry · WWII",
+   "lat": 42.18745,
+   "lng": -72.6271972,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mccarthy__j_f_mass_inf_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J.F. McCarthy served in the Massachusetts Infantry during World War II. Massachusetts National Guard infantry units were federalized for World War II and served in various theaters. His specific unit, rank, and theater have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "mcclean_usmc",
+   "name": "McLean",
+   "era": "Unknown Era",
+   "branch": "U.S. Marine Corps",
+   "branchLabel": "USMC",
+   "lat": 42.18895,
+   "lng": -72.6287,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mcclean_usmc.jpg",
+   "extraPhotos": [],
+   "narrative": "McLean served in the United States Marine Corps. Branch is confirmed from the stone; full name, era, and service record have not yet been confirmed from available records. A veteran marker stands at this grave at Calvary Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "mcconnell__j_army_ww_ii",
+   "name": "J. McConnell",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1869167,
+   "lng": -72.6281444,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mcconnell__j_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J. McConnell served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "mccormack",
+   "name": "E. McCormack",
+   "era": "World War I",
+   "branch": "Massachusetts SATC",
+   "branchLabel": "MA SATC · WWI",
+   "lat": 42.18900277777777,
+   "lng": -72.6287,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mccormack.jpg",
+   "extraPhotos": [],
+   "narrative": "E. McCormack served in the Massachusetts Student Army Training Corps (SATC) during World War I. The SATC was established in 1918 to train college students for military service while allowing them to continue their education — a program that affected campuses across the country as the Army drew on American universities to develop its officer corps. He may be related to G. McCormack, a Silver Star recipient also buried at Calvary Cemetery — though that connection has not been confirmed. His specific institution and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "mccormack__g_mass_amb_div_ww_i_ss",
+   "name": "G. McCormack",
+   "era": "World War I",
+   "branch": "Massachusetts Ambulance Division",
+   "branchLabel": "MA Amb. Div. · WWI",
+   "lat": 42.1889806,
+   "lng": -72.6287167,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mccormack__g_mass_amb_div_ww_i_ss.jpg",
+   "extraPhotos": [],
+   "narrative": "G. McCormack served in the Massachusetts Ambulance Division during World War I and was awarded the Silver Star for gallantry in action — the third-highest military decoration for valor. Ambulance division personnel operated in some of the most dangerous conditions on the Western Front, driving to the front lines under fire to evacuate the wounded, often in vehicles with no armor and no protection against the artillery and gas that filled the air. To earn the Silver Star in that service required extraordinary courage. He may be related to E. McCormack, also a World War I veteran buried at Calvary Cemetery — though that connection has not been confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Silver Star"
+   ],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "mcdonald__v_us_army_nurse_corp_ww_ii",
+   "name": "V. McDonald",
+   "era": "World War II",
+   "branch": "Army Nurse Corps",
+   "branchLabel": "Army Nurse Corps · WWII",
+   "lat": 42.1881167,
+   "lng": -72.6277472,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mcdonald__v_us_army_nurse_corp_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "V. McDonald served in the United States Army Nurse Corps during World War II — one of the women who answered the country’s call to serve in uniform at a time when military nursing was among the few roles open to women in the armed forces. Army Nurses served in every theater of the war, working in field hospitals, evacuation hospitals, and base hospitals under conditions that ranged from tropical heat to arctic cold — often under fire. More than 59,000 American women served as Army Nurses in World War II. Her specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Female Veteran"
+   ],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "mcdonnell_army_ww_ii",
+   "name": "McDonnell",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1869167,
+   "lng": -72.6281444,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mcdonnell_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "McDonnell served in the United States Army during World War II. Full name, unit, rank, and theater of operations have not been confirmed from the stone or available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "mcginty__m_army_korea",
+   "name": "M. McGinty",
+   "era": "Korean War",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · Korea",
+   "lat": 42.1882333,
+   "lng": -72.6297139,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mcginty__m_army_korea.jpg",
+   "extraPhotos": [],
+   "narrative": "M. McGinty served in the United States Army during the Korean War. The Army bore the brunt of ground combat in Korea across three brutal years of fighting, from the desperate retreat to the Pusan Perimeter in 1950 through the stalemate along the 38th parallel that ended with the armistice of July 1953. His specific unit, rank, and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "mcguines__e_army_ww_ii",
+   "name": "E Mcguines",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army",
+   "lat": 42.188781,
+   "lng": -72.629875,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mcguines__e_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "E. McGuines served in the United States Army during World War II. ⚠️ GPS correction pending. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "mckillop__w_military",
+   "name": "McKillop, William",
    "era": "Unknown Era",
    "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.2067,
-   "lng": -72.622514,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/oliver%20Medium.jpeg",
+   "branchLabel": "Military · Era Unknown",
+   "lat": 42.1883056,
+   "lng": -72.6292417,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mckilltop_m_mckilltop_w.jpg",
    "extraPhotos": [],
-   "narrative": "James W. Oliver was born in 1889 and died in 1976, at eighty-seven. He rests with his wife Christina Gibson on a stone marked with the Masonic square and compasses. No branch, war, or veteran's marker appears at the grave, and his service is not confirmed — he is recorded here pending further research to establish whether he was a veteran. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "William McKillop was born in 1883 and died in 1910 at the age of 27. His stone at Calvary Cemetery records his name alongside his brother Matthew, who died in military service. William's own military service has not been confirmed from the stone or available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "mckillop__m_wwi",
+   "name": "McKillop, Matthew J.",
+   "era": "World War I",
+   "branch": "U.S. Military",
+   "branchLabel": "Military · WWI",
+   "lat": 42.1883056,
+   "lng": -72.6292417,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mckilltop_m_mckilltop_w.jpg",
+   "extraPhotos": [],
+   "narrative": "Matthew J. McKillop served as a Gunner's Mate in the United States Navy during World War I. He enlisted in 1916 at Baltimore and was stationed aboard the battleship U.S.S. Utah. Born March 5, 1886, he did not live to see the war's end — he died at Newport News, Virginia, on March 15, 1918, of pneumonia, at the age of 31, and was brought home to be buried in Holyoke. His stone bears the inscription DIED IN THE SERVICE AT PORTSMOUTH VA. The influenza and pneumonia that swept the training camps and naval stations in 1918 killed nearly as many American servicemen as enemy fire; Matthew was among them, gone eight months before the Armistice. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Died in Service"
+   ],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "mckinstrie__j_army_ww_i",
+   "name": "J. McKinstrie",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.1877528,
+   "lng": -72.6277917,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mckinstrie__j_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "J. McKinstrie served in the United States Army during World War I. His specific unit, rank, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "mckissick__g_army_ww_ii",
+   "name": "G. McKissick",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1874417,
+   "lng": -72.6280222,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mckissick__g_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "G. McKissick served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "mcmahon__m_mass_mil_police_ww_i",
+   "name": "M. McMahon",
+   "era": "World War I",
+   "branch": "Massachusetts Military Police",
+   "branchLabel": "MA Mil. Police · WWI",
+   "lat": 42.1885389,
+   "lng": -72.6282361,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mcmahon__m_mass_mil_police_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "M. McMahon served in the Massachusetts Military Police during World War I. Military Police units enforced order, guarded prisoners of war, controlled traffic on the roads behind the lines — and in the chaos of a major offensive, those roads could mean the difference between a unit that reached the front in time and one that didn’t. His specific unit, rank, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "mcmullen__j_usn_ww_ii",
+   "name": "J. McMullen",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1881611,
+   "lng": -72.6286917,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mcmullen__j_usn_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J. McMullen served in the United States Navy during World War II. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "mcnally__m_army_ww_i",
+   "name": "M. McNally",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.1880694,
+   "lng": -72.6273639,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mcnally__m_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "M. McNally served in the United States Army during World War I. Holyoke answered the call when America entered the war in April 1917, and McNally was among those who served. His specific unit, rank, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "mcnulty__e_ordinance_co_ww_i",
+   "name": "E. McNulty",
+   "era": "World War I",
+   "branch": "Ordnance Company",
+   "branchLabel": "Ordnance Co. · WWI",
+   "lat": 42.1875639,
+   "lng": -72.6271139,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mcnulty__e_ordinance_co_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "E. McNulty served in an Ordnance Company during World War I. The Ordnance Corps was responsible for supplying, maintaining, and repairing the weapons and ammunition that kept American forces fighting on the Western Front — a mission as essential as the combat arms it supported. Ordnance companies operated close to the front lines, often under fire, keeping rifles clean, artillery shells moving, and guns in the fight. His specific unit, rank, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "horrigan_a_j_md_pioneer_",
+   "name": "Horrigan, Arthur J. MD",
+   "era": "World War I",
+   "branch": "Medical Corps / Pioneer Radiologist",
+   "branchLabel": "Medical Corps · Pioneer Radiologist",
+   "lat": 42.188683,
+   "lng": -72.629914,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/horrigan_a_j_md_pioneer.jpg",
+   "extraPhotos": [],
+   "narrative": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. Dr. Arthur J. Horrigan was commissioned a first lieutenant in the Medical Reserve Corps in May 1917. He took an X-ray course in Boston under Major Ariel George, transferred to Camp Hancock, Georgia, was promoted to captain on February 22, 1918, and arrived in France in August 1918. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": ""
   },
   {
-   "id": "",
-   "name": "Burnett, Harold C.",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.207439,
-   "lng": -72.623178,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/haywood%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    },
-    {
-     "caption": "📜 Where Company D Went",
-     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
-    }
+   "id": "meehan_",
+   "name": "Meehan",
+   "era": "Unknown Era",
+   "branch": "U.S. Military",
+   "branchLabel": "Military",
+   "lat": 42.1886028,
+   "lng": -72.6292722,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/meehan.jpg",
+   "extraPhotos": [],
+   "narrative": "Meehan served in the United States military. Branch, era, and full name have not been confirmed from the stone or available records. A veteran marker stands at this grave at Calvary Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "mercier__n_army_korea",
+   "name": "N. Mercier",
+   "era": "Korean War",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · Korea",
+   "lat": 42.1880722,
+   "lng": -72.6286861,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mercier__n_army_korea.jpg",
+   "extraPhotos": [],
+   "narrative": "N. Mercier served in the United States Army during the Korean War. The Army bore the brunt of ground combat in Korea across three brutal years. His specific unit, rank, and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "meunier__r_navy_korea",
+   "name": "R. Meunier",
+   "era": "Korean War",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · Korea",
+   "lat": 42.1885944,
+   "lng": -72.6291806,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/meunier__r_navy_korea.jpg",
+   "extraPhotos": [],
+   "narrative": "R. Meunier served in the United States Navy during the Korean War. The Navy’s role in Korea included carrier-based air strikes, shore bombardment in support of ground forces, and the critical Inchon amphibious landing of September 1950 that turned the tide of the war. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "miano__f_usn_ww_ii",
+   "name": "F. Miano",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1869306,
+   "lng": -72.6281194,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/miano__f_usn_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "F. Miano served in the United States Navy during World War II. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "miller__c_navy_ww_ii",
+   "name": "C. Miller",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1888694,
+   "lng": -72.6294028,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/miller__c_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "C. Miller served in the United States Navy during World War II. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "moat__r_army_korea",
+   "name": "R. Moat",
+   "era": "Korean War",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · Korea",
+   "lat": 42.187775,
+   "lng": -72.6289889,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/moat__r_army_korea.jpg",
+   "extraPhotos": [],
+   "narrative": "R. Moat served in the United States Army during the Korean War. The Korean War, often called the Forgotten War, was anything but forgotten by the men who fought it — three brutal years of combat in terrain that ranged from frozen mountain ridges to sweltering valleys, against an enemy that fought with determination and in numbers that overwhelmed initial American defenses. His specific unit, rank, and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "moore__e_md_army_navy_ww_ii_korea",
+   "name": "Moore, Edwin J.T., MD",
+   "era": "World War II",
+   "branch": "U.S. Army / U.S. Navy Medical Corps",
+   "branchLabel": "PFC Army · LTJG Navy · WWII & Korea",
+   "lat": 42.1888806,
+   "lng": -72.6284944,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/moore__e_md_army_navy_ww_ii_korea.jpg",
+   "extraPhotos": [],
+   "narrative": "Edwin J.T. Moore served his country across two wars and two branches of the armed forces. He enlisted as a Private First Class in the United States Army during World War II, then earned a commission as a Lieutenant Junior Grade in the United States Navy during the Korean War — a trajectory that speaks to a man who returned to serve again when his country called. As an LTJG in the Navy Medical Corps, Moore would have served as a ship's physician or at a naval medical facility, responsible for the health and emergency care of sailors and Marines. Born August 19, 1924, he lived to January 2, 2021 — 96 years of age. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Medical Officer"
    ],
-   "narrative": "Harold C. Burnett served as a Private in Company D, 104th Infantry — Holyoke's Own — with the American Expeditionary Forces during World War I, and was wounded in action. Company D fought through the Chemin-des-Dames, Apremont, Chateau-Thierry, and the final drives at St. Mihiel and north of Verdun; of the 250 men who left Holyoke in 1917, only thirteen remained in the ranks at the Armistice. Burnett came home carrying his wounds. Born in 1897, Burnett died in the 1940s, the final digit worn from the stone. He shares the family monument with Milton Heywood, and their wives — Gladys O. Minta and Ethel Mitchell Minta, both born Minta — joined the two families on one stone. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "moran__c_navy_ww_ii",
+   "name": "C. Moran",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1871833,
+   "lng": -72.6272056,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/moran__c_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "C. Moran served in the United States Navy during World War II. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "morgan__j_usaf_ww_ii",
+   "name": "J. Morgan",
+   "era": "World War II",
+   "branch": "U.S. Air Force",
+   "branchLabel": "USAF · WWII",
+   "lat": 42.1885028,
+   "lng": -72.6293556,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/morgan__j_usaf_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Morgan served in the United States Air Force during World War II — though the Air Force as an independent service was established in September 1947, and he likely served in the Army Air Forces, which became the USAAF in 1941. He may be related to J. Morgan of the Coast Guard, also buried at Calvary Cemetery — though that connection has not been confirmed. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "morgan__j_uscg_ww_ii",
+   "name": "J. Morgan",
+   "era": "World War II",
+   "branch": "U.S. Coast Guard",
+   "branchLabel": "USCG · WWII",
+   "lat": 42.1871111,
+   "lng": -72.6273333,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/morgan__j_uscg_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Morgan served in the United States Coast Guard during World War II. The Coast Guard expanded dramatically after Pearl Harbor, conducting convoy escort across the North Atlantic, amphibious operations in every theater, and port security along the American coastline. He may be related to J. Morgan of the Air Force, also buried at Calvary Cemetery — though that connection has not been confirmed. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "moriarty__a_army_ww_ii",
+   "name": "A. Moriarty",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1889222,
+   "lng": -72.6286861,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/moriarty__a_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "A. Moriarty served in the United States Army during World War II. He may be related to other Moriarty family veterans buried at Calvary Cemetery — a family well represented in Holyoke’s military history, though individual connections have not been confirmed. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "moriarty__e_j_navy_ww_ii",
+   "name": "E.J. Moriarty",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1881417,
+   "lng": -72.6292639,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/moriarty__e_j_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "E.J. Moriarty served in the United States Navy during World War II. He may be related to other Moriarty family veterans buried at Calvary Cemetery — though individual connections have not been confirmed. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "moriarty__j_f_mass_arty_ww_i",
+   "name": "J.F. Moriarty",
+   "era": "World War I",
+   "branch": "Massachusetts Artillery",
+   "branchLabel": "MA Artillery · WWI",
+   "lat": 42.1887694,
+   "lng": -72.6291417,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/moriarty__j_f_mass_arty_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "J.F. Moriarty served in the Massachusetts Artillery during World War I. Artillery was the dominant weapon of the Western Front, and Massachusetts National Guard artillery units trained and served alongside regular Army forces in the campaigns of 1917 and 1918. He may be related to other Moriarty family veterans buried at Calvary Cemetery — though individual connections have not been confirmed. His specific battery, rank, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "moriarty__j_j_inf",
+   "name": "J.J. Moriarty",
+   "era": "Unknown Era",
+   "branch": "U.S. Infantry",
+   "branchLabel": "U.S. Infantry",
+   "lat": 42.1887056,
+   "lng": -72.6294556,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/moriarty__j_j_inf.jpg",
+   "extraPhotos": [],
+   "narrative": "J.J. Moriarty served in the United States Infantry. The era of his service is not recorded on the stone and has not yet been confirmed from available records. He may be related to other Moriarty family veterans buried at Calvary Cemetery — though individual connections have not been confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "moriarty__w_army_ww_ii",
+   "name": "W. Moriarty",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1892972,
+   "lng": -72.6289056,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/moriarty__w_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "W. Moriarty served in the United States Army during World War II. He may be related to other Moriarty family veterans buried at Calvary Cemetery — though individual connections have not been confirmed. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "moroni__a_army_ww_ii",
+   "name": "A. Moroni",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1871806,
+   "lng": -72.6274111,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/moroni__a_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "A. Moroni served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "morrison__f_mass_inf_ww_i",
+   "name": "F. Morrison",
+   "era": "World War I",
+   "branch": "Massachusetts Infantry",
+   "branchLabel": "MA Infantry · WWI",
+   "lat": 42.1888556,
+   "lng": -72.6289222,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/morrison__f_mass_inf_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "F. Morrison served in the Massachusetts Infantry during World War I. Massachusetts National Guard infantry units were federalized in 1917 and reorganized into the 26th Division — the Yankee Division — which fought on the Western Front in the Aisne-Marne, St. Mihiel, and Meuse-Argonne campaigns. His specific regiment, company, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "morrison__j_a_army_ww_ii",
+   "name": "J.A. Morrison",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1888167,
+   "lng": -72.6288833,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/morrison__j_a_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J.A. Morrison served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "moynahan__t_army__ww_ii",
+   "name": "T Moynahan",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army",
+   "lat": 42.189914,
+   "lng": -72.629456,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/moynahan__t_army__ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "T. Moynahan served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": ""
+  },
+  {
+   "id": "murray__r_army_ww_ii",
+   "name": "R. Murray",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1886944,
+   "lng": -72.6282889,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/murray__r_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "R. Murray served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "murray__w_mass_inf",
+   "name": "W. Murray",
+   "era": "Civil War Era",
+   "branch": "Massachusetts Infantry",
+   "branchLabel": "MA Infantry",
+   "lat": 42.1890722,
+   "lng": -72.6283556,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/murray__w_mass_inf.jpg",
+   "extraPhotos": [],
+   "narrative": "W. Murray served in the Massachusetts Infantry during the Civil War era. Massachusetts contributed more than 150,000 men to the Union cause and its infantry regiments fought in every major campaign of the eastern theater. A GAR marker at his grave confirms his Union service. His specific regiment, company, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "musante__a_usnrf_ww_i",
+   "name": "A. Musante",
+   "era": "World War I",
+   "branch": "U.S. Naval Reserve Force",
+   "branchLabel": "USNRF · WWI",
+   "lat": 42.1881611,
+   "lng": -72.6276556,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/musante__a_usnrf_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "A. Musante served in the United States Naval Reserve Force during World War I. The USNRF played a vital role in protecting Atlantic shipping lanes from German U-boats — one of the most critical missions of the war. Musante is among Calvary Cemetery's WWI naval veterans. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "nagle__r_usmc_ww_ii",
+   "name": "R Nagle",
+   "era": "World War II",
+   "branch": "U.S. Marine Corps",
+   "branchLabel": "Corps",
+   "lat": 42.189319,
+   "lng": -72.629531,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/nagle__r_usmc_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "R. Nagle served in the United States Marine Corps during World War II. The Marines led the island-hopping campaign across the Pacific, storming beaches from Guadalcanal to Okinawa in some of the most intense combat of the war. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "neary__j_usn_ww_ii",
+   "name": "J. Neary",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWII",
+   "lat": 42.1874972,
+   "lng": -72.6279528,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/neary__j_usn_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Neary served in the United States Navy during World War II. The Navy fought across two oceans, from the convoy routes of the North Atlantic to the island campaigns of the Pacific, growing to more than three million personnel by war’s end. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "retake_needed",
+   "name": "Retake Needed",
+   "era": "Unknown Era",
+   "branch": "",
+   "branchLabel": "Unknown",
+   "lat": 42.188575,
+   "lng": -72.6288611,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/retake_needed.jpg",
+   "extraPhotos": [],
+   "narrative": "This grave marker requires a photograph retake to confirm identity and service details. The entry has been geolocated to preserve its position in the record. If you can identify this veteran, please contact the Veterans Graves Officer so the entry can be completed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Retake Needed"
+   ],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "niemiec__l_army_air_corps_ww_ii",
+   "name": "L. Niemiec",
+   "era": "World War II",
+   "branch": "Army Air Corps",
+   "branchLabel": "USAAC · WWII",
+   "lat": 42.18735,
+   "lng": -72.6271444,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/niemiec__l_army_air_corps_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "L. Niemiec served in the United States Army Air Corps during World War II. The Army Air Corps became the USAAF in 1941 and grew to the largest air force in history. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "noffke__w_usnr_ww_ii",
+   "name": "W. Noffke",
+   "era": "World War II",
+   "branch": "U.S. Naval Reserve",
+   "branchLabel": "USNR · WWII",
+   "lat": 42.1869556,
+   "lng": -72.6283556,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/noffke__w_usnr_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "W. Noffke served in the United States Naval Reserve during World War II. The Naval Reserve was fully mobilized after Pearl Harbor, with reservists serving in every theater and capacity alongside regular Navy personnel. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "noland__e_usaf_vietnam",
+   "name": "E. Noland",
+   "era": "Vietnam",
+   "branch": "U.S. Air Force",
+   "branchLabel": "USAF · Vietnam",
+   "lat": 42.1875444,
+   "lng": -72.627075,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/noland__e_usaf_vietnam.jpg",
+   "extraPhotos": [],
+   "narrative": "E. Noland served in the United States Air Force during the Vietnam War. USAF missions in Vietnam ranged from strategic bombing campaigns over North Vietnam to close air support for ground forces, combat search and rescue, and the massive airlift operations that sustained American and South Vietnamese forces. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "noonan__j_army_ww_i",
+   "name": "J. Noonan",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.18935,
+   "lng": -72.6295472,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/noonan__j_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Noonan served in the United States Army during World War I. Holyoke sent many sons to the Great War after April 1917, and Noonan was among them. His specific unit, rank, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "norton__r_army_ww_i_",
+   "name": "R. Norton",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.1881972,
+   "lng": -72.629425,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/norton__r_army_ww_i_.jpg",
+   "extraPhotos": [],
+   "narrative": "Robert E. Norton served as a Private in Company B, 73rd Infantry, during World War I. He entered service on July 23, 1918, and trained at Camp Devens, the great Massachusetts cantonment where much of New England's fighting strength was raised and readied for France. His regiment was part of the 12th Division, organized at Devens only that summer — and the Armistice of November 1918 came before the division could finish its training and ship overseas. Norton was one of the many young men who answered the call, put on the uniform, and stood ready for a war that ended before it could carry him to France. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "o_brien__m_army_nurse_corps_ww_i",
+   "name": "M. O'Brien",
+   "era": "World War I",
+   "branch": "Army Nurse Corps",
+   "branchLabel": "Army Nurse Corps · WWI",
+   "lat": 42.1878972,
+   "lng": -72.6287222,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/o_brien__m_army_nurse_corps_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "M. O’Brien served in the United States Army Nurse Corps during World War I — one of more than 21,000 women who served as Army Nurses in that conflict. Army Nurses worked in base hospitals, evacuation hospitals, and mobile surgical units close to the front lines, treating the wounded under conditions of extraordinary difficulty. The Army Nurse Corps was the first branch of the United States military to commission women as officers, though full military rank was not granted until 1920. O’Brien’s service places her among the pioneering women of American military history. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Female Veteran"
+   ],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "o_connell__t_usaf_korea",
+   "name": "T. O'Connell",
+   "era": "Korean War",
+   "branch": "U.S. Air Force",
+   "branchLabel": "USAF · Korea",
+   "lat": 42.1876944,
+   "lng": -72.62835,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/o_connell__t_usaf_korea.jpg",
+   "extraPhotos": [],
+   "narrative": "T. O’Connell served in the United States Air Force during the Korean War. He may be related to H. O’Connell Jr., a World War II USAAC veteran also buried at Calvary Cemetery — though that connection has not been confirmed. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "o_connor__e_navy_korea",
+   "name": "E. O'Connor",
+   "era": "Korean War",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · Korea",
+   "lat": 42.1878,
+   "lng": -72.6294,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/o_connor__e_navy_korea.jpg",
+   "extraPhotos": [],
+   "narrative": "E. O’Connor served in the United States Navy during the Korean War. The Navy’s role in Korea included carrier-based air strikes, shore bombardment, the Inchon amphibious landing, and sustained blockade operations. He may be related to other O’Connor family members buried at Calvary Cemetery — though those connections have not been confirmed. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "o_connor__g_army_ww_ii",
+   "name": "G. O'Connor",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army",
+   "lat": 42.1880083,
+   "lng": -72.6291194,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/o_connor__g_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "G. O’Connor served in the United States Army during World War II. He may be related to other O’Connor family members buried at Calvary Cemetery — though those connections have not been confirmed. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "o_connor",
+   "name": "O'Connor",
+   "era": "Unknown Era",
+   "branch": "U.S. Military",
+   "branchLabel": "Military",
+   "lat": 42.189803,
+   "lng": -72.629294,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/o_connor.jpg",
+   "extraPhotos": [],
+   "narrative": "O’Connor served in the United States military. Branch, era, and full name have not been confirmed from the stone or available records. He may be related to other O’Connor family members buried at Calvary Cemetery — though those connections have not been confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "o_donnell__m_army_ww_ii",
+   "name": "M. O'Donnell",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army",
+   "lat": 42.1871139,
+   "lng": -72.6273944,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/o_donnell__m_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "M. O’Donnell served in the United States Army during World War II. He may be related to T. and W.P. O’Donnell, also Army veterans buried at Calvary Cemetery — though those connections have not been confirmed. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "o_donnell__t_army_ww_ii",
+   "name": "T. O'Donnell",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army",
+   "lat": 42.1888667,
+   "lng": -72.6291278,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/o_donnell__t_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "T. O’Donnell served in the United States Army during World War II. He may be related to M. and W.P. O’Donnell, also Army veterans buried at Calvary Cemetery — though those connections have not been confirmed. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "o_donnell__w_p_army_wwii",
+   "name": "W.P. O'Donnell",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army",
+   "lat": 42.1881917,
+   "lng": -72.6296778,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/o_donnell__w_p_army_wwii.jpg",
+   "extraPhotos": [],
+   "narrative": "W.P. O’Donnell served in the United States Army during World War II. He may be related to M. and T. O’Donnell, also Army veterans buried at Calvary Cemetery — a family that appears to have sent multiple sons to serve, though those connections have not been confirmed. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "o_rourke",
+   "name": "O'Rourke",
+   "era": "Unknown Era",
+   "branch": "U.S. Military",
+   "branchLabel": "Military",
+   "lat": 42.189592,
+   "lng": -72.629325,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/o_rourke.jpg",
+   "extraPhotos": [],
+   "narrative": "O’Rourke served in the United States military. Branch, era, and full name have not been confirmed from the stone or available records. A veteran marker stands at this grave at Calvary Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "orourke",
+   "name": "O'Rourke",
+   "era": "Unknown Era",
+   "branch": "U.S. Military",
+   "branchLabel": "U.S. Military",
+   "lat": 42.189591666666665,
+   "lng": -72.629325,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/orourke.jpg",
+   "extraPhotos": [],
+   "narrative": "O’Rourke served in the United States military. Branch, era, and full name have not been confirmed from the stone or available records. A veteran marker stands at this grave at Calvary Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "o_sullivan__j_army_ww_ii",
+   "name": "J. O'Sullivan",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army",
+   "lat": 42.187225,
+   "lng": -72.6273417,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/o_sullivan__j_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J. O’Sullivan served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "oahill__w__us_inf",
+   "name": "W. Oahill",
+   "era": "Unknown Era",
+   "branch": "U.S. Infantry",
+   "branchLabel": "U.S. Infantry",
+   "lat": 42.1885556,
+   "lng": -72.62815,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/oahill__w__us_inf.jpg",
+   "extraPhotos": [],
+   "narrative": "W. Oahill served in the United States Infantry. The era of his service is not recorded on the stone and has not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "oanavan__j__2_mass_inf",
+   "name": "J. Oanavan",
+   "era": "Civil War Era",
+   "branch": "2nd Massachusetts Infantry",
+   "branchLabel": "2nd MA Infantry",
+   "lat": 42.187775,
+   "lng": -72.6293722,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/oanavan__j__2_mass_inf.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Oanavan served in the 2nd Massachusetts Infantry during the Civil War era. The 2nd Massachusetts Volunteer Infantry was one of the first Massachusetts regiments mustered for the Union cause, organized in the spring of 1861 and serving through the Shenandoah Valley campaign, Antietam, Chancellorsville, and Gettysburg. Massachusetts infantry regiments like the 2nd earned reputations for hard fighting in the most difficult campaigns of the eastern theater. A GAR marker at his grave confirms his Union service. His specific company and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "olaffey__f_navy_",
+   "name": "F. Olaffey",
+   "era": "Unknown Era",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy",
+   "lat": 42.1872056,
+   "lng": -72.6282056,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/olaffey__f_navy_.jpg",
+   "extraPhotos": [],
+   "narrative": "F. Olaffey served in the United States Navy. The era of his service is not recorded on the stone and has not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "orsini_ww_ii",
+   "name": "Orsini",
+   "era": "World War II",
+   "branch": "U.S. Military",
+   "branchLabel": "Military",
+   "lat": 42.189833,
+   "lng": -72.629264,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/orsini_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Orsini served in the United States military during World War II. Branch, full name, unit, and service record have not been confirmed from the stone or available records. A veteran marker stands at this grave at Calvary Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "ostek__f_army_ww_ii",
+   "name": "F. Ostek",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army",
+   "lat": 42.1870111,
+   "lng": -72.6282417,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/ostek__f_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "F. Ostek served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session8"
+  },
+  {
+   "id": "owen",
+   "name": "Owen",
+   "era": "Unknown Era",
+   "branch": "",
+   "branchLabel": "Unknown",
+   "lat": 42.1868222,
+   "lng": -72.6277472,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/owen.jpg",
+   "extraPhotos": [],
+   "narrative": "This stone is inscribed only with the family name OWEN — a family monument rather than an individual marker. A U.S. flag placed at the grave indicates a veteran is buried here, but no branch, rank, or service dates are visible on this stone. If you can identify which family member served, or have a photo of an individual footstone nearby, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "patrick__r_army_vietnam",
+   "name": "R. Patrick",
+   "era": "Vietnam",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1873778,
+   "lng": -72.6270361,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/patrick__r_army_vietnam.jpg",
+   "extraPhotos": [],
+   "narrative": "R. Patrick served in the United States Army during the Vietnam War. The Army bore the heaviest burden of ground combat in Vietnam, fighting in jungles, rice paddies, and mountain highlands against an enemy that blended into the population and the terrain. His specific unit, rank, and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "phelan__w_army_ww_ii",
+   "name": "W. Phelan",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1880278,
+   "lng": -72.6282361,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/phelan__w_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "W. Phelan served in the United States Army during World War II and was awarded the Purple Heart for wounds received in combat. The Purple Heart is awarded to members of the armed forces wounded or killed in action against an enemy of the United States. His specific unit, the circumstances of his wounding, and his service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Purple Heart"
+   ],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "polverini__e_army_ww_ii",
+   "name": "E. Polverini",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1885861,
+   "lng": -72.6287083,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/polverini__e_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Enio E. Polverini served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "prout__j_usmc_ww_ii",
+   "name": "J. Prout",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "USMC",
+   "lat": 42.1871639,
+   "lng": -72.6273028,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/prout__j_usmc_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Prout served in the United States Marine Corps during World War II. The Marines fought their way across the Pacific in some of the war’s bloodiest engagements. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "provost__l_navy_ww_ii",
+   "name": "L. Provost",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Navy",
+   "lat": 42.1888,
+   "lng": -72.6294028,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/provost__l_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "L. Provost served in the United States Navy during World War II. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "quinn__j_navy_ww_ii",
+   "name": "J. Quinn",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Navy",
+   "lat": 42.1890972,
+   "lng": -72.6286083,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/quinn__j_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "James J. Quinn served in the United States Navy during World War II, holding the rate of Coxswain. A Coxswain commanded the helm of a small boat or landing craft — responsible for steering, navigation, and the safety of everyone aboard. In the amphibious operations that defined the Pacific campaign, Coxswains drove their landing craft through enemy fire to deliver Marines and soldiers onto beaches like Tarawa and Normandy. His specific ship assignment and theater have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "quinn",
+   "name": "Quinn",
+   "era": "Unknown Era",
+   "branch": "",
+   "branchLabel": "Unknown",
+   "lat": 42.1871222,
+   "lng": -72.6278083,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/quinn.jpg",
+   "extraPhotos": [],
+   "narrative": "Quinn served in the United States military. Branch, era, and full name have not been confirmed from the stone or available records. A veteran marker stands at this grave at Calvary Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "raidy",
+   "name": "Raidy",
+   "era": "Unknown Era",
+   "branch": "",
+   "branchLabel": "Unknown",
+   "lat": 42.1880306,
+   "lng": -72.62745,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/raidy.jpg",
+   "extraPhotos": [],
+   "narrative": "Raidy served in the United States military. Branch, era, and full name have not been confirmed from the stone or available records. A veteran marker stands at this grave at Calvary Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "regan__j_army_ww_i",
+   "name": "J. Regan",
+   "era": "World War I",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.186925,
+   "lng": -72.6274944,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/regan__j_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Regan served in the United States Army during World War I. His specific unit, rank, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "retake_",
+   "name": "Retake",
+   "era": "Unknown Era",
+   "branch": "",
+   "branchLabel": "Unknown",
+   "lat": 42.1885861,
+   "lng": -72.6281667,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/retake.jpg",
+   "extraPhotos": [],
+   "narrative": "This grave marker’s inscription is unreadable from the available photograph. Identity, branch, and era of service remain unconfirmed. A retake photograph is needed. If you can identify this veteran, please contact the Veterans Graves Officer. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Retake Needed"
+   ],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "riley__army_navy_spanish_war",
+   "name": "Riley",
+   "era": "Spanish-American War",
+   "branch": "U.S. Military",
+   "branchLabel": "Military · Spanish-American War",
+   "lat": 42.1873056,
+   "lng": -72.6271222,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/riley__army_navy_spanish_war.jpg",
+   "extraPhotos": [],
+   "narrative": "The Riley stone at Calvary Cemetery bears the inscription SPANISH WAR VETERAN. A GAR-style marker at the base identifies service in Cuba. No first name appears on the stone, and the branch of service has not been confirmed from available records. The Spanish-American War of 1898 lasted only four months but sent men from Holyoke to Cuba and the Philippines alongside Theodore Roosevelt's Rough Riders. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "robindoux__a_army_ww_ii",
+   "name": "Auguste J. Robidoux",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1870278,
+   "lng": -72.6272139,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/robindoux__a_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Auguste J. Robidoux served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "rogers__j_b_army_ww_ii",
+   "name": "James B. Rogers",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1896778,
+   "lng": -72.6295083,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/rogers__j_b_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "James B. Rogers served in the United States Army during World War II, holding the rank of Private. Army Privates formed the essential foundation of the force that fought across two hemispheres between 1941 and 1945 — the men who carried the rifles, dug the foxholes, and bore the weight of combat in every theater from North Africa to the Pacific. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "rohan__f_army_ww_ii",
+   "name": "F. Rohan",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1889,
+   "lng": -72.6290056,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/rohan__f_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "F. Rohan served in the United States Army during World War II. He may be related to T. Rohan, also an Army Air Forces veteran buried at Calvary Cemetery — though that connection has not been confirmed. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "rohan__t_usaaf_ww_ii",
+   "name": "T. Rohan",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "USAAF",
+   "lat": 42.1888861,
+   "lng": -72.6289972,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/rohan__t_usaaf_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "T. Rohan served in the United States Army Air Forces during World War II. He may be related to F. Rohan, also a World War II veteran buried at Calvary Cemetery — though that connection has not been confirmed. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "rosado__m_army_korea",
+   "name": "M. Rosado",
+   "era": "Korean War",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.189225,
+   "lng": -72.6286778,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/rosado__m_army_korea.jpg",
+   "extraPhotos": [],
+   "narrative": "M. Rosado served in the United States Army during the Korean War. Rosado represents the significant contribution of Holyoke’s Latino community to the nation’s military — men and women who served with distinction in Korea and in every conflict before and since. His specific unit, rank, and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "ross__m_usmc",
+   "name": "M. Ross",
+   "era": "Unknown Era",
+   "branch": "",
+   "branchLabel": "USMC",
+   "lat": 42.1879,
+   "lng": -72.6281278,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/ross__m_usmc.jpg",
+   "extraPhotos": [],
+   "narrative": "Michael F. Ross served in the United States Marine Corps as a Private First Class. The era of his service has not been confirmed from the stone, though his passing in 1985 places him in the generation that served during Korea, Vietnam, or the Cold War era. His specific unit and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "rothus__f_army_vietnam",
+   "name": "F. Rothus",
+   "era": "Vietnam",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1879472,
+   "lng": -72.6295778,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/rothus__f_army_vietnam.jpg",
+   "extraPhotos": [],
+   "narrative": "F. Rothus served in the United States Army during the Vietnam War. He may be related to J. Rothus, a World War II Army veteran also buried at Calvary Cemetery — though that connection has not been confirmed. His specific unit, rank, and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "rothus__j_army_ww_ii",
+   "name": "J. Rothus",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1878694,
+   "lng": -72.6295611,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/rothus__j_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Rothus served in the United States Army during World War II. He may be related to F. Rothus, a Vietnam veteran also buried at Calvary Cemetery — a family that may have answered the call across two generations, though that connection has not been confirmed. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "ruell__j_jr_army_ww_ii",
+   "name": "J. Ruell",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.187375,
+   "lng": -72.6271528,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/ruell__j_jr_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Ruell Jr. served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "salesky__g_army_ww_i",
+   "name": "G. Salesky",
+   "era": "World War I",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1875306,
+   "lng": -72.6271222,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/salesky__g_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "George E. Salesky served in the United States Army during World War I, holding the rank of Sergeant. Sergeants were the non-commissioned officers who led squads on the Western Front — the men who kept the unit cohesive in the trenches and led the assaults that broke the German lines in 1918. His specific unit and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "scalon__m_army_ww_i",
+   "name": "Michael Scanlon",
+   "era": "World War I",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1892917,
+   "lng": -72.6289,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/scalon__m_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "Michael Scanlon served in the United States Army during World War I, holding the rank of Private. Note: surname is spelled Scanlon on the stone, not Scalone or Scalon. More than two million Americans served in France with the AEF, and Privates like Scanlon formed the backbone of that force. His specific unit and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "scully__a_p_usn_ww_ii",
+   "name": "A. Scully",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Navy",
+   "lat": 42.1875139,
+   "lng": -72.6285778,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/scully__a_p_usn_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Anthony Paul Scully served in the United States Navy during World War II, holding the rate of Machinist’s Mate. Machinist’s Mates kept the engines, boilers, and propulsion systems running that drove American warships across the Atlantic and Pacific — essential work in the engine rooms and firerooms that rarely made headlines but kept the fleet in the fight. His specific ship assignment and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "senecal__e_army",
+   "name": "Edward P. Senegal",
+   "era": "Unknown Era",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1875694,
+   "lng": -72.6281194,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/senecal__e_army.jpg",
+   "extraPhotos": [],
+   "narrative": "Edward P. Senegal served in the United States Army. The era of his service has not been confirmed from the stone or available records. Note: surname on stone may be Senecal. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "senecal__l_army_ww_ii",
+   "name": "L. Senecal",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1869361,
+   "lng": -72.6275722,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/senecal__l_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Leon R. Senecal served in the United States Army during World War II, holding the rank of Technician Fifth Grade. The TEC 5 grade recognized soldiers with specialized technical skills who held technical responsibilities without command authority — the trained mechanics, medics, and specialists who kept the Army operational. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "serey__e_army_ww_ii",
+   "name": "E. Serey",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1888056,
+   "lng": -72.6283944,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/serey__e_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Edward J. Serey served in the United States Army during World War II, holding the rank of Technician Fifth Grade. TEC 5 soldiers were the trained technical backbone of the Army — the men who kept weapons, vehicles, and communications operational under combat conditions. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "shea__a_army_ww_ii",
+   "name": "Shea, Anthony J.",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII · Sgt",
+   "lat": 42.1877556,
+   "lng": -72.6278,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/shea__a_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Anthony J. Shea served as a Sergeant in the United States Army during World War II. Sergeants were the backbone of the Army's small-unit leadership — non-commissioned officers responsible for their squad in the field, whether in the Pacific or the European theater. Born August 28, 1910, he passed away April 7, 1986. He may be related to Edward Bernard, Donald James, and George H. Shea, all veterans also interred at Calvary Cemetery — though those connections have not been confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "shea__d_g_army_ww_ii",
+   "name": "Shea, Donald James",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII · Pvt",
+   "lat": 42.1887778,
+   "lng": -72.6296306,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/shea__d_g_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Donald James Shea served as a Private in the United States Army during World War II. Privates formed the foundation of the Army — the men in the field who did the fighting. Born May 16, 1902, he passed away October 27, 1990. He may be related to Edward Bernard, Anthony J., and George H. Shea, all veterans also interred at Calvary Cemetery — though those connections have not been confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "shea__e_b_navy_ww_i",
+   "name": "Shea, Edward Bernard",
+   "era": "World War I",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · WWI · S2",
+   "lat": 42.1888111,
+   "lng": -72.6296306,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/shea__e_b_navy_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "Edward Bernard Shea served as a Seaman Second Class in the United States Navy during World War I. A Massachusetts man, he was among the thousands of New Englanders who answered the call when America entered the Great War in 1917. Seaman Second Class was an entry-level Navy rating — the men who kept the fleet running, from deck work to engine rooms to the gun crews that manned America's warships. Born October 24, 1893, he passed away November 15, 1954. He may be related to Anthony J., Donald James, and George H. Shea, all World War II veterans also interred at Calvary Cemetery — though those connections have not been confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "shea__g_army_ww_ii",
+   "name": "Shea, George H.",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII · Maj",
+   "lat": 42.1888667,
+   "lng": -72.6296472,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/shea__g_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "George H. Shea served as a Major in the United States Army during World War II. A Major commands a battalion-level staff function or leads a company-sized unit — an officer of significant responsibility, typically overseeing hundreds of men in the field. Born in 1908, he passed away June 18, 196?. He may be related to Edward Bernard, Anthony J., and Donald James Shea, all veterans also interred at Calvary Cemetery — though those connections have not been confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "sheard__a_jr_navy_wwii",
+   "name": "A. Sheard",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Navy",
+   "lat": 42.1882444,
+   "lng": -72.6296528,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/sheard__a_jr_navy_wwii.jpg",
+   "extraPhotos": [],
+   "narrative": "Arthur Sheard Jr. served in the United States Navy during World War II, holding the rate of Machinist’s Mate. Machinist’s Mates kept the propulsion systems of American warships running through the relentless operational tempo of wartime at sea. He may be related to W. Sheard, also a World War II veteran buried at Calvary Cemetery — though that connection has not been confirmed. His specific ship assignment and theater have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "sheard__w_inf_ww_ii",
+   "name": "W. Sheard",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Unknown",
+   "lat": 42.1870611,
+   "lng": -72.6279528,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/sheard__w_inf_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "W. Sheard served in the United States Infantry during World War II. He may be related to Arthur Sheard Jr., also a World War II veteran buried at Calvary Cemetery — though that connection has not been confirmed. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "sheehan__f__navy_ww_ii",
+   "name": "Frank M. Sheehan",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Navy",
+   "lat": 42.1895611,
+   "lng": -72.6289667,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/sheehan__f__navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Frank M. Sheehan served in the United States Navy during World War II. He may be related to other Sheehan family veterans buried at Calvary Cemetery — though those connections have not been confirmed. His specific rate and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "sheehan__j_mass_brig",
+   "name": "J. Sheehan",
+   "era": "Civil War Era",
+   "branch": "",
+   "branchLabel": "Unknown",
+   "lat": 42.1881333,
+   "lng": -72.629775,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/sheehan__j_mass_brig.jpg",
+   "extraPhotos": [],
+   "narrative": "J. Sheehan served in a Massachusetts Brigade during the Civil War era. Massachusetts brigades participated in virtually every major campaign of the eastern theater — from the Peninsula Campaign and Antietam through Gettysburg and the Wilderness to the final siege of Petersburg. A GAR marker at his grave confirms his Union service. His specific regiment, company, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "sheehan__r_uscg_ww_ii",
+   "name": "R. Sheehan",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "USCG",
+   "lat": 42.1894639,
+   "lng": -72.6293111,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/sheehan__r_uscg_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "R. Sheehan served in the United States Coast Guard during World War II. The Coast Guard expanded dramatically after Pearl Harbor, conducting convoy escort, amphibious operations, and port security. He may be related to other Sheehan family veterans buried at Calvary Cemetery — though those connections have not been confirmed. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "sheehan__t_army_ww_ii",
+   "name": "T. Sheehan",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1876028,
+   "lng": -72.6272889,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/sheehan__t_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Thomas F. Sheehan Jr. served in the United States Army during World War II, holding the rank of Private First Class. Private First Class was the first promotion above entry-level, recognizing demonstrated competence and reliability in the field. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "smith__v_ww_ii",
+   "name": "Victor P. Smith",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Unknown",
+   "lat": 42.1882139,
+   "lng": -72.6296611,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/smith__v_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Victor P. Smith served in the United States military during World War II. His specific branch, unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "snyder__j_army_ww_i",
+   "name": "Joseph S. Snyder",
+   "era": "World War I",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1876917,
+   "lng": -72.6278611,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/snyder__j_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "Joseph S. Snyder served in the United States Army during World War I, holding the rank of Private. Army Privates made up the majority of the more than two million men the United States sent to France with the American Expeditionary Forces between 1917 and 1918. They carried their rifles into the trenches, over the top, and through the mud and wire of the Western Front. His specific unit and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "forrest__t_sr_army_ww_ii",
+   "name": "Forrest, Thomas H. Sr.",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.187275,
+   "lng": -72.627175,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/forrest_t_sr_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Thomas H. Forrest Sr. served as a Private First Class in the United States Army during World War II. Private First Class was the first promotion above entry level, recognizing demonstrated competence in a soldier’s duties. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "stackpole__l_army_ww_ii",
+   "name": "Lloyd E. Stackpole",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1883889,
+   "lng": -72.6281194,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/stackpole__l_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Lloyd E. Stackpole served in the United States Army during World War II, holding the rank of Private First Class. Private First Class was the first step above entry-level, recognizing a soldier who had demonstrated the basic competencies of his role. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "stapleton__r_army_ww_ii",
+   "name": "Richard J. Stapleton",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1884806,
+   "lng": -72.6292806,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/stapleton__r_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Richard J. Stapleton served in the United States Army during World War II, holding the rank of Sergeant. Sergeants were the Army’s front-line NCOs, leading squads in combat — responsible for their men’s lives and the mission. He may be related to Thomas H. Stapleton Jr., also an Army veteran buried at Calvary Cemetery — though that connection has not been confirmed. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "stapleton__t_jr_usaaf_ww_ii",
+   "name": "Stapleton, Thomas H. Jr.",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "USAAF",
+   "lat": 42.1885,
+   "lng": -72.6292806,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/stapleton__t_jr_usaaf_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Thomas H. Stapleton Jr. served in the United States Army Air Forces during World War II. He may be related to Richard J. Stapleton, also a World War II veteran buried at Calvary Cemetery — a family that appears to have served in both the Army and the USAAF, though that connection has not been confirmed. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "stebbins__l_jr_navy",
+   "name": "Stebbins, Lionel J. Jr.",
+   "era": "Unknown Era",
+   "branch": "",
+   "branchLabel": "Navy",
+   "lat": 42.1872111,
+   "lng": -72.6283639,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/stebbins__l_jr_navy.jpg",
+   "extraPhotos": [],
+   "narrative": "Lionel J. Stebbins Jr. served in the United States Navy, holding the rate of Hospital Corpsman Third Class. Navy Hospital Corpsmen provided front-line medical care — treating the wounded in the field, often under fire, with Marines and sailors who depended on them for their lives. The Hospital Corpsman is one of the most decorated ratings in the Navy, and the rate’s presence in combat environments has made it one of the most dangerous. The era of his service has not been confirmed from the stone or available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "stevens__f_navy_ww_ii",
+   "name": "Frank N. Stevens",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Navy",
+   "lat": 42.187125,
+   "lng": -72.6273583,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/stevens__f_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Frank N. Stevens served in the United States Navy during World War II, holding the rate of Radio Technician. Radio Technicians maintained the communications systems that linked ships, aircraft, and shore stations — the nervous system of naval operations. In combat, reliable communications could mean the difference between a coordinated attack and catastrophe. His specific ship assignment and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "stewart__w_army_ww_ii",
+   "name": "William J. Stewart",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1880139,
+   "lng": -72.6297611,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/stewart__w_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "William J. Stewart served in the United States Army during World War II, holding the rank of Staff Sergeant. Staff Sergeants were experienced combat NCOs, leading weapons teams and rifle squads in direct action across every theater — the men responsible for keeping their soldiers effective under fire. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "stone",
+   "name": "R. Stone",
+   "era": "World War II",
+   "branch": "U.S. Coast Guard",
+   "branchLabel": "USCG",
+   "lat": 42.18855,
+   "lng": -72.62895833333333,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/stone.jpg",
+   "extraPhotos": [],
+   "narrative": "R. Stone served in the United States Coast Guard during World War II. He may be related to Richard E. Stone, also a Coast Guard veteran buried at Calvary Cemetery — though that connection has not been confirmed. His specific rank and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "stone__r_uscg_ww_ii",
+   "name": "Richard E. Stone",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "USCG",
+   "lat": 42.18855,
+   "lng": -72.6289583,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/stone__r_uscg_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Richard E. Stone served in the United States Coast Guard during World War II, holding the rate of Warrant Boatswain. Warrant Boatswains were experienced petty officers elevated to warrant rank for their expertise in seamanship and deck operations — the men who knew the boat handling, navigation, and small-craft operations that the Coast Guard depended on in every environment from harbor patrol to amphibious landings. He may be related to R. Stone, also a Coast Guard veteran buried at Calvary Cemetery — though that connection has not been confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "storey__w_navy_ww_ii",
+   "name": "William J. Storey",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Navy",
+   "lat": 42.1877361,
+   "lng": -72.6271056,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/storey__w_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "William J. Storey served in the United States Navy during World War II, holding the rank of Chief Motor Machinist’s Mate. Chief Petty Officers were the senior enlisted backbone of the Navy — experienced professionals who had earned their rate through years of demonstrated skill and who kept their divisions running through the relentless demands of wartime service. A Chief Motor Machinist’s Mate was responsible for the propulsion systems of his vessel, supervising the sailors who kept the engines turning. His specific ship assignment and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "sugrue__j_jr_army_ww_ii",
+   "name": "Sugrue, John M. Jr.",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1872833,
+   "lng": -72.6279361,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/sugrue__j_jr_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "John M. Sugrue Jr. served in the United States Army during World War II, holding the rank of Sergeant. Sergeants served as the Army’s front-line non-commissioned officers, leading squads of eight to twelve men in combat — the men responsible for keeping their soldiers alive, maintaining unit cohesion under fire, and executing orders when officers were not present. He may be related to Richard J. Sugrue, also an Army veteran buried at Calvary Cemetery — though that connection has not been confirmed. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "sugrue__r_army_ww_ii",
+   "name": "Richard J. Sugrue",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1877639,
+   "lng": -72.6279,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/sugrue__r_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Richard J. Sugrue served in the United States Army during World War II. He may be related to John M. Sugrue Jr., also an Army veteran buried at Calvary Cemetery — though that connection has not been confirmed. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "sullivan__h_inf_ww_i_kia",
+   "name": "Howard J. Sullivan",
+   "era": "World War I",
+   "branch": "",
+   "branchLabel": "Unknown",
+   "lat": 42.1877778,
+   "lng": -72.6289667,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/sullivan__h_inf_ww_i_kia.jpg",
+   "extraPhotos": [],
+   "narrative": "Howard J. Sullivan was killed in action during World War I, and his marker at Calvary Cemetery stands as a memorial to a man who did not come home from France. He served in the United States Infantry on the Western Front, where American forces fought in some of the most decisive campaigns of the war — the Meuse-Argonne Offensive alone involved more than a million American troops and broke the German lines in the final weeks of the conflict. Sullivan fell in that fight, and his name is recorded here as a permanent record of his sacrifice. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "sullivan__h_p_army_ww_ii",
+   "name": "Henry P. Sullivan",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1880083,
+   "lng": -72.6297611,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/sullivan__h_p_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Henry P. Sullivan served in the United States Army during World War II, holding the rank of Staff Sergeant. Staff Sergeants were experienced non-commissioned officers who led weapons teams and rifle squads at the squad or section level, typically in direct combat or close support roles. The rank carried substantial responsibility — a Staff Sergeant was expected to keep his soldiers effective under fire and execute the mission when officers were unavailable. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "sullivan__j_f_army_ww_ii",
+   "name": "John F. Sullivan",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1888583,
+   "lng": -72.6286556,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/sullivan__j_f_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "John F. Sullivan served in the United States Army during World War II, holding the rank of Technician Fifth Grade. TEC 5 soldiers were the specialized technical backbone of the Army — the mechanics, medics, and radio operators who kept the force operational. He may be related to other Sullivan family veterans buried at Calvary Cemetery — though those connections have not been confirmed. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "sullivan__l_m_army_nurse_corps_ww_ii",
+   "name": "Laird M. Sullivan",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army Nurse Corps",
+   "lat": 42.1882528,
+   "lng": -72.6293639,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/sullivan__l_m_army_nurse_corps_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Laird M. Sullivan served in the United States Army Nurse Corps during World War II, holding the rank of First Lieutenant. As a commissioned officer in the Nurse Corps, Sullivan was among the more than 59,000 women who served as Army Nurses in that conflict — working in field hospitals, evacuation hospitals, and base hospitals in every theater of the war, often under fire, always under extraordinary pressure. The rank of First Lieutenant placed her among the experienced nurses who led and supervised nursing care in military medical facilities. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Female Veteran"
+   ],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "sullivan__w_d_army_wwii",
+   "name": "William D. Sullivan",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1879278,
+   "lng": -72.6293556,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/sullivan__w_d_army_wwii.jpg",
+   "extraPhotos": [],
+   "narrative": "William D. Sullivan served in the United States Army during World War II, holding the rank of Private. He may be related to other Sullivan family veterans buried at Calvary Cemetery — a family with a long tradition of service. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "sullivan__ww_i",
+   "name": "WW. Sullivan",
+   "era": "World War I",
+   "branch": "",
+   "branchLabel": "Unknown",
+   "lat": 42.1877777777778,
+   "lng": -72.6289666666667,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/sullivan__ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "A member of the Sullivan family is honored here as a World War I veteran. The stone records military service without a first name or detailed service information. The Sullivan name is well represented among Calvary Cemetery’s veterans, reflecting the Irish community’s deep commitment to military service across generations. Branch, unit, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "swords__r_usn_ww_ii",
+   "name": "Robert F. Swords",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Navy",
+   "lat": 42.1883888888889,
+   "lng": -72.6291111111111,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/swords__r_usn_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Robert F. Swords served in the United States Navy during World War II, holding the rank of Lieutenant. As a commissioned officer, Swords held command and leadership responsibilities aboard ship or in a shore-based naval assignment. The rank of Lieutenant in the wartime Navy typically commanded a division aboard ship or served in a staff or specialized role. His specific ship assignment and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "tanguay__o_army_ww_ii",
+   "name": "Omer F. Tanguay",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1872333333333,
+   "lng": -72.6271888888889,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/tanguay__o_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Omer F. Tanguay served in the United States Army during World War II, holding the rank of Staff Sergeant. Staff Sergeants were the Army’s experienced combat NCOs, leading squads and weapons teams in direct action across every theater of the war. The rank was earned through demonstrated competence and reliability under the most demanding conditions. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "tauscher__o_army_ww_i",
+   "name": "Otto H. Tauscher",
+   "era": "World War I",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.1876666666667,
+   "lng": -72.6269694444444,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/tauscher__o_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "Otto H. Tauscher served in the United States Army during World War I, holding the rank of Private First Class. Private First Class was the first promotion above entry-level, recognizing a soldier who had demonstrated competence in his duties. More than two million American soldiers served in France with the American Expeditionary Forces, and men like Tauscher formed the backbone of that force. His specific unit and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "tessier__j_navy_ww_ii",
+   "name": "Joseph Rene Tessier",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Navy",
+   "lat": 42.1867861111111,
+   "lng": -72.6274111111111,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/tessier__j_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Joseph Rene Tessier served in the United States Navy during World War II, holding the rate of Ship Fitter. Ship Fitters were the structural specialists of the Navy — the men who repaired hull damage, installed and maintained the structural components of the ship, and performed the metalwork that kept vessels seaworthy under the rigors of wartime operations. In combat, a skilled Ship Fitter could save a ship that had been hit by keeping water out of critical spaces. His specific ship assignment and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "thibodeau__a_army_ww_ii",
+   "name": "Arthur O. Thibodeau",
+   "era": "World War II",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.1877472222222,
+   "lng": -72.6284722222222,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/thibodeau__a_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Arthur O. Thibodeau served in the United States Army during World War II, holding the rank of Private First Class. His specific unit and theater of operations have not yet been confirmed from available records. He may be related to David F. Thibodeau, also an Army veteran buried at Calvary Cemetery — though that connection has not been confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "thibodeau__d_mass_inf_ww_ii",
+   "name": "David F. Thibodeau",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Mass. Infantry",
+   "lat": 42.1875611111111,
+   "lng": -72.6285555555556,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/thibodeau__d_mass_inf_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "David F. Thibodeau served in the United States Army, Massachusetts, with Company C, 199th Infantry Training Battalion during World War II. Training battalions provided the instruction that turned civilians into soldiers — teaching weapons handling, tactics, physical conditioning, and the fundamentals of military discipline that every soldier needed before entering combat. He may be related to Arthur O. Thibodeau, also an Army veteran buried at Calvary Cemetery — though that connection has not been confirmed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "thorpe__w_mass_infantry",
+   "name": "William G. Thorpe",
+   "era": "World War I",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.1875611111111,
+   "lng": -72.6270972222222,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/thorpe__w_mass_infantry.jpg",
+   "extraPhotos": [],
+   "narrative": "William G. Thorpe served in the United States Army Infantry during World War I, a Massachusetts soldier who answered his country’s call when the United States entered the war in April 1917. His specific unit, rank, and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "tobin__f_army_wwii",
+   "name": "Frank F. Tobin",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1878472,
+   "lng": -72.6296,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/tobin__f_army_wwii.jpg",
+   "extraPhotos": [],
+   "narrative": "Frank F. Tobin served in the United States Army during World War II, holding the rank of Technician Fifth Grade. The TEC 5 grade was established in 1942 to recognize soldiers with specialized technical skills — mechanics, medics, radio operators, supply specialists — who held technical rather than command responsibilities. These men were the trained infrastructure of the Army, keeping the weapons, vehicles, and communications working that made combat operations possible. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "tondryk__j_army_ww_ii",
+   "name": "Joseph M. Tondryk",
+   "era": "World War II",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.1877277777778,
+   "lng": -72.6280527777778,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/tondryk__j_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Joseph M. Tondryk served in the United States Army during World War II, holding the rank of Private. Army Privates formed the essential foundation of the force — the men who carried the rifles and bore the weight of ground combat across North Africa, Italy, Western Europe, and the Pacific. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "tourigny__f_j_army",
+   "name": "Francis J. Tourigny",
+   "era": "Unknown Era",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1879527777778,
+   "lng": -72.6296916666667,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/tourigny__f_j_army.jpg",
+   "extraPhotos": [],
+   "narrative": "Francis J. Tourigny served in the United States Army, holding the rank of Technician Fourth Grade. The TEC 4 grade was one step above TEC 5, recognizing greater experience and skill in a specialized technical role. The era of his service has not been confirmed from the stone or available records — the TEC grades were in use from 1942 through 1948, placing his service in the World War II era or the immediate postwar period. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "twohig__j_army",
+   "name": "John J. \"Jack\" Twohig",
+   "era": "Unknown Era",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.1886972222222,
+   "lng": -72.6290805555556,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/twohig__j_army.jpg",
+   "extraPhotos": [],
+   "narrative": "John J. “Jack” Twohig served in the United States Army. His marker at Calvary Cemetery records his service without specifying rank or era. The era of his service has not been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "verrow__c_mass_ordinance",
+   "name": "Carleton T. Verrow",
+   "era": "World War II",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": 42.1886972222222,
+   "lng": -72.6283861111111,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/verrow__c_mass_ordinance.jpg",
+   "extraPhotos": [],
+   "narrative": "Carleton T. Verrow served in the United States Army, Massachusetts, with Company B, 2nd Ordnance Training Battalion during World War II. Ordnance training units prepared soldiers for the specialized work of maintaining and repairing the weapons, vehicles, and equipment that kept the Army in the fight. His specific rank and subsequent assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "vershon__r_mass_field_hosp_ww_i_ph",
+   "name": "Raymond A. Vershon",
+   "era": "World War I",
+   "branch": "",
+   "branchLabel": "Mass. Field Hospital",
+   "lat": 42.1893972222222,
+   "lng": -72.6289583333333,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/vershon__r_mass_field_hosp_ww_i_ph.jpg",
+   "extraPhotos": [],
+   "narrative": "Raymond A. Vershon served as a Private in the Medical Corps of the 82nd Division during World War I, and was awarded the Purple Heart for wounds received in action. He entered service October 7, 1917, and went to France with the American Expeditionary Forces. The 82nd — the \"All-American\" Division — fought in the St. Mihiel offensive and then in the Meuse-Argonne, the largest and bloodiest battle in American history, where more than a million U.S. troops broke the last German lines through six weeks of killing in the fall of 1918. Vershon's Medical Corps men worked the aid stations and stretcher lines close behind that fighting, carrying and treating the wounded under shellfire. It was there, serving the wounded, that Vershon was himself wounded. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Purple Heart"
+   ],
+   "status": "located",
+   "source": "session7"
   },
   {
    "id": "unknown_soldier_1",
    "name": "Unknown Soldier 1",
    "era": "Unknown Era",
-   "branch": "U.S. Military",
-   "branchLabel": "Veteran",
-   "lat": 42.207222,
-   "lng": -72.622025,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Unknown%20Vet%20F.JPG",
+   "branch": "",
+   "branchLabel": "Unknown",
+   "lat": 42.188225,
+   "lng": -72.6278611111111,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/unknown_vet.jpg",
    "extraPhotos": [],
-   "narrative": "This weathered stone marks the grave of an unidentified veteran. An American flag placed here acknowledges a service that time and weather have obscured. The name and details are no longer legible. This veteran served — that much is certain.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "The identity of this veteran has not yet been confirmed from the stone or available records. A marker at Calvary Cemetery indicates military service, and this entry is maintained as a record of an unidentified veteran’s presence in this burial ground. If you can identify this veteran, please contact the Veterans Graves Officer so the record can be completed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "session7"
   },
   {
    "id": "unknown_soldier_2",
    "name": "Unknown Soldier 2",
    "era": "Unknown Era",
-   "branch": "U.S. Military",
-   "branchLabel": "Veteran",
-   "lat": 42.207369,
-   "lng": -72.622306,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Unknown%20Vet2F.JPG",
+   "branch": "Unknown",
+   "branchLabel": "Unknown Branch",
+   "lat": 42.188575,
+   "lng": -72.6288611111111,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/retake.jpg",
    "extraPhotos": [],
-   "narrative": "This weathered stone marks the grave of an unidentified veteran. An American flag placed here acknowledges a service that time and weather have obscured. The name and details are no longer legible. This veteran served — that much is certain.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "This grave marker requires a retake photograph. The inscription is not readable from the available image — no name, branch, or service details have been confirmed. The location has been preserved. If you can identify this veteran, please contact the Veterans Graves Officer. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": ""
   },
   {
    "id": "unknown_soldier_3",
    "name": "Unknown Soldier 3",
    "era": "Unknown Era",
-   "branch": "U.S. Military",
-   "branchLabel": "Veteran",
-   "lat": 42.207222,
-   "lng": -72.6223,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Unknowwn%20Vet3F.JPG",
+   "branch": "Unknown",
+   "branchLabel": "Unknown Branch",
+   "lat": 42.1890138888889,
+   "lng": -72.6287166666667,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/unknown2.jpg",
    "extraPhotos": [],
-   "narrative": "This weathered stone marks the grave of an unidentified veteran. An American flag placed here acknowledges a service that time and weather have obscured. The name and details are no longer legible. This veteran served — that much is certain.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "This veteran’s identity has not yet been confirmed. The headstone has been photographed and geolocated to preserve the record. If you can identify this veteran, please contact the Veterans Graves Officer so the entry can be completed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": ""
   },
   {
    "id": "unknown_soldier_4",
    "name": "Unknown Soldier 4",
    "era": "Unknown Era",
-   "branch": "U.S. Military",
+   "branch": "Unknown",
    "branchLabel": "",
-   "lat": 42.207547,
-   "lng": -72.625061,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/edward%20r%20unknown%20vet.JPG",
+   "lat": 42.1880722222222,
+   "lng": -72.6293861111111,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/veteran__unknown1.jpg",
    "extraPhotos": [],
-   "narrative": "A U.S. War Veteran marker stands at this grave, but the associated stone is completely blank and unreadable. The identity of this veteran is unknown. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "unknown_soldier_5",
-   "name": "Unknown Soldier 5",
-   "era": "Civil War Era",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.207814,
-   "lng": -72.624314,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/unknown%20vet%204.JPG",
-   "extraPhotos": [],
-   "narrative": "This weathered stone marks the grave of an unknown veteran, likely from the Civil War era based on its style and condition. The veteran marker placed here confirms their service was known and honored. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "stone"
-  },
-  {
-   "id": "unknown_soldier_6",
-   "name": "Unknown Soldier 6",
-   "era": "World War II",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206856,
-   "lng": -72.62175,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/fales%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "A Massachusetts State Guard veteran marker stands at the Fales family stone. The State Guard was a home defense force established during World War II to replace the National Guard units that had been federalized and deployed overseas. No individual name is readable on the primary stone. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "This veteran’s identity has not yet been confirmed from the stone or available records. A marker photographed at Calvary Cemetery indicates military service, and this entry is maintained as a record of an unidentified soldier’s presence in this burial ground. If you can identify this veteran, please contact the Veterans Graves Officer so the record can be completed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": ""
   },
   {
-   "id": "",
-   "name": "MacKenzie, John",
+   "id": "veteran__unknown2__inf",
+   "name": "Veteran",
+   "era": "Unknown Era",
+   "branch": "",
+   "branchLabel": "Unknown",
+   "lat": 42.1880333333333,
+   "lng": -72.6294944444444,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/veteran__unknown2__inf.jpg",
+   "extraPhotos": [],
+   "narrative": "This veteran served in the United States Infantry. Identity, era, and full service details have not been confirmed from the stone or available records. The location has been preserved. If you can identify this veteran, please contact the Veterans Graves Officer. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "vogt__c_army_ww_ii",
+   "name": "Vogt, William Leonard",
+   "era": "World War II",
+   "branch": "U.S. Army Air Forces",
+   "branchLabel": "2d Lt · 471st Bomb Group · AAF · WWII",
+   "lat": 42.1885694,
+   "lng": -72.6284167,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/vogt__c_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "William Leonard Vogt served as a Second Lieutenant and bombardier in the United States Army Air Forces, assigned to the 806th Bomb Squadron, 471st Bombardment Group, based at Pueblo Army Air Base, Colorado. On August 27, 1943, Lt. Vogt was aboard a B-24E Liberator (Serial No. 42-7117) returning from a high-altitude formation training mission when the aircraft struck the side of Cheyenne Mountain near Colorado Springs. The plane was destroyed on impact. All ten crew members were killed instantly. Vogt was 25 years old. His death was classified as a line-of-duty training casualty. Born January 28, 1918 in Massachusetts. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "Died in Service"
+   ],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "waegelein__g_army_ww_ii",
+   "name": "Gerard L. Waegelein",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1877638888889,
+   "lng": -72.627425,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/waegelein__g_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Gerard L. Waegelein served in the United States Army during World War II. His specific unit, rank, and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "walker__j_j_army_ww_ii",
+   "name": "James J. Walker",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1897305555556,
+   "lng": -72.6291805555555,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/walker__j_j_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "James J. Walker served in the United States Army during World War II, holding the rank of Private. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "walker__j_navy",
+   "name": "Walker, John Francis",
+   "era": "World War I",
+   "branch": "U.S. Navy",
+   "branchLabel": "Navy · Chief Machinist's Mate",
+   "lat": 42.1880388888889,
+   "lng": -72.6277861111111,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/walker__j_navy.jpg",
+   "extraPhotos": [],
+   "narrative": "John Francis Walker served as a Chief Machinist's Mate in the United States Navy — one of the most senior enlisted ratings in the naval engineering branch. A Chief Machinist's Mate was responsible for the operation and maintenance of a ship's engines, boilers, and mechanical systems — the men who kept the fleet moving. Reaching Chief Petty Officer required years of demonstrated skill and leadership; it was not a rank given lightly. Walker was a Massachusetts man, and his stone records his death on October 26, 1930. The style of his government-issued marker and his senior rating suggest service during the World War I era or the years immediately following. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "walsh__t_army_ww_ii",
+   "name": "Thomas F. Walsh",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII · PFC",
+   "lat": 42.1892888888889,
+   "lng": -72.6294111111111,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/walsh__t_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Thomas F. Walsh served as a Private First Class in the United States Army during World War II. Private First Class was the first step in the Army's enlisted ladder — soldiers who had demonstrated reliability and skill beyond the basic Private, often taking on additional responsibilities within their squad or platoon. The Army fielded more than eight million men across the European and Pacific theaters, and PFCs like Walsh were the core of that force. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "ward__p_army_ww_i",
+   "name": "Patrick Ward",
+   "era": "World War I",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1876361111111,
+   "lng": -72.6288388888889,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/ward__p_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "Patrick Ward served in the United States Army during World War I, holding the rank of Private. More than two million Americans served in France with the American Expeditionary Forces, and Privates like Ward formed the backbone of that force — the men who carried their rifles into the trenches and through the campaigns that broke the German lines in 1918. His specific unit and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "welch__f_navy_ww_i",
+   "name": "Frank J. Welch",
+   "era": "World War I",
+   "branch": "",
+   "branchLabel": "Navy",
+   "lat": 42.1869277777778,
+   "lng": -72.6277694444444,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/welch__f_navy_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "Frank J. Welch served in the United States Navy during World War I, holding the rank of Apprentice Seaman. Apprentice Seaman was the entry-level rating — the starting point for a naval career that could take a man from the engine room to the bridge. The Navy expanded dramatically during World War I, absorbing tens of thousands of new recruits like Welch as it worked to counter the German U-boat campaign. His specific ship assignment and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "weslowski__j_army_vietnam",
+   "name": "James M. Wesolowski",
+   "era": "Vietnam",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1869555555556,
+   "lng": -72.6283194444444,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/weslowski__j_army_vietnam.jpg",
+   "extraPhotos": [],
+   "narrative": "James M. Wesolowski served in the United States Army during the Vietnam War, holding the rank of Specialist Fourth Class. Specialist Four was the Army’s technical enlisted rank — equivalent in pay to a Corporal but without the command authority, recognizing soldiers with specialized skills in intelligence, communications, medicine, or the dozens of other technical fields the Army depended on in Vietnam. His specific unit and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "whalen__j_army_ww_i",
+   "name": "John S. Whalen",
+   "era": "World War I",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1871027777778,
+   "lng": -72.6282666666667,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/whalen__j_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "John S. Whalen was born in 1895 and served as a Private in the United States Army during World War I. America entered the Great War in April 1917, and Privates like Whalen formed the foundation of the American Expeditionary Forces — the men who trained, crossed the Atlantic, and fought in the campaigns that broke the German lines in 1918. His specific unit and service record have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "white__w_mass_aero_sq_ww_i",
+   "name": "White, William H.",
+   "era": "World War I",
+   "branch": "801st Aero Squadron",
+   "branchLabel": "801st Aero Sq · WWI",
+   "lat": 42.1885694444444,
+   "lng": -72.6297138888889,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/white__w_mass_aero_sq_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "William H. White served in the 801st Aero Squadron during World War I. American military aviation was born in that conflict — the United States entered the war with almost no air force and spent 1917 and 1918 building one from scratch. The aero squadrons handled observation, pursuit, bombing, and supply missions that proved increasingly decisive as the war progressed. His specific rank and assignment within the 801st have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "williamson__f_army_korea",
+   "name": "F. Williamson",
+   "era": "Korean War",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1892,
+   "lng": -72.6298056,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/williamson__f_army_korea.jpg",
+   "extraPhotos": [],
+   "narrative": "F. Williamson served in the United States Army during the Korean War. ⚠️ GPS correction pending. His specific unit, rank, and assignment have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "wotton__f_army_ww_ii",
+   "name": "Wotton, Frank H. Jr.",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1887277777778,
+   "lng": -72.6283555555556,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/wotton__f_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Frank H. Wotton Jr. served in the United States Army during World War II, holding the rank of Master Sergeant — the senior enlisted grade in the wartime Army. A Master Sergeant was the most experienced non-commissioned officer in his unit, responsible for training, discipline, and the professional standards that determined whether a unit functioned effectively under fire. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "wynn__w_mass_",
+   "name": "Wynn, William D.",
+   "era": "World War I",
+   "branch": "U.S. Army · Quartermaster Corps",
+   "branchLabel": "Army · Engineers · WWI",
+   "lat": 42.1880277777778,
+   "lng": -72.6284472222222,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/wynn_w_mass.jpg",
+   "extraPhotos": [],
+   "narrative": "William D. Wynn, a Holyoke man, entered the service in January 1918 with the United States Army Engineers. He was injured in an accident at Plattsburg, New York, and died there on July 29, 1918, of pneumonia brought on by an injury to his spine — one of the many American soldiers whose war ended not in France but in a training camp at home. His stone identifies him as a Massachusetts soldier. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "zebrowski__f_army_ww_ii",
+   "name": "Frank J. Zebrowski",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1870389,
+   "lng": -72.6278,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/zebrowski__f_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Frank J. Zebrowski served in the United States Army during World War II, holding the rank of Technician Fifth Grade. TEC 5 soldiers were the specialized technical backbone of the Army — the mechanics, medics, radio operators, and supply specialists who kept the force operational. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "zebrowski__g_army_ww_ii",
+   "name": "George F. Zebrowski",
+   "era": "World War II",
+   "branch": "",
+   "branchLabel": "Army",
+   "lat": 42.1870472222222,
+   "lng": -72.6277694444444,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/zebrowski__g_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "George F. Zebrowski served in the United States Army during World War II, holding the rank of Technician Fifth Grade. TEC 5 soldiers were the specialized technical backbone of the Army — the mechanics, medics, radio operators, and supply specialists who kept the force operational. His specific unit and theater of operations have not yet been confirmed from available records. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "session7"
+  },
+  {
+   "id": "abbey__l_army_ww_ii",
+   "name": "Leonard G. Abbey",
+   "era": "World War II",
+   "branch": "Army",
+   "branchLabel": "Army · WWII",
+   "lat": 42.1875,
+   "lng": -72.6292038,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/abbey__l_army_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Leonard G. Abbey served in the United States Army during World War II. Born on March 5, 1925 in Huntington, Massachusetts, he was among the young men of the Pioneer Valley who answered the call when America entered the war. He passed away on August 23, 2017 at the age of 92. His interment at Calvary Cemetery is recorded in the FindAGrave registry of veterans buried here; his gravestone and grave site have not yet been located and geolocated, and are the subject of continuing research. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "altenkirch__a_navy_great_white_fleet",
+   "name": "Alfred Altenkirch",
+   "era": "Spanish-American War",
+   "branch": "Navy",
+   "branchLabel": "Navy · Great White Fleet",
+   "lat": 42.1875,
+   "lng": -72.6292038,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/altenkirch_a_navy_great_white_fleet.jpg",
+   "extraPhotos": [],
+   "narrative": "Born May 4, 1884 · Died April 9, 1908. Alfred Altenkirch served as a Fireman First Class in the United States Navy, assigned to the USS Vermont — flagship unit of President Theodore Roosevelt's legendary Great White Fleet. In December 1907, the Vermont departed Hampton Roads as part of the most ambitious naval demonstration in American history, sailing around the globe with 16 battleships as a dramatic show of American power on the world stage. On April 9, 1908, while the Vermont was anchored at Magdalena Bay, Mexico during target practice operations, Fireman First Class Altenkirch was found unresponsive in the ship's double bottom compartment. He was 23 years old. His next of kin was Mrs. Antone Gehlen of Holyoke, Massachusetts — his connection to this city. ⚠️ Geo-location TBD — coordinates are placeholder only. His interment at Calvary Cemetery is recorded in the FindAGrave registry of veterans buried here; his gravestone and grave site have not yet been located and geolocated, and are the subject of continuing research. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "anderstrom__a_navy_ww_i",
+   "name": "Arvid G. Anderstrom",
    "era": "World War I",
    "branch": "Navy",
-   "branchLabel": "",
-   "lat": 42.207128,
-   "lng": -72.622925,
+   "branchLabel": "Navy · WWI",
+   "lat": 42.1875,
+   "lng": -72.6292038,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/anderstrom__a_navy_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "Arvid G. Anderstrom served in the United States Navy during World War I. He is remembered here on the Sears family monument alongside his wife, Rose C. Sears. Arvid Gustave Anderstrom was a firefighter with the Springfield Fire Department for 45 years, retiring in 1962. Born in Holyoke, living in this city 62 years. He was a member of the American Legion Post 21, Massachusetts Retired Police and Firefighters Association, Springfield Fire Department Privates Club, the Massachusetts Permanent Firefighters Association, and the Springfield Golden Agers. He leaves his wife, the former Rose C. Sears; a son, eight grandchildren and 10 great-grandchildren. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "baillargeon__l_military",
+   "name": "Leo Joseph Baillargeon",
+   "era": "Unknown Era",
+   "branch": "Military",
+   "branchLabel": "U.S. Military",
+   "lat": 42.1875,
+   "lng": -72.6292038,
    "photo": "",
-   "extraPhotos": [
-    {
-     "caption": "🎖️ His Medal of Honor Story — the Remlik depth charge, 1917",
-     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/mackenzie.html"
-    }
-   ],
-   "narrative": "John MacKenzie was born in Bridgeport, Connecticut, on July 7, 1886, and enlisted in the Navy at Springfield at the age of sixteen. He served five years, reached the rate of Coxswain, was discharged in 1907, and went into the automobile business. When America entered the World War in 1917 he put the uniform back on. He was a Chief Boatswain's Mate aboard the USS Remlik, a converted steam yacht patrolling the Bay of Biscay. On the morning of December 17, 1917, the Remlik was stalking a German submarine in a heavy gale, making two knots against the sea, when a wave broke over her stern and tore the depth charge box from the taffrail. The box went over the side. The Sperry depth charge inside fell back onto the deck, lost its safety pin, and began rolling loose among the men, live, in water that was washing the deck from rail to rail. MacKenzie went aft and sat down on it. He stayed there, holding a live depth charge under him while the ship was brought around into the sea and his shipmates lashed it down. The Navy's citation says his act prevented the probable loss of the ship and her entire crew. For it he received the Medal of Honor. He never thought much of the fuss. Asked about it years afterward, he wrote that he did not consider his act warranted the medal, but that his captain thought differently and he would abide by his captain's decision. After the war he came home, opened a restaurant, and lived quietly in Holyoke. He died here on December 26, 1933, of a heart attack, at forty-seven. Mackenzie Stadium bears his name, and a plaque beneath the flag in left field tells what he did aboard the Remlik. He is Holyoke's only Medal of Honor recipient buried in the city. His grave is recorded at Forestdale Cemetery, plot R-113; the map pin shown here is provisional and awaits field confirmation of the exact location. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "extraPhotos": [],
+   "narrative": "Leo Joseph Baillargeon was a veteran of the United States military. Born on May 9, 1893, he died on September 28, 1970. His interment at Calvary Cemetery is recorded in the FindAGrave registry of veterans buried here; his branch, era, rank, and unit are not yet known, and his gravestone and grave site have not yet been located and geolocated. All remain the subject of continuing research. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "browne__f_army_ww_i",
+   "name": "Francis P. Browne",
+   "era": "World War I",
+   "branch": "Army",
+   "branchLabel": "Army · WWI",
+   "lat": 42.1875,
+   "lng": -72.6292038,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/browne_f_army_ww_i.jpg",
+   "extraPhotos": [],
+   "narrative": "Francis Paul Browne served during World War I and died in service on September 26, 1918 at the age of 23, a casualty of the devastating influenza outbreak at Camp Devens, Massachusetts. Camp Devens was one of the first and hardest-hit locations of the 1918 pandemic, which struck military installations across the country during the final months of the war. ⚠️ Geo-location TBD — coordinates are placeholder only. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": ""
+  },
+  {
+   "id": "buckley__d_navy_ww_ii",
+   "name": "Dennis J. Buckley",
+   "era": "World War II",
+   "branch": "Navy",
+   "branchLabel": "Navy · WWII · KIA",
+   "lat": 42.1875,
+   "lng": -72.6292038,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/buckley_d_navy_ww_ii.jpg",
+   "extraPhotos": [],
+   "narrative": "Before he was a name on a warship, he was a Holyoke kid with fast hands. Dennis J. Buckley boxed as \"Danny Buckley\" in the late thirties, getting his start in the Golden Gloves tournament and fighting while he was still a senior in high school. He showed unusual skill, and he became well known throughout New England. Then he graduated, lost interest in the fight game, and joined the navy. Born in Holyoke on April 22, 1920, he enlisted in the United States Navy on September 30, 1940, more than a year before Pearl Harbor, and served as a Fireman First Class aboard the destroyer USS Eberle. On March 10, 1943, patrolling the South Atlantic out of Recife, Brazil, the Eberle intercepted the German blockade runner Karin. Fourteen men went across in a small boat to board her and seize her documents. The Germans had planted demolition charges throughout the ship, and as the party came aboard the charges detonated. Seven of the fourteen were killed outright. Buckley was one of them; he was twenty-two years old. The seven who lived stayed aboard the burning ship, gathering intelligence until fire and further explosions drove them into the sea. Fireman Buckley was awarded the Silver Star for his valor. His body was never recovered, and he is among the honored dead listed on the Tablets of the Missing at the East Coast Memorial in Manhattan, New York. In 1944 the Navy did something it does rarely: it named a warship for him. The destroyer USS Dennis J. Buckley was launched at Bath, Maine, and his mother christened her. She served the fleet for a quarter of a century. This marker at Calvary Cemetery is a cenotaph — a memorial in his honor. His father, a Gold Star Father, is buried in the same plot. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
-    "Medal of Honor",
-    "Cited for Bravery"
+    "KIA",
+    "Silver Star"
    ],
    "status": "located",
    "source": ""
   },
   {
-   "id": "fd_new_goller",
-   "name": "Goller",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206728,
-   "lng": -72.622864,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Goller%20Medium.jpeg",
+   "id": "cahill__f_h_civil_war",
+   "name": "Francis H. Cahill",
+   "era": "Civil War Era",
+   "branch": "Army",
+   "branchLabel": "Army · Civil War",
+   "lat": 42.1875,
+   "lng": -72.6292038,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/cahill_f_h_civil_war.jpg",
    "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Francis Henry Cahill served as a Corporal in Company I of the 10th Massachusetts Volunteer Infantry Regiment during the Civil War. Born in 1842 in New York, he settled in Holyoke where he passed away November 28, 1903 at the age of approximately 61. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "photo-batch-FD4-5"
+   "source": ""
   },
   {
-   "id": "fd_new_unknown_img_7557_medium",
-   "name": "Unknown — IMG_7557 Medium",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207739,
-   "lng": -72.623986,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/IMG_7557%20Medium.jpeg",
+   "id": "cahill__t_civil_war",
+   "name": "Timothy Cahill",
+   "era": "Civil War Era",
+   "branch": "Army",
+   "branchLabel": "Army · Civil War",
+   "lat": 42.187761,
+   "lng": -72.629777,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/cahill_t_civil_war.jpg",
    "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Timothy Cahill served in the 10th New Hampshire Infantry during the Civil War, enlisting August 7, 1861 and credited to Nashua, NH as a Private in Company B of the 10th New Hampshire Infantry during the Civil War before being appointed Hospital Steward on September 12, 1862. He was mustered out for disability on November 10, 1862 at Cliff Mills, Virginia. He passed away March 17, 1914 at the age of 74. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "photo-batch-FD4-5"
+   "source": ""
   },
   {
-   "id": "fd_new_mccorkindale",
-   "name": "Mccorkindale",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207019,
-   "lng": -72.624511,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/McCorkindale%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/mcCorkindale2%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/miffert%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/oscar%20t%3F%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/stanisewski%20f%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_mcclean",
-   "name": "Mcclean",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206478,
-   "lng": -72.622658,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Mcclean2%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Mclean2%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_thomas",
-   "name": "Thomas",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206994,
-   "lng": -72.623672,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Thomas%20%3F%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/delphia%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_adamson",
-   "name": "Adamson",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207336,
-   "lng": -72.624031,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/adamson%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/adamson%202%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_aiken_h",
-   "name": "Aiken, H.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207225,
-   "lng": -72.624039,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/aiken%20h%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/aiken%3F%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/peterhansel%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_albert",
-   "name": "Albert",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207253,
-   "lng": -72.623956,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/albert%3F%20Medium.jpeg",
+   "id": "walker__a_s_army_ww_ii",
+   "name": "Walker, Allen S.",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "Army · WWII · TEC4",
+   "lat": 42.1875,
+   "lng": -72.6292038,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/walker.jpg",
    "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Allen S. Walker served as a Technician Fourth Grade in the United States Army during World War II. Technician Fourth Grade — TEC 4 — was one step above TEC 5, a senior specialist rating for soldiers with advanced technical skills: the skilled mechanics, communications operators, medics, and engineers who formed the Army's technical backbone. A TEC 4 carried the pay and responsibility of a Corporal while focusing on specialized duties rather than command. Born May 11, 1911, Walker passed away May 29, 1996 at the age of 85. ⚠️ Geo-location TBD — coordinates are placeholder only. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_alden",
-   "name": "Alden",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207344,
-   "lng": -72.624481,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/alden%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/wallace%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_allyn",
-   "name": "Allyn",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207192,
-   "lng": -72.623956,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/allyn%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/neumani%3F%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_almond",
-   "name": "Almond",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207606,
-   "lng": -72.625022,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/almond.JPG",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_audette",
-   "name": "Audette",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207236,
-   "lng": -72.624992,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/audette%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/audette%202%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/robson%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/santiago%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/westbrook%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_baker",
-   "name": "Baker",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207767,
-   "lng": -72.624397,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/baker3.JPG",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_glover",
-   "name": "Glover",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206967,
-   "lng": -72.624811,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/glover%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/barnett2%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_batchelor_g",
-   "name": "Batchelor, G.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206997,
-   "lng": -72.624069,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/batchelor%20g%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/tardy%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_bilodeau",
-   "name": "Bilodeau",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206939,
-   "lng": -72.624564,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/bilodeau%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/camuse%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/daunheimer%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/pappas%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schwember%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_bluemer",
-   "name": "Bluemer",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207097,
-   "lng": -72.624053,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/bluemer%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cain%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/jackson%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lang%20J%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_bolduc",
-   "name": "Bolduc",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207039,
-   "lng": -72.6249,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/bolduc%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/bombard%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/pinkney%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/scribner%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/strachan%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_booker",
-   "name": "Booker",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207081,
-   "lng": -72.624594,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/booker%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/giroux%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/giroux%20j%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_brakey",
-   "name": "Brakey",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206936,
-   "lng": -72.622336,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/brakey2%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_burnett_w_b",
-   "name": "Burnett, W. B.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207028,
-   "lng": -72.624214,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/burnett%20w%20b%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/rekully%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sharpe%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_butterfield",
-   "name": "Butterfield",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207017,
-   "lng": -72.624603,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/butterfield%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/heinicke%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/herlihy%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/price%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/turner%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_campbell",
-   "name": "Campbell",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206894,
-   "lng": -72.624053,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/campbell%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/spillios%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_caudill",
-   "name": "Caudill",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207144,
-   "lng": -72.624436,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/caudill%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/harre%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/kemp%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/stathis%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_cieplik",
-   "name": "Cieplik",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207069,
-   "lng": -72.624756,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cieplik%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/desormier%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/higgins%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/morin%20h%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_clark",
-   "name": "Clark",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207092,
-   "lng": -72.624428,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/clark%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/kurtz3%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_cody",
-   "name": "Cody",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206967,
-   "lng": -72.624656,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cody%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cody%20p%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cronacher%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_constantelos",
-   "name": "Constantelos",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207128,
-   "lng": -72.624367,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/constantelos%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/duxbury%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/duxbury%20r%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/duxbury2%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/kroll%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_cook",
-   "name": "Cook",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206864,
-   "lng": -72.622186,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cook%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/unknown%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_coon",
-   "name": "Coon",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207183,
-   "lng": -72.624481,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/coon%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_cruz",
-   "name": "Cruz",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207131,
-   "lng": -72.624886,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cruz%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lawrence%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/millen%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_cunliffe",
-   "name": "Cunliffe",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207367,
-   "lng": -72.624283,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cunliffe%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_day",
-   "name": "Day",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207594,
-   "lng": -72.624214,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/day3.JPG",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_dinapoli",
-   "name": "Dinapoli",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207122,
-   "lng": -72.624261,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/dinapoli%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/mahoney%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/mahoney%20w%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/torlai%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/torlai%20f%202%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_ebert",
-   "name": "Ebert",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207294,
-   "lng": -72.624092,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/ebert%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/ebert%20l%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_elves",
-   "name": "Elves",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206925,
-   "lng": -72.623794,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/elves%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/elves%3F%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/nimchick%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/nimchick2%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_farmer",
-   "name": "Farmer",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207097,
-   "lng": -72.624503,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/farmer%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/owens%20d%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_fern",
-   "name": "Fern",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.208114,
-   "lng": -72.624756,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/fern2.JPG",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_fimbel",
-   "name": "Fimbel",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207144,
-   "lng": -72.624039,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/fimbel%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/fimbel%20e%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_fish",
-   "name": "Fish",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207108,
-   "lng": -72.624831,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/fish%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schmidt%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/shaw%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_fletcher_w_t",
-   "name": "Fletcher, W. T.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206931,
-   "lng": -72.623689,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/fletcher%20w%20t%20%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/scott%20j%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/white%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_frank",
-   "name": "Frank",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207178,
-   "lng": -72.623839,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/frank%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/mason%3F%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/steadward%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_garcia",
-   "name": "Garcia",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207011,
-   "lng": -72.625053,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/garcia%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_goodwin_j_c",
-   "name": "Goodwin, J. C.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206972,
-   "lng": -72.623047,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/goodwin%20J%20c%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/phillips%20g%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/warren2%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/warreni2%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_gould_p",
-   "name": "Gould, P.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206803,
-   "lng": -72.623558,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/gould%20P%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/gould2%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_gould_p_a",
-   "name": "Gould, P. A.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206836,
-   "lng": -72.623511,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/gould%20p%20a%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/vlohiotis%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/vlohiotis%20s%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_graham",
-   "name": "Graham",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207081,
-   "lng": -72.624939,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/graham%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/montmeny%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_grenert_a",
-   "name": "Grenert, A.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206986,
-   "lng": -72.623114,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/grenert%20a%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/grenert2%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/grenert3%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/phillips3%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/worth%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_griot",
-   "name": "Griot",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207047,
-   "lng": -72.623856,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/griot%3F%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/korontjis%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_guillerie",
-   "name": "Guillerie",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206742,
-   "lng": -72.622453,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/guillerie2%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/gullerie2%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_haczynski",
-   "name": "Haczynski",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207006,
-   "lng": -72.624328,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/haczynski%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/holland%20E%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hurley%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hurley%20r%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/rock%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_hammond",
-   "name": "Hammond",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207453,
-   "lng": -72.622931,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hammond%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_hill",
-   "name": "Hill",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206972,
-   "lng": -72.624244,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hill%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hill%20h%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hill2%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/huber%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_hills_j",
-   "name": "Hills, J.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207097,
-   "lng": -72.624122,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hills%20j%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/ley%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/millen%20j%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_holland",
-   "name": "Holland",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206972,
-   "lng": -72.624381,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/holland%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/malouin%20A%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/malouin%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/ryder%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/ryder%20f%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_hynd",
-   "name": "Hynd",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207139,
-   "lng": -72.624756,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hynd%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hynd%20d%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/marr%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_krausse",
-   "name": "Krausse",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207506,
-   "lng": -72.624878,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/krausse2.JPG",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_lance_c",
-   "name": "Lance, C.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207081,
-   "lng": -72.624322,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lance%20C%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lance%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/washington%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_lang",
-   "name": "Lang",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207339,
-   "lng": -72.624153,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lang%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lang%20c%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lang%20c2%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lang2%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/powers%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_langer",
-   "name": "Langer",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207244,
-   "lng": -72.624825,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/langer%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sykes%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_larose",
-   "name": "Larose",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207111,
-   "lng": -72.625014,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/larose%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_larounis",
-   "name": "Larounis",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206678,
-   "lng": -72.621847,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/larounis2%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_levreault",
-   "name": "Levreault",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206978,
-   "lng": -72.623786,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/levreault%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/murray%20w%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_lubold",
-   "name": "Lubold",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207081,
-   "lng": -72.624214,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lubold%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schiesske%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_lynch",
-   "name": "Lynch",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206314,
-   "lng": -72.623375,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lynch%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_macdonald_c",
-   "name": "Macdonald, C.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206986,
-   "lng": -72.624161,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/macdonald%20c%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/potter%20c%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/stewart%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_mcclean_2",
-   "name": "Mcclean",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206569,
-   "lng": -72.622581,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/mcclean3%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/mclean%203%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_schroeder",
-   "name": "Schroeder",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207122,
-   "lng": -72.623772,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schroeder%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/miller2%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_nicolas",
-   "name": "Nicolas",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206772,
-   "lng": -72.624589,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/nicolas%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_oliveras",
-   "name": "Oliveras",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206964,
-   "lng": -72.622278,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/oliveras%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_panopoulos_g",
-   "name": "Panopoulos, G.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206944,
-   "lng": -72.624489,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/panopoulos%20G%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_papianou",
-   "name": "Papianou",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206872,
-   "lng": -72.624739,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/papianou%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_pappas",
-   "name": "Pappas",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206786,
-   "lng": -72.623444,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/pappas3%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_parilla",
-   "name": "Parilla",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206947,
-   "lng": -72.624719,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/parilla%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_parr",
-   "name": "Parr",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206806,
-   "lng": -72.621986,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/parr%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_pete",
-   "name": "Pete",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206953,
-   "lng": -72.623978,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/pete%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/strong%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_phillips",
-   "name": "Phillips",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206931,
-   "lng": -72.623122,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/phillips%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/phillips2%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/worth%20w%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/worth2%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_pickup",
-   "name": "Pickup",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206978,
-   "lng": -72.623389,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/pickup%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/pickup%20g%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schoenfeldt%204%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schoenfeldt2%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schoenfeldt4%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_poniatowski",
-   "name": "Poniatowski",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207044,
-   "lng": -72.623925,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/poniatowski%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_renardson",
-   "name": "Renardson",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206969,
-   "lng": -72.623864,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/renardson%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_robinson",
-   "name": "Robinson",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207031,
-   "lng": -72.624831,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/robinson%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_root",
-   "name": "Root",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207431,
-   "lng": -72.624681,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/root%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_sander",
-   "name": "Sander",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206703,
-   "lng": -72.622064,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sander%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_sanders_j",
-   "name": "Sanders, J.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206464,
-   "lng": -72.621719,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sanders%20J%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sanders%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_sanders_j_2",
-   "name": "Sanders, J.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206586,
-   "lng": -72.621986,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sanders%20J2%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sanders2%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_schimke_d",
-   "name": "Schimke, D.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206136,
-   "lng": -72.623589,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schimke%20d%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_schimke_d_2",
-   "name": "Schimke, D.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.20625,
-   "lng": -72.623389,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schimke%20d2%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schimke3%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_schoenfeldt",
-   "name": "Schoenfeldt",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206989,
-   "lng": -72.623322,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schoenfeldt3%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_sibley",
-   "name": "Sibley",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206894,
-   "lng": -72.622672,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sibley%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_simpson_g_e",
-   "name": "Simpson, G. E.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206928,
-   "lng": -72.623344,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/simpson%20G%20E%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_simpson_g_jr",
-   "name": "Simpson, G. Jr",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206881,
-   "lng": -72.623353,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/simpson%20g%20jr%20%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/simson%20g%20Jr%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_smith_p_t",
-   "name": "Smith, P. T.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206756,
-   "lng": -72.623619,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/smith%20P%20T%20%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_stewart_n",
-   "name": "Stewart, N.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207256,
-   "lng": -72.623656,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/stewart%20n%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/stewart%20n2%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_sullivan_j",
-   "name": "Sullivan, J.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206619,
-   "lng": -72.622978,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sullivan%20j%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_sussengut",
-   "name": "Sussengut",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206814,
-   "lng": -72.621919,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sussengut%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_sykes",
-   "name": "Sykes",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207289,
-   "lng": -72.624869,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sykes2%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_taylor",
-   "name": "Taylor",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206681,
-   "lng": -72.622733,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/taylor%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/taylor%20s%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_taylor_j",
-   "name": "Taylor, J.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206733,
-   "lng": -72.622781,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/taylor%20j%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/taylor2%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_thompson_c",
-   "name": "Thompson, C.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207039,
-   "lng": -72.624014,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/thompson%20c%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_traouair_b",
-   "name": "Traouair, B.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207114,
-   "lng": -72.623094,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/traouair%20B%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/traouair%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/unk%20vet%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/unknown%20vet%207%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/unknown%20vet6%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_traquair",
-   "name": "Traquair",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207061,
-   "lng": -72.6231,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/traquair%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_tripp_e",
-   "name": "Tripp, E.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207036,
-   "lng": -72.623414,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/tripp%20e%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/tripp2%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_unknown_vet",
-   "name": "Unknown, Vet",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207247,
-   "lng": -72.624642,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/unknown%20vet5%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_utley",
-   "name": "Utley",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207114,
-   "lng": -72.623453,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/utley%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/utley%20R%20K%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/utley%20w%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/utley2%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_vlohiotis",
-   "name": "Vlohiotis",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206467,
-   "lng": -72.623419,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/vlohiotis2%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_williamson",
-   "name": "Williamson",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206653,
-   "lng": -72.622636,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/williamson%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/williamson2%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/williamson3%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_wisniowski",
-   "name": "Wisniowski",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206881,
-   "lng": -72.621697,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/wisniowski2%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/wisnowski2%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
+   "source": "stone"
   }
  ]
 };
