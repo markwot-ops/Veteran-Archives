@@ -239,7 +239,17 @@ function normEra(raw) {
   if (s.includes('Cold War')) return 'Cold War';
   return 'Unknown Era';
 }
-function eraColor(raw) { return ERA_COLORS[normEra(raw)] || '#666'; }
+function normEras(raw) {
+  if (Array.isArray(raw)) {
+    const seen = [];
+    raw.forEach(r => { const e = normEra(r); if (!seen.includes(e)) seen.push(e); });
+    const out = seen.filter(e => e !== 'Unknown Era');
+    return out.length ? out.sort((a,b)=>ERA_ORDER.indexOf(a)-ERA_ORDER.indexOf(b)) : ['Unknown Era'];
+  }
+  return [normEra(raw)];
+}
+function eraLabel(raw) { return normEras(raw).join(' · '); }
+function eraColor(raw) { return ERA_COLORS[normEras(raw)[0]] || '#666'; }
 
 function branchSym(branch) {
   if (!branch) return '✦';
@@ -295,7 +305,7 @@ const DISTINCTION_SHORT = {};  // spell every distinction out in full
 function canonBadge(b){ const low=(b||'').toLowerCase(); for(const n of DISTINCTION_ORDER){ if(n.toLowerCase()===low) return n; } return null; }
 function vetDistinctions(v){ return (v.badges||[]).map(canonBadge).filter(Boolean); }
 function isDistinguished(v){ return vetDistinctions(v).length>0; }
-function passesFilters(v){ return activeEras.has(normEra(v.era)) && (!activeDistinction || vetDistinctions(v).includes(activeDistinction)); }
+function passesFilters(v){ return normEras(v.era).some(e => activeEras.has(e)) && (!activeDistinction || vetDistinctions(v).includes(activeDistinction)); }
 
 function hasCoords(v){ return v && v.lat!=null && v.lng!=null && !isNaN(v.lat) && !isNaN(v.lng); }
 
@@ -331,7 +341,7 @@ function openPopup(v, idx) {
   const queued = !((v.narrative||'').trim());
   document.getElementById('pname').textContent = v.name;
   document.getElementById('pservice').textContent =
-    v.branchLabel || [v.branch, normEra(v.era)].filter(Boolean).join(' • ');
+    v.branchLabel || [v.branch, eraLabel(v.era)].filter(Boolean).join(' • ');
   const storyEl = document.getElementById('pstory');
   storyEl.textContent = queued ? QUEUE_TEXT : v.narrative;
   storyEl.classList.toggle('queued', queued);
@@ -428,7 +438,7 @@ function makeRow(v, idx) {
   el.className = 'vet-item' + (idx===activeIdx?' active':'') + (queued?' queued':'');
   el.dataset.i = idx;
   const q = queued ? `<div class="v-badge-q">\u25d4 queue</div>` : '';
-  el.innerHTML = `<div class="v-sym" style="color:${eraColor(v.era)}">${branchSym(v.branch)}</div><div style="flex:1;min-width:0"><div class="v-name">${displayName(v.name)}</div><div class="v-era">${normEra(v.era)}</div></div>${q}`;
+  el.innerHTML = `<div class="v-sym" style="color:${eraColor(v.era)}">${branchSym(v.branch)}</div><div style="flex:1;min-width:0"><div class="v-name">${displayName(v.name)}</div><div class="v-era">${eraLabel(v.era)}</div></div>${q}`;
   el.addEventListener('click', () => {
     if (hasCoords(v)) { map.flyTo([v.lat, v.lng], 19, {duration:1.0}); setTimeout(() => openPopup(v, idx), 350); }
     else { openPopup(v, idx); }
@@ -473,7 +483,7 @@ function updateCount() {
 }
 
 const eraCounts = {};
-veterans.forEach(v => { const e=normEra(v.era); eraCounts[e]=(eraCounts[e]||0)+1; });
+veterans.forEach(v => { normEras(v.era).forEach(e => { eraCounts[e]=(eraCounts[e]||0)+1; }); });
 
 // Era filters (with counts) live above the names in the sidebar.
 const filterDiv = document.getElementById('era-filters');
