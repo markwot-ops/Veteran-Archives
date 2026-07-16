@@ -88,12 +88,14 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 .era-btn.selected { opacity:1; border-color:#fff; filter:none; box-shadow:inset 0 0 0 999px rgba(0,0,0,0.2); }
 .era-btn .eb-n { opacity:0.85; font-size:0.46rem; margin-left:1px; }
 
-#vet-list { overflow-y:auto; flex:1; padding:3px 0; }
+#vet-list { overflow-y:auto; flex:1; padding:3px 0; overscroll-behavior:contain; will-change:scroll-position; }
 #vet-list::-webkit-scrollbar { width:4px; }
 #vet-list::-webkit-scrollbar-thumb { background:#333; border-radius:3px; }
 .vet-item {
   padding:6px 11px; cursor:pointer; border-bottom:1px solid #181818;
   display:flex; align-items:center; gap:7px; transition:background 0.1s;
+  /* the whole index is in the DOM; the browser skips laying out what you can't see */
+  content-visibility:auto; contain-intrinsic-size:auto 34px;
 }
 .vet-item:hover { background:#1c1c1c; }
 .vet-item.active { background:#000; border-left:3px solid #CD853F; padding-left:8px; }
@@ -287,12 +289,11 @@ let activeIdx = null;
 let searchTerm = '';
 let activeMarker = null;
 
-// --- sidebar render state: sort once, render in chunks as you scroll ---
+// --- sidebar render state: sort once, render the whole index, let the browser skip what's offscreen ---
 let SORTED = null;          // cached sorted index — built once, never re-sorted
 let FILTERED = [];          // current filter/search result set
 let RENDERED = 0;           // how many rows are actually in the DOM
 let searchTimer = null;     // debounce handle
-const CHUNK = 150;          // rows added per pass
 
 // Major distinctions, most prestigious first. Each cemetery builds chips from whichever it actually has.
 const DISTINCTION_ORDER = ['Medal of Honor','Distinguished Service Cross','Croix de Guerre','KIA','Purple Heart','Distinguished Service Medal','Cited for Bravery','Air Medal','Silver Star','Bronze Star','French Military Medal','British Military Medal'];
@@ -439,20 +440,18 @@ function makeRow(v, idx) {
   el.dataset.i = idx;
   const q = queued ? `<div class="v-badge-q">\u25d4 queue</div>` : '';
   el.innerHTML = `<div class="v-sym" style="color:${eraColor(v.era)}">${branchSym(v.branch)}</div><div style="flex:1;min-width:0"><div class="v-name">${displayName(v.name)}</div><div class="v-era">${eraLabel(v.era)}</div></div>${q}`;
-  el.addEventListener('click', () => {
-    if (hasCoords(v)) { map.flyTo([v.lat, v.lng], 19, {duration:1.0}); setTimeout(() => openPopup(v, idx), 350); }
-    else { openPopup(v, idx); }
-  });
+  el.dataset.idx = idx;
   return el;
 }
 
 function renderMore() {
+  // Whole index, one pass. content-visibility keeps offscreen rows free, so the
+  // scrollbar tells the truth about how many men there are and the list can be flung.
   const list = document.getElementById('vet-list');
   const frag = document.createDocumentFragment();
-  const end = Math.min(RENDERED + CHUNK, FILTERED.length);
-  for (let n = RENDERED; n < end; n++) frag.appendChild(makeRow(FILTERED[n].v, FILTERED[n].i));
+  for (let n = RENDERED; n < FILTERED.length; n++) frag.appendChild(makeRow(FILTERED[n].v, FILTERED[n].i));
   list.appendChild(frag);
-  RENDERED = end;
+  RENDERED = FILTERED.length;
 }
 
 function buildSidebar() {
@@ -469,10 +468,49 @@ function buildSidebar() {
   none.style.display = FILTERED.length===0 ? 'block' : 'none';
 }
 
-document.getElementById('vet-list').addEventListener('scroll', function () {
-  if (RENDERED >= FILTERED.length) return;
-  if (this.scrollTop + this.clientHeight >= this.scrollHeight - 400) renderMore();
+// --- one click handler for the whole index ---
+document.getElementById('vet-list').addEventListener('click', e => {
+  const row = e.target.closest('.vet-item');
+  if (!row) return;
+  const idx = +row.dataset.idx;
+  const v = veterans[idx];
+  if (!v) return;
+  if (hasCoords(v)) { map.flyTo([v.lat, v.lng], 19, {duration:1.0}); setTimeout(() => openPopup(v, idx), 350); }
+  else { openPopup(v, idx); }
 });
+
+// --- the spin: a mouse wheel gets weight and coast; trackpads and touch already have their own ---
+(function kineticWheel(){
+  const list = document.getElementById('vet-list');
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduced) return;                       // respect the system setting: leave native scrolling alone
+  let vel = 0, spinning = false;
+
+  function frame(){
+    const before = list.scrollTop;
+    list.scrollTop += vel;
+    vel *= 0.93;                             // friction — the coast down
+    // hit the top or the bottom: stop dead rather than grind
+    if (list.scrollTop === before && Math.abs(vel) > 0.5) vel = 0;
+    if (Math.abs(vel) < 0.35) { vel = 0; spinning = false; return; }
+    requestAnimationFrame(frame);
+  }
+
+  list.addEventListener('wheel', e => {
+    // A trackpad/Magic Mouse sends a stream of small deltas and already coasts.
+    // A notched wheel sends big discrete jumps — that's the one that needs help.
+    const notched = e.deltaMode === 1 || Math.abs(e.deltaY) >= 100;
+    if (!notched) return;                    // native handles it
+    e.preventDefault();
+    vel += e.deltaY * 0.42;                  // harder flick, longer spin
+    vel = Math.max(-140, Math.min(140, vel));
+    if (!spinning) { spinning = true; requestAnimationFrame(frame); }
+  }, {passive:false});
+
+  // any deliberate touch on the list kills the spin, like a hand on the wheel
+  ['pointerdown','touchstart'].forEach(ev =>
+    list.addEventListener(ev, () => { vel = 0; }, {passive:true}));
+})();
 
 function updateCount() {
   const showing = veterans.filter(passesFilters).length;
