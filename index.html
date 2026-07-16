@@ -48,21 +48,25 @@ footer { text-align:center; padding:26px; font-size:0.68rem; color:#8c8c8c; bord
 footer .contact { color:#CD853F; }
 
   /* ---- Veterans Honor Roll legend ---- */
-  /* the Honors box, exactly as it appears on a map */
-  #honor-roll { margin:34px auto 0; max-width:1100px; padding:0 18px; }
-  .hr-sub { font-size:0.74rem; color:#8a8272; margin-top:10px; }
-  #hr-legend { display:inline-block; background:rgba(8,8,8,0.9); border:1px solid #3a3a3a;
-               border-radius:4px; padding:11px 13px; white-space:nowrap; min-width:250px; }
-  #hr-legend h4 { font-size:0.58rem; text-transform:uppercase; letter-spacing:0.12em; color:#e7ddc9;
-                  margin:0 0 9px; font-weight:normal; border-bottom:1px solid #2c2c2c; padding-bottom:7px; }
-  .hr-row { display:flex; align-items:center; gap:7px; margin-bottom:5px; cursor:pointer;
-            transition:opacity 0.15s; text-decoration:none; }
+  /* The Honors box, living in the grid where its card used to be. */
+  .card.hr-card { display:flex; flex-direction:column; background:rgba(8,8,8,0.92); border-color:#3a3a3a; }
+  .hr-title { display:block; text-align:center; font-size:0.62rem; text-transform:uppercase;
+              letter-spacing:0.14em; color:#e7ddc9; text-decoration:none; font-family:Georgia,serif;
+              border-bottom:1px solid #2c2c2c; padding-bottom:9px; margin-bottom:10px; }
+  .hr-title:hover { color:#fff; }
+  #hr-rows { flex:1; }
+  .hr-row { display:flex; align-items:center; gap:8px; margin-bottom:6px; text-decoration:none;
+            transition:opacity 0.15s, transform 0.12s; }
   .hr-row:last-child { margin-bottom:0; }
-  .hr-row:hover { opacity:0.75; }
+  .hr-row:hover { opacity:0.72; transform:translateX(2px); }
   .hr-sym { width:13px; text-align:center; font-size:0.66rem; flex-shrink:0; }
-  .hr-name { font-size:0.6rem; color:#d4c9b8; flex:1; padding-right:14px; }
-  .hr-n { font-size:0.56rem; color:#d4c9b8; min-width:18px; text-align:right; }
+  .hr-name { font-size:0.63rem; color:#d4c9b8; flex:1; padding-right:12px; }
+  .hr-n { font-size:0.58rem; color:#d4c9b8; min-width:20px; text-align:right; }
   .hr-load { color:#8a8272; font-style:italic; font-size:0.75rem; }
+  .hr-foot { display:flex; justify-content:space-between; align-items:baseline; margin-top:11px;
+             padding-top:9px; border-top:1px solid #2c2c2c; font-size:0.58rem; color:#8a8272; }
+  .hr-all { color:#c8b97a; text-decoration:none; }
+  .hr-all:hover { text-decoration:underline; }
 </style>
 </head>
 <body>
@@ -137,24 +141,14 @@ footer .contact { color:#CD853F; }
       <div class="foot"><span class="count">4 Veterans of Record</span><span class="cta">Open map →</span></div>
     </div>
 
-    <div class="card link">
-      <a class="stretch" href="./honor-roll/index.html" aria-label="Open the Veterans Honor Roll"></a>
-      <div class="status"><i class="dot live"></i> Live</div>
-      <h2>Veterans Honor Roll</h2>
-      <div class="addr">Every decoration in the archive · all grounds</div>
-      <div class="desc">Every honor recorded across the whole archive, gathered in one place — from the Medal of Honor to the men cited for bravery. Choose an honor to see every Holyoke veteran who holds it, and where he lies.</div>
-      <div class="foot"><span class="count" id="hr-count">Honored</span><span class="cta">Open roll →</span></div>
+    <div class="card hr-card">
+      <a class="hr-title" href="./honor-roll/index.html">Holyoke Veterans Honor Roll</a>
+      <div id="hr-rows"><div class="hr-load">Reading the archive…</div></div>
+      <div class="hr-foot"><span id="hr-count">&nbsp;</span><a class="hr-all" href="./honor-roll/index.html">See them all →</a></div>
     </div>
 
   </div>
 
-  <section id="honor-roll">
-    <div id="hr-legend">
-      <h4>Holyoke Veterans Honor Roll</h4>
-      <div id="hr-rows"><div class="hr-load">Reading the archive…</div></div>
-    </div>
-    <div class="hr-sub" id="hr-sub"></div>
-  </section>
 </main>
 <footer>
   City of Holyoke Veterans Graves Officer &nbsp;·&nbsp; 310 Appleton Street, 1st Floor, Holyoke, MA 01040 &nbsp;·&nbsp; (413) 322-5630<br>
@@ -203,9 +197,7 @@ footer .contact { color:#CD853F; }
              `${sym}<div class="hr-name">${esc(k)}</div><div class="hr-n">${counts[k]}</div></a>`;
     }).join('');
     const c = document.getElementById('hr-count');
-    if (c) c.textContent = honoured.size + ' Honored';
-    document.getElementById('hr-sub').textContent =
-      honoured.size + ' honored men and women. Choose an honor to see them on the map of the city.';
+    if (c) c.textContent = honoured.size + ' honored';
   }).catch(() => {
     document.getElementById('hr-rows').innerHTML = '<div class="hr-load">Could not read the archive.</div>';
   });
