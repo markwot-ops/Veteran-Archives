@@ -3105,6 +3105,10 @@ window.VA = {
     {
      "src": "",
      "caption": ""
+    },
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
     }
    ],
    "narrative": "William B. Craven entered Company D, 104th Infantry, 26th Division — Holyoke's Own — as a private, and had risen to Sergeant by the time the company reached France. Company D left Camp Bartlett in October 1917, sailed from Montreal, and reached France by way of England in time for a cold Christmas at the village of Sartes. Their first turn in the lines came that February on the Chemin-des-Dames. On Easter Sunday 1918 they rushed by truck to the front at Apremont and held that ground three months through artillery, trench raids, and mustard gas. Then came Belleau Wood, then Château-Thierry — where the company lost five Holyoke men in a single day — then the St. Mihiel drive, and finally the fighting north of Verdun. Of the 250 men who left Holyoke, only thirteen remained in the ranks when the Armistice came. Craven was not among them. In that final Verdun sector, worn down by a year of campaigning, he succumbed to pneumonia on December 9, 1918 — a month after the guns fell silent. He was 29 years old. He is memorialized on the family stone alongside his father William Craven and mother Martha A. Clow. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
@@ -4412,6 +4416,10 @@ window.VA = {
     {
      "src": "",
      "caption": ""
+    },
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
     }
    ],
    "narrative": "Harold C. Burnett served as a Private in Company D, 104th Infantry — Holyoke's Own — with the American Expeditionary Forces during World War I, and was wounded in action. Company D fought through the Chemin-des-Dames, Apremont, Chateau-Thierry, and the final drives at St. Mihiel and north of Verdun; of the 250 men who left Holyoke in 1917, only thirteen remained in the ranks at the Armistice. Burnett came home carrying his wounds. Born in 1897, Burnett died in the 1940s, the final digit worn from the stone. He shares the family monument with Milton Heywood, and their wives — Gladys O. Minta and Ethel Mitchell Minta, both born Minta — joined the two families on one stone. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
