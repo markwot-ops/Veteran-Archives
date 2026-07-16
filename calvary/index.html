@@ -461,12 +461,25 @@ const ROW_H = 40;            // MUST match .vet-item height in the CSS
 const OVERSCAN = 8;          // rows drawn beyond each edge, so a fling doesn't flash blank
 let winStart = -1, winEnd = -1, winQueued = false;
 
-function drawWindow(force) {
+function ensureScaffold() {
   const list = document.getElementById('vet-list');
+  if (document.getElementById('rows')) return list;
+  list.replaceChildren();
+  ['pad-top','rows','pad-bot'].forEach(id => {
+    const d = document.createElement('div'); d.id = id; list.appendChild(d);
+  });
+  return list;
+}
+
+function drawWindow(force) {
+  const list = ensureScaffold();
   const rows = document.getElementById('rows');
   const total = FILTERED.length;
-  const first = Math.max(0, Math.floor(list.scrollTop / ROW_H) - OVERSCAN);
   const visible = Math.ceil(list.clientHeight / ROW_H) + OVERSCAN * 2;
+  let first = Math.max(0, Math.floor(list.scrollTop / ROW_H) - OVERSCAN);
+  // If the list shortened under us (a filter, a search) the old scroll position can
+  // point past the end. Never let that draw an empty window.
+  if (first > Math.max(0, total - 1)) first = Math.max(0, total - visible);
   const last = Math.min(total, first + visible);
   if (!force && first === winStart && last === winEnd) return;
   winStart = first; winEnd = last;
@@ -499,7 +512,9 @@ function buildSidebar() {
   FILTERED = sortedList().filter(({v}) =>
     passesFilters(v) &&
     (!term || v.name.toLowerCase().includes(term) || (v.branch||'').toLowerCase().includes(term)));
-  list.innerHTML = '';
+  // Clear the drawn rows ONLY. Wiping #vet-list would destroy pad-top/rows/pad-bot
+  // and the windowed list would never draw again.
+  document.getElementById('rows').replaceChildren();
   list.scrollTop = 0;
   renderMore();
   none.style.display = FILTERED.length===0 ? 'block' : 'none';
@@ -519,7 +534,10 @@ document.getElementById('vet-list').addEventListener('click', e => {
 // --- the spin: a mouse wheel gets weight and coast; trackpads and touch already have their own ---
 (function kineticWheel(){
   const list = document.getElementById('vet-list');
-  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!list) return;
+  // Feel is a nicety; the index is not. Nothing in here may throw.
+  let reduced = false;
+  try { reduced = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches); } catch (e) {}
   if (reduced) return;                       // respect the system setting: leave native scrolling alone
   let vel = 0, spinning = false;
 
