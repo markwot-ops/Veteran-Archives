@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Holyoke Veteran Honor Roll</title>
+<style>
+  :root{ --bg:#1a1a1a; --panel:#111; --ink:#f0e8d8; --muted:#8a8578; --rule:#2a2a2a; --gold:#c8b97a; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:var(--bg); color:var(--ink); font-family:Georgia,'Times New Roman',serif; }
+  header{ padding:20px 22px 14px; border-bottom:1px solid var(--rule); }
+  .home{ color:var(--gold); text-decoration:none; font-size:0.8rem; letter-spacing:0.04em; }
+  .home:hover{ text-decoration:underline; }
+  h1{ font-size:1.5rem; font-weight:normal; margin:10px 0 4px; }
+  .sub{ color:var(--muted); font-size:0.85rem; }
+  .wrap{ display:flex; height:calc(100vh - 92px); }
+  #honors{ width:290px; flex-shrink:0; border-right:1px solid var(--rule); overflow-y:auto; padding:10px 0; background:var(--panel); }
+  .hrow{ display:flex; align-items:center; gap:9px; padding:9px 16px; cursor:pointer; border-bottom:1px solid #181818; }
+  .hrow:hover{ background:#1d1d1d; }
+  .hrow.on{ background:#242015; }
+  .ring{ width:11px; height:11px; border-radius:50%; flex-shrink:0; border:2px solid; }
+  .hname{ flex:1; font-size:0.82rem; }
+  .hcount{ font-size:0.72rem; color:var(--muted); }
+  #men{ width:300px; flex-shrink:0; border-right:1px solid var(--rule); overflow-y:auto; padding:6px 0; }
+  .mrow{ padding:8px 15px; cursor:pointer; border-bottom:1px solid #181818; }
+  .mrow:hover{ background:#1d1d1d; }
+  .mrow.on{ background:#242015; }
+  .mname{ font-size:0.8rem; color:#d4c9b8; }
+  .mwhere{ font-size:0.62rem; color:#777; margin-top:2px; }
+  .mwhere.unknown{ color:#6b6355; font-style:italic; }
+  #detail{ flex:1; overflow-y:auto; padding:24px 30px 60px; }
+  #detail .empty{ color:var(--muted); font-style:italic; margin-top:40px; }
+  #detail h2{ font-size:1.3rem; font-weight:normal; margin:0 0 4px; }
+  .dband{ color:var(--gold); font-size:0.8rem; margin-bottom:2px; }
+  .drest{ color:var(--muted); font-size:0.78rem; margin-bottom:14px; }
+  .dbadges{ display:flex; flex-wrap:wrap; gap:5px; margin-bottom:16px; }
+  .chip{ font-size:0.6rem; padding:2px 7px; border-radius:9px; letter-spacing:0.03em; }
+  #detail img{ max-width:330px; width:100%; border:1px solid #333; border-radius:3px; margin-bottom:14px; display:block; }
+  .story{ font-size:0.92rem; line-height:1.7; max-width:60ch; }
+  .src{ font-size:0.66rem; color:#7d7768; font-style:italic; line-height:1.55; margin-top:10px; max-width:60ch; }
+  .contact{ font-size:0.72rem; color:#8f8a7d; line-height:1.6; margin-top:10px; max-width:60ch; }
+  .links{ margin-top:16px; display:flex; flex-direction:column; gap:6px; align-items:flex-start; }
+  .links a{ color:var(--gold); font-size:0.76rem; text-decoration:none; border:1px solid #3a3524; padding:5px 11px; border-radius:3px; }
+  .links a:hover{ background:#242015; }
+  .loading{ padding:30px; color:var(--muted); font-style:italic; }
+  @media(max-width:820px){
+    .wrap{ flex-direction:column; height:auto; }
+    #honors,#men{ width:100%; max-height:34vh; border-right:0; border-bottom:1px solid var(--rule); }
+  }
+</style>
+</head>
+<body>
+<header>
+  <a class="home" href="../">← All Holyoke burial ground memorials</a>
+  <h1>Holyoke Veteran Honor Roll</h1>
+  <div class="sub" id="sub">Every decoration and distinction recorded across the archive.</div>
+</header>
+<div class="wrap">
+  <div id="honors"><div class="loading">Reading the archive…</div></div>
+  <div id="men"></div>
+  <div id="detail"><div class="empty">Choose an honor, then a man.</div></div>
+</div>
+
+<script>
+// Where the archive lives. Each data.js sets window.VA, so they are loaded one at a
+// time and captured — the last one in would otherwise win.
+const SITES = [
+  {slug:'calvary',      label:'Calvary Cemetery'},
+  {slug:'forestdale',   label:'Forestdale Cemetery'},
+  {slug:'elmwood',      label:'Elmwood Cemetery'},
+  {slug:'rock-valley',  label:'Rock Valley Cemetery'},
+  {slug:'smiths-ferry', label:'Smiths Ferry Cemetery'},
+  {slug:'research-queue', label:null}   // null = resting place not yet known
+];
+
+const ORDER = ['Medal of Honor','Distinguished Service Cross','Croix de Guerre','KIA','Purple Heart',
+  'Distinguished Service Medal','Cited for Bravery','Air Medal','Silver Star','Bronze Star',
+  'French Military Medal','British Military Medal','Died in Service','Female Veteran','Medical Officer'];
+const COLOR = {
+  'Medal of Honor':'#e6c14a','Distinguished Service Cross':'#9b6bc4','Croix de Guerre':'#4e8f63',
+  'KIA':'#c0392b','Purple Heart':'#a24bb3','Distinguished Service Medal':'#7c6fb0',
+  'Cited for Bravery':'#c07a4a','Air Medal':'#4a9be0','Silver Star':'#b9c0c7','Bronze Star':'#c99a3a',
+  'French Military Medal':'#5b7f8a','British Military Medal':'#8a7d5b','Died in Service':'#7a8a5b',
+  'Female Veteran':'#c98aa8','Medical Officer':'#5bab9e'
+};
+const CHIP = {
+  'KIA':['#5a1d16','#fff'],'Purple Heart':['#4a1f52','#fff'],'Croix de Guerre':['#1f3f2b','#fff'],
+  'Silver Star':['#3a3f45','#fff'],'Bronze Star':['#4a3416','#fff'],'Air Medal':['#16334a','#fff'],
+  'Distinguished Service Cross':['#3d2352','#fff'],'Cited for Bravery':['#7a4a24','#fff'],
+  'French Military Medal':['#2d4a55','#fff'],'British Military Medal':['#4a442d','#fff'],
+  'Medal of Honor':['#8a6d16','#fff'],'Distinguished Service Medal':['#3d356b','#fff'],
+  'Died in Service':['#3a4227','#fff'],'Female Veteran':['#4f2c3c','#fff'],'Medical Officer':['#1d3f3a','#fff']
+};
+const CONTACT = 'If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.';
+
+// workflow flags live in the same field as honors — they are not decorations
+const NOT_AN_HONOR = new Set(['Retake Needed','Needs Photo','Needs GPS','Duplicate']);
+
+let MEN = [], BY_HONOR = new Map(), activeHonor = null, activeMan = null;
+
+function eraLabel(e){ return Array.isArray(e) ? e.join(' · ') : (e || ''); }
+function esc(s){ const d=document.createElement('div'); d.textContent = s==null?'':s; return d.innerHTML; }
+
+async function loadSite(site){
+  const res = await fetch('../' + site.slug + '/data.js', {cache:'no-store'});
+  if (!res.ok) throw new Error(site.slug + ' ' + res.status);
+  const src = await res.text();
+  const sandbox = {};
+  new Function('window', src)(sandbox);          // the file assigns window.VA
+  return (sandbox.VA && sandbox.VA.veterans || []).map(v => ({
+    v, site: site.slug, where: site.label
+  }));
+}
+
+async function boot(){
+  const results = await Promise.allSettled(SITES.map(loadSite));
+  const failed = [];
+  results.forEach((r,i) => r.status === 'fulfilled' ? MEN.push(...r.value) : failed.push(SITES[i].slug));
+
+  MEN.forEach(m => (m.v.badges || []).forEach(b => {
+    if (NOT_AN_HONOR.has(b)) return;
+    if (!BY_HONOR.has(b)) BY_HONOR.set(b, []);
+    BY_HONOR.get(b).push(m);
+  }));
+  BY_HONOR.forEach(list => list.sort((a,b) => a.v.name.localeCompare(b.v.name)));
+
+  const honors = [...BY_HONOR.keys()].sort((a,b) => {
+    const ia = ORDER.indexOf(a), ib = ORDER.indexOf(b);
+    return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib) || a.localeCompare(b);
+  });
+
+  const honoured = new Set();
+  MEN.forEach(m => (m.v.badges||[]).some(b => !NOT_AN_HONOR.has(b)) && honoured.add(m.site + '|' + m.v.id));
+  const grounds = SITES.filter(s => s.label && !failed.includes(s.slug)).length;
+  document.getElementById('sub').textContent =
+    honoured.size.toLocaleString() + ' honored men and women — across ' + grounds +
+    ' burial grounds and the research queue' + (failed.length ? ' — could not read: ' + failed.join(', ') : '') + '.';
+
+  const box = document.getElementById('honors');
+  box.replaceChildren();
+  honors.forEach(h => {
+    const row = document.createElement('div');
+    row.className = 'hrow'; row.dataset.h = h;
+    row.innerHTML = `<span class="ring" style="border-color:${COLOR[h]||'#666'}"></span>` +
+                    `<span class="hname">${esc(h)}</span><span class="hcount">${BY_HONOR.get(h).length}</span>`;
+    row.addEventListener('click', () => showHonor(h));
+    box.appendChild(row);
+  });
+  if (honors.length) showHonor(honors[0]);
+}
+
+function showHonor(h){
+  activeHonor = h;
+  document.querySelectorAll('.hrow').forEach(el => el.classList.toggle('on', el.dataset.h === h));
+  const men = BY_HONOR.get(h) || [];
+  const box = document.getElementById('men');
+  box.replaceChildren();
+  men.forEach((m, i) => {
+    const row = document.createElement('div');
+    row.className = 'mrow'; row.dataset.i = i;
+    const where = m.where ? esc(m.where) : 'Resting place not yet known';
+    row.innerHTML = `<div class="mname">${esc(m.v.name)}</div>` +
+                    `<div class="mwhere${m.where ? '' : ' unknown'}">${where}</div>`;
+    row.addEventListener('click', () => showMan(m, i));
+    box.appendChild(row);
+  });
+  document.getElementById('detail').innerHTML = '<div class="empty">' + men.length +
+    ' recorded. Choose a name.</div>';
+}
+
+function showMan(m, i){
+  activeMan = m;
+  document.querySelectorAll('.mrow').forEach(el => el.classList.toggle('on', +el.dataset.i === i));
+  const v = m.v;
+  const d = document.getElementById('detail');
+  const badges = (v.badges || []).map(b => {
+    const c = CHIP[b] || ['#333','#ccc'];
+    return `<span class="chip" style="background:${c[0]};color:${c[1]}">${esc(b)}</span>`;
+  }).join('');
+  const links = (v.extraPhotos || []).map(e =>
+    `<a href="${esc(e.src)}" target="_blank" rel="noopener">${esc(e.caption || 'View')}</a>`).join('');
+  const rest = m.where
+    ? 'Laid to rest in ' + esc(m.where)
+    : 'Resting place not yet known — this veteran is in the research queue.';
+  // legacy entries carry the contact close inside the narrative; new ones don't
+  const hasNote = !!v.sourceNote;
+  d.innerHTML =
+    `<h2>${esc(v.name)}</h2>` +
+    `<div class="dband">${esc(v.branchLabel || eraLabel(v.era))}</div>` +
+    `<div class="drest">${rest}</div>` +
+    (badges ? `<div class="dbadges">${badges}</div>` : '') +
+    (v.photo ? `<img src="../${m.site}/${esc(v.photo)}" alt="${esc(v.name)}" onerror="this.remove()">` : '') +
+    `<div class="story">${esc(v.narrative || 'No narrative has been written for this veteran yet.')}</div>` +
+    (hasNote ? `<div class="src">${esc(v.sourceNote)}</div><div class="contact">${CONTACT}</div>` : '') +
+    (links ? `<div class="links">${links}</div>` : '');
+  d.scrollTop = 0;
+}
+
+boot().catch(e => {
+  document.getElementById('honors').innerHTML =
+    '<div class="loading">Could not read the archive: ' + esc(e.message) + '</div>';
+});
+</script>
+</body>
+</html>

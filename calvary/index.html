@@ -94,10 +94,8 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 .vet-item {
   padding:6px 11px; cursor:pointer; border-bottom:1px solid #181818;
   display:flex; align-items:center; gap:7px; transition:background 0.1s;
-  /* Fixed height so the skipped-row estimate below is EXACT. If it isn't, the list
-     grows as rows come into view and the scrollbar fights your hand. */
+  /* Windowed list: ROW_H in the script must match this exactly. */
   height:40px; box-sizing:border-box;
-  content-visibility:auto; contain-intrinsic-size:40px;
 }
 .vet-item.dragging, #vet-list.dragging { cursor:grabbing; }
 .vet-item:hover { background:#1c1c1c; }
@@ -181,7 +179,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
       <input id="search" type="text" placeholder="Search veterans…">
       <div id="era-filters"></div>
     </div>
-    <div id="vet-list"></div>
+    <div id="vet-list"><div id="pad-top"></div><div id="rows"></div><div id="pad-bot"></div></div>
     <div id="no-results">No veterans found</div>
   </div>
 </div>
@@ -295,7 +293,6 @@ let activeMarker = null;
 // --- sidebar render state: sort once, render the whole index, let the browser skip what's offscreen ---
 let SORTED = null;          // cached sorted index — built once, never re-sorted
 let FILTERED = [];          // current filter/search result set
-let RENDERED = 0;           // how many rows are actually in the DOM
 let searchTimer = null;     // debounce handle
 
 // Major distinctions, most prestigious first. Each cemetery builds chips from whichever it actually has.
@@ -402,9 +399,18 @@ function openPopup(v, idx) {
   // else: queue / not-yet-located — no pin to pan to; the window still opens in place.
 
   document.querySelectorAll('.vet-item').forEach(el => el.classList.remove('active'));
-  const si = document.querySelector(`.vet-item[data-i="${idx}"]`);
-  if (si) { si.classList.add('active'); si.scrollIntoView({block:'nearest',behavior:'smooth'}); }
   activeIdx = idx;
+  // Under a windowed list the row may not exist yet — compute where it lives and
+  // scroll there, then draw. Never rely on scrollIntoView for an undrawn row.
+  const pos = FILTERED.findIndex(f => f.i === idx);
+  if (pos >= 0) {
+    const list = document.getElementById('vet-list');
+    const top = pos * ROW_H, bot = top + ROW_H;
+    if (top < list.scrollTop || bot > list.scrollTop + list.clientHeight) {
+      list.scrollTop = Math.max(0, top - list.clientHeight / 2 + ROW_H / 2);
+    }
+    drawWindow(true);
+  }
   document.getElementById('popup').classList.add('show');
 }
 
@@ -447,15 +453,44 @@ function makeRow(v, idx) {
   return el;
 }
 
-function renderMore() {
-  // Whole index, one pass. content-visibility keeps offscreen rows free, so the
-  // scrollbar tells the truth about how many men there are and the list can be flung.
+// ---- windowed list -------------------------------------------------------
+// Only the rows you can see exist. Above and below them sit two spacers holding
+// the exact height of everything not drawn, so the scrollbar is honest and the
+// cost of scrolling is the same at 40 names or 40,000.
+const ROW_H = 40;            // MUST match .vet-item height in the CSS
+const OVERSCAN = 8;          // rows drawn beyond each edge, so a fling doesn't flash blank
+let winStart = -1, winEnd = -1, winQueued = false;
+
+function drawWindow(force) {
   const list = document.getElementById('vet-list');
+  const rows = document.getElementById('rows');
+  const total = FILTERED.length;
+  const first = Math.max(0, Math.floor(list.scrollTop / ROW_H) - OVERSCAN);
+  const visible = Math.ceil(list.clientHeight / ROW_H) + OVERSCAN * 2;
+  const last = Math.min(total, first + visible);
+  if (!force && first === winStart && last === winEnd) return;
+  winStart = first; winEnd = last;
+
   const frag = document.createDocumentFragment();
-  for (let n = RENDERED; n < FILTERED.length; n++) frag.appendChild(makeRow(FILTERED[n].v, FILTERED[n].i));
-  list.appendChild(frag);
-  RENDERED = FILTERED.length;
+  for (let n = first; n < last; n++) frag.appendChild(makeRow(FILTERED[n].v, FILTERED[n].i));
+  rows.replaceChildren(frag);
+  document.getElementById('pad-top').style.height = (first * ROW_H) + 'px';
+  document.getElementById('pad-bot').style.height = Math.max(0, (total - last) * ROW_H) + 'px';
+  if (activeIdx !== null) {
+    const el = rows.querySelector(`.vet-item[data-i="${activeIdx}"]`);
+    if (el) el.classList.add('active');
+  }
 }
+
+function renderMore() { winStart = winEnd = -1; drawWindow(true); }
+
+// scroll drives the window, coalesced to one draw per frame
+document.getElementById('vet-list').addEventListener('scroll', () => {
+  if (winQueued) return;
+  winQueued = true;
+  requestAnimationFrame(() => { winQueued = false; drawWindow(false); });
+}, {passive:true});
+window.addEventListener('resize', () => drawWindow(true));
 
 function buildSidebar() {
   const list = document.getElementById('vet-list');
@@ -466,7 +501,6 @@ function buildSidebar() {
     (!term || v.name.toLowerCase().includes(term) || (v.branch||'').toLowerCase().includes(term)));
   list.innerHTML = '';
   list.scrollTop = 0;
-  RENDERED = 0;
   renderMore();
   none.style.display = FILTERED.length===0 ? 'block' : 'none';
 }
