@@ -354,6 +354,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Leon F. Burgess of Holyoke entered the service in June 1916 and served on the Mexican Border. He was a Bugler in Company D, 104th Infantry — the man whose calls ordered the company's day and, in the field, sounded the advance. He died of wounds received in action in France on July 6, 1918, at Belleau Wood. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
@@ -643,6 +649,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Louis M. Croteau entered the service on May 30, 1917, with Company D, 104th Infantry — Holyoke's own company, drawn from the mill streets and the neighborhoods of the city, so that men who had grown up together now stood in the same trench. He was killed in action on June 16, 1918, on the same day that took several of his neighbors in the same company. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
@@ -964,6 +976,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Joseph L. Finem of Holyoke entered the service on June 5, 1917, with Company D, 104th Infantry — his own city's company. He was killed in action on July 22, 1918, at Chateau-Thierry. That single day cost Company D more Holyoke men than any other in the war: Moynihan, Sullivan, Fleming, and Finem all fell in the same attack, neighbors in life and in death, four telegrams that reached the same small city in the same week. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
@@ -1443,6 +1461,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Robert W. Gorham of Holyoke entered the service in 1912 with Company D of the 2nd Massachusetts Regiment — his city's own company — and served at the Mexican Border in 1916. He went to France with Company D, 104th Infantry, and rose to the rank of Sergeant. He was killed in action in France on September 12, 1918, at Saint-Mihiel, the first great offensive planned and executed by an independent American army. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
@@ -1888,6 +1912,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "John J. Kelly, a Holyoke man, entered the service on June 20, 1916, and served on the Mexican Border that summer. He went overseas as a private with Company D, 104th Infantry, and rose to Corporal. He was killed in action on June 16, 1918, while rescuing women from a French town that was being shelled. He died saving civilians — not in an assault, but carrying the helpless out of the fire. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "badges": [
@@ -2096,6 +2126,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "John Lambert of Holyoke entered the service on June 19, 1916, and served on the Mexican Border that summer with Company D, 104th Infantry. He was killed in action in France in July 1918 at the Marne, while trying to rescue a comrade. He died going back for another man. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
@@ -2352,6 +2388,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Harold W. Martin of Holyoke entered the service in February 1917, two months before America declared war, with Company D, 104th Infantry — his own city's company. In France he was selected for officers' training school, the Army's judgment on a private who had proved himself. He was killed in action in France on July 21, 1918, at Chateau-Thierry, one day before the same company lost Moynihan, Sullivan, Fleming, and Finem in a single morning. He never received the commission he had earned. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
@@ -2657,6 +2699,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Frank J. Moynihan entered the service on June 20, 1916, and served on the Mexican Border that year. He was a Corporal in Company D, 104th Infantry — Holyoke's own company. He was killed in action in France on July 22, 1918, at Chateau-Thierry. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
@@ -2841,6 +2889,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Albert Ouimette of Holyoke enlisted in Company D, 2nd Massachusetts Regiment on June 25, 1916, and served in the Mexican border expedition that year. He went overseas in October 1917 with Company D, 104th Infantry. The War Department reported him missing in action from July 22, 1918, and on February 15, 1919 — nearly seven months later — officially declared him killed in action, date undetermined. His family waited those seven months for word that never came in any better form. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
@@ -3009,6 +3063,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "William Pueschel of Holyoke entered the service in May 1917 with Company D, 104th Infantry. He was gassed in April 1918 and returned to the line. He was killed in action in France on October 20, 1918. He had already been poisoned once by a weapon that left men blind and burned, and he went back. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
@@ -3426,6 +3486,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Frank E. Snyder of Holyoke entered the service in May 1917 with Company D, 104th Infantry — his own city's company. He was killed in action in France on July 11, 1918, at Chateau-Thierry, where the Yankee Division stood in the path of the German drive on Paris. He fell eleven days before the same company lost Moynihan, Sullivan, Fleming, and Finem in a single morning. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
@@ -3549,6 +3615,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Jeremiah F. Sullivan entered the service on June 20, 1916, and served at the Mexican Border that summer. He was a Corporal in Company D, 104th Infantry. He was killed in action in France on July 22, 1918, at Chateau-Thierry — the same day that took several of his Holyoke comrades in the same company. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "badges": [
@@ -3577,6 +3649,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Raymond B. Thompson, a son of Holyoke, entered the service with Company D and served at the Mexican Border. He went overseas as a Sergeant with Company D, 104th Infantry. He was killed in action in France on September 12, 1918, at Saint-Mihiel. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
@@ -3676,6 +3754,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "George Tremblay entered the service in May 1917 with Company D, 104th Infantry — the Holyoke company, in the 26th \"Yankee\" Division, the first full American division to reach France. He was killed in action in France on June 16, 1918, in the fighting around the Toul sector, where the Yankee Division learned trench warfare under French instruction and then held the line alone. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
@@ -3691,6 +3775,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Douglas Urquhart of Holyoke entered the service in June 1916 and went to the Mexican Border with his city's local command. He went overseas as a Corporal with Company D, 104th Infantry, and rose to the rank of Sergeant. He died of wounds received in action in France in July 1918 at Chateau-Thierry, where the Yankee Division helped stop the last German drive on Paris. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
@@ -4458,6 +4548,12 @@ window.VA = {
    "branchLabel": "Second Lieutenant, Company D 104th Infantry – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Francis C. Heywood of Holyoke enlisted in Company D, 2nd Massachusetts Regiment, in March 1916, and went to the Mexican border, for a time with the supply company of the 2nd Regiment. He went to France as a sergeant in Company D, 104th Infantry — Holyoke's Own — and was commissioned a second lieutenant in France in April 1918, assigned to Company G, 11th Infantry. While awaiting his commission he was detached to specialize in the application of gas attacks, and in the great German drive of March 21, 1918, while serving with the French, he was cited for distinguished service and awarded the Croix de Guerre. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "Croix de Guerre"
@@ -5263,6 +5359,12 @@ window.VA = {
    "branchLabel": "Captain, 26th Division Supply Officer – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Edmund J. Slate enlisted as a private in Company I, 2nd Massachusetts Volunteer Militia, on September 16, 1894, serving three years, then enlisted in Holyoke's Company D and rose through corporal, sergeant, quartermaster sergeant, and first sergeant to be elected captain in December 1913. He served in the Spanish-American War in 1898 and did duty on the Mexican border in 1916. On October 5, 1917, he left Camp Bartlett at the head of Company D, 104th Infantry, and in France was placed in charge of regimental supplies as supply officer of the 26th Division.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -5521,6 +5623,12 @@ window.VA = {
    "branchLabel": "Captain, Company D, 104th Infantry – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Charles T. Beaupré enlisted in Company D, 2nd Massachusetts Infantry, and went to the Mexican border in 1916. He went overseas as a first sergeant in Company D, 104th Infantry, but was taken ill in England in October 1917. He attended Officers' Training School in France, and after a four-month course received a commission as second lieutenant in July 1918, standing fourth on a list of five hundred and fifty candidates. He was promoted to first lieutenant and then to captain.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -5716,6 +5824,12 @@ window.VA = {
    "branchLabel": "Captain, Infantry – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Donald B. Logan was elected second lieutenant of Company D, 2nd Massachusetts Regiment, on December 20, 1915, after training at Plattsburg. He served at the Mexican border in 1916, for a time as acting battalion adjutant, and went overseas with Company D, 104th Infantry, in October 1917 as commander of the first platoon. Detached from his company for special work, he was promoted to first lieutenant in November 1917 and assigned to the Intelligence Department, and later promoted to captain.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -6106,6 +6220,12 @@ window.VA = {
    "branchLabel": "First Lieutenant, Tank Corps – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Wallace A. Choquette enlisted in Company D, 2nd Massachusetts Regiment, on June 29, 1910, rising through corporal and sergeant to be elected first lieutenant in 1913. He went to the Mexican border with Company D, serving a month as acting battalion adjutant and two and a half months in charge of No. 7 Truck Train. He went to France with Company D, 104th Infantry, was detached to attend an officers' training school in the French front-line trenches, and was assigned to the Tank Corps in June 1918.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -6314,6 +6434,12 @@ window.VA = {
    "branchLabel": "Second Lieutenant, Infantry – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Levi E. Fay enlisted in Company D, 2nd Massachusetts Regiment, on March 10, 1916, served in the Mexican Border Expedition, and rose to corporal and then mess sergeant at Camp Bartlett. He went overseas with Company D, 104th Infantry, entered the Officers' Training School in France in April 1918, and was commissioned a second lieutenant in July 1918.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -6561,6 +6687,12 @@ window.VA = {
    "branchLabel": "Second Lieutenant, Machine Gun – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Orlando B. Hastings enlisted in Company D, 2nd Massachusetts Regiment, in June 1916, did duty at the Mexican border, and rose to supply sergeant at Camp Bartlett. He went overseas with Company D, 104th Infantry, entered the Officers' Training School in France, was commissioned a second lieutenant in April 1918, and was assigned to the Machine Gun Battalion of the 78th Division.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -6795,6 +6927,12 @@ window.VA = {
    "branchLabel": "Second Lieutenant, Infantry – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "William H. McGarry enlisted in Company D, 2nd Massachusetts Regiment, in June 1916, served on the Mexican border, and was promoted to sergeant. Injured in an auto accident at the Notch in May 1917 while on guard duty, he recovered and went overseas as a sergeant in Company D, 104th Infantry, in October 1917. He entered the officers' training school in France, was commissioned a second lieutenant on May 3, 1918, attended a specialist school in automatic weapons, and served with the 328th and 104th Infantry.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -7029,6 +7167,12 @@ window.VA = {
    "branchLabel": "Second Lieutenant, Infantry – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Harry S. Rhoades enlisted in Company D, 2nd Massachusetts Regiment, in June 1916, served on the Mexican border, and rose to corporal and sergeant at Camp Bartlett. He went overseas with Company D, 104th Infantry, was commissioned a second lieutenant in France, transferred to the United States Gas Service, and was gassed in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -7848,6 +7992,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Jacob Altman served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack adds: At base censor of ce.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -7991,6 +8141,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private C. C. Armstrong served in Company D, 104th Infantry. With the American Expeditionary Forces of the United States Army in the First World War.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -8030,6 +8186,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Corporal Ralph H. Armstrong entered service June 23, 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -8173,6 +8335,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Sergeant Alexander B. Auld entered service May 1, 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He was stationed at Camp Sheridan, Montgomery, Ala. He had earlier seen Mexican border service.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -8420,6 +8588,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Edward W. Barnett entered service October 4, 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He was stationed at Camp Devens. Zack records him wounded in action. He was later transferred to Camp Bartlett, Mass.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -8472,6 +8646,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Edward T. Barrett entered service November 30, 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He was stationed at Camp Devens. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
@@ -8875,6 +9055,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Sergeant Samuel J. Bechard entered service June 21, 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -9447,6 +9633,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Sergeant Andrew H. Birnie entered service March 10, 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He had earlier seen Mexican border service.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -9733,6 +9925,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Bugler George F. Boldway entered service June 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -9980,6 +10178,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Frank J. Bowe entered service June 20, 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack records him gassed in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -10630,6 +10834,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Alfred L. Brouillet entered service June 5, 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -11059,6 +11269,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Edward J. Burns entered service June 25, 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -11761,6 +11977,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Harry D. Cauley entered service May 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He had earlier seen Mexican border service.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -12047,6 +12269,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Leo Chenevert entered service October 23, 1918, serving in the United States Army in the First World War. He served with the American Expeditionary Forces. He was stationed at Fort Warren, Boston, Mass. He had earlier seen Mexican border service. Zack adds: CHEVALIER, LOUIS A., Prixate, Company D, 104th Infantry.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -12333,6 +12561,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Alfred J. Cliche entered service April 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -12554,6 +12788,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Thomas J. Collins served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -13217,6 +13457,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Raymond S. Cray entered service May 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He had earlier seen Mexican border service.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -13269,6 +13515,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Tellemer Crevier served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -13776,6 +14028,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Sergeant Homer F. Dame served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -13828,6 +14086,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Philip Daunheimer entered service August 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -14348,6 +14612,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Oscar Desrosiers entered service May 31, 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -14387,6 +14657,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Charles Deyo entered service June 21, 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -14647,6 +14923,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Arthur Dominique served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -14816,6 +15098,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Francis J. Dowd served in the United States Army in the First World War. Zack's roster records: Sergeant-Major. Company D, 104th Infantry. Entered service September 1, 1915. Mexican border service. With American Expeditionary Forces. Wounded in action. Transferred to Headquarters, 104th Infantry. ' DOWD, FREDERICK A., Corporal, Company D, 104th Infantry. Entered service June 1, 1916. Mexican border service. With the American Expeditionary Forces. Wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
@@ -14933,6 +15221,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Sergeant William E. Doyle entered service May 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -15089,6 +15383,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Corporal Patrick W. Ducey entered service June 25, 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -15102,6 +15402,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Alfred J. Ducharme served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -15570,6 +15876,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Frederick M. Earle served in Company D, 104th Infantry.\" of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -15973,6 +16285,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Bugler Edward J. Fay entered service June 10, 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -15999,6 +16317,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Basil Fedora entered service September 6, 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -16493,6 +16817,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Hector F. Fontaine entered service June 24, 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -16636,6 +16966,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Lionel Fountaine entered service May 3, 1918, serving in Company I, 42nd Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack adds: rOURNi:pR, AIME J., Private, Company D, 104th Infantry.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -17000,6 +17336,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Raymond S. Fuller entered service June 8, 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -17117,6 +17459,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Hermon H. Gagnon entered service June 1, 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -17130,6 +17478,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Lionel J. Gagnon entered service February 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -17585,6 +17939,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Omer Gilbert entered service September 1, 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -17832,6 +18192,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Frederick A. Glens served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -18118,6 +18484,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Sergeant Ernest Gorham served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -18404,6 +18776,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Joseph Greeley entered service June 25, 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him taken prisoner in action, and later released.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -19821,6 +20199,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Isadore Hooper entered service September 19, 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -19886,6 +20270,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Sergeant Albert H. Hotin entered service June 25, 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him shell-shocked in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -20419,6 +20809,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private John Joinette served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -21108,6 +21504,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Thomas J. Kennedy served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -21342,6 +21744,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Corporal Thomas E. Kirkpatrick entered service January 1, 1915, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him gassed in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -21537,6 +21945,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Edward J. Kotfila entered service September 4, 1915, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -21849,6 +22263,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Albert J. L'Henreaux served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -22070,6 +22490,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Corporal Marcel J. Ladoucer entered service June 20, 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -22226,6 +22652,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Alexander O. Lague entered service June 2, 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -22486,6 +22918,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Corporal Howard F. Lancour entered service June 25, 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him gassed in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -22746,6 +23184,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Alfred Lapointe entered service June 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him gassed in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -22980,6 +23424,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Wilfred J. Lavallee entered service July 2, 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack records him wounded twice in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -23006,6 +23456,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Joseph Laverty entered service August 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -23084,6 +23540,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Raymond G. Lawrence entered service May 29, 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. Zack adds: With Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -23396,6 +23858,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Charles G. Lefebvre served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -23435,6 +23903,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Sergeant Henry P. Legrand entered service May 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -23513,6 +23987,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Albert F. Leoffler entered service September 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -23578,6 +24058,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Frank Lescilces served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -23747,6 +24233,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private George W. Lister entered service June 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -24046,6 +24538,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Francis J. Lucey entered service June 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -24319,6 +24817,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private William M. Lyons served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -24371,6 +24875,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Aime J. rOURNi:pR entered service May 26, 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. The name as printed in Zack's roster is damaged in the scan and awaits transcription from the page.",
    "status": "queue",
@@ -24709,6 +25219,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Corporal Frank T. McGough entered service June 20, 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him gassed in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -25060,6 +25576,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Peter J. McNairn served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -25203,6 +25725,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Daniel D. Mahoney, Jr. entered service June 19, 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him gassed in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -25359,6 +25887,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Homer L. Mandeville entered service May 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -25749,6 +26283,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Frederick W. Martin served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -25866,6 +26406,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Corporal Leo T. Mason served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -26477,6 +27023,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Cook Ferdinand F. Mitchell entered service June 26, 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -26542,6 +27094,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Henry F. Monaghan served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -26867,6 +27425,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Cornelius Moriarty entered service June 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -27660,6 +28224,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Ralph F. Nevin entered service September 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -28115,6 +28685,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Orderly Joseph E. O'Connor entered service June 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -28817,6 +29393,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Archie R. Pairadee entered service June 19, 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -29311,6 +29893,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Sergeant George A. Peters entered service December 15, 1914, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -29350,6 +29938,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Sergeant John A. Peterson entered service December 15, 1914, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -29623,6 +30217,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Leo A. Plouffe entered service May 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -29792,6 +30392,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Arthur J. Pouliot served in Company D, 104th Infantry. Entered serv- I ice May 31, 1917 of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -30585,6 +31191,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Henry Richard entered service May 30, 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -30988,6 +31600,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private David Rogers served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -31599,6 +32217,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Hector A. Samson served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -31729,6 +32353,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Corporal Romeo Sawyer entered service June 5, 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack records him wounded in action. Zack adds: 16 242• SCANLON, EDWARD J., Army Field Clerk.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -31989,6 +32619,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Corporal Walter A. Scott served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -32106,6 +32742,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Frank P. Sescila served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -32834,6 +33476,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Byron A. Squires entered service June 20, 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him wounded in action. Zack adds: STACHOWICZ, FELIX,_ Private, Battery F,_76th Field Artillery.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -32951,6 +33599,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Sergeant William R. Stapley entered service June 25, 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. He was later transferred to Officers' Training School.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -33016,6 +33670,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Paul L. Stec entered service June 15, 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -34030,6 +34690,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Raymond Therrien served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -34303,6 +34969,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Cook Joseph Tracey served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -34316,6 +34988,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private William D. Trapalis entered service July 9, 1917, serving in Company E, ~23rd Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack adds: TRAQUAIR, WILLIAM K.,_ Private, Company D, 104th Infantry.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -34680,6 +35358,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Albert J. Viens entered service June 15, 1915, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -34953,6 +35637,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Corporal Bertram C. Wmrner entered service March 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -35668,6 +36358,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Corporal Harold G. Woodruff served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -35733,6 +36429,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Cook Joseph Yelle served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -35863,6 +36565,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Stephen Zuck entered service June 19, 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
@@ -36344,6 +37052,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private William P. Murray entered service June 1916, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
@@ -36838,6 +37552,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Robert A. Sheehan entered service June 29, 1914, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
@@ -37033,6 +37753,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private James E. Sullivan entered service March 25, 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
@@ -37085,6 +37811,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Sergeant John H. Sullivan entered service June 18, 1916, serving in Troop K, 2nd Cavalry of the United States Army in the First World War. He served with the American Expeditionary Forces. He had earlier seen Mexican border service. Zack records him gassed in action. Zack adds: SULLIVAN, JOHN J,, Private, Company D, 104th Infantry.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
@@ -37488,6 +38220,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private Frank J. Boave entered service June 20, 1917, serving in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack records him gassed in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. This entry was recovered from a damaged passage of Zack's roster; the name awaits confirmation from the printed page.",
    "status": "queue",
@@ -38645,6 +39383,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "caption": "📜 Where Company D Went",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+    }
+   ],
    "narrative": "Private AVILLIA3I M. Lyons served in Company D, 104th Infantry of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack records him wounded in action.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. This entry was recovered from a damaged passage of Zack's roster; the name awaits confirmation from the printed page.",
    "status": "queue",
