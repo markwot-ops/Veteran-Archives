@@ -602,45 +602,43 @@ document.getElementById('vet-list').addEventListener('click', e => {
   else { openPopup(v, idx); }
 });
 
-// --- the spin: a mouse wheel gets weight and a short coast. It must stop where you stop it. ---
-(function kineticWheel(){
+// --- the wheel: 1:1, no momentum. It stops when you stop. ---
+(function wheelControl(){
   const list = document.getElementById('vet-list');
   if (!list) return;
   // Feel is a nicety; the index is not. Nothing in here may throw.
+  const WHEEL_GAIN = 1.0;   // raise = further per notch. Lower = finer.
+  const DRAG_CAP   = 60;    // fling ceiling, px/frame
+  const FRICTION   = 0.86;  // fling coast-down
+
   let reduced = false;
   try { reduced = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches); } catch (e) {}
-  if (reduced) return;                       // respect the system setting: leave native scrolling alone
+
   let vel = 0, spinning = false;
-
-  const FRICTION = 0.86;   // coast down. 0.93 freewheeled far too long.
-  const CAP      = 60;     // px per frame ceiling. Was 160 — a flick crossed hundreds of names.
-  const STOP     = 0.6;    // below this it settles instead of creeping
-
   function brake(){ vel = 0; spinning = false; }
-
   function frame(){
     if (!spinning) return;
     const before = list.scrollTop;
     list.scrollTop += vel;
     vel *= FRICTION;
-    // hit the top or the bottom: stop dead rather than grind
     if (list.scrollTop === before && Math.abs(vel) > 0.5) { brake(); return; }
-    if (Math.abs(vel) < STOP) { brake(); return; }
+    if (Math.abs(vel) < 0.6) { brake(); return; }
     requestAnimationFrame(frame);
   }
 
+  // EVERY wheel event, whatever the device. No device sniffing — that was the bug.
+  // We take the scroll off the browser so nothing coasts on after the hand stops.
   list.addEventListener('wheel', e => {
-    // A trackpad sends a stream of small deltas and already coasts — leave it alone.
-    // A notched wheel sends big discrete jumps; that's the one that needs weight.
-    const notched = e.deltaMode === 1 || Math.abs(e.deltaY) >= 50;
-    if (!notched) return;
+    let d = e.deltaY;
+    if (e.deltaMode === 1) d *= ROW_H;                      // lines -> pixels
+    else if (e.deltaMode === 2) d *= (list.clientHeight || 400);  // pages -> pixels
+    if (!d) return;
     e.preventDefault();
-    // A notch against the spin is a brake, not a nudge — kill the coast, then take the notch.
-    if (vel !== 0 && Math.sign(e.deltaY) !== Math.sign(vel)) vel = 0;
-    vel += e.deltaY * 0.20;
-    vel = Math.max(-CAP, Math.min(CAP, vel));
-    if (!spinning) { spinning = true; requestAnimationFrame(frame); }
+    brake();                                                // a wheel touch also kills any fling
+    list.scrollTop += d * WHEEL_GAIN;
   }, {passive:false});
+
+  if (reduced) return;   // system says no motion: keep the 1:1 wheel, skip the fling
 
   // --- grab the index and fling it, like spinning a wheel by hand ---
   let down = false, dragged = false, braked = false, lastY = 0, lastT = 0, track = 0;
@@ -659,7 +657,7 @@ document.getElementById('vet-list').addEventListener('click', e => {
     if (track > 4) {                          // past this, it's a drag not a click
       if (!dragged) { dragged = true; list.classList.add('dragging'); list.setPointerCapture(e.pointerId); }
       list.scrollTop -= dy;
-      vel = vel * 0.6 + (-dy / dt * 16) * 0.4;   // smoothed throw speed
+      vel = vel * 0.6 + (-dy / dt * 16) * 0.4;
     }
     lastY = e.clientY; lastT = e.timeStamp;
   });
@@ -667,15 +665,13 @@ document.getElementById('vet-list').addEventListener('click', e => {
     down = false;
     list.classList.remove('dragging');
     if (!dragged) { setTimeout(() => { braked = false; }, 0); return; }
-    // let it go: fling on release, then coast down
-    vel = Math.max(-CAP, Math.min(CAP, vel));
+    vel = Math.max(-DRAG_CAP, Math.min(DRAG_CAP, vel));
     if (Math.abs(vel) > 1 && !spinning) { spinning = true; requestAnimationFrame(frame); }
     setTimeout(() => { dragged = false; braked = false; }, 0);
   });
   list.addEventListener('pointercancel', () => { down = false; dragged = false; braked = false; list.classList.remove('dragging'); });
-  // a fling must not also open whoever was under your finger — nor must the tap that stopped one
+  // a fling must not also open whoever was under your cursor — nor must the tap that stopped one
   list.addEventListener('click', e => { if (dragged || braked) { e.stopPropagation(); e.preventDefault(); } }, true);
-  // a deliberate touch stops the spin dead
   list.addEventListener('touchstart', () => { brake(); }, {passive:true});
 })();
 
