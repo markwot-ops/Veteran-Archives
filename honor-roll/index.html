@@ -103,7 +103,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 /* A–Z rail: at 3,052 names the list cannot be browsed by scrolling. Click a letter, land on it. */
 #az-rail {
   width:17px; flex-shrink:0; display:flex; flex-direction:column; justify-content:space-around;
-  align-items:center; padding:3px 0; border-right:1px solid #1e1e1e; background:#0c0c0c;
+  align-items:center; padding:3px 0; border-left:1px solid #1e1e1e; background:#0c0c0c;
   user-select:none; touch-action:none;
 }
 .az-l {
@@ -111,11 +111,11 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   cursor:pointer; width:100%; text-align:center; padding:1px 0; border-radius:2px;
 }
 .az-l:hover { color:#f0e8d8; background:#242424; }
-.az-l.on { color:#CD853F; }
+.az-l.on { color:#101010; background:#CD853F; font-weight:bold; }
 .az-l.dead { color:#2e2b26; cursor:default; }
 .az-l.dead:hover { background:none; color:#2e2b26; }
 #az-bubble {
-  position:absolute; left:24px; z-index:900; pointer-events:none; display:none;
+  position:absolute; right:24px; z-index:900; pointer-events:none; display:none;
   background:#CD853F; color:#101010; font-family:Georgia,serif; font-size:0.95rem;
   width:26px; height:26px; border-radius:50%; text-align:center; line-height:26px;
   box-shadow:0 2px 8px rgba(0,0,0,0.7);
@@ -211,8 +211,8 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
       <div id="era-filters"></div>
     </div>
     <div id="list-wrap">
-      <div id="az-rail" title="Jump to a letter"></div>
       <div id="vet-list"><div id="pad-top"></div><div id="rows"></div><div id="pad-bot"></div></div>
+      <div id="az-rail" title="Jump to a letter"></div>
     </div>
     <div id="no-results">No veterans found</div>
   </div>
@@ -588,6 +588,19 @@ function drawWindow(force) {
     const el = rows.querySelector(`.vet-item[data-i="${activeIdx}"]`);
     if (el) el.classList.add('active');
   }
+  litLetter();
+}
+
+// The rail lights the letter you are actually looking at, and follows the list as it moves.
+function litLetter() {
+  const rail = document.getElementById('az-rail');
+  if (!rail || !rail.children.length || !FILTERED.length) return;
+  const list = document.getElementById('vet-list');
+  const top = Math.min(FILTERED.length - 1, Math.max(0, Math.round(list.scrollTop / ROW_H)));
+  const L = sortKey(FILTERED[top].v.name).trim().charAt(0).toUpperCase();
+  if (L === RAIL_LIT) return;
+  RAIL_LIT = L;
+  rail.querySelectorAll('.az-l').forEach(el => el.classList.toggle('on', el.dataset.l === L));
 }
 
 function renderMore() { winStart = winEnd = -1; drawWindow(true); }
@@ -629,7 +642,8 @@ document.getElementById('vet-list').addEventListener('click', e => {
 
 // --- the A-Z rail: the Queue is 3,052 names. Scrolling cannot land on a man; this can. ---
 const AZ = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
-let AZ_POS = {};   // letter -> first row index in FILTERED, rebuilt on every filter/search
+let AZ_POS = {};
+let RAIL_LIT = null;   // the letter currently lit, so we only touch the DOM when it changes   // letter -> first row index in FILTERED, rebuilt on every filter/search
 
 function buildRail() {
   const rail = document.getElementById('az-rail');
@@ -645,7 +659,7 @@ function buildRail() {
     const b = document.createElement('div');
     b.id = 'az-bubble'; document.getElementById('sidebar').appendChild(b);
   }
-  AZ_POS = {};
+  AZ_POS = {}; RAIL_LIT = null;
   for (let n = 0; n < FILTERED.length; n++) {
     const L = sortKey(FILTERED[n].v.name).trim().charAt(0).toUpperCase();
     if (AZ_POS[L] === undefined) AZ_POS[L] = n;
@@ -653,6 +667,7 @@ function buildRail() {
   rail.querySelectorAll('.az-l').forEach(el => {
     el.classList.toggle('dead', AZ_POS[el.dataset.l] === undefined);
   });
+  litLetter();   // the rail is built after the first draw, so light it now or nothing lights at load
 }
 
 function jumpTo(L) {
@@ -661,9 +676,7 @@ function jumpTo(L) {
   const list = document.getElementById('vet-list');
   // A row for this man may not exist yet — never scrollIntoView an undrawn row.
   list.scrollTop = pos * ROW_H;
-  drawWindow(true);
-  const rail = document.getElementById('az-rail');
-  rail.querySelectorAll('.az-l').forEach(el => el.classList.toggle('on', el.dataset.l === L));
+  drawWindow(true);   // drawWindow lights the letter via litLetter()
   return true;
 }
 
@@ -698,94 +711,10 @@ function jumpTo(L) {
   rail.addEventListener('pointercancel', up);
 })();
 
-// --- the wheel: rate-capped. A free-spinning wheel throws events faster than a hand can
-// --- stop; this holds only a small backlog and drains it at a fixed speed, so the list
-// --- never outruns you and never coasts on after the wheel stops.
-(function wheelControl(){
-  const list = document.getElementById('vet-list');
-  if (!list) return;
-  // Feel is a nicety; the index is not. Nothing in here may throw.
-  const PER_FRAME = 44;    // px the list may move in one frame (~1 name). Raise = faster.
-  const BACKLOG   = 200;   // px of unspent wheel we will hold (~5 names). This is the whole fix:
-                           // spin the wheel forever and only 200px of it survives your hand stopping.
-  const DRAG_CAP  = 60;
-  const FRICTION  = 0.86;
-
-  let reduced = false;
-  try { reduced = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches); } catch (e) {}
-
-  let accum = 0, draining = false;
-  function drain(){
-    if (!accum) { draining = false; return; }
-    const step = Math.sign(accum) * Math.min(Math.abs(accum), PER_FRAME);
-    const before = list.scrollTop;
-    list.scrollTop += step;
-    accum -= step;
-    if (list.scrollTop === before) accum = 0;   // hit an end: drop it, don't grind
-    if (!accum) { draining = false; return; }
-    requestAnimationFrame(drain);
-  }
-
-  let vel = 0, spinning = false;
-  function brake(){ vel = 0; spinning = false; }
-  function frame(){
-    if (!spinning) return;
-    const before = list.scrollTop;
-    list.scrollTop += vel;
-    vel *= FRICTION;
-    if (list.scrollTop === before && Math.abs(vel) > 0.5) { brake(); return; }
-    if (Math.abs(vel) < 0.6) { brake(); return; }
-    requestAnimationFrame(frame);
-  }
-
-  // Every wheel event, whatever the device. No device sniffing — that was the bug.
-  list.addEventListener('wheel', e => {
-    let d = e.deltaY;
-    if (e.deltaMode === 1) d *= ROW_H;                            // lines -> pixels
-    else if (e.deltaMode === 2) d *= (list.clientHeight || 400);  // pages -> pixels
-    if (!d) return;
-    e.preventDefault();
-    brake();                                       // a wheel touch also kills any fling
-    if (Math.sign(d) !== Math.sign(accum)) accum = 0;   // reversing is a brake, not a nudge
-    accum = Math.max(-BACKLOG, Math.min(BACKLOG, accum + d));
-    if (!draining) { draining = true; requestAnimationFrame(drain); }
-  }, {passive:false});
-
-  if (reduced) return;   // system says no motion: keep the capped wheel, skip the fling
-
-  // --- grab the index and fling it, like spinning a wheel by hand ---
-  let down = false, dragged = false, braked = false, lastY = 0, lastT = 0, track = 0;
-  list.addEventListener('pointerdown', e => {
-    if (e.pointerType === 'touch') return;
-    braked = spinning || draining || Math.abs(vel) > 0;
-    brake(); accum = 0;
-    down = true; dragged = false;
-    lastY = e.clientY; lastT = e.timeStamp; track = 0;
-  });
-  list.addEventListener('pointermove', e => {
-    if (!down) return;
-    const dy = e.clientY - lastY;
-    const dt = Math.max(1, e.timeStamp - lastT);
-    track += Math.abs(dy);
-    if (track > 4) {
-      if (!dragged) { dragged = true; list.classList.add('dragging'); list.setPointerCapture(e.pointerId); }
-      list.scrollTop -= dy;
-      vel = vel * 0.6 + (-dy / dt * 16) * 0.4;
-    }
-    lastY = e.clientY; lastT = e.timeStamp;
-  });
-  list.addEventListener('pointerup', e => {
-    down = false;
-    list.classList.remove('dragging');
-    if (!dragged) { setTimeout(() => { braked = false; }, 0); return; }
-    vel = Math.max(-DRAG_CAP, Math.min(DRAG_CAP, vel));
-    if (Math.abs(vel) > 1 && !spinning) { spinning = true; requestAnimationFrame(frame); }
-    setTimeout(() => { dragged = false; braked = false; }, 0);
-  });
-  list.addEventListener('pointercancel', () => { down = false; dragged = false; braked = false; list.classList.remove('dragging'); });
-  list.addEventListener('click', e => { if (dragged || braked) { e.stopPropagation(); e.preventDefault(); } }, true);
-  list.addEventListener('touchstart', () => { brake(); accum = 0; }, {passive:true});
-})();
+// The wheel is the browser's. No momentum, no capping, no device sniffing — three attempts at
+// custom wheel physics changed nothing on Mark's machine, and the A-Z rail is what actually
+// gives precision on a 3,052-name list. If this is ever revisited, MEASURE FIRST:
+// reference/wheel-check.html reports what the browser really sends.
 
 function updateCount() {
   const showing = veterans.filter(passesFilters).length;

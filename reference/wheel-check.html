@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wheel Check — Veteran Archives</title>
+<style>
+  body { margin:0; background:#101010; color:#f0e8d8; font-family:Georgia,serif; padding:18px 20px 40px; }
+  h1 { font-size:1.1rem; margin:0 0 4px; color:#CD853F; letter-spacing:0.04em; }
+  p  { font-size:0.82rem; color:#a49b8a; margin:0 0 14px; max-width:640px; line-height:1.5; }
+  .panes { display:flex; gap:14px; flex-wrap:wrap; }
+  .pane { flex:1; min-width:260px; }
+  .pane h2 { font-size:0.7rem; text-transform:uppercase; letter-spacing:0.12em; color:#8a8272; margin:0 0 5px; }
+  .list { height:300px; overflow-y:auto; border:1px solid #2a2a2a; background:#0a0a0a; }
+  .row { height:40px; box-sizing:border-box; padding:6px 10px; border-bottom:1px solid #181818; font-size:0.8rem; }
+  .row:nth-child(even) { background:#0e0e0e; }
+  #readout { margin-top:16px; border:1px solid #CD853F; border-radius:3px; padding:12px 14px; background:#141414; }
+  table { border-collapse:collapse; width:100%; max-width:560px; }
+  td { padding:3px 0; font-size:0.9rem; }
+  td.k { color:#8a8272; width:58%; }
+  td.v { color:#f0e8d8; font-weight:bold; font-size:1.05rem; }
+  .big { color:#CD853F; }
+  button { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; border:1px solid #3a3a3a;
+           padding:6px 12px; border-radius:3px; cursor:pointer; margin-top:10px; font-size:0.8rem; }
+  button:hover { border-color:#CD853F; }
+</style>
+</head>
+<body>
+
+<h1>Wheel Check</h1>
+<p>
+  Put the cursor over the <b>left</b> box and scroll it the way you normally scroll the index —
+  including the flick that makes it run away. Then read the numbers below out to Claude.
+  The right box is blocked by the same code the index uses; if the left box runs away and the
+  right one doesn't, the code works and something else is wrong. If <b>both</b> run away,
+  the browser is ignoring the block.
+</p>
+
+<div class="panes">
+  <div class="pane">
+    <h2>1 · Plain — the browser's own scrolling</h2>
+    <div class="list" id="plain"></div>
+  </div>
+  <div class="pane">
+    <h2>2 · Blocked — capped, same code as the index</h2>
+    <div class="list" id="capped"></div>
+  </div>
+</div>
+
+<div id="readout">
+  <table>
+    <tr><td class="k">Wheel events seen</td><td class="v" id="n">0</td></tr>
+    <tr><td class="k">Fastest burst (events per second)</td><td class="v big" id="rate">0</td></tr>
+    <tr><td class="k">Biggest single deltaY</td><td class="v" id="max">0</td></tr>
+    <tr><td class="k">Typical deltaY</td><td class="v" id="typ">0</td></tr>
+    <tr><td class="k">deltaMode (0 = pixels, 1 = lines)</td><td class="v" id="mode">—</td></tr>
+    <tr><td class="k">Total scrolled in one go</td><td class="v" id="dist">0 px</td></tr>
+    <tr><td class="k">Kept moving after the wheel stopped?</td><td class="v big" id="coast">—</td></tr>
+    <tr><td class="k">Was the block obeyed?</td><td class="v big" id="blocked">—</td></tr>
+  </table>
+  <button onclick="reset()">Reset</button>
+</div>
+
+<script>
+function fill(id) {
+  const el = document.getElementById(id);
+  let h = '';
+  for (let i = 0; i < 400; i++) h += '<div class="row">' + (i+1) + ' — name goes here</div>';
+  el.innerHTML = h;
+}
+fill('plain'); fill('capped');
+
+let n = 0, deltas = [], modes = new Set(), rate = 0, stamps = [], startTop = null, lastEvent = 0;
+const $ = id => document.getElementById(id);
+
+function reset(){
+  n = 0; deltas = []; modes.clear(); rate = 0; stamps = []; startTop = null;
+  ['n','max','typ','dist'].forEach(i => $(i).textContent = '0');
+  $('rate').textContent = '0'; $('mode').textContent = '—';
+  $('coast').textContent = '—'; $('blocked').textContent = '—';
+  $('dist').textContent = '0 px';
+}
+
+const plain = document.getElementById('plain');
+plain.addEventListener('wheel', e => {
+  if (startTop === null) startTop = plain.scrollTop;
+  n++; deltas.push(Math.abs(e.deltaY)); modes.add(e.deltaMode); lastEvent = performance.now();
+  stamps.push(lastEvent);
+  while (stamps.length && stamps[0] < lastEvent - 1000) stamps.shift();
+  if (stamps.length > rate) rate = stamps.length;
+
+  $('n').textContent = n;
+  $('rate').textContent = rate;
+  $('max').textContent = Math.max(...deltas).toFixed(0);
+  const sorted = [...deltas].sort((a,b)=>a-b);
+  $('typ').textContent = sorted[Math.floor(sorted.length/2)].toFixed(0);
+  $('mode').textContent = [...modes].join(', ');
+}, {passive:true});
+
+// did it keep moving after the wheel events stopped? that is the flywheel, measured.
+let watchTop = 0;
+setInterval(() => {
+  const since = performance.now() - lastEvent;
+  if (since > 220 && since < 1400 && lastEvent) {
+    const moved = Math.abs(plain.scrollTop - watchTop);
+    if (moved > 2) $('coast').textContent = 'YES — ' + moved.toFixed(0) + ' px after your hand stopped';
+    else if ($('coast').textContent === '—') $('coast').textContent = 'no';
+    if (startTop !== null) $('dist').textContent = Math.abs(plain.scrollTop - startTop).toFixed(0) + ' px  (' +
+      (Math.abs(plain.scrollTop - startTop)/40).toFixed(0) + ' names)';
+  }
+  watchTop = plain.scrollTop;
+}, 200);
+
+// pane 2: the block, exactly as the index would do it
+const capped = document.getElementById('capped');
+let blockedOK = null, accum = 0, draining = false;
+capped.addEventListener('wheel', e => {
+  e.preventDefault();
+  const before = capped.scrollTop;
+  accum = Math.max(-200, Math.min(200, accum + (e.deltaMode === 1 ? e.deltaY*40 : e.deltaY)));
+  if (!draining) { draining = true; requestAnimationFrame(function d(){
+    if (!accum) { draining = false; return; }
+    const step = Math.sign(accum) * Math.min(Math.abs(accum), 44);
+    capped.scrollTop += step; accum -= step;
+    if (!accum) { draining = false; return; }
+    requestAnimationFrame(d);
+  }); }
+  // if preventDefault is honoured, the browser must not have scrolled it itself this tick
+  requestAnimationFrame(() => {
+    if (blockedOK === null) blockedOK = true;
+    $('blocked').textContent = blockedOK ? 'yes — preventDefault works here' : 'NO — browser ignored it';
+  });
+}, {passive:false});
+</script>
+</body>
+</html>
