@@ -643,7 +643,9 @@ document.getElementById('vet-list').addEventListener('click', e => {
 // --- the A-Z rail: the Queue is 3,052 names. Scrolling cannot land on a man; this can. ---
 const AZ = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 let AZ_POS = {};
-let RAIL_LIT = null;   // the letter currently lit, so we only touch the DOM when it changes   // letter -> first row index in FILTERED, rebuilt on every filter/search
+let RAIL_LIT = null;   // the letter currently lit, so we only touch the DOM when it changes
+let RAIL_JUMP = 0;     // when the rail last moved the list on purpose
+let LETTER_PX = [];    // px position of every letter boundary, rebuilt with the rail   // letter -> first row index in FILTERED, rebuilt on every filter/search
 
 function buildRail() {
   const rail = document.getElementById('az-rail');
@@ -667,14 +669,58 @@ function buildRail() {
   rail.querySelectorAll('.az-l').forEach(el => {
     el.classList.toggle('dead', AZ_POS[el.dataset.l] === undefined);
   });
+  LETTER_PX = Object.values(AZ_POS).map(p => p * ROW_H).sort((a,b) => a - b);
   litLetter();   // the rail is built after the first draw, so light it now or nothing lights at load
 }
+
+// --- letter-stop -----------------------------------------------------------
+// Mark's design, and the reason it works where three wheel rewrites did not: it hangs off the
+// SCROLL event, which fires however the list was moved — wheel, trackpad, scrollbar, keyboard.
+// A gesture runs free until it reaches the next letter, then stops dead on it. Flick as hard as
+// you like and you land on the next letter, not four letters past the man you wanted.
+// Browsing WITHIN a letter is untouched: the brake only exists at the boundary.
+(function letterStop(){
+  const list = document.getElementById('vet-list');
+  if (!list) return;
+  // Nothing in here may throw. Feel is a nicety; the index is not.
+  const IDLE = 160;        // ms of stillness that ends one gesture and begins the next
+  let prevTop = 0, gestureFrom = 0, lastT = 0;
+
+  list.addEventListener('scroll', () => {
+    try {
+      const now = performance.now();
+      const top = list.scrollTop;
+      // the rail jumping on purpose is not a gesture — never brake it
+      if (now - RAIL_JUMP < 400) { prevTop = top; lastT = now; gestureFrom = top; return; }
+      // A hand moves the list in small steps (measured: ~57px per event). Anything huge is the
+      // page itself moving — a search resetting to the top, a rail jump. Never brake that.
+      if (Math.abs(top - prevTop) > 600) { prevTop = top; gestureFrom = top; lastT = now; return; }
+      if (now - lastT > IDLE) gestureFrom = prevTop;   // a new gesture starts where the last one rested
+      lastT = now;
+
+      const dir = Math.sign(top - gestureFrom);
+      if (dir && LETTER_PX.length) {
+        // the first letter boundary lying beyond where this gesture began
+        const edge = dir > 0
+          ? LETTER_PX.find(b => b > gestureFrom + 1)
+          : [...LETTER_PX].reverse().find(b => b < gestureFrom - 1);
+        if (edge !== undefined && ((dir > 0 && top > edge) || (dir < 0 && top < edge))) {
+          list.scrollTop = edge;      // stop on the letter
+          prevTop = edge;
+          return;
+        }
+      }
+      prevTop = top;
+    } catch (e) {}
+  }, {passive:true});
+})();
 
 function jumpTo(L) {
   const pos = AZ_POS[L];
   if (pos === undefined) return false;
   const list = document.getElementById('vet-list');
   // A row for this man may not exist yet — never scrollIntoView an undrawn row.
+  RAIL_JUMP = performance.now();   // tell the letter-stop this move was deliberate
   list.scrollTop = pos * ROW_H;
   drawWindow(true);   // drawWindow lights the letter via litLetter()
   return true;
