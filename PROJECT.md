@@ -697,7 +697,7 @@ Harper's Holyoke condensed to **facts in note form, deliberately not his prose**
 | */index.html (6 sites) | 34,891 | all six on the same shell |
 | honor-roll/index.html | 38,225 | the shell + six data loaders |
 | research-queue/data.js | 1,959,651 | **3,052** |
-| forestdale/data.js | 361,269 | 352, ids fixed |
+| forestdale/data.js | 372,235 | **359** |
 | calvary / elmwood / rock-valley / smiths-ferry | — | 375 / 61 / 4 / 4 |
 
 ---
@@ -728,3 +728,79 @@ Mark has ~150 cemetery photographs from Forestdale still on his computer.
 - **Calvary photo backlog** — 70 files 404, 16 need new stone photos, 22 duplicate-name pairs. Untouched for three sessions.
 - **Junk to delete**: `site-shells/`, root `data.js`, root `LOCAL-COLOR.md`, the `*-PREVIEW-standalone.html` files, `forestdale.zip`.
 - **Revisit**: Died in Service / Female Veteran / Medical Officer as honors.
+
+
+## ============================================================
+## SESSION 13E — the field photographs, and what the archive actually is
+## ============================================================
+
+### THE PHOTO PIPELINE — proven, and the container is NOT ready by default
+`pillow_heif` is **not installed** in a fresh container. `pip install pillow_heif --break-system-packages`, then `pillow_heif.register_heif_opener()`. Pillow alone will not open HEIC.
+GPS: `img._getexif().get(34853)` → DMS rational tuples → `float()` → apply hemisphere sign (S/W negative). Mark's iPhone JPEGs carry GPS to six decimals and it is **accurate to the plot** — every photo matched its existing entry to 0m.
+**Test it against a coordinate you already know before trusting a batch.** I proved the maths against MacKenzie's plot (42.207128, -72.622925) before Mark's photos arrived.
+Filename convention on upload: `<stem> Medium.jpeg` — **space, not underscore**, URL-encoded in the `photo` field.
+**A photo with no GPS is REPORTED, never guessed at.**
+
+### ⚠️ THE PHOTOS ARE ALREADY IN GITHUB — the job is the MATCH, not the upload
+Mark shoots in the field and uploads the images to the legacy `forestdale-map` repo himself. The entries then exist as **surname- or initial-only stubs** (`Phillips`, `Sanders, J.`, `Schimke, D.`) with GPS and photo but **no era and no given name**. What he wants from Claude: **read the stone, name the man, and cross-check him against the Research Queue.**
+Match stubs to photos by **GPS (0m) and by the photo filename** — both are reliable.
+
+### ⚠️⚠️ WHAT THE RESEARCH QUEUE ACTUALLY IS — read before cross-checking anything
+**The Queue is 92% First World War (2,795 of 3,052) and almost every list feeding it is a list of men who DIED.**
+| source | what it is |
+|---|---|
+| `zack-*` (2,550) | Zack 1919 — men who **served**. WWI only. **Demonstrably incomplete.** |
+| `research-queue` (314) | **Harper's honor rolls of the DEAD**: 113 WWI · 177 WWII · 11 Spanish-Am · 12 Vietnam |
+| `harper-civil-war-roll` (51) | Harper's Civil War **dead** |
+**Consequence: a field find will usually NOT match.** Eight stones photographed, one match. The men in the ground are survivors — Civil War veterans who came home, WWII men who died in 1987, Spanish-Am men who died in 1923. **No list of Holyoke's veterans who survived exists in this archive.** That is the gap the survey is filling. Do not read a non-match as a failure.
+
+### ⚠️ ONLY TWO OF HOLYOKE'S CIVIL WAR DEAD ARE BURIED IN HOLYOKE
+From the Forestdale Cemetery tour (holyokecanaltour.org — a genuinely useful source, run by a local historian, with maps, booklets and audio):
+- **James William Burr** — died Sept 10, 1861, District of Columbia; buried East Wilbraham ten years; **moved to Forestdale 1871.**
+- **Thomas S. Holman** — **wounded at Second Bull Run**, carried to Goshen, died about a month later; buried Forestdale.
+Both are now **Forestdale entries** (`fd_burr_james_w`, `fd_holman_thomas_s`, no GPS yet) with their stories, and their Queue entries are cross-noted.
+**If the tour is right, the other 49 of Harper's 51 will NEVER be found in Holyoke ground** — they lie where they fell. They belong in the archive as honored dead; **do not send Mark looking for them.**
+Also on that page: **Andrew Butler**, a GAR man at Forestdale (not in the data), and a **GAR circle at the front of the cemetery** — a dedicated Grand Army plot. **That circle is where the Civil War veterans are.**
+
+### Session 13E — what went in (Forestdale 352 → 359)
+**THE MATCH:** **Schoenfeldt, Louis B. F.** — PFC, Co. B, 1st Machine Gun Battalion, WWI, Apr 10 1895 – Aug 19 1965. **Zack's roster carries him as "Louis F. B." — initials transposed. The STONE WINS**, and the transposition is recorded in his `sourceNote`. A man on the 1919 list, now in known ground.
+**Named from their stones:** James B. Sanders (CPL, WWII, 1907–1987) · Donald Schimke (TEC 4, WWII, 1914–1979).
+**New men:** **Sanders, Earl J.** — white marble government headstone, *PVT, 305th Infantry*, September 1918, WWI bronze star. **Roberts, John H.** (1842–1919) under a **G.A.R. Post 71 star** — a Union veteran who came home. Riggott · Richard, Edgar · Rowell.
+**Forestdale already held 8 located Civil War men** (Friedrich, Jolly, Cowan, Sinclair, Streeter, Ironside, Wood, Unknown Soldier 5) — several found by their GAR stars. **Now 10.**
+
+### ⚠️ WHERE THE STONE DOESN'T SAY, THE ENTRY SAYS SO — do not "resolve" these
+Mark's ruling: **load as-is, transcribe the stone, record the marker, state the question honestly.** Never choose between a father and his son.
+- **Phillips** — U.S. War Veteran marker over George B. (b. 1887, WWI age) AND Wallace (b. 1916, WWII age). Base cut FATHER/MOTHER/SON. **Unresolved, possibly both.**
+- **Riggott** — V.F.W. marker over Stephen J. (b. 1871, Spanish-Am age — the V.F.W. was founded by those men) AND Harold J. (b. 1899, WWI age). Roy died at 17 in 1914.
+- **Pickup** — flag + **Elks lodge marker, which is fraternal not military**. A *Herbert B. Pickup* is on Zack's roster; **relationship unknown and NOT assumed.**
+- **Rowell** — surname only on the photographed face. Try the reverse.
+- **James F. Sanders** (1946–2013) and **Edgar Richard** (1909–1997) — **no service line on either stone.** Carried with "his service is unconfirmed and is not claimed here."
+**107 Forestdale plots now sit with no era** — photographed, located, veteran-marked, unnamed. That is the survey's true shape: the stones get you to the plot, the records get you the man.
+
+### Two open threads worth Mark's ten minutes
+1. **Earl J. Sanders is on NEITHER Holyoke list** — not Harper's 113 WWI dead, not Zack's roster — yet the Army set a headstone over him with a 1918 date. If he is Holyoke's, **Harper's roll of the dead is incomplete too.**
+2. **Two of the three "Roll-of-Honor fallen still to add" may already be in, under variant spellings.** Harper prints **Gatley, Edward P.** and **Wilbur, Charles R.**; PROJECT.md's to-do says "Gately, Edward P." and "Wilber, Charles I." Same men, or the same-name trap. **Only Ault, Arthur J. is genuinely absent.** Check against the memorial itself.
+
+### Not in the repo
+`reference/tests/` — the three jsdom harnesses (`test_index.js`, `test_honormap.js`, `test_landing.js`) and their README **never got uploaded**; only LOCAL-COLOR.md is there. They are described in §13D. **Rebuild or re-ship them before touching the shell.**
+
+### Verified live state at end of 13E (git tree, 6c4638e)
+| Path | Bytes | |
+|---|---|---|
+| PROJECT.md | 71,995 → this file | |
+| index.html (landing) | 13,262 | Honors box in the grid, 12 honors |
+| template.html | 34,891 | windowed index + freewheel + INIT_DISTINCTION |
+| honor-roll/index.html | 38,225 | the shell + six data loaders |
+| research-queue/data.js | 1,959,651 | **3,052** |
+| forestdale/data.js | 372,235 | **359** |
+| calvary / elmwood / rock-valley / smiths-ferry | — | 375 / 61 / 4 / 4 |
+| reference/LOCAL-COLOR.md | 11,422 | |
+**Honors: 12. Died in Service / Female Veteran / Medical Officer removed at Mark's direction — "irrelevant now, revisit later."**
+
+---
+
+## NEXT SESSION
+1. **~130 more Forestdale photos.** Mark shoots and uploads; Claude reads the stone, names the man, cross-checks the Queue. Read §13E first — expect few matches, and that is normal.
+2. **The state casualty lists — Korea, Vietnam, WWII**, by city. Mark estimates the WWII batch alone at **4,000–7,000 names**, possibly starting from a plain list. Re-read the parsing traps in §13 and the name-matching rule in §13C **before mining a single name.**
+3. **Research the unresolved plots** — Phillips, Riggott, Pickup, Rowell, Richard, and the 107 no-era plots. Sources: the city's graves-registration cards, the city clerk, the GAR Post 71 rolls, Find A Grave, FamilySearch.
+4. Still open: real coordinates for Rock Valley and Smiths Ferry · the four rulings (Goss/Henderson/Jecker "Finding of death", Wiercisewski "Died of wounds") · a **"needs narrative" filter** (the blocker on all narrative work at 3,052) · the Calvary photo backlog, untouched for four sessions.
