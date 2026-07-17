@@ -7,6 +7,14 @@
 
 ---
 
+## ⚠️ THE STANDING RULES NOW LIVE IN `RULES.md` — read that first, it is two pages
+`https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/RULES.md`
+Mark may also paste RULES.md into a Claude Project's instructions, in which case it is already in
+front of you and you need not fetch it. **This file, PROJECT.md, is the session-by-session history:
+what was done, what was found, what broke and why.** RULES.md is what you must not get wrong.
+**When a rule changes, change it in RULES.md — not only in a session note down here, where the next
+Claude will never find it.**
+
 ## 1. What this is
 
 An interactive memorial that maps Holyoke's veterans across the city's cemeteries, plus a research queue for veterans identified but not yet located. Hosted free on GitHub Pages.
