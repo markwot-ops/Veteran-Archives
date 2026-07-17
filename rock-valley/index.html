@@ -650,10 +650,27 @@ function jumpTo(L) {
   rail.addEventListener('pointercancel', up);
 })();
 
-// The wheel is the browser's. No momentum, no capping, no device sniffing — three attempts at
-// custom wheel physics changed nothing on Mark's machine, and the A-Z rail is what actually
-// gives precision on a 3,052-name list. If this is ever revisited, MEASURE FIRST:
-// reference/wheel-check.html reports what the browser really sends.
+// --- the wheel: gain only ---------------------------------------------------
+// Measured on Mark's machine with reference/wheel-check.html: 19 events/sec, deltaY 57,
+// deltaMode 0, and NO coast after the hand stops. There was never any momentum to remove.
+// The problem was gain: a row is 40px, so one notch jumped a name and a half and a normal
+// gesture carried 116 names. Nothing to damp, nothing to cap — just scroll less per notch.
+// Caps and friction are deliberately absent: three attempts at them changed nothing,
+// because every ceiling sat far above anything a hand actually does.
+(function wheelGain(){
+  const list = document.getElementById('vet-list');
+  if (!list) return;
+  // Nothing in here may throw. Feel is a nicety; the index is not.
+  const GAIN = 0.35;   // 57px notch -> 20px, about half a name. Raise = faster, lower = finer.
+  list.addEventListener('wheel', e => {
+    let d = e.deltaY;
+    if (e.deltaMode === 1) d *= ROW_H;                            // lines -> pixels
+    else if (e.deltaMode === 2) d *= (list.clientHeight || 400);  // pages -> pixels
+    if (!d) return;
+    e.preventDefault();
+    list.scrollTop += d * GAIN;
+  }, {passive:false});
+})();
 
 function updateCount() {
   const showing = veterans.filter(passesFilters).length;
