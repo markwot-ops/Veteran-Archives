@@ -804,3 +804,86 @@ Mark's ruling: **load as-is, transcribe the stone, record the marker, state the 
 2. **The state casualty lists — Korea, Vietnam, WWII**, by city. Mark estimates the WWII batch alone at **4,000–7,000 names**, possibly starting from a plain list. Re-read the parsing traps in §13 and the name-matching rule in §13C **before mining a single name.**
 3. **Research the unresolved plots** — Phillips, Riggott, Pickup, Rowell, Richard, and the 107 no-era plots. Sources: the city's graves-registration cards, the city clerk, the GAR Post 71 rolls, Find A Grave, FamilySearch.
 4. Still open: real coordinates for Rock Valley and Smiths Ferry · the four rulings (Goss/Henderson/Jecker "Finding of death", Wiercisewski "Died of wounds") · a **"needs narrative" filter** (the blocker on all narrative work at 3,052) · the Calvary photo backlog, untouched for four sessions.
+
+## ============================================================
+## SESSION 13F — the index freewheel (solved), and Zack's Roll of Honor from the page
+## ============================================================
+
+### ⚠️ THE FREEWHEEL WAS NEVER THE WHEEL — it was Chrome's scroll anchoring
+Five rewrites of the wheel code changed NOTHING, because none of it was the cause. The windowed
+index changes `#pad-top`'s height on every redraw; Chrome reads that as content shifting above the
+viewport and moves `scrollTop` to compensate, which forces another redraw, which moves the pad
+again. That feedback loop is the "free run." It fired hardest on a CHANGE OF DIRECTION — which is
+the clue Mark gave that finally solved it.
+**The fix is one line of CSS:** `#vet-list, #pad-top, #rows, #pad-bot, .vet-item { overflow-anchor:none; }`
+**Any virtualised list MUST have `overflow-anchor:none`.** Scrolling is otherwise the browser's own —
+there is no custom wheel code in the shell and there must not be.
+
+### ⚠️ WHAT I WASTED MARK'S MORNING ON — read before touching scroll feel again
+I shipped four fixes without measuring: friction, then a velocity cap, then 1:1, then a rate cap.
+All four were tuned to ceilings a hand never reaches (I capped at 160 and 44 px/frame; Mark scrolls
+~18). **`reference/wheel-check.html` measures what the browser really sends** — it reported 19
+events/sec, deltaY 57, deltaMode 0, and NO coast at all. Momentum never existed. **Measure first.**
+
+### THE A–Z RAIL (new, in the shell)
+At 3,056 the Queue cannot be browsed by scrolling — PROJECT.md had said so twice before I listened.
+`#az-rail` sits on the RIGHT of `#vet-list` (Mark's preference — it was tried on the left and moved back).
+- `buildRail()` maps letter -> first row in FILTERED, rebuilt on every filter/search; letters with
+  nobody under them go `.dead`.
+- `jumpTo(L)` computes `pos * ROW_H` — **never `scrollIntoView`, the row may not be drawn.**
+- `litLetter()` lights the letter you are looking at and follows the list as it moves. It is called
+  from `drawWindow()` AND from the end of `buildRail()` (the rail is built after the first draw, so
+  without the second call nothing lights at load).
+- `RAIL_LIT` caches the lit letter so the DOM is only touched on change.
+
+### ⚠️ "AULT, ARTHUR J." NEVER EXISTED — he is PERRAULT, ARTHUR J.
+Mark supplied clean page scans of Zack's Roll of Honor. The OCR had eaten the first four letters of
+**PERRAULT**. Every detail matches the man PROJECT.md listed as missing: 3rd Aero Squadron, first
+Holyoker to pilot a machine in France, killed in an aeroplane accident March 7, 1918.
+**All three long-standing "Roll-of-Honor fallen still to add" are now IN, corrected from the page:**
+| PROJECT.md had | the printed page says |
+|---|---|
+| Ault, Arthur J. | **Perrault, Arthur J.** |
+| Wilber, Charles I., KIA Sept 2 | **Wilber, Charles R., KIA Sept 29** |
+| Gately, Edward P., *Co. C* | **Gately, Edward P., *Aviation Corps*** (Fort Omaha balloon school) |
+**And a fourth nobody knew about: Conaoghiris, Nicholas** (Camp Upton, died of disease in France
+Sept 12, 1918). His surname is as printed and unconfirmed — flagged in his entry.
+
+### The nine pages, checked against all six sites (3,855 entries)
+122 men on the pages. **114 already in.** 4 added (above). 4 near-misses were the SAME man spelled
+differently — Davitt (`Rev. William F.` = `William Francis, Rev.`), Pappas (`Theodor` = `Theodore`),
+Finlayson (`R. Murray` = `Murray R.`). **1 was NOT the same man**: Thomson, **Raymond B.** (KIA
+St. Mihiel) vs Forestdale's Thomson, **Alexander S.** The exact-first-name rule caught it.
+**Pages held so far: 42, 43, 46, 49, 52, 55, 58, 60. The rest of the Roll of Honor is still to come.**
+
+### ⚠️ MY OWN TRANSCRIPTION ERROR — check the fate word, not the word "killed"
+I tagged Kingsland and Serrurier KIA. Zack says a **flying accident** and a **motorcycle accident**.
+The archive already had them right. **"Killed in a ... accident" is not killed in action.**
+Only Guertin, Herve and Hebert, Albert genuinely needed the KIA badge; both applied.
+
+### COBURN, JAMES M. — Calvary entry was wrong, corrected
+It carried a **KIA badge** and called him a memorial for "a soldier who gave everything for his
+country" whose "body remained overseas." Zack: **killed in a motor truck accident in France,
+November 16, 1918 — after the close of the war.** Badge removed, narrative rewritten to the record.
+
+### ⚠️ OPEN FOR MARK — the archive contradicts itself on DIED OF WOUNDS
+14 Roll-of-Honor men died of wounds. **8 carry a KIA badge; 6 carry nothing.** Same fate, two
+answers. This is the same question as the four rulings still open from §13C (Goss / Henderson /
+Jecker "Finding of death", Wiercisewski "Died of wounds"). **Do not resolve without Mark.**
+Related: **41 Roll-of-Honor dead carry NO badge at all** (disease, accident, died in service). They
+cannot be found by the Honors filter because **Died in Service was removed from the roll in §13D.**
+Making them findable means Mark reinstating it. His call.
+
+### Three OCR names still sorting ABOVE the A's in the Queue — Mark's ruling wanted
+`3IcELWAIN, Thomas` · `3IALCOLM, John` · `3IARTIN, Daniel A.` — all `3I` -> **M**, a repair already
+in the curated dictionary (§13). They sort under "3" so the rail cannot reach them and nobody will
+ever find them. Not touched without Mark's word.
+
+### State at end of 13F
+| Path | |
+|---|---|
+| research-queue/data.js | **3,056** (was 3,052) |
+| calvary/data.js | 375 (Coburn corrected) |
+| index.html (landing) | count updated 3,052 -> 3,056 |
+| template.html + 6 site shells + honor-roll | A-Z rail, lit letter, `overflow-anchor:none`, no wheel code |
+| reference/wheel-check.html | the measuring tool — keep it |

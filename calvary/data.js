@@ -593,10 +593,8 @@ window.VA = {
    "lng": -72.627625,
    "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/coburn_james_died_in_france.jpg",
    "extraPhotos": [],
-   "narrative": "James Coburn served in the 335th Machine Gun Battalion, 87th Division, American Expeditionary Forces during World War I. Deployed to the Western Front as part of the massive American buildup that broke German lines in the final weeks of the war, the 335th Machine Gun Battalion provided the sustained, concentrated fire that anchored infantry advances and defended hard-won ground. Among the most solemn of Calvary Cemetery's veteran markers, this stone honors a soldier whose body remained overseas while his name is remembered here at home — a KIA memorial for a man who gave everything for his country. James is remembered here on the stone of his mother, Theresa Coburn (1851–1914). If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "KIA"
-   ],
+   "narrative": "James M. Coburn of Holyoke entered the service on June 27, 1918, and served with Company C of the 335th Machine Gun Battalion in France. He was killed in a motor truck accident in France on November 16, 1918 — sixteen days after the guns fell silent, when the fighting was over and the Army was waiting to go home. James is remembered here on the stone of his mother, Theresa Coburn (1851–1914). If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
    "status": "located",
    "source": "session10"
   },

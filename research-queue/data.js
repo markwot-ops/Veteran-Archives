@@ -1599,7 +1599,10 @@ window.VA = {
    "lng": null,
    "narrative": "Herve Guertin of Holyoke entered the service in 1918, was stationed at Camp Devens, and went overseas on July 3, 1918, with Company M, 302nd Infantry. He died in France on November 4, 1918 — one week before the Armistice. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "guyon_harold_l",
@@ -1732,7 +1735,10 @@ window.VA = {
    "lng": null,
    "narrative": "Albert Hebert of Holyoke entered the service in April 1917, within days of the American declaration of war, and went overseas on April 28, 1918, with Battery B, 76th Field Artillery. The field artillery was the war's great killer: the guns fired the rolling barrages that walked ahead of advancing infantry, and the gun crews worked in the open, hauling shells and laying pieces under counter-battery fire that sought them out by the sound of their own muzzles. He died in 1918. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "henderson_william",
@@ -40577,6 +40583,64 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper gives his rank and year and nothing further; his unit, his dates, and his station await confirmation against the service records.",
    "status": "queue",
    "source": "harper-story-of-holyoke"
+  },
+  {
+   "id": "roh_perrault_arthur_j",
+   "name": "Perrault, Arthur J.",
+   "era": "World War I",
+   "branch": "Army",
+   "branchLabel": "U.S. Army Air Service – World War I",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Arthur J. Perrault of Holyoke entered the service in June 1917 and was sent to the Massachusetts Institute of Technology for preliminary training, receiving his commission that September. He went to England in December 1917 and was transferred to the Royal Flying School at Paris. He was the first Holyoke man to pilot a machine in France for the United States Army — flying at a time when the aeroplane was barely ten years old and the men who flew them were learning the work as they did it. He was killed in an aeroplane accident in France on March 7, 1918. A Board of Officers found that his death was in the line of duty. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "roh_wilber_charles_r",
+   "name": "Wilber, Charles R.",
+   "era": "World War I",
+   "branch": "Army",
+   "branchLabel": "U.S. Army – World War I",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Charles R. Wilber of Holyoke entered the service in the fall of 1917 and went to the officers' training school at Camp Upton, Long Island, receiving his commission in December 1917. He was in France shortly after. He was wounded severely in July 1918, and returned to his regiment. He was killed in action on September 29, 1918. What he did between his wounding and his death has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "roh_gately_edward_p",
+   "name": "Gately, Edward P.",
+   "era": "World War I",
+   "branch": "Army",
+   "branchLabel": "U.S. Army Aviation Corps – World War I",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Edward P. Gately of Holyoke entered the service on October 30, 1917, and was stationed at Fort Slocum, New York, before transferring to Fort Omaha, Nebraska — the Army's balloon school, where the Aviation Corps trained the observers who went up in tethered balloons to direct artillery fire. He died of pneumonia on January 2, 1918, having never left the country. He is buried in Holyoke. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "roh_conaoghiris_nicholas",
+   "name": "Conaoghiris, Nicholas",
+   "era": "World War I",
+   "branch": "Army",
+   "branchLabel": "U.S. Army – World War I",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Nicholas Conaoghiris of Holyoke entered the service on May 27, 1918, and was stationed at Camp Upton, Long Island. He died of disease in France on September 12, 1918. His name is printed in Zack's Roll of Honor as Conaoghiris; the spelling is unusual and has not been confirmed against another record, and his family and his life in Holyoke have not yet been traced. That research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
   }
  ]
 };
