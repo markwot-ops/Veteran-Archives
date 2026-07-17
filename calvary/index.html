@@ -98,7 +98,28 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 .era-btn.selected { opacity:1; border-color:#fff; filter:none; box-shadow:inset 0 0 0 999px rgba(0,0,0,0.2); }
 .era-btn .eb-n { opacity:0.85; font-size:0.46rem; margin-left:1px; }
 
+#list-wrap { flex:1; display:flex; min-height:0; }
 #vet-list { overflow-y:auto; flex:1; padding:3px 0; overscroll-behavior:contain; will-change:scroll-position; }
+/* A–Z rail: at 3,052 names the list cannot be browsed by scrolling. Click a letter, land on it. */
+#az-rail {
+  width:17px; flex-shrink:0; display:flex; flex-direction:column; justify-content:space-around;
+  align-items:center; padding:3px 0; border-left:1px solid #1e1e1e; background:#0c0c0c;
+  user-select:none; touch-action:none;
+}
+.az-l {
+  font-family:Georgia,serif; font-size:0.5rem; line-height:1; color:#6a6355;
+  cursor:pointer; width:100%; text-align:center; padding:1px 0; border-radius:2px;
+}
+.az-l:hover { color:#f0e8d8; background:#242424; }
+.az-l.on { color:#CD853F; }
+.az-l.dead { color:#2e2b26; cursor:default; }
+.az-l.dead:hover { background:none; color:#2e2b26; }
+#az-bubble {
+  position:absolute; right:24px; z-index:900; pointer-events:none; display:none;
+  background:#CD853F; color:#101010; font-family:Georgia,serif; font-size:0.95rem;
+  width:26px; height:26px; border-radius:50%; text-align:center; line-height:26px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.7);
+}
 #vet-list::-webkit-scrollbar { width:4px; }
 #vet-list::-webkit-scrollbar-thumb { background:#333; border-radius:3px; }
 .vet-item {
@@ -189,7 +210,10 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
       <input id="search" type="text" placeholder="Search veterans…">
       <div id="era-filters"></div>
     </div>
-    <div id="vet-list"><div id="pad-top"></div><div id="rows"></div><div id="pad-bot"></div></div>
+    <div id="list-wrap">
+      <div id="vet-list"><div id="pad-top"></div><div id="rows"></div><div id="pad-bot"></div></div>
+      <div id="az-rail" title="Jump to a letter"></div>
+    </div>
     <div id="no-results">No veterans found</div>
   </div>
 </div>
@@ -527,6 +551,7 @@ function buildSidebar() {
   document.getElementById('rows').replaceChildren();
   list.scrollTop = 0;
   renderMore();
+  buildRail();
   none.style.display = FILTERED.length===0 ? 'block' : 'none';
 }
 
@@ -540,6 +565,77 @@ document.getElementById('vet-list').addEventListener('click', e => {
   if (hasCoords(v)) { map.flyTo([v.lat, v.lng], 19, {duration:1.0}); setTimeout(() => openPopup(v, idx), 350); }
   else { openPopup(v, idx); }
 });
+
+// --- the A-Z rail: the Queue is 3,052 names. Scrolling cannot land on a man; this can. ---
+const AZ = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+let AZ_POS = {};   // letter -> first row index in FILTERED, rebuilt on every filter/search
+
+function buildRail() {
+  const rail = document.getElementById('az-rail');
+  if (!rail) return;
+  if (!rail.children.length) {
+    const frag = document.createDocumentFragment();
+    AZ.forEach(L => {
+      const d = document.createElement('div');
+      d.className = 'az-l'; d.textContent = L; d.dataset.l = L;
+      frag.appendChild(d);
+    });
+    rail.appendChild(frag);
+    const b = document.createElement('div');
+    b.id = 'az-bubble'; document.getElementById('sidebar').appendChild(b);
+  }
+  AZ_POS = {};
+  for (let n = 0; n < FILTERED.length; n++) {
+    const L = sortKey(FILTERED[n].v.name).trim().charAt(0).toUpperCase();
+    if (AZ_POS[L] === undefined) AZ_POS[L] = n;
+  }
+  rail.querySelectorAll('.az-l').forEach(el => {
+    el.classList.toggle('dead', AZ_POS[el.dataset.l] === undefined);
+  });
+}
+
+function jumpTo(L) {
+  const pos = AZ_POS[L];
+  if (pos === undefined) return false;
+  const list = document.getElementById('vet-list');
+  // A row for this man may not exist yet — never scrollIntoView an undrawn row.
+  list.scrollTop = pos * ROW_H;
+  drawWindow(true);
+  const rail = document.getElementById('az-rail');
+  rail.querySelectorAll('.az-l').forEach(el => el.classList.toggle('on', el.dataset.l === L));
+  return true;
+}
+
+(function railControl(){
+  const rail = document.getElementById('az-rail');
+  if (!rail) return;
+  const bubble = () => document.getElementById('az-bubble');
+  let down = false;
+
+  function letterAt(y) {
+    const el = document.elementFromPoint(rail.getBoundingClientRect().left + 8, y);
+    return (el && el.classList && el.classList.contains('az-l')) ? el : null;
+  }
+  function go(y) {
+    const el = letterAt(y);
+    if (!el || el.classList.contains('dead')) return;
+    if (jumpTo(el.dataset.l)) {
+      const b = bubble();
+      if (b) {
+        b.textContent = el.dataset.l;
+        b.style.display = 'block';
+        b.style.top = (el.getBoundingClientRect().top - rail.getBoundingClientRect().top + 3) + 'px';
+      }
+    }
+  }
+  rail.addEventListener('pointerdown', e => {
+    down = true; rail.setPointerCapture(e.pointerId); go(e.clientY); e.preventDefault();
+  });
+  rail.addEventListener('pointermove', e => { if (down) go(e.clientY); });
+  function up(){ down = false; const b = bubble(); if (b) b.style.display = 'none'; }
+  rail.addEventListener('pointerup', up);
+  rail.addEventListener('pointercancel', up);
+})();
 
 // --- the wheel: 1:1, no momentum. It stops when you stop. ---
 (function wheelControl(){
