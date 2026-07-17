@@ -103,7 +103,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 /* A–Z rail: at 3,052 names the list cannot be browsed by scrolling. Click a letter, land on it. */
 #az-rail {
   width:17px; flex-shrink:0; display:flex; flex-direction:column; justify-content:space-around;
-  align-items:center; padding:3px 0; border-left:1px solid #1e1e1e; background:#0c0c0c;
+  align-items:center; padding:3px 0; border-right:1px solid #1e1e1e; background:#0c0c0c;
   user-select:none; touch-action:none;
 }
 .az-l {
@@ -115,7 +115,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 .az-l.dead { color:#2e2b26; cursor:default; }
 .az-l.dead:hover { background:none; color:#2e2b26; }
 #az-bubble {
-  position:absolute; right:24px; z-index:900; pointer-events:none; display:none;
+  position:absolute; left:24px; z-index:900; pointer-events:none; display:none;
   background:#CD853F; color:#101010; font-family:Georgia,serif; font-size:0.95rem;
   width:26px; height:26px; border-radius:50%; text-align:center; line-height:26px;
   box-shadow:0 2px 8px rgba(0,0,0,0.7);
@@ -211,8 +211,8 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
       <div id="era-filters"></div>
     </div>
     <div id="list-wrap">
-      <div id="vet-list"><div id="pad-top"></div><div id="rows"></div><div id="pad-bot"></div></div>
       <div id="az-rail" title="Jump to a letter"></div>
+      <div id="vet-list"><div id="pad-top"></div><div id="rows"></div><div id="pad-bot"></div></div>
     </div>
     <div id="no-results">No veterans found</div>
   </div>
@@ -698,17 +698,33 @@ function jumpTo(L) {
   rail.addEventListener('pointercancel', up);
 })();
 
-// --- the wheel: 1:1, no momentum. It stops when you stop. ---
+// --- the wheel: rate-capped. A free-spinning wheel throws events faster than a hand can
+// --- stop; this holds only a small backlog and drains it at a fixed speed, so the list
+// --- never outruns you and never coasts on after the wheel stops.
 (function wheelControl(){
   const list = document.getElementById('vet-list');
   if (!list) return;
   // Feel is a nicety; the index is not. Nothing in here may throw.
-  const WHEEL_GAIN = 1.0;   // raise = further per notch. Lower = finer.
-  const DRAG_CAP   = 60;    // fling ceiling, px/frame
-  const FRICTION   = 0.86;  // fling coast-down
+  const PER_FRAME = 44;    // px the list may move in one frame (~1 name). Raise = faster.
+  const BACKLOG   = 200;   // px of unspent wheel we will hold (~5 names). This is the whole fix:
+                           // spin the wheel forever and only 200px of it survives your hand stopping.
+  const DRAG_CAP  = 60;
+  const FRICTION  = 0.86;
 
   let reduced = false;
   try { reduced = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches); } catch (e) {}
+
+  let accum = 0, draining = false;
+  function drain(){
+    if (!accum) { draining = false; return; }
+    const step = Math.sign(accum) * Math.min(Math.abs(accum), PER_FRAME);
+    const before = list.scrollTop;
+    list.scrollTop += step;
+    accum -= step;
+    if (list.scrollTop === before) accum = 0;   // hit an end: drop it, don't grind
+    if (!accum) { draining = false; return; }
+    requestAnimationFrame(drain);
+  }
 
   let vel = 0, spinning = false;
   function brake(){ vel = 0; spinning = false; }
@@ -722,26 +738,27 @@ function jumpTo(L) {
     requestAnimationFrame(frame);
   }
 
-  // EVERY wheel event, whatever the device. No device sniffing — that was the bug.
-  // We take the scroll off the browser so nothing coasts on after the hand stops.
+  // Every wheel event, whatever the device. No device sniffing — that was the bug.
   list.addEventListener('wheel', e => {
     let d = e.deltaY;
-    if (e.deltaMode === 1) d *= ROW_H;                      // lines -> pixels
+    if (e.deltaMode === 1) d *= ROW_H;                            // lines -> pixels
     else if (e.deltaMode === 2) d *= (list.clientHeight || 400);  // pages -> pixels
     if (!d) return;
     e.preventDefault();
-    brake();                                                // a wheel touch also kills any fling
-    list.scrollTop += d * WHEEL_GAIN;
+    brake();                                       // a wheel touch also kills any fling
+    if (Math.sign(d) !== Math.sign(accum)) accum = 0;   // reversing is a brake, not a nudge
+    accum = Math.max(-BACKLOG, Math.min(BACKLOG, accum + d));
+    if (!draining) { draining = true; requestAnimationFrame(drain); }
   }, {passive:false});
 
-  if (reduced) return;   // system says no motion: keep the 1:1 wheel, skip the fling
+  if (reduced) return;   // system says no motion: keep the capped wheel, skip the fling
 
   // --- grab the index and fling it, like spinning a wheel by hand ---
   let down = false, dragged = false, braked = false, lastY = 0, lastT = 0, track = 0;
   list.addEventListener('pointerdown', e => {
-    if (e.pointerType === 'touch') return;   // touch already has native momentum
-    braked = spinning || Math.abs(vel) > 0;  // touching a spinning list = stop it, nothing else
-    brake();
+    if (e.pointerType === 'touch') return;
+    braked = spinning || draining || Math.abs(vel) > 0;
+    brake(); accum = 0;
     down = true; dragged = false;
     lastY = e.clientY; lastT = e.timeStamp; track = 0;
   });
@@ -750,7 +767,7 @@ function jumpTo(L) {
     const dy = e.clientY - lastY;
     const dt = Math.max(1, e.timeStamp - lastT);
     track += Math.abs(dy);
-    if (track > 4) {                          // past this, it's a drag not a click
+    if (track > 4) {
       if (!dragged) { dragged = true; list.classList.add('dragging'); list.setPointerCapture(e.pointerId); }
       list.scrollTop -= dy;
       vel = vel * 0.6 + (-dy / dt * 16) * 0.4;
@@ -766,9 +783,8 @@ function jumpTo(L) {
     setTimeout(() => { dragged = false; braked = false; }, 0);
   });
   list.addEventListener('pointercancel', () => { down = false; dragged = false; braked = false; list.classList.remove('dragging'); });
-  // a fling must not also open whoever was under your cursor — nor must the tap that stopped one
   list.addEventListener('click', e => { if (dragged || braked) { e.stopPropagation(); e.preventDefault(); } }, true);
-  list.addEventListener('touchstart', () => { brake(); }, {passive:true});
+  list.addEventListener('touchstart', () => { brake(); accum = 0; }, {passive:true});
 })();
 
 function updateCount() {
