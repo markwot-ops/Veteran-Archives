@@ -882,8 +882,74 @@ ever find them. Not touched without Mark's word.
 ### State at end of 13F
 | Path | |
 |---|---|
-| research-queue/data.js | **3,056** (was 3,052) |
+| research-queue/data.js | **3,078** (was 3,052) |
 | calvary/data.js | 375 (Coburn corrected) |
-| index.html (landing) | count updated 3,052 -> 3,056 |
+| index.html (landing) | count updated 3,052 -> 3,078 |
 | template.html + 6 site shells + honor-roll | A-Z rail, lit letter, `overflow-anchor:none`, no wheel code |
 | reference/wheel-check.html | the measuring tool — keep it |
+
+
+## ============================================================
+## SESSION 13F, PART 2 — Mark's rulings, and Korea enters the archive
+## ============================================================
+
+### ✅ RULINGS FROM MARK — these are settled, do not re-litigate
+1. **"Died in Service" is NOT an honor.** The fate goes in the NARRATIVE, never a badge. 16 badges
+   removed (Calvary 2, Forestdale 4, Queue 10). All 16 were checked first — every one already stated
+   how the man died, so nothing was lost. **Check the narrative before stripping any badge.**
+2. **Died of wounds IS killed in action** — badge KIA, and qualify it in the narrative. Applied to
+   Marion, Moriarty (Joseph J.), Pairadee, Stachowicz, Carlow. The other 8 already carried KIA.
+   **Marion, Edmond A. had NO fate anywhere in his entry** — "numbered among Holyoke's honored dead"
+   and nothing more. His narrative now says he died of wounds in France, Oct 22, 1918.
+3. **Five OCR names corrected** (name only — the `id` stays as the stable key):
+   `3IALCOLM, John`→**Malcolm** · `3IARTIN, Daniel A.`→**Martin** · `3IcELWAIN, Thomas`→**McElwain** ·
+   `A\lLLISTON, Clifton A.`→**Williston** · `AA^LMOT, Frederick B.`→**Wilmot**
+   Tokens confirmed by Mark: **`3I`→M**, **`A\l`→W**, **`AA^`→W**.
+   **Nothing now sorts above the A's.** The Queue opens on Abbott, Bernard and the rail lights A.
+4. **Narey, Martin R. is a KOREAN WAR casualty**, killed in action March 8, 1951 — Mark's ruling,
+   go with Harper's Korea list over the WWII roll. Era, badge and narrative updated; sourceNote records
+   that he was listed in error among the WWII dead.
+5. **HOLD on Meyer, Frederick W.** — Vietnam, Captain, killed 1964 in the crash of an Air Force
+   transport at Manila en route to South Vietnam. NOT in the archive, NOT to be added yet. Note the
+   local page prints the father as "Meyers" and the son as "Meyer"; one is wrong.
+
+### ⚠️⚠️ THE 70 BARE NAMES — the biggest open question in the archive
+70 entries in the Queue are Harper WWII dead with **no unit, no date, no branch, no resting place** —
+nothing but a name tagged "World War II". Narey was one of them, and Narey turned out to be a **Korea**
+man. **If Harper's 211 contains other Korea men, the 197 / 211 / 212 reconciliation may be partly
+explained by mis-swept names, not by missing ones.**
+**How to test it:** the Korea and Vietnam Massachusetts state lists carry birthdate, service, rank and
+death date. Any of the 70 who appears on one was never a WWII casualty. **This is the next big job.**
+
+### KOREA — 23 entries where there were effectively none
+22 men added from Holyoke's Korean War casualty list (+ Narey = 23; 13 badged KIA). Era string is
+**"Korean War"**. Harper is IN COPYRIGHT — every narrative is original prose from the facts, never his
+wording. Men whose service the record does not name are `branch: "Armed Forces"` — **do not guess a
+service from a place** (an Air Force base does not make a man Air Force).
+**Open for Mark — Seavey, Edward H.:** Air Force captain, B-26 "sent down in the Sea of Japan"
+returning from a mission, March 3, 1951. Whether that is KIA turns on how the aircraft came down and
+the record does not say. **Left unbadged, flagged in his narrative.**
+
+### VIETNAM is complete and needs nothing
+All 9 Holyoke men on the Massachusetts state list are in, all badged Purple Heart. **Bourque, Valmour**
+(local book) = **Bourque, Valmore W.** (archive) = **BOURQUE VALMORE WILLIAM** (state list, Air Force
+CAPT, home of record South Hadley Falls, d. 1964-10-24). Same man — in the archive because he was
+**born in Holyoke**. Not a duplicate; do not "fix" it.
+
+### ⚠️ FIVE MORE `3I` NAMES AWAIT A RULING — Mark ruled on five, I did five
+`DU3IURAT, Stanley`→Dumurat? · `Hagerty, 3IICHAEL F.`→Michael? · `HU3IESTON, Raymond F.`→Humeston? ·
+`LY3IAN, John R.`→Lyman? · `Lyons, AVILLIA3I M.`→William? (`AV`→W + `3I`→M)
+Same tokens Mark confirmed, but **he did not rule on these.** Ask.
+
+### ⚠️ Era string inconsistency
+`Harper, Wyatt E., Jr.` carries era `"Vietnam"`; every other Vietnam man carries `"Vietnam War"`.
+One entry, one word. It will fall out of the Vietnam filter. Not fixed — flagging it.
+
+### ⚠️ A JSON.stringify NOTE
+data.js files were re-serialised with `JSON.stringify(VA, null, 1)`. Functionally identical, but the
+whole-file diff is enormous. Every changed site was re-run against the real shell before shipping.
+
+### ⚠️ AND ONE MORE TIME: verify the edit, don't assume it
+Marion's fate sentence silently failed to apply — a straight apostrophe in the patch, a curly one in
+the data. The badge landed, the sentence didn't. **It was caught only because it was checked afterward.**
+String-replacing narrative text: match on a short ASCII anchor, then assert the result.

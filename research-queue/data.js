@@ -422,7 +422,10 @@ window.VA = {
    "lng": null,
    "narrative": "John Carlow, a Holyoke man, entered the service in England in 1911 and was attached to the 11th Machine Gun Company, British Expeditionary Force. He was wounded by shrapnel after sixteen months in the trenches, and died of those wounds on December 8, 1917, in France. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "cassidy_joseph_francis",
@@ -2443,10 +2446,13 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
-   "narrative": "Edmond A. Marion of Holyoke entered the service on February 26, 1918, and served with Company E, 305th Infantry, in the 77th Division — the “Melting Pot” division raised from the streets of New York and the towns of the Northeast. The 305th fought through the Oise-Aisne and the Meuse-Argonne, where the division's Lost Battalion was cut off for five days in the Argonne Forest. He is numbered among Holyoke's honored dead of World War I. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Edmond A. Marion of Holyoke entered the service on February 26, 1918, and served with Company E, 305th Infantry, in the 77th Division — the “Melting Pot” division raised from the streets of New York and the towns of the Northeast. The 305th fought through the Oise-Aisne and the Meuse-Argonne, where the division's Lost Battalion was cut off for five days in the Argonne Forest. He was wounded in action and died in France of his wounds on October 22, 1918. He is numbered among Holyoke's honored dead of World War I. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "martin_harold_w",
@@ -2752,7 +2758,10 @@ window.VA = {
    "narrative": "Joseph J. Moriarty of Holyoke entered the service on May 22, 1917, and was stationed at Fort Ethan Allen, Vermont, then Camp Syracuse, New York. He was assigned to a Machine Gun Company and later shifted back to the infantry, serving with Company G, 16th Infantry, in the 1st Division — the first American troops to reach France. He went overseas in November 1917 and died in France on June 22, 1918, of wounds received in action, in the fighting around Cantigny where his division won America's first battle of the war. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "moriarty_michael_j",
@@ -2821,14 +2830,18 @@ window.VA = {
   {
    "id": "narey_martin_r",
    "name": "Narey, Martin R.",
-   "era": "World War II",
+   "era": "Korean War",
    "branch": "Armed Forces",
-   "branchLabel": "U.S. Armed Forces – World War II",
+   "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
-   "narrative": "Martin R. Narey of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Martin R. Narey of Holyoke was killed in action on March 8, 1951, during the Korean War. He appears on Holyoke's roll of the Second World War dead as a bare name, with no unit and no date; the city's Korean War casualty list gives him the date above. He is carried here as a Korean War casualty on the ruling of the Veterans Graves Officer. His unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ],
+   "sourceNote": "Listed in error among Holyoke's World War II dead. If that list of 211 contains other men who fell in Korea, the long-standing count discrepancy (197 confirmed / 211 Harper / 212 city memorial) may be partly explained by it."
   },
   {
    "id": "newhall_eliot_m",
@@ -3017,7 +3030,10 @@ window.VA = {
    "lng": null,
    "narrative": "Walter W. Pairadee of Holyoke entered the service on October 8, 1917, and was stationed at Camp Devens with Company D, 26th Infantry. He died in France in September 1918 of wounds received in action. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "pappas_theodore",
@@ -3632,7 +3648,10 @@ window.VA = {
    "lng": null,
    "narrative": "Anthony Stachowicz, a Holyoke man, entered service on February 8, 1918, and served with the American Expeditionary Forces in Battery F, 76th Field Artillery. He died of wounds in France on March 18, 1919 — four months after the guns fell silent. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "staseowski_john_j",
@@ -4071,9 +4090,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "William Brennan is confirmed among Holyoke's World War II dead, serving as a Private in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as died non-battle. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Died in Service"
-   ],
+   "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
@@ -4101,9 +4118,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "George Clark is confirmed among Holyoke's World War II dead, serving as a Master Sergeant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as died non-battle. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Died in Service"
-   ],
+   "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
@@ -4116,9 +4131,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "William Daly is confirmed among Holyoke's World War II dead, serving as a Private in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as died non-battle. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Died in Service"
-   ],
+   "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
@@ -4161,9 +4174,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Paul Franklin is confirmed among Holyoke's World War II dead, serving as a Private in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as died non-battle. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Died in Service"
-   ],
+   "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
@@ -4203,9 +4214,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Edward Greaney is confirmed among Holyoke's World War II dead, serving as a Corporal in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as died non-battle. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Died in Service"
-   ],
+   "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
@@ -4302,9 +4311,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Peter Konopka is confirmed among Holyoke's World War II dead, serving as a Private in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as died non-battle. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Died in Service"
-   ],
+   "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
@@ -4332,9 +4339,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Harold Mahoney is confirmed among Holyoke's World War II dead, serving as a Staff Sergeant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as died non-battle. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Died in Service"
-   ],
+   "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
@@ -4392,9 +4397,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Patrick Rohan is confirmed among Holyoke's World War II dead, serving as a Private in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as died non-battle. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Died in Service"
-   ],
+   "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
@@ -4407,9 +4410,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "William Sands is confirmed among Holyoke's World War II dead, serving as a Staff Sergeant in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as died non-battle. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Died in Service"
-   ],
+   "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
@@ -4449,9 +4450,7 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "John Zebrowski is confirmed among Holyoke's World War II dead, serving as a Technician Fifth Grade in the United States Army. Research into his unit, the circumstances of his death, and his place of burial is ongoing. The War Department's casualty list records him as died non-battle. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Died in Service"
-   ],
+   "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
@@ -39630,7 +39629,7 @@ window.VA = {
   },
   {
    "id": "zack_enl_3icelwain_thomas",
-   "name": "3IcELWAIN, Thomas",
+   "name": "McElwain, Thomas",
    "era": "World War I",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War I",
@@ -39656,7 +39655,7 @@ window.VA = {
   },
   {
    "id": "zack_enl_3ialcolm_john",
-   "name": "3IALCOLM, John",
+   "name": "Malcolm, John",
    "era": "World War I",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War I",
@@ -39669,7 +39668,7 @@ window.VA = {
   },
   {
    "id": "zack_enl_3iartin_daniel_a",
-   "name": "3IARTIN, Daniel A.",
+   "name": "Martin, Daniel A.",
    "era": "World War I",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War I",
@@ -39877,7 +39876,7 @@ window.VA = {
   },
   {
    "id": "zack_enl_a_llliston_clifton_a",
-   "name": "A\\lLLISTON, Clifton A.",
+   "name": "Williston, Clifton A.",
    "era": "World War I",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War I",
@@ -39890,7 +39889,7 @@ window.VA = {
   },
   {
    "id": "zack_enl_aa_lmot_frederick_b",
-   "name": "AA^LMOT, Frederick B.",
+   "name": "Wilmot, Frederick B.",
    "era": "World War I",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War I",
@@ -40639,6 +40638,338 @@ window.VA = {
    "photo": "",
    "narrative": "Nicholas Conaoghiris of Holyoke entered the service on May 27, 1918, and was stationed at Camp Upton, Long Island. He died of disease in France on September 12, 1918. His name is printed in Zack's Roll of Honor as Conaoghiris; the spelling is unusual and has not been confirmed against another record, and his family and his life in Holyoke have not yet been traced. That research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "korea_brissette_norman",
+   "name": "Brissette, Norman",
+   "era": "Korean War",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Norman Brissette of Holyoke was lost at sea on November 25, 1950, during the Korean War. The record the city holds says only that — lost at sea — and gives no ship and no unit. Men lost at sea often have no grave but the water, and no stone but the one their families raise at home. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "korea_carroll_william_george",
+   "name": "Carroll, William George",
+   "era": "Korean War",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "William George Carroll of Holyoke was killed in action on September 17, 1950, during the Korean War — in the third month of the fighting, when the war was still young and the Pusan Perimeter had only just been broken. His unit has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "korea_castro_anthony_j",
+   "name": "Castro, Anthony J.",
+   "era": "Korean War",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Anthony J. Castro of Holyoke died on September 26, 1951, at Charleston, South Carolina, while in the service during the Korean War. He died on this side of the ocean; the cause is not given in the record the city holds. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "korea_charpentier_roland",
+   "name": "Charpentier, Roland",
+   "era": "Korean War",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Roland Charpentier of Holyoke died on March 12, 1952, while in the service during the Korean War. Where he died, and of what, has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "korea_donoghue_richard_r",
+   "name": "Donoghue, Richard R.",
+   "era": "Korean War",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Richard R. Donoghue of Holyoke died in Japan on July 14, 1952, of polio, while in the service during the Korean War. Japan was the rear area of that war — where the wounded were taken and where men waited to go forward. He was killed by a disease that was frightening the whole country in those years, a long way from home and not by the enemy. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "korea_dostie_roland",
+   "name": "Dostie, Roland",
+   "era": "Korean War",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Roland Dostie of Holyoke was killed in action on August 31, 1952, during the Korean War. His unit has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "korea_fountain_robert_o",
+   "name": "Fountain, Robert O.",
+   "era": "Korean War",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Robert O. Fountain of Holyoke was killed in action on February 11, 1951, during the Korean War. His unit has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "korea_fournier_harry",
+   "name": "Fournier, Harry",
+   "era": "Korean War",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Harry Fournier of Holyoke was killed in Korea on December 1, 1951. The record the city holds gives the place and the date but not the unit, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "korea_gagne_gerald_joseph",
+   "name": "Gagne, Gerald Joseph",
+   "era": "Korean War",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Gerald Joseph Gagne of Holyoke was killed in action on May 29, 1951, during the Korean War. His unit has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "korea_geraghty_frank_w",
+   "name": "Geraghty, Frank W.",
+   "era": "Korean War",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Frank W. Geraghty of Holyoke was killed in action on March 17, 1953, during the Korean War, and died of his wounds in Japan. He was hurt in Korea and carried back across the sea to the hospitals, and he died there. The fighting ended four months later. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "korea_griffin_stephen_e",
+   "name": "Griffin, Stephen E.",
+   "era": "Korean War",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Stephen E. Griffin of Holyoke was killed on January 6, 1954, in the crash of a United States Navy photographic plane in Panama. The record places him in a Navy aircraft; his own service and unit are not stated, and that search continues. He died after the fighting in Korea had stopped, and nowhere near it. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "korea_kane_harold_j",
+   "name": "Kane, Harold J.",
+   "era": "Korean War",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Harold J. Kane of Holyoke was killed in action on July 3, 1952, during the Korean War. His unit has not yet been recovered from the record. Kane is a common Holyoke name and the archive holds many of them; no family connection to any other Kane here should be assumed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "korea_lafleur_roland",
+   "name": "Lafleur, Roland",
+   "era": "Korean War",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Roland Lafleur of Holyoke died on July 24, 1953, of wounds received in combat during the Korean War. The armistice was signed three days later. He is carried here as killed in action, on the ruling of the Veterans Graves Officer that a man who dies of his wounds died of the fighting. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "korea_law_james_r",
+   "name": "Law, James R.",
+   "era": "Korean War",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "James R. Law of Holyoke died on May 24, 1951, while in the service during the Korean War. Where he died, and of what, has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "korea_mcclure_ferdinand_j_jr",
+   "name": "McClure, Ferdinand J. Jr.",
+   "era": "Korean War",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Ferdinand J. McClure Jr. of Holyoke was killed in action on May 23, 1951, during the Korean War. His unit has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "korea_reynolds_james_c",
+   "name": "Reynolds, James C.",
+   "era": "Korean War",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "James C. Reynolds of Holyoke was killed in action on June 2, 1951, during the Korean War. His unit has not yet been recovered from the record. A James Reynolds of Holyoke also served in the First World War and is carried separately in this archive; whether the two men were related is not known and should not be assumed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "korea_seavey_edward_h",
+   "name": "Seavey, Edward H.",
+   "era": "Korean War",
+   "branch": "Air Force",
+   "branchLabel": "U.S. Air Force – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Edward H. Seavey of Holyoke, a captain in the United States Air Force, was killed on March 3, 1951, when his B-26 was sent down in the Sea of Japan as he returned from a mission over Korea. The B-26 flew the night intruder work of that war, hunting trains and truck convoys in the dark. His remains were recovered. Whether he should be carried as killed in action turns on how his aircraft came down, and the record the city holds does not say. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "korea_shaughnessy_william_j",
+   "name": "Shaughnessy, William J.",
+   "era": "Korean War",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "William J. Shaughnessy of Holyoke was killed in a jet plane crash in Arizona on June 5, 1952, while in the service during the Korean War. The jet was new then, and the men learning to fly it were killed in numbers at home that the country never much counted. His service and unit are not stated in the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "korea_slater_christopher_h",
+   "name": "Slater, Christopher H.",
+   "era": "Korean War",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Christopher H. Slater of Holyoke was killed in action on September 18, 1950, during the Korean War — in the war's first summer, at the breakout from the Pusan Perimeter. His unit has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "korea_sullivan_james_m",
+   "name": "Sullivan, James M.",
+   "era": "Korean War",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "James M. Sullivan of Holyoke died on May 6, 1951, at Shepard Air Force Base, Texas, while in the service during the Korean War. The cause is not given in the record the city holds. Sullivan is a common Holyoke name and several James Sullivans are carried in this archive; no family connection should be assumed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "korea_talley_harlan",
+   "name": "Talley, Harlan",
+   "era": "Korean War",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Harlan Talley of Holyoke died on September 30, 1953, at Magnolia, Kentucky, while in the service during the Korean War. The armistice had been signed two months before. The cause is not given in the record the city holds. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "korea_thibault_arthur_j",
+   "name": "Thibault, Arthur J.",
+   "era": "Korean War",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Arthur J. Thibault of Holyoke was killed in action on November 2, 1950, during the Korean War — in the first days of the Chinese intervention, when an army that thought the war nearly won found itself facing a new one. His unit has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   }

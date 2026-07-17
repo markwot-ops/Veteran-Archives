@@ -3393,9 +3393,7 @@ window.VA = {
    "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/mckilltop_m_mckilltop_w.jpg",
    "extraPhotos": [],
    "narrative": "Matthew J. McKillop served as a Gunner's Mate in the United States Navy during World War I. He enlisted in 1916 at Baltimore and was stationed aboard the battleship U.S.S. Utah. Born March 5, 1886, he did not live to see the war's end — he died at Newport News, Virginia, on March 15, 1918, of pneumonia, at the age of 31, and was brought home to be buried in Holyoke. His stone bears the inscription DIED IN THE SERVICE AT PORTSMOUTH VA. The influenza and pneumonia that swept the training camps and naval stations in 1918 killed nearly as many American servicemen as enemy fire; Matthew was among them, gone eight months before the Armistice. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Died in Service"
-   ],
+   "badges": [],
    "status": "located",
    "source": "session8"
   },
@@ -5346,9 +5344,7 @@ window.VA = {
    "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/vogt__c_army_ww_ii.jpg",
    "extraPhotos": [],
    "narrative": "William Leonard Vogt served as a Second Lieutenant and bombardier in the United States Army Air Forces, assigned to the 806th Bomb Squadron, 471st Bombardment Group, based at Pueblo Army Air Base, Colorado. On August 27, 1943, Lt. Vogt was aboard a B-24E Liberator (Serial No. 42-7117) returning from a high-altitude formation training mission when the aircraft struck the side of Cheyenne Mountain near Colorado Springs. The plane was destroyed on impact. All ten crew members were killed instantly. Vogt was 25 years old. His death was classified as a line-of-duty training casualty. Born January 28, 1918 in Massachusetts. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Died in Service"
-   ],
+   "badges": [],
    "status": "located",
    "source": "session7"
   },

@@ -3112,9 +3112,7 @@ window.VA = {
     }
    ],
    "narrative": "William B. Craven entered Company D, 104th Infantry, 26th Division — Holyoke's Own — as a private, and had risen to Sergeant by the time the company reached France. Company D left Camp Bartlett in October 1917, sailed from Montreal, and reached France by way of England in time for a cold Christmas at the village of Sartes. Their first turn in the lines came that February on the Chemin-des-Dames. On Easter Sunday 1918 they rushed by truck to the front at Apremont and held that ground three months through artillery, trench raids, and mustard gas. Then came Belleau Wood, then Château-Thierry — where the company lost five Holyoke men in a single day — then the St. Mihiel drive, and finally the fighting north of Verdun. Of the 250 men who left Holyoke, only thirteen remained in the ranks when the Armistice came. Craven was not among them. In that final Verdun sector, worn down by a year of campaigning, he succumbed to pneumonia on December 9, 1918 — a month after the guns fell silent. He was 29 years old. He is memorialized on the family stone alongside his father William Craven and mother Martha A. Clow. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Died in Service"
-   ],
+   "badges": [],
    "status": "located",
    "source": ""
   },
@@ -3178,9 +3176,7 @@ window.VA = {
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/franklin%20Medium.jpeg",
    "extraPhotos": [],
    "narrative": "Paul Franklin was born on May 9, 1921, the son of John E. Franklin and Martha Sharbetjian of Holyoke. He enlisted in the United States Army and was assigned to Headquarters Company, 1st Battalion, 351st Infantry Regiment, 88th Infantry Division, training at Camp Gruber, Oklahoma. He died on November 26, 1942 — before the 88th Division ever shipped overseas. He was 21 years old. The 88th would go on to become one of the most decorated American divisions in Italy, fighting its way up the Italian peninsula through some of the war's bloodiest terrain. Paul Franklin did not make that journey. A U.S. War Veteran marker stands at his grave alongside his parents. He is remembered here as a son of Holyoke who answered the call and did not come home. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Died in Service"
-   ],
+   "badges": [],
    "status": "located",
    "source": ""
   },
@@ -3541,9 +3537,7 @@ window.VA = {
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/burnett%20Medium.jpeg",
    "extraPhotos": [],
    "narrative": "Robert Burnett was born on May 23, 1893, the son of David and Susan Burnett of Holyoke. He entered service on April 23, 1917 — seventeen days after the declaration of war — trained at Camp Merritt, New Jersey, and went overseas with Company E, 49th Infantry. Private Burnett served six months in France and came home already ill. The war had followed him back. Robert Burnett died of disease at Military Hospital No. 5, the West Haven General Hospital, on March 20, 1919 — four months after the Armistice. He was 25 years old. The war's end did not end its dying: disease, wounds, and the influenza pandemic continued to claim soldiers long after the fighting stopped. His father, David Andrew Burnett, who served in the 151st Depot Brigade, is memorialized at the same Forestdale plot. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Died in Service"
-   ],
+   "badges": [],
    "status": "located",
    "source": ""
   },
@@ -4085,9 +4079,7 @@ window.VA = {
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/mathieson%20w%20Medium.jpeg",
    "extraPhotos": [],
    "narrative": "Second Lieutenant Wilson Mathieson Jr. was born in 1922 into a Scottish family — his grandfather John, his grandmother Jane Wilson, his father Wilson, his mother Annie Thomson, all carried on the stone he now shares with them. He earned his commission and his pilot's wings with the 98th Fighter Squadron, 337th Fighter Group, Army Air Corps. The squadron flew P-40 Warhawks at Sarasota Army Air Field in Florida, training the replacement fighter pilots America was sending to every theater of the war — dangerous work that killed thousands of young airmen before they ever saw combat. Wilson died in 1943 at twenty-one. His father had served as a Private in the British Army in the First World War — two generations of service carved on one stone. His pilot's wings are cut beneath his name, and his unit — 98th Ftr. Sq., 337 Ftr. Gp., Air Corps — is carved into the base line, the only man of his family so remembered. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Died in Service"
-   ],
+   "badges": [],
    "status": "located",
    "source": ""
   },
