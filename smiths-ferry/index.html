@@ -99,6 +99,11 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 .era-btn .eb-n { opacity:0.85; font-size:0.46rem; margin-left:1px; }
 
 #list-wrap { flex:1; display:flex; min-height:0; }
+/* Scroll anchoring must be OFF on a windowed list. #pad-top changes height on every redraw;
+   Chrome reads that as content shifting above the viewport and moves scrollTop to compensate,
+   which forces another redraw, which moves the pad again. That feedback loop IS the free run —
+   it shows up hardest on a change of direction. No wheel tuning can reach it. */
+#vet-list, #pad-top, #rows, #pad-bot, .vet-item { overflow-anchor:none; }
 #vet-list { overflow-y:auto; flex:1; padding:3px 0; overscroll-behavior:contain; will-change:scroll-position; }
 /* A–Z rail: at 3,052 names the list cannot be browsed by scrolling. Click a letter, land on it. */
 #az-rail {
