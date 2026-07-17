@@ -673,47 +673,8 @@ function buildRail() {
   litLetter();   // the rail is built after the first draw, so light it now or nothing lights at load
 }
 
-// --- letter-stop -----------------------------------------------------------
-// Mark's design, and the reason it works where three wheel rewrites did not: it hangs off the
-// SCROLL event, which fires however the list was moved — wheel, trackpad, scrollbar, keyboard.
-// A gesture runs free until it reaches the next letter, then stops dead on it. Flick as hard as
-// you like and you land on the next letter, not four letters past the man you wanted.
-// Browsing WITHIN a letter is untouched: the brake only exists at the boundary.
-(function letterStop(){
-  const list = document.getElementById('vet-list');
-  if (!list) return;
-  // Nothing in here may throw. Feel is a nicety; the index is not.
-  const IDLE = 160;        // ms of stillness that ends one gesture and begins the next
-  let prevTop = 0, gestureFrom = 0, lastT = 0;
-
-  list.addEventListener('scroll', () => {
-    try {
-      const now = performance.now();
-      const top = list.scrollTop;
-      // the rail jumping on purpose is not a gesture — never brake it
-      if (now - RAIL_JUMP < 400) { prevTop = top; lastT = now; gestureFrom = top; return; }
-      // A hand moves the list in small steps (measured: ~57px per event). Anything huge is the
-      // page itself moving — a search resetting to the top, a rail jump. Never brake that.
-      if (Math.abs(top - prevTop) > 600) { prevTop = top; gestureFrom = top; lastT = now; return; }
-      if (now - lastT > IDLE) gestureFrom = prevTop;   // a new gesture starts where the last one rested
-      lastT = now;
-
-      const dir = Math.sign(top - gestureFrom);
-      if (dir && LETTER_PX.length) {
-        // the first letter boundary lying beyond where this gesture began
-        const edge = dir > 0
-          ? LETTER_PX.find(b => b > gestureFrom + 1)
-          : [...LETTER_PX].reverse().find(b => b < gestureFrom - 1);
-        if (edge !== undefined && ((dir > 0 && top > edge) || (dir < 0 && top < edge))) {
-          list.scrollTop = edge;      // stop on the letter
-          prevTop = edge;
-          return;
-        }
-      }
-      prevTop = top;
-    } catch (e) {}
-  }, {passive:true});
-})();
+// Scrolling is the browser's own, as it was before the sidebar rebuild. No wheel code,
+// no momentum, no letter-stop. The A-Z rail is what gives precision on a long list.
 
 function jumpTo(L) {
   const pos = AZ_POS[L];
@@ -755,28 +716,6 @@ function jumpTo(L) {
   function up(){ down = false; const b = bubble(); if (b) b.style.display = 'none'; }
   rail.addEventListener('pointerup', up);
   rail.addEventListener('pointercancel', up);
-})();
-
-// --- the wheel: gain only ---------------------------------------------------
-// Measured on Mark's machine with reference/wheel-check.html: 19 events/sec, deltaY 57,
-// deltaMode 0, and NO coast after the hand stops. There was never any momentum to remove.
-// The problem was gain: a row is 40px, so one notch jumped a name and a half and a normal
-// gesture carried 116 names. Nothing to damp, nothing to cap — just scroll less per notch.
-// Caps and friction are deliberately absent: three attempts at them changed nothing,
-// because every ceiling sat far above anything a hand actually does.
-(function wheelGain(){
-  const list = document.getElementById('vet-list');
-  if (!list) return;
-  // Nothing in here may throw. Feel is a nicety; the index is not.
-  const GAIN = 0.35;   // 57px notch -> 20px, about half a name. Raise = faster, lower = finer.
-  list.addEventListener('wheel', e => {
-    let d = e.deltaY;
-    if (e.deltaMode === 1) d *= ROW_H;                            // lines -> pixels
-    else if (e.deltaMode === 2) d *= (list.clientHeight || 400);  // pages -> pixels
-    if (!d) return;
-    e.preventDefault();
-    list.scrollTop += d * GAIN;
-  }, {passive:false});
 })();
 
 function updateCount() {
