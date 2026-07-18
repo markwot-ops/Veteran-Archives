@@ -6664,52 +6664,47 @@ window.VA = {
   },
   {
    "id": "fd_new_utley",
-   "name": "Utley",
-   "era": "",
-   "branch": "",
+   "name": "Utley, William E.",
+   "era": "World War II",
+   "branch": "U.S. Army",
    "branchLabel": "",
    "lat": 42.207114,
    "lng": -72.623453,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/utley%20Medium.jpeg",
    "extraPhotos": [
     {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/utley%20R%20K%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
      "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/utley%20w%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/utley2%20Medium.jpeg",
      "caption": "Additional photo"
     }
    ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "William E. Utley served as a Sergeant in the United States Army during the Second World War. Born January 31, 1914, he came home to Holyoke and lived until March 6, 2005, past ninety. His marker and the family monument carry the same dates and set him among his people — a son of William and Minnie (Bisbee) Utley, and brother to Roger, who also went to that war. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
   },
   {
    "id": "fd_new_vlohiotis",
-   "name": "Vlohiotis",
-   "era": "",
-   "branch": "",
+   "name": "Vlohiotis, Stephen",
+   "era": "World War II",
+   "branch": "U.S. Army",
    "branchLabel": "",
-   "lat": 42.206467,
-   "lng": -72.623419,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/vlohiotis2%20Medium.jpeg",
+   "lat": 42.206825,
+   "lng": -72.623458,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/vlohiotis%20Medium.jpeg",
    "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Stephen Vlohiotis served in the United States Army during the Second World War. Born in 1916, he came home to Holyoke and lived until 1993. The unit he served in has not yet come down to us. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
   },
   {
    "id": "fd_new_williamson",
-   "name": "Williamson",
-   "era": "",
-   "branch": "",
+   "name": "Williamson, Daniel P.",
+   "era": [
+    "World War I",
+    "World War II"
+   ],
+   "branch": "U.S. Army",
    "branchLabel": "",
    "lat": 42.206653,
    "lng": -72.622636,
@@ -6724,7 +6719,7 @@ window.VA = {
      "caption": "Additional photo"
     }
    ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Daniel Paul Williamson went to the First World War as a young Holyoke man — Charles Zack’s 1919 roll lists him among the city’s servicemen — and he did not put the uniform away. He made the army his life, and by the Second World War he wore the silver oak leaf of a Lieutenant Colonel, a Holyoke boy risen to command. His stone records service in both World Wars; the family monument dates his years in uniform from 1917 to 1946 — nearly three decades. Born March 18, 1896, he died January 10, 1951, and rests beneath the Williamson stone beside his wife, Helen E. (Andrews) Williamson, of the Order of the Eastern Star. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -6938,6 +6933,48 @@ window.VA = {
     }
    ],
    "narrative": "Demetrios Tomaras rests beneath the family monument he shares with his wife, Diana, marked with the bronze star of a United States war veteran. His was one of the Greek families that made a home in Holyoke in the early years of the last century. The star at his grave records that he served, but his marker does not name the war or the branch, and the period of his service is not yet established. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "forestdale-field-2026"
+  },
+  {
+   "id": "fd_utley_roger_k",
+   "name": "Utley, Roger K.",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "lat": 42.207128,
+   "lng": -72.623436,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/utley%20R%20K%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/utley%20w%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "Roger Kenneth Utley served as a Private in the United States Army during the Second World War. Born August 15, 1902, he was already past forty when the war came; he came home to Holyoke and lived until October 16, 1987. He rests with his family under the Utley name — a son of William and Minnie (Bisbee) Utley, and brother to William, who wore the same uniform. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "forestdale-field-2026"
+  },
+  {
+   "id": "fd_warren_irma",
+   "name": "Warren, Irma",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "lat": 42.206953,
+   "lng": -72.623061,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/warren%20I%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/warren%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/warreni2%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "Irma Warren went to the First World War as a nurse in the United States Army Nurse Corps, stationed at Camp Jackson, South Carolina — one of the Holyoke women who put on the uniform when few women did. Born February 11, 1895, a daughter of Earl R. and Grace (Tuttle) Warren, she came home to Holyoke and lived until January 8, 1976. Her name was carried for years only on Holyoke’s 1919 roll of women in service; now her own government stone has been found, set beneath the family monument among her parents and sisters. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "forestdale-field-2026"
