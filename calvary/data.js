@@ -593,7 +593,7 @@ window.VA = {
    "lng": -72.627625,
    "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/coburn_james_died_in_france.jpg",
    "extraPhotos": [],
-   "narrative": "James M. Coburn of Holyoke entered the service on June 27, 1918, and served with Company C of the 335th Machine Gun Battalion in France. He was killed in a motor truck accident in France on November 16, 1918 — sixteen days after the guns fell silent, when the fighting was over and the Army was waiting to go home. James is remembered here on the stone of his mother, Theresa Coburn (1851–1914). If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] James M. Coburn of Holyoke entered the service on June 27, 1918, and served with Company C of the 335th Machine Gun Battalion in France. He was killed in a motor truck accident in France on November 16, 1918 — sixteen days after the guns fell silent, when the fighting was over and the Army was waiting to go home. James is remembered here on the stone of his mother, Theresa Coburn (1851–1914). If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "session10"
@@ -991,7 +991,20 @@ window.VA = {
    "lat": 42.1883278,
    "lng": -72.6288694,
    "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/davitt__w_rev_amy_ww_i_dist_svc_cross__kia.jpg",
-   "extraPhotos": [],
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/davitt_william_f_portrait.png",
+     "caption": "📷 Chaplain Davitt"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/davitt_last_officer_aef_killed.png",
+     "caption": "📜 Last Officer in the A.E.F. Killed"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/davitt_zack_page_362.png",
+     "caption": "📜 Zack: the Vesle rescue and the D.S.C."
+    }
+   ],
    "narrative": "Rev. William Francis Davitt was born in Holyoke on December 8, 1886, and grew up in nearby Chicopee, where he played football before graduating from Holy Cross College in 1907. He entered the priesthood, and was serving at St. Ann's in Lenox when the United States entered World War I in 1917. Commissioned a First Lieutenant, he volunteered as a Knights of Columbus chaplain and was assigned to the 125th Infantry Regiment, 32nd Division, American Expeditionary Forces. On August 6, 1918, during the advance along the Vesle River in France, Chaplain Davitt led a party of volunteers through machine-gun fire to rescue forty American soldiers trapped in a ravine — all were brought back without a single rescuer lost. For this act he was recommended for the Distinguished Service Cross and was awarded the French Croix de Guerre with palm. Father Davitt was killed in action on November 11, 1918, roughly an hour before the Armistice took effect — he is remembered as the last American officer, and the last American chaplain, killed in World War I. His remains were returned to Holyoke in 1921. He is also memorialized on Chaplains Hill at Arlington National Cemetery, and the William F. Davitt Memorial Bridge in Chicopee bears his name. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA",
