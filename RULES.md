@@ -75,6 +75,29 @@ I once shipped a **blank archive to all six sites** because I checked that the J
   > If you have further information about this veteran, please contact the City of Holyoke Veterans
   > Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.
 
+## 5A. THE NARRATIVE VOICE — Mark's one standing complaint
+
+Mark's words: *"we've lost the simple elegance of the storytelling."* When the pace goes up, Claude
+falls back on a formula — "served in the Nth Regiment during the X War, further research pending" —
+and stamps it on hundreds of men. **That is a mail-merge, not a narrative, and Mark can tell.**
+
+The exemplars are Robert Day, Enoch Ely, Ebenezer Jones, Daniel Ludington (session 13F). What makes
+them work:
+- **A scene before the man.** One or two sentences of the world he stepped into — the army coming
+  down the lakes, the drummer's job, the dates that turn out to be Saratoga — *then* the man.
+- **Use the color Mark gives.** He supplies detail beyond what's scrapeable (family stories, the
+  bullets in the door, the ox-cart road to Ticonderoga). USE IT. Flat facts when color was offered
+  is the failure mode.
+- **Short, plain, unhurried.** No hedging piled in the middle of a man. State what's known; name what
+  isn't, once, at the end.
+- **Each man individually shaped.** No two entries share a skeleton.
+
+**The working agreement (Mark's call):** it is better to get skeletal narratives ON THE BOOKS than to
+slow down and lose men. So at speed, Claude MAY write thin entries — but MUST brand them
+`[FIRST DRAFT]`, which is the holding pen for the elegance pass that comes later. The brand is not an
+excuse for flat prose when Mark has handed over color; it is permission to be *brief*, not *lifeless*.
+When Mark supplies story, the first draft should already carry it.
+
 ## 6. MARK'S RULINGS — settled, do not re-litigate
 
 - **Died of wounds IS killed in action.** Badge KIA, qualify it in the narrative.
