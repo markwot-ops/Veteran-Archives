@@ -4984,13 +4984,13 @@ window.VA = {
    "id": "sullivan__h_inf_ww_i_kia",
    "name": "Howard J. Sullivan",
    "era": "World War I",
-   "branch": "",
-   "branchLabel": "Unknown",
+   "branch": "Army",
+   "branchLabel": "U.S. Army – World War I",
    "lat": 42.1877778,
    "lng": -72.6289667,
    "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/sullivan__h_inf_ww_i_kia.jpg",
    "extraPhotos": [],
-   "narrative": "Howard J. Sullivan was killed in action during World War I, and his marker at Calvary Cemetery stands as a memorial to a man who did not come home from France. He served in the United States Infantry on the Western Front, where American forces fought in some of the most decisive campaigns of the war — the Meuse-Argonne Offensive alone involved more than a million American troops and broke the German lines in the final weeks of the conflict. Sullivan fell in that fight, and his name is recorded here as a permanent record of his sacrifice. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Howard J. Sullivan went to France with Company D, 104th Infantry — Holyoke’s Own, in the 26th “Yankee” Division, the company his city had sent overseas nearly to a man. He was a private at Château-Thierry in July 1918, where the Yankee Division stood in the path of the last German drive on Paris and did not give way. On July 22, 1918, Company D lost five Holyoke men in a single morning; Howard J. Sullivan was one of them, killed in action alongside Corporal Frank J. Moynihan, Corporal Jeremiah F. Sullivan, and Privates Joseph L. Finem and Arthur W. Fleming. Two Sullivans fell that day, and this is the second of them. His marker at Calvary Cemetery stands as a memorial to a man who did not come home from France. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
