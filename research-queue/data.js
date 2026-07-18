@@ -19,7 +19,7 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
-   "narrative": "Alfred S. Anderson, a son of Holyoke, entered the service in April 1917, shortly after the declaration of war, and served as a Musician in the Band of the 104th Infantry. Regimental bandsmen were not spectators: in battle they laid down their instruments and served as stretcher-bearers, carrying the wounded out under fire. Anderson was awarded the Distinguished Service Medal for bravery and gallant conduct in action from April 2nd to April 14th, 1918, during the 26th Division's defense of the Bois Brule sector, when the Yankee Division held against enemy raids in superior numbers and heavy artillery fire. He was killed in action in France on June 16, 1918. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Alfred S. Anderson, a son of Holyoke, entered the service in April 1917, shortly after the declaration of war, and served as a Musician in the Band of the 104th Infantry. Regimental bandsmen were not spectators: in battle they laid down their instruments and served as stretcher-bearers, carrying the wounded out under fire. Anderson was awarded the Distinguished Service Medal for bravery and gallant conduct in action from April 2nd to April 14th, 1918, during the 26th Division's defense of the Bois Brule sector, when the Yankee Division held against enemy raids in superior numbers and heavy artillery fire. He was killed in action on June 16, 1918, one of four Holyoke men of Company D to fall that day. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "KIA",
@@ -708,7 +708,7 @@ window.VA = {
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
     }
    ],
-   "narrative": "Louis M. Croteau entered the service on May 30, 1917, with Company D, 104th Infantry — Holyoke's own company, drawn from the mill streets and the neighborhoods of the city, so that men who had grown up together now stood in the same trench. He was killed in action on June 16, 1918, on the same day that took several of his neighbors in the same company. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Louis M. Croteau entered the service on May 30, 1917, with Company D, 104th Infantry — Holyoke's own company, drawn from the mill streets and the neighborhoods of the city, so that men who had grown up together now stood in the same trench. He was killed in action on June 16, 1918, on the same day that took three of his neighbors in the same company — Corporal John J. Kelly, Corporal George Tremblay, and Musician Alfred S. Anderson. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
@@ -1050,7 +1050,7 @@ window.VA = {
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
     }
    ],
-   "narrative": "Joseph L. Finem of Holyoke entered the service on June 5, 1917, with Company D, 104th Infantry — his own city's company. He was killed in action on July 22, 1918, at Chateau-Thierry. That single day cost Company D more Holyoke men than any other in the war: Moynihan, Sullivan, Fleming, and Finem all fell in the same attack, neighbors in life and in death, four telegrams that reached the same small city in the same week. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Joseph L. Finem of Holyoke entered the service on June 5, 1917, with Company D, 104th Infantry — his own city's company. He was killed in action on July 22, 1918, at Chateau-Thierry. That single day cost Company D more Holyoke men than any other in the war: Corporal Frank J. Moynihan, Corporal Jeremiah F. Sullivan, and Privates Arthur W. Fleming, Howard J. Sullivan, and Joseph L. Finem all fell in the same attack — five telegrams that reached the same small city in the same week, and two of the five were Sullivans. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
@@ -1095,7 +1095,7 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
-   "narrative": "Arthur W. Fleming of Holyoke entered the service in June 1916 and served at the Mexican Border that year with his city's company. He went to France with the 104th Infantry and was killed in action in 1918 at Chateau-Thierry, where the Yankee Division stood in the path of the last German drive on Paris and did not give way. He had soldiered beside the same Holyoke men for two years, from the Rio Grande to the Marne. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Arthur W. Fleming of Holyoke entered the service in June 1916 and served at the Mexican Border that year with his city's company. He went to France with Company D, 104th Infantry, and was killed in action at Château-Thierry on July 22, 1918 — one of five Holyoke men of the company to fall in a single morning, where the Yankee Division stood in the path of the last German drive on Paris and did not give way. He had soldiered beside the same Holyoke men for two years, from the Rio Grande to the Marne. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
@@ -1535,7 +1535,7 @@ window.VA = {
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
     }
    ],
-   "narrative": "Robert W. Gorham of Holyoke entered the service in 1912 with Company D of the 2nd Massachusetts Regiment — his city's own company — and served at the Mexican Border in 1916. He went to France with Company D, 104th Infantry, and rose to the rank of Sergeant. He was killed in action in France on September 12, 1918, at Saint-Mihiel, the first great offensive planned and executed by an independent American army. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Robert W. Gorham of Holyoke entered the service in 1912 with Company D of the 2nd Massachusetts Regiment — his city's own company — and served at the Mexican Border in 1916. He went to France with Company D, 104th Infantry, and rose to the rank of Sergeant. He was killed in action on September 12, 1918, at Saint-Mihiel — the first great offensive planned and executed by an independent American army — while leading a detachment in the advance that carried the company five miles in thirty hours and took the town of St. Maurice. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
@@ -2004,7 +2004,7 @@ window.VA = {
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
     }
    ],
-   "narrative": "John J. Kelly, a Holyoke man, entered the service on June 20, 1916, and served on the Mexican Border that summer. He went overseas as a private with Company D, 104th Infantry, and rose to Corporal. He was killed in action on June 16, 1918, while rescuing women from a French town that was being shelled. He died saving civilians — not in an assault, but carrying the helpless out of the fire. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "John J. Kelly, a Holyoke man, entered the service on June 20, 1916, and served on the Mexican Border that summer. He went overseas as a private with Company D, 104th Infantry, and rose to Corporal. He was killed in action on June 16, 1918, while rescuing women from a French town that was being shelled. He died saving civilians — not in an assault, but carrying the helpless out of the fire. He was one of four Holyoke men of Company D to fall on June 16, 1918, with Corporal George Tremblay, Musician Alfred S. Anderson, and Private Louis M. Croteau. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "badges": [
     "KIA"
@@ -2516,7 +2516,7 @@ window.VA = {
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
     }
    ],
-   "narrative": "Harold W. Martin of Holyoke entered the service in February 1917, two months before America declared war, with Company D, 104th Infantry — his own city's company. In France he was selected for officers' training school, the Army's judgment on a private who had proved himself. He was killed in action in France on July 21, 1918, at Chateau-Thierry, one day before the same company lost Moynihan, Sullivan, Fleming, and Finem in a single morning. He never received the commission he had earned. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Harold W. Martin of Holyoke entered the service in February 1917, two months before America declared war, with Company D, 104th Infantry — his own city's company. In France he was selected for officers' training school, the Army's judgment on a private who had proved himself. He was killed in action in France on July 21, 1918, at Chateau-Thierry, one day before the same company lost five more Holyoke men in a single morning — Corporals Moynihan and Jeremiah F. Sullivan, and Privates Fleming, Howard J. Sullivan, and Finem. He never received the commission he had earned. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
@@ -2852,7 +2852,7 @@ window.VA = {
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
     }
    ],
-   "narrative": "Frank J. Moynihan entered the service on June 20, 1916, and served on the Mexican Border that year. He was a Corporal in Company D, 104th Infantry — Holyoke's own company. He was killed in action in France on July 22, 1918, at Chateau-Thierry. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Frank J. Moynihan entered the service on June 20, 1916, and served on the Mexican Border that year. He was a Corporal in Company D, 104th Infantry — Holyoke's own company. He was killed in action on July 22, 1918, at Château-Thierry — one of five Holyoke men of Company D to fall in a single morning, two of them Sullivans. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
@@ -3719,7 +3719,7 @@ window.VA = {
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
     }
    ],
-   "narrative": "Frank E. Snyder of Holyoke entered the service in May 1917 with Company D, 104th Infantry — his own city's company. He was killed in action in France on July 11, 1918, at Chateau-Thierry, where the Yankee Division stood in the path of the German drive on Paris. He fell eleven days before the same company lost Moynihan, Sullivan, Fleming, and Finem in a single morning. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Frank E. Snyder of Holyoke entered the service in May 1917 with Company D, 104th Infantry — his own city's company. He was killed in action in France on July 11, 1918, at Chateau-Thierry, where the Yankee Division stood in the path of the German drive on Paris. He fell eleven days before the same company lost five more Holyoke men in a single morning on July 22 — Moynihan, Fleming, Finem, and both Sullivans, Jeremiah F. and Howard J. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
@@ -3860,7 +3860,7 @@ window.VA = {
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
     }
    ],
-   "narrative": "Jeremiah F. Sullivan entered the service on June 20, 1916, and served at the Mexican Border that summer. He was a Corporal in Company D, 104th Infantry. He was killed in action in France on July 22, 1918, at Chateau-Thierry — the same day that took several of his Holyoke comrades in the same company. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Jeremiah F. Sullivan entered the service on June 20, 1916, and served at the Mexican Border that summer. He was a Corporal in Company D, 104th Infantry. He was killed in action in France on July 22, 1918, at Château-Thierry — the same morning that took four of his Holyoke comrades in the same company: Corporal Frank J. Moynihan, and Privates Arthur W. Fleming, Joseph L. Finem, and Howard J. Sullivan, the second Sullivan to fall that day. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "badges": [
     "KIA"
@@ -3885,7 +3885,7 @@ window.VA = {
   },
   {
    "id": "thompson_raymond_b",
-   "name": "Thompson, Raymond B.",
+   "name": "Thomson, Raymond B.",
    "era": "World War I",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War I",
@@ -3897,12 +3897,13 @@ window.VA = {
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
     }
    ],
-   "narrative": "Raymond B. Thompson, a son of Holyoke, entered the service with Company D and served at the Mexican Border. He went overseas as a Sergeant with Company D, 104th Infantry. He was killed in action in France on September 12, 1918, at Saint-Mihiel. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Raymond Bunton Thomson, a son of Holyoke and a Holyoke High School man of the class of 1912, entered the service with Company D and served on the Mexican Border. He went overseas as a Sergeant with Company D, 104th Infantry — Holyoke's Own. He was killed in action on September 12, 1918, at Saint-Mihiel, leading a detachment in the same advance on St. Maurice that took Sergeant Robert W. Gorham of his own company. The two Holyoke sergeants fell on the same day, at the head of their men. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "sourceNote": "Spelled “Thomson” here after Zack’s Golden Roll (H.H.S. class of 1912) and his account of Company D, both of which print Thomson, not Thompson; the archive’s earlier “Thompson” is corrected. Presented for confirmation."
   },
   {
    "id": "tighe_harry",
@@ -4011,7 +4012,7 @@ window.VA = {
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
     }
    ],
-   "narrative": "George Tremblay entered the service in May 1917 with Company D, 104th Infantry — the Holyoke company, in the 26th \"Yankee\" Division, the first full American division to reach France. He was killed in action in France on June 16, 1918, in the fighting around the Toul sector, where the Yankee Division learned trench warfare under French instruction and then held the line alone. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "George Tremblay entered the service in May 1917 with Company D, 104th Infantry — the Holyoke company, in the 26th \"Yankee\" Division, the first full American division to reach France. A Corporal in the company, he was killed in action on June 16, 1918, in the Apremont sector near Toul — one of four Holyoke men of Company D to fall that single day, with Corporal John J. Kelly, Musician Alfred S. Anderson, and Private Louis M. Croteau. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
