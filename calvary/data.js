@@ -323,7 +323,7 @@ window.VA = {
    "lng": -72.627242,
    "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/bresnaban__m_army_ww_i.jpg",
    "extraPhotos": [],
-   "narrative": "Michael J. Bresnahan served in the United States Army during World War I. Born in 1892, Private Bresnahan was among millions of Americans who mobilized when the United States entered the Great War in 1917. If you have further information about this veteran's unit and service, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Michael J. Bresnahan served in the United States Army during World War I. Born in 1892, Private Bresnahan was among millions of Americans who mobilized when the United States entered the Great War in 1917. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "session10"
@@ -503,7 +503,7 @@ window.VA = {
    "lng": -72.627303,
    "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/cassidy.jpg",
    "extraPhotos": [],
-   "narrative": "Veteran Cassidy served during the Spanish-American War era, as indicated by the United Spanish War Veterans medallion at the base of the family monument. The USWV was the official veterans organization for those who served in the Spanish-American War and the Philippine Insurrection of 1898–1902. If you have further information about this veteran, including branch, unit, and full name, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Veteran Cassidy served during the Spanish-American War era, as indicated by the United Spanish War Veterans medallion at the base of the family monument. The USWV was the official veterans organization for those who served in the Spanish-American War and the Philippine Insurrection of 1898–1902. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "session10"
@@ -1319,7 +1319,7 @@ window.VA = {
    "lng": -72.6295556,
    "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/fetterman_s_cav.jpg",
    "extraPhotos": [],
-   "narrative": "Samuel Fetterman served in a Pennsylvania Cavalry regiment; the exact regiment number is too worn on the stone to confirm with confidence. No era is inscribed, but the marker's shape, the carved shield motif, and the abbreviated \"SAML\" for Samuel are all typical of Civil War-era military headstones, making that the most likely period of his service. If you have information about which regiment or campaign, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Samuel Fetterman served in a Pennsylvania Cavalry regiment; the exact regiment number is too worn on the stone to confirm with confidence. No era is inscribed, but the marker's shape, the carved shield motif, and the abbreviated \"SAML\" for Samuel are all typical of Civil War-era military headstones, making that the most likely period of his service. If you have information about which regiment or campaign, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": ""
@@ -4221,7 +4221,7 @@ window.VA = {
    "lng": -72.6277472,
    "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/owen.jpg",
    "extraPhotos": [],
-   "narrative": "This stone is inscribed only with the family name OWEN — a family monument rather than an individual marker. A U.S. flag placed at the grave indicates a veteran is buried here, but no branch, rank, or service dates are visible on this stone. If you can identify which family member served, or have a photo of an individual footstone nearby, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "This stone is inscribed only with the family name OWEN — a family monument rather than an individual marker. A U.S. flag placed at the grave indicates a veteran is buried here, but no branch, rank, or service dates are visible on this stone. If you can identify which family member served, or have a photo of an individual footstone nearby, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "session7"
