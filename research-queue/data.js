@@ -3611,19 +3611,6 @@ window.VA = {
    "source": "research-queue"
   },
   {
-   "id": "simpson_george",
-   "name": "Simpson, George",
-   "era": "World War II",
-   "branch": "Armed Forces",
-   "branchLabel": "U.S. Armed Forces – World War II",
-   "lat": null,
-   "lng": null,
-   "narrative": "[FIRST DRAFT] George Simpson of Holyoke died in the service on May 15, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
-   "status": "queue",
-   "source": "research-queue"
-  },
-  {
    "id": "skowronek_joseph",
    "name": "Skowronek, Joseph",
    "era": "World War II",
@@ -33068,19 +33055,6 @@ window.VA = {
    "source": "zack-enlisted-M-Z"
   },
   {
-   "id": "zack_enl_schoenfeldt_louis_f_b",
-   "name": "Schoenfeldt, Louis F. B.",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "U.S. Army – World War I",
-   "lat": null,
-   "lng": null,
-   "narrative": "Private Louis F. B. Schoenfeldt served in the United States Army in the First World War. He served with the American Expeditionary Forces. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
-   "status": "queue",
-   "source": "zack-enlisted-M-Z"
-  },
-  {
    "id": "zack_enl_schuman_alex",
    "name": "Schuman, Alex",
    "era": "World War I",
@@ -36711,19 +36685,6 @@ window.VA = {
    "lat": null,
    "lng": null,
    "narrative": "Private William R. Williams entered service May 29, 1918, serving in the Quartermaster Corps of the United States Army in the First World War. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
-   "status": "queue",
-   "source": "zack-enlisted-M-Z"
-  },
-  {
-   "id": "zack_enl_williamson_daniel_p",
-   "name": "Williamson, Daniel P.",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "U.S. Army – World War I",
-   "lat": null,
-   "lng": null,
-   "narrative": "Private Daniel P. Williamson entered service December 5, 1917, serving in Headquarters, GOth Infantry of the United States Army in the First World War. He was stationed at Camp Greene, N. C. Transferred to Camp Devens. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
    "source": "zack-enlisted-M-Z"
@@ -48668,21 +48629,6 @@ window.VA = {
    "lng": null,
    "photo": "",
    "narrative": "[FIRST DRAFT] Anna Walsh of Holyoke served as a nurse in the United States Army Nurse Corps during the First World War, stationed at Camp Devens and Camp Jackson, South Carolina. Her fuller story has not yet been traced; that research continues.",
-   "sourceNote": "Source: Charles S. Zack, Holyoke in the Great War (1919), \"Holyoke Women in Service.\" First-draft entry; person-first research pending.",
-   "badges": [],
-   "status": "queue",
-   "source": "zack-women-in-service"
-  },
-  {
-   "id": "zack_women_warren_irma",
-   "name": "Warren, Irma",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "U.S. Army Nurse Corps – World War I",
-   "lat": null,
-   "lng": null,
-   "photo": "",
-   "narrative": "[FIRST DRAFT] Irma Warren of Holyoke served as a nurse in the United States Army Nurse Corps during the First World War, stationed at Camp Jackson, South Carolina. Her fuller story has not yet been traced; that research continues.",
    "sourceNote": "Source: Charles S. Zack, Holyoke in the Great War (1919), \"Holyoke Women in Service.\" First-draft entry; person-first research pending.",
    "badges": [],
    "status": "queue",
