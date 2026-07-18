@@ -159,7 +159,7 @@ window.VA = {
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
     }
    ],
-   "narrative": "Samuel C. Bogart served as a Sergeant among Holyoke's own in Company D, 2nd Massachusetts Volunteer Infantry, during the Santiago campaign of 1898. He endured the landing in Cuba, the battle at El Caney, and the fever camps that emptied the ranks of his regiment before it could be carried home to the quarantine grounds at Montauk. He died in his nation's service, remembered here among the Holyoke men who answered the call. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Samuel C. Bogart of Holyoke served as a wagoner in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Zack lists him among the deceased members of Company D; the introduction to that roster describes them as the men who gave their lives in the service. Whether he died in Cuba, or of what, the page does not say. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -193,7 +193,7 @@ window.VA = {
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
     }
    ],
-   "narrative": "Joseph Bonneville was one of Holyoke's young volunteers — a name reflecting the French-Canadian families who had made the city their home — who went to Cuba with Company D of the 2nd Massachusetts in 1898. He shared in the regiment's fight at El Caney and in the weeks of siege, hunger, and fever that followed before Santiago fell. He died in the service of his country, remembered among Holyoke's own of the Spanish-American War. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Joseph Bonneville of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Zack lists him among the deceased members of Company D; the introduction to that roster describes them as the men who gave their lives in the service. Whether he died in Cuba, or of what, the page does not say. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -401,7 +401,7 @@ window.VA = {
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
     }
    ],
-   "narrative": "Timothy J. Canavan answered the call from Holyoke and served with the city's Company D, 2nd Massachusetts, in the Santiago campaign. He was among the volunteers who fought at El Caney and held the trench lines before the city, enduring the tropical fevers that swept through the ranks. He gave his life in his nation's service in 1898, one of Holyoke's own. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Timothy J. Canavan of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Zack lists him among the deceased members of Company D; the introduction to that roster describes them as the men who gave their lives in the service. Whether he died in Cuba, or of what, the page does not say. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -458,7 +458,7 @@ window.VA = {
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
     }
    ],
-   "narrative": "Allen B. Chamberlain marched with Holyoke's Company D from Daiquiri to the fighting at El Caney, one of the volunteers who went into battle with an outdated rifle against an entrenched enemy. He survived the fight only to enter the longer trial of the disease-ridden camps around Santiago. He died in his country's service in the Cuban campaign of 1898, a Holyoke man of the 2nd Massachusetts. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Allen B. Chamberlain of Holyoke served as an artificer in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Zack lists him among the deceased members of Company D; the introduction to that roster describes them as the men who gave their lives in the service. Whether he died in Cuba, or of what, the page does not say. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -567,7 +567,7 @@ window.VA = {
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
     }
    ],
-   "narrative": "Ruel H. Coit answered Holyoke's call in the spring of 1898 and served as a Corporal in the city's Company D, 2nd Massachusetts. He was in the ranks at El Caney and through the siege lines before Santiago, and like so many of his comrades he faced the malaria and yellow fever that proved deadlier than any Spanish position. He gave his life in that campaign, one of Holyoke's own in the war for Cuban independence. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Ruel H. Coit of Holyoke served as a corporal in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. He was wounded on July 1, at El Caney. Zack lists him among the deceased members of Company D; the introduction to that roster describes them as the men who gave their lives in the service. Whether he died in Cuba, or of what, the page does not say. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -585,7 +585,7 @@ window.VA = {
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
     }
    ],
-   "narrative": "George A. Collier was a Sergeant of Holyoke's Company D, 2nd Massachusetts Volunteer Infantry, and died in the Santiago campaign of 1898. He stood with the only volunteer regiment in the hard fight at El Caney and through the trench lines thrown up before the city. Like so many of Holyoke's own men in that company, he survived the Spanish guns only to face the deadlier fevers that swept the Cuban camps, and he gave his life in his country's service. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] George A. Collier of Holyoke served as a sergeant in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Zack lists him among the deceased members of Company D; the introduction to that roster describes them as the men who gave their lives in the service. Whether he died in Cuba, or of what, the page does not say. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -969,7 +969,7 @@ window.VA = {
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
     }
    ],
-   "narrative": "Anatole Dugas served with Holyoke's own in Cuba in 1898, one of the French-Canadian community that had built much of the city and now sent its sons to the nation's war. He shared in the ordeal of El Caney and the fever camps of Santiago with Company D of the 2nd Massachusetts. He died in his country's service during that campaign, remembered here among Holyoke's men. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Anatole Dugas of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Zack lists him among the deceased members of Company D; the introduction to that roster describes them as the men who gave their lives in the service. Whether he died in Cuba, or of what, the page does not say. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -1733,7 +1733,7 @@ window.VA = {
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
     }
    ],
-   "narrative": "Samuel P. Hazelwood went to Cuba with Holyoke's Company D in the summer of 1898. He endured the landing, the battle at El Caney, and the trenches before Santiago, where the volunteers dug in against both the enemy and the disease that thinned their ranks. He gave his life in his nation's service during the campaign, one of the city's own in the 2nd Massachusetts. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Samuel P. Hazelwood of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Zack lists him among the deceased members of Company D; the introduction to that roster describes them as the men who gave their lives in the service. Whether he died in Cuba, or of what, the page does not say. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -2451,7 +2451,7 @@ window.VA = {
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
     }
    ],
-   "narrative": "Richard Mackey was among the Holyoke men who volunteered in 1898 and sailed for Cuba with the city's Company D, 2nd Massachusetts. He served through the fight at El Caney and the siege before Santiago, sharing in the fever and hardship that marked the regiment's campaign far more than combat did. He died in the service of his country, honored here among Holyoke's own of the Spanish-American War. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Richard Mackey of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Zack lists him among the deceased members of Company D; the introduction to that roster describes them as the men who gave their lives in the service. Whether he died in Cuba, or of what, the page does not say. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -2607,7 +2607,7 @@ window.VA = {
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
     }
    ],
-   "narrative": "Frank G. Mattice went to Cuba in the summer of 1898 as a Sergeant in Holyoke's Company D of the 2nd Massachusetts. He shared in the regiment's baptism of fire at El Caney and in the grinding weeks in the trenches before Santiago, where hunger, exhaustion, and tropical disease wore the volunteers down man by man. He died in the service of his country, one of the city's own Sergeants of the Spanish-American War. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Frank C. Mattice of Holyoke served as a sergeant in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Zack lists him among the deceased members of Company D; the introduction to that roster describes them as the men who gave their lives in the service. Whether he died in Cuba, or of what, the page does not say. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -3993,7 +3993,7 @@ window.VA = {
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
     }
    ],
-   "narrative": "Edgar R. Train served as a Sergeant in Company D — Holyoke's own company — of the 2nd Massachusetts Volunteer Infantry, and gave his life in the Cuban campaign of 1898. As a Sergeant he carried the daily burden of the volunteer soldier's ordeal: the landing at Daiquiri, the fight at El Caney under a haze of black-powder smoke, and the fever-ridden camps that followed before Santiago. He was one of the city's own men, sent to war under its hometown company, who did not come home. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Edgar R. Train of Holyoke served as a quartermaster sergeant in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Zack lists him among the deceased members of Company D; the introduction to that roster describes them as the men who gave their lives in the service. Whether he died in Cuba, or of what, the page does not say. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -4966,12 +4966,15 @@ window.VA = {
   {
    "id": "zack_macdonald_alexander",
    "name": "MacDonald, Alexander",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branch": "Army",
    "branchLabel": "Division Postmaster, 26th Division – World War I",
    "lat": null,
    "lng": null,
-   "narrative": "Alexander MacDonald of Holyoke was a career citizen-soldier. He enlisted in Company D, 2nd Massachusetts Regiment, on March 20, 1895, served in the Spanish-American War as a corporal, and rose over the years through first lieutenant, captain, and major, re-entering as battalion adjutant. At the Mexican border in 1916 he commanded a casual detachment and served as assistant to the commander of base headquarters. He went overseas with the 104th Infantry in October 1917 as adjutant of the 2nd Battalion, and was promoted in France to Divisional Postmaster of the 26th Division, the man who kept an army's letters moving home. He received three citations for bravery. His service was shadowed by grief: on November 28, 1917, while he was in France, one of his little sons died from burns at home. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Alexander MacDonald of Holyoke was a career citizen-soldier. He enlisted in Company D, 2nd Massachusetts Regiment, on March 20, 1895, served in the Spanish-American War as a corporal, and rose over the years through first lieutenant, captain, and major, re-entering as battalion adjutant. At the Mexican border in 1916 he commanded a casual detachment and served as assistant to the commander of base headquarters. He went overseas with the 104th Infantry in October 1917 as adjutant of the 2nd Battalion, and was promoted in France to Divisional Postmaster of the 26th Division, the man who kept an army's letters moving home. He received three citations for bravery. His service was shadowed by grief: on November 28, 1917, while he was in France, one of his little sons died from burns at home. He was also a member of Company D of the 2nd Massachusetts Volunteer Infantry, the Holyoke company that mustered in on May 3, 1898 for the war with Spain and fought at El Caney in Cuba on July 1 — the same company that became part of the 104th Infantry in the World War. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "Cited for Bravery"
@@ -5163,12 +5166,16 @@ window.VA = {
   {
    "id": "zack_roster_basinet_william",
    "name": "Basinet, William",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] William Basinet of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_bergeron_adjutor",
@@ -5183,22 +5190,30 @@ window.VA = {
   {
    "id": "zack_roster_blanchard_william",
    "name": "Blanchard, William",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] William Blanchard of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_boutin_emil",
    "name": "Boutin, Emil",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Emil Boutin of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_bower_james",
@@ -5233,22 +5248,30 @@ window.VA = {
   {
    "id": "zack_roster_burckard_george",
    "name": "Burckard, George",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] George Burckard of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_cain_earl",
    "name": "Cain, Earl J.",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Earl J. Cain of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_clad_emil",
@@ -5263,27 +5286,38 @@ window.VA = {
   {
    "id": "zack_roster_cleveland_william",
    "name": "Cleveland, William M.",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] William M. Cleveland of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_crosby_george",
    "name": "Crosby, George D.",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] George D. Crosby of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_crosier_william",
    "name": "Crosier, William J.",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
@@ -5294,7 +5328,8 @@ window.VA = {
     }
    ],
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] William J. Crosier of Holyoke served as a captain in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_cutler_willard",
@@ -5309,12 +5344,16 @@ window.VA = {
   {
    "id": "zack_roster_damour_edmond",
    "name": "Damour, Edmond",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Edmond Damour of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_duenkel_walter",
@@ -5329,42 +5368,58 @@ window.VA = {
   {
    "id": "zack_roster_eaton_joseph",
    "name": "Eaton, Joseph W.",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Joseph W. Eaton of Holyoke served as a corporal in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. He was wounded on July 2, at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_eger_otto",
    "name": "Eger, Otto",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Otto Eger of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_emery_napoleon",
    "name": "Emery, Napoleon B.",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Napoleon B. Emery of Holyoke served as a corporal in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_engelhardt_richard",
    "name": "Engelhardt, Richard F.",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Richard F. Engelhardt of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_erhardt_george",
@@ -5389,12 +5444,16 @@ window.VA = {
   {
    "id": "zack_roster_fay_albert",
    "name": "Fay, Albert E.",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Albert E. Fay of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_fay_harrington",
@@ -5409,17 +5468,24 @@ window.VA = {
   {
    "id": "zack_roster_fisher_george",
    "name": "Fisher, George A.",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] George A. Fisher of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_foote_alfred",
    "name": "Foote, Alfred F.",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branch": "Army",
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
@@ -5432,7 +5498,8 @@ window.VA = {
    ],
    "status": "queue",
    "source": "zack-roster-placeholder",
-   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/foote_alfred_f_portrait.png"
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/foote_alfred_f_portrait.png",
+   "narrative": "[FIRST DRAFT] Alfred F. Foote of Holyoke served as a sergeant in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_fortier_louis",
@@ -5477,22 +5544,30 @@ window.VA = {
   {
    "id": "zack_roster_grady_jerry",
    "name": "Grady, Jerry",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Jerry Grady of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_graves_warren",
    "name": "Graves, Warren A.",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Warren A. Graves of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_hargaden_thomas",
@@ -5527,62 +5602,86 @@ window.VA = {
   {
    "id": "zack_roster_hunter_robert",
    "name": "Hunter, Robert M.",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Robert W. Hunter of Holyoke served as a 1st lieutenant in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_jackson_lester",
    "name": "Jackson, Lester R.",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Lester R. Jackson of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_julian_arthur",
    "name": "Julian, Arthur",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Arthur Julian of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_keith_george",
    "name": "Keith, George H.",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] George H. Keith of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_kilkelley_patrick",
    "name": "Kilkelley, Patrick",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Patrick Kilkelley, Jr. of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_langelier_henry",
    "name": "Langelier, Henry",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Henry Langelier of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_larivie_philias",
@@ -5597,12 +5696,16 @@ window.VA = {
   {
    "id": "zack_roster_libeck_john",
    "name": "Libeck, John C.",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] John C. Libeck of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_lowell_john",
@@ -5657,12 +5760,16 @@ window.VA = {
   {
    "id": "zack_roster_muirhead_andrew",
    "name": "Muirhead, Andrew",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Andrew Muirhead of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_pfanner_joseph",
@@ -5687,22 +5794,30 @@ window.VA = {
   {
    "id": "zack_roster_pierce_frank",
    "name": "Pierce, Frank A.",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Frank A. Pierce of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_reed_alfred",
    "name": "Reed, Alfred F.",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Alfred F. Reed of Holyoke served as a sergeant in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_reed_james",
@@ -5717,22 +5832,30 @@ window.VA = {
   {
    "id": "zack_roster_reno_nelson",
    "name": "Reno, Nelson",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Nelson Reno of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_scannell_jerry",
    "name": "Scannell, Jerry",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Jerry Scannell of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_skinner_joseph",
@@ -5747,7 +5870,10 @@ window.VA = {
   {
    "id": "zack_roster_slate_edmund",
    "name": "Slate, Edmund J.",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branch": "Army",
    "branchLabel": "Captain, 26th Division Supply Officer – World War I",
    "lat": null,
@@ -5762,7 +5888,7 @@ window.VA = {
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
     }
    ],
-   "narrative": "Edmund J. Slate enlisted as a private in Company I, 2nd Massachusetts Volunteer Militia, on September 16, 1894, serving three years, then enlisted in Holyoke's Company D and rose through corporal, sergeant, quartermaster sergeant, and first sergeant to be elected captain in December 1913. He served in the Spanish-American War in 1898 and did duty on the Mexican border in 1916. On October 5, 1917, he left Camp Bartlett at the head of Company D, 104th Infantry, and in France was placed in charge of regimental supplies as supply officer of the 26th Division. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Edmund J. Slate enlisted as a private in Company I, 2nd Massachusetts Volunteer Militia, on September 16, 1894, serving three years, then enlisted in Holyoke's Company D and rose through corporal, sergeant, quartermaster sergeant, and first sergeant to be elected captain in December 1913. He served in the Spanish-American War in 1898 and did duty on the Mexican border in 1916. On October 5, 1917, he left Camp Bartlett at the head of Company D, 104th Infantry, and in France was placed in charge of regimental supplies as supply officer of the 26th Division. He was also a member of Company D of the 2nd Massachusetts Volunteer Infantry, the Holyoke company that mustered in on May 3, 1898 for the war with Spain and fought at El Caney in Cuba on July 1 — the same company that became part of the 104th Infantry in the World War. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
    "source": "zack-roster-placeholder"
@@ -5770,12 +5896,16 @@ window.VA = {
   {
    "id": "zack_roster_slate_frederick",
    "name": "Slate, Frederick W.",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Frederick W. Slate of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. He was wounded on July 1, at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_spencer_lionel",
@@ -5810,12 +5940,16 @@ window.VA = {
   {
    "id": "zack_roster_tatro_willie",
    "name": "Tatro, Willie H.",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Willie H. Tatro of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_taugher_john",
@@ -5840,32 +5974,44 @@ window.VA = {
   {
    "id": "zack_roster_urmson_john",
    "name": "Urmson, John E.",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] John E. Urmson of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_vigneux_fred",
    "name": "Vigneux, Fred",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] Fred Vigneux of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_vogel_george",
    "name": "Vogel, George",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "status": "queue",
-   "source": "zack-roster-placeholder"
+   "source": "zack-roster-placeholder",
+   "narrative": "[FIRST DRAFT] George Vogel of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
   {
    "id": "zack_roster_winkler_fred",
@@ -32102,12 +32248,15 @@ window.VA = {
   {
    "id": "zack_enl_root_harry_e",
    "name": "Root, Harry E.",
-   "era": "World War I",
+   "era": [
+    "Spanish-American War",
+    "World War I"
+   ],
    "branch": "Army",
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
-   "narrative": "Private Harry E. Root entered service August 28, 1917, serving in the United States Army in the First World War. He was stationed at Camp McArthur, Texas. Zack adds: ROOT, HINCKLEY F„ Private, Company D, 337th Infantry. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Private Harry E. Root entered service August 28, 1917, serving in the United States Army in the First World War. He was stationed at Camp McArthur, Texas. Zack adds: ROOT, HINCKLEY F„ Private, Company D, 337th Infantry. He was also a member of Company D of the 2nd Massachusetts Volunteer Infantry, the Holyoke company that mustered in on May 3, 1898 for the war with Spain and fought at El Caney in Cuba on July 1 — the same company that became part of the 104th Infantry in the World War. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
    "source": "zack-enlisted-M-Z"
@@ -47172,6 +47321,426 @@ window.VA = {
    "badges": [],
    "status": "queue",
    "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "sa_phillips_francis_d",
+   "name": "Phillips, Francis D.",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Francis D. Phillips of Holyoke served as a 2nd lieutenant in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_weymouth_william_l",
+   "name": "Weymouth, William L.",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] William L. Weymouth of Holyoke served as a 1st sergeant in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_wagner_edward",
+   "name": "Wagner, Edward",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Edward Wagner of Holyoke served as a corporal in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_lempke_henry",
+   "name": "Lempke, Henry",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Henry Lempke of Holyoke served as a musician in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_marion_alfred",
+   "name": "Marion, Alfred",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Alfred Marion of Holyoke served as a musician in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_brown_george_h",
+   "name": "Brown, George H.",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] George H. Brown of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_boudreau_charles_e",
+   "name": "Boudreau, Charles E.",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Charles E. Boudreau of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_davis_louis",
+   "name": "Davis, Louis",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Louis Davis of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_goss_john_f",
+   "name": "Goss, John F.",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] John F. Goss of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_healey_jerry_f",
+   "name": "Healey, Jerry F.",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Jerry F. Healey of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_kean_anthony_f",
+   "name": "Kean, Anthony F.",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Anthony F. Kean of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_lapointe_george_j",
+   "name": "Lapointe, George J.",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] George J. Lapointe of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_mcbride_david",
+   "name": "McBride, David",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] David McBride of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_mcelwain_alexander",
+   "name": "McElwain, Alexander",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Alexander McElwain of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_markert_herman",
+   "name": "Markert, Herman",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Herman Markert of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_morrison_edward_j",
+   "name": "Morrison, Edward J.",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Edward J. Morrison of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_meunier_emile",
+   "name": "Meunier, Emile",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Emile Meunier of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_powers_joseph_d",
+   "name": "Powers, Joseph D.",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Joseph D. Powers of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_provost_clarence_e",
+   "name": "Provost, Clarence E.",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Clarence E. Provost of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_read_charles_d",
+   "name": "Read, Charles D.",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Charles D. Read of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_sugrue_thomas",
+   "name": "Sugrue, Thomas",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Thomas Sugrue of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_small_harry_l",
+   "name": "Small, Harry L.",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Harry L. Small of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_smith_arthur_h",
+   "name": "Smith, Arthur H.",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Arthur H. Smith of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_sheehan_dennis_j",
+   "name": "Sheehan, Dennis J.",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Dennis J. Sheehan of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_tinkham_george_s",
+   "name": "Tinkham, George S.",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] George S. Tinkham of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_tinkham_joseph_a",
+   "name": "Tinkham, Joseph A.",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Joseph A. Tinkham of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_turcott_frank_t",
+   "name": "Turcott, Frank T.",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Frank T. Turcott of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
+  },
+  {
+   "id": "sa_watson_james_e",
+   "name": "Watson, James E.",
+   "era": "Spanish-American War",
+   "branch": "Army",
+   "branchLabel": "2nd Massachusetts Volunteer Infantry – Spanish-American War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] James E. Watson of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "zack-company-d-roster-1898"
   }
  ]
 };
