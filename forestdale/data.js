@@ -6310,91 +6310,67 @@ window.VA = {
    "id": "fd_new_sanders_j",
    "name": "Sanders, James B.",
    "era": "World War II",
-   "branch": "Army",
+   "branch": "U.S. Army",
    "branchLabel": "U.S. Army – World War II",
    "lat": 42.206464,
    "lng": -72.621719,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sanders%20J%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sanders%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "James B. Sanders served as a Corporal in the United States Army in the Second World War. He was born in 1907 and died in 1987. His flat government marker at Forestdale gives his rank, his branch and his war, and nothing more. His unit, his theatre, and his life in Holyoke await research. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "extraPhotos": [],
+   "narrative": "James B. Sanders was a Corporal in the United States Army during the Second World War. Born in 1907, he was among the older men of his generation when the war came. He came home to Holyoke, lived on, and died in 1987 in his eightieth year. His flat granite marker at Forestdale gives his rank, his branch, and his war; the unit he served in and where the army sent him have not yet come down to us. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "forestdale-survey",
    "sourceNote": "Read from his government marker at Forestdale, June 2026 — full researched narrative pending."
-  },
-  {
-   "id": "fd_new_sanders_j_2",
-   "name": "Sanders, James F.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.206586,
-   "lng": -72.621986,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sanders%20J2%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sanders2%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "The stone of James F. Sanders at Forestdale reads August 29, 1946 – June 24, 2013, with a Celtic cross, a guitar, and the words \"and your music plays on.\" It carries no service line. He was of an age to have served in Vietnam, and this plot was recorded during the veterans survey, but nothing on the stone establishes his service. It awaits the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "forestdale-survey",
-   "sourceNote": "Read from the stone at Forestdale, June 2026. No military service is stated on the stone; his service is unconfirmed and is not claimed here."
   },
   {
    "id": "fd_new_schimke_d",
    "name": "Schimke, Donald",
    "era": "World War II",
-   "branch": "Army",
+   "branch": "U.S. Army",
    "branchLabel": "U.S. Army – World War II",
    "lat": 42.206136,
    "lng": -72.623589,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schimke%20d%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Donald Schimke served as a Technician Fourth Grade in the United States Army in the Second World War. He was born in 1914 and died in 1979. A TEC 4 was a specialist — a man who held a skilled trade the army needed, rated alongside a sergeant in pay but not in command. His bronze government marker at Forestdale gives his rank, his branch and his war. His unit and his trade await research. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schimke%20d2%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schimke3%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "Donald Schimke served as a Technician Fourth Grade in the United States Army in the Second World War. A TEC 4 wore a sergeant’s three stripes with a “T” beneath — a skilled man rated in pay with a sergeant but carrying a trade rather than a command: a mechanic, a radioman, a technician the army could not do without. Born in 1914, he came home from the war and died in 1979. His bronze marker lies a few steps from the Schimke family monument, where a 1941–1945 veteran’s star marks the ground. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "forestdale-survey",
    "sourceNote": "Read from his government marker at Forestdale, June 2026 — full researched narrative pending."
   },
   {
-   "id": "fd_new_schimke_d_2",
-   "name": "Schimke, D.",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.20625,
-   "lng": -72.623389,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schimke%20d2%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schimke3%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
    "id": "fd_new_schoenfeldt",
    "name": "Schoenfeldt, Louis B. F.",
    "era": "World War I",
-   "branch": "Army",
+   "branch": "U.S. Army",
    "branchLabel": "U.S. Army – World War I",
    "lat": 42.206989,
    "lng": -72.623322,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schoenfeldt3%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Louis B. F. Schoenfeldt served as a Private First Class in Company B, 1st Machine Gun Battalion, in the First World War. He was born April 10, 1895 and died August 19, 1965. His government headstone at Forestdale gives his unit and his state — Massachusetts — and he lies beneath the family stone he shares with his wife Wanda L. Lange, with Herman F. Reske and Helen Lange, and with William F. Donahue and Selma Lange. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schoenfeldt%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schoenfeldt2%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schoenfeldt3%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schoenfeldt5%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "Louis B. F. Schoenfeldt went to the First World War as a Private First Class in Company B of the 1st Machine Gun Battalion — the crews who hauled the heavy guns forward, dug them in, and held ground with a wall of fire while the riflemen moved. Born April 10, 1895, he came home to Holyoke and lived until August 19, 1965. Charles Zack’s 1919 roll of the city’s servicemen lists him as “Louis F. B.,” the initials transposed; his own government headstone sets it right, and the stone is the authority. He rests beneath the family monument he shares with his wife, Wanda L. Lange, and her two sisters, who married into the Reske and Donahue families and were laid to rest together under one stone. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "forestdale-survey",
@@ -6417,50 +6393,64 @@ window.VA = {
   },
   {
    "id": "fd_new_simpson_g_e",
-   "name": "Simpson, G. E.",
-   "era": "",
-   "branch": "",
+   "name": "Simpson, George E.",
+   "era": "World War II",
+   "branch": "U.S. Navy",
    "branchLabel": "",
    "lat": 42.206928,
    "lng": -72.623344,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/simpson%20G%20E%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/simson%20g%20Jr%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/simpson%20g%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "George E. Simpson served in the United States Navy in the Second World War as an Aviation Machinist’s Mate Third Class — one of the sailors who kept naval aircraft flying, turning wrenches on engines that had to run right the first time over open water. Born August 29, 1914, he came home and lived until January 27, 1988. His government marker and the family monument carry the same dates, and set him among his people as the son of George Simpson and Elsie (Danner) Simpson. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
   },
   {
    "id": "fd_new_simpson_g_jr",
-   "name": "Simpson, G. Jr",
-   "era": "",
-   "branch": "",
+   "name": "Simpson, George Jr.",
+   "era": "World War II",
+   "branch": "U.S. Army Air Forces",
    "branchLabel": "",
    "lat": 42.206881,
    "lng": -72.623353,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/simpson%20g%20jr%20%20Medium.jpeg",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/simpson%20Medium.jpeg",
    "extraPhotos": [
     {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/simson%20g%20Jr%20Medium.jpeg",
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/simpson%20G%20E%20Medium.jpeg",
      "caption": "Additional photo"
     }
    ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "George Simpson Jr. flew with the 527th Fighter Squadron of the 86th Fighter Group — a fighter-bomber outfit that fought its way up Italy from Sicily and Salerno to Anzio and the road to Rome. A second lieutenant, he was killed on May 15, 1944, as the group flew ground-attack missions from Marcianise in support of the drive that would take Rome three weeks later. His marker at Forestdale reads “In Memory Of” — a memorial stone for a son who did not come home; his name is cut again on the family monument beneath a pair of pilot’s wings, between his parents, George and Elizabeth (Gibb) Simpson. He was twenty-four. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
   },
   {
    "id": "fd_new_smith_p_t",
-   "name": "Smith, P. T.",
-   "era": "",
-   "branch": "",
+   "name": "Smith, Paul T.",
+   "era": "World War II",
+   "branch": "U.S. Army",
    "branchLabel": "",
    "lat": 42.206756,
    "lng": -72.623619,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/smith%20P%20T%20%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/smith2%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/smith3%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "Paul T. Smith served as a Staff Sergeant in the United States Army during the Second World War. Born in 1915, he came home to Holyoke, married Margaret Brakey, and lived until 1988; his stone stands beside hers — “beloved wife” — under the family name. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -6487,30 +6477,35 @@ window.VA = {
   },
   {
    "id": "fd_new_sullivan_j",
-   "name": "Sullivan, J.",
-   "era": "",
-   "branch": "",
+   "name": "Sullivan, James R.",
+   "era": "Korean War",
+   "branch": "U.S. Navy",
    "branchLabel": "",
    "lat": 42.206619,
    "lng": -72.622978,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sullivan%20j%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sullivan%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "James R. Sullivan served in the United States Navy during the Korean War as a Disbursing Clerk Second Class — a DK2, the sailor who kept the ship’s books and saw that every man aboard was paid. Born October 1, 1928, he came home to Holyoke, where he lived a long life, dying January 31, 2017, at eighty-eight. His bronze marker rests near the family monument, where a star names him a United States veteran. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
   },
   {
    "id": "fd_new_sussengut",
-   "name": "Sussengut",
-   "era": "",
-   "branch": "",
+   "name": "Sussengut, Arthur F.",
+   "era": "World War II",
+   "branch": "U.S. Army",
    "branchLabel": "",
    "lat": 42.206814,
    "lng": -72.621919,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sussengut%20Medium.jpeg",
    "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Arthur F. Sussengut served as a Private in Company E, 407th Infantry — a regiment of the 102nd “Ozark” Division, which landed in France in the fall of 1944 and fought across the Roer and the Rhine into Germany. He was no young recruit: born October 9, 1902, he was past forty when he went to war. He came home to Holyoke and lived until September 30, 1968. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -6532,9 +6527,9 @@ window.VA = {
   },
   {
    "id": "fd_new_taylor",
-   "name": "Taylor",
-   "era": "",
-   "branch": "",
+   "name": "Taylor, Stanley H.",
+   "era": "World War II",
+   "branch": "U.S. Army",
    "branchLabel": "",
    "lat": 42.206681,
    "lng": -72.622733,
@@ -6545,7 +6540,7 @@ window.VA = {
      "caption": "Additional photo"
     }
    ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Stanley H. Taylor served in the United States Army during the Second World War as a Technician Fifth Grade — a TEC 5, a corporal’s grade for a man who carried a skill: a driver, a wireman, a mechanic behind the line’s work. Born April 1, 1916, he came home to Holyoke and lived until August 17, 2002, into his eighty-seventh year. His bronze marker does not name the unit he served. He rests beside John F. and Ethel G. Taylor — by their dates and the closeness of the graves, his family, most likely his parents. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -6619,24 +6614,24 @@ window.VA = {
   },
   {
    "id": "fd_new_traquair",
-   "name": "Traquair",
-   "era": "",
-   "branch": "",
+   "name": "Traquair, Bertha T.",
+   "era": "World War I",
+   "branch": "U.S. Army",
    "branchLabel": "",
    "lat": 42.207061,
    "lng": -72.6231,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/traquair%20Medium.jpeg",
    "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Bertha T. Traquair went to the First World War as a nurse in the United States Army Nurse Corps — one of the women who put on the uniform when few women did, and did the hard, essential work of keeping men alive, in the wards and behind the lines. Born in 1890, she came home to Holyoke and lived until February 2, 1973 — a woman who answered her country’s call in its first great modern war, resting now in the city’s ground with her name cut in the same marble as the men’s. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
   },
   {
    "id": "fd_new_tripp_e",
-   "name": "Tripp, E.",
-   "era": "",
-   "branch": "",
+   "name": "Tripp, Harold F.",
+   "era": "World War II",
+   "branch": "U.S. Army",
    "branchLabel": "",
    "lat": 42.207036,
    "lng": -72.623414,
@@ -6647,7 +6642,7 @@ window.VA = {
      "caption": "Additional photo"
     }
    ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Harold F. Tripp served in the United States Army during the Second World War as a Technician Fourth Grade — a TEC 4, a sergeant’s grade for a skilled man. Born February 21, 1922, he came home to Holyoke and died May 10, 1969, at forty-seven. His government marker and the family monument carry the same name and the same dates, and set him among his people: by every sign his parents, Earl J. Tripp and Ada (Smith) Tripp, and his brothers Lloyd and Edward, born in 1918 and 1920. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -6803,16 +6798,17 @@ window.VA = {
    "id": "fd_sanders_earl_j",
    "name": "Sanders, Earl J.",
    "era": "World War I",
-   "branch": "Army",
+   "branch": "U.S. Army",
    "branchLabel": "U.S. Army – World War I",
    "lat": 42.206678,
    "lng": -72.622025,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sanders%20Medium.jpeg",
    "badges": [],
-   "narrative": "Earl J. Sanders lies under a white marble government headstone at Forestdale — the kind issued for men who died in the service. It reads Private, 305th Infantry, and gives a date in September 1918. A bronze star marked 1917–1918 stands at the grave. The 305th Infantry was a regiment of the 77th Division, which was in the Meuse-Argonne that month; the same division whose Lost Battalion was cut off in the Charlevaux ravine days later. Whether he fell there, or died of the influenza that was killing men in the camps that autumn, the stone does not say. He is not named on Harper's roll of Holyoke's First World War dead, and he is not on Zack's roster of the city's men. He awaits the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Earl J. Sanders lies beneath a white marble government headstone at Forestdale — the stone the War Department issued for men who died in the service. It reads Private, 305th Infantry, and carries a date: September 27, 1918. A bronze 1917–1918 star keeps watch at the grave. The 305th belonged to the 77th Division — the “Metropolitan Division,” raised largely from the draft and thrown into the Meuse-Argonne when that offensive opened on September 26, 1918; the same division whose “Lost Battalion” would be cut off in the Argonne days later. Sanders fell on the second day, September 27, a private in the ranks. He appears on neither of Holyoke’s published rolls of the war dead — not Zack’s, not Harper’s — yet the government set a died-in-service stone over him in Holyoke ground. If he was one of the city’s own, the rolls meant to hold every name missed his. How a Holyoke man came to fall with a New York division has not yet been traced. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "sourceNote": "Read from his government headstone at Forestdale, June 2026. The final digit of the year and the exact date need confirmation from the stone or the record, and his unit reading of \"305th Infantry\" is from a weathered face. He appears on neither of Holyoke's published lists, which is itself worth chasing.",
    "status": "located",
-   "source": "forestdale-survey"
+   "source": "forestdale-survey",
+   "extraPhotos": []
   },
   {
    "id": "fd_riggott_plot",
@@ -6870,6 +6866,81 @@ window.VA = {
    "sourceNote": "Read from the stone at Forestdale, June 2026. Surname only; the veteran on this plot is not yet identified by name.",
    "status": "located",
    "source": "forestdale-survey"
+  },
+  {
+   "id": "fd_schorr_max_b",
+   "name": "Schorr, Max B.",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "lat": 42.206661,
+   "lng": -72.623078,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schorr%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schorr2%20Medium.jpeg",
+     "caption": "Additional photo"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schorr4%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "Max B. Schorr served as a Private in the United States Army in the First World War. Born October 16, 1892, he lived a long life after the war and died September 9, 1973, in his eighty-first year. His flat government headstone at Forestdale records his service; a few steps away, the family monument carries the Schorr name and a veteran’s star and lists his wife, Margaret Ferguson, and their daughter, Ruth. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "forestdale-field-2026"
+  },
+  {
+   "id": "fd_simpson_charles_m",
+   "name": "Simpson, Charles M.",
+   "era": "World War II",
+   "branch": "U.S. Military",
+   "lat": 42.206856,
+   "lng": -72.623314,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/simpson2%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "Charles M. Simpson served in the Second World War. Born December 25, 1919, he came home to Holyoke, married Jean M., and lived until September 24, 1979. A veteran’s star marks his grave beside hers. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "forestdale-field-2026"
+  },
+  {
+   "id": "fd_standen_thomas_c",
+   "name": "Standen, Thomas C.",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "lat": 42.207022,
+   "lng": -72.623328,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/standen%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/standen2%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "Thomas C. Standen served in the United States Navy during the Second World War. Born October 2, 1915, he came home to Holyoke, where he was a Mason, and lived until March 28, 1995; his wife, Elizabeth (Franklin) Standen — an Eastern Star — went before him by ten weeks, in January of that same year. Their monument carries the square-and-compasses and the five-pointed star of their orders. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "forestdale-field-2026"
+  },
+  {
+   "id": "fd_tomaras_demetrios",
+   "name": "Tomaras, Demetrios",
+   "era": "Unknown Era",
+   "branch": "U.S. Military",
+   "lat": 42.206722,
+   "lng": -72.622969,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/tomaras2%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/tomaras%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "Demetrios Tomaras rests beneath the family monument he shares with his wife, Diana, marked with the bronze star of a United States war veteran. His was one of the Greek families that made a home in Holyoke in the early years of the last century. The star at his grave records that he served, but his marker does not name the war or the branch, and the period of his service is not yet established. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "forestdale-field-2026"
   }
  ]
 };
