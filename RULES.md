@@ -84,7 +84,9 @@ I once shipped a **blank archive to all six sites** because I checked that the J
 
 ## 7. THE SOURCES, AND WHAT THEY DO TO YOU
 
-- **Zack, *Holyoke in the Great War* (1919)** — public domain, quote freely. **World War I only.**
+- **Zack, *Holyoke in the Great War* (1919)** — public domain, quote freely. Mostly World War I, but
+  **it is NOT WWI only**: pages 375-378 are "Holyoke in the Rebellion", a roster of ~385 Holyoke
+  **Civil War** men with regiment and company. In that roster **`*` = Killed, `†` = Died**.
 - **Harper, *The Story of Holyoke* (1973)** — **IN COPYRIGHT. Paraphrase, never quote at length.**
   He is a schoolteacher's popular history, **not a primary source** — he has Elisha Chapin's war wrong
   by eighty years and Joseph Morgan's fort wrong by a century. **Where Harper and the archive differ,
