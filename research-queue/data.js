@@ -302,9 +302,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "George R. Brouillette of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] George R. Brouillette of Holyoke died of wounds on November 16, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "brovarek_frank",
@@ -642,9 +645,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Harold W. Cordeau of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Harold W. Cordeau of Holyoke was killed in action on May 28, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "corrigan_john_j",
@@ -654,9 +660,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "John J. Corrigan of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] John J. Corrigan of Holyoke was killed in action on August 25, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "cote_albert",
@@ -666,7 +675,7 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Albert Cote of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Albert Cote of Holyoke died in the service on July 16, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -714,7 +723,7 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "John R. Cunniff of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] John R. Cunniff of Holyoke died in the service on October 12, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -739,9 +748,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Henry F. Czech of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Henry F. Czech of Holyoke was killed in action on January 29, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "dagenais_homer",
@@ -763,9 +775,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "John Dalton of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] John Dalton of Holyoke was killed in action on November 11, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "danko_francis_j",
@@ -893,7 +908,7 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Charles M. Donahue of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Charles M. Donahue of Holyoke died in the service on August 5, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -905,9 +920,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Donald R. Donovan of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Donald R. Donovan of Holyoke was killed in action on January 29, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "dorwart_andrew",
@@ -2146,9 +2164,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Walter E. Laizer of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Walter E. Laizer of Holyoke was killed in action on November 14, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "lajeunesse_arsene_l",
@@ -2215,9 +2236,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Neil E. Lamoureux of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Neil E. Lamoureux of Holyoke was killed in action on May 12, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "landau_alfred",
@@ -2227,9 +2251,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Alfred Landau of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Alfred Landau of Holyoke was killed in action, serving in the Second World War. Harper’s roll of the city’s dead gives his name and no date at all; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "lapointe_armand",
@@ -2251,9 +2278,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Leo Lapointe of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Leo Lapointe of Holyoke was killed in action on January 6, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "larivee_joseph_h",
@@ -2304,9 +2334,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Leonard Wm. Lemire of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Leonard Wm. Lemire of Holyoke was killed in action on December 1, 1943, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "lesniak_edward",
@@ -2316,9 +2349,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Edward Lesniak of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Edward Lesniak of Holyoke was killed in action on November 23, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "leszkowicz_john_s",
@@ -2328,9 +2364,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "John S. Leszkowicz of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] John S. Leszkowicz of Holyoke was killed in action on August 2, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "levesque_william_g",
@@ -2340,7 +2379,7 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "William G. Levesque of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] William G. Levesque of Holyoke died in the service on June 17, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -2352,7 +2391,7 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Walter Lewkowicz of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Walter Lewkowicz of Holyoke died in the service on November 10, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -2364,9 +2403,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Robert B. Lowe of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Robert B. Lowe of Holyoke was killed in action on April 17, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "lyons_charles",
@@ -2421,9 +2463,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Joseph J. Macsuga of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Joseph J. Macsuga of Holyoke was killed in action on March 11, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "mann_edward_leo",
@@ -2526,9 +2571,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Anthony G. Marulli of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Anthony G. Marulli of Holyoke was killed in action on February 3, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "maternowski_ignatius",
@@ -2583,7 +2631,7 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "John L. McCann of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] John L. McCann of Holyoke died in the service on June 30, 1942, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -2626,9 +2674,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Norman McComb of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Norman McComb of Holyoke was killed in action on April 15, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "mcgraw_allen_e",
@@ -2638,7 +2689,7 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Allen E. McGraw of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Allen E. McGraw of Holyoke died in the service on October 18, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -2707,9 +2758,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Armand J. Milton of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Armand J. Milton of Holyoke was killed in action on March 7, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "mitchell_edwin_m",
@@ -2734,9 +2788,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Thomas F. Monahan of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Thomas F. Monahan of Holyoke was killed in action on September 17, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "moreau_raymond_g",
@@ -2746,9 +2803,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Raymond G. Moreau of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Raymond G. Moreau of Holyoke was killed in action on May 8, 1942, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "moriarty_joseph_j",
@@ -2861,9 +2921,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Eliot M. Newhall of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Eliot M. Newhall of Holyoke was killed in action on April 30, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "niedzialek_carl_m",
@@ -2873,7 +2936,7 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Carl M. Niedzialek of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Carl M. Niedzialek of Holyoke died in the service on March 26, 1943, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -2915,7 +2978,7 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Edward A. O'Malley of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Edward A. O'Malley of Holyoke died in the service on November 21, 1943, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -2927,9 +2990,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Joseph John Olbyk of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Joseph John Olbyk of Holyoke was killed in action on January 21, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "oldread_thomas_w",
@@ -2939,9 +3005,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Thomas W. Oldread of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Thomas W. Oldread of Holyoke was killed in action on January 28, 1943, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "oldred_edmond_j",
@@ -2951,9 +3020,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Edmond J. Oldred of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Edmond J. Oldred of Holyoke was killed in action on November 13, 1942, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "olszewski_joseph",
@@ -2963,9 +3035,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Joseph Olszewski of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Joseph Olszewski of Holyoke was killed in action on March 26, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "ouellette_george_w",
@@ -2975,7 +3050,7 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "George W. Ouellette of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] George W. Ouellette of Holyoke was killed in an aircraft accident on March 27, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -3080,9 +3155,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Edward Pash of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Edward Pash of Holyoke was killed in action on December 3, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "perreault_arthur_j",
@@ -3116,9 +3194,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "William S. Petrycki of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] William S. Petrycki of Holyoke was killed in action on April 1, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "pina_frank_a",
@@ -3140,21 +3221,24 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Sylvic W. Pollender of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Sylvic W. Pollender of Holyoke died in the service on May 8, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
   {
    "id": "proteau_rene_a",
-   "name": "Proteau, Rene A.",
+   "name": "Croteau, Rene A.",
    "era": "World War II",
    "branch": "Armed Forces",
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Rene A. Proteau of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Rene A. Croteau of Holyoke was killed in action on July 4, 1944, serving in the Second World War. He stood in this archive as “Proteau, Rene A.” — a bare name with no unit and no date, a P read as a C by the scanner — while Harper’s own roll of the city’s dead carried his death date two pages away. His unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "pueschel_william",
@@ -3185,9 +3269,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Gerald J. Quenneville of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Gerald J. Quenneville of Holyoke was killed in action on April 26, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "quinn_edward_j_jr",
@@ -3248,9 +3335,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Albert L. Rainault of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Albert L. Rainault of Holyoke was killed in action on September 15, 1943, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "rainault_roger_f",
@@ -3260,9 +3350,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Roger F. Rainault of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Roger F. Rainault of Holyoke was killed in action on August 7, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "renaud_henry_e",
@@ -3272,9 +3365,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Henry E. Renaud of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Henry E. Renaud of Holyoke was killed in action on March 2, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "reoch_william_ronald",
@@ -3284,7 +3380,7 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "William Ronald Reoch of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] William Ronald Reoch of Holyoke died in the service on September 13, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -3311,7 +3407,7 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Norman N. Rocheleau of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Norman N. Rocheleau of Holyoke died in the service on August 28, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -3323,9 +3419,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Kenneth W. Rode of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Kenneth W. Rode of Holyoke was killed in action on February 29, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "romney_walter",
@@ -3335,9 +3434,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Walter Romney of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Walter Romney of Holyoke was killed in action on June 6, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "roy_raymond_l",
@@ -3347,9 +3449,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Raymond L. Roy of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Raymond L. Roy of Holyoke was killed in action on October 28, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "ruszczyk_joseph_j",
@@ -3359,9 +3464,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Joseph J. Ruszczyk of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Joseph J. Ruszczyk of Holyoke was killed in action on May 17, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "saex_gilbert_i",
@@ -3371,9 +3479,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Gilbert I. Saex of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Gilbert I. Saex of Holyoke was killed in action on May 12, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "salois_roger",
@@ -3383,9 +3494,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Roger Salois of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Roger Salois of Holyoke was killed in action on September 1, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "sands_william",
@@ -3395,9 +3509,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "William Sands of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] William Sands of Holyoke was killed in action on December 11, 1942, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "sareta_joseph",
@@ -3407,7 +3524,7 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Joseph Sareta of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Joseph Sareta of Holyoke died in the service on September 2, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -3458,9 +3575,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Joseph Shapiro of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Joseph Shapiro of Holyoke was killed in action on October 5, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "shea_james_e",
@@ -3498,7 +3618,7 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "George Simpson of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] George Simpson of Holyoke died in the service on May 15, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
    "source": "research-queue"
@@ -3511,9 +3631,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Joseph Skowronek of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Joseph Skowronek of Holyoke was killed in action on August 9, 1942, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "skypeck_george",
@@ -3523,9 +3646,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "George Skypeck of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] George Skypeck of Holyoke was killed in action on 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "small_kenneth_l",
@@ -3608,7 +3734,7 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Harry Solin of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Harry Solin of Holyoke died in the service on December 24, 1943, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -3644,9 +3770,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Harry Spinks of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Harry Spinks of Holyoke was killed in action on April 11, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "stachowicz_anthony",
@@ -3671,9 +3800,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "John J. Staseowski of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] John J. Staseowski of Holyoke was killed in action on March 22, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "stedman_harold_b",
@@ -3695,9 +3827,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Walter Stevenson of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Walter Stevenson of Holyoke was killed in action on March 19, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "strong_william_h",
@@ -3707,7 +3842,7 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "William H. Strong of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] William H. Strong of Holyoke died in the service on February 2, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -3741,9 +3876,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Stanley P. Szalda of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Stanley P. Szalda of Holyoke was killed in action on July 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "thompson_raymond_b",
@@ -3804,9 +3942,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Edward R. Tomala of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Edward R. Tomala of Holyoke was killed in action on July 25, 1943, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "tomasko_tony",
@@ -3906,9 +4047,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Thaddeus W. Uszynski of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Thaddeus W. Uszynski of Holyoke was killed in action on September 2, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "valenti_thomas",
@@ -3918,9 +4062,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Thomas Valenti of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Thomas Valenti of Holyoke was killed in action on May 13, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "varney_george_f",
@@ -3978,7 +4125,7 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Raymond Waterfield of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Raymond Waterfield of Holyoke died in the service on March 3, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
    "source": "research-queue"
   },
@@ -4075,9 +4222,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Frank W. Zalewski of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Frank W. Zalewski of Holyoke was killed in action on November 20, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "zdroykowski_francis",
@@ -4087,9 +4237,12 @@ window.VA = {
    "branchLabel": "U.S. Armed Forces – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Francis Zdroykowski of Holyoke served in the armed forces of the United States in the Second World War and gave his life in his country's service. He is numbered among Holyoke's two hundred eleven dead of that war. His unit, the date of his death, and his resting place have not yet been recovered from the record — and until they are, his name standing here is the whole of what the city can still say for him. It is not enough, and it is not the end of the search. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Francis Zdroykowski of Holyoke was killed in action on July 11, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "badges": [
+    "KIA"
+   ]
   },
   {
    "id": "brennan_william_j",
@@ -46504,6 +46657,521 @@ window.VA = {
    ],
    "status": "queue",
    "source": "zack-holyoke-in-the-rebellion"
+  },
+  {
+   "id": "ww2_adamiak_henry_edward",
+   "name": "Adamiak, Henry Edward",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Henry Edward Adamiak of Holyoke died in the service on September 11, 1946, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_babyak_john_michael",
+   "name": "Babyak, John Michael",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] John Michael Babyak of Holyoke was killed in action on August 13, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_bagg_laurence_gorham",
+   "name": "Bagg, Laurence Gorham",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Laurence Gorham Bagg of Holyoke died in the service on February 7, 1943, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_banas_charles_w",
+   "name": "Banas, Charles W.",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Charles W. Banas of Holyoke was killed in action on May 23, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_bynan_gerald_f",
+   "name": "Bynan, Gerald F.",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Gerald F. Bynan of Holyoke died in the service on December 27, 1942, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_clark_james_g",
+   "name": "Clark, James G.",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] James G. Clark of Holyoke was killed in action on April 29, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_cuddy_joseph_f",
+   "name": "Cuddy, Joseph F.",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Joseph F. Cuddy of Holyoke was killed in action on November 20, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_hyde_francis",
+   "name": "Hyde, Francis",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Francis Hyde of Holyoke was killed in action on November 11, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_kamont_edward_f",
+   "name": "Kamont, Edward F.",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Edward F. Kamont of Holyoke was reported missing following action and never came home, serving in the Second World War. Harper’s roll of the city’s dead gives his name and no date at all; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_kane_william_edward",
+   "name": "Kane, William Edward",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] William Edward Kane of Holyoke was killed in action on December 14, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_kane_william_p",
+   "name": "Kane, William P.",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] William P. Kane of Holyoke was killed in action on January 8, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_kelliher_charles",
+   "name": "Kelliher, Charles",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Charles Kelliher of Holyoke was killed in action on June 30, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_kennedy_edward_w",
+   "name": "Kennedy, Edward W.",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Edward W. Kennedy of Holyoke was killed in action on October 31, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_kennedy_john_francis",
+   "name": "Kennedy, John Francis",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] John Francis Kennedy of Holyoke was killed in action on January 14, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_losty_william_m",
+   "name": "Losty, William M.",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] William M. Losty of Holyoke was killed in action on July 19, 1943, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_lupien_henri_j",
+   "name": "Lupien, Henri J.",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Henri J. Lupien of Holyoke was killed in action on January 30, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_mccarthy_james",
+   "name": "McCarthy, James",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] James McCarthy of Holyoke was killed in action on March 21, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_mcmahon_elmer_j",
+   "name": "McMahon, Elmer J.",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Elmer J. McMahon of Holyoke was killed in action on February 2, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_meunier_roland_j",
+   "name": "Meunier, Roland J.",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Roland J. Meunier of Holyoke was killed in action on April 19, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_miller_raymond_l",
+   "name": "Miller, Raymond L.",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Raymond L. Miller of Holyoke was killed in action on May 12, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_morgan_john_d",
+   "name": "Morgan, John D.",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] John D. Morgan of Holyoke was killed in action on March 13, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_moriarty_bernard",
+   "name": "Moriarty, Bernard",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Bernard Moriarty of Holyoke was killed in action on July 3, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_moriarty_james_e",
+   "name": "Moriarty, James E.",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] James E. Moriarty of Holyoke was killed in action on January 15, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_o_donnell_eugene_t",
+   "name": "O'Donnell, Eugene T.",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Eugene T. O'Donnell of Holyoke died in the service on December 29, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_parfitt_james_h",
+   "name": "Parfitt, James H.",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] James H. Parfitt of Holyoke was killed in action on April 21, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_regan_daniel_c",
+   "name": "Regan, Daniel C.",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Daniel C. Regan of Holyoke was killed in action on July 22, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_regan_maurice_f",
+   "name": "Regan, Maurice F.",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Maurice F. Regan of Holyoke was killed in action on March 13, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_roberts_raymond_f",
+   "name": "Roberts, Raymond F.",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Raymond F. Roberts of Holyoke was killed in action on March 1, 1945, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_ross_michael_e",
+   "name": "Ross, Michael E.",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Michael E. Ross of Holyoke was killed in action on April 1, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_sheard_william_j",
+   "name": "Sheard, William J.",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] William J. Sheard of Holyoke was killed in action on December 21, 1944, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
+  },
+  {
+   "id": "ww2_sullivan_clayre_p",
+   "name": "Sullivan, Clayre P.",
+   "era": "World War II",
+   "branch": "Armed Forces",
+   "branchLabel": "U.S. Armed Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "extraPhotos": [],
+   "narrative": "[FIRST DRAFT] Clayre P. Sullivan of Holyoke died in the service on July 6, 1946, serving in the Second World War. Harper’s roll of the city’s dead gives his name and the date above and nothing more; his unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "harper-ww2-casualty-roll"
   }
  ]
 };
