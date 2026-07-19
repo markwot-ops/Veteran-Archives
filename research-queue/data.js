@@ -37104,19 +37104,6 @@ window.VA = {
    "source": "zack-enlisted-M-Z"
   },
   {
-   "id": "zack_enl_aiken_harold_f",
-   "name": "Aiken, Harold F.",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "U.S. Army – World War I",
-   "lat": null,
-   "lng": null,
-   "narrative": "Private Harold F. Aiken entered service December 5, 1917, serving in Company A, 5th Battalion, Forestry Engineers of the United States Army in the First World War. He served with the American Expeditionary Forces. He was stationed at Camp Devens. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending. TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
-   "status": "queue",
-   "source": "zack-enlisted-M-Z"
-  },
-  {
    "id": "zack_enl_mcallister_george",
    "name": "McAllister, George",
    "era": "World War I",
