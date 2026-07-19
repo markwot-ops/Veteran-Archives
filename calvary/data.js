@@ -170,7 +170,12 @@ window.VA = {
    "lat": 42.187825,
    "lng": -72.627372,
    "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/begley_d_ww_i_kia.jpg",
-   "extraPhotos": [],
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/begley_dennis_portrait.png",
+     "caption": "Wartime portrait (Holyoke in the Great War, 1919)"
+    }
+   ],
    "narrative": "Private Dennis Begley of Holyoke entered the service in September 1917, going to Camp Devens with the first draft contingent. He served with the 165th Infantry Regiment — the legendary \"Fighting 69th\" of New York, one of the most storied regiments in the American Expeditionary Forces. The 165th suffered devastating losses in the Aisne-Marne offensive at the Ourcq River in late July 1918, among the bloodiest American engagements of the war. Pvt. Begley was killed in action in France on July 29, 1918, in his 26th year. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
@@ -1130,6 +1135,10 @@ window.VA = {
    "lng": -72.6274806,
    "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/dowd__f_mass_.jpg",
    "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/dowd_frederick_a_portrait.png",
+     "caption": "Wartime portrait (Holyoke in the Great War, 1919)"
+    },
     {
      "caption": "📜 Where Company D Went",
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"

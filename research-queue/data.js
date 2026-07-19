@@ -27,7 +27,8 @@ window.VA = {
     "Cited for Bravery"
    ],
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/anderson_alfred_s_portrait.png"
   },
   {
    "id": "avery_alvah_e",
@@ -115,7 +116,8 @@ window.VA = {
     "Distinguished Service Medal"
    ],
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/blair_joseph_e_portrait.png"
   },
   {
    "id": "bluteau_andrew_w",
@@ -365,7 +367,8 @@ window.VA = {
     "KIA"
    ],
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/bruder_emil_portrait.png"
   },
   {
    "id": "burgess_leon_f",
@@ -715,7 +718,8 @@ window.VA = {
     "KIA"
    ],
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/croteau_louis_m_portrait.png"
   },
   {
    "id": "cunniff_john_r",
@@ -856,7 +860,8 @@ window.VA = {
     "KIA"
    ],
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/demers_nazaire_portrait.png"
   },
   {
    "id": "deroy_narcisse_a",
@@ -2525,7 +2530,8 @@ window.VA = {
     "KIA"
    ],
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/martin_harold_w_portrait.png"
   },
   {
    "id": "martin_james_f",
@@ -2972,7 +2978,8 @@ window.VA = {
     "KIA"
    ],
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/nolin_ovila_portrait.png"
   },
   {
    "id": "o_malley_edward_a",
@@ -4147,7 +4154,8 @@ window.VA = {
    "narrative": "Edward J. Welch, a Holyoke man, entered the service on December 6, 1917, at Washington, D.C., and served with the 289th Aero Squadron, Signal Corps. He was stationed at Fort Sam Houston, Texas, where he died of pneumonia on January 15, 1918. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "sourceNote": "TBD — a Holyoke man of this name is already in the archive; whether Zack's man is the same man is not yet settled.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/welch_edward_j_portrait.png"
   },
   {
    "id": "welch_michael",
@@ -4751,7 +4759,8 @@ window.VA = {
     "Croix de Guerre"
    ],
    "status": "queue",
-   "source": "zack-heroes"
+   "source": "zack-heroes",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/zack_blais_albert_portrait.png"
   },
   {
    "id": "zack_flood_john_r",
@@ -4887,7 +4896,8 @@ window.VA = {
     "Croix de Guerre"
    ],
    "status": "queue",
-   "source": "zack-heroes"
+   "source": "zack-heroes",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/zack_heywood_francis_c_portrait.png"
   },
   {
    "id": "zack_parsons_edwin_c",
@@ -5093,7 +5103,8 @@ window.VA = {
     "Cited for Bravery"
    ],
    "status": "queue",
-   "source": "zack-heroes"
+   "source": "zack-heroes",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/zack_comeau_joseph_e_portrait.png"
   },
   {
    "id": "zack_brown_henry_a",
@@ -5109,7 +5120,8 @@ window.VA = {
     "Cited for Bravery"
    ],
    "status": "queue",
-   "source": "zack-heroes"
+   "source": "zack-heroes",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/zack_brown_henry_a_portrait.png"
   },
   {
    "id": "zack_manley_anthony_h",
