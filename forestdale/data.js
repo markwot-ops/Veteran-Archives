@@ -3024,11 +3024,11 @@ window.VA = {
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/abelein%20Medium.jpeg",
    "extraPhotos": [
     {
-     "src": "",
-     "caption": ""
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/abelein2%20Medium.jpeg",
+     "caption": "Additional photo"
     }
    ],
-   "narrative": "George F. Abelein served as a Corporal in the 618th Aero Squadron during World War I. Abelein entered service on December 12, 1917, and was stationed at Kelly Field, San Antonio, Texas — one of the great training grounds of America's brand-new air service, where mechanics, riggers, and ground crews learned to keep the fragile aircraft of 1918 flying. Born in 1895, Abelein came home to Holyoke and lived to 1980, reaching the age of 85. His government marker stands before the family's Abelein monument. His brother Herman entered service the same day — December 12, 1917 — two brothers answering the call together. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "George F. Abelein served as a Corporal in the 618th Aero Squadron during World War I. Abelein entered service on December 12, 1917, and was stationed at Kelly Field, San Antonio, Texas — one of the great training grounds of America's brand-new air service, where mechanics, riggers, and ground crews learned to keep the fragile aircraft of 1918 flying. Born in 1895, Abelein came home to Holyoke and lived to 1980, reaching the age of 85. His government marker stands before the family's Abelein monument. His brother Herman entered service the same day — December 12, 1917 — two brothers answering the call together. His government headstone gives his rank as Private, though Zack’s 1919 roster records him as Corporal — a difference the record has not yet reconciled. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": ""
@@ -3491,26 +3491,6 @@ window.VA = {
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/ashford%20Medium.jpeg",
    "extraPhotos": [],
    "narrative": "Ashfield Ashford was born in 1875 and served in the military during an era when Holyoke's young men answered the call in significant numbers. A veterans' star marker at his grave marks him as one of their own. Born in 1875, he would have been of prime service age during the Spanish-American War of 1898. He passed away in 1955 at the age of 80. His wife Rachel Buchanan is buried alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": ""
-  },
-  {
-   "id": "fd_astley_frank_h",
-   "name": "Astley, Frank H.",
-   "era": "World War I",
-   "branch": "U.S. Military",
-   "branchLabel": "",
-   "lat": 42.206886,
-   "lng": -72.623292,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/astley%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "",
-     "caption": ""
-    }
-   ],
-   "narrative": "Frank H. Astley served as an Airman First Class in the United States Air Force with the 3646th Field Maintenance Squadron. His stone records his service from April 1945 to February 5, 1967 — a span that carried him from the closing months of the Second World War, through the founding of the independent Air Force in 1947, and into the Cold War jet age. A field maintenance squadron kept aircraft airworthy, the skilled ground crews on whom every flight depended. Frank was born in 1891 and passed away in 1969 at the age of 78. He is buried alongside his brother Henry J. Astley (1885–1944) and Henry's wife Alice T. Astley. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": ""
@@ -4640,29 +4620,29 @@ window.VA = {
   },
   {
    "id": "fd_new_adamson",
-   "name": "Adamson",
-   "era": "",
-   "branch": "",
+   "name": "Adamson, Henry",
+   "era": "World War I",
+   "branch": "U.S. Military",
    "branchLabel": "",
    "lat": 42.207336,
    "lng": -72.624031,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/adamson%20Medium.jpeg",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/adamson%202%20Medium.jpeg",
    "extraPhotos": [
     {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/adamson%202%20Medium.jpeg",
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/adamson%20Medium.jpeg",
      "caption": "Additional photo"
     }
    ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Henry Adamson served in the United States military in the First World War. The veteran’s star at the family grave is a World War I marker; of the Adamsons resting here, Henry — born in 1893 — was the man of that war, while William, born in 1925, belonged to a later generation. Henry came home to Holyoke and lived until 1975. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
   },
   {
    "id": "fd_new_aiken_h",
-   "name": "Aiken, H.",
-   "era": "",
-   "branch": "",
+   "name": "Aiken, Harold F.",
+   "era": "World War I",
+   "branch": "U.S. Army",
    "branchLabel": "",
    "lat": 42.207225,
    "lng": -72.624039,
@@ -4671,68 +4651,54 @@ window.VA = {
     {
      "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/aiken%3F%20Medium.jpeg",
      "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/peterhansel%20Medium.jpeg",
-     "caption": "Additional photo"
     }
    ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Harold F. Aiken went to the First World War as a Private in Company A, 5th Battalion of the Forestry Engineers — the regiments that felled and milled French timber into the trench props, duckboards, and railroad ties an army at the front could not fight without. He entered the service on December 5, 1917, trained at Camp Devens, and went overseas with the American Expeditionary Forces. His marble government headstone at Forestdale, worn now nearly smooth, marks him a Massachusetts man of that war. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
   },
   {
    "id": "fd_new_albert",
-   "name": "Albert",
-   "era": "",
-   "branch": "",
+   "name": "Albert [surname worn]",
+   "era": "World War I",
+   "branch": "U.S. Military",
    "branchLabel": "",
    "lat": 42.207253,
    "lng": -72.623956,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/albert%3F%20Medium.jpeg",
    "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "This grave holds a veteran of the First World War, its World War I star still legible where the stone is not. His given name reads Albert; his surname has worn away to a few letters, something like “…ossla….” His branch, his unit, and the whole of his name wait on a clearer reading or a matching record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
   },
   {
    "id": "fd_new_alden",
-   "name": "Alden",
-   "era": "",
-   "branch": "",
+   "name": "Alden (?), Unknown",
+   "era": "Civil War Era",
+   "branch": "U.S. Army",
    "branchLabel": "",
    "lat": 42.207344,
    "lng": -72.624481,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/alden%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/wallace%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "extraPhotos": [],
+   "narrative": "A soldier of the Union rests here beneath a stone worn past reading — the name appears to be Alden, though the marble no longer holds it with certainty. What still marks him is the star of the Grand Army of the Republic, Post 71 — the badge of the men who saved the Union and gathered afterward to keep faith with their dead. His full name and his regiment have not yet been recovered. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
   },
   {
    "id": "fd_new_allyn",
-   "name": "Allyn",
-   "era": "",
-   "branch": "",
+   "name": "Allyn, Robert",
+   "era": "Unknown Era",
+   "branch": "U.S. Military",
    "branchLabel": "",
    "lat": 42.207192,
    "lng": -72.623956,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/allyn%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/neumani%3F%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "extraPhotos": [],
+   "narrative": "Robert Allyn was a veteran of Holyoke — the flag and the veteran’s marker stand at this grave for him. He left no stone of his own; the marker here belongs to his wife, Lillian (Haczynski) Allyn, who died in 1933 at only nineteen, and beneath whose name he is remembered. What war he served in, and the rest of his story, are still to be recovered. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -4754,9 +4720,9 @@ window.VA = {
   },
   {
    "id": "fd_new_audette",
-   "name": "Audette",
-   "era": "",
-   "branch": "",
+   "name": "Audette, Maurice A.",
+   "era": "World War II",
+   "branch": "U.S. Navy",
    "branchLabel": "",
    "lat": 42.207236,
    "lng": -72.624992,
@@ -4765,21 +4731,9 @@ window.VA = {
     {
      "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/audette%202%20Medium.jpeg",
      "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/robson%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/santiago%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/westbrook%20Medium.jpeg",
-     "caption": "Additional photo"
     }
    ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Maurice A. Audette served in the United States Navy during the Second World War as a Chief Machinist’s Mate — a CMM, the senior hand in the engine spaces who kept a warship’s machinery running at sea. Born February 4, 1924, he came home to Holyoke and lived until January 28, 1994; the family stone beside his marker remembers him simply as “Dad.” If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -5645,38 +5599,6 @@ window.VA = {
    "extraPhotos": [
     {
      "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/gullerie2%20Medium.jpeg",
-     "caption": "Additional photo"
-    }
-   ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_haczynski",
-   "name": "Haczynski",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207006,
-   "lng": -72.624328,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/haczynski%20Medium.jpeg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/holland%20E%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hurley%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hurley%20r%20Medium.jpeg",
-     "caption": "Additional photo"
-    },
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/rock%20Medium.jpeg",
      "caption": "Additional photo"
     }
    ],
@@ -6979,6 +6901,25 @@ window.VA = {
     }
    ],
    "narrative": "Irma Warren went to the First World War as a nurse in the United States Army Nurse Corps, stationed at Camp Jackson, South Carolina — one of the Holyoke women who put on the uniform when few women did. Born February 11, 1895, a daughter of Earl R. and Grace (Tuttle) Warren, she came home to Holyoke and lived until January 8, 1976. Her name was carried for years only on Holyoke’s 1919 roll of women in service; now her own government stone has been found, set beneath the family monument among her parents and sisters. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "forestdale-field-2026"
+  },
+  {
+   "id": "fd_astley_david_lee",
+   "name": "Astley, David Lee",
+   "era": "Vietnam",
+   "branch": "U.S. Air Force",
+   "lat": 42.207119,
+   "lng": -72.624581,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/astley%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/astley2%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "David Lee Astley served in the United States Air Force as an Airman First Class with the 3646th Field Maintenance Squadron. Born April 1, 1945, he died on February 5, 1967 — only twenty-one, and still in the service, his government headstone carrying the date. What took him so young the stone does not say. He rests in Holyoke ground beneath a Massachusetts marker. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "forestdale-field-2026"
