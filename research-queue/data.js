@@ -36897,19 +36897,6 @@ window.VA = {
    "source": "zack-enlisted-M-Z"
   },
   {
-   "id": "zack_enl_worth_william_t",
-   "name": "Worth, William T.",
-   "era": "World War I",
-   "branch": "Army",
-   "branchLabel": "U.S. Army – World War I",
-   "lat": null,
-   "lng": null,
-   "narrative": "Private William T. Worth entered service October 7, 1917, serving in Company B, 321st Machine Gun Battalion of the United States Army in the First World War. He served with the American Expeditionary Forces. Zack records him wounded in action. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
-   "status": "queue",
-   "source": "zack-enlisted-M-Z"
-  },
-  {
    "id": "zack_enl_wynn_harold_w",
    "name": "Wynn, Harold W.",
    "era": "World War I",
