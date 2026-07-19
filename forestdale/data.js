@@ -1746,7 +1746,16 @@ window.VA = {
    "lat": 42.207706,
    "lng": -72.62445,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/baker.JPG",
-   "extraPhotos": [],
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/baker3.JPG",
+     "caption": "Grave marker"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/baker2.JPG",
+     "caption": "Family stone"
+    }
+   ],
    "narrative": "Glenn Royal Baker served as a Technician Fourth Grade in the United States Army from Massachusetts during World War II. He was born July 20, 1912, and died July 15, 1973. TEC4 was a specialist rating — skilled soldiers who kept equipment, communications, and logistics running in the field. He is memorialized on the Baker family monument alongside his parents Perley A. Baker (1874–1964) and Nellie M. Hill (1881–1949). If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
@@ -3994,21 +4003,6 @@ window.VA = {
     }
    ],
    "narrative": "Maurice A. Audette served in the United States Navy during the Second World War as a Chief Machinist’s Mate — a CMM, the senior hand in the engine spaces who kept a warship’s machinery running at sea. Born February 4, 1924, he came home to Holyoke and lived until January 28, 1994; the family stone beside his marker remembers him simply as “Dad.” If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
-   "id": "fd_new_baker",
-   "name": "Baker",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207767,
-   "lng": -72.624397,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/baker3.JPG",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
