@@ -292,7 +292,8 @@ window.VA = {
     "KIA"
    ],
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/breton_joseph_j_portrait.png"
   },
   {
    "id": "brouillette_george_r",
@@ -692,7 +693,8 @@ window.VA = {
     "KIA"
    ],
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/coughlin_kirwin_portrait.png"
   },
   {
    "id": "croteau_louis_m",
@@ -1055,7 +1057,8 @@ window.VA = {
     "KIA"
    ],
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/finem_joseph_l_portrait.png"
   },
   {
    "id": "finlayson_murray_r",
@@ -1790,7 +1793,8 @@ window.VA = {
    "lng": null,
    "narrative": "Emile J. Henrye, a son of Holyoke, entered the service on December 5, 1917, in Bridgeport, Connecticut, and served as a Fireman Second Class. After preliminary training at the naval training station at Newport, Rhode Island, he was stationed aboard the U.S.S. Nopatin. He died in France on July 8, 1918, of anthrax. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/henrye_emile_j_portrait.png"
   },
   {
    "id": "herman_jacob",
@@ -3118,7 +3122,8 @@ window.VA = {
    "source": "research-queue",
    "badges": [
     "KIA"
-   ]
+   ],
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/pairadee_walter_w_portrait.png"
   },
   {
    "id": "pappas_theodore",
@@ -3259,7 +3264,8 @@ window.VA = {
     "KIA"
    ],
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/pueschel_william_portrait.png"
   },
   {
    "id": "quenneville_gerald_j",
@@ -3313,7 +3319,8 @@ window.VA = {
     "KIA"
    ],
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/quirk_henry_a_portrait.png"
   },
   {
    "id": "quist_kenneth_g",
@@ -4185,7 +4192,8 @@ window.VA = {
     "KIA"
    ],
    "status": "queue",
-   "source": "research-queue"
+   "source": "research-queue",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/willemain_raoul_j_portrait.png"
   },
   {
    "id": "williamson_james_c",
@@ -4710,7 +4718,8 @@ window.VA = {
     "Croix de Guerre"
    ],
    "status": "queue",
-   "source": "zack-heroes"
+   "source": "zack-heroes",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/zack_ryan_william_p_portrait.png"
   },
   {
    "id": "zack_mcnulty_john",
@@ -5051,7 +5060,8 @@ window.VA = {
     "Cited for Bravery"
    ],
    "status": "queue",
-   "source": "zack-heroes"
+   "source": "zack-heroes",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/zack_levenson_samuel_portrait.png"
   },
   {
    "id": "zack_leverault_arthur_v",
