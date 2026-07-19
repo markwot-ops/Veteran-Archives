@@ -4806,7 +4806,8 @@ window.VA = {
     "Croix de Guerre"
    ],
    "status": "queue",
-   "source": "zack-heroes"
+   "source": "zack-heroes",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Twiss_Portrait.png"
   },
   {
    "id": "zack_weiser_richard_m",
@@ -4838,7 +4839,8 @@ window.VA = {
     "Croix de Guerre"
    ],
    "status": "queue",
-   "source": "zack-heroes"
+   "source": "zack-heroes",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Wruck_Portrait.png"
   },
   {
    "id": "zack_stefanik_john",
@@ -13601,7 +13603,8 @@ window.VA = {
    "narrative": "Sergeant Chauncey Cooley entered service September 1, 1917, serving in Motor Truck Transport Company of the United States Army in the First World War. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
-   "source": "zack-enlisted-A-F"
+   "source": "zack-enlisted-A-F",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Cooley_Portrait.png"
   },
   {
    "id": "zack_enl_cooper_edwardn",
@@ -26058,7 +26061,8 @@ window.VA = {
    "narrative": "Private Hugh P. McLean entered service May 27, 1918, serving in Supply Company 324, Quartermaster Corps of the United States Army in the First World War. He was stationed at Camp Upton. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
-   "source": "zack-enlisted-M-Z"
+   "source": "zack-enlisted-M-Z",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Hugh_McLean_Portrait.png"
   },
   {
    "id": "zack_enl_mclean_leonard",
@@ -30997,7 +31001,8 @@ window.VA = {
    "narrative": "Private Maurice P. Powers entered service June 4, 1917, serving in Battery E, 3rd Field Artillery of the United States Army in the First World War. He served with the American Expeditionary Forces. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
-   "source": "zack-enlisted-M-Z"
+   "source": "zack-enlisted-M-Z",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Powers_Portrait.png"
   },
   {
    "id": "zack_enl_powers_victor_r",
@@ -35376,7 +35381,8 @@ window.VA = {
    "narrative": "Private Herbert D. Tidswell entered service July 12, 1918, serving in Battery D, 303d Field Artillery of the United States Army in the First World War. He served with the American Expeditionary Forces. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "sourceNote": "Service record, from Charles S. Zack, Holyoke in the Great War (1919) — full researched narrative pending.",
    "status": "queue",
-   "source": "zack-enlisted-M-Z"
+   "source": "zack-enlisted-M-Z",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Tidswell_Portrait.png"
   },
   {
    "id": "zack_enl_tierney_john_j",
