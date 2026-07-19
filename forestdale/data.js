@@ -5134,9 +5134,9 @@ window.VA = {
   },
   {
    "id": "fd_new_cook",
-   "name": "Cook",
-   "era": "",
-   "branch": "",
+   "name": "Cook, William M.",
+   "era": "World War I",
+   "branch": "U.S. Military",
    "branchLabel": "",
    "lat": 42.206864,
    "lng": -72.622186,
@@ -5147,7 +5147,7 @@ window.VA = {
      "caption": "Additional photo"
     }
    ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "William M. Cook was a World War veteran of Holyoke, his service marked by the bronze star at the family monument he shares with his wife, Bertha. Born in 1882, he lived until 1923. The monument is worn and the record thin; his branch, his unit, and the war’s particulars are not yet established. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -6575,15 +6575,15 @@ window.VA = {
   },
   {
    "id": "fd_new_unknown_vet",
-   "name": "Unknown, Vet",
-   "era": "",
-   "branch": "",
+   "name": "Unknown Veteran (Forestdale)",
+   "era": "Unknown Era",
+   "branch": "U.S. Military",
    "branchLabel": "",
    "lat": 42.207247,
    "lng": -72.624642,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/unknown%20vet5%20Medium.jpeg",
    "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "A veteran of Holyoke rests here beneath a stone the years have worn past reading. His grave was found and flagged at Forestdale — the flag and marker keeping faith with him even as his name has slipped from the marble. Who he was, and the war he served, wait on a clearer reading or a matching record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -6652,20 +6652,20 @@ window.VA = {
   },
   {
    "id": "fd_new_wisniowski",
-   "name": "Wisniowski",
-   "era": "",
-   "branch": "",
+   "name": "Wisniowski, Joseph F.",
+   "era": "World War II",
+   "branch": "U.S. Army",
    "branchLabel": "",
    "lat": 42.206881,
    "lng": -72.621697,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/wisniowski2%20Medium.jpeg",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/wisniowski%20Medium.jpeg",
    "extraPhotos": [
     {
      "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/wisnowski2%20Medium.jpeg",
      "caption": "Additional photo"
     }
    ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Joseph F. Wisniowski served as a Private First Class in the United States Army during the Second World War. Born in 1915, he came home to Holyoke, married Dorothy C. Kurtz, and lived until 1995; his stone lies near the family monument they share — husband and wife who died in the same year. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -6920,6 +6920,44 @@ window.VA = {
     }
    ],
    "narrative": "David Lee Astley served in the United States Air Force as an Airman First Class with the 3646th Field Maintenance Squadron. Born April 1, 1945, he died on February 5, 1967 — only twenty-one, and still in the service, his government headstone carrying the date. What took him so young the stone does not say. He rests in Holyoke ground beneath a Massachusetts marker. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "forestdale-field-2026"
+  },
+  {
+   "id": "fd_worth_william_t",
+   "name": "Worth, William T.",
+   "era": "World War I",
+   "branch": "U.S. Military",
+   "lat": 42.206947,
+   "lng": -72.623153,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/worth2%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/worth%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "William T. Worth went to the First World War — Charles Zack’s 1919 roll lists him among Holyoke’s servicemen — and came home to raise a family in the city. Born in 1892, he lived until 1944; his wife, Caroline (Astley) Worth, followed him in 1977. The bronze star of a World War veteran marks the family monument they share. His rank and unit have not yet come down to us. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "forestdale-field-2026"
+  },
+  {
+   "id": "fd_wiswall_charles_h",
+   "name": "Wiswall, Charles H.",
+   "era": "World War I",
+   "branch": "U.S. Military",
+   "lat": 42.206689,
+   "lng": -72.622003,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/wiswall%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/wiswall2%20Medium.jpeg",
+     "caption": "Additional photo"
+    }
+   ],
+   "narrative": "Charles H. Wiswall was a Holyoke man of the Wiswall family — a son of George B. and Sophronia E. Wiswall, and brother to Ralph — who died in 1918, at twenty-eight, in the last year of the First World War. His own marble headstone, a soldier’s stone gone soft with a century of weather, can no longer be fully read; the family monument keeps his dates. Whether he fell in France or was taken, like so many that autumn, by the influenza that swept the camps, the worn stone has not yet given up. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "forestdale-field-2026"
