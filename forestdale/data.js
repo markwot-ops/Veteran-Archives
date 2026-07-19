@@ -3469,6 +3469,10 @@ window.VA = {
     {
      "src": "",
      "caption": ""
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Guilleri_Portrait.png",
+     "caption": "Wartime portrait (Zack, 1919)"
     }
    ],
    "narrative": "Delphis M. Guillerie served as a Fireman Second Class in the United States Navy during World War I, aboard the U.S.S. Narragansett. Navy Firemen worked the boilers — stoking and maintaining the steam plants that drove warships through the sea, laboring in the heat and noise below decks where few ever saw the war but everyone depended on their work. Born June 25, 1891, Guillerie was in his mid-twenties during his service. Guillerie passed away in December of the 1960s, the final digit obscured on his stone. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
