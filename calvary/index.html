@@ -2,7 +2,11 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Veteran Archives">
 <title>Veteran Archives — Holyoke, MA</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -213,6 +217,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
     top:auto; left:0; right:0; bottom:0; width:auto;
     max-height:66vh; border-left:none; border-top:1px solid #5a3f27;
     border-radius:16px 16px 0 0; box-shadow:0 -10px 30px rgba(0,0,0,0.55); z-index:1200;
+    padding-bottom: env(safe-area-inset-bottom, 0px);
   }
   #sheet-handle {
     display:flex; flex-direction:column; align-items:center; gap:5px; padding:9px 0 7px;
@@ -232,7 +237,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   /* GPS "locate me" button, above the collapsed sheet */
   #locate-me {
     display:flex; align-items:center; justify-content:center;
-    position:absolute; right:12px; bottom:84px; z-index:1100;
+    position:absolute; right:12px; bottom:calc(84px + env(safe-area-inset-bottom, 0px)); z-index:1100;
     width:48px; height:48px; border-radius:50%;
     background:#141414; border:1px solid #5a3f27; color:#4a9be0;
     font-size:1.35rem; cursor:pointer; box-shadow:0 3px 12px rgba(0,0,0,0.5);
