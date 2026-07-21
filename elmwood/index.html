@@ -806,6 +806,19 @@ document.getElementById('search').addEventListener('keydown', e => {
 updateCount();
 buildMarkers();
 buildSidebar();
+
+// Deep-link: ?v=<id> opens that veteran on load — same detail/pulse/highlight as an index click.
+(function(){
+  var vid = new URLSearchParams(location.search).get('v');
+  if(!vid) return;
+  var idx = veterans.findIndex(function(v){ return v.id === vid; });
+  if(idx < 0) return;
+  var match = veterans[idx];
+  setTimeout(function(){
+    if (hasCoords(match)) { map.flyTo([match.lat, match.lng], 19, {duration:1.0}); setTimeout(function(){ openPopup(match, idx); }, 400); }
+    else { openPopup(match, idx); }
+  }, 60);
+})();
 </script>
 </body>
 </html>
