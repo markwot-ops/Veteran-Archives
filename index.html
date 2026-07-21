@@ -3,273 +3,912 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Veteran Archives — City of Holyoke, MA</title>
+<title>Veteran Archives — Holyoke, MA</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
 * { margin:0; padding:0; box-sizing:border-box; }
-body { font-family:Georgia,serif; background:#0e0e0e; color:#f0e8d8; min-height:100vh; padding:26px; }
-.page { max-width:1200px; margin:0 auto; background:#1a1a1a; border:1px solid #5a3f27; border-radius:12px; overflow:hidden; box-shadow:0 24px 70px rgba(0,0,0,0.55); }
-header { background:#0d0d0d; border-bottom:2px solid #6b3a1f; padding:36px 24px 32px; text-align:center; }
-header .mark { font-size:0.66rem; letter-spacing:0.34em; text-transform:uppercase; color:#e6a95f; margin-bottom:12px; }
-header h1 { font-size:2.1rem; font-weight:normal; letter-spacing:0.14em; text-transform:uppercase; }
-header .sub { font-size:0.86rem; color:#d6c9b2; margin:12px auto 0; max-width:700px; line-height:1.7; }
-main { max-width:1120px; margin:0 auto; padding:38px 24px 64px; }
-.grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }
-@media (max-width:900px){ .grid { grid-template-columns:repeat(2,1fr); } }
-@media (max-width:520px){ .grid { grid-template-columns:1fr; } }
-.card { position:relative; display:flex; flex-direction:column; min-height:210px; background:#141414; border:1px solid #333; border-left:4px solid #6b3a1f; border-radius:6px; padding:18px 20px; transition:transform 0.12s, border-color 0.15s, background 0.15s; }
-/* whole-card click target — an EMPTY link overlay, so no text is ever inside an anchor */
-.stretch { position:absolute; inset:0; z-index:1; border-radius:6px; }
-.card > *:not(.stretch) { position:relative; z-index:0; }
-.card.link { cursor:pointer; }
-.card.link:hover { transform:translateY(-3px); border-color:#CD853F; border-left-color:#CD853F; background:#181818; }
-.status { display:flex; align-items:center; gap:7px; font-size:0.56rem; text-transform:uppercase; letter-spacing:0.12em; color:#b3b3b3; margin-bottom:9px; }
-.dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
-.dot.live { background:#57c24a; box-shadow:0 0 7px #57c24a; animation:blink 2.2s ease-in-out infinite; }
-@keyframes blink { 0%,100%{opacity:1;} 50%{opacity:0.45;} }
-.dot.coming { background:#d0a24c; }
-.dot.tbd { background:#555; }
-.card h2 { font-size:1.05rem; font-weight:normal; letter-spacing:0.03em; margin-bottom:3px; color:#f0e8d8; }
-.card .addr { font-size:0.63rem; color:#e6d8bd; margin-bottom:22px; }
-.card .desc { font-size:0.71rem; color:#d8cbb2; line-height:1.5; flex:1; }
-.card .foot { display:flex; align-items:center; justify-content:space-between; gap:8px; margin-top:14px; }
-.card .count { font-size:0.72rem; color:#e6a95f; letter-spacing:0.02em; }
-.cta { display:inline-block; flex-shrink:0; font-size:0.58rem; text-transform:uppercase; letter-spacing:0.07em; color:#e6a95f; border:1px solid #6b3a1f; border-radius:3px; padding:5px 10px; transition:background 0.15s, color 0.15s, border-color 0.15s; }
-.card.link:hover .cta { background:#CD853F; color:#141414; border-color:#CD853F; }
-.card.queue { border-left-color:#3a7f30; }
-.card.queue.link:hover { border-color:#5e964b; border-left-color:#5e964b; }
-.card.queue .count { color:#5e964b; }
-.card.queue .cta { color:#5e964b; border-color:#345a2c; }
-.card.queue.link:hover .cta { background:#5e964b; color:#141414; border-color:#5e964b; }
-.card.coming, .card.tbd { opacity:0.62; border-left-color:#444; }
-.card.coming .count, .card.tbd .count { color:#8a8272; }
-.card.coming .cta, .card.tbd .cta { color:#777; border-color:#3a3a3a; }
-.card.tbd h2 { color:#7a7365; font-style:italic; }
-footer { text-align:center; padding:26px; font-size:0.68rem; color:#8c8c8c; border-top:1px solid #222; line-height:1.7; }
-footer .contact { color:#CD853F; }
+body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100vh; display:flex; flex-direction:column; overflow:hidden; }
 
-  /* ---- Veterans Honor Roll legend ---- */
-  /* The Honors box, living in the grid where its card used to be. */
-  .card.hr-card { display:flex; flex-direction:column; background:rgba(8,8,8,0.92); border-color:#3a3a3a; }
-  .hr-title { display:block; text-align:center; font-size:0.62rem; text-transform:uppercase;
-              letter-spacing:0.14em; color:#e7ddc9; text-decoration:none; font-family:Georgia,serif;
-              border-bottom:1px solid #2c2c2c; padding-bottom:9px; margin-bottom:10px; }
-  .hr-title:hover { color:#fff; }
-  #hr-rows { flex:1; }
-  .hr-row { display:flex; align-items:center; gap:8px; margin-bottom:6px; text-decoration:none;
-            transition:opacity 0.15s, transform 0.12s; }
-  .hr-row:last-child { margin-bottom:0; }
-  .hr-row:hover { opacity:0.72; transform:translateX(2px); }
-  .hr-sym { width:13px; text-align:center; font-size:0.66rem; flex-shrink:0; }
-  .hr-name { font-size:0.63rem; color:#d4c9b8; flex:1; padding-right:12px; }
-  .hr-n { font-size:0.58rem; color:#d4c9b8; min-width:20px; text-align:right; }
-  .hr-load { color:#8a8272; font-style:italic; font-size:0.75rem; }
-  .hr-foot { display:flex; justify-content:space-between; align-items:baseline; margin-top:11px;
-             padding-top:9px; border-top:1px solid #2c2c2c; font-size:0.58rem; color:#8a8272; }
-  .hr-all { color:#c8b97a; text-decoration:none; }
-  .hr-all:hover { text-decoration:underline; }
+#header {
+  background:#0d0d0d; border-bottom:2px solid #6b3a1f;
+  padding:10px 18px; display:flex; align-items:center;
+  justify-content:space-between; flex-shrink:0; z-index:1000;
+}
+#header h1 { font-size:1.05rem; font-weight:normal; letter-spacing:0.08em; text-transform:uppercase; }
+#header .sub { font-size:0.72rem; color:#888; margin-top:2px; }
+#header .home { font-size:0.62rem; color:#CD853F; text-decoration:none; letter-spacing:0.06em; text-transform:uppercase; }
+#header .home:hover { color:#f0c98a; }
+#vet-count { font-size:0.85rem; color:#CD853F; letter-spacing:0.04em; }
 
-  /* ---- All-veterans search ---- */
-  .vsearch { position:relative; max-width:560px; margin:28px auto 0; }
-  #vsearch-input { width:100%; font-family:Georgia,serif; font-size:0.92rem; color:#f0e8d8;
-    background:#141414; border:1px solid #5a3f27; border-radius:6px; padding:13px 16px; outline:none;
-    transition:border-color .15s; }
-  #vsearch-input:focus { border-color:#CD853F; }
-  #vsearch-input::placeholder { color:#8a8272; }
-  #vsearch-input:disabled { opacity:.55; }
-  .vsearch-results { position:absolute; left:0; right:0; top:calc(100% + 4px); background:#141414;
-    border:1px solid #5a3f27; border-radius:6px; max-height:340px; overflow-y:auto; z-index:20;
-    display:none; box-shadow:0 14px 44px rgba(0,0,0,.6); }
-  .vsearch-results.show { display:block; }
-  .vres { display:flex; align-items:baseline; justify-content:space-between; gap:12px; padding:10px 15px;
-    cursor:pointer; text-decoration:none; border-bottom:1px solid #242424; }
-  .vres:last-child { border-bottom:none; }
-  .vres:hover, .vres.active { background:#1e1e1e; }
-  .vres-name { font-size:0.84rem; color:#f0e8d8; }
-  .vres-site { font-size:0.6rem; text-transform:uppercase; letter-spacing:0.05em; color:#e6a95f; flex-shrink:0; }
-  .vres-none { padding:11px 15px; color:#8a8272; font-style:italic; font-size:0.8rem; }
+#main { position:relative; flex:1; overflow:hidden; }
+#map { position:absolute; inset:0; z-index:1; }
+
+/* ERA LEGEND — bottom left */
+#legend {
+  position:absolute; bottom:14px; left:8px;
+  background:rgba(8,8,8,0.9); border:1px solid #3a3a3a;
+  border-radius:4px; padding:9px 11px; z-index:800;
+  max-height:calc(100vh - 120px); overflow-y:auto; white-space:nowrap;
+}
+#legend h4 { font-size:0.52rem; text-transform:uppercase; letter-spacing:0.12em; color:#ccc; margin-bottom:7px; }
+#legend h4.dist-head { margin-top:9px; border-top:1px solid #2c2c2c; padding-top:8px; }
+.leg-row { display:flex; align-items:center; gap:7px; margin-bottom:5px; cursor:pointer; transition:opacity 0.15s; }
+.leg-row:last-child { margin-bottom:0; }
+.leg-row:hover { opacity:0.75; }
+.leg-sym { width:13px; text-align:center; font-size:0.66rem; }
+.leg-dot { width:7px; height:7px; border-radius:50%; box-shadow:0 0 4px var(--dc); background:var(--dc); flex-shrink:0; }
+.leg-label { font-size:0.6rem; color:#d4c9b8; flex:1; padding-right:10px; }
+.leg-count { font-size:0.56rem; color:#d4c9b8; min-width:18px; text-align:right; }
+.leg-row.dimmed { opacity:0.28; }
+.leg-row.era-row.selected .leg-label { color:#fff; font-weight:bold; }
+.leg-row.dist.on .leg-label { color:#fff; font-weight:bold; letter-spacing:0.02em; }
+.leg-row.dist.on { opacity:1; }
+/* one honor chosen: the others step back so you can SEE which one you're in */
+#leg-distinct.filtered .leg-row.dist { opacity:0.3; }
+#leg-distinct.filtered .leg-row.dist.on { opacity:1; }
+#leg-distinct.filtered .leg-row.dist.on .leg-count { color:#fff; }
+.leg-row.dist.on .leg-sym { filter:brightness(1.7); }
+#legend h4 { cursor:pointer; transition:color 0.15s; }
+#legend h4:hover { color:#fff; }
+#legend h4 .all-hint { float:right; font-size:0.46rem; letter-spacing:0.06em; color:#6f6a5e; text-transform:none; visibility:hidden; }
+#legend:has(#leg-distinct.filtered) h4 .all-hint { visibility:visible; }
+#legend h4:hover .all-hint { color:#c8b97a; }
+@keyframes honorDotPulse {
+  0%,100% { text-shadow:0 0 3px currentColor; transform:scale(1); }
+  50%     { text-shadow:0 0 9px currentColor, 0 0 15px currentColor; transform:scale(1.35); }
+}
+.leg-row.dist.on .leg-sym { animation:honorDotPulse 1.1s ease-in-out infinite; display:inline-block; }
+@keyframes honorMarkerPulse {
+  0%,100% { box-shadow:0 0 6px 1px rgba(255,205,70,0.85); }
+  50%     { box-shadow:0 0 16px 5px rgba(255,220,95,1); }
+}
+.hpulse { animation:honorMarkerPulse 1.1s ease-in-out infinite; }
+
+/* SIDEBAR — right */
+#sidebar {
+  position:absolute; top:0; right:0; bottom:0; width:265px;
+  background:rgba(10,10,10,0.93); border-left:1px solid #2a2a2a;
+  display:flex; flex-direction:column; z-index:800; overflow:hidden;
+}
+#sidebar-top { padding:10px 11px 8px; border-bottom:1px solid #222; background:#0a0a0a; }
+#search {
+  width:100%; background:#1a1a1a; border:1px solid #3a3a3a; color:#f0e8d8;
+  padding:6px 9px; font-family:Georgia,serif; font-size:0.8rem;
+  border-radius:3px; margin-bottom:7px; outline:none;
+}
+#search:focus { border-color:#CD853F; }
+#search::placeholder { color:#888; }
+#era-filters { display:flex; flex-wrap:wrap; gap:3px; }
+.dist-label { width:100%; font-size:0.5rem; text-transform:uppercase; letter-spacing:0.1em; color:#8a8272; margin:9px 0 3px; }
+#distinction-filters { display:flex; flex-wrap:wrap; gap:3px; }
+.dist-btn { display:inline-flex; align-items:center; gap:4px; padding:2px 6px; border-radius:2px; border:1px solid #3a3a3a; background:#161616; color:#cfc6b6; font-size:0.5rem; font-family:Georgia,serif; cursor:pointer; transition:border-color .15s, background .15s; }
+.dist-btn .dc-dot { width:7px; height:7px; border-radius:50%; background:var(--dc); box-shadow:0 0 4px var(--dc); flex-shrink:0; }
+.dist-btn .dc-n { color:#8a8272; }
+.dist-btn:hover { background:#1e1e1e; }
+.dist-btn.on { border-color:var(--dc); color:#fff; background:#232323; }
+.dist-btn.on .dc-n { color:#cfc6b6; }
+.era-btn {
+  padding:3px 6px; border-radius:2px; border:2px solid transparent;
+  font-size:0.5rem; cursor:pointer; font-family:Georgia,serif;
+  color:white; text-shadow:0 1px 2px rgba(0,0,0,0.6);
+  transition:opacity 0.2s, border-color 0.15s, filter 0.15s;
+  opacity:0.32;
+}
+.era-btn.selected { opacity:1; border-color:#fff; filter:none; box-shadow:inset 0 0 0 999px rgba(0,0,0,0.2); }
+.era-btn .eb-n { opacity:0.85; font-size:0.46rem; margin-left:1px; }
+
+#list-wrap { flex:1; display:flex; min-height:0; }
+/* Scroll anchoring must be OFF on a windowed list. #pad-top changes height on every redraw;
+   Chrome reads that as content shifting above the viewport and moves scrollTop to compensate,
+   which forces another redraw, which moves the pad again. That feedback loop IS the free run —
+   it shows up hardest on a change of direction. No wheel tuning can reach it. */
+#vet-list, #pad-top, #rows, #pad-bot, .vet-item { overflow-anchor:none; }
+#vet-list { overflow-y:auto; flex:1; padding:3px 0; overscroll-behavior:contain; will-change:scroll-position; }
+/* A–Z rail: at 3,052 names the list cannot be browsed by scrolling. Click a letter, land on it. */
+#az-rail {
+  width:17px; flex-shrink:0; display:flex; flex-direction:column; justify-content:space-around;
+  align-items:center; padding:3px 0; border-left:1px solid #1e1e1e; background:#0c0c0c;
+  user-select:none; touch-action:none;
+}
+.az-l {
+  font-family:Georgia,serif; font-size:0.5rem; line-height:1; color:#6a6355;
+  cursor:pointer; width:100%; text-align:center; padding:1px 0; border-radius:2px;
+}
+.az-l:hover { color:#f0e8d8; background:#242424; }
+.az-l.on { color:#101010; background:#CD853F; font-weight:bold; }
+.az-l.dead { color:#2e2b26; cursor:default; }
+.az-l.dead:hover { background:none; color:#2e2b26; }
+#az-bubble {
+  position:absolute; right:24px; z-index:900; pointer-events:none; display:none;
+  background:#CD853F; color:#101010; font-family:Georgia,serif; font-size:0.95rem;
+  width:26px; height:26px; border-radius:50%; text-align:center; line-height:26px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.7);
+}
+#vet-list::-webkit-scrollbar { width:4px; }
+#vet-list::-webkit-scrollbar-thumb { background:#333; border-radius:3px; }
+.vet-item {
+  padding:6px 11px; cursor:pointer; border-bottom:1px solid #181818;
+  display:flex; align-items:center; gap:7px; transition:background 0.1s;
+  /* Windowed list: ROW_H in the script must match this exactly. */
+  height:40px; box-sizing:border-box;
+}
+.vet-item.dragging, #vet-list.dragging { cursor:grabbing; }
+.vet-item:hover { background:#1c1c1c; }
+.vet-item.active { background:#000; border-left:3px solid #CD853F; padding-left:8px; }
+.vet-item.active .v-name { color:#fff; text-shadow:0 0 4px rgba(255,255,255,0.9), 0 0 10px rgba(255,255,255,0.5); }
+.vet-item.active .v-era { color:#fff; text-shadow:0 0 4px rgba(255,255,255,0.8); }
+.vet-item.queued .v-name { color:#b9ad97; font-style:italic; }
+@keyframes symPulse {
+  0%   { filter:brightness(1.6); text-shadow:0 0 4px rgba(255,255,255,0.5); }
+  50%  { filter:brightness(2.6); text-shadow:0 0 10px rgba(255,255,255,1), 0 0 20px rgba(255,255,255,0.8); }
+  100% { filter:brightness(1.6); text-shadow:0 0 4px rgba(255,255,255,0.5); }
+}
+.vet-item.active .v-sym { animation:symPulse 1.1s ease-in-out infinite; display:inline-block; }
+.v-sym { font-size:0.8rem; width:15px; text-align:center; flex-shrink:0; filter:brightness(1.55); }
+.v-name { font-size:0.78rem; color:#d4c9b8; flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.v-era { font-size:0.63rem; color:#777; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.v-badge-q { font-size:0.5rem; color:#6b5; letter-spacing:0.04em; }
+#no-results { padding:18px; color:#555; font-size:0.8rem; text-align:center; display:none; }
+
+/* POPUP */
+#popup {
+  display:none; position:fixed; inset:0;
+  background:rgba(0,0,0,0); z-index:3000;
+  pointer-events:none;
+}
+#popup.show { display:block; }  /* overlay stays pointer-events:none so the index underneath keeps scrolling */
+#pbox {
+  position:absolute;
+  top:50%; right:275px;
+  transform:translateY(-50%);
+  background:#141414; border:1px solid #444; border-radius:6px;
+  width:310px; max-height:78vh; overflow-y:scroll; scroll-behavior:smooth;
+  padding:20px; box-shadow:0 8px 40px rgba(0,0,0,0.7);
+  pointer-events:auto;
+}
+#pbox.center { right:auto; left:50%; transform:translate(-50%,-50%); }
+#pclose {
+  position:absolute; top:9px; right:12px;
+  background:none; border:none; color:#888; font-size:1.5rem; cursor:pointer;
+}
+#pclose:hover { color:#fff; }
+#pphoto { width:100%; max-height:340px; object-fit:contain; background:#0a0a0a; border-radius:4px; margin-bottom:12px; display:none; }
+#pphoto-ph { display:none; width:100%; min-height:150px; border:1px dashed #4a4238; border-radius:4px; background:#0e0e0e; color:#8a8172; font-size:0.72rem; letter-spacing:0.05em; align-items:center; justify-content:center; text-align:center; margin-bottom:12px; padding:16px; }
+#pphoto-ph.show { display:flex; }
+#pname { font-size:1.05rem; color:#f0e8d8; margin-bottom:3px; }
+#pservice { font-size:0.78rem; color:#CD853F; margin-bottom:9px; letter-spacing:0.04em; }
+#pstory { font-size:0.78rem; color:#aaa; line-height:1.65; }
+#pstory.queued { color:#8a8578; font-style:italic; }
+    #psrc { font-size:0.66rem; color:#7d7768; line-height:1.55; margin-top:8px; font-style:italic; }
+    #pcontact { font-size:0.72rem; color:#8f8a7d; line-height:1.6; margin-top:10px; }
+#pflags { display:flex; flex-wrap:wrap; gap:5px; margin-bottom:9px; }
+.fbadge { padding:3px 8px; border-radius:3px; font-size:0.68rem; font-weight:bold; }
+
+@keyframes markerPulse {
+  0%,100% { transform:scale(1); box-shadow:0 1px 5px rgba(0,0,0,0.8); }
+  50% { transform:scale(1.25); box-shadow:0 0 12px rgba(255,255,255,0.7); }
+}
+.marker-pulse > div { animation:markerPulse 1s ease-in-out infinite; }
+
+/* ===== Field mode (phones): full-screen map, bottom-sheet index, GPS locate ===== */
+#sheet-handle { display:none; }
+#locate-me { display:none; }
+.you-dot { width:16px; height:16px; border-radius:50%; background:#4a9be0; border:2px solid #fff;
+  box-shadow:0 0 0 3px rgba(74,155,224,0.35), 0 0 9px rgba(74,155,224,0.9); }
+@keyframes locSpin { to { transform:rotate(360deg); } }
+
+@media (max-width:640px) {
+  #header { padding:8px 12px; }
+  #header h1 { font-size:0.82rem; letter-spacing:0.05em; }
+  #header .sub { font-size:0.6rem; margin-top:1px; }
+  #vet-count { display:none; }
+  #legend { display:none; }
+  #az-rail { display:none; }
+  #era-filters, #distinction-filters, .dist-label { display:none; }
+
+  /* index becomes a bottom sheet */
+  #sidebar {
+    top:auto; left:0; right:0; bottom:0; width:auto;
+    max-height:66vh; border-left:none; border-top:1px solid #5a3f27;
+    border-radius:16px 16px 0 0; box-shadow:0 -10px 30px rgba(0,0,0,0.55); z-index:1200;
+  }
+  #sheet-handle {
+    display:flex; flex-direction:column; align-items:center; gap:5px; padding:9px 0 7px;
+    cursor:pointer; background:#0a0a0a; border-radius:16px 16px 0 0;
+  }
+  #sheet-handle .hbar { width:38px; height:4px; border-radius:2px; background:#5a4a34; }
+  #sheet-handle .sheet-hint { font-size:0.62rem; color:#8a8272; letter-spacing:0.04em; }
+  body:not(.sheet-open) #list-wrap { display:none; }
+  body.sheet-open #sheet-handle .sheet-hint::after { content:' — tap to close'; }
+  #sidebar-top { padding:9px 12px 10px; }
+  #search { font-size:16px; padding:11px 12px; border-radius:6px; margin-bottom:0; }
+  #list-wrap { max-height:52vh; }
+  .vet-item { padding:11px 12px; }         /* bigger tap targets */
+  .v-name { font-size:0.92rem; }
+  .v-era { font-size:0.72rem; }
+
+  /* GPS "locate me" button, above the collapsed sheet */
+  #locate-me {
+    display:flex; align-items:center; justify-content:center;
+    position:absolute; right:12px; bottom:84px; z-index:1100;
+    width:48px; height:48px; border-radius:50%;
+    background:#141414; border:1px solid #5a3f27; color:#4a9be0;
+    font-size:1.35rem; cursor:pointer; box-shadow:0 3px 12px rgba(0,0,0,0.5);
+  }
+  #locate-me.locating { animation:locSpin 0.9s linear infinite; color:#f0c98a; }
+
+  /* detail becomes a bottom sheet with a tap-to-close scrim */
+  #popup.show { background:rgba(0,0,0,0.55); pointer-events:auto; }
+  #pbox, #pbox.center {
+    top:auto; left:0; right:0; bottom:0; width:auto; transform:none;
+    max-height:82vh; border-radius:16px 16px 0 0; border-left:none; padding:20px 18px 26px;
+  }
+  #pname { font-size:1.15rem; }
+  #pstory { font-size:0.86rem; }
+}
 </style>
 </head>
 <body>
-<div class="page">
-<header>
-  <div class="mark">City of Holyoke</div>
-  <h1>Veteran Archives</h1>
-  <div class="sub">An interactive record of Veterans laid to rest geo-located across Holyoke Cemeteries, with a research queue for Holyokers whose resting places have yet to be located.</div>
-</header>
-<main>
-  <div class="grid">
 
-    <div class="card link">
-      <a class="stretch" href="./calvary/index.html" aria-label="Open Calvary Cemetery map"></a>
-      <div class="status"><i class="dot live"></i> Live</div>
-      <h2>Calvary Cemetery</h2>
-      <div class="addr">1040 Northampton Street · Est. c. 1870s</div>
-      <div class="desc">Holyoke's principal Catholic burial ground, serving Sacred Heart, Our Lady of the Holy Rosary, and Blessed Sacrament parishes. Spans the Civil War through Vietnam.</div>
-      <div class="foot"><span class="count">375 Veterans Geolocated</span><span class="cta">Open map →</span></div>
-    </div>
-
-    <div class="card link">
-      <a class="stretch" href="./forestdale/index.html" aria-label="Open Forestdale Cemetery map"></a>
-      <div class="status"><i class="dot live"></i> Live</div>
-      <h2>Forestdale Cemetery</h2>
-      <div class="addr">304 Cabot Street · Est. 1860</div>
-      <div class="desc">Holyoke's public secular cemetery, organized in 1860 and dedicated in 1862. Contains GAR plots, a potter's field, and the grave of Medal of Honor recipient John MacKenzie (WWI).</div>
-      <div class="foot"><span class="count">363 Veterans Geolocated</span><span class="cta">Open map →</span></div>
-    </div>
-
-    <div class="card link">
-      <a class="stretch" href="./elmwood/index.html" aria-label="Open Elmwood Cemetery map"></a>
-      <div class="status"><i class="dot live"></i> Live</div>
-      <h2>Elmwood Cemetery</h2>
-      <div class="addr">2190 Northampton Street · Oldest burial 1755</div>
-      <div class="desc">The oldest burial ground in Holyoke, given to the city in 1955. Home to veterans of the French &amp; Indian War, Revolutionary War, and Civil War through World War II — including two veterans killed in 1777 and a WWI Navy Yeomanette.</div>
-      <div class="foot"><span class="count">60 Veterans of Record</span><span class="cta">Open map →</span></div>
-    </div>
-
-    <div class="card queue link">
-      <a class="stretch" href="./research-queue/index.html" aria-label="Open the research queue"></a>
-      <div class="status"><i class="dot live"></i> Live</div>
-      <h2>Research Queue</h2>
-      <div class="addr">Burial location unknown · Research ongoing</div>
-      <div class="desc">Holyoke veterans identified in the records but not yet located, listed alphabetically — those approved and awaiting geolocation, and those of record whose research is ongoing.</div>
-      <div class="foot"><span class="count">3,565 Veterans in Queue</span><span class="cta">Open queue →</span></div>
-    </div>
-
-    <div class="card coming">
-      <div class="status"><i class="dot coming"></i> In progress</div>
-      <h2>St. Jerome Cemetery</h2>
-      <div class="addr">125 Saint Jerome Avenue · Est. 1864</div>
-      <div class="desc">Opened in 1864, originally known as the Catholic Cemetery of Holyoke. Served Irish and French Canadian immigrant communities. Eight victims of the 1875 Precious Blood Church fire are buried here.</div>
-      <div class="foot"><span class="count">Coming soon</span><span class="cta">Soon</span></div>
-    </div>
-
-    <div class="card link">
-      <a class="stretch" href="./rock-valley/index.html" aria-label="Open Rock Valley Cemetery map"></a>
-      <div class="status"><i class="dot live"></i> Live</div>
-      <h2>Rock Valley Cemetery</h2>
-      <div class="addr">Rock Valley Road · Some burials from 1700s</div>
-      <div class="desc">A small burial ground in West Holyoke near the Southampton line, with early interments dating to the 18th century. Four soldiers of the Revolution lie here.</div>
-      <div class="foot"><span class="count">4 Veterans of Record</span><span class="cta">Open map →</span></div>
-    </div>
-
-    <div class="card link">
-      <a class="stretch" href="./smiths-ferry/index.html" aria-label="Open Smiths Ferry Cemetery map"></a>
-      <div class="status"><i class="dot live"></i> Live</div>
-      <h2>Smiths Ferry Cemetery</h2>
-      <div class="addr">Smiths Ferry · Holyoke's northern reach</div>
-      <div class="desc">An early burying ground at Smiths Ferry, in the north of the city. Four soldiers of the Revolution lie here.</div>
-      <div class="foot"><span class="count">4 Veterans of Record</span><span class="cta">Open map →</span></div>
-    </div>
-
-    <div class="card hr-card">
-      <a class="hr-title" href="./honor-roll/index.html">Holyoke Veterans Honor Roll</a>
-      <div id="hr-rows"><div class="hr-load">Reading the archive…</div></div>
-      <div class="hr-foot"><span id="hr-count">&nbsp;</span><a class="hr-all" href="./honor-roll/index.html">See them all →</a></div>
-    </div>
-
+<div id="header">
+  <div>
+    <h1 id="site-title">Veteran Archives</h1>
+    <div class="sub"><span id="site-sub"></span> &nbsp;·&nbsp; <a class="home" href="../index.html">← All Sites</a></div>
   </div>
-
-  <div class="vsearch">
-    <input id="vsearch-input" type="text" placeholder="Loading veterans…" autocomplete="off" spellcheck="false" disabled>
-    <div id="vsearch-results" class="vsearch-results"></div>
-  </div>
-
-</main>
-<footer>
-  City of Holyoke Veterans Graves Officer &nbsp;·&nbsp; 310 Appleton Street, 1st Floor, Holyoke, MA 01040 &nbsp;·&nbsp; (413) 322-5630<br>
-  Have information on a veteran? <span class="contact">Contact the Graves Officer.</span>
-</footer>
+  <div id="vet-count"></div>
 </div>
-<script>
-const SITE_LABELS = {calvary:'Calvary', forestdale:'Forestdale', elmwood:'Elmwood',
-  'rock-valley':'Rock Valley', 'smiths-ferry':'Smiths Ferry', 'research-queue':'Research Queue'};
-let SEARCH_INDEX = [];
-function vEsc(s){ const d=document.createElement('div'); d.textContent = s==null?'':s; return d.innerHTML; }
-function vFmt(n){ if(!n) return n; if(n.indexOf(',')>-1) return n;
-  const p=n.trim().split(/\s+/); return p.length>1 ? p[p.length-1]+', '+p.slice(0,-1).join(' ') : n; }
-function initVSearch(){
-  const input = document.getElementById('vsearch-input');
-  const box = document.getElementById('vsearch-results');
-  if(!input||!box) return;
-  let matches = [], active = -1;
-  function go(m){ location.href = './'+m.slug+'/index.html?v='+encodeURIComponent(m.id); }
-  function render(){
-    if(!matches.length){
-      box.innerHTML = input.value.trim() ? '<div class="vres-none">No veteran by that name.</div>' : '';
-      box.classList.toggle('show', !!input.value.trim());
-      return;
-    }
-    box.innerHTML = matches.map((m,i)=>'<a class="vres'+(i===active?' active':'')+'" href="./'+m.slug+
-      '/index.html?v='+encodeURIComponent(m.id)+'"><span class="vres-name">'+vEsc(vFmt(m.name))+
-      '</span><span class="vres-site">'+(SITE_LABELS[m.slug]||m.slug)+'</span></a>').join('');
-    box.classList.add('show');
-  }
-  function search(){
-    const t = input.value.trim().toLowerCase();
-    active = -1;
-    matches = t ? SEARCH_INDEX.filter(m => (m.name||'').toLowerCase().includes(t)).slice(0,25) : [];
-    render();
-  }
-  input.addEventListener('input', search);
-  input.addEventListener('keydown', e => {
-    if(e.key==='ArrowDown'){ e.preventDefault(); if(matches.length){ active=Math.min(active+1,matches.length-1); render(); } }
-    else if(e.key==='ArrowUp'){ e.preventDefault(); if(matches.length){ active=Math.max(active-1,0); render(); } }
-    else if(e.key==='Enter'){ const pick = matches[active>=0?active:0]; if(pick) go(pick); }
-    else if(e.key==='Escape'){ input.value=''; matches=[]; render(); input.blur(); }
-  });
-  input.addEventListener('focus', () => { if(matches.length) box.classList.add('show'); });
-  document.addEventListener('click', e => { if(!e.target.closest('.vsearch')) box.classList.remove('show'); });
-}
-(function honorRoll(){
-  const SITES = ['calvary','forestdale','elmwood','rock-valley','smiths-ferry','research-queue'];
-  const NOT_AN_HONOR = new Set(['Retake Needed','Needs Photo','Needs GPS','Duplicate']);
-  // MUST match DISTINCTION_ORDER in the map shell. Anything listed here that the map
-  // cannot filter would open to every man with no lit row to explain why.
-  const ORDER = ['Medal of Honor','Distinguished Service Cross','Croix de Guerre','KIA','Purple Heart',
-    'Distinguished Service Medal','Cited for Bravery','Air Medal','Silver Star','Bronze Star',
-    'French Military Medal','British Military Medal'];
-  const COLOR = {
-    'Medal of Honor':'#e6c14a','Distinguished Service Cross':'#9b6bc4','Croix de Guerre':'#4e8f63',
-    'KIA':'#c0392b','Purple Heart':'#a24bb3','Distinguished Service Medal':'#7c6fb0',
-    'Cited for Bravery':'#c07a4a','Air Medal':'#4a9be0','Silver Star':'#b9c0c7','Bronze Star':'#c99a3a',
-    'French Military Medal':'#5b7f8a','British Military Medal':'#8a7d5b','Died in Service':'#7a8a5b',
-    'Female Veteran':'#c98aa8','Medical Officer':'#5bab9e'
-  };
-  const esc = s => { const d=document.createElement('div'); d.textContent = s==null?'':s; return d.innerHTML; };
 
-  Promise.allSettled(SITES.map(async slug => {
-    const r = await fetch('./' + slug + '/data.js', {cache:'no-store'});
-    if (!r.ok) throw new Error(slug);
-    const sb = {}; new Function('window', await r.text())(sb);
-    return ((sb.VA && sb.VA.veterans) || []).map(v => ({v, slug}));
-  })).then(res => {
-    const men = [];
-    res.forEach(r => r.status === 'fulfilled' && men.push(...r.value));
-    SEARCH_INDEX = men.map(m => ({name:m.v.name, slug:m.slug, id:m.v.id})).filter(m => m.id && m.name);
-    const vin = document.getElementById('vsearch-input');
-    if(vin){ vin.disabled = false; vin.placeholder = 'Search all veterans by name…'; }
-    const counts = {}, honoured = new Set();
-    men.forEach(m => (m.v.badges||[]).forEach(b => {
-      if (NOT_AN_HONOR.has(b) || !ORDER.includes(b)) return;
-      counts[b] = (counts[b]||0) + 1;
-      honoured.add(m.slug + '|' + m.v.id);
-    }));
-    const keys = ORDER.filter(k => counts[k]);   // only honors the map can actually filter
-    document.getElementById('hr-rows').innerHTML = keys.map(k => {
-      const c = COLOR[k] || '#888';
-      const sym = (k === 'KIA')
-        ? `<div class="hr-sym" style="color:#e6c14a;font-size:0.7rem;text-shadow:0 0 4px rgba(230,193,74,0.7)">★</div>`
-        : `<div class="hr-sym" style="color:${c};font-size:0.55rem">●</div>`;
-      return `<a class="hr-row" href="./honor-roll/?honor=${encodeURIComponent(k)}">` +
-             `${sym}<div class="hr-name">${esc(k)}</div><div class="hr-n">${counts[k]}</div></a>`;
-    }).join('');
-    const c = document.getElementById('hr-count');
-    if (c) c.textContent = honoured.size + ' honored';
-  }).catch(() => {
-    document.getElementById('hr-rows').innerHTML = '<div class="hr-load">Could not read the archive.</div>';
+<div id="main">
+  <div id="map"></div>
+  <button id="locate-me" type="button" title="Show my location" aria-label="Show my location">◎</button>
+
+  <div id="legend">
+    <h4 id="leg-head">Honors<span class="all-hint">show all</span></h4>
+    <div id="leg-distinct"></div>
+  </div>
+
+  <div id="sidebar">
+    <div id="sheet-handle"><span class="hbar"></span><span class="sheet-hint">Search or browse the index</span></div>
+    <div id="sidebar-top">
+      <input id="search" type="text" placeholder="Search veterans…">
+      <div id="era-filters"></div>
+    </div>
+    <div id="list-wrap">
+      <div id="vet-list"><div id="pad-top"></div><div id="rows"></div><div id="pad-bot"></div></div>
+      <div id="az-rail" title="Jump to a letter"></div>
+    </div>
+    <div id="no-results">No veterans found</div>
+  </div>
+</div>
+
+<div id="popup">
+  <div id="pbox">
+    <button id="pclose" onclick="closePopup()">×</button>
+    <img id="pphoto" src="" alt="">
+    <div id="pphoto-ph">Resting Place Pending Geo-location</div>
+    <div id="pextra"></div>
+    <div id="pname"></div>
+    <div id="pservice"></div>
+    <div id="pflags"></div>
+    <div id="pstory"></div>
+      <div id="psrc"></div>
+      <div id="pcontact"></div>
+  </div>
+</div>
+
+<!-- Per-site data. This is the ONLY file that changes between sites. -->
+<script src="data.js"></script>
+<script>
+/* ============================================================
+   VETERAN ARCHIVES — canonical template.
+   Identical for every site. All per-site content lives in data.js
+   as window.VA = { site:{...}, veterans:[...] }.
+   ============================================================ */
+const SITE = (window.VA && window.VA.site) || {};
+const veterans = (window.VA && window.VA.veterans) || [];
+const IS_QUEUE = SITE.kind === 'queue';
+
+const CONTACT_CLOSE = 'If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.';
+const QUEUE_TEXT = 'This veteran has been identified but is still in the research queue — a narrative has not yet been written. The entry is held here until research and grave location are complete.';
+
+document.getElementById('site-title').textContent = SITE.title || SITE.name || 'Veteran Archives';
+document.getElementById('site-sub').textContent = SITE.address || '';
+document.title = (SITE.title || 'Veteran Archives') + ' — Holyoke, MA';
+
+const ERA_COLORS = {
+  'Civil War Era':'#8B4513',
+  'Spanish-American War':'#CD853F',
+  'World War I':'#4682B4',
+  'World War II':'#2E8B57',
+  'Korean War':'#9370DB',
+  'Vietnam':'#DC143C',
+  'Cold War':'#5f9ea0',
+  'Unknown Era':'#666',
+};
+const ERA_ORDER = ['Civil War Era','Spanish-American War','World War I','World War II','Korean War','Vietnam','Cold War','Unknown Era'];
+
+function normEra(raw) {
+  if (!raw) return 'Unknown Era';
+  const s = raw.trim();
+  if (s.includes('Civil')) return 'Civil War Era';
+  if (s.includes('Spanish')) return 'Spanish-American War';
+  if (s.includes('Vietnam')) return 'Vietnam';
+  if (s.includes('World War II')) return 'World War II';
+  if (s.includes('World War I')) return 'World War I';
+  if (s.includes('Korean')) return 'Korean War';
+  if (s.includes('Cold War')) return 'Cold War';
+  return 'Unknown Era';
+}
+function normEras(raw) {
+  if (Array.isArray(raw)) {
+    const seen = [];
+    raw.forEach(r => { const e = normEra(r); if (!seen.includes(e)) seen.push(e); });
+    const out = seen.filter(e => e !== 'Unknown Era');
+    return out.length ? out.sort((a,b)=>ERA_ORDER.indexOf(a)-ERA_ORDER.indexOf(b)) : ['Unknown Era'];
+  }
+  return [normEra(raw)];
+}
+function eraLabel(raw) { return normEras(raw).join(' · '); }
+function eraColor(raw) { return ERA_COLORS[normEras(raw)[0]] || '#666'; }
+
+function branchSym(branch) {
+  if (!branch) return '✦';
+  const b = branch.toUpperCase();
+  if (b.includes('NAVY')) return '⚓';
+  if (b.includes('MARINE') || b.includes('USMC')) return '🦅';
+  if (b.includes('AIR') || b.includes('USAF')) return '✈';
+  if (b.includes('COAST')) return '⚑';
+  if (b.includes('ARMY')) return '★';
+  return '✦';
+}
+
+const map = L.map('map', {preferCanvas:true, minZoom:13, maxZoom:20})
+  .setView(SITE.center || [42.2043,-72.6162], SITE.zoom || 15);
+
+const satellite = L.tileLayer(
+  'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+  {attribution:'© Esri', maxNativeZoom:19, maxZoom:20}
+);
+const street = L.tileLayer(
+  'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
+  {attribution:'© CARTO', subdomains:'abcd', maxNativeZoom:19, maxZoom:20}
+);
+const terrain = L.tileLayer(
+  'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',
+  {attribution:'© Esri', maxNativeZoom:19, maxZoom:20}
+);
+satellite.addTo(map);
+L.control.layers({'Satellite':satellite,'Street':street,'Terrain':terrain},{},{position:'topleft'}).addTo(map);
+
+let activeEras = new Set(ERA_ORDER);
+let activeDistinction = (typeof window.INIT_DISTINCTION === 'string' && window.INIT_DISTINCTION) || null;
+let markerMap = {};
+let activeIdx = null;
+let searchTerm = '';
+let activeMarker = null;
+
+// --- sidebar render state: sort once, render the whole index, let the browser skip what's offscreen ---
+let SORTED = null;          // cached sorted index — built once, never re-sorted
+let FILTERED = [];          // current filter/search result set
+let searchTimer = null;     // debounce handle
+
+// Major distinctions, most prestigious first. Each cemetery builds chips from whichever it actually has.
+const DISTINCTION_ORDER = ['Medal of Honor','Distinguished Service Cross','Croix de Guerre','KIA','Purple Heart','Distinguished Service Medal','Cited for Bravery','Air Medal','Silver Star','Bronze Star','French Military Medal','British Military Medal'];
+const DISTINCTION_COLORS = {
+  'Medal of Honor':'#e6c14a','Distinguished Service Cross':'#9b7ede','Distinguished Service Medal':'#7c6fb0',
+  'Silver Star':'#b9c0c7','Bronze Star':'#c99a3a','Air Medal':'#4a9be0','Purple Heart':'#a24bb3',
+  'Croix de Guerre':'#4e8f63','KIA':'#c0392b','Cited for Bravery':'#c07a4a','British Military Medal':'#8a7d5b','French Military Medal':'#5b7f8a'
+};
+const DISTINCTION_SHORT = {};  // spell every distinction out in full
+function canonBadge(b){ const low=(b||'').toLowerCase(); for(const n of DISTINCTION_ORDER){ if(n.toLowerCase()===low) return n; } return null; }
+function vetDistinctions(v){ return (v.badges||[]).map(canonBadge).filter(Boolean); }
+function isDistinguished(v){ return vetDistinctions(v).length>0; }
+function passesFilters(v){ return normEras(v.era).some(e => activeEras.has(e)) && (!activeDistinction || vetDistinctions(v).includes(activeDistinction)); }
+
+function hasCoords(v){ return v && v.lat!=null && v.lng!=null && !isNaN(v.lat) && !isNaN(v.lng); }
+
+function buildMarkers() {
+  Object.values(markerMap).forEach(m => map.removeLayer(m));
+  markerMap = {};
+  veterans.forEach((v, idx) => {
+    if (!passesFilters(v)) return;
+    if (!hasCoords(v)) return;
+    const color = eraColor(v.era);
+    const sym = branchSym(v.branch);
+    const dist = isDistinguished(v);
+    const isKIA = (v.badges||[]).some(b => (b||'').toLowerCase()==='kia');
+    const rim = dist
+      ? 'border:2px solid #ffd757;box-shadow:0 0 7px 1px rgba(255,205,70,0.85);'
+      : 'border:2px solid rgba(255,255,255,0.65);box-shadow:0 1px 5px rgba(0,0,0,0.8);';
+    const pulseCls = activeDistinction ? 'hpulse' : '';
+    const star = isKIA ? '<div style="position:absolute;top:-9px;right:-7px;font-size:13px;color:#ffd54a;line-height:1;text-shadow:0 0 3px #000,0 0 6px rgba(255,210,70,0.9);pointer-events:none;">★</div>' : '';
+    const icon = L.divIcon({
+      className:'',
+      html:`<div style="position:relative;width:26px;height:26px;">${star}<div class="${pulseCls}" style="width:26px;height:26px;border-radius:50%;background:${color};${rim}display:flex;align-items:center;justify-content:center;font-size:11px;cursor:pointer;">${sym}</div></div>`,
+      iconSize:[26,26], iconAnchor:[13,13]
+    });
+    const m = L.marker([v.lat, v.lng], {icon});
+    m.on('click', () => openPopup(v, idx));
+    m.addTo(map);
+    markerMap[idx] = m;
   });
+}
+
+function openPopup(v, idx) {
+  if (activeMarker) activeMarker.getElement()?.classList.remove('marker-pulse');
+  const queued = !((v.narrative||'').trim());
+  document.getElementById('pname').textContent = titleName(v.name);
+  document.getElementById('pservice').textContent = serviceLine(v);
+  const storyEl = document.getElementById('pstory');
+  storyEl.textContent = queued ? QUEUE_TEXT : v.narrative;
+  storyEl.classList.toggle('queued', queued);
+
+  const srcEl = document.getElementById('psrc');
+  srcEl.textContent = v.sourceNote || '';
+  srcEl.style.display = v.sourceNote ? 'block' : 'none';
+
+  const conEl = document.getElementById('pcontact');
+  const showContact = !!v.sourceNote;              // legacy entries carry the close inside narrative
+  conEl.textContent = showContact ? CONTACT_CLOSE : '';
+  conEl.style.display = showContact ? 'block' : 'none';
+
+  const photo = document.getElementById('pphoto');
+  const ph = document.getElementById('pphoto-ph');
+  if (v.photo) { photo.src = v.photo; photo.style.display = 'block'; ph.classList.remove('show'); }
+  else if (!hasCoords(v)) { photo.style.display = 'none'; ph.classList.add('show'); }   // queue: pending geo-location
+  else { photo.style.display = 'none'; ph.classList.remove('show'); }
+
+  const extEl = document.getElementById('pextra');
+  extEl.innerHTML = '';
+  (v.extraPhotos||[]).forEach(ep => {
+    const link = document.createElement('a');
+    link.href = ep.src; link.target = '_blank';
+    link.style.cssText = 'display:block;margin-bottom:10px;color:#c8b97a;font-size:0.82rem;text-decoration:none;border:1px solid #444;border-radius:6px;padding:8px 12px;background:#1a1a1a;';
+    link.textContent = ep.caption || 'View document';
+    extEl.appendChild(link);
+  });
+
+  const flagsEl = document.getElementById('pflags');
+  flagsEl.innerHTML = '';
+  const fs = {'KIA':['#8B0000','#fff'],'Purple Heart':['#7B2D8B','#fff'],'Bronze Star':['#B8860B','#fff'],'Air Medal':['#1a6abf','#fff'],'Female Veteran':['#C71585','#fff'],'Silver Star':['#71797E','#fff'],'Distinguished Service Cross':['#2c1b4d','#fff'],'Croix de Guerre':['#2d5a3d','#fff'],'Died in Service':['#5a3d2d','#fff'],'Medical Officer':['#2d5a5a','#fff'],'Retake Needed':['#333','#c99'],'Cited for Bravery':['#7a4a24','#fff'],'French Military Medal':['#2d4a55','#fff'],'British Military Medal':['#4a442d','#fff'],'Medal of Honor':['#8a6d16','#fff'],'Distinguished Service Medal':['#3d356b','#fff']};
+  (v.badges||[]).forEach(f => {
+    const [bg,fg] = fs[f]||['#444','#fff'];
+    const b = document.createElement('span');
+    b.className='fbadge'; b.style.background=bg; b.style.color=fg; b.textContent=f;
+    flagsEl.appendChild(b);
+  });
+
+  // Window always sits left of the sidebar, so the index stays clear and scrollable.
+  if (hasCoords(v)) {
+    const clickedMarker = markerMap[idx];
+    if (clickedMarker) { clickedMarker.getElement()?.classList.add('marker-pulse'); activeMarker = clickedMarker; }
+    const mapW = map.getContainer().offsetWidth;
+    const popupLeft = mapW - 275 - 310;
+    const graveTargetX = popupLeft * 0.45;
+    const currentCenter = map.project(map.getCenter(), map.getZoom());
+    const gravePoint = map.project([v.lat, v.lng], map.getZoom());
+    const currentGraveX = gravePoint.x - currentCenter.x + mapW / 2;
+    const shiftX = currentGraveX - graveTargetX;
+    const newCenter = map.unproject([currentCenter.x + shiftX, currentCenter.y], map.getZoom());
+    map.panTo(newCenter, {animate:true, duration:0.7});
+  }
+  // else: queue / not-yet-located — no pin to pan to; the window still opens in place.
+
+  document.querySelectorAll('.vet-item').forEach(el => el.classList.remove('active'));
+  activeIdx = idx;
+  // Under a windowed list the row may not exist yet — compute where it lives and
+  // scroll there, then draw. Never rely on scrollIntoView for an undrawn row.
+  const pos = FILTERED.findIndex(f => f.i === idx);
+  if (pos >= 0) {
+    const list = document.getElementById('vet-list');
+    const top = pos * ROW_H, bot = top + ROW_H;
+    if (top < list.scrollTop || bot > list.scrollTop + list.clientHeight) {
+      list.scrollTop = Math.max(0, top - list.clientHeight / 2 + ROW_H / 2);
+    }
+    drawWindow(true);
+  }
+  document.getElementById('popup').classList.add('show');
+  if (window.matchMedia && window.matchMedia('(max-width:640px)').matches) document.body.classList.remove('sheet-open');
+}
+
+function closePopup() {
+  document.getElementById('popup').classList.remove('show');
+  if (activeMarker) { activeMarker.getElement()?.classList.remove('marker-pulse'); activeMarker = null; }
+  document.querySelectorAll('.vet-item').forEach(el => el.classList.remove('active'));
+  activeIdx = null;
+}
+map.on('click', () => {
+  if (document.getElementById('popup').classList.contains('show')) closePopup();
+});
+
+const SUF = /^(Sr|Jr|II|III|IV|MD)\.?$/i;
+function sortKey(n){
+  if(/^unknown/i.test(n)) return n;   // "Unknown Soldier N" -> sorts under U, in order
+  return n.includes(',') ? n.split(',')[0].trim()
+    : (() => { const w=n.split(' '); return SUF.test(w[w.length-1])?(w[w.length-2]||w[0]):w[w.length-1]; })();
+}
+function displayName(n){
+  if(/^unknown/i.test(n)) return n;   // show as-is, don't reformat to "N, Unknown Soldier"
+  return n.includes(',') ? n
+    : (() => { const p=n.trim().split(/\s+/); return p.length>1 ? p[p.length-1]+', '+p.slice(0,-1).join(' ') : n; })();
+}
+
+/* --- label normalization: consistent titles + service line across every site --- */
+// Military ranks stripped from titles; clergy/civil honorifics (Rev., Fr., Dr., Msgr.) are preserved.
+var _RANKS = ['Pvt','Private','Pfc','Cpl','Corporal','Sgt','Sergeant','SSgt','TSgt','MSgt',
+  'Lt','Lieut','Lieutenant','Capt','Captain','Maj','Major','Col','Colonel','LtCol',
+  'BrigGen','MajGen','Gen','General','Cmdr','Commander','LtCmdr','Ens','Ensign',
+  'Adm','Admiral','RAdm','Chief','CPO','SCPO','MCPO','PO1','PO2','PO3','Seaman','SN',
+  'Cadet','WO','Sp1','Sp2','Sp3','Sp4','Sp5','Tec4','Tec5'];
+function stripRank(n){
+  if(!n) return n;
+  var s = n.trim();
+  s = s.replace(new RegExp(',\\s*(?:'+_RANKS.join('|')+')\\.?\\s*$','i'), '');   // "Last, First, Capt"
+  s = s.replace(new RegExp('^(?:'+_RANKS.join('|')+')\\.?\\s+','i'), '');          // "Capt First Last"
+  return s.trim();
+}
+// Canonical branch in Mark's "U.S. Army" style. '' means omit (Military/Unknown/blank).
+function normBranch(b){
+  if(!b) return '';
+  var s = b.trim(); if(!s) return '';
+  var core = s.replace(/^U\.?\s?S\.?\s+/i,'').trim();
+  if(/^(unknown|military|n\/?a|unknown branch)$/i.test(core) || /^(unknown|military)$/i.test(s)) return '';
+  if(/^U\.?\s?S\.?\s+/i.test(s)) return s.replace(/^U\.?\s?S\.?\s+/i,'U.S. ');   // already canonical
+  var u = core.toUpperCase();
+  if(/^(USNRF|USNR)$|NAVAL RESERVE/.test(u)) return 'U.S. Naval Reserve';
+  if(/COAST GUARD RESERVE/.test(u)) return 'U.S. Coast Guard Reserve';
+  if(/^USCG$|COAST GUARD/.test(u)) return 'U.S. Coast Guard';
+  if(/^USMC$|MARINE/.test(u)) return 'U.S. Marine Corps';
+  if(/USAAF|USAAC|ARMY AIR|AIR CORPS|^AAF$/.test(u)) return 'U.S. Army Air Forces';
+  if(/^USAF$|AIR FORCE/.test(u)) return 'U.S. Air Force';
+  if(/^USN$|^NAVY$/.test(u)) return 'U.S. Navy';
+  if(/^ARMY$/.test(u)) return 'U.S. Army';
+  if(/MASSACHUSETTS|^MA INFANTRY$|^MA /.test(u)) return core.replace(/^MA\b/i,'Massachusetts');
+  return core;   // specialized unit (Ordnance Company, Field Artillery, etc.) — leave as written
+}
+// Prefer clean `branch`; else the branch portion of a freeform branchLabel (before · or •).
+function branchSource(v){
+  if(v.branch && v.branch.trim()) return v.branch;
+  return (v.branchLabel||'').split(/[·•]/)[0].trim();
+}
+// The one true service line: "U.S. Army • World War I" (spaced bullet, full era from the era field).
+function serviceLine(v){
+  return [normBranch(branchSource(v)), eraLabel(v.era)].filter(Boolean).join(' • ');
+}
+// Title: rank stripped, "Last, First" — identical to the index.
+function titleName(n){ return displayName(stripRank(n)); }
+
+
+function sortedList() {
+  if (!SORTED) SORTED = veterans.map((v,i)=>({v,i})).sort((a,b)=>
+    sortKey(a.v.name).localeCompare(sortKey(b.v.name)) || a.v.name.localeCompare(b.v.name));
+  return SORTED;
+}
+
+function makeRow(v, idx) {
+  const queued = !((v.narrative||'').trim());
+  const el = document.createElement('div');
+  el.className = 'vet-item' + (idx===activeIdx?' active':'') + (queued?' queued':'');
+  el.dataset.i = idx;
+  const q = queued ? `<div class="v-badge-q">\u25d4 queue</div>` : '';
+  el.innerHTML = `<div class="v-sym" style="color:${eraColor(v.era)}">${branchSym(v.branch)}</div><div style="flex:1;min-width:0"><div class="v-name">${titleName(v.name)}</div><div class="v-era">${eraLabel(v.era)}</div></div>${q}`;
+  el.dataset.idx = idx;
+  return el;
+}
+
+// ---- windowed list -------------------------------------------------------
+// Only the rows you can see exist. Above and below them sit two spacers holding
+// the exact height of everything not drawn, so the scrollbar is honest and the
+// cost of scrolling is the same at 40 names or 40,000.
+const ROW_H = 40;            // MUST match .vet-item height in the CSS
+const OVERSCAN = 8;          // rows drawn beyond each edge, so a fling doesn't flash blank
+let winStart = -1, winEnd = -1, winQueued = false;
+
+function ensureScaffold() {
+  const list = document.getElementById('vet-list');
+  if (document.getElementById('rows')) return list;
+  list.replaceChildren();
+  ['pad-top','rows','pad-bot'].forEach(id => {
+    const d = document.createElement('div'); d.id = id; list.appendChild(d);
+  });
+  return list;
+}
+
+function drawWindow(force) {
+  const list = ensureScaffold();
+  const rows = document.getElementById('rows');
+  const total = FILTERED.length;
+  const visible = Math.ceil(list.clientHeight / ROW_H) + OVERSCAN * 2;
+  let first = Math.max(0, Math.floor(list.scrollTop / ROW_H) - OVERSCAN);
+  // If the list shortened under us (a filter, a search) the old scroll position can
+  // point past the end. Never let that draw an empty window.
+  if (first > Math.max(0, total - 1)) first = Math.max(0, total - visible);
+  const last = Math.min(total, first + visible);
+  if (!force && first === winStart && last === winEnd) return;
+  winStart = first; winEnd = last;
+
+  const frag = document.createDocumentFragment();
+  for (let n = first; n < last; n++) frag.appendChild(makeRow(FILTERED[n].v, FILTERED[n].i));
+  rows.replaceChildren(frag);
+  document.getElementById('pad-top').style.height = (first * ROW_H) + 'px';
+  document.getElementById('pad-bot').style.height = Math.max(0, (total - last) * ROW_H) + 'px';
+  if (activeIdx !== null) {
+    const el = rows.querySelector(`.vet-item[data-i="${activeIdx}"]`);
+    if (el) el.classList.add('active');
+  }
+  litLetter();
+}
+
+// The rail lights the letter you are actually looking at, and follows the list as it moves.
+function litLetter() {
+  const rail = document.getElementById('az-rail');
+  if (!rail || !rail.children.length || !FILTERED.length) return;
+  const list = document.getElementById('vet-list');
+  const top = Math.min(FILTERED.length - 1, Math.max(0, Math.round(list.scrollTop / ROW_H)));
+  const L = sortKey(FILTERED[top].v.name).trim().charAt(0).toUpperCase();
+  if (L === RAIL_LIT) return;
+  RAIL_LIT = L;
+  rail.querySelectorAll('.az-l').forEach(el => el.classList.toggle('on', el.dataset.l === L));
+}
+
+function renderMore() { winStart = winEnd = -1; drawWindow(true); }
+
+// scroll drives the window, coalesced to one draw per frame
+document.getElementById('vet-list').addEventListener('scroll', () => {
+  if (winQueued) return;
+  winQueued = true;
+  requestAnimationFrame(() => { winQueued = false; drawWindow(false); });
+}, {passive:true});
+window.addEventListener('resize', () => drawWindow(true));
+
+function buildSidebar() {
+  const list = document.getElementById('vet-list');
+  const none = document.getElementById('no-results');
+  const term = searchTerm.toLowerCase();
+  FILTERED = sortedList().filter(({v}) =>
+    passesFilters(v) &&
+    (!term || v.name.toLowerCase().includes(term) || (v.branch||'').toLowerCase().includes(term)));
+  // Clear the drawn rows ONLY. Wiping #vet-list would destroy pad-top/rows/pad-bot
+  // and the windowed list would never draw again.
+  document.getElementById('rows').replaceChildren();
+  list.scrollTop = 0;
+  renderMore();
+  buildRail();
+  none.style.display = FILTERED.length===0 ? 'block' : 'none';
+}
+
+// --- one click handler for the whole index ---
+document.getElementById('vet-list').addEventListener('click', e => {
+  const row = e.target.closest('.vet-item');
+  if (!row) return;
+  const idx = +row.dataset.idx;
+  const v = veterans[idx];
+  if (!v) return;
+  if (hasCoords(v)) { map.flyTo([v.lat, v.lng], 19, {duration:1.0}); setTimeout(() => openPopup(v, idx), 350); }
+  else { openPopup(v, idx); }
+});
+
+// --- the A-Z rail: the Queue is 3,052 names. Scrolling cannot land on a man; this can. ---
+const AZ = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+let AZ_POS = {};
+let RAIL_LIT = null;   // the letter currently lit, so we only touch the DOM when it changes
+let RAIL_JUMP = 0;     // when the rail last moved the list on purpose
+let LETTER_PX = [];    // px position of every letter boundary, rebuilt with the rail   // letter -> first row index in FILTERED, rebuilt on every filter/search
+
+function buildRail() {
+  const rail = document.getElementById('az-rail');
+  if (!rail) return;
+  if (!rail.children.length) {
+    const frag = document.createDocumentFragment();
+    AZ.forEach(L => {
+      const d = document.createElement('div');
+      d.className = 'az-l'; d.textContent = L; d.dataset.l = L;
+      frag.appendChild(d);
+    });
+    rail.appendChild(frag);
+    const b = document.createElement('div');
+    b.id = 'az-bubble'; document.getElementById('sidebar').appendChild(b);
+  }
+  AZ_POS = {}; RAIL_LIT = null;
+  for (let n = 0; n < FILTERED.length; n++) {
+    const L = sortKey(FILTERED[n].v.name).trim().charAt(0).toUpperCase();
+    if (AZ_POS[L] === undefined) AZ_POS[L] = n;
+  }
+  rail.querySelectorAll('.az-l').forEach(el => {
+    el.classList.toggle('dead', AZ_POS[el.dataset.l] === undefined);
+  });
+  LETTER_PX = Object.values(AZ_POS).map(p => p * ROW_H).sort((a,b) => a - b);
+  litLetter();   // the rail is built after the first draw, so light it now or nothing lights at load
+}
+
+// Scrolling is the browser's own, as it was before the sidebar rebuild. No wheel code,
+// no momentum, no letter-stop. The A-Z rail is what gives precision on a long list.
+
+function jumpTo(L) {
+  const pos = AZ_POS[L];
+  if (pos === undefined) return false;
+  const list = document.getElementById('vet-list');
+  // A row for this man may not exist yet — never scrollIntoView an undrawn row.
+  RAIL_JUMP = performance.now();   // tell the letter-stop this move was deliberate
+  list.scrollTop = pos * ROW_H;
+  drawWindow(true);   // drawWindow lights the letter via litLetter()
+  return true;
+}
+
+(function railControl(){
+  const rail = document.getElementById('az-rail');
+  if (!rail) return;
+  const bubble = () => document.getElementById('az-bubble');
+  let down = false;
+
+  function letterAt(y) {
+    const el = document.elementFromPoint(rail.getBoundingClientRect().left + 8, y);
+    return (el && el.classList && el.classList.contains('az-l')) ? el : null;
+  }
+  function go(y) {
+    const el = letterAt(y);
+    if (!el || el.classList.contains('dead')) return;
+    if (jumpTo(el.dataset.l)) {
+      const b = bubble();
+      if (b) {
+        b.textContent = el.dataset.l;
+        b.style.display = 'block';
+        b.style.top = (el.getBoundingClientRect().top - rail.getBoundingClientRect().top + 3) + 'px';
+      }
+    }
+  }
+  rail.addEventListener('pointerdown', e => {
+    down = true; rail.setPointerCapture(e.pointerId); go(e.clientY); e.preventDefault();
+  });
+  rail.addEventListener('pointermove', e => { if (down) go(e.clientY); });
+  function up(){ down = false; const b = bubble(); if (b) b.style.display = 'none'; }
+  rail.addEventListener('pointerup', up);
+  rail.addEventListener('pointercancel', up);
 })();
-initVSearch();
+
+function updateCount() {
+  const showing = veterans.filter(passesFilters).length;
+  const total = veterans.length;
+  const label = IS_QUEUE ? 'In the Research Queue' : 'Documented Veterans';
+  document.getElementById('vet-count').textContent =
+    showing === total ? `${total} ${label}` : `${showing} of ${total}`;
+}
+
+const eraCounts = {};
+veterans.forEach(v => { normEras(v.era).forEach(e => { eraCounts[e]=(eraCounts[e]||0)+1; }); });
+
+// Era filters (with counts) live above the names in the sidebar.
+const filterDiv = document.getElementById('era-filters');
+ERA_ORDER.forEach(era => {
+  if (!eraCounts[era]) return;
+  const short = era.replace(' Era','').replace('World War ','WW').replace('Korean War','Korea');
+  const btn = document.createElement('button');
+  btn.className='era-btn selected'; btn.style.background=ERA_COLORS[era]; btn.dataset.era=era;
+  btn.innerHTML=`${short} <span class="eb-n">${eraCounts[era]}</span>`;
+  btn.addEventListener('click', () => {
+    if (activeDistinction) { activeDistinction = null; document.querySelectorAll('.leg-row.dist').forEach(r => r.classList.remove('on')); }
+    if (btn.classList.contains('selected')) {
+      btn.classList.remove('selected'); activeEras.delete(era);   // darken → those vets fall off
+    } else {
+      btn.classList.add('selected'); activeEras.add(era);          // re-light → they come back
+    }
+    buildMarkers(); buildSidebar(); updateCount();
+  });
+  filterDiv.appendChild(btn);
+});
+
+// Distinctions — fill the bottom-left box; hide it entirely if this site has none.
+const distCounts = {};
+veterans.forEach(v => vetDistinctions(v).forEach(d => distCounts[d] = (distCounts[d]||0)+1));
+const legDistinct = document.getElementById('leg-distinct');
+if (!Object.keys(distCounts).length) {
+  document.getElementById('legend').style.display = 'none';
+} else {
+  DISTINCTION_ORDER.forEach(d => {
+    if (!distCounts[d]) return;
+    const row = document.createElement('div');
+    row.className = 'leg-row dist'; row.dataset.dist = d;
+    row.style.setProperty('--dc', DISTINCTION_COLORS[d] || '#888');
+    const dotHtml = (d==='KIA')
+      ? `<div class="leg-sym" style="color:#e6c14a;font-size:0.7rem;text-shadow:0 0 4px rgba(230,193,74,0.7)">★</div>`
+      : `<div class="leg-sym" style="color:${DISTINCTION_COLORS[d]||'#888'};font-size:0.55rem">●</div>`;
+    row.innerHTML = `${dotHtml}<div class="leg-label">${DISTINCTION_SHORT[d]||d}</div><div class="leg-count">${distCounts[d]}</div>`;
+    row.addEventListener('click', () => {
+      if (activeDistinction === d) { activeDistinction = null; row.classList.remove('on'); }
+      else {
+        activeDistinction = d;
+        document.querySelectorAll('.leg-row.dist').forEach(r => r.classList.remove('on'));
+        row.classList.add('on');
+        activeEras = new Set(ERA_ORDER);
+        document.querySelectorAll('.era-btn').forEach(b => b.classList.add('selected'));
+      }
+      legDistinct.classList.toggle('filtered', !!activeDistinction);
+      buildMarkers(); buildSidebar(); updateCount();
+    });
+    legDistinct.appendChild(row);
+  });
+  // arrived with an honor already chosen? light it. If it isn't in this box, drop it
+  // rather than show an empty map with no lit row to explain why.
+  if (activeDistinction) {
+    let found = null;
+    legDistinct.querySelectorAll('.leg-row.dist').forEach(r => { if (r.dataset.dist === activeDistinction) found = r; });
+    if (found) found.classList.add('on'); else activeDistinction = null;
+    legDistinct.classList.toggle('filtered', !!activeDistinction);
+  }
+  // the word Honors is the way back to all of them
+  const head = document.getElementById('leg-head');
+  if (head) head.addEventListener('click', () => {
+    activeDistinction = null;
+    legDistinct.querySelectorAll('.leg-row.dist').forEach(r => r.classList.remove('on'));
+    legDistinct.classList.remove('filtered');
+    buildMarkers(); buildSidebar(); updateCount();
+  });
+}
+
+document.getElementById('search').addEventListener('input', e => {
+  searchTerm = e.target.value;
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(buildSidebar, 120);
+});
+document.getElementById('search').addEventListener('keydown', e => {
+  if (e.key==='Enter') {
+    const term = e.target.value.toLowerCase();
+    const idx = veterans.findIndex(v => v.name.toLowerCase().includes(term));
+    if (idx>=0) {
+      const match = veterans[idx];
+      if (hasCoords(match)) { map.flyTo([match.lat, match.lng], 19, {duration:1.0}); setTimeout(() => openPopup(match, idx), 350); }
+      else { openPopup(match, idx); }
+    }
+  }
+});
+
+updateCount();
+buildMarkers();
+buildSidebar();
+
+// Deep-link: ?v=<id> opens that veteran on load — same detail/pulse/highlight as an index click.
+(function(){
+  var vid = new URLSearchParams(location.search).get('v');
+  if(!vid) return;
+  var idx = veterans.findIndex(function(v){ return v.id === vid; });
+  if(idx < 0) return;
+  var match = veterans[idx];
+  setTimeout(function(){
+    if (hasCoords(match)) { map.flyTo([match.lat, match.lng], 19, {duration:1.0}); setTimeout(function(){ openPopup(match, idx); }, 400); }
+    else { openPopup(match, idx); }
+  }, 60);
+})();
+
+// ===== Field mode behaviour (guards make it a no-op on desktop) =====
+(function(){
+  var handle = document.getElementById('sheet-handle');
+  if (handle) handle.addEventListener('click', function(){ document.body.classList.toggle('sheet-open'); });
+  var search = document.getElementById('search');
+  if (search) search.addEventListener('focus', function(){ document.body.classList.add('sheet-open'); });
+  var popup = document.getElementById('popup');
+  if (popup) popup.addEventListener('click', function(e){ if (e.target === popup) closePopup(); });
+})();
+
+var _youMarker=null, _youCircle=null, _youCentered=false;
+function locateMe(){
+  var btn = document.getElementById('locate-me');
+  if (!navigator.geolocation){ alert('Location is not available on this device.'); return; }
+  if (btn) btn.classList.add('locating');
+  navigator.geolocation.watchPosition(function(p){
+    var la=p.coords.latitude, lo=p.coords.longitude, ac=p.coords.accuracy;
+    if (!_youMarker){
+      _youMarker = L.marker([la,lo], {icon:L.divIcon({className:'', html:'<div class="you-dot"></div>', iconSize:[16,16], iconAnchor:[8,8]}), zIndexOffset:1000}).addTo(map);
+      _youCircle = L.circle([la,lo], {radius:ac, color:'#4a9be0', weight:1, fillColor:'#4a9be0', fillOpacity:0.12}).addTo(map);
+    } else { _youMarker.setLatLng([la,lo]); _youCircle.setLatLng([la,lo]).setRadius(ac); }
+    if (btn) btn.classList.remove('locating');
+    if (!_youCentered){ map.setView([la,lo], Math.max(map.getZoom(), 18)); _youCentered = true; }
+  }, function(){
+    if (btn) btn.classList.remove('locating');
+    alert('Could not get your location. Make sure location access is allowed for this site.');
+  }, {enableHighAccuracy:true, maximumAge:4000, timeout:15000});
+}
+(function(){ var b=document.getElementById('locate-me'); if(b) b.addEventListener('click', locateMe); })();
 </script>
 </body>
 </html>
