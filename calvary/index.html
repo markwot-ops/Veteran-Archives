@@ -199,9 +199,10 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 @keyframes locSpin { to { transform:rotate(360deg); } }
 
 @media (max-width:640px) {
-  #header { padding:8px 12px; }
-  #header h1 { font-size:0.82rem; letter-spacing:0.05em; }
-  #header .sub { font-size:0.6rem; margin-top:1px; }
+  #header { padding:13px 16px; }
+  #header h1 { font-size:1.23rem; letter-spacing:0.05em; }
+  #header .sub { font-size:0.9rem; margin-top:3px; }
+  #header .home { font-size:0.9rem; }
   #vet-count { display:none; }
   #legend { display:none; }
   #az-rail { display:none; }
@@ -218,7 +219,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
     cursor:pointer; background:#0a0a0a; border-radius:16px 16px 0 0;
   }
   #sheet-handle .hbar { width:38px; height:4px; border-radius:2px; background:#5a4a34; }
-  #sheet-handle .sheet-hint { font-size:0.62rem; color:#8a8272; letter-spacing:0.04em; }
+  #sheet-handle .sheet-hint { font-size:0.93rem; color:#8a8272; letter-spacing:0.04em; }
   body:not(.sheet-open) #list-wrap { display:none; }
   body.sheet-open #sheet-handle .sheet-hint::after { content:' — tap to close'; }
   #sidebar-top { padding:9px 12px 10px; }
@@ -267,6 +268,11 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
     border:1px solid #5a3f27; background:#141414; color:#e6a95f; cursor:pointer; }
   #fb-guide { background:#1a130a; border-color:#6b3a1f; color:#f0c98a; }
 }
+
+/* robust target blink: a dedicated overlay layer that survives zoom/pan and narrative close */
+.target-halo { width:46px; height:46px; border-radius:50%; border:3px solid #ffd757;
+  box-shadow:0 0 14px 4px rgba(255,215,87,0.9); animation:haloPulse 1.1s ease-in-out infinite; }
+@keyframes haloPulse { 0%,100%{ transform:scale(0.72); opacity:1; } 50%{ transform:scale(1.18); opacity:0.5; } }
 </style>
 </head>
 <body>
@@ -459,7 +465,7 @@ function buildMarkers() {
       iconSize:[26,26], iconAnchor:[13,13]
     });
     const m = L.marker([v.lat, v.lng], {icon});
-    m.on('click', () => openPopup(v, idx));
+    m.on('click', () => selectVet(v, idx));
     m.addTo(map);
     markerMap[idx] = m;
   });
@@ -717,8 +723,7 @@ document.getElementById('vet-list').addEventListener('click', e => {
   const idx = +row.dataset.idx;
   const v = veterans[idx];
   if (!v) return;
-  if (hasCoords(v)) { map.flyTo([v.lat, v.lng], 19, {duration:1.0}); setTimeout(() => openPopup(v, idx), 350); }
-  else { openPopup(v, idx); }
+  selectVet(v, idx);
 });
 
 // --- the A-Z rail: the Queue is 3,052 names. Scrolling cannot land on a man; this can. ---
@@ -889,8 +894,7 @@ document.getElementById('search').addEventListener('keydown', e => {
     const idx = veterans.findIndex(v => v.name.toLowerCase().includes(term));
     if (idx>=0) {
       const match = veterans[idx];
-      if (hasCoords(match)) { map.flyTo([match.lat, match.lng], 19, {duration:1.0}); setTimeout(() => openPopup(match, idx), 350); }
-      else { openPopup(match, idx); }
+      selectVet(match, idx);
     }
   }
 });
@@ -907,9 +911,7 @@ buildSidebar();
   if(idx < 0) return;
   var match = veterans[idx];
   setTimeout(function(){
-    if (hasCoords(match) && isMobile()) { focusGrave(match, idx); }
-    else if (hasCoords(match)) { map.flyTo([match.lat, match.lng], 19, {duration:1.0}); setTimeout(function(){ openPopup(match, idx); }, 400); }
-    else { openPopup(match, idx); }
+    selectVet(match, idx);
   }, 80);
 })();
 
@@ -950,7 +952,7 @@ function locateMe(){
 
 // ===== Field find: focus a grave + live walking directions =====
 function isMobile(){ return !!(window.matchMedia && window.matchMedia('(max-width:640px)').matches); }
-var FOCUS = null, _guideLine = null;
+var FOCUS = null, _guideLine = null, _targetHalo = null;
 var COMPASS = ['N','NE','E','SE','S','SW','W','NW'];
 var ARROWS  = ['\u2191','\u2197','\u2192','\u2198','\u2193','\u2199','\u2190','\u2196'];
 function bearingDeg(la1,lo1,la2,lo2){
@@ -961,9 +963,11 @@ function bearingDeg(la1,lo1,la2,lo2){
 }
 function focusGrave(match, idx){
   FOCUS = {match:match, idx:idx};
-  if (activeMarker){ var ae=activeMarker.getElement(); if(ae) ae.classList.remove('marker-pulse','mtarget'); }
-  var mk = markerMap[idx];
-  if (mk){ var el=mk.getElement(); if(el){ el.classList.add('marker-pulse','mtarget'); } activeMarker = mk; }
+  if (_targetHalo){ map.removeLayer(_targetHalo); _targetHalo=null; }
+  _targetHalo = L.marker([match.lat, match.lng], {
+    icon: L.divIcon({className:'', html:'<div class="target-halo"></div>', iconSize:[46,46], iconAnchor:[23,23]}),
+    interactive:false, keyboard:false, zIndexOffset:2000
+  }).addTo(map);
   map.setView([match.lat, match.lng], 19, {animate:true, duration:0.8});
   document.getElementById('fb-name').textContent = titleName(match.name);
   document.getElementById('fb-service').textContent = serviceLine(match);
@@ -972,10 +976,17 @@ function focusGrave(match, idx){
   document.body.classList.remove('sheet-open');
   if (_youMarker) updateDirections();
 }
+// On mobile, selecting a veteran (marker tap, index row, in-page search) enters find mode
+// instead of the desktop narrative; desktop keeps the narrative.
+function selectVet(v, idx){
+  if (isMobile() && hasCoords(v)) { focusGrave(v, idx); return; }
+  if (hasCoords(v)) { map.flyTo([v.lat, v.lng], 19, {duration:1.0}); setTimeout(function(){ openPopup(v, idx); }, 350); }
+  else { openPopup(v, idx); }
+}
 function clearFocus(){
   FOCUS = null;
   document.getElementById('findBanner').classList.remove('show');
-  if (activeMarker){ var ae=activeMarker.getElement(); if(ae) ae.classList.remove('marker-pulse','mtarget'); activeMarker=null; }
+  if (_targetHalo){ map.removeLayer(_targetHalo); _targetHalo=null; }
   if (_guideLine){ map.removeLayer(_guideLine); _guideLine=null; }
 }
 function updateDirections(){
