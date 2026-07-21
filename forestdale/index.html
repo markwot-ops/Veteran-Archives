@@ -379,9 +379,8 @@ function buildMarkers() {
 function openPopup(v, idx) {
   if (activeMarker) activeMarker.getElement()?.classList.remove('marker-pulse');
   const queued = !((v.narrative||'').trim());
-  document.getElementById('pname').textContent = v.name;
-  document.getElementById('pservice').textContent =
-    v.branchLabel || [v.branch, eraLabel(v.era)].filter(Boolean).join(' • ');
+  document.getElementById('pname').textContent = titleName(v.name);
+  document.getElementById('pservice').textContent = serviceLine(v);
   const storyEl = document.getElementById('pstory');
   storyEl.textContent = queued ? QUEUE_TEXT : v.narrative;
   storyEl.classList.toggle('queued', queued);
@@ -475,6 +474,52 @@ function displayName(n){
     : (() => { const p=n.trim().split(/\s+/); return p.length>1 ? p[p.length-1]+', '+p.slice(0,-1).join(' ') : n; })();
 }
 
+/* --- label normalization: consistent titles + service line across every site --- */
+// Military ranks stripped from titles; clergy/civil honorifics (Rev., Fr., Dr., Msgr.) are preserved.
+var _RANKS = ['Pvt','Private','Pfc','Cpl','Corporal','Sgt','Sergeant','SSgt','TSgt','MSgt',
+  'Lt','Lieut','Lieutenant','Capt','Captain','Maj','Major','Col','Colonel','LtCol',
+  'BrigGen','MajGen','Gen','General','Cmdr','Commander','LtCmdr','Ens','Ensign',
+  'Adm','Admiral','RAdm','Chief','CPO','SCPO','MCPO','PO1','PO2','PO3','Seaman','SN',
+  'Cadet','WO','Sp1','Sp2','Sp3','Sp4','Sp5','Tec4','Tec5'];
+function stripRank(n){
+  if(!n) return n;
+  var s = n.trim();
+  s = s.replace(new RegExp(',\\s*(?:'+_RANKS.join('|')+')\\.?\\s*$','i'), '');   // "Last, First, Capt"
+  s = s.replace(new RegExp('^(?:'+_RANKS.join('|')+')\\.?\\s+','i'), '');          // "Capt First Last"
+  return s.trim();
+}
+// Canonical branch in Mark's "U.S. Army" style. '' means omit (Military/Unknown/blank).
+function normBranch(b){
+  if(!b) return '';
+  var s = b.trim(); if(!s) return '';
+  var core = s.replace(/^U\.?\s?S\.?\s+/i,'').trim();
+  if(/^(unknown|military|n\/?a|unknown branch)$/i.test(core) || /^(unknown|military)$/i.test(s)) return '';
+  if(/^U\.?\s?S\.?\s+/i.test(s)) return s.replace(/^U\.?\s?S\.?\s+/i,'U.S. ');   // already canonical
+  var u = core.toUpperCase();
+  if(/^(USNRF|USNR)$|NAVAL RESERVE/.test(u)) return 'U.S. Naval Reserve';
+  if(/COAST GUARD RESERVE/.test(u)) return 'U.S. Coast Guard Reserve';
+  if(/^USCG$|COAST GUARD/.test(u)) return 'U.S. Coast Guard';
+  if(/^USMC$|MARINE/.test(u)) return 'U.S. Marine Corps';
+  if(/USAAF|USAAC|ARMY AIR|AIR CORPS|^AAF$/.test(u)) return 'U.S. Army Air Forces';
+  if(/^USAF$|AIR FORCE/.test(u)) return 'U.S. Air Force';
+  if(/^USN$|^NAVY$/.test(u)) return 'U.S. Navy';
+  if(/^ARMY$/.test(u)) return 'U.S. Army';
+  if(/MASSACHUSETTS|^MA INFANTRY$|^MA /.test(u)) return core.replace(/^MA\b/i,'Massachusetts');
+  return core;   // specialized unit (Ordnance Company, Field Artillery, etc.) — leave as written
+}
+// Prefer clean `branch`; else the branch portion of a freeform branchLabel (before · or •).
+function branchSource(v){
+  if(v.branch && v.branch.trim()) return v.branch;
+  return (v.branchLabel||'').split(/[·•]/)[0].trim();
+}
+// The one true service line: "U.S. Army • World War I" (spaced bullet, full era from the era field).
+function serviceLine(v){
+  return [normBranch(branchSource(v)), eraLabel(v.era)].filter(Boolean).join(' • ');
+}
+// Title: rank stripped, "Last, First" — identical to the index.
+function titleName(n){ return displayName(stripRank(n)); }
+
+
 function sortedList() {
   if (!SORTED) SORTED = veterans.map((v,i)=>({v,i})).sort((a,b)=>
     sortKey(a.v.name).localeCompare(sortKey(b.v.name)) || a.v.name.localeCompare(b.v.name));
@@ -487,7 +532,7 @@ function makeRow(v, idx) {
   el.className = 'vet-item' + (idx===activeIdx?' active':'') + (queued?' queued':'');
   el.dataset.i = idx;
   const q = queued ? `<div class="v-badge-q">\u25d4 queue</div>` : '';
-  el.innerHTML = `<div class="v-sym" style="color:${eraColor(v.era)}">${branchSym(v.branch)}</div><div style="flex:1;min-width:0"><div class="v-name">${displayName(v.name)}</div><div class="v-era">${eraLabel(v.era)}</div></div>${q}`;
+  el.innerHTML = `<div class="v-sym" style="color:${eraColor(v.era)}">${branchSym(v.branch)}</div><div style="flex:1;min-width:0"><div class="v-name">${titleName(v.name)}</div><div class="v-era">${eraLabel(v.era)}</div></div>${q}`;
   el.dataset.idx = idx;
   return el;
 }
