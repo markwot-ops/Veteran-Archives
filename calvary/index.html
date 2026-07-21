@@ -219,6 +219,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
     border-radius:16px 16px 0 0; box-shadow:0 -10px 30px rgba(0,0,0,0.55); z-index:1200;
     padding-bottom: env(safe-area-inset-bottom, 0px);
   }
+  body.grave-focused #sidebar { display:none; }
   #sheet-handle {
     display:flex; flex-direction:column; align-items:center; gap:5px; padding:9px 0 7px;
     cursor:pointer; background:#0a0a0a; border-radius:16px 16px 0 0;
@@ -981,6 +982,7 @@ function focusGrave(match, idx){
   document.getElementById('findBanner').classList.add('show');
   document.getElementById('dirBar').classList.remove('show');
   document.body.classList.remove('sheet-open');
+  document.body.classList.add('grave-focused');
   if (_youMarker) updateDirections();
 }
 // On mobile, selecting a veteran (marker tap, index row, in-page search) enters find mode
@@ -993,6 +995,7 @@ function selectVet(v, idx){
 function clearFocus(){
   FOCUS = null;
   document.getElementById('findBanner').classList.remove('show');
+  document.body.classList.remove('grave-focused');
   if (_targetHalo){ map.removeLayer(_targetHalo); _targetHalo=null; }
   if (_guideLine){ map.removeLayer(_guideLine); _guideLine=null; }
 }
