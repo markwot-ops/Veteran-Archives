@@ -107,8 +107,7 @@ footer .contact { color:#CD853F; }
   <h1>Veteran Archives</h1>
   <div class="sub">An interactive record of Veterans laid to rest geo-located across Holyoke Cemeteries, with a research queue for Holyokers whose resting places have yet to be located.</div>
   <div class="vsearch">
-    <label class="vsearch-label" for="vsearch-input">Search by Name</label>
-    <input id="vsearch-input" type="text" placeholder="Loading…" autocomplete="off" spellcheck="false" disabled>
+    <input id="vsearch-input" type="text" placeholder="Search by Name" autocomplete="off" spellcheck="false" disabled>
     <div id="vsearch-results" class="vsearch-results"></div>
   </div>
 </header>
@@ -259,7 +258,7 @@ function initVSearch(){
     res.forEach(r => r.status === 'fulfilled' && men.push(...r.value));
     SEARCH_INDEX = men.map(m => ({name:m.v.name, slug:m.slug, id:m.v.id})).filter(m => m.id && m.name);
     const vin = document.getElementById('vsearch-input');
-    if(vin){ vin.disabled = false; vin.placeholder = 'Type a name…'; }
+    if(vin){ vin.disabled = false; vin.placeholder = 'Search by Name'; }
     const counts = {}, honoured = new Set();
     men.forEach(m => (m.v.badges||[]).forEach(b => {
       if (NOT_AN_HONOR.has(b) || !ORDER.includes(b)) return;
