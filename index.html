@@ -86,7 +86,7 @@ footer .contact { color:#CD853F; }
   .hr-all:hover { text-decoration:underline; }
 
   /* ---- Search by Name (header corner) ---- */
-  .vsearch { position:absolute; right:18px; bottom:14px; width:166px; text-align:left; z-index:30; }
+  .vsearch { position:absolute; right:18px; bottom:14px; width:180px; text-align:left; z-index:30; }
   .vsearch-label { display:block; font-size:0.5rem; text-transform:uppercase; letter-spacing:0.16em;
     color:#e6a95f; margin-bottom:5px; }
   #vsearch-input { width:100%; font-family:Georgia,serif; font-size:0.7rem; color:#f0e8d8;
@@ -108,6 +108,9 @@ footer .contact { color:#CD853F; }
   .vres-none { padding:9px 11px; color:#8a8272; font-style:italic; font-size:0.72rem; }
   @media (max-width:640px){
     header { padding:26px 16px 24px; }
+    header .mark, header h1, header .sub { display:none; }
+    .emblem { display:block; }
+    .finder { display:flex; }
     .vsearch { position:static; width:auto; max-width:290px; margin:18px auto 0; }
     .vsearch-label { text-align:center; font-size:0.6rem; margin-bottom:7px; }
     #vsearch-input { font-size:16px; padding:10px 13px; }
@@ -116,12 +119,13 @@ footer .contact { color:#CD853F; }
     .vres-site { font-size:0.62rem; }
   }
   /* ---- location-finder callout (middle of landing) ---- */
-  .finder { max-width:620px; margin:26px auto 2px; display:flex; align-items:flex-start; gap:15px;
-    padding:15px 20px; background:#141414; border:1px solid #3a2c1c; border-radius:11px; }
+  .finder { display:none; max-width:560px; margin:14px auto 0; align-items:center; justify-content:center; gap:12px; }
   .finder svg { flex-shrink:0; width:30px; height:30px; color:#6bb3f0; margin-top:3px; }
   .finder-lead { font-size:1rem; color:#e6a95f; margin-bottom:3px; }
   .finder-note { font-size:0.85rem; color:#c9bfa9; line-height:1.5; }
   @media (max-width:520px){ .finder { flex-direction:column; align-items:center; text-align:center; gap:9px; } }
+  .emblem { display:none; width:230px; max-width:62%; height:auto; margin:8px auto 2px; }
+  @media (max-width:520px){ .emblem { width:180px; } }
 </style>
 </head>
 <body>
@@ -129,22 +133,21 @@ footer .contact { color:#CD853F; }
 <header>
   <div class="mark">City of Holyoke</div>
   <h1>Veteran Archives</h1>
-  <div class="sub">Holyoke Veterans Resting Place Locator</div>
+  <div class="sub">An interactive record of Veterans laid to rest geo-located across Holyoke Cemeteries, with a research queue for Holyokers whose resting places have yet to be located.</div>
+  <img class="emblem" src="/Veteran-Archives/emblem.png" alt="City of Holyoke Veteran Services — Veteran Archives">
+  <div class="finder">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="1.7" fill="currentColor" stroke="none"/>
+      <line x1="12" y1="1.5" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22.5"/>
+      <line x1="1.5" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22.5" y2="12"/></svg>
+    <div class="finder-note">Search to geolocate a Veteran's resting place or memorial. The blue circle locates your position and walks you to the gravesite from where you stand.</div>
+  </div>
   <div class="vsearch">
     <input id="vsearch-input" type="text" placeholder="Search by Name" autocomplete="off" spellcheck="false" disabled>
     <div id="vsearch-results" class="vsearch-results"></div>
   </div>
 </header>
 
-  <div class="finder">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
-      <circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="1.7" fill="currentColor" stroke="none"/>
-      <line x1="12" y1="1.5" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22.5"/>
-      <line x1="1.5" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22.5" y2="12"/></svg>
-    <div>
-      <div class="finder-note">Search a name to geolocate a Veteran's resting place or memorial. The blue circle locates your position and walks you to the site from where you stand.</div>
-    </div>
-  </div>
 <main>
   <div class="grid">
 
