@@ -22,7 +22,17 @@ header .sub { font-size:0.86rem; color:#d6c9b2; margin:12px auto 0; max-width:70
 main { max-width:1120px; margin:0 auto; padding:38px 24px 64px; }
 .grid { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }
 @media (max-width:900px){ .grid { grid-template-columns:repeat(2,1fr); } }
-@media (max-width:520px){ .grid { grid-template-columns:1fr; } }
+@media (max-width:520px){ .grid { grid-template-columns:1fr; }
+    /* phone-only stacking order (desktop grid unchanged) */
+    .grid > :nth-child(1){ order:1; }  /* Calvary */
+    .grid > :nth-child(2){ order:3; }  /* Forestdale */
+    .grid > :nth-child(3){ order:2; }  /* Elmwood */
+    .grid > :nth-child(4){ order:6; }  /* Research Queue */
+    .grid > :nth-child(5){ order:7; }  /* St. Jerome */
+    .grid > :nth-child(6){ order:4; }  /* Rock Valley */
+    .grid > :nth-child(7){ order:5; }  /* Smiths Ferry */
+    .grid > :nth-child(8){ order:8; }  /* Honor Roll */
+  }
 .card { position:relative; display:flex; flex-direction:column; min-height:210px; background:#141414; border:1px solid #333; border-left:4px solid #6b3a1f; border-radius:6px; padding:18px 20px; transition:transform 0.12s, border-color 0.15s, background 0.15s; }
 /* whole-card click target — an EMPTY link overlay, so no text is ever inside an anchor */
 .stretch { position:absolute; inset:0; z-index:1; border-radius:6px; }
