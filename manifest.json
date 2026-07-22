@@ -1,0 +1,16 @@
+{
+  "name": "Veteran Archives — City of Holyoke",
+  "short_name": "Vet Archives",
+  "description": "An interactive record of veterans laid to rest across Holyoke's cemeteries.",
+  "start_url": "/Veteran-Archives/",
+  "scope": "/Veteran-Archives/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1a2740",
+  "theme_color": "#1a2740",
+  "icons": [
+    {"src": "/Veteran-Archives/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "/Veteran-Archives/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "/Veteran-Archives/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
