@@ -343,7 +343,7 @@ function initVSearch(){
       const sym = (k === 'KIA')
         ? `<div class="hr-sym" style="color:#e6c14a;font-size:0.7rem;text-shadow:0 0 4px rgba(230,193,74,0.7)">★</div>`
         : `<div class="hr-sym" style="color:${c};font-size:0.55rem">●</div>`;
-      return `<a class="hr-row" href="./honor-roll/?honor=${encodeURIComponent(k)}">` +
+      return `<a class="hr-row" href="./honor-roll/index.html">` +
              `${sym}<div class="hr-name">${esc(k)}</div><div class="hr-n">${counts[k]}</div></a>`;
     }).join('');
     const c = document.getElementById('hr-count');
