@@ -253,14 +253,16 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   /* GPS "locate me" button, above the collapsed sheet */
   #locate-me {
     display:flex; align-items:center; justify-content:center;
-    position:absolute; right:14px; bottom:calc(120px + env(safe-area-inset-bottom, 0px)); z-index:1100;
+    position:absolute; right:14px; z-index:1100;
+    bottom:calc(var(--sheet-h, 92px) + 18px + env(safe-area-inset-bottom, 0px));
     width:52px; height:52px; border-radius:50%;
     background:#182a3d; border:2px solid #6bb3f0; color:#9fd0ff;
     cursor:pointer; box-shadow:0 3px 14px rgba(0,0,0,0.55), 0 0 0 3px rgba(20,20,20,0.45);
   }
   #locate-me.locating { animation:locSpin 0.9s linear infinite; color:#f0c98a; }
   body #sun-toggle { display:flex; align-items:center; justify-content:center;
-    position:absolute; right:14px; bottom:calc(184px + env(safe-area-inset-bottom, 0px)); z-index:1100;
+    position:absolute; right:14px; z-index:1100;
+    bottom:calc(var(--sheet-h, 92px) + 80px + env(safe-area-inset-bottom, 0px));
     width:52px; height:52px; border-radius:50%;
     background:#182a3d; border:2px solid #6bb3f0; color:#9fd0ff; cursor:pointer;
     box-shadow:0 3px 14px rgba(0,0,0,0.55), 0 0 0 3px rgba(20,20,20,0.45); }
@@ -314,6 +316,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 
   /* locator icon on the map matches the one in the top box */
   body.sun #locate-me { background:#ffffff; border-color:#cc0000; color:#cc0000; }
+  body.sheet-open #locate-me, body.sheet-open #sun-toggle { display:none; }
 
   /* narrative panel follows the active mode */
   #pbox, #pbox.center { background:#141414; border-color:#444444; }
@@ -344,6 +347,18 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   body.sun #legend.in-sheet .leg-row { border-color:#777777; color:#000000; }
   body.sun #legend.in-sheet .leg-row.on { background:#ffe9e9; border-color:#cc0000; }
   body.sun #legend.in-sheet #leg-head { color:#000000; }
+  /* honors chips: unselected stay legible, selected reads clearly in both modes */
+  #legend.in-sheet .leg-label { flex:0 0 auto; padding-right:0; font-size:0.72rem; color:#e6ddcc; }
+  #legend.in-sheet .leg-count { font-size:0.66rem; color:#cbc0ad; min-width:0; }
+  #legend.in-sheet #leg-distinct.filtered .leg-row.dist { opacity:0.85; }
+  #legend.in-sheet .leg-row.dist.on { opacity:1; border-width:2px; background:rgba(255,255,255,0.16); }
+  #legend.in-sheet .leg-row.dist.on .leg-label,
+  #legend.in-sheet .leg-row.dist.on .leg-count { color:#ffffff; font-weight:bold; }
+  body.sun #legend.in-sheet .leg-label, body.sun #legend.in-sheet .leg-count { color:#111111; }
+  body.sun #legend.in-sheet #leg-distinct.filtered .leg-row.dist { opacity:0.9; }
+  body.sun #legend.in-sheet .leg-row.dist.on { background:#ffe9e9; border-color:#cc0000; }
+  body.sun #legend.in-sheet .leg-row.dist.on .leg-label,
+  body.sun #legend.in-sheet .leg-row.dist.on .leg-count { color:#000000; font-weight:bold; }
 
 
   /* detail becomes a bottom sheet with a tap-to-close scrim */
@@ -1270,6 +1285,32 @@ function updateDirections(){
   if (leg.style.display === 'none') return;
   top.appendChild(leg);
   leg.classList.add('in-sheet');
+})();
+
+// Keep the map buttons clear of the bottom sheet no matter how tall it gets.
+function syncFieldButtons(){
+  var sb = document.getElementById('sidebar'), h = 0;
+  if (sb && !document.body.classList.contains('grave-focused')
+         && !document.body.classList.contains('sheet-open')) h = sb.offsetHeight || 0;
+  document.documentElement.style.setProperty('--sheet-h', h + 'px');
+}
+(function(){
+  syncFieldButtons();
+  window.addEventListener('resize', syncFieldButtons);
+  window.addEventListener('load', syncFieldButtons);
+  var hd = document.getElementById('sheet-handle');
+  if (hd) hd.addEventListener('click', function(){ setTimeout(syncFieldButtons, 60); });
+  setTimeout(syncFieldButtons, 400);
+})();
+
+// Picking an honor on a phone opens the list so the matching veterans are visible.
+(function(){
+  var ld = document.getElementById('leg-distinct'); if (!ld) return;
+  ld.addEventListener('click', function(){
+    if (!(window.matchMedia && window.matchMedia('(max-width:640px)').matches)) return;
+    document.body.classList.add('sheet-open');
+    setTimeout(syncFieldButtons, 60);
+  });
 })();
 </script>
 </body>
