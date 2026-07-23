@@ -23,7 +23,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 #header .sub { font-size:0.72rem; color:#888; margin-top:2px; }
 #header .home { font-size:0.62rem; color:#CD853F; text-decoration:none; letter-spacing:0.06em; text-transform:uppercase; }
 #header .home:hover { color:#f0c98a; }
-#header h1 .mode-label { display:none; }
+#header .mode-label { display:none; }
 #site-nav { display:none; }
 #vet-count { font-size:0.85rem; color:#CD853F; letter-spacing:0.04em; }
 
@@ -209,10 +209,10 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
     flex-direction:column; align-items:center; justify-content:center; text-align:center; }
   #header > div { width:100%; }
   #header h1 { font-size:1.16rem; letter-spacing:0.05em; line-height:1.3; }
-  #header h1 .mode-label { display:flex; align-items:center; justify-content:center; gap:7px;
+  #header .mode-label { display:flex; align-items:center; justify-content:center; gap:7px;
     text-transform:none; font-size:0.84rem; letter-spacing:0.03em; color:#9fd0ff;
     margin-top:6px; font-weight:normal; }
-  #header h1 .mode-label svg { width:17px; height:17px; flex-shrink:0; }
+  #header .mode-label svg { width:17px; height:17px; flex-shrink:0; }
   #header .sub-home { display:none; }
   #site-nav { display:flex; align-items:center; justify-content:space-between;
     width:100%; margin-top:9px; }
@@ -270,7 +270,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   body.sun #header { background:#ffffff; border-bottom-color:#cc0000; }
   body.sun #header h1 { color:#000000; font-weight:bold; }
   body.sun #header .sub, body.sun #site-sub { color:#222222; }
-  body.sun #header h1 .mode-label { color:#cc0000; }
+  body.sun #header .mode-label { color:#cc0000; }
   body.sun #site-nav a { color:#aa0000; font-weight:bold; }
   body.sun #sidebar { background:#ffffff; border-top-color:#888888; }
   body.sun #sheet-handle { background:#ffffff; }
@@ -297,8 +297,8 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   /* ---- SUN MODE ONLY: tighter top & bottom boxes, no address, matching locator icons ---- */
   body.sun #header { padding:calc(5px + env(safe-area-inset-top, 0px)) 10px 5px; }
   body.sun #header h1 { font-size:0.95rem; line-height:1.15; }
-  body.sun #header h1 .mode-label { font-size:0.7rem; margin-top:2px; gap:5px; }
-  body.sun #header h1 .mode-label svg { width:15px; height:15px; }
+  body.sun #header .mode-label { font-size:0.7rem; margin-top:2px; gap:5px; }
+  body.sun #header .mode-label svg { width:15px; height:15px; }
   body.sun #header .sub { display:none; }            /* address out of the top box */
   body.sun #site-nav { margin-top:4px; }
   body.sun #site-nav a { font-size:0.7rem; }
@@ -314,6 +314,34 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 
   /* locator icon on the map matches the one in the top box */
   body.sun #locate-me { background:#ffffff; border-color:#cc0000; color:#cc0000; }
+
+  /* narrative panel follows the active mode */
+  #pbox, #pbox.center { background:#141414; border-color:#444444; }
+  #pname { color:#f0e8d8; } #pservice { color:#CD853F; } #pstory { color:#aaaaaa; }
+  body.sun #pbox, body.sun #pbox.center { background:#ffffff; border-color:#999999; }
+  body.sun #popup.show { background:rgba(255,255,255,0.35); }
+  body.sun #pname { color:#000000; } body.sun #pservice { color:#aa0000; }
+  body.sun #pstory { color:#111111; } body.sun #pclose { color:#333333; }
+  body.sun #psrc, body.sun #pcontact, body.sun #pextra, body.sun #pflags { color:#333333; }
+
+  /* one box, not two: while a grave is targeted the banner replaces the header */
+  body.grave-focused #header { display:none; }
+
+  /* locate button shows when tracking is ON (tap again turns it off) */
+  #locate-me.on { background:#1e4a70; }
+  body.sun #locate-me.on { background:#ffe9e9; }
+
+  body #legend.in-sheet { display:block; position:static; width:auto; max-width:none;
+    max-height:none; margin:9px 0 0; padding:0; background:transparent; border:none; box-shadow:none; }
+  #legend.in-sheet #leg-head { font-size:0.66rem; margin:0 0 6px; }
+  #legend.in-sheet #leg-distinct { display:flex; flex-wrap:wrap; gap:6px; }
+  #legend.in-sheet .leg-row { display:flex; align-items:center; gap:6px; width:auto;
+    padding:6px 10px; border:1px solid #4a4a4a; border-radius:15px; font-size:0.72rem; }
+  #legend.in-sheet .leg-row.on { border-color:var(--dc); background:rgba(255,255,255,0.06); }
+  #legend.in-sheet .leg-count { opacity:0.75; }
+  body.sun #legend.in-sheet .leg-row { border-color:#777777; color:#000000; }
+  body.sun #legend.in-sheet .leg-row.on { background:#ffe9e9; border-color:#cc0000; }
+  body.sun #legend.in-sheet #leg-head { color:#000000; }
 
 
   /* detail becomes a bottom sheet with a tap-to-close scrim */
@@ -501,7 +529,8 @@ const QUEUE_TEXT = 'This veteran has been identified but is still in the researc
     var _m = document.createElement('span');
     _m.className = 'mode-label';
     _m.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="1.7" fill="currentColor" stroke="none"/><line x1="12" y1="1.5" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22.5"/><line x1="1.5" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22.5" y2="12"/></svg><span>Veteran Locator</span>';
-    _h1.appendChild(_m);                      // hidden on desktop, shown on phones via CSS
+    var _nav = document.getElementById('site-nav');
+    if (_nav && _nav.parentNode) _nav.parentNode.insertBefore(_m, _nav); else _h1.appendChild(_m);                      // hidden on desktop, shown on phones via CSS
   }
 })();
 document.getElementById('site-sub').textContent = SITE.address || '';
@@ -1084,7 +1113,16 @@ var _youMarker=null, _youCircle=null, _youCentered=false;
 function locateMe(){
   var btn = document.getElementById('locate-me');
   if (!navigator.geolocation){ alert('Location is not available on this device.'); return; }
-  if (_watchId !== null){ updateDirections(); return; }
+  if (_watchId !== null){                         // second tap = turn tracking off
+    try { navigator.geolocation.clearWatch(_watchId); } catch(e){}
+    _watchId = null; _youCentered = false;
+    if (_youMarker){ map.removeLayer(_youMarker); _youMarker = null; }
+    if (_youCircle){ map.removeLayer(_youCircle); _youCircle = null; }
+    if (_guideLine){ map.removeLayer(_guideLine); _guideLine = null; }
+    var _db = document.getElementById('dirBar'); if (_db) _db.classList.remove('show');
+    if (btn) btn.classList.remove('locating','on');
+    return;
+  }
   if (btn) btn.classList.add('locating');
   _watchId = navigator.geolocation.watchPosition(function(p){
     var la=p.coords.latitude, lo=p.coords.longitude, ac=p.coords.accuracy;
@@ -1092,7 +1130,7 @@ function locateMe(){
       _youMarker = L.marker([la,lo], {icon:L.divIcon({className:'', html:'<div class="you-dot"></div>', iconSize:[16,16], iconAnchor:[8,8]}), zIndexOffset:1000}).addTo(map);
       _youCircle = L.circle([la,lo], {radius:ac, color:'#4a9be0', weight:1, fillColor:'#4a9be0', fillOpacity:0.12}).addTo(map);
     } else { _youMarker.setLatLng([la,lo]); _youCircle.setLatLng([la,lo]).setRadius(ac); }
-    if (btn) btn.classList.remove('locating');
+    if (btn) { btn.classList.remove('locating'); btn.classList.add('on'); }
     updateDirections();
     if (!_youCentered){
       if (FOCUS) { map.fitBounds(L.latLngBounds([[la,lo],[FOCUS.match.lat, FOCUS.match.lng]]), {maxZoom:19, padding:[70,70]}); }
@@ -1132,6 +1170,7 @@ function focusGrave(match, idx){
   document.getElementById('dirBar').classList.remove('show');
   document.body.classList.remove('sheet-open');
   document.body.classList.add('grave-focused');
+  setTimeout(function(){ try { map.invalidateSize(); } catch(e){} }, 80);
   if (_youMarker) updateDirections();
 }
 // On mobile, selecting a veteran (marker tap, index row, in-page search) enters find mode
@@ -1145,6 +1184,7 @@ function clearFocus(){
   FOCUS = null;
   document.getElementById('findBanner').classList.remove('show');
   document.body.classList.remove('grave-focused');
+  setTimeout(function(){ try { map.invalidateSize(); } catch(e){} }, 80);
   if (_targetHalo){ map.removeLayer(_targetHalo); _targetHalo=null; }
   if (_guideLine){ map.removeLayer(_guideLine); _guideLine=null; }
 }
@@ -1215,6 +1255,17 @@ function updateDirections(){
   document.addEventListener('visibilitychange', function(){
     if (!document.hidden && document.body.classList.contains('sun')) lock();
   });
+})();
+
+// Phones: move the Honors box into the sheet, under the search field.
+// Picking an honor filters both the map and the name list below it.
+(function(){
+  if (!window.matchMedia || !window.matchMedia('(max-width:640px)').matches) return;
+  var leg = document.getElementById('legend'), top = document.getElementById('sidebar-top');
+  if (!leg || !top) return;
+  if (leg.style.display === 'none') return;
+  top.appendChild(leg);
+  leg.classList.add('in-sheet');
 })();
 </script>
 </body>
