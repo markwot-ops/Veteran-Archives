@@ -480,6 +480,36 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
     color:#CD853F; font-size:1.15rem; line-height:1; cursor:pointer; padding:4px 7px; }
   body.sun #pbox-expand { color:#aa0000; }
 }
+
+@media (max-width:640px){
+  /* honours: bright enough to read at a glance */
+  #hr-bar #legend.in-sheet .leg-row { flex:0 0 150px; width:150px; opacity:0.92 !important;
+    border-color:#6d6152; }
+  #hr-bar #legend.in-sheet .leg-row.dist.on { opacity:1 !important; border-width:2px;
+    border-color:#e0d4bb; background:rgba(255,255,255,0.20); }
+  #hr-bar #legend.in-sheet .leg-label { color:#fff8ec !important; font-weight:600;
+    font-size:0.78rem; }
+  #hr-bar #legend.in-sheet .leg-count { color:#e4dac6 !important; font-size:0.74rem; }
+  #hr-bar #legend.in-sheet .leg-sym { font-size:1.15rem;
+    filter:brightness(2.4) saturate(1.5) drop-shadow(0 0 6px currentColor); }
+  body.sun #hr-bar #legend.in-sheet .leg-label { color:#000000 !important; }
+  body.sun #hr-bar #legend.in-sheet .leg-count { color:#333333 !important; }
+  body.sun #hr-bar #legend.in-sheet .leg-sym { filter:brightness(1.15) saturate(1.5); }
+
+  /* fade the edges so the strip obviously scrolls */
+  #hr-bar::before, #hr-bar::after { content:''; position:absolute; top:0; bottom:0;
+    width:30px; pointer-events:none; z-index:3; }
+  #hr-bar::before { left:0;  background:linear-gradient(90deg,#0a0a0a,rgba(10,10,10,0)); }
+  #hr-bar::after  { right:0; background:linear-gradient(270deg,#0a0a0a,rgba(10,10,10,0)); }
+  body.sun #hr-bar::before { background:linear-gradient(90deg,#f4f1ea,rgba(244,241,234,0)); }
+  body.sun #hr-bar::after  { background:linear-gradient(270deg,#f4f1ea,rgba(244,241,234,0)); }
+}
+
+@media (max-width:640px){
+  /* names panel sits mid-screen instead of hugging the bottom corner */
+  #sidebar { top:50%; bottom:auto; transform:translateY(-50%); max-height:52vh; }
+  #list-wrap { max-height:48vh; }
+}
 </style>
 </head>
 <body>
@@ -1445,6 +1475,25 @@ function syncFieldButtons(){
   }
   window.addEventListener('load', function(){ setTimeout(centre, 220); });
   setTimeout(centre, 600);
+})();
+
+// Carousel: measure and centre for real, rather than trusting percentage padding.
+(function(){
+  if (!window.matchMedia || !window.matchMedia('(max-width:640px)').matches) return;
+  function fit(){
+    var d=document.getElementById('leg-distinct'); if(!d) return;
+    var first=d.querySelector('.leg-row'); if(!first) return;
+    var pad=Math.max(0,(d.clientWidth - first.offsetWidth)/2);
+    d.style.paddingLeft=pad+'px'; d.style.paddingRight=pad+'px';
+    var on=d.querySelector('.leg-row.dist.on') || first;
+    d.scrollLeft = on.offsetLeft - pad;
+  }
+  window.fitHonorCarousel = fit;
+  window.addEventListener('load', function(){ setTimeout(fit,150); setTimeout(fit,500); });
+  window.addEventListener('resize', fit);
+  setTimeout(fit,300); setTimeout(fit,900);
+  var d=document.getElementById('leg-distinct');
+  if (d) d.addEventListener('click', function(){ setTimeout(fit,80); });
 })();
 </script>
 </body>
