@@ -424,6 +424,12 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   #legend.in-sheet #leg-distinct { scroll-snap-type:x proximity; }
   #legend.in-sheet .leg-row { scroll-snap-align:center; }
 }
+
+@media (max-width:640px){
+  #idx-scope { font-size:0.62rem; text-transform:uppercase; letter-spacing:0.1em;
+    color:#CD853F; margin-top:7px; }
+  body.sun #idx-scope { color:#aa0000; }
+}
 </style>
 </head>
 <body>
@@ -463,7 +469,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   <div id="sidebar"><div id="sheet-handle"><span class="hbar"></span><span class="sheet-hint">Search or browse the index</span></div>
     
     <div id="sidebar-top">
-      <input id="search" type="text" placeholder="Search veterans…">
+      <input id="search" type="text" placeholder="Search or browse index">
       <div id="era-filters"></div>
     </div>
     <div id="list-wrap">
@@ -1385,6 +1391,25 @@ function syncFieldButtons(){
     Array.prototype.forEach.call(document.querySelectorAll('.vet-item.active'),
       function(el){ el.classList.remove('active'); });
   });
+})();
+
+// Make it explicit that the index only ever lists honoured veterans,
+// and narrows to the chosen honour.
+(function(){
+  if (!window.matchMedia || !window.matchMedia('(max-width:640px)').matches) return;
+  var top=document.getElementById('sidebar-top'); if(!top) return;
+  var cap=document.createElement('div'); cap.id='idx-scope'; top.appendChild(cap);
+  function upd(){
+    var n=0;
+    try { n = (FILTERED && FILTERED.length) || 0; } catch(e){}
+    var who = activeDistinction ? activeDistinction : 'All honored veterans';
+    cap.textContent = who + ' \u00b7 ' + n;
+  }
+  if (typeof window.buildSidebar === 'function'){
+    var orig = window.buildSidebar;
+    window.buildSidebar = function(){ var r=orig.apply(this,arguments); upd(); return r; };
+  }
+  setTimeout(upd, 400); setTimeout(upd, 1000);
 })();
 </script>
 </body>
