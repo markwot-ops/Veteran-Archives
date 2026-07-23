@@ -259,6 +259,41 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
     cursor:pointer; box-shadow:0 3px 14px rgba(0,0,0,0.55), 0 0 0 3px rgba(20,20,20,0.45);
   }
   #locate-me.locating { animation:locSpin 0.9s linear infinite; color:#f0c98a; }
+  #sun-toggle { display:flex; align-items:center; justify-content:center;
+    position:absolute; right:14px; bottom:calc(184px + env(safe-area-inset-bottom, 0px)); z-index:1100;
+    width:52px; height:52px; border-radius:50%;
+    background:#182a3d; border:2px solid #6bb3f0; color:#9fd0ff; cursor:pointer;
+    box-shadow:0 3px 14px rgba(0,0,0,0.55), 0 0 0 3px rgba(20,20,20,0.45); }
+  body.sun #sun-toggle { background:#ffffff; border-color:#cc0000; color:#cc0000; }
+
+  /* ---- SUN MODE: dark-on-light, big readout, red target, muted map ---- */
+  body.sun #header { background:#ffffff; border-bottom-color:#cc0000; }
+  body.sun #header h1 { color:#000000; font-weight:bold; }
+  body.sun #header .sub, body.sun #site-sub { color:#222222; }
+  body.sun #header h1 .mode-label { color:#cc0000; }
+  body.sun #site-nav a { color:#aa0000; font-weight:bold; }
+  body.sun #sidebar { background:#ffffff; border-top-color:#888888; }
+  body.sun #sheet-handle { background:#ffffff; }
+  body.sun #sheet-handle .hbar { background:#666666; }
+  body.sun #sheet-handle .sheet-hint { color:#222222; font-weight:bold; }
+  body.sun #search { background:#ffffff; color:#000000; border-color:#666666; font-weight:bold; }
+  body.sun .vet-item { border-bottom-color:#cccccc; }
+  body.sun .v-name { color:#000000; font-weight:bold; }
+  body.sun .v-era { color:#333333; }
+  body.sun #findBanner.show { background:#ffffff; border-color:#cc0000; }
+  body.sun #fb-name { color:#000000; font-weight:bold; }
+  body.sun #fb-service { color:#333333; font-weight:bold; }
+  body.sun #dirBar.show { color:#cc0000; font-size:1.85rem; font-weight:bold; line-height:1.25; }
+  body.sun .fb-actions button { background:#ffffff; color:#000000; border-color:#666666; font-weight:bold; }
+  body.sun #fb-guide { background:#ffe9e9; border-color:#cc0000; color:#aa0000; }
+  body.sun #fb-close { color:#333333; }
+  body.sun #pbox, body.sun #pbox.center { background:#ffffff; }
+  body.sun #pname { color:#000000; }
+  body.sun #pstory, body.sun #pservice { color:#111111; }
+  body.sun .leaflet-tile-pane { filter:grayscale(0.75) brightness(0.6) contrast(1.15); }
+  body.sun .target-halo { border-color:#ff1a1a;
+    box-shadow:0 0 0 3px #ffffff, 0 0 18px 7px rgba(255,26,26,0.95); }
+
 
   /* detail becomes a bottom sheet with a tap-to-close scrim */
   #popup.show { background:rgba(0,0,0,0.55); pointer-events:auto; }
@@ -273,6 +308,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 /* --- Field find: glowing target grave + slim banner + directions --- */
 .mtarget { filter: drop-shadow(0 0 5px #ffd757) drop-shadow(0 0 12px rgba(255,215,87,0.9)); z-index:1000 !important; }
 #findBanner { display:none; }
+#sun-toggle { display:none; }
 @media (max-width:640px){
   #findBanner.show {
     display:block; position:absolute; top:10px; left:10px; right:10px; z-index:1150;
@@ -313,6 +349,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 <div id="main">
   <div id="map"></div>
   <button id="locate-me" type="button" title="Show my location" aria-label="Show my location"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="1.7" fill="currentColor" stroke="none"/><line x1="12" y1="1.5" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22.5"/><line x1="1.5" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22.5" y2="12"/></svg></button>
+  <button id="sun-toggle" type="button" title="Sun mode" aria-label="Toggle sun mode"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><line x1="12" y1="1.8" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22.2"/><line x1="1.8" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22.2" y2="12"/><line x1="4.6" y1="4.6" x2="6.2" y2="6.2"/><line x1="17.8" y1="17.8" x2="19.4" y2="19.4"/><line x1="4.6" y1="19.4" x2="6.2" y2="17.8"/><line x1="17.8" y1="6.2" x2="19.4" y2="4.6"/></svg></button>
   <div id="findBanner">
     <button id="fb-close" type="button" aria-label="Close">×</button>
     <div id="fb-name"></div>
@@ -1139,6 +1176,24 @@ function updateDirections(){
       else location.href = '../index.html';
     }, {passive:true});
   }
+})();
+
+// Sun Mode: high-contrast daylight view. Manual toggle (Safari blocks light-sensor access).
+(function(){
+  var btn = document.getElementById('sun-toggle'); if(!btn) return;
+  var wl = null;
+  function lock(){ try { if ('wakeLock' in navigator) navigator.wakeLock.request('screen').then(function(s){ wl=s; }).catch(function(){}); } catch(e){} }
+  function unlock(){ try { if (wl) { wl.release(); wl=null; } } catch(e){} }
+  function set(on){
+    document.body.classList.toggle('sun', on);
+    try { localStorage.setItem('va-sun', on ? '1' : '0'); } catch(e){}
+    if (on) lock(); else unlock();
+  }
+  try { if (localStorage.getItem('va-sun') === '1') set(true); } catch(e){}
+  btn.addEventListener('click', function(){ set(!document.body.classList.contains('sun')); });
+  document.addEventListener('visibilitychange', function(){
+    if (!document.hidden && document.body.classList.contains('sun')) lock();
+  });
 })();
 </script>
 </body>
