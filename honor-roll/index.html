@@ -448,6 +448,38 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   #list-wrap { display:block !important; max-height:36vh; }
   #sidebar-top { padding:7px 9px 8px; }
 }
+
+@media (max-width:640px){
+  /* carousel: these must outrank the earlier #legend.in-sheet chip rules */
+  #hr-bar #legend.in-sheet #leg-distinct { display:flex; flex-wrap:nowrap; gap:10px;
+    overflow-x:auto; -webkit-overflow-scrolling:touch; scroll-snap-type:x mandatory;
+    padding:0 calc(50% - 84px); scrollbar-width:none; }
+  #hr-bar #legend.in-sheet #leg-distinct::-webkit-scrollbar { display:none; }
+  #hr-bar #legend.in-sheet .leg-row { flex:0 0 168px; width:168px; scroll-snap-align:center;
+    justify-content:center; gap:7px; padding:9px 10px; border:1px solid #4a4a4a;
+    border-radius:17px; white-space:nowrap; opacity:0.5 !important; }
+  #hr-bar #legend.in-sheet .leg-row.dist.on { opacity:1 !important; border-width:2px;
+    background:rgba(255,255,255,0.18); }
+  body.sun #hr-bar #legend.in-sheet .leg-row { background:#ffffff; border-color:#8a8a8a; }
+  body.sun #hr-bar #legend.in-sheet .leg-row.dist.on { background:#ffe2e2; border-color:#cc0000; }
+
+  /* the names panel needs no search field */
+  #sidebar-top { display:none !important; }
+  #list-wrap { max-height:42vh; }
+
+  /* the story opens as a corner card so the grave stays in view */
+  #popup.show { background:transparent; pointer-events:none; }
+  #pbox, #pbox.center { pointer-events:auto; left:0; right:auto; width:84%; max-width:340px;
+    top:auto; bottom:calc(var(--sheet-h, 74px) + 10px); max-height:44vh;
+    border-radius:0 16px 16px 0; padding:16px 15px 18px; }
+  body.pbox-full #popup.show { background:rgba(0,0,0,0.55); pointer-events:auto; }
+  body.sun.pbox-full #popup.show { background:rgba(255,255,255,0.35); }
+  body.pbox-full #pbox, body.pbox-full #pbox.center { left:0; right:0; width:auto; max-width:none;
+    bottom:0; max-height:88vh; border-radius:16px 16px 0 0; padding:20px 18px 26px; }
+  #pbox-expand { position:absolute; top:9px; right:40px; z-index:6; background:none; border:none;
+    color:#CD853F; font-size:1.15rem; line-height:1; cursor:pointer; padding:4px 7px; }
+  body.sun #pbox-expand { color:#aa0000; }
+}
 </style>
 </head>
 <body>
@@ -884,7 +916,7 @@ function makeRow(v, idx) {
   el.className = 'vet-item' + (idx===activeIdx?' active':'') + (queued?' queued':'');
   el.dataset.i = idx;
   const q = queued ? `<div class="v-badge-q">\u25d4 queue</div>` : '';
-  el.innerHTML = `<div class="v-sym" style="color:${eraColor(v.era)}">${branchSym(v.branch)}</div><div style="flex:1;min-width:0"><div class="v-name">${titleName(v.name)}</div><div class="v-era">${eraLabel(v.era)}</div></div>${q}`;
+  el.innerHTML = `<div class="v-sym" style="color:${eraColor(v.era)}">${branchSym(v.branch)}</div><div style="flex:1;min-width:0"><div class="v-name">${titleName(v.name)}</div><div class="v-era">${eraLabel(v.era)}${v._site ? ' \u00b7 ' + siteShort(v._site) : ''}</div></div>${q}`;
   el.dataset.idx = idx;
   return el;
 }
@@ -1347,6 +1379,10 @@ function updateDirections(){
 })();
 
 // Keep the map buttons clear of the bottom sheet no matter how tall it gets.
+function siteShort(slug){
+  var m=(window.SITES_DATA||[]).filter(function(x){ return x.slug===slug; })[0];
+  return (m && m.label) ? m.label.replace(/\s*Cemetery\s*$/i,'') : '';
+}
 function syncFieldButtons(){
   var bar = document.getElementById('hr-bar');
   var h = bar ? (bar.offsetHeight || 0) : 0;
@@ -1379,6 +1415,36 @@ function syncFieldButtons(){
     document.body.classList.add('honor-open');
     if (typeof syncFieldButtons === 'function') syncFieldButtons();
   }, 260);
+})();
+
+// Story card: opens small in the corner, tap the arrows for full screen.
+(function(){
+  var box=document.getElementById('pbox'); if(!box) return;
+  var b=document.createElement('button');
+  b.id='pbox-expand'; b.type='button'; b.title='Expand'; b.textContent='\u2921';
+  b.addEventListener('click', function(e){
+    e.stopPropagation();
+    var full=document.body.classList.toggle('pbox-full');
+    b.textContent = full ? '\u2922' : '\u2921';
+  });
+  box.appendChild(b);
+  if (typeof window.closePopup === 'function'){
+    var orig=window.closePopup;
+    window.closePopup=function(){ document.body.classList.remove('pbox-full'); b.textContent='\u2921'; return orig.apply(this, arguments); };
+  }
+})();
+
+// Make sure an honour sits centred in the carousel once everything has laid out.
+(function(){
+  if (!window.matchMedia || !window.matchMedia('(max-width:640px)').matches) return;
+  function centre(){
+    var d=document.getElementById('leg-distinct'); if(!d) return;
+    var on=d.querySelector('.leg-row.dist.on') || d.querySelector('.leg-row.dist');
+    if(!on) return;
+    d.scrollLeft = on.offsetLeft - (d.clientWidth - on.offsetWidth)/2;
+  }
+  window.addEventListener('load', function(){ setTimeout(centre, 220); });
+  setTimeout(centre, 600);
 })();
 </script>
 </body>
