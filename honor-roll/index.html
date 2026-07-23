@@ -294,6 +294,27 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   body.sun .target-halo { border-color:#ff1a1a;
     box-shadow:0 0 0 3px #ffffff, 0 0 18px 7px rgba(255,26,26,0.95); }
 
+  /* ---- SUN MODE ONLY: tighter top & bottom boxes, no address, matching locator icons ---- */
+  body.sun #header { padding:calc(5px + env(safe-area-inset-top, 0px)) 10px 5px; }
+  body.sun #header h1 { font-size:0.95rem; line-height:1.15; }
+  body.sun #header h1 .mode-label { font-size:0.7rem; margin-top:2px; gap:5px; }
+  body.sun #header h1 .mode-label svg { width:15px; height:15px; }
+  body.sun #header .sub { display:none; }            /* address out of the top box */
+  body.sun #site-nav { margin-top:4px; }
+  body.sun #site-nav a { font-size:0.7rem; }
+
+  body.sun #sheet-handle { padding:5px 0 4px; gap:3px; }
+  body.sun #sheet-handle .hbar { width:28px; height:3px; }
+  body.sun #sheet-handle .sheet-hint { font-size:0.68rem; }
+  body.sun #sidebar-top { padding:5px 8px 6px; }
+  body.sun #search { padding:6px 9px; }              /* 16px font kept: stops iOS zoom-on-tap */
+  body.sun .vet-item { padding:7px 10px; }
+  body.sun .v-name { font-size:0.82rem; }
+  body.sun .v-era { font-size:0.66rem; }
+
+  /* locator icon on the map matches the one in the top box */
+  body.sun #locate-me { background:#ffffff; border-color:#cc0000; color:#cc0000; }
+
 
   /* detail becomes a bottom sheet with a tap-to-close scrim */
   #popup.show { background:rgba(0,0,0,0.55); pointer-events:auto; }
