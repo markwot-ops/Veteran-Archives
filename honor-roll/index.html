@@ -430,6 +430,21 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
     color:#CD853F; margin-top:7px; }
   body.sun #idx-scope { color:#aa0000; }
 }
+
+/* located/not-located treatment is PHONES ONLY — desktop stays exactly as it was */
+.v-geo, .v-nogeo { display:none; }
+@media (max-width:640px){
+  body .v-geo { display:block; font-size:0.72rem; color:#6bb3f0; flex-shrink:0;
+    margin-left:7px; text-shadow:0 0 7px rgba(107,179,240,0.85); }
+  body .v-nogeo { display:block; font-size:0.55rem; text-transform:uppercase;
+    letter-spacing:0.07em; color:#8a8272; flex-shrink:0; margin-left:7px; white-space:nowrap; }
+  .vet-item.located .v-name { color:#f7f1e4; font-weight:600; }
+  .vet-item.located .v-sym { filter:brightness(1.45); }
+  .vet-item.nogeo { opacity:0.5; }
+  body.sun .vet-item.located .v-name { color:#000000; }
+  body.sun .v-geo { color:#0060c0; text-shadow:none; }
+  body.sun .v-nogeo { color:#666666; }
+}
 </style>
 </head>
 <body>
@@ -469,7 +484,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   <div id="sidebar"><div id="sheet-handle"><span class="hbar"></span><span class="sheet-hint">Search or browse the index</span></div>
     
     <div id="sidebar-top">
-      <input id="search" type="text" placeholder="Search or browse index">
+      <input id="search" type="text" placeholder="Search veterans…">
       <div id="era-filters"></div>
     </div>
     <div id="list-wrap">
@@ -863,10 +878,13 @@ function sortedList() {
 function makeRow(v, idx) {
   const queued = !((v.narrative||'').trim());
   const el = document.createElement('div');
-  el.className = 'vet-item' + (idx===activeIdx?' active':'') + (queued?' queued':'');
+  const geo = (v.lat != null && v.lng != null);
+  el.className = 'vet-item' + (idx===activeIdx?' active':'') + (queued?' queued':'') + (geo?' located':' nogeo');
   el.dataset.i = idx;
   const q = queued ? `<div class="v-badge-q">\u25d4 queue</div>` : '';
-  el.innerHTML = `<div class="v-sym" style="color:${eraColor(v.era)}">${branchSym(v.branch)}</div><div style="flex:1;min-width:0"><div class="v-name">${titleName(v.name)}</div><div class="v-era">${eraLabel(v.era)}</div></div>${q}`;
+  const g = geo ? `<div class="v-geo" title="Grave located">\u25c9</div>`
+                : `<div class="v-nogeo">not located</div>`;
+  el.innerHTML = `<div class="v-sym" style="color:${eraColor(v.era)}">${branchSym(v.branch)}</div><div style="flex:1;min-width:0"><div class="v-name">${titleName(v.name)}</div><div class="v-era">${eraLabel(v.era)}</div></div>${q}${g}`;
   el.dataset.idx = idx;
   return el;
 }
@@ -1410,6 +1428,12 @@ function syncFieldButtons(){
     window.buildSidebar = function(){ var r=orig.apply(this,arguments); upd(); return r; };
   }
   setTimeout(upd, 400); setTimeout(upd, 1000);
+})();
+
+// phone-only wording for the search field (desktop keeps its original placeholder)
+(function(){
+  if (!(window.matchMedia && window.matchMedia('(max-width:640px)').matches)) return;
+  var el=document.getElementById('search'); if (el) el.placeholder='Search or browse index';
 })();
 </script>
 </body>
