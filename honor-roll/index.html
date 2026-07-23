@@ -24,6 +24,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 #header .home { font-size:0.62rem; color:#CD853F; text-decoration:none; letter-spacing:0.06em; text-transform:uppercase; }
 #header .home:hover { color:#f0c98a; }
 #header h1 .mode-label { display:none; }
+#site-nav { display:none; }
 #vet-count { font-size:0.85rem; color:#CD853F; letter-spacing:0.04em; }
 
 #main { position:relative; flex:1; overflow:hidden; }
@@ -212,6 +213,12 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
     text-transform:none; font-size:0.84rem; letter-spacing:0.03em; color:#9fd0ff;
     margin-top:6px; font-weight:normal; }
   #header h1 .mode-label svg { width:17px; height:17px; flex-shrink:0; }
+  #header .sub-home { display:none; }
+  #site-nav { display:flex; align-items:center; justify-content:space-between;
+    width:100%; margin-top:9px; }
+  #site-nav a { font-size:0.84rem; color:#CD853F; text-decoration:none;
+    letter-spacing:0.05em; text-transform:uppercase; padding:3px 2px; }
+  #site-nav a:active { color:#f0c98a; }
   #header .sub { font-size:0.84rem; margin-top:4px; }
   #header .home { font-size:0.84rem; }
   #vet-count { display:none; }
@@ -294,7 +301,11 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 <div id="header">
   <div>
     <h1 id="site-title">Veteran Archives</h1>
-    <div class="sub"><span id="site-sub"></span> &nbsp;·&nbsp; <a class="home" href="../index.html">← All Sites</a></div>
+    <div class="sub"><span id="site-sub"></span><span class="sub-home"> &nbsp;·&nbsp; <a class="home" href="../index.html">← All Sites</a></span></div>
+    <div id="site-nav">
+      <a class="nav-back" href="../index.html">← All Sites</a>
+      <a class="nav-next" id="nav-next" href="../index.html">Next Site →</a>
+    </div>
   </div>
   <div id="vet-count"></div>
 </div>
@@ -1098,6 +1109,37 @@ function updateDirections(){
   var c=document.getElementById('fb-close');   if(c) c.addEventListener('click', clearFocus);
 })();
 
+
+// Site-to-site navigation: "Next Site" link + swipe on the header bar.
+// Swipe is bound to the header only — binding it to the map would break map panning.
+(function(){
+  var CHAIN = ['calvary','elmwood','forestdale','rock-valley','smiths-ferry','research-queue','honor-roll'];
+  var parts = location.pathname.replace(/\/index\.html$/,'').split('/').filter(Boolean);
+  var cur = parts[parts.length-1] || '';
+  var i = CHAIN.indexOf(cur);
+  var next = CHAIN[(i + 1) % CHAIN.length];
+  var prev = (i > 0) ? CHAIN[i-1] : null;
+  var nx = document.getElementById('nav-next');
+  if (nx) nx.href = '../' + next + '/index.html';
+
+  var hdr = document.getElementById('header'), x0=null, y0=null;
+  function isPhone(){ return !!(window.matchMedia && window.matchMedia('(max-width:640px)').matches); }
+  if (hdr) {
+    hdr.addEventListener('touchstart', function(e){
+      if (!isPhone() || e.touches.length !== 1) { x0=null; return; }
+      x0 = e.touches[0].clientX; y0 = e.touches[0].clientY;
+    }, {passive:true});
+    hdr.addEventListener('touchend', function(e){
+      if (x0 === null) return;
+      var t = e.changedTouches[0], dx = t.clientX - x0, dy = t.clientY - y0;
+      x0 = null;
+      if (Math.abs(dx) < 60 || Math.abs(dy) > Math.abs(dx) * 0.7) return;
+      if (dx < 0) location.href = '../' + next + '/index.html';
+      else if (prev) location.href = '../' + prev + '/index.html';
+      else location.href = '../index.html';
+    }, {passive:true});
+  }
+})();
 </script>
 </body>
 </html>
