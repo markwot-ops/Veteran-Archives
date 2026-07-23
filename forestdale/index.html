@@ -317,7 +317,9 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 
   /* narrative panel follows the active mode */
   #pbox, #pbox.center { background:#141414; border-color:#444444; }
-  #pname { color:#f0e8d8; } #pservice { color:#CD853F; } #pstory { color:#aaaaaa; }
+  #pname { color:#f5efe2; } #pservice { color:#e0a25c; }
+  #pstory, #psrc, #pcontact, #pextra { color:#ddd5c6; }
+  #pstory { font-size:0.86rem; line-height:1.7; }
   body.sun #pbox, body.sun #pbox.center { background:#ffffff; border-color:#999999; }
   body.sun #popup.show { background:rgba(255,255,255,0.35); }
   body.sun #pname { color:#000000; } body.sun #pservice { color:#aa0000; }
@@ -450,6 +452,7 @@ const QUEUE_TEXT = 'This veteran has been identified but is still in the researc
 (function(){
   var _raw = SITE.title || SITE.name || 'Veteran Archives';
   var _base = _raw.replace(/\s*Veterans?\s+Memorial\s*$/i, '').trim() || _raw;
+  window.SITE_BASE = _base;
   var _h1 = document.getElementById('site-title');
   _h1.textContent = _base;
   if (_base !== _raw) {                       // only cemeteries carried "Veterans Memorial"
@@ -1092,7 +1095,8 @@ function focusGrave(match, idx){
   _targetHalo.on('click', function(e){ if(e&&e.originalEvent){e.originalEvent.stopPropagation();} locateMe(); });
   map.setView([match.lat, match.lng], 19, {animate:true, duration:0.8});
   document.getElementById('fb-name').textContent = titleName(match.name);
-  document.getElementById('fb-service').textContent = serviceLine(match);
+  document.getElementById('fb-service').textContent =
+    serviceLine(match) + (window.SITE_BASE ? ' \u00b7 ' + window.SITE_BASE : '');
   document.getElementById('findBanner').classList.add('show');
   document.getElementById('dirBar').classList.remove('show');
   document.body.classList.remove('sheet-open');
