@@ -510,6 +510,15 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   #sidebar { top:50%; bottom:auto; transform:translateY(-50%); max-height:52vh; }
   #list-wrap { max-height:48vh; }
 }
+
+@media (max-width:640px){
+  /* chips size to their own text again — fixed widths were clipping the long honour names */
+  #hr-bar #legend.in-sheet .leg-row { flex:0 0 auto !important; width:auto !important;
+    max-width:80vw; padding:9px 15px !important; overflow:visible; }
+  #hr-bar #legend.in-sheet .leg-label { overflow:visible !important; text-overflow:clip !important;
+    white-space:nowrap; flex:0 0 auto !important; }
+  #hr-bar #legend.in-sheet .leg-count { flex:0 0 auto !important; }
+}
 </style>
 </head>
 <body>
@@ -1483,10 +1492,12 @@ function syncFieldButtons(){
   function fit(){
     var d=document.getElementById('leg-distinct'); if(!d) return;
     var first=d.querySelector('.leg-row'); if(!first) return;
-    var pad=Math.max(0,(d.clientWidth - first.offsetWidth)/2);
-    d.style.paddingLeft=pad+'px'; d.style.paddingRight=pad+'px';
+    var rows=d.querySelectorAll('.leg-row');
+    var last=rows[rows.length-1] || first;
+    d.style.paddingLeft=Math.max(0,(d.clientWidth - first.offsetWidth)/2)+'px';
+    d.style.paddingRight=Math.max(0,(d.clientWidth - last.offsetWidth)/2)+'px';
     var on=d.querySelector('.leg-row.dist.on') || first;
-    d.scrollLeft = on.offsetLeft - pad;
+    d.scrollLeft = on.offsetLeft - (d.clientWidth - on.offsetWidth)/2;
   }
   window.fitHonorCarousel = fit;
   window.addEventListener('load', function(){ setTimeout(fit,150); setTimeout(fit,500); });
