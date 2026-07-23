@@ -453,6 +453,23 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   text-shadow:0 0 3px #fffbe0, 0 0 10px rgba(255,215,90,1), 0 0 20px rgba(255,180,30,0.7); }
 body.sun .leg-sym.kia-star { color:#d99a00;
   text-shadow:0 0 2px rgba(255,240,180,0.9), 0 0 6px rgba(217,154,0,0.55); }
+
+/* the legend's brightness filter was clamping the gold to white — exempt the KIA star */
+.leg-sym.kia-star,
+.leg-row.dist.on .leg-sym.kia-star,
+#legend.in-sheet .leg-sym.kia-star,
+#legend.in-sheet .leg-row.dist.on .leg-sym.kia-star {
+  color:#ffd447 !important; filter:none !important; -webkit-filter:none !important;
+  text-shadow:0 0 2px #fff6c4, 0 0 7px rgba(255,205,70,0.95), 0 0 15px rgba(255,170,20,0.55);
+}
+body.sun .leg-sym.kia-star,
+body.sun #legend.in-sheet .leg-sym.kia-star {
+  color:#c8860a !important;
+  text-shadow:0 0 2px rgba(255,242,190,0.9), 0 0 6px rgba(200,134,10,0.5);
+}
+/* and a matching gold star before KIA in the narrative window */
+.kia-badge-star { color:#ffd447; margin-right:5px; font-size:0.95em;
+  text-shadow:0 0 2px #fff6c4, 0 0 6px rgba(255,205,70,0.9); }
 </style>
 </head>
 <body>
@@ -770,7 +787,12 @@ function openPopup(v, idx) {
   (v.badges||[]).forEach(f => {
     const [bg,fg] = fs[f]||['#444','#fff'];
     const b = document.createElement('span');
-    b.className='fbadge'; b.style.background=bg; b.style.color=fg; b.textContent=f;
+    b.className='fbadge'; b.style.background=bg; b.style.color=fg;
+    if (f === 'KIA') {
+      const st = document.createElement('span');
+      st.className = 'kia-badge-star'; st.textContent = '\u2605';
+      b.appendChild(st); b.appendChild(document.createTextNode(f));
+    } else { b.textContent = f; }
     flagsEl.appendChild(b);
   });
 
