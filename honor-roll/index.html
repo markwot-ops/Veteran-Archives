@@ -338,8 +338,15 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 
   body #legend.in-sheet { display:block; position:static; width:auto; max-width:none;
     max-height:none; margin:9px 0 0; padding:0; background:transparent; border:none; box-shadow:none; }
-  #legend.in-sheet #leg-head { font-size:0.66rem; margin:0 0 6px; }
-  #legend.in-sheet #leg-distinct { display:flex; flex-wrap:wrap; gap:6px; }
+  #legend.in-sheet #leg-head { font-size:0.58rem; letter-spacing:0.1em; margin:0 0 4px; opacity:0.8; }
+  #legend.in-sheet #leg-distinct { display:flex; flex-wrap:nowrap; gap:6px;
+    overflow-x:auto; -webkit-overflow-scrolling:touch; padding-bottom:4px;
+    scrollbar-width:none; }
+  #legend.in-sheet #leg-distinct::-webkit-scrollbar { display:none; }
+  #legend.in-sheet .leg-row { flex:0 0 auto; white-space:nowrap; }
+  #sidebar { max-height:46vh; }
+  #list-wrap { max-height:27vh; }
+  body.sheet-open #sidebar { max-height:46vh; }
   #legend.in-sheet .leg-row { display:flex; align-items:center; gap:6px; width:auto;
     padding:6px 10px; border:1px solid #4a4a4a; border-radius:15px; font-size:0.72rem; }
   #legend.in-sheet .leg-row.on { border-color:var(--dc); background:rgba(255,255,255,0.06); }
