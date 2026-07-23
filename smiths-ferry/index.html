@@ -23,6 +23,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 #header .sub { font-size:0.72rem; color:#888; margin-top:2px; }
 #header .home { font-size:0.62rem; color:#CD853F; text-decoration:none; letter-spacing:0.06em; text-transform:uppercase; }
 #header .home:hover { color:#f0c98a; }
+#header h1 .mode-label { display:none; }
 #vet-count { font-size:0.85rem; color:#CD853F; letter-spacing:0.04em; }
 
 #main { position:relative; flex:1; overflow:hidden; }
@@ -203,10 +204,13 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 @keyframes locSpin { to { transform:rotate(360deg); } }
 
 @media (max-width:640px) {
-  #header { padding:13px 16px; }
-  #header h1 { font-size:1.23rem; letter-spacing:0.05em; }
-  #header .sub { font-size:0.9rem; margin-top:3px; }
-  #header .home { font-size:0.9rem; }
+  #header { padding:calc(11px + env(safe-area-inset-top, 0px)) 16px 11px;
+    flex-direction:column; align-items:center; justify-content:center; text-align:center; }
+  #header > div { width:100%; }
+  #header h1 { font-size:1.16rem; letter-spacing:0.05em; line-height:1.3; }
+  #header h1 .mode-label { display:inline; }
+  #header .sub { font-size:0.84rem; margin-top:4px; }
+  #header .home { font-size:0.84rem; }
   #vet-count { display:none; }
   #legend { display:none; }
   #az-rail { display:none; }
@@ -238,10 +242,10 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   /* GPS "locate me" button, above the collapsed sheet */
   #locate-me {
     display:flex; align-items:center; justify-content:center;
-    position:absolute; right:12px; bottom:calc(84px + env(safe-area-inset-bottom, 0px)); z-index:1100;
-    width:48px; height:48px; border-radius:50%;
-    background:#141414; border:1px solid #5a3f27; color:#4a9be0;
-    font-size:1.35rem; cursor:pointer; box-shadow:0 3px 12px rgba(0,0,0,0.5);
+    position:absolute; right:14px; bottom:calc(120px + env(safe-area-inset-bottom, 0px)); z-index:1100;
+    width:52px; height:52px; border-radius:50%;
+    background:#182a3d; border:2px solid #6bb3f0; color:#9fd0ff;
+    cursor:pointer; box-shadow:0 3px 14px rgba(0,0,0,0.55), 0 0 0 3px rgba(20,20,20,0.45);
   }
   #locate-me.locating { animation:locSpin 0.9s linear infinite; color:#f0c98a; }
 
@@ -293,7 +297,7 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
 
 <div id="main">
   <div id="map"></div>
-  <button id="locate-me" type="button" title="Show my location" aria-label="Show my location">◎</button>
+  <button id="locate-me" type="button" title="Show my location" aria-label="Show my location"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="1.7" fill="currentColor" stroke="none"/><line x1="12" y1="1.5" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22.5"/><line x1="1.5" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22.5" y2="12"/></svg></button>
   <div id="findBanner">
     <button id="fb-close" type="button" aria-label="Close">×</button>
     <div id="fb-name"></div>
@@ -354,7 +358,18 @@ const IS_QUEUE = SITE.kind === 'queue';
 const CONTACT_CLOSE = 'If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.';
 const QUEUE_TEXT = 'This veteran has been identified but is still in the research queue — a narrative has not yet been written. The entry is held here until research and grave location are complete.';
 
-document.getElementById('site-title').textContent = SITE.title || SITE.name || 'Veteran Archives';
+(function(){
+  var _raw = SITE.title || SITE.name || 'Veteran Archives';
+  var _base = _raw.replace(/\s*Veterans?\s+Memorial\s*$/i, '').trim() || _raw;
+  var _h1 = document.getElementById('site-title');
+  _h1.textContent = _base;
+  if (_base !== _raw) {                       // only cemeteries carried "Veterans Memorial"
+    var _m = document.createElement('span');
+    _m.className = 'mode-label';
+    _m.textContent = ' Veteran Locator';
+    _h1.appendChild(_m);                      // hidden on desktop, shown on phones via CSS
+  }
+})();
 document.getElementById('site-sub').textContent = SITE.address || '';
 document.title = (SITE.title || 'Veteran Archives') + ' — Holyoke, MA';
 
