@@ -93,6 +93,7 @@ footer .contact { color:#CD853F; }
     background:#141414; border:1px solid #5a3f27; border-radius:5px; padding:6px 9px; outline:none;
     transition:border-color .15s; }
   #vsearch-input:focus { border-color:#CD853F; }
+  .vsearch-hint { display:none; }
   #vsearch-input::placeholder { color:#e6a95f; text-transform:uppercase; letter-spacing:0.18em; opacity:1; }
   #vsearch-input:disabled { opacity:.55; }
   .vsearch-results { position:absolute; right:0; width:250px; top:calc(100% + 4px); background:#141414;
@@ -111,7 +112,11 @@ footer .contact { color:#CD853F; }
     header .mark, header h1, header .sub { display:none; }
     header .emblem { position:static; transform:none; width:150px; max-width:52%; margin:6px auto 2px; }
     header .finder { display:flex; }
-    .vsearch { position:static; width:auto; max-width:290px; margin:18px auto 0; }
+    .vsearch { position:static; width:auto; max-width:238px; margin:18px auto 0;
+      border:1px solid #5a3f27; border-radius:9px; background:#141414; padding:8px 9px 7px; }
+    #vsearch-input { border:none; background:transparent; padding:3px 3px; }
+    .vsearch-hint { display:block; text-align:center; font-size:0.6rem; color:#8a8272;
+      letter-spacing:0.03em; margin-top:6px; padding-top:6px; border-top:1px solid #2a2118; }
     .vsearch-label { text-align:center; font-size:0.6rem; margin-bottom:7px; }
     #vsearch-input { font-size:16px; padding:10px 13px; }
     .vsearch-results { left:0; right:0; width:auto; }
@@ -145,6 +150,7 @@ footer .contact { color:#CD853F; }
   <div class="vsearch">
     <input id="vsearch-input" type="text" placeholder="Search by Name" autocomplete="off" spellcheck="false" disabled>
     <div id="vsearch-results" class="vsearch-results"></div>
+    <div class="vsearch-hint">Scroll down or swipe left for cemetery maps</div>
   </div>
 </header>
 
@@ -319,6 +325,25 @@ function initVSearch(){
   });
 })();
 initVSearch();
+
+// Swipe left on the landing page -> first cemetery map (phones only; no map here to conflict with)
+(function(){
+  var x0=null, y0=null;
+  function isPhone(){ return !!(window.matchMedia && window.matchMedia('(max-width:640px)').matches); }
+  document.addEventListener('touchstart', function(e){
+    if (!isPhone() || e.touches.length !== 1) { x0=null; return; }
+    if (e.target.closest && e.target.closest('.vsearch')) { x0=null; return; }  // don't hijack the search list
+    x0 = e.touches[0].clientX; y0 = e.touches[0].clientY;
+  }, {passive:true});
+  document.addEventListener('touchend', function(e){
+    if (x0 === null) return;
+    var t = e.changedTouches[0], dx = t.clientX - x0, dy = t.clientY - y0;
+    x0 = null;
+    if (dx > -60) return;                          // must be a decisive LEFT swipe
+    if (Math.abs(dy) > Math.abs(dx) * 0.7) return; // ignore mostly-vertical scrolls
+    location.href = './calvary/index.html';
+  }, {passive:true});
+})();
 </script>
 </body>
 </html>
