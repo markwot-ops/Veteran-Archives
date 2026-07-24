@@ -5603,7 +5603,7 @@ window.VA = {
    "branchLabel": "Navy · Great White Fleet",
    "lat": 42.1875,
    "lng": -72.6292038,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/altenkirch_a_navy_great_white_fleet.jpg",
+   "photo": "/Veteran-Archives/photos/calvary/altenkirch_a_navy_great_white_fleet.jpg",
    "extraPhotos": [],
    "narrative": "Born May 4, 1884 · Died April 9, 1908. Alfred Altenkirch served as a Fireman First Class in the United States Navy, assigned to the USS Vermont — flagship unit of President Theodore Roosevelt's legendary Great White Fleet. In December 1907, the Vermont departed Hampton Roads as part of the most ambitious naval demonstration in American history, sailing around the globe with 16 battleships as a dramatic show of American power on the world stage. On April 9, 1908, while the Vermont was anchored at Magdalena Bay, Mexico during target practice operations, Fireman First Class Altenkirch was found unresponsive in the ship's double bottom compartment. He was 23 years old. His next of kin was Mrs. Antone Gehlen of Holyoke, Massachusetts — his connection to this city. ⚠️ Geo-location TBD — coordinates are placeholder only. His interment at Calvary Cemetery is recorded in the FindAGrave registry of veterans buried here; his gravestone and grave site have not yet been located and geolocated, and are the subject of continuing research. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
