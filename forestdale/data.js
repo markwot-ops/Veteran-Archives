@@ -2433,7 +2433,16 @@ window.VA = {
    "lat": 42.206761,
    "lng": -72.623061,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/bell%20s%20Medium.jpeg",
-   "extraPhotos": [],
+   "extraPhotos": [
+    {
+     "src": "/Veteran-Archives/photos/forestdale/bell_s_Medium.jpeg",
+     "caption": "📷 Grave marker"
+    },
+    {
+     "src": "/Veteran-Archives/photos/forestdale/bell2_Medium.jpeg",
+     "caption": "📷 Family monument"
+    }
+   ],
    "narrative": "Samuel Bell served in World War II. A veteran's stake at his grave records the years of his service, 1941 to 1945 — the span of America's war from Pearl Harbor to victory. Born in 1894, Samuel was already in his late forties during the war, an older man among those who served. He passed away in 1960, and his wife May Cunliffe is buried alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
@@ -2448,7 +2457,20 @@ window.VA = {
    "lat": 42.206711,
    "lng": -72.623214,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/bentley%20Medium.jpeg",
-   "extraPhotos": [],
+   "extraPhotos": [
+    {
+     "src": "/Veteran-Archives/photos/forestdale/bentley_Medium.jpeg",
+     "caption": "📷 Veteran marker"
+    },
+    {
+     "src": "/Veteran-Archives/photos/forestdale/bentley_a_Medium.jpeg",
+     "caption": "📷 Family stone"
+    },
+    {
+     "src": "/Veteran-Archives/photos/forestdale/bentley2_Medium.jpeg",
+     "caption": "📷 Family monument"
+    }
+   ],
    "narrative": "Archie Bentley served as a Seaman-Guard in the United States Navy, entering service on October 22, 1917. Armed guards were the Navy's answer to the U-boat: gun crews posted aboard merchant ships crossing the Atlantic, standing watch over cargoes the war could not do without, on vessels the enemy was actively hunting. It was quiet duty until the moment it wasn't. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
@@ -2463,7 +2485,12 @@ window.VA = {
    "lat": 42.206864,
    "lng": -72.621919,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/berard%20Medium.jpeg",
-   "extraPhotos": [],
+   "extraPhotos": [
+    {
+     "src": "/Veteran-Archives/photos/forestdale/berard_Medium.jpeg",
+     "caption": "📷 Grave marker"
+    }
+   ],
    "narrative": "Armand D. Berard served as a Private in the United States Army during World War II. The private was the foundation of the Army — the rifleman and laborer who carried the weight of the war on his back, marched the roads, dug the lines, and met the enemy face to face. Armand was one of the great mass of ordinary Holyoke men who answered the call and did the hard, unglamorous work that won the war. A resident of the city his whole life, he passed away August 14, 1986, at the age of 71. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
@@ -4030,8 +4057,8 @@ window.VA = {
   {
    "id": "fd_new_batchelor_g",
    "name": "Batchelor, G.",
-   "era": "",
-   "branch": "",
+   "era": "World War I",
+   "branch": "U.S. Army",
    "branchLabel": "",
    "lat": 42.206997,
    "lng": -72.624069,
@@ -4040,9 +4067,13 @@ window.VA = {
     {
      "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/tardy%20Medium.jpeg",
      "caption": "Additional photo"
+    },
+    {
+     "src": "/Veteran-Archives/photos/forestdale/batchelor_g_Medium.jpeg",
+     "caption": "📷 Grave marker"
     }
    ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "George F. Batchelor's number came up in the last summer of the war. He entered service on July 23, 1918, and like nearly every Massachusetts draftee that year he went to Camp Devens, out at Ayer, where the 151st Depot Brigade did the unglamorous work of turning civilians into soldiers — taking men off the trains, clothing and inoculating them, drilling them, and parcelling them out to whichever units needed bodies. His government marker records that brigade. Zack's roll of Holyoke's war service picks him up afterward with the Motor Corps of the 12th Division, still at Devens.\n\nThe 12th was one of the divisions being raised through 1918 for a campaign planned for 1919 — the great American offensive the Armistice made unnecessary. It never crossed the Atlantic. Motor Corps men kept the trucks and staff cars running, the work that moved everything an army eats, wears, and fires. Batchelor spent his war in that harness, on this side of the ocean, waiting on orders that the eleventh of November cancelled.\n\nHe came home to Holyoke and died there on November 7, 1949. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -4072,9 +4103,13 @@ window.VA = {
     {
      "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/schwember%20Medium.jpeg",
      "caption": "Additional photo"
+    },
+    {
+     "src": "/Veteran-Archives/photos/forestdale/bilodeau_Medium.jpeg",
+     "caption": "📷 Grave marker"
     }
    ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Edward A. Bilodeau served in the United States Army in the Second World War. He was almost exactly the age the war was written for — in his early twenties when Pearl Harbor brought the country in, squarely inside the draft's reach for the whole of it.\n\nHis flat bronze marker at Forestdale records the branch and the war and stops there, which is what most such markers do. They are recording facts the government easily certifies. His unit, his theater, and what he did there have not yet been traced. He came home from it, lived out his life, and died on January 18, 1992.\n\nThis account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -4100,9 +4135,13 @@ window.VA = {
     {
      "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/lang%20J%20Medium.jpeg",
      "caption": "Additional photo"
+    },
+    {
+     "src": "/Veteran-Archives/photos/forestdale/bluemer_Medium.jpeg",
+     "caption": "📷 Family monument"
     }
    ],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "The Bluemer stone at Forestdale is a family monument rather than a soldier's marker. It carries Robert J. Bluemer, his wife Claire M. St. Laurent, and a second Robert J. Bluemer — a son, by the naming — whose dates on the stone are short ones. A veteran's flag stands at the grave.\n\nThe military grave register for Forestdale records a Bluemer among its veterans, but not Robert J. It lists Charles E. Bluemer, a Private in the United States Army in the Second World War, born August 1, 1923 and died December 23, 2006. Whether his marker stands near this family monument, or whether the flag here honors him, has not been settled on the ground.\n\nThis account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -6215,6 +6254,36 @@ window.VA = {
    "badges": [],
    "status": "located",
    "source": "forestdale-field-2026"
+  },
+  {
+   "id": "fd_barnett_earl_r",
+   "name": "Barnett, Earl R.",
+   "era": "World War II",
+   "branch": "U.S. Air Force",
+   "branchLabel": null,
+   "lat": null,
+   "lng": null,
+   "photo": "/Veteran-Archives/photos/forestdale/barnett2_Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "Earl R. Barnett's marker records the United States Air Force and the Second World War — a pairing that carries a small piece of history in it. There was no United States Air Force during that war. American air power belonged to the Army Air Forces until 1947, when Congress cut it loose as a separate service. A veteran's stone records the branch a man finished in, not the one he started in, so Barnett's almost certainly marks someone who went to war in Army uniform and stayed on through the change.\n\nHe finished as a master sergeant. That rank is the spine of an air force — the man who runs the shop or the section, who knows the aircraft and the paperwork and the young airmen alike, and whose competence the officers quietly depend on. Reaching it means devotion to a career, or exemplary skills recognized, appreciated and put to practical use; in wartime a man could rise fast when his leadership or expertise met a vital need.\n\nWhat he flew with, what he worked on, and where the service took him have not yet been traced. His stone gives his years as 1922 to 1986. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "research",
+   "source": "Headstone inscription, Forestdale Cemetery"
+  },
+  {
+   "id": "fd_bendsley_otto_g",
+   "name": "Bendsley, Otto G.",
+   "era": "Unknown Era",
+   "branch": null,
+   "branchLabel": null,
+   "lat": null,
+   "lng": null,
+   "photo": "/Veteran-Archives/photos/forestdale/bendsley_Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "The Bendsley family stone at Forestdale carries three names — Otto G., Isabel E., and Amelia E. — with a veteran's flag holder standing at its base. The markers name no branch and no war, nor which of the three the flag honors. From the dates alone, Otto G. Bendsley would have been in his late thirties or early forties when the Second World War came — old for a draftee, but well inside the range that served. Firmly establishing who served, and in what, has yet to be determined. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "research",
+   "source": "Headstone inscription, Forestdale Cemetery"
   }
  ]
 };
