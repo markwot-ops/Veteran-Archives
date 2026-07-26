@@ -617,9 +617,11 @@ function locateMe(){
     if (_guideLine){ map.removeLayer(_guideLine); _guideLine = null; }
     var _db = document.getElementById('dirBar'); if (_db) _db.classList.remove('show');
     if (btn) btn.classList.remove('locating','on');
+    stopCompass(); _bearingToGrave = null;
     return;
   }
   if (btn) btn.classList.add('locating');
+  startCompass();                                 // request/attach the phone's compass (this tap is the gesture)
   _watchId = navigator.geolocation.watchPosition(function(p){
     var la=p.coords.latitude, lo=p.coords.longitude, ac=p.coords.accuracy;
     if (!_youMarker){
@@ -645,11 +647,58 @@ function isMobile(){ return !!(window.matchMedia && window.matchMedia('(max-widt
 var FOCUS = null, _guideLine = null, _targetHalo = null, _watchId = null;
 var COMPASS = ['N','NE','E','SE','S','SW','W','NW'];
 var ARROWS  = ['\u2191','\u2197','\u2192','\u2198','\u2193','\u2199','\u2190','\u2196'];
+var FULL    = ['North','Northeast','East','Southeast','South','Southwest','West','Northwest'];
 function bearingDeg(la1,lo1,la2,lo2){
   var toR=function(x){return x*Math.PI/180;}, toD=function(x){return x*180/Math.PI;};
   var y=Math.sin(toR(lo2-lo1))*Math.cos(toR(la2));
   var x=Math.cos(toR(la1))*Math.sin(toR(la2))-Math.sin(toR(la1))*Math.cos(toR(la2))*Math.cos(toR(lo2-lo1));
   return (toD(Math.atan2(y,x))+360)%360;
+}
+
+// ---- Live compass: rotate the needle so it points the way to WALK ----
+// _heading = the direction the phone is facing (0 = true north). When we have it, the
+// needle = bearing-to-grave minus heading, so it points at the grave no matter which way
+// you turn (straight up = walk straight ahead). No sensor -> fall back to a North-up dial.
+var _heading = null, _bearingToGrave = null, _compassOn = false;
+function _onOrient(e){
+  var h = null;
+  if (typeof e.webkitCompassHeading === 'number') { h = e.webkitCompassHeading; }      // iOS: true north, clockwise
+  else if (e.absolute === true && typeof e.alpha === 'number') { h = (360 - e.alpha) % 360; } // Android absolute
+  if (h != null && !isNaN(h)) { _heading = h; renderCompass(); }
+}
+function _attachOrient(){
+  if (_compassOn) return; _compassOn = true;
+  if ('ondeviceorientationabsolute' in window) window.addEventListener('deviceorientationabsolute', _onOrient, true);
+  window.addEventListener('deviceorientation', _onOrient, true);
+}
+function startCompass(){                                   // call from the Guide-me tap (a user gesture)
+  if (_compassOn) return;
+  if (typeof DeviceOrientationEvent !== 'undefined' && typeof DeviceOrientationEvent.requestPermission === 'function') {
+    DeviceOrientationEvent.requestPermission().then(function(s){ if (s === 'granted') _attachOrient(); }).catch(function(){});
+  } else { _attachOrient(); }
+}
+function stopCompass(){
+  if (!_compassOn) return; _compassOn = false; _heading = null;
+  window.removeEventListener('deviceorientationabsolute', _onOrient, true);
+  window.removeEventListener('deviceorientation', _onOrient, true);
+}
+function renderCompass(){
+  var arrow = document.getElementById('dir-needle');
+  if (!arrow || _bearingToGrave == null) return;
+  var rot = (_heading != null) ? (_bearingToGrave - _heading) : _bearingToGrave;
+  arrow.style.transform = 'rotate(' + rot + 'deg)';
+  var dial = document.getElementById('dir-compass');
+  if (dial) dial.classList.toggle('north-up', _heading == null);
+}
+function ensureDirParts(){
+  var bar = document.getElementById('dirBar');
+  if (!bar || bar.querySelector('#dir-compass')) return bar;
+  bar.innerHTML =
+    '<div id="dir-compass"><span id="dir-N">N</span>' +
+      '<div id="dir-needle"><svg viewBox="0 0 40 40" width="34" height="34" aria-hidden="true">' +
+        '<polygon points="20,3 30,33 20,26 10,33" fill="currentColor"/></svg></div>' +
+    '</div><div id="dir-text"></div>';
+  return bar;
 }
 function focusGrave(match, idx){
   FOCUS = {match:match, idx:idx};
@@ -684,21 +733,38 @@ function clearFocus(){
   setTimeout(function(){ try { map.invalidateSize(); } catch(e){} }, 80);
   if (_targetHalo){ map.removeLayer(_targetHalo); _targetHalo=null; }
   if (_guideLine){ map.removeLayer(_guideLine); _guideLine=null; }
+  stopCompass(); _bearingToGrave = null;
 }
 function updateDirections(){
   var bar = document.getElementById('dirBar');
   if (!bar) return;
   if (!FOCUS || !_youMarker){ bar.classList.remove('show'); return; }
+  ensureDirParts();
+  var txt = document.getElementById('dir-text');
+  var comp = document.getElementById('dir-compass');
+  var _dv = document.getElementById('fb-drive');
   var you = _youMarker.getLatLng(), g = L.latLng(FOCUS.match.lat, FOCUS.match.lng);
   var feet = Math.round(you.distanceTo(g) * 3.28084);
-  if (feet <= 15){ bar.textContent = 'You\u2019re here \u2014 look around you'; }
-  else if (feet > 2000) {                     // too far to walk a bearing - offer road directions
-    bar.textContent = (feet/5280).toFixed(1) + ' miles away \u2014 tap Drive there';
+  if (feet <= 15){                                          // standing on it
+    _bearingToGrave = null;
+    if (comp) comp.style.display = 'none';
+    txt.innerHTML = '<span class="dir-here">You\u2019re here \u2014 look around you</span>';
+    if (_dv) _dv.style.display = 'none';
+  } else if (feet > 2000){                                  // too far to walk a bearing -> road directions
+    _bearingToGrave = null;
+    if (comp) comp.style.display = 'none';
+    txt.innerHTML = '<span class="dir-dist">' + (feet/5280).toFixed(1) + ' <small>mi</small></span>' +
+                    '<span class="dir-word">away \u2014 tap Drive there</span>';
+    if (_dv) _dv.style.display = 'block';
+  } else {                                                  // walking range: compass + distance
+    _bearingToGrave = bearingDeg(you.lat, you.lng, g.lat, g.lng);
+    var i = Math.round(_bearingToGrave/45) % 8;
+    if (comp) comp.style.display = '';
+    txt.innerHTML = '<span class="dir-word">Head ' + FULL[i] + '</span>' +
+                    '<span class="dir-dist">' + feet + ' <small>ft</small></span>';
+    if (_dv) _dv.style.display = 'none';
+    renderCompass();
   }
-  else { var i = Math.round(bearingDeg(you.lat, you.lng, g.lat, g.lng)/45) % 8;
-         bar.textContent = ARROWS[i] + '  head ' + COMPASS[i] + ' \u00b7 about ' + feet + ' ft'; }
-  var _dv = document.getElementById('fb-drive');
-  if (_dv) _dv.style.display = (feet > 2000) ? 'block' : 'none';
   bar.classList.add('show');
   if (!_guideLine){ _guideLine = L.polyline([you, g], {color:'#ffd757', weight:3, opacity:0.85, dashArray:'6,7'}).addTo(map); }
   else _guideLine.setLatLngs([you, g]);

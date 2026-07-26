@@ -272,7 +272,11 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   body.sun #findBanner.show { background:#f4f1ea; border-color:#cc0000; }
   body.sun #fb-name { color:#000000; font-weight:bold; }
   body.sun #fb-service { color:#333333; font-weight:bold; }
-  body.sun #dirBar.show { color:#cc0000; font-size:1.85rem; font-weight:bold; line-height:1.25; }
+  body.sun #dirBar.show { color:#cc0000; font-size:1.85rem; font-weight:bold; line-height:1.25; gap:11px; }
+  body.sun #dir-compass { background:#ffffff; border-color:#cc0000; border-width:2px; }
+  body.sun #dir-needle { color:#cc0000; }
+  body.sun #dir-N { color:#555555; }
+  body.sun #dir-text .dir-word, body.sun #dir-text .dir-dist { color:#000000; }
   body.sun .fb-actions button { background:#f4f1ea; color:#000000; border-color:#666666; font-weight:bold; }
   body.sun #fb-guide { background:#ffe9e9; border-color:#cc0000; color:#aa0000; }
   body.sun #fb-close { color:#333333; }
@@ -348,7 +352,22 @@ body { font-family:Georgia,serif; background:#1a1a1a; color:#f0e8d8; height:100v
   #fb-name { font-size:1.05rem; color:#f0e8d8; padding-right:20px; }
   #fb-service { font-size:0.72rem; color:#CD853F; margin-top:2px; letter-spacing:0.03em; }
   #dirBar { display:none; }
-  #dirBar.show { display:block; margin-top:10px; font-size:1rem; color:#ffd757; letter-spacing:0.02em; }
+  #dirBar.show { display:flex; align-items:center; gap:13px; margin-top:10px;
+    font-size:1rem; color:#ffd757; letter-spacing:0.02em; }
+  /* left: a compass whose needle points the way to walk */
+  #dir-compass { position:relative; flex:0 0 auto; width:52px; height:52px; border-radius:50%;
+    background:rgba(255,255,255,0.05); border:1.5px solid rgba(255,215,120,0.55);
+    display:flex; align-items:center; justify-content:center; }
+  #dir-needle { color:#ffd757; line-height:0; transition:transform 0.12s linear; will-change:transform; }
+  #dir-N { position:absolute; top:2px; left:50%; transform:translateX(-50%);
+    font-size:9px; font-weight:700; color:#9fb4c9; opacity:0; }   /* shown only in the north-up fallback */
+  #dir-compass.north-up #dir-N { opacity:1; }
+  /* right: distance + direction, stacked and scannable */
+  #dir-text { flex:1 1 auto; display:flex; flex-direction:column; line-height:1.15; }
+  #dir-text .dir-word { font-weight:600; }
+  #dir-text .dir-dist { font-weight:800; font-size:1.35em; }
+  #dir-text .dir-dist small { font-weight:600; font-size:0.6em; opacity:0.8; }
+  #dir-text .dir-here { font-weight:700; }
   .fb-actions { display:flex; gap:8px; margin-top:11px; }
   .fb-actions button { flex:1; font-family:Georgia,serif; font-size:0.82rem; padding:10px 0; border-radius:8px;
     border:1px solid #5a3f27; background:#141414; color:#e6a95f; cursor:pointer; }
