@@ -2551,8 +2551,13 @@ window.VA = {
    "lat": 42.206642,
    "lng": -72.622422,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/buchanan%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "Clarence M. Buchanan served with the 231st Port Company during World War II. He died in 1945, the final year of the war, and is memorialized on the family stone alongside his father, John G. Buchanan, and mother, Mabel M. Keeler. Port companies were essential to the Allied war effort, managing the massive logistics of unloading troops and supplies at ports across Europe and the Pacific. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/buchanan2%20Medium.jpeg",
+     "caption": "📷 Family monument"
+    }
+   ],
+   "narrative": "Clarence M. Buchanan served in the 231st Port Company during the Second World War. The port companies were the muscle of the supply line — the men who worked the docks and the ships’ holds, loading and unloading the vessels that moved every soldier, vehicle, ration, and shell to the fighting fronts of Europe and the Pacific, laboring around the clock at the harbors the whole war depended on. Buchanan died in 1945, the war’s last year, and is remembered on the family stone at Forestdale beside his father, John G. Buchanan, and his mother, Mabel M. Keeler. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": ""
@@ -4163,7 +4168,7 @@ window.VA = {
    "lng": -72.624053,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/campbell%20Medium.jpeg",
    "extraPhotos": [],
-   "narrative": "Alexander Campbell served as a Ship’s Cook Second Class in the United States Navy during the Second World War. A ship’s cook fed the crew — turning out meals by the thousands from a cramped, sweltering galley that kept working through heavy seas and the general-quarters alarm alike, because a warship’s company had to be fed to fight. Campbell enlisted from Florida, the state cut into his marker, and was born May 21, 1926, which left him a teenager through most of the war. He died in August 1947, at just twenty-one — barely past the war he had served in. What took him so young the record here does not say. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Alexander Campbell served as a Ship’s Cook Second Class in the United States Navy during the Second World War. A ship’s cook fed the crew — turning out meals by the thousands from a cramped, sweltering galley that kept working through heavy seas and the general-quarters alarm alike, because a warship’s company had to be fed to fight. Campbell enlisted from Florida, the state cut into his marker, and was born May 21, 1926. He died in August 1947, at just twenty-one — barely past the war he had served in. What took him so young the record here does not say. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -4178,7 +4183,7 @@ window.VA = {
    "lng": -72.624436,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/caudill%20Medium.jpeg",
    "extraPhotos": [],
-   "narrative": "Hetric Caudill served as a Private First Class in the United States Army during the Korean War. Korea was a hard, back-and-forth war fought over ridgelines and frozen valleys, and the private first class was the man who held the ground — carrying the rifle, the ammunition, and the cold. Born November 22, 1930, Caudill was barely twenty when the fighting broke out in the summer of 1950. He came home to Holyoke and lived a long life, dying on May 25th in the mid-1990s. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Hetric Caudill served as a Private First Class in the United States Army during the Korean War. Korea was a hard, back-and-forth war fought over ridgelines and frozen valleys, and the private first class was the man who held the ground — carrying the rifle, the ammunition, and the cold. Born November 22, 1930, Caudill was barely twenty when the fighting broke out in the summer of 1950. He lived until May 25th in the mid-1990s and rests at Forestdale. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -4193,7 +4198,7 @@ window.VA = {
    "lng": -72.624756,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cieplik%20Medium.jpeg",
    "extraPhotos": [],
-   "narrative": "Theodore E. Cieplik served as a Seaman First Class in the United States Navy during the Second World War. A seaman first class was the backbone of a ship’s crew — the trained hand who stood watch, worked the deck, handled the lines and cargo and guns, and did the endless labor that kept a vessel running at sea. He came home to Holyoke after the war and lived until June 20, 1972. Which ship or which ocean claimed his service the marker does not record. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Theodore E. Cieplik served as a Seaman First Class in the United States Navy during the Second World War. A seaman first class was the backbone of a ship’s crew — the trained hand who stood watch, worked the deck, and handled the lines, cargo, and guns that kept a vessel running at sea. He lived until June 20, 1972, and rests at Forestdale. Which ship or which ocean claimed his service the marker does not record. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -4208,7 +4213,7 @@ window.VA = {
    "lng": -72.624428,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/clark%20Medium.jpeg",
    "extraPhotos": [],
-   "narrative": "David G. Clark served as a Private in Company D of the 16th Battalion, United States Guards, during the First World War. The U.S. Guards were the home-front army — men enrolled to protect what the war depended on inside the country: the railroads, munitions plants, bridges, and terminals that a single act of sabotage could cripple. It was watchful, static duty, often given to older men or those not sent overseas, yet the factories and rail lines it guarded were what armed and moved the whole American effort. Clark entered the service in June 1918. He rests at Forestdale beneath the family stone he shares with his wife, Florence J., a veteran’s emblem marking the grave. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "David G. Clark served as a Private in Company D of the 16th Battalion, United States Guards, during the First World War. The U.S. Guards were the home-front army — men enrolled to protect what the war depended on inside the country: the railroads, munitions plants, bridges, and terminals that a single act of sabotage could cripple. It was watchful, static duty, often given to older men or those not sent overseas, yet the factories and rail lines it guarded were what armed and moved the whole American effort. Clark entered the service in June 1918. He rests at Forestdale beneath the family stone he shares with his wife, Florence J.; the veteran’s medallion at the grave marks his service. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -4228,7 +4233,7 @@ window.VA = {
      "caption": "Additional photo"
     }
    ],
-   "narrative": "Peter E. Cody served as a Private First Class in the 687th Ordnance Ammunition Company during the Second World War. Ordnance ammunition companies handled the war’s most dangerous cargo — receiving, storing, and issuing the shells, bombs, grenades, and cartridges that the fighting burned through at a staggering rate, stacking and hauling high explosive by hand at dumps that were prime targets for enemy guns and aircraft. Nothing at the front fired unless men like Cody kept the ammunition moving. Born August 25, 1911, he was in his thirties during the war, older than most of the men around him. He came home to Holyoke and died November 18, 1968, at fifty-seven. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Peter E. Cody served as a Private First Class in the 687th Ordnance Ammunition Company during the Second World War. Ordnance ammunition companies handled the war’s most dangerous cargo — receiving, storing, and issuing the shells, bombs, grenades, and cartridges the fighting burned through at a staggering rate, stacking and hauling high explosive by hand at dumps that were prime targets for enemy guns and aircraft. Nothing at the front fired unless men like Cody kept the ammunition moving. Born August 25, 1911, he was in his thirties during the war. He died November 18, 1968, at fifty-seven, and rests at Forestdale. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -5914,7 +5919,7 @@ window.VA = {
    "lng": -72.62455,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/camuse%20Medium.jpeg",
    "extraPhotos": [],
-   "narrative": "Arthur P. Camuse Jr. served as a Corporal in the United States Army during the Second World War. A corporal was the Army’s first rung of command — the two-striper who led a small team and answered for it, the link between the privates doing the work and the sergeants running the platoon. Born May 16, 1923, Camuse was of prime draft age when the war came, and the “Jr.” on his marker marks him as a son carrying his father’s name. He came home to Holyoke and lived until August 20, 1981, dying at fifty-eight. Where the Army sent him has not yet been traced. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Arthur P. Camuse Jr. served as a Corporal in the United States Army during the Second World War. A corporal was the Army’s first rung of command — the two-striper who led a small team and answered for it, the link between the privates doing the work and the sergeants running the platoon. Born May 16, 1923, Camuse carried his father’s name, the “Jr.” cut into his marker. He lived until August 20, 1981, and rests at Forestdale. Where the Army sent him has not yet been traced. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD5"
@@ -5949,7 +5954,7 @@ window.VA = {
      "caption": "📷 Family monument"
     }
    ],
-   "narrative": "Frank O. Brougham was a Holyoke veteran of the Second World War. He rests beneath a stone he shares with his wife, Ethel J. Houghtaling; born in 1895, he was a man of an older generation by the time of that war, and he lived in Holyoke until 1963. The branch, rank, and unit of his service have not yet been established, and this entry is still being researched. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Frank O. Brougham is recorded as a Holyoke veteran of the Second World War. He rests at Forestdale beneath a stone he shares with his wife, Ethel J. Houghtaling. Born in 1895, he was of an older generation by the time of that war, and he died in 1963. The branch, rank, and unit of his service have not yet been established, and this entry is still being researched. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD5"
