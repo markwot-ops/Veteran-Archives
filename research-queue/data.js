@@ -48710,6 +48710,19 @@ window.VA = {
    "badges": [],
    "status": "queue",
    "source": "zack-women-in-service"
+  },
+  {
+   "id": "butterfield_joseph_e_jr",
+   "name": "Butterfield, Joseph E. Jr.",
+   "era": "World War II",
+   "branch": "Navy",
+   "branchLabel": "U.S. Navy – World War II",
+   "lat": null,
+   "lng": null,
+   "narrative": "Joseph E. Butterfield Jr. served in the submarine service of the United States Navy during the Second World War. The submariners were a service apart — a few dozen men sealed into a steel hull that hunted enemy shipping across the Pacific, then dove and held its breath while the depth charges walked overhead. It took a particular nerve to volunteer for boats, and the men who did carried it for life; Joseph stayed close to it long after as a member of the Massachusetts Submarine Veterans. Back home he made his living in Holyoke’s paper trade — the U.S. Envelope Company, then the Paper Box Company, and finally thirty years as owner of the Butterfield Paper Company before retiring in 1985. He and his wife, Claire, were married sixty years. He died in 2005. His grave has not yet been located. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
   }
  ]
 };
