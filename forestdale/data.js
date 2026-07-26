@@ -4200,7 +4200,7 @@ window.VA = {
   },
   {
    "id": "fd_new_clark",
-   "name": "Clark, David C.",
+   "name": "Clark, David G.",
    "era": "World War I",
    "branch": "U.S. Army",
    "branchLabel": "",
@@ -4208,7 +4208,7 @@ window.VA = {
    "lng": -72.624428,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/clark%20Medium.jpeg",
    "extraPhotos": [],
-   "narrative": "David C. Clark served as a Private in Company D of the 16th Battalion, United States Guards, during the First World War. The U.S. Guards were the home-front army — men enrolled to protect what the war depended on inside the country: the railroads, munitions plants, bridges, and terminals that a single act of sabotage could cripple. It was watchful, static duty, often given to older men or those not sent overseas, yet the factories and rail lines it guarded were what armed and moved the whole American effort. Clark entered the service in June 1918. He rests at Forestdale beneath the family stone he shares with his wife, Florence J., a veteran’s emblem marking the grave. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "David G. Clark served as a Private in Company D of the 16th Battalion, United States Guards, during the First World War. The U.S. Guards were the home-front army — men enrolled to protect what the war depended on inside the country: the railroads, munitions plants, bridges, and terminals that a single act of sabotage could cripple. It was watchful, static duty, often given to older men or those not sent overseas, yet the factories and rail lines it guarded were what armed and moved the whole American effort. Clark entered the service in June 1918. He rests at Forestdale beneath the family stone he shares with his wife, Florence J., a veteran’s emblem marking the grave. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -4243,7 +4243,7 @@ window.VA = {
    "lng": -72.624367,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/constantelos%20Medium.jpeg",
    "extraPhotos": [],
-   "narrative": "James F. Constantelos served as a Private First Class in the 895th Signal Depot Company during the Second World War. Signal depot companies kept an army talking — receiving, repairing, and issuing the radios, telephones, wire, and switchboards that carried every order and every report. It was careful, skilled work done behind the line, but without it no modern army could move or fight. Constantelos served in that essential trade and came home to Holyoke; the fuller record of his dates and later life is still being pieced together. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "James F. Constantelos served as a Private First Class in the 895th Signal Depot Company during the Second World War. Signal depot companies were the supply and repair backbone of the Signal Corps — they received, tested, stored, and issued the radios, telephones, wire, batteries, and switchboards an army in the field ran on, and turned broken equipment back around into service. An army that could not talk could not fight, and the depot men were what kept it talking, working from warehouses and supply dumps behind the line to feed every command post and forward unit. Constantelos carried that trade through the war and came home to Holyoke afterward. The dates cut on his marker have weathered with the years, but his service and his place among the city’s veterans are not in doubt. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -5929,7 +5929,7 @@ window.VA = {
    "lng": -72.623994,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cain%20Medium.jpeg",
    "extraPhotos": [],
-   "narrative": "Edwin N. Cain served as a Private First Class in the 573rd Port Battalion, Transportation Corps, during the Second World War. Port battalions were the men who worked the docks of the war — stevedores in uniform who loaded and unloaded the ships that carried every soldier, vehicle, ration, and shell across the oceans, laboring around the clock at the ports that were the whole enterprise’s lifeline. Cain enlisted from New Jersey, the state cut into his marker. His birth reads the 18th of December with the year worn to 18_9, which put him among the older men in the ranks; he lived only a few years past the war, dying in April 1950. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Edwin N. Cain was a Holyoker who served as a Private First Class in the 573rd Port Battalion, Transportation Corps, during the Second World War. Port battalions were the men who worked the docks of the war — stevedores in uniform who loaded and unloaded the ships that carried every soldier, vehicle, ration, and shell across the oceans, laboring around the clock at the ports that were the whole enterprise’s lifeline. His birth reads the 18th of December with the year worn to 18_9, which put him among the older men in the ranks; he lived only a few years past the war, dying in April 1950. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD5"
