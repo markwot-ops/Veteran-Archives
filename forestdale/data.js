@@ -2643,8 +2643,8 @@ window.VA = {
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/craven%20Medium.jpeg",
    "extraPhotos": [
     {
-     "caption": "📜 Where Company D Went",
-     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-104th.html"
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/craven2%20Medium.jpeg",
+     "caption": "📷 Family monument"
     }
    ],
    "narrative": "William B. Craven entered Company D, 104th Infantry, 26th Division — Holyoke's Own — as a private, and had risen to Sergeant by the time the company reached France. Company D left Camp Bartlett in October 1917, sailed from Montreal, and reached France by way of England in time for a cold Christmas at the village of Sartes. Their first turn in the lines came that February on the Chemin-des-Dames. On Easter Sunday 1918 they rushed by truck to the front at Apremont and held that ground three months through artillery, trench raids, and mustard gas. Then came Belleau Wood, then Château-Thierry — where the company lost five Holyoke men in a single day — then the St. Mihiel drive, and finally the fighting north of Verdun. Of the 250 men who left Holyoke, only thirteen remained in the ranks when the Armistice came. Craven was not among them. In that final Verdun sector, worn down by a year of campaigning, he succumbed to pneumonia on December 9, 1918 — a month after the guns fell silent. He was 29 years old. He is memorialized on the family stone alongside his father William Craven and mother Martha A. Clow. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
@@ -4300,15 +4300,15 @@ window.VA = {
   },
   {
    "id": "fd_new_cunliffe",
-   "name": "Cunliffe",
-   "era": "",
+   "name": "Cunliffe, Ellen",
+   "era": "World War I",
    "branch": "",
    "branchLabel": "",
    "lat": 42.207367,
    "lng": -72.624283,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cunliffe%20Medium.jpeg",
    "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Ellen Cunliffe is credited as a veteran of the First World War, the World War emblem set at her grave marking her service. Known to her family as “Grandma,” she was born in 1873. The role she filled — the war opened places to women as nurses, operators, and clerks for the first time — is not yet established. She rests at Forestdale. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -5970,6 +5970,129 @@ window.VA = {
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cronacher%20Medium.jpeg",
    "extraPhotos": [],
    "narrative": "Walter H. Cronacher served as a Private in Company F of the 34th Infantry during the First World War. Born September 28, 1896, he was of the generation called up as the country entered the war in 1917 — the doughboys who filled the infantry regiments that carried the American effort in France. He lived until June 29, 1970, and rests at Forestdale. Where his regiment took him, and what he saw there, the marker does not record. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD5"
+  },
+  {
+   "id": "fd_delhage_william",
+   "name": "Delhage, William",
+   "era": "World War II",
+   "branch": "U.S. Army",
+   "branchLabel": "",
+   "lat": 42.207047,
+   "lng": -72.624739,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/delhage%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "William Delhage served as a Private in the United States Army during the Second World War. Born July 13, 1915, he was of full service age when the country went to war. He lived until August 25, 1972, and rests at Forestdale. Where the Army sent him the marker does not record. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD5"
+  },
+  {
+   "id": "fd_demersky_edward_m_jr",
+   "name": "Demersky, Edward M. Jr.",
+   "era": "Korean War",
+   "branch": "U.S. Air Force",
+   "branchLabel": "",
+   "lat": 42.207039,
+   "lng": -72.624711,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/demersky%20jr%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/demersky%20Medium.jpeg",
+     "caption": "📷 Family stone"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/demersky2%20Medium.jpeg",
+     "caption": "📷 Family stone"
+    }
+   ],
+   "narrative": "Edward M. Demersky Jr. served as a Staff Sergeant in the United States Air Force during the Korean War. Born in 1934, he was of the generation that filled the postwar Air Force and carried it through Korea, where air power — the bombing runs and the airlift of men and supplies alike — did much of the fighting. He lived until 1988 and rests at Forestdale. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD5"
+  },
+  {
+   "id": "fd_desormier_joseph_a",
+   "name": "Desormier, Joseph A.",
+   "era": "World War II",
+   "branch": "U.S. Navy",
+   "branchLabel": "",
+   "lat": 42.207086,
+   "lng": -72.624756,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/desormier%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "Joseph A. Desormier served as a Seaman First Class in the United States Navy during the Second World War. Born April 16, 1926, he came of age just in time for the war, one of the young sailors who crewed the fleet in its largest years. He lived until June 18, 1972, and rests at Forestdale. Which ship carried him the marker does not say. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD5"
+  },
+  {
+   "id": "fd_duxbury_robert",
+   "name": "Duxbury, Robert",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207111,
+   "lng": -72.624358,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/duxbury%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/duxbury%20r%20Medium.jpeg",
+     "caption": "📷 Grave marker"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/duxbury2%20Medium.jpeg",
+     "caption": "📷 Grave marker"
+    }
+   ],
+   "narrative": "Robert Duxbury was a veteran, his grave marked by the bronze emblem of the American Legion — the badge of the men who served the nation in war and carried that fellowship into peacetime. Born in 1902, he was too young for the First World War; the war he served in and his branch are not cut into the worn stone and are not yet established. He rests at Forestdale. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD5"
+  },
+  {
+   "id": "fd_delphia_leslie",
+   "name": "Delphia, Leslie",
+   "era": "World War I",
+   "branch": "U.S. Army",
+   "branchLabel": "",
+   "lat": 42.206972,
+   "lng": -72.623672,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/delphia%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "Leslie Delphia served as a Private in the infantry. His stone is the older upright government headstone, its regiment worn down to a few letters and its single date fallen away to a November in a year the weather has taken to 19_8. The form of the marker and that date point to the era of the First World War, but the particulars of his service are not yet recovered. He rests at Forestdale. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD5"
+  },
+  {
+   "id": "fd_hunter_cornelius_c",
+   "name": "Hunter, Cornelius C.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.2067,
+   "lng": -72.622336,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/hunter%20cowie%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "Cornelius C. Hunter was a veteran, named on the Hunter–Cowie monument at Forestdale, where a veteran’s star marks the family plot. Born in 1866, he lived until 1948. The war he served in, his branch, and his unit are not established from the stone and are still to be recovered. William G. Cowie, an engineer of the First World War, rests beneath the same monument. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD5"
+  },
+  {
+   "id": "fd_daunheimer_warren_p",
+   "name": "Daunheimer, Warren P.",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.206931,
+   "lng": -72.624611,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/daunheimer%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "Warren P. Daunheimer’s stone carries no military marking. Born in 1923, he died in 1966 and shares the family stone with June L. Daunheimer. The records hold one Daunheimer veteran of Holyoke — a Philip Daunheimer of the First World War — but that is a different man. Whether Warren himself served has not been established. His grave is set down here so the question stays visible until it can be answered. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD5"
