@@ -2675,8 +2675,17 @@ window.VA = {
    "branchLabel": "",
    "lat": 42.206964,
    "lng": -72.622947,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/fletcher%20D%20W%20Medium.jpeg",
-   "extraPhotos": [],
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/fletcher%20d2%20Medium.jpeg",
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/fletcher%20D%20W%20Medium.jpeg",
+     "caption": "📷 Grave marker"
+    },
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/fletcher2%20Medium.jpeg",
+     "caption": "📷 Family monument"
+    }
+   ],
    "narrative": "Donald W. Fletcher served as a First Lieutenant in the United States Army during World War II, earning both the Combat Infantryman Badge and the Purple Heart — two of the most significant recognitions an Army soldier could receive. The Combat Infantryman Badge was awarded only to infantrymen who had been in active ground combat against the enemy; the Purple Heart marked a wound received in that fighting. His family stone carries the engraved Combat Infantryman Badge at the top — a permanent tribute to what he endured. Born December 26, 1912, Fletcher was nearly 29 when Pearl Harbor brought America into the war. He returned to Holyoke and lived until March 13, 1999, at the age of 86. His wife Grace J. Fletcher is buried alongside him. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "Purple Heart"
@@ -2724,7 +2733,7 @@ window.VA = {
    "lng": -72.623192,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/frederick3%20Medium.jpeg",
    "extraPhotos": [],
-   "narrative": "George Frederick was born in 1895 and served during the World War I era, as indicated by the flag at his grave. He passed away in 1980 at the age of 85. His stone also records Bertha W. Abelein, who may be related to George F. Abelein, a World War I Army veteran also memorialized at Forestdale Cemetery. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "George Frederick was born in 1895 and served during the World War I era, as marked by the flag at his grave. He passed away in 1980 at the age of 85. His stone also records Bertha W. Abelein. He rests at Forestdale. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": ""
@@ -2738,7 +2747,12 @@ window.VA = {
    "lat": 42.206936,
    "lng": -72.622086,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/frey%20Medium.jpeg",
-   "extraPhotos": [],
+   "extraPhotos": [
+    {
+     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/frey2%20Medium.jpeg",
+     "caption": "📷 Grave marker"
+    }
+   ],
    "narrative": "Arthur W. Frey served as a Private in the United States Army during World War II. Born September 10, 1902, he was nearly forty years old when America entered the war — among the older men called to serve. A World War I commemorative shield marker also stands at his grave, placed likely by a veterans' organization. He is buried alongside his wife Gladys F. Aitken as part of the extended Aitken family plot. He passed away October 17, 1987, at the age of 85. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
@@ -4370,15 +4384,15 @@ window.VA = {
   },
   {
    "id": "fd_new_farmer",
-   "name": "Farmer",
-   "era": "",
-   "branch": "",
+   "name": "Farmer, William L.",
+   "era": "World War I",
+   "branch": "U.S. Navy",
    "branchLabel": "",
    "lat": 42.207097,
    "lng": -72.624503,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/farmer%20Medium.jpeg",
    "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "William L. Farmer served as a Gunner’s Mate First Class in the United States Naval Reserve during the First World War. A gunner’s mate kept and served a ship’s guns — the mounts, the firing gear, and the magazines — the rating answerable for the weapons a warship existed to use. He rests at Forestdale. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -4435,15 +4449,15 @@ window.VA = {
   },
   {
    "id": "fd_new_fletcher_w_t",
-   "name": "Fletcher, W. T.",
-   "era": "",
-   "branch": "",
+   "name": "Fletcher, William T.",
+   "era": "World War II",
+   "branch": "U.S. Navy",
    "branchLabel": "",
    "lat": 42.206931,
    "lng": -72.623689,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/fletcher%20w%20t%20%20Medium.jpeg",
    "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "William T. Fletcher served as an Engineman Second Class in the United States Naval Reserve Force, having enlisted in July 1938. An engineman ran and maintained a ship’s engines and machinery — the diesel and auxiliary plants that drove the vessel and powered its systems. An American Legion marker stands at his grave. He rests at Forestdale. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD4-5"
@@ -6078,6 +6092,21 @@ window.VA = {
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/daunheimer%20Medium.jpeg",
    "extraPhotos": [],
    "narrative": "Warren P. Daunheimer’s stone carries no military marking. Born in 1923, he died in 1966 and shares the family stone with June L. Daunheimer. The records hold one Daunheimer veteran of Holyoke — a Philip Daunheimer of the First World War — but that is a different man. Whether Warren himself served has not been established. His grave is set down here so the question stays visible until it can be answered. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "photo-batch-FD5"
+  },
+  {
+   "id": "fd_franklin_john_e",
+   "name": "Franklin, John E.",
+   "era": "World War I",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.207044,
+   "lng": -72.623353,
+   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/franklin%20Medium.jpeg",
+   "extraPhotos": [],
+   "narrative": "John E. Franklin served in the First World War. He and his wife, Martha Sharbetjian, raised their family in Holyoke; their son Paul Franklin, a soldier of the next war, died in service in 1942 and lies on the same family stone. John E.’s own branch, unit, and dates are not yet recovered. He rests at Forestdale. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD5"
