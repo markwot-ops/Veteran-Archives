@@ -4329,21 +4329,6 @@ window.VA = {
    "source": "photo-batch-FD4-5"
   },
   {
-   "id": "fd_new_dinapoli",
-   "name": "Dinapoli",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207122,
-   "lng": -72.624261,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/dinapoli%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran's grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared and will appear here. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "photo-batch-FD4-5"
-  },
-  {
    "id": "fd_new_ebert",
    "name": "Ebert",
    "era": "",
@@ -5984,7 +5969,7 @@ window.VA = {
    "lng": -72.624739,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/delhage%20Medium.jpeg",
    "extraPhotos": [],
-   "narrative": "William Delhage served as a Private in the United States Army during the Second World War. Born July 13, 1915, he was of full service age when the country went to war. He lived until August 25, 1972, and rests at Forestdale. Where the Army sent him the marker does not record. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "William Delhage served as a Private in the United States Army during the Second World War. The private was the rank most soldiers held and the one the Army was built on — the men who filled the rifle squads, drove the trucks, dug in, and carried the loads, most of them citizen-soldiers pulled out of ordinary life for the duration of the war. Born July 13, 1915, Delhage was in his late twenties when he served, older than many around him. He lived until August 25, 1972, and rests at Forestdale. Which outfit he served in, and where it took him, the marker does not record. This account is a working draft. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "photo-batch-FD5"
