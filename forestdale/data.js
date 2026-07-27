@@ -6112,21 +6112,6 @@ window.VA = {
    "source": "photo-batch-FD5"
   },
   {
-   "id": "fd_pm_cooley",
-   "name": "Cooley",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207908,
-   "lng": -72.624458,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/cooley.JPG",
-   "extraPhotos": [],
-   "narrative": "This veteran’s grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "placemarker-pass-FD5"
-  },
-  {
    "id": "fd_pm_magna",
    "name": "Magna",
    "era": "",
@@ -6185,21 +6170,6 @@ window.VA = {
    "lat": 42.207736,
    "lng": -72.62365,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/Willis2%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran’s grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "placemarker-pass-FD5"
-  },
-  {
-   "id": "fd_pm_albert",
-   "name": "Albert",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207253,
-   "lng": -72.623956,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/albert%3F%20Medium.jpeg",
    "extraPhotos": [],
    "narrative": "This veteran’s grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
@@ -6847,26 +6817,6 @@ window.VA = {
    "source": "placemarker-pass-FD5"
   },
   {
-   "id": "fd_pm_skuse",
-   "name": "Skuse",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207572,
-   "lng": -72.624275,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/skuse2.JPG",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/skuse3.JPG",
-     "caption": "📷 Grave marker"
-    }
-   ],
-   "narrative": "This veteran’s grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "placemarker-pass-FD5"
-  },
-  {
    "id": "fd_pm_small",
    "name": "Small",
    "era": "",
@@ -6875,21 +6825,6 @@ window.VA = {
    "lat": 42.206947,
    "lng": -72.624336,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/small%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran’s grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "placemarker-pass-FD5"
-  },
-  {
-   "id": "fd_pm_sopko",
-   "name": "Sopko",
-   "era": "",
-   "branch": "",
-   "branchLabel": "",
-   "lat": 42.207731,
-   "lng": -72.624581,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/sopko.JPG",
    "extraPhotos": [],
    "narrative": "This veteran’s grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
