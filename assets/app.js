@@ -28,6 +28,7 @@ document.getElementById('site-sub').textContent = SITE.address || '';
 document.title = (SITE.title || 'Veteran Archives') + ' — Holyoke, MA';
 
 const ERA_COLORS = {
+  'Revolutionary War':'#1f3864',
   'Civil War Era':'#8B4513',
   'Spanish-American War':'#CD853F',
   'World War I':'#4682B4',
@@ -37,11 +38,12 @@ const ERA_COLORS = {
   'Cold War':'#5f9ea0',
   'Unknown Era':'#666',
 };
-const ERA_ORDER = ['Civil War Era','Spanish-American War','World War I','World War II','Korean War','Vietnam','Cold War','Unknown Era'];
+const ERA_ORDER = ['Revolutionary War','Civil War Era','Spanish-American War','World War I','World War II','Korean War','Vietnam','Cold War','Unknown Era'];
 
 function normEra(raw) {
   if (!raw) return 'Unknown Era';
   const s = raw.trim();
+  if (s.includes('Revolution')) return 'Revolutionary War';
   if (s.includes('Civil')) return 'Civil War Era';
   if (s.includes('Spanish')) return 'Spanish-American War';
   if (s.includes('Vietnam')) return 'Vietnam';
