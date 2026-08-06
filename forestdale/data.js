@@ -3835,7 +3835,8 @@ window.VA = {
     "Cited for Bravery"
    ],
    "status": "located",
-   "source": ""
+   "source": "",
+   "geo": "provisional"
   },
   {
    "id": "fd_new_goller",
@@ -5584,7 +5585,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   },
   {
    "id": "fd_burr_james_w",
@@ -5598,7 +5600,8 @@ window.VA = {
    "narrative": "James William Burr was one of Holyoke's honored dead of the war of the Rebellion, and one of only two of them who lies in Holyoke ground. He died on September 10, 1861, in the District of Columbia — less than five months after Lincoln's call for volunteers. He was buried at East Wilbraham Cemetery in Wilbraham, and for ten years he stayed there. In 1871 he was brought home to Forestdale. His unit, the circumstances of his death, and the location of his grave within the cemetery await confirmation. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "harper-civil-war-roll"
+   "source": "harper-civil-war-roll",
+   "geo": "provisional"
   },
   {
    "id": "fd_holman_thomas_s",
@@ -5614,7 +5617,8 @@ window.VA = {
     "KIA"
    ],
    "status": "located",
-   "source": "harper-civil-war-roll"
+   "source": "harper-civil-war-roll",
+   "geo": "provisional"
   },
   {
    "id": "fd_sanders_earl_j",
@@ -5876,7 +5880,8 @@ window.VA = {
    "narrative": "Earl R. Barnett's marker records the United States Air Force and the Second World War — a pairing that carries a small piece of history in it. There was no United States Air Force during that war. American air power belonged to the Army Air Forces until 1947, when Congress cut it loose as a separate service. A veteran's stone records the branch a man finished in, not the one he started in, so Barnett's almost certainly marks someone who went to war in Army uniform and stayed on through the change.\n\nHe finished as a master sergeant. That rank is the spine of an air force — the man who runs the shop or the section, who knows the aircraft and the paperwork and the young airmen alike, and whose competence the officers quietly depend on. Reaching it means devotion to a career, or exemplary skills recognized, appreciated and put to practical use; in wartime a man could rise fast when his leadership or expertise met a vital need.\n\nWhat he flew with, what he worked on, and where the service took him have not yet been traced. His stone gives his years as 1922 to 1986. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "research",
-   "source": "Headstone inscription, Forestdale Cemetery"
+   "source": "Headstone inscription, Forestdale Cemetery",
+   "geo": "provisional"
   },
   {
    "id": "fd_bendsley_otto_g",
@@ -5891,7 +5896,8 @@ window.VA = {
    "narrative": "The Bendsley family stone at Forestdale carries three names — Otto G., Isabel E., and Amelia E. — with a veteran's flag holder standing at its base. The markers name no branch and no war, nor which of the three the flag honors. From the dates alone, Otto G. Bendsley would have been in his late thirties or early forties when the Second World War came — old for a draftee, but well inside the range that served. Firmly establishing who served, and in what, has yet to be determined. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "research",
-   "source": "Headstone inscription, Forestdale Cemetery"
+   "source": "Headstone inscription, Forestdale Cemetery",
+   "geo": "provisional"
   },
   {
    "id": "fd_bombard_willard_leroy",

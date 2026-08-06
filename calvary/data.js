@@ -5593,7 +5593,8 @@ window.VA = {
    "narrative": "Leonard G. Abbey served in the United States Army during World War II. Born on March 5, 1925 in Huntington, Massachusetts, he was among the young men of the Pioneer Valley who answered the call when America entered the war. He passed away on August 23, 2017 at the age of 92. His interment at Calvary Cemetery is recorded in the FindAGrave registry of veterans buried here; his gravestone and grave site have not yet been located and geolocated, and are the subject of continuing research. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": ""
+   "source": "",
+   "geo": "provisional"
   },
   {
    "id": "altenkirch__a_navy_great_white_fleet",
@@ -5608,7 +5609,8 @@ window.VA = {
    "narrative": "Born May 4, 1884 · Died April 9, 1908. Alfred Altenkirch served as a Fireman First Class in the United States Navy, assigned to the USS Vermont — flagship unit of President Theodore Roosevelt's legendary Great White Fleet. In December 1907, the Vermont departed Hampton Roads as part of the most ambitious naval demonstration in American history, sailing around the globe with 16 battleships as a dramatic show of American power on the world stage. On April 9, 1908, while the Vermont was anchored at Magdalena Bay, Mexico during target practice operations, Fireman First Class Altenkirch was found unresponsive in the ship's double bottom compartment. He was 23 years old. His next of kin was Mrs. Antone Gehlen of Holyoke, Massachusetts — his connection to this city. ⚠️ Geo-location TBD — coordinates are placeholder only. His interment at Calvary Cemetery is recorded in the FindAGrave registry of veterans buried here; his gravestone and grave site have not yet been located and geolocated, and are the subject of continuing research. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": ""
+   "source": "",
+   "geo": "provisional"
   },
   {
    "id": "anderstrom__a_navy_ww_i",
@@ -5623,7 +5625,8 @@ window.VA = {
    "narrative": "Arvid G. Anderstrom served in the United States Navy during World War I. He is remembered here on the Sears family monument alongside his wife, Rose C. Sears. Arvid Gustave Anderstrom was a firefighter with the Springfield Fire Department for 45 years, retiring in 1962. Born in Holyoke, living in this city 62 years. He was a member of the American Legion Post 21, Massachusetts Retired Police and Firefighters Association, Springfield Fire Department Privates Club, the Massachusetts Permanent Firefighters Association, and the Springfield Golden Agers. He leaves his wife, the former Rose C. Sears; a son, eight grandchildren and 10 great-grandchildren. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": ""
+   "source": "",
+   "geo": "provisional"
   },
   {
    "id": "baillargeon__l_military",
@@ -5638,7 +5641,8 @@ window.VA = {
    "narrative": "Leo Joseph Baillargeon was a veteran of the United States military. Born on May 9, 1893, he died on September 28, 1970. His interment at Calvary Cemetery is recorded in the FindAGrave registry of veterans buried here; his branch, era, rank, and unit are not yet known, and his gravestone and grave site have not yet been located and geolocated. All remain the subject of continuing research. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": ""
+   "source": "",
+   "geo": "provisional"
   },
   {
    "id": "browne__f_army_ww_i",
@@ -5653,7 +5657,8 @@ window.VA = {
    "narrative": "Francis Paul Browne served during World War I and died in service on September 26, 1918 at the age of 23, a casualty of the devastating influenza outbreak at Camp Devens, Massachusetts. Camp Devens was one of the first and hardest-hit locations of the 1918 pandemic, which struck military installations across the country during the final months of the war. ⚠️ Geo-location TBD — coordinates are placeholder only. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": ""
+   "source": "",
+   "geo": "provisional"
   },
   {
    "id": "buckley__d_navy_ww_ii",
@@ -5671,7 +5676,8 @@ window.VA = {
     "Silver Star"
    ],
    "status": "located",
-   "source": ""
+   "source": "",
+   "geo": "provisional"
   },
   {
    "id": "cahill__f_h_civil_war",
@@ -5686,7 +5692,8 @@ window.VA = {
    "narrative": "Francis Henry Cahill served as a Corporal in Company I of the 10th Massachusetts Volunteer Infantry Regiment during the Civil War. Born in 1842 in New York, he settled in Holyoke where he passed away November 28, 1903 at the age of approximately 61. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": ""
+   "source": "",
+   "geo": "provisional"
   },
   {
    "id": "cahill__t_civil_war",
@@ -5716,7 +5723,8 @@ window.VA = {
    "narrative": "Allen S. Walker served as a Technician Fourth Grade in the United States Army during World War II. Technician Fourth Grade — TEC 4 — was one step above TEC 5, a senior specialist rating for soldiers with advanced technical skills: the skilled mechanics, communications operators, medics, and engineers who formed the Army's technical backbone. A TEC 4 carried the pay and responsibility of a Corporal while focusing on specialized duties rather than command. Born May 11, 1911, Walker passed away May 29, 1996 at the age of 85. ⚠️ Geo-location TBD — coordinates are placeholder only. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone"
+   "source": "stone",
+   "geo": "provisional"
   }
  ]
 };

@@ -694,7 +694,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   },
   {
    "id": "harper_rev_chapin_asahel",
@@ -709,7 +710,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   },
   {
    "id": "harper_rev_day_jedediah",
@@ -724,7 +726,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   },
   {
    "id": "harper_rev_day_joel",
@@ -739,7 +742,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   },
   {
    "id": "harper_rev_day_joel_jr",
@@ -754,7 +758,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   },
   {
    "id": "harper_rev_ely_benjamin",
@@ -769,7 +774,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   },
   {
    "id": "harper_rev_ely_enoch",
@@ -784,7 +790,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   },
   {
    "id": "harper_rev_ely_joseph",
@@ -799,7 +806,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   },
   {
    "id": "harper_rev_ely_jube",
@@ -814,7 +822,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   },
   {
    "id": "harper_rev_fairfield_levi",
@@ -829,7 +838,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   },
   {
    "id": "harper_rev_hitchcock_peresh",
@@ -844,7 +854,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   },
   {
    "id": "harper_rev_jones_ebenezer",
@@ -859,7 +870,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   },
   {
    "id": "harper_rev_miller_abner",
@@ -874,7 +886,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   },
   {
    "id": "harper_rev_morgan_jesse",
@@ -889,7 +902,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   },
   {
    "id": "harper_rev_morgan_lucas",
@@ -904,7 +918,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   },
   {
    "id": "harper_rev_morgan_titus",
@@ -919,7 +934,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   }
  ]
 };

@@ -25,7 +25,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   },
   {
    "id": "harper_rev_parsons_asahel",
@@ -40,7 +41,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   },
   {
    "id": "harper_rev_parsons_jonathon",
@@ -55,7 +57,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   },
   {
    "id": "harper_rev_smith_lewis",
@@ -70,7 +73,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   }
  ]
 };

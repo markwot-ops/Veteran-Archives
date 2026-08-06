@@ -25,7 +25,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973)",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   },
   {
    "id": "harper_rev_ludington_daniel",
@@ -46,7 +47,8 @@ window.VA = {
      "src": "/Veteran-Archives/photos/rock-valley/ludington_plaque.jpg",
      "caption": "Commemorative granite marker (erected by a descendant)"
     }
-   ]
+   ],
+   "geo": "provisional"
   },
   {
    "id": "harper_rev_perkins_elish",
@@ -61,7 +63,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973)",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   },
   {
    "id": "harper_rev_wood_david",
@@ -76,7 +79,8 @@ window.VA = {
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973)",
    "badges": [],
    "status": "located",
-   "source": "harper-revolutionary-graves"
+   "source": "harper-revolutionary-graves",
+   "geo": "provisional"
   }
  ]
 };
