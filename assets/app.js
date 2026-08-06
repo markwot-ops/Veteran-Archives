@@ -136,9 +136,14 @@ function buildMarkers() {
       : 'border:2px solid rgba(255,255,255,0.65);box-shadow:0 1px 5px rgba(0,0,0,0.8);';
     const pulseCls = activeDistinction ? 'hpulse' : '';
     const star = isKIA ? '<div style="position:absolute;top:-9px;right:-7px;font-size:13px;color:#ffd54a;line-height:1;text-shadow:0 0 3px #000,0 0 6px rgba(255,210,70,0.9);pointer-events:none;">★</div>' : '';
+    const prov = (v.geo === 'provisional');
+    const dashCol = dist ? '#ffd757' : color;
+    const inner = prov
+      ? `width:26px;height:26px;border-radius:50%;background:rgba(255,255,255,0.5);border:2px dashed ${dashCol};box-shadow:0 1px 4px rgba(0,0,0,0.55);display:flex;align-items:center;justify-content:center;font-size:11px;color:${color};cursor:pointer;`
+      : `width:26px;height:26px;border-radius:50%;background:${color};${rim}display:flex;align-items:center;justify-content:center;font-size:11px;cursor:pointer;`;
     const icon = L.divIcon({
       className:'',
-      html:`<div style="position:relative;width:26px;height:26px;">${star}<div class="${pulseCls}" style="width:26px;height:26px;border-radius:50%;background:${color};${rim}display:flex;align-items:center;justify-content:center;font-size:11px;cursor:pointer;">${sym}</div></div>`,
+      html:`<div style="position:relative;width:26px;height:26px;">${star}<div class="${pulseCls}" style="${inner}">${sym}</div></div>`,
       iconSize:[26,26], iconAnchor:[13,13]
     });
     const m = L.marker([v.lat, v.lng], {icon});
