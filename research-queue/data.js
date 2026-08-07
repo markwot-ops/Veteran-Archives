@@ -2588,17 +2588,25 @@ window.VA = {
     "KIA"
    ]
   },
-  {
+    {
    "id": "maternowski_ignatius",
-   "name": "Maternowski, Ignatius",
+   "name": "Maternowski, Rev. Ignatius P., OFM Conv.",
    "era": "World War II",
    "branch": "Army",
    "branchLabel": "U.S. Army – World War II",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/maternowski_grave.jpg",
+   "extraPhotos": [
+    {
+     "caption": "📄 Read his full story (PDF)",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/maternowski.pdf"
+    }
+   ],
    "narrative": "Ignatius Maternowski served as a Chaplain in the United States Army and was killed shortly after the Normandy invasion. He was the only Holyoke chaplain to give his life in the Second World War. Army chaplains went ashore unarmed, carrying nothing but their office, and their work in Normandy was to reach the wounded and the dying wherever they fell. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
-    "KIA"
+    "KIA",
+    "Purple Heart"
    ],
    "status": "queue",
    "source": "research-queue"
