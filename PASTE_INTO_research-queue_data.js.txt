@@ -1,0 +1,33 @@
+This zip does NOT include a modified research-queue/data.js.
+The live file is too large to safely fetch and re-emit whole without
+risking truncating the other 3,564 records, so this is a manual patch.
+
+STEPS:
+1. Open research-queue/data.js in the repo (or your editor).
+2. Find the existing record with "id": "maternowski_ignatius" (or the
+   "Maternowski, Ignatius" entry) inside the veterans[] array.
+3. Replace that whole {...} object with the one below.
+4. Save. The three files in photos/research-queue/ (already in this zip)
+   are what the paths below point to.
+
+REPLACEMENT RECORD:
+
+{
+  "id": "maternowski_ignatius",
+  "name": "Maternowski, Fr. Ignatius",
+  "era": "World War II",
+  "branch": "Army",
+  "branchLabel": "",
+  "lat": null,
+  "lng": null,
+  "narrative": "Ignatius Maternowski was born in Holyoke on March 28, 1912, to a Polish immigrant family in the city's mill tenements, and grew up in Mater Dolorosa parish. He entered the Franciscan order in 1931 and was ordained a priest on July 3, 1938, by Bishop Thomas O'Leary of Springfield. After the United States entered the Second World War, Fr. Ignatius got his superior's permission to enlist, joined the Army in 1942, and volunteered for parachute training. He was assigned to the 508th Parachute Infantry Regiment, 82nd Airborne Division, and jumped into Normandy before dawn on June 6, 1944. Coming down near the hamlet of Gueutteville, he gathered the wounded from a crashed glider and scattered paratroopers into a makeshift aid station, then walked alone and unarmed, wearing his chaplain's insignia and a Red Cross armband, into German-held ground to negotiate a second, protected station under the Geneva Convention. Crossing back to the American side, he was shot by a sniper and killed — the only U.S. Army chaplain killed on D-Day itself. Soldiers of the 90th Infantry Division recovered his body on June 9; he was buried near Utah Beach and, in 1948, brought home and reinterred in the Franciscan friars' plot at Mater Dolorosa Cemetery in South Hadley. He is a son of Holyoke whose grave is yet to be geolocated for this project.\n\nIf you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+  "sourceNote": "Drawn from the 82nd Airborne's D-Day accounts, the Franciscan Friars Conventual, and Holyoke news coverage of the 2026 Normandy commemorations.",
+  "badges": ["KIA", "Purple Heart"],
+  "status": "queue",
+  "source": "research-queue",
+  "photo": "/Veteran-Archives/photos/research-queue/maternowski_ignatius_grave.jpg",
+  "extraPhotos": [
+    { "src": "/Veteran-Archives/photos/research-queue/maternowski_source_article.pdf", "caption": "📜 Holyoke's war hero (The Republican, 2026)" },
+    { "src": "/Veteran-Archives/photos/research-queue/maternowski_narrative.pdf", "caption": "📖 Full narrative: D-Day and legacy" }
+  ]
+}
