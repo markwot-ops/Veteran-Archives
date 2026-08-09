@@ -48731,6 +48731,48 @@ window.VA = {
    "badges": [],
    "status": "queue",
    "source": "research-queue"
+  },
+  {
+   "id": "soldiers_home_2020_dipalma",
+   "name": "DiPalma, Emilio “Leo”",
+   "era": "World War II",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": null,
+   "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_dipalma.jpg",
+   "narrative": "Emilio Joseph “Leo” DiPalma, the son of Italian immigrants, grew up in Springfield and left home an eager teenager spoiling for a fight when the Army drafted him in 1944 at eighteen. The war disabused him of that quickly. He fought on the front lines for about a year, lost friends, and was nineteen and a sergeant by the time Germany fell — and then landed in a front-row seat to history. Sent to Nuremberg, he first copied the documents and photographs that catalogued Nazi war crimes, then guarded the prisoners’ cells, and finally served as sergeant of the courtroom guard, standing at the witness box with his hands clasped behind his back as Hitler’s deputies answered for the Reich. Each day he ran the elevator that carried the defendants in and out. Decades later, with his daughter’s help, he set it all down in a memoir — still unable to fathom the cruelty one human being had proven capable of visiting on another. He died on April 8, 2020, at the age of ninety-three.",
+   "sourceNote": "Though not of Holyoke, this veteran died among us — at the Soldiers’ Home, in the 2020 outbreak — honored here among our own. Their place of rest is not yet located for this archive.",
+   "extraPhotos": [
+    {
+     "src": "/Veteran-Archives/photos/research-queue/soldiers_home_dipalma_memorial.pdf",
+     "caption": "📖 Memorial tribute — courtesy of the Holyoke Soldiers’ Home"
+    }
+   ],
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "soldiers_home_2020_king",
+   "name": "King, Anthony “Tony”",
+   "era": "World War II",
+   "branch": "Navy",
+   "branchLabel": "",
+   "lat": null,
+   "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_king.jpg",
+   "narrative": "Anthony E. “Tony” King was born in West Springfield on January 29, 1918, and made his name young — a scrappy second baseman his teammates called “Kingie,” good enough to captain American Legion Post 21, the Springfield powerhouse of 1934. That summer the team of fifteen- and sixteen-year-olds won the New England championship and rode to the Eastern regionals in Gastonia, North Carolina, chasing a national title. When local officials barred their teammate Ernest “Bunny” Taliaferro — the only Black player on the roster — first from the hotel and then the field, King and his teammates refused to play without him and went home. It cost them their shot at a championship and became one of the enduring stories of American Legion baseball, retold in books, a documentary archived at the Baseball Hall of Fame, and a monument in Forest Park. Tony graduated Cathedral High in 1935, spent forty-five years at American Bosch, and served three years as a Navy radioman in the Second World War. The last living member of that 1934 team, he had just turned 102 when he died on April 9, 2020.",
+   "sourceNote": "Though not of Holyoke, this veteran died among us — at the Soldiers’ Home, in the 2020 outbreak — honored here among our own. Their place of rest is not yet located for this archive.",
+   "extraPhotos": [
+    {
+     "src": "/Veteran-Archives/photos/research-queue/soldiers_home_king_memorial.pdf",
+     "caption": "📖 Memorial tribute — courtesy of the Holyoke Soldiers’ Home"
+    }
+   ],
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
   }
  ]
 };

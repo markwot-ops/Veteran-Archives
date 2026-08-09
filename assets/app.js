@@ -170,6 +170,7 @@ function openPopup(v, idx) {
   const showContact = !!v.sourceNote;              // legacy entries carry the close inside narrative
   conEl.textContent = showContact ? CONTACT_CLOSE : '';
   conEl.style.display = showContact ? 'block' : 'none';
+  if (showContact) conEl.after(srcEl);            // footnote/credit renders BELOW the close
 
   const photo = document.getElementById('pphoto');
   const ph = document.getElementById('pphoto-ph');
