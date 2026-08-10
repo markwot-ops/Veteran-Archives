@@ -5710,21 +5710,20 @@ window.VA = {
    "status": "located",
    "source": ""
   },
-  {
+    {
    "id": "walker__a_s_army_ww_ii",
    "name": "Walker, Allen S.",
    "era": "World War II",
    "branch": "U.S. Army",
    "branchLabel": "Army · WWII · TEC4",
-   "lat": 42.1875,
-   "lng": -72.6292038,
+   "lat": 42.187436,
+   "lng": -72.628569,
    "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/walker.jpg",
    "extraPhotos": [],
-   "narrative": "Allen S. Walker served as a Technician Fourth Grade in the United States Army during World War II. Technician Fourth Grade — TEC 4 — was one step above TEC 5, a senior specialist rating for soldiers with advanced technical skills: the skilled mechanics, communications operators, medics, and engineers who formed the Army's technical backbone. A TEC 4 carried the pay and responsibility of a Corporal while focusing on specialized duties rather than command. Born May 11, 1911, Walker passed away May 29, 1996 at the age of 85. ⚠️ Geo-location TBD — coordinates are placeholder only. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Allen S. Walker served as a Technician Fourth Grade in the United States Army during World War II. Technician Fourth Grade — TEC 4 — was one step above TEC 5, a senior specialist rating for soldiers with advanced technical skills: the skilled mechanics, communications operators, medics, and engineers who formed the Army's technical backbone. A TEC 4 carried the pay and responsibility of a Corporal while focusing on specialized duties rather than command. Born May 11, 1911, Walker passed away May 29, 1996 at the age of 85. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
-   "source": "stone",
-   "geo": "provisional"
+   "source": "stone"
   }
  ]
 };

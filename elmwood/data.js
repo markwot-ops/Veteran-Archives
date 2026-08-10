@@ -637,21 +637,6 @@ window.VA = {
    "source": "elmwood-migrate"
   },
   {
-   "id": "allen_s_walker_wwii",
-   "name": "Allen S. Walker",
-   "era": "World War II",
-   "branch": "Army",
-   "branchLabel": "",
-   "lat": 42.187436,
-   "lng": -72.628569,
-   "photo": "/Veteran-Archives/elmwood/walker.jpg",
-   "extraPhotos": [],
-   "narrative": "Allen S. Walker served as a Technician Fourth Grade in the United States Army during World War II. TEC 4 was a specialist rank recognizing skilled technical work such as engineering, communications, or medical support. Walker was born May 11, 1911 and died May 29, 1996. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "located",
-   "source": "elmwood-migrate"
-  },
-  {
    "id": "lo_white_cw",
    "name": "L.O. White",
    "era": "Civil War",
