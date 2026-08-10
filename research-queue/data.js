@@ -48732,7 +48732,7 @@ window.VA = {
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_dipalma",
    "name": "DiPalma, Emilio “Leo”",
    "era": "World War II",
@@ -48741,19 +48741,23 @@ window.VA = {
    "lat": null,
    "lng": null,
    "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_dipalma.jpg",
-   "narrative": "Emilio Joseph “Leo” DiPalma, the son of Italian immigrants, grew up in Springfield and left home an eager teenager spoiling for a fight when the Army drafted him in 1944 at eighteen. The war disabused him of that quickly. He fought on the front lines for about a year, lost friends, and was nineteen and a sergeant by the time Germany fell — and then landed in a front-row seat to history. Sent to Nuremberg, he first copied the documents and photographs that catalogued Nazi war crimes, then guarded the prisoners’ cells, and finally served as sergeant of the courtroom guard, standing at the witness box with his hands clasped behind his back as Hitler’s deputies answered for the Reich. Each day he ran the elevator that carried the defendants in and out. Decades later, with his daughter’s help, he set it all down in a memoir — still unable to fathom the cruelty one human being had proven capable of visiting on another. He died on April 8, 2020, at the age of ninety-three.",
-   "sourceNote": "Though not of Holyoke, this veteran died among us — at the Soldiers’ Home, in the 2020 outbreak — honored here among our own. Their place of rest is not yet located for this archive.",
    "extraPhotos": [
     {
      "src": "/Veteran-Archives/photos/research-queue/soldiers_home_dipalma_memorial.pdf",
      "caption": "📖 Memorial tribute — courtesy of the Holyoke Soldiers’ Home"
+    },
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Emilio Joseph “Leo” DiPalma, the son of Italian immigrants, grew up in Springfield and left home an eager teenager spoiling for a fight when the Army drafted him in 1944 at eighteen. The war disabused him of that quickly. He fought on the front lines for about a year, lost friends, and was nineteen and a sergeant by the time Germany fell — and then landed in a front-row seat to history. Sent to Nuremberg, he first copied the documents and photographs that catalogued Nazi war crimes, then guarded the prisoners’ cells, and finally served as sergeant of the courtroom guard, standing at the witness box with his hands clasped behind his back as Hitler’s deputies answered for the Reich. Each day he ran the elevator that carried the defendants in and out. Decades later, with his daughter’s help, he set it all down in a memoir — still unable to fathom the cruelty one human being had proven capable of visiting on another. He died on April 8, 2020, at the age of ninety-three.",
+   "sourceNote": "Though not of Holyoke, this veteran died among us — at the Soldiers’ Home, in the 2020 outbreak — honored here among our own. Their place of rest is not yet located for this archive.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_king",
    "name": "King, Anthony “Tony”",
    "era": "World War II",
@@ -48762,19 +48766,23 @@ window.VA = {
    "lat": null,
    "lng": null,
    "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_king.jpg",
-   "narrative": "Anthony E. “Tony” King was born in West Springfield on January 29, 1918, and made his name young — a scrappy second baseman his teammates called “Kingie,” good enough to captain American Legion Post 21, the Springfield powerhouse of 1934. That summer the team of fifteen- and sixteen-year-olds won the New England championship and rode to the Eastern regionals in Gastonia, North Carolina, chasing a national title. When local officials barred their teammate Ernest “Bunny” Taliaferro — the only Black player on the roster — first from the hotel and then the field, King and his teammates refused to play without him and went home. It cost them their shot at a championship and became one of the enduring stories of American Legion baseball, retold in books, a documentary archived at the Baseball Hall of Fame, and a monument in Forest Park. Tony graduated Cathedral High in 1935, spent forty-five years at American Bosch, and served three years as a Navy radioman in the Second World War. The last living member of that 1934 team, he had just turned 102 when he died on April 9, 2020.",
-   "sourceNote": "Though not of Holyoke, this veteran died among us — at the Soldiers’ Home, in the 2020 outbreak — honored here among our own. Their place of rest is not yet located for this archive.",
    "extraPhotos": [
     {
      "src": "/Veteran-Archives/photos/research-queue/soldiers_home_king_memorial.pdf",
      "caption": "📖 Memorial tribute — courtesy of the Holyoke Soldiers’ Home"
+    },
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Anthony E. “Tony” King was born in West Springfield on January 29, 1918, and made his name young — a scrappy second baseman his teammates called “Kingie,” good enough to captain American Legion Post 21, the Springfield powerhouse of 1934. That summer the team of fifteen- and sixteen-year-olds won the New England championship and rode to the Eastern regionals in Gastonia, North Carolina, chasing a national title. When local officials barred their teammate Ernest “Bunny” Taliaferro — the only Black player on the roster — first from the hotel and then the field, King and his teammates refused to play without him and went home. It cost them their shot at a championship and became one of the enduring stories of American Legion baseball, retold in books, a documentary archived at the Baseball Hall of Fame, and a monument in Forest Park. Tony graduated Cathedral High in 1935, spent forty-five years at American Bosch, and served three years as a Navy radioman in the Second World War. The last living member of that 1934 team, he had just turned 102 when he died on April 9, 2020.",
+   "sourceNote": "Though not of Holyoke, this veteran died among us — at the Soldiers’ Home, in the 2020 outbreak — honored here among our own. Their place of rest is not yet located for this archive.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_benson",
    "name": "Benson, Roy M.",
    "era": "Korean War",
@@ -48782,11 +48790,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_blais",
    "name": "Blais, Robert E.",
    "era": "Korean War",
@@ -48794,11 +48808,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_boido",
    "name": "Boido, Arnold L.",
    "era": "World War II",
@@ -48806,11 +48826,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_bryant",
    "name": "Bryant, Joseph P.",
    "era": "Korean War",
@@ -48818,11 +48844,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_bushey",
    "name": "Bushey, Donald A.",
    "era": "Vietnam War",
@@ -48830,11 +48862,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_catallozzi",
    "name": "Catallozzi, Joseph P.",
    "era": "Vietnam War",
@@ -48842,11 +48880,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_chaput",
    "name": "Chaput, John F.",
    "era": "Korean War",
@@ -48854,11 +48898,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_coppez",
    "name": "Coppez, George V.",
    "era": "World War II",
@@ -48866,11 +48916,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_costello",
    "name": "Costello, John F.",
    "era": "Korean War",
@@ -48878,11 +48934,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_cowden",
    "name": "Cowden, Richard C.",
    "era": "Korean War",
@@ -48890,11 +48952,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_cyr",
    "name": "Cyr, Ronald L.",
    "era": "Korean War",
@@ -48902,11 +48970,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_deshaies",
    "name": "Deshaies, Norman J.",
    "era": "Korean War",
@@ -48914,11 +48988,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_drapeau",
    "name": "Drapeau, Roland V.",
    "era": "Cold War",
@@ -48926,11 +49006,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_dudley",
    "name": "Dudley, Margaret P.",
    "era": "Korean War",
@@ -48938,11 +49024,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_duval",
    "name": "Duval, Robert L.",
    "era": "Korean War",
@@ -48950,11 +49042,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_enders",
    "name": "Enders, Evan R.",
    "era": "World War II",
@@ -48962,11 +49060,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_furlani",
    "name": "Furlani, Robert L.",
    "era": "Cold War",
@@ -48974,11 +49078,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_gamelli",
    "name": "Gamelli, Ralph T.",
    "era": "Korean War",
@@ -48986,11 +49096,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_glista",
    "name": "Glista, Edward M.",
    "era": "Korean War",
@@ -48998,11 +49114,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_green",
    "name": "Green, Julius",
    "era": "World War II",
@@ -49010,11 +49132,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_healy",
    "name": "Healy, Alfred T.",
    "era": "Korean War",
@@ -49022,11 +49150,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_kapinos",
    "name": "Kapinos, Theodore A.",
    "era": "Korean War",
@@ -49034,11 +49168,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_kulig",
    "name": "Kulig, Stephen",
    "era": "Cold War",
@@ -49046,11 +49186,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_lafleche",
    "name": "Lafleche, Harvey J. Sr.",
    "era": "World War II",
@@ -49058,11 +49204,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_lang",
    "name": "Lang, Edward P. Jr.",
    "era": "World War II",
@@ -49070,11 +49222,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_lapinski",
    "name": "Lapinski, Robert W.",
    "era": "Vietnam War",
@@ -49082,11 +49240,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_laplante",
    "name": "LaPlante, Chester L.",
    "era": "Vietnam War",
@@ -49094,11 +49258,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_laviolette",
    "name": "Laviolette, Michael J.",
    "era": "Vietnam War",
@@ -49106,11 +49276,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_lococo",
    "name": "Lococo, Samuel J.",
    "era": "World War II",
@@ -49118,11 +49294,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_long",
    "name": "Long, Weldon M.",
    "era": "Cold War",
@@ -49130,11 +49312,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_lowell",
    "name": "Lowell, Charles L.",
    "era": "Vietnam War",
@@ -49142,11 +49330,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_mader",
    "name": "Mader, Ronald A.",
    "era": "Korean War",
@@ -49154,11 +49348,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_malandrinos",
    "name": "Malandrinos, Harry P.",
    "era": "Korean War",
@@ -49166,22 +49366,34 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_mandeville",
    "name": "Mandeville, James E.",
    "era": "Korean War",
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_manley",
    "name": "Manley, Donald C.",
    "era": "Vietnam War",
@@ -49189,11 +49401,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_miller",
    "name": "Miller, James L.",
    "era": "World War II",
@@ -49201,11 +49419,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_olbrych",
    "name": "Olbrych, Frank V.",
    "era": "World War II",
@@ -49213,11 +49437,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_piela",
    "name": "Piela, Alphonse M.",
    "era": "Korean War",
@@ -49225,11 +49455,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_rousseau",
    "name": "Rousseau, Francis E. Sr.",
    "era": "World War II",
@@ -49237,11 +49473,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_st_peter",
    "name": "St. Peter, Albert J.",
    "era": "Korean War",
@@ -49249,11 +49491,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_seamans",
    "name": "Seamans, Frank A.",
    "era": "Korean War",
@@ -49261,11 +49509,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_szczur",
    "name": "Szczur, Daniel M.",
    "era": "Vietnam War",
@@ -49273,11 +49527,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_thresher",
    "name": "Thresher, Dennis",
    "era": "Korean War",
@@ -49285,11 +49545,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_trask",
    "name": "Trask, Richard W.",
    "era": "Korean War",
@@ -49297,11 +49563,17 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "soldiers_home_2020_zauche",
    "name": "Zauche, Frank W.",
    "era": "World War II",
@@ -49309,6 +49581,12 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49548,6 +49826,78 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "soldiers_home_2020_melendez",
+   "name": "Melendez, Samuel",
+   "era": "Korean War",
+   "branchLabel": "",
+   "lat": null,
+   "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "soldiers_home_2020_pinard",
+   "name": "Pinard, Constance “Kandy”",
+   "era": "Vietnam War",
+   "branchLabel": "",
+   "lat": null,
+   "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "soldiers_home_2020_sullivan",
+   "name": "Sullivan, James",
+   "era": "World War II",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": null,
+   "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
+   "badges": [
+    "Bronze Star"
+   ],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "soldiers_home_2020_foley",
+   "name": "Foley, Francis",
+   "era": "Cold War",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": null,
+   "lng": null,
+   "extraPhotos": [
+    {
+     "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
+     "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
+    }
+   ],
    "badges": [],
    "status": "queue",
    "source": "research-queue"
