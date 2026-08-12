@@ -6577,17 +6577,18 @@ window.VA = {
    "status": "located",
    "source": "placemarker-pass-FD5"
   },
-  {
+    {
    "id": "fd_pm_owens_d",
-   "name": "Owens, D.",
-   "era": "",
-   "branch": "",
+   "name": "Owens, David L.",
+   "era": "Vietnam War",
+   "branch": "Marine Corps",
    "branchLabel": "",
    "lat": 42.207119,
    "lng": -72.624542,
    "photo": "https://raw.githubusercontent.com/markwot-ops/forestdale-map/main/owens%20d%20Medium.jpeg",
-   "extraPhotos": [],
-   "narrative": "This veteran’s grave has been located and photographed at Forestdale Cemetery. A researched narrative is being prepared. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "extraPhotos": [
+   ],
+   "narrative": "David Lee Owens was born on June 18, 1947, growing up in Holyoke during an era when the neighborhood parks and community centers served as the social glue for local youths. During his childhood, the local economy was adapting to postwar challenges, but the classic civic pride built on the town’s legendary industrial muscle stayed firm. Seeking the challenge and elite training of the sea-service infantry, David stepped forward to join the regular United States Marine Corps. He advanced to the rank of Lance Corporal and was attached to Headquarters and Service Company, 3rd Battalion, 4th Marines, 3rd Marine Division. Lance Corporal Owens deployed to Southeast Asia amidst the massive operational buildup of conventional Marine amphibious forces. Operating in the rugged, combat-saturated terrain of the northern Quảng Trị Province, his deployment was abruptly and tragically cut short. On October 5, 1966, at only 19 years old, Lance Corporal Owens lost his life due to non-hostile injuries sustained in a tactical vehicle crash. The news of his sudden passing traveled back to Hampden County, deeply saddening his childhood classmates and neighbors. He is permanently honored on Panel 11E, Line 50 of the National Vietnam Veterans Memorial Wall in Washington, D.C. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "placemarker-pass-FD5"
