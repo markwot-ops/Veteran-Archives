@@ -74,7 +74,7 @@ window.VA = {
   },
   {
    "id": "edward_day_rev",
-   "name": "Edward Day",
+   "name": "Day, Edward",
    "era": "Revolutionary War",
    "branch": "Army",
    "branchLabel": "",
@@ -89,7 +89,7 @@ window.VA = {
   },
   {
    "id": "robert_day_rev",
-   "name": "Robert Day",
+   "name": "Day, Robert",
    "era": "Revolutionary War",
    "branch": "Army",
    "branchLabel": "",
@@ -331,7 +331,7 @@ window.VA = {
   },
   {
    "id": "capt_joseph_day_rev",
-   "name": "Joseph Day",
+   "name": "Day, Joseph",
    "era": "Revolutionary War",
    "branch": "Army",
    "branchLabel": "",
@@ -346,7 +346,7 @@ window.VA = {
   },
   {
    "id": "james_humeston_rev",
-   "name": "James Humeston",
+   "name": "Humeston, James",
    "era": "Revolutionary War",
    "branch": "Army",
    "branchLabel": "",
@@ -361,7 +361,7 @@ window.VA = {
   },
   {
    "id": "josiah_rogers_rev",
-   "name": "Josiah Rogers",
+   "name": "Rogers, Josiah",
    "era": "Revolutionary War",
    "branch": "Unknown",
    "branchLabel": "",
@@ -393,7 +393,7 @@ window.VA = {
   },
   {
    "id": "lt_martin_chapin_rev",
-   "name": "Martin Chapin",
+   "name": "Chapin, Martin",
    "era": "Revolutionary War",
    "branch": "Army",
    "branchLabel": "",
@@ -438,7 +438,7 @@ window.VA = {
   },
   {
    "id": "capt_joseph_morgan_colonial",
-   "name": "Joseph Morgan",
+   "name": "Morgan, Joseph",
    "era": [
     "French & Indian War",
     "Revolutionary War"

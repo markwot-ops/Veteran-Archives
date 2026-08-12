@@ -5331,25 +5331,24 @@ window.VA = {
    "source": "zack-roster-placeholder",
    "narrative": "[FIRST DRAFT] George D. Crosby of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
-  {
+    {
    "id": "zack_roster_crosier_william",
    "name": "Crosier, William J.",
-   "era": [
-    "Spanish-American War",
-    "World War I"
-   ],
+   "era": ["Spanish-American War", "World War I"],
+   "branch": "Army",
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "extraPhotos": [
     {
-     "caption": "📜 San Juan and El Caney (1898)",
-     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html",
+     "caption": "📜 San Juan and El Caney (1898)"
     }
    ],
+   "narrative": "William J. Crosier was a cornerstone of Holyoke’s late-19th-century civic and military architecture. Long before the 1898 mobilization, he was deeply embedded in the “Paper City’s” local color, working as a skilled regional artisan while dedicating his evenings to the Massachusetts Volunteer Militia. When President McKinley called for volunteers to answer the crisis in Cuba, Crosier was elected to lead Company D of the 2nd Massachusetts Infantry as its Captain. He marched his men out of the local armory on May 3, 1898, surrounded by thousands of cheering citizens packing High and Dwight streets. Capt. Crosier guided his hometown company through grueling training camp conditions in the American South and into the tropical combat theater of Cuba. He led them directly through the chaotic and malaria-ridden elements of the Santiago Campaign, demonstrating unwavering leadership until the company was safely mustered out in the autumn of 1898. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
    "status": "queue",
-   "source": "zack-roster-placeholder",
-   "narrative": "[FIRST DRAFT] William J. Crosier of Holyoke served as a captain in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
+   "source": "zack-roster-placeholder"
   },
   {
    "id": "zack_roster_cutler_willard",
@@ -5619,19 +5618,18 @@ window.VA = {
    "status": "queue",
    "source": "zack-roster-placeholder"
   },
-  {
+    {
    "id": "zack_roster_hunter_robert",
-   "name": "Hunter, Robert M.",
-   "era": [
-    "Spanish-American War",
-    "World War I"
-   ],
+   "name": "Hunter, Robert W.",
+   "era": ["Spanish-American War", "World War I"],
+   "branch": "Army",
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "narrative": "Robert W. Hunter grew up in a rapidly expanding Holyoke, witnessing the town transform into a global manufacturing powerhouse fed by the massive Connecticut River dam system. He developed strong local roots as an active professional and community leader, earning widespread respect for his sharp organizational skills. Within the local militia framework, he pinned on the rank of First Lieutenant, serving as second-in-command for Company D. During the short but intense Spanish-American War, Lt. Hunter was instrumental in managing the immense logistics of moving over eighty Holyoke men from Western Massachusetts to the staging grounds of Tampa, Florida, and eventually onto the shores of Daiquirí, Cuba. He faced the same harsh tropical diseases and sudden skirmishes that depleted the regiment’s numbers, returning home to Holyoke as a celebrated officer who helped guide his neighbors through foreign hardships. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
    "status": "queue",
-   "source": "zack-roster-placeholder",
-   "narrative": "[FIRST DRAFT] Robert W. Hunter of Holyoke served as a 1st lieutenant in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
+   "source": "zack-roster-placeholder"
   },
   {
    "id": "zack_roster_jackson_lester",
@@ -47294,7 +47292,7 @@ window.VA = {
    "status": "queue",
    "source": "harper-ww2-casualty-roll"
   },
-  {
+    {
    "id": "sa_phillips_francis_d",
    "name": "Phillips, Francis D.",
    "era": "Spanish-American War",
@@ -47303,13 +47301,14 @@ window.VA = {
    "lat": null,
    "lng": null,
    "photo": "",
-   "extraPhotos": [],
-   "narrative": "[FIRST DRAFT] Francis D. Phillips of Holyoke served as a 2nd lieutenant in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "extraPhotos": [
+   ],
+   "narrative": "Francis D. Phillips spent his formative years immersed in the industrial grit and multi-ethnic fabric of Holyoke’s dense canal wards. He was a prominent figure among the city’s young, ambitious working class, dedicating his free hours to tactical drills with the local state guard unit. Commissioned as a Second Lieutenant, Phillips was the junior officer of Company D when the unit deployed for the War with Spain. His role placed him directly on the front lines of platoon leadership during the advance on Santiago de Cuba. He endured the fierce, sweltering tropical heat, mud-slicked paths, and the invisible enemy of yellow fever that swept through the camps. Lt. Phillips’ leadership during this rapid overseas campaign cemented his place in local history, exemplifying the bravery of the young Holyoke professionals who willingly stepped into the global spotlight at the turn of the century. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-company-d-roster-1898"
   },
-  {
+    {
    "id": "sa_weymouth_william_l",
    "name": "Weymouth, William L.",
    "era": "Spanish-American War",
@@ -47318,8 +47317,9 @@ window.VA = {
    "lat": null,
    "lng": null,
    "photo": "",
-   "extraPhotos": [],
-   "narrative": "[FIRST DRAFT] William L. Weymouth of Holyoke served as a 1st sergeant in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "extraPhotos": [
+   ],
+   "narrative": "William L. Weymouth was the operational backbone of Company D, holding the critical and demanding position of First Sergeant. In civilian life, he was a familiar face within Holyoke’s bustling mercantile or mill operations, known for his strict discipline and reliability. As the senior non-commissioned officer, Sgt. Weymouth was responsible for the daily welfare, drilling, and accountability of every private in the company. When the unit deployed to Cuba in the summer of 1898, he was the vital link between the officers’ strategic commands and the working-class soldiers on the ground. He navigated his men through the intense shortages of rations, outdated equipment, and the heavy rainstorms of the Cuban wilderness, ensuring Company D maintained its cohesion and proud Holyoke identity throughout the entire overseas campaign. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-company-d-roster-1898"
@@ -48751,7 +48751,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Leo DiPalma was a Springfield kid, the son of Italian immigrants. He fought across Europe in the war, and when it was over the Army handed him something he never forgot — a post guarding the Nuremberg trials, standing a few feet from the men who had run the Third Reich, running the elevator that brought them up to the courtroom each morning. He never got over what he saw in those files and photographs, and decades later, quietly, with his daughter’s help, he wrote it all down so it wouldn’t be lost. At home he was gentler than his history: a devoted father to four daughters, whose whole aim, they said, was to take care of the people he loved. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Leo DiPalma was a Springfield kid, the son of Italian immigrants. He fought across Europe in the war, and when it was over the Army handed him something he never forgot — a post guarding the Nuremberg trials, standing a few feet from the men who had run the Third Reich, running the elevator that brought them up to the courtroom each morning. He never got over what he saw in those files and photographs, and decades later, quietly, with his daughter’s help, he wrote it all down so it wouldn’t be lost. At home he was gentler than his history: a devoted father to four daughters, whose whole aim, they said, was to take care of the people he loved. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -48775,7 +48775,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "They called him Kingie, and even at 102 he could still tell you about the summer of 1934. He was the scrappy second baseman and captain of a Springfield sandlot team good enough to go south chasing a national title — until a North Carolina town told them their teammate Bunny Taliaferro, who was Black, couldn’t stay in the hotel or take the field. The boys voted, packed up, and came home rather than play without him. Tony carried that the rest of a long life: forty-five years at American Bosch, a Navy hitch in the war, a golf swing he kept into his nineties. He was the last of that team still living when he died. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "They called him Kingie, and even at 102 he could still tell you about the summer of 1934. He was the scrappy second baseman and captain of a Springfield sandlot team good enough to go south chasing a national title — until a North Carolina town told them their teammate Bunny Taliaferro, who was Black, couldn’t stay in the hotel or take the field. The boys voted, packed up, and came home rather than play without him. Tony carried that the rest of a long life: forty-five years at American Bosch, a Navy hitch in the war, a golf swing he kept into his nineties. He was the last of that team still living when he died. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -48795,7 +48795,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Roy Benson served in the Army during Korea, then came home and made a life in Southwick — so much a part of the town that he sat on the Board of Appeals, the Cemetery Commission, and the Council on Aging. He’d married his adored Marlene along the way, and family was the thing he was proudest of. He whistled his way through the days, kept his sense of humor to the end, and left a lot of people glad they’d known him. He was eighty-eight. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Roy Benson served in the Army during Korea, then came home and made a life in Southwick — so much a part of the town that he sat on the Board of Appeals, the Cemetery Commission, and the Council on Aging. He’d married his adored Marlene along the way, and family was the thing he was proudest of. He whistled his way through the days, kept his sense of humor to the end, and left a lot of people glad they’d known him. He was eighty-eight. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -48815,7 +48815,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Robert Blais was a Tin Can Sailor, a destroyer man in the Navy from 1948 to 1952, and he came home from Korea with a commendation for heroism. He spent his working life running heavy equipment with the local union. But what people remembered was the smile — he was always the one helping someone — and the sixty-eight years with his wife, a good many of them spent fishing or down in Florida. He was ninety. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Robert Blais was a Tin Can Sailor, a destroyer man in the Navy from 1948 to 1952, and he came home from Korea with a commendation for heroism. He spent his working life running heavy equipment with the local union. But what people remembered was the smile — he was always the one helping someone — and the sixty-eight years with his wife, a good many of them spent fishing or down in Florida. He was ninety. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -48835,7 +48835,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Arnold Boido lived a hundred years and packed a great deal into them. He went into the Navy in 1939 as a plain seaman and came out in 1946 a chief warrant officer, having served in both the Atlantic and the Pacific across the whole span of the war. Home in West Springfield, he went into business with his father and brother, and Boido Construction put up houses and apartments all over the area. He was a devout man — St. Ann’s parish, the Holy Name Society, the St. Vincent de Paul Society — and by the end he was the oldest continuous member of UNICO in the country. He loved history and read it constantly. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Arnold Boido lived a hundred years and packed a great deal into them. He went into the Navy in 1939 as a plain seaman and came out in 1946 a chief warrant officer, having served in both the Atlantic and the Pacific across the whole span of the war. Home in West Springfield, he went into business with his father and brother, and Boido Construction put up houses and apartments all over the area. He was a devout man — St. Ann’s parish, the Holy Name Society, the St. Vincent de Paul Society — and by the end he was the oldest continuous member of UNICO in the country. He loved history and read it constantly. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -48855,7 +48855,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Joe Bryant served in the Navy during Korea aboard the USS Braine, working a firefighting gun — and, he’d want you to know, went undefeated as the ship’s onboard boxing champion. Back home in East Longmeadow he put in a few years at American Bosch and then more than forty with the Postal Service. He was a St. Michael’s man, a golfer, a Red Sox and Patriots fan, and happiest of all down at Groton Long Point on the Connecticut shore, where he spent a lifetime of summers with his family. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Joe Bryant served in the Navy during Korea aboard the USS Braine, working a firefighting gun — and, he’d want you to know, went undefeated as the ship’s onboard boxing champion. Back home in East Longmeadow he put in a few years at American Bosch and then more than forty with the Postal Service. He was a St. Michael’s man, a golfer, a Red Sox and Patriots fan, and happiest of all down at Groton Long Point on the Connecticut shore, where he spent a lifetime of summers with his family. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -48875,7 +48875,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Donald Bushey gave fourteen years to the Air Force, serving through both Korea and Vietnam and earning the Air Force Commendation Medal for his work under hard conditions. Home in Springfield he was a pressman for Westvaco and an officer of VFW Post 90. He hunted and fished, and he had an artist’s eye — he drew the nature he loved and entered his work in local shows. He was eighty-five. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Donald Bushey gave fourteen years to the Air Force, serving through both Korea and Vietnam and earning the Air Force Commendation Medal for his work under hard conditions. Home in Springfield he was a pressman for Westvaco and an officer of VFW Post 90. He hunted and fished, and he had an artist’s eye — he drew the nature he loved and entered his work in local shows. He was eighty-five. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -48895,7 +48895,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Joe Catallozzi served twelve years in the Navy, then built a career as an IT consultant at The Hartford. But his real love was poetry — he published two collections, “Simply Sweet and Sometimes Sour” and “The Sands of Time.” A Springfield man and a Cathedral High graduate, he was sixty-five, remembered by his two sisters and a wide circle of aunts, uncles, and cousins. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Joe Catallozzi served twelve years in the Navy, then built a career as an IT consultant at The Hartford. But his real love was poetry — he published two collections, “Simply Sweet and Sometimes Sour” and “The Sands of Time.” A Springfield man and a Cathedral High graduate, he was sixty-five, remembered by his two sisters and a wide circle of aunts, uncles, and cousins. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -48935,7 +48935,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "George Coppez served in the Army Air Corps in the Second World War, stationed in Hawaii and at Westover. But it was music and ball that filled his long life. He drummed — well enough to play with the Jimmy Dorsey Band in New York, and for years at the Mountain Park Playhouse and with the Gerry Lamothe Band around home. He made his living as a lithographer, coached football at Holyoke High for many years, and pulled hard for the Bruins, the Red Sox, and the Patriots right to the end. He was ninety-eight. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "George Coppez served in the Army Air Corps in the Second World War, stationed in Hawaii and at Westover. But it was music and ball that filled his long life. He drummed — well enough to play with the Jimmy Dorsey Band in New York, and for years at the Mountain Park Playhouse and with the Gerry Lamothe Band around home. He made his living as a lithographer, coached football at Holyoke High for many years, and pulled hard for the Bruins, the Red Sox, and the Patriots right to the end. He was ninety-eight. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -48975,7 +48975,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Richard Cowden was a communications man in the Army, and he made a career of it after the service too. He became the first West Coast correspondent for “All Things Considered,” and had a long run in television as both a producer and an on-air personality. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Richard Cowden was a communications man in the Army, and he made a career of it after the service too. He became the first West Coast correspondent for “All Things Considered,” and had a long run in television as both a producer and an on-air personality. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -48995,7 +48995,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Ronnie Cyr grew up in Portland, Maine, and joined the Air Force out of high school, serving four years during Korea. He made his living in sales, but he gave his time freely — an assistant Scout leader, a bingo-night volunteer, a booster-club officer for his kids’ school. He loved summers on the water at the family cottage in Holland, and he loved his motorcycles. He was eighty-six. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Ronnie Cyr grew up in Portland, Maine, and joined the Air Force out of high school, serving four years during Korea. He made his living in sales, but he gave his time freely — an assistant Scout leader, a bingo-night volunteer, a booster-club officer for his kids’ school. He loved summers on the water at the family cottage in Holland, and he loved his motorcycles. He was eighty-six. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49015,7 +49015,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Norman Deshaies served in the Army and then spent his working life as a union carpenter in Springfield. A longtime South Hadley man and a St. Theresa’s parishioner, he was happiest among his church friends and his family, and he loved a good card game. He was eighty-eight. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Norman Deshaies served in the Army and then spent his working life as a union carpenter in Springfield. A longtime South Hadley man and a St. Theresa’s parishioner, he was happiest among his church friends and his family, and he loved a good card game. He was eighty-eight. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49055,7 +49055,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Peg Dudley served her country in the Navy during Korea, and she was known ever after for her wit and her wisdom. She loved her family and friends, a good long walk, a good book, and a hand of cards with the friends she called her “Georgia Girls.” She was eighty-six. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Peg Dudley served her country in the Navy during Korea, and she was known ever after for her wit and her wisdom. She loved her family and friends, a good long walk, a good book, and a hand of cards with the friends she called her “Georgia Girls.” She was eighty-six. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to her service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49075,7 +49075,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Bob Duval served in the Army during Korea and came home to a life of service of a different kind. A longtime Ludlow man, he was ordained a deacon in 1984 and gave decades to his parish and his community — ministering at the Ludlow jail and to the sick and the elderly. He took quiet pride in that work. He’d earned his degree at American International College, and he carried its lessons into everything he did. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Bob Duval served in the Army during Korea and came home to a life of service of a different kind. A longtime Ludlow man, he was ordained a deacon in 1984 and gave decades to his parish and his community — ministering at the Ludlow jail and to the sick and the elderly. He took quiet pride in that work. He’d earned his degree at American International College, and he carried its lessons into everything he did. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49095,7 +49095,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Evan Enders spent twenty-three years in uniform and most of them in the air. He was in the Navy from 1944 to 1946 and the Air Force from 1947 to 1967, retiring a major after flying all over the world — B-52s, B-47s, and, during Korea, the harder duty of carrying the wounded home. Afterward he flew corporate planes for Textron for years. He was ninety-three, and for all the places flying took him, what he loved most was the outdoors. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Evan Enders spent twenty-three years in uniform and most of them in the air. He was in the Navy from 1944 to 1946 and the Air Force from 1947 to 1967, retiring a major after flying all over the world — B-52s, B-47s, and, during Korea, the harder duty of carrying the wounded home. Afterward he flew corporate planes for Textron for years. He was ninety-three, and for all the places flying took him, what he loved most was the outdoors. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49115,7 +49115,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Robert Furlani — “Ranger” to those who worked with him — served in the Navy aboard the USS Yosemite, then spent his career as a lineman, most of it on the hard “trouble” calls at Northeast Utilities. A Southwick man, he loved the outdoors: hunting, skiing, and long walks in the forest. He was eighty-three. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Robert Furlani — “Ranger” to those who worked with him — served in the Navy aboard the USS Yosemite, then spent his career as a lineman, most of it on the hard “trouble” calls at Northeast Utilities. A Southwick man, he loved the outdoors: hunting, skiing, and long walks in the forest. He was eighty-three. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49135,7 +49135,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Ralph Gamelli served in the Army overseas in 1953 and ’54, then went home and built a business — Gamelli TV & Appliance, which he ran with his Uncle Tom for more than forty years. He and his wife Joanne, married fifty-one years, were devoted golfers at Shaker Farms; he also loved his cards, his bowling, and his Red Sox and Patriots. He was eighty-six. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Ralph Gamelli served in the Army overseas in 1953 and ’54, then went home and built a business — Gamelli TV & Appliance, which he ran with his Uncle Tom for more than forty years. He and his wife Joanne, married fifty-one years, were devoted golfers at Shaker Farms; he also loved his cards, his bowling, and his Red Sox and Patriots. He was eighty-six. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49155,7 +49155,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Edward Glista joined the Air Force during Korea, then spent his whole career at Hamilton Standard as an aerospace engineer — working on space suits and the guidance systems for the space shuttle and satellites. He could fix just about anything, and his East Longmeadow home was a monument to that ingenuity. He golfed, he played the market, and he loved taking his grandchildren to breakfast. He was eighty-eight. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Edward Glista joined the Air Force during Korea, then spent his whole career at Hamilton Standard as an aerospace engineer — working on space suits and the guidance systems for the space shuttle and satellites. He could fix just about anything, and his East Longmeadow home was a monument to that ingenuity. He golfed, he played the market, and he loved taking his grandchildren to breakfast. He was eighty-eight. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49175,7 +49175,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Everybody loved Jules Green — the grin, the gab, the friend who’d pick up the phone at any hour. In the war he was a Navy Seabee out on Guam, building what needed building. After it he was a fixture: a Master Mason, a Shriner, a Melha Mariner, a member of the Pioneer Valley Yacht Club who took his greatest pleasure drifting down the river on his pontoon boat. He was ninety-two, and he spent those years close to his family — the Berkshires, Cape Cod, Florida winters with friends. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Everybody loved Jules Green — the grin, the gab, the friend who’d pick up the phone at any hour. In the war he was a Navy Seabee out on Guam, building what needed building. After it he was a fixture: a Master Mason, a Shriner, a Melha Mariner, a member of the Pioneer Valley Yacht Club who took his greatest pleasure drifting down the river on his pontoon boat. He was ninety-two, and he spent those years close to his family — the Berkshires, Cape Cod, Florida winters with friends. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49195,7 +49195,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Alfred Healy earned a Bronze Star in the Army in Korea, and it was so like him that his own family didn’t learn how decorated a soldier he’d been until he was gone. He was humble that way. He spent his working life with the Postal Service and rose to be a town postmaster. He devoured history, could rattle off facts about the presidents, listened to audiobooks by the stack, and followed the news to the end. He was ninety-one, sharp as a tack, and fond of calling the things he admired “snazzy” or “classy.” Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Alfred Healy earned a Bronze Star in the Army in Korea, and it was so like him that his own family didn’t learn how decorated a soldier he’d been until he was gone. He was humble that way. He spent his working life with the Postal Service and rose to be a town postmaster. He devoured history, could rattle off facts about the presidents, listened to audiobooks by the stack, and followed the news to the end. He was ninety-one, sharp as a tack, and fond of calling the things he admired “snazzy” or “classy.” Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49215,7 +49215,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Ted Kapinos was a career lawman. He served as a military policeman in the Army during Korea, then went home and rose to the rank of captain in the Massachusetts State Police, and later spent fifteen years running security for the Springfield museums. He earned criminal-justice degrees from three colleges and stayed a lifelong member of the American Legion. He was ninety-one, of Hadley, and a man of the Most Holy Redeemer parish. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Ted Kapinos was a career lawman. He served as a military policeman in the Army during Korea, then went home and rose to the rank of captain in the Massachusetts State Police, and later spent fifteen years running security for the Springfield museums. He earned criminal-justice degrees from three colleges and stayed a lifelong member of the American Legion. He was ninety-one, of Hadley, and a man of the Most Holy Redeemer parish. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49235,7 +49235,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Stephen Kulig was a Navy man, serving aboard the USS Valley Forge from 1946 to 1950. A Chicopee native and a 1946 graduate of Chicopee High, he spent forty years as an instrument mechanic at Monsanto in Springfield. He was a devout man who moved among the city’s parishes over a long life. He was ninety-two. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Stephen Kulig was a Navy man, serving aboard the USS Valley Forge from 1946 to 1950. A Chicopee native and a 1946 graduate of Chicopee High, he spent forty years as an instrument mechanic at Monsanto in Springfield. He was a devout man who moved among the city’s parishes over a long life. He was ninety-two. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49255,7 +49255,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Harvey Lafleche served in the Army in the Second World War, then married Gertrude in 1948 and raised five children in Granby — the pride and joy of his life. He worked at the National Blank Book in Holyoke and later the Granby post office, served as a union man and an auxiliary police officer, and had a gift for turning other people’s cast-offs into treasures. He was a teller of tall tales and bad jokes, patiently endured by his wife of seventy years. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Harvey Lafleche served in the Army in the Second World War, then married Gertrude in 1948 and raised five children in Granby — the pride and joy of his life. He worked at the National Blank Book in Holyoke and later the Granby post office, served as a union man and an auxiliary police officer, and had a gift for turning other people’s cast-offs into treasures. He was a teller of tall tales and bad jokes, patiently endured by his wife of seventy years. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49275,7 +49275,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Edward Lang served his country for two decades and three wars — the Navy in the Second World War, then the Air Force through Korea and Vietnam, retiring a lieutenant colonel in 1970. He’d been raised in East Boston, earned his degrees along the way, and loved nothing better than to dance — ballroom, especially. He was ninety-one. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Edward Lang served his country for two decades and three wars — the Navy in the Second World War, then the Air Force through Korea and Vietnam, retiring a lieutenant colonel in 1970. He’d been raised in East Boston, earned his degrees along the way, and loved nothing better than to dance — ballroom, especially. He was ninety-one. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49295,7 +49295,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Bob Lapinski enlisted in the Navy out of Turners Falls High and served during Vietnam aboard the USS Sandoval as a radioman. Home in Montague, he drove a truck for N & B Express for thirty-seven years. He was a devoted “rail fan” — a member of the Amherst Railway Society who never lost his fascination with trains. He was seventy-five. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Bob Lapinski enlisted in the Navy out of Turners Falls High and served during Vietnam aboard the USS Sandoval as a radioman. Home in Montague, he drove a truck for N & B Express for thirty-seven years. He was a devoted “rail fan” — a member of the Amherst Railway Society who never lost his fascination with trains. He was seventy-five. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49315,7 +49315,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Chester LaPlante served in the Army in Germany in the mid-1960s, then spent his working life as a machinist in Westfield. He was a true jack-of-all-trades — skilled at carpentry, a restorer of old cars in his younger years, and an avid fisherman all his life. There wasn’t a home-improvement project he wouldn’t take on. He was seventy-eight. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Chester LaPlante served in the Army in Germany in the mid-1960s, then spent his working life as a machinist in Westfield. He was a true jack-of-all-trades — skilled at carpentry, a restorer of old cars in his younger years, and an avid fisherman all his life. There wasn’t a home-improvement project he wouldn’t take on. He was seventy-eight. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49335,7 +49335,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Michael Laviolette served as a medic in the Army National Guard and made his career in sales, retiring from Sysmex in 2014. A Cathedral High graduate with a marketing degree, he was a man of wide interests — history, music, photography, and travel, with a standing love of the family’s annual trips to Maine. When his children were young he coached their teams. He was sixty-seven. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Michael Laviolette served as a medic in the Army National Guard and made his career in sales, retiring from Sysmex in 2014. A Cathedral High graduate with a marketing degree, he was a man of wide interests — history, music, photography, and travel, with a standing love of the family’s annual trips to Maine. When his children were young he coached their teams. He was sixty-seven. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49355,7 +49355,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Sam Lococo — “Poppy” to his family — enlisted in the Navy in 1943 and served in the South Pacific as a radio operator; his ship earned eight battle stars. The second-youngest of eight children, he’d been class president all four years of high school. He spent his working life as a well-loved mail carrier for the Postal Service, and he never lost his knack for inventing silly games to play with his grandchildren. He was ninety-six. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Sam Lococo — “Poppy” to his family — enlisted in the Navy in 1943 and served in the South Pacific as a radio operator; his ship earned eight battle stars. The second-youngest of eight children, he’d been class president all four years of high school. He spent his working life as a well-loved mail carrier for the Postal Service, and he never lost his knack for inventing silly games to play with his grandchildren. He was ninety-six. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49375,7 +49375,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Weldon Long served in the Army in Korea in the late 1950s, then settled in Denver and turned his hand to whatever needed doing — carpentry, trucking, mechanics, managing apartments. He was a fixture of a very unofficial Denver institution, the “Colfax coffee club,” for decades. He never dismissed another person or their beliefs, and even as Alzheimer’s took his words in his last years, he never failed to brighten a room. He was eighty-two. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Weldon Long served in the Army in Korea in the late 1950s, then settled in Denver and turned his hand to whatever needed doing — carpentry, trucking, mechanics, managing apartments. He was a fixture of a very unofficial Denver institution, the “Colfax coffee club,” for decades. He never dismissed another person or their beliefs, and even as Alzheimer’s took his words in his last years, he never failed to brighten a room. He was eighty-two. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49395,7 +49395,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Charlie Lowell was an Air Force veteran of the Vietnam era, but it was his hometown of Hardwick that got most of his life. He managed operations at IBM for twenty-seven years, served nine years as a Selectman, gave more than fifty to the Fire Department, and rode the ambulance as an EMT. He was twice Master of his Masonic lodge. He was seventy-eight — everywhere a town needs a good man to be. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Charlie Lowell was an Air Force veteran of the Vietnam era, but it was his hometown of Hardwick that got most of his life. He managed operations at IBM for twenty-seven years, served nine years as a Selectman, gave more than fifty to the Fire Department, and rode the ambulance as an EMT. He was twice Master of his Masonic lodge. He was seventy-eight — everywhere a town needs a good man to be. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49415,7 +49415,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Ronald Mader enlisted in the Navy in 1951 and served submarine duty aboard the USS Sablefish during Korea. He’d dreamed of teaching English — he took his degree at Boston University — but found his path in sales with Kellogg’s, and was happy in it. He was a shy, gentle, grateful soul, and in his last years the best part of his day was rolling through the halls in his wheelchair with his therapy dog, Turtle, in his arms. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Ronald Mader enlisted in the Navy in 1951 and served submarine duty aboard the USS Sablefish during Korea. He’d dreamed of teaching English — he took his degree at Boston University — but found his path in sales with Kellogg’s, and was happy in it. He was a shy, gentle, grateful soul, and in his last years the best part of his day was rolling through the halls in his wheelchair with his therapy dog, Turtle, in his arms. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49435,7 +49435,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Harry Malandrinos served in the Navy in the early 1950s as a radio operator who knew his Morse code. A Chicopee man, he and his wife ran the Pyramid Luncheonette in Springfield before he spent forty years teaching in the Chicopee schools. He was an accomplished drummer, too, and toured the country with the George Kent Orchestras. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Harry Malandrinos served in the Navy in the early 1950s as a radio operator who knew his Morse code. A Chicopee man, he and his wife ran the Pyramid Luncheonette in Springfield before he spent forty years teaching in the Chicopee schools. He was an accomplished drummer, too, and toured the country with the George Kent Orchestras. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49454,7 +49454,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Jim Mandeville never quite stopped being a kid. He’d swim and wrestle and shoot baskets with his grandchildren long after he’d taken to a wheelchair, and when he played cards with his daughter Laurie he’d stack the deck the moment she left the table — she took to calling him “Cheater Beater.” He found his joy in babies and dogs and the people right in front of him. “He always made me feel like I was the most important person in the world,” Laurie said. “We were best friends.” He was eighty-three. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Jim Mandeville never quite stopped being a kid. He’d swim and wrestle and shoot baskets with his grandchildren long after he’d taken to a wheelchair, and when he played cards with his daughter Laurie he’d stack the deck the moment she left the table — she took to calling him “Cheater Beater.” He found his joy in babies and dogs and the people right in front of him. “He always made me feel like I was the most important person in the world,” Laurie said. “We were best friends.” He was eighty-three. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49474,7 +49474,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Donald Manley served in the Army in Vietnam, where he carried a flame thrower — hard, heroic work by any measure. He came home to West Springfield, adopted two boys, and gave them a solid, active boyhood full of dirt bikes and engines and music. He was a master mechanic at Bassett Boats. He was seventy. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Donald Manley served in the Army in Vietnam, where he carried a flame thrower — hard, heroic work by any measure. He came home to West Springfield, adopted two boys, and gave them a solid, active boyhood full of dirt bikes and engines and music. He was a master mechanic at Bassett Boats. He was seventy. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49494,7 +49494,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Jim Miller was a man of deep faith and old-fashioned courtesy, and a soldier in some of the hardest fighting of the war. As an Army technician he went through Normandy, northern France, the Rhineland, the Ardennes, and central Europe, and came home with the campaign ribbon and the victory medal to show for it. Then he gave thirty-two years to the West Springfield Fire Department, retiring a lieutenant, with a stretch carrying the mail and building airplane engines in between. He was ninety-six. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Jim Miller was a man of deep faith and old-fashioned courtesy, and a soldier in some of the hardest fighting of the war. As an Army technician he went through Normandy, northern France, the Rhineland, the Ardennes, and central Europe, and came home with the campaign ribbon and the victory medal to show for it. Then he gave thirty-two years to the West Springfield Fire Department, retiring a lieutenant, with a stretch carrying the mail and building airplane engines in between. He was ninety-six. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49514,7 +49514,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Frank Olbrych went to war with the Third Army’s 299th Ordnance company and saw Normandy, the Rhineland, and the drive across Europe, coming home with five campaign stars and a letter of gratitude from the French government. He’d started out in the Civilian Conservation Corps and was a lifelong Chicopee man and St. Stanislaus parishioner. He was ninety-six. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Frank Olbrych went to war with the Third Army’s 299th Ordnance company and saw Normandy, the Rhineland, and the drive across Europe, coming home with five campaign stars and a letter of gratitude from the French government. He’d started out in the Civilian Conservation Corps and was a lifelong Chicopee man and St. Stanislaus parishioner. He was ninety-six. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49534,7 +49534,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Al Piela served in the Marine Corps during Korea. A Chicopee man and a devoted St. Stanislaus parishioner, he was the sort who showed up — pinching pierogi and working the Bingo at the basilica, playing cards and cribbage at the senior center. He belonged to the Knights of Columbus and the Marine Corps League. He was ninety-two. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Al Piela served in the Marine Corps during Korea. A Chicopee man and a devoted St. Stanislaus parishioner, he was the sort who showed up — pinching pierogi and working the Bingo at the basilica, playing cards and cribbage at the senior center. He belonged to the Knights of Columbus and the Marine Corps League. He was ninety-two. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49574,7 +49574,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Albert St. Peter served in the Army as a private first class, and was for many years a resident of the Holyoke Soldiers’ Home. He was eighty-six. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Albert St. Peter served in the Army as a private first class, and was for many years a resident of the Holyoke Soldiers’ Home. He was eighty-six. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49594,7 +49594,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Frank Seamans served in the Army Security Agency during Korea, then worked for AT&T until 1978 — after which he finally chased a lifelong love of printing and opened his own shop, Leedstamps, in Florence. He gave a great deal back as a veterans’ volunteer, including many hours at the Soldiers’ Home itself. He loved football, tennis, and a good family reunion. He was eighty-nine. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Frank Seamans served in the Army Security Agency during Korea, then worked for AT&T until 1978 — after which he finally chased a lifelong love of printing and opened his own shop, Leedstamps, in Florence. He gave a great deal back as a veterans’ volunteer, including many hours at the Soldiers’ Home itself. He loved football, tennis, and a good family reunion. He was eighty-nine. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49614,7 +49614,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Daniel Szczur served in the Army during the Vietnam era, including thirteen months in Korea, and took particular pride in his time as a rifleman on the burial detail at Fort Lee — the soldier who renders the last honors. Home in the valley he worked as a steel worker, ran with the PV Ridge Runners four-wheel club, and never missed a chance at the races or a round of golf. He was seventy-two. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Daniel Szczur served in the Army during the Vietnam era, including thirteen months in Korea, and took particular pride in his time as a rifleman on the burial detail at Fort Lee — the soldier who renders the last honors. Home in the valley he worked as a steel worker, ran with the PV Ridge Runners four-wheel club, and never missed a chance at the races or a round of golf. He was seventy-two. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49634,7 +49634,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Dennis Thresher grew up in Suffield, Connecticut, and served five years in the Air Force during Korea as a bomber crewman, dropping supplies to the troops and taking his share of enemy fire. He spent thirty-five years at Pratt & Whitney and, with his wife Jean, ran a Dairy Queen. He loved airplanes to the end, along with his newspapers, his card games, and bantering with his favorite nurses. He was ninety. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Dennis Thresher grew up in Suffield, Connecticut, and served five years in the Air Force during Korea as a bomber crewman, dropping supplies to the troops and taking his share of enemy fire. He spent thirty-five years at Pratt & Whitney and, with his wife Jean, ran a Dairy Queen. He loved airplanes to the end, along with his newspapers, his card games, and bantering with his favorite nurses. He was ninety. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49654,7 +49654,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Richard Trask was an Air Force veteran of the Korean War and a Springfield Tech graduate who spent his career as a lineman for New England Telephone. In retirement he loved to travel, and New Orleans was his favorite place to land. He was ninety. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Richard Trask was an Air Force veteran of the Korean War and a Springfield Tech graduate who spent his career as a lineman for New England Telephone. In retirement he loved to travel, and New Orleans was his favorite place to land. He was ninety. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49674,7 +49674,7 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Frank Zauche went to sea in the Second World War and saw a great deal of it — the light cruiser Nashville, which earned four battle stars, and the destroyer escort Steven Potter, which earned ten, all across the South Pacific. Fourteen battle stars between two ships is a war few came through. He was ninety-seven, a member of the American Legion post in East Springfield and a life member of the Navy’s Disabled Veterans of World War II. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to their service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Frank Zauche went to sea in the Second World War and saw a great deal of it — the light cruiser Nashville, which earned four battle stars, and the destroyer escort Steven Potter, which earned ten, all across the South Pacific. Fourteen battle stars between two ships is a war few came through. He was ninety-seven, a member of the American Legion post in East Springfield and a life member of the Navy’s Disabled Veterans of World War II. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
