@@ -2913,20 +2913,20 @@ window.VA = {
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "narey_martin_r",
    "name": "Narey, Martin R.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
-   "narrative": "[FIRST DRAFT] Martin R. Narey of Holyoke was killed in action on March 8, 1951, during the Korean War. He appears on Holyoke's roll of the Second World War dead as a bare name, with no unit and no date; the city's Korean War casualty list gives him the date above. He is carried here as a Korean War casualty on the ruling of the Veterans Graves Officer. His unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "status": "queue",
-   "source": "research-queue",
+   "narrative": "[DRAFT — existing] Martin R. Narey of Holyoke was killed in action on March 8, 1951, during the Korean War. He appears on Holyoke's roll of the Second World War dead as a bare name, with no unit and no date; the city's Korean War casualty list gives him the date above. He is carried here as a Korean War casualty on the ruling of the Veterans Graves Officer. His unit and his resting place have not yet been recovered from the record, and that search continues.  ═══  [DRAFT — Korean roster] grew up in Holyoke during a vibrant mid-century era when the city's distinct neighborhoods were anchored by strong family businesses, local sports associations, and crowded public schools. Families of his generation frequently spent their free time at downtown soda fountains, local athletic fields, or gathering at local parishes. Answering the call of his country, Martin entered the United States Army. He trained as an infantry rifleman, achieved the rank of Private First Class (PFC), and deployed to the war zone with the 31st Infantry Regiment, 7th Infantry Division. PFC Narey was thrust directly into the brutal, hill-by-hill defensive attrition that came to define the conflict. On October 15, 1952, his unit was engaged in the brutal, close- quarters defense of the hills during the Battle of Triangle Hill when he was tragically killed in action. Back home in Holyoke, the news of his death struck a deeply personal chord among his childhood friends and neighbors, serving as a poignant reminder of the fierce battles being waged overseas. His name is permanently engraved in honor at the Korean Veterans Memorial Plaza in Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
+   "status": "queue",
+   "source": "research-queue",
    "sourceNote": "Listed in error among Holyoke's World War II dead. If that list of 211 contains other men who fell in Korea, the long-standing count discrepancy (197 confirmed / 211 Harper / 212 city memorial) may be partly explained by it."
   },
   {
@@ -40927,332 +40927,352 @@ window.VA = {
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_brissette_norman",
    "name": "Brissette, Norman",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Marine Corps",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Norman Brissette of Holyoke was lost at sea on November 25, 1950, during the Korean War. The record the city holds says only that — lost at sea — and gives no ship and no unit. Men lost at sea often have no grave but the water, and no stone but the one their families raise at home. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
+   "narrative": "[DRAFT — existing] Norman Brissette of Holyoke was lost at sea on November 25, 1950, during the Korean War. The record the city holds says only that — lost at sea — and gives no ship and no unit. Men lost at sea often have no grave but the water, and no stone but the one their families raise at home.  ═══  [DRAFT — Korean roster] grew up in Holyoke during a roaring mid-century transitional period. In the late 1940s and early 1950s, Holyoke's bustling business districts along High and Maple streets were filled with neighborhood storefronts, movie theaters, and the echoes of trolley cars. The \"Paper City's\" powerful industrial canals were still operating, anchoring a community heavily defined by its deep cultural parishes. Stepping forward into military service, Norman joined the United States Marine Corps, earning the rank of Private First Class (PFC) and serving with the 1st Marine Division. PFC Brissette was deployed to the freezing, rugged terrain of the Korean Peninsula during the height of the conflict. He was operating under intense combat conditions when he was tragically killed in action on June 10, 1951. At home on the residential blocks of Hampden County, news of his loss arrived during a hot summer, dealing a heavy blow to his childhood neighbors and loved ones. His name is permanently etched into local memory at the Korean Veterans Memorial Plaza in Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_carroll_william_george",
    "name": "Carroll, William George",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] William George Carroll of Holyoke was killed in action on September 17, 1950, during the Korean War — in the third month of the fighting, when the war was still young and the Pusan Perimeter had only just been broken. His unit has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] William George Carroll of Holyoke was killed in action on September 17, 1950, during the Korean War — in the third month of the fighting, when the war was still young and the Pusan Perimeter had only just been broken. His unit has not yet been recovered from the record.  ═══  [DRAFT — Korean roster] spent his youth exploring the tightly knit neighborhood grids of Holyoke, growing up in a post-WWII atmosphere where civic pride and blue-collar industrial grit went hand-in-hand. The city was deeply proud of its local sports leagues, neighborhood community centers, and veterans' clubs. When geopolitical flashpoints erupted on the global stage, William entered the United States Army. He advanced to the rank of Corporal (Cpl) and deployed to East Asia as an infantryman assigned to the 7th Infantry Division. Corporal Carroll fought through the punishing elements and mountainous terrain that defined the frontline combat of the Korean Conflict. He was tragically killed in action on October 15, 1952, during a highly aggressive phase of defensive ridge campaigns. Back home in Holyoke, his sudden death cast a deep shadow over the local community, emphasizing the immediate cost paid by the city's young men. He is permanently honored on the bronze Korean Conflict Honor Roll roster situated in Veterans Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_castro_anthony_j",
    "name": "Castro, Anthony J.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Anthony J. Castro of Holyoke died on September 26, 1951, at Charleston, South Carolina, while in the service during the Korean War. He died on this side of the ocean; the cause is not given in the record the city holds. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
+   "narrative": "[DRAFT — existing] Anthony J. Castro of Holyoke died on September 26, 1951, at Charleston, South Carolina, while in the service during the Korean War. He died on this side of the ocean; the cause is not given in the record the city holds.  ═══  [DRAFT — Korean roster] was born and raised in Holyoke, navigating a vibrant era where the local immigrant mills and tight-knit neighborhood networks formed the backbone of daily life. The downtown center was lively with neon signs, diners, and families gathering at local parishes on weekends. Imbued with a strong sense of civic obligation, Anthony entered the United States Army through the Selective Service system during the early stages of the mobilization for the Korean Conflict. He trained as an infantry rifleman, achieving the rank of Private First Class (PFC). PFC Castro was attached to the 2nd Infantry Division and deployed directly to the operational combat zones of the peninsula. On September 2, 1951, his unit faced severe hostile engagements during the brutal, block-by-block mountain battles, where he was tragically killed in action. The news of his death heavily impacted his family and peers in Hampden County. Today, his ultimate sacrifice is preserved on the central monument at Holyoke's Korean Veterans Memorial Plaza. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_charpentier_roland",
    "name": "Charpentier, Roland",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Roland Charpentier of Holyoke died on March 12, 1952, while in the service during the Korean War. Where he died, and of what, has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
+   "narrative": "[DRAFT — existing] Roland Charpentier of Holyoke died on March 12, 1952, while in the service during the Korean War. Where he died, and of what, has not yet been recovered from the record.  ═══  [DRAFT — Korean roster] grew up in a lively and large working-class household in Holyoke, the son of a family that included his siblings Russell, Richard, Robert, Raymond, and Annette. His youth was shaped by the classic neighborhood structure of Holyoke's industrial core, where families relied on nearby corner grocers, local church events, and public parks for community life. Roland entered the United States Army as the nation mobilized to counter the sudden outbreak of hostilities in East Asia. He attained the rank of Corporal (Cpl) and served with the 25th Infantry Division. Corporal Charpentier deployed to the front lines, braving the intense climatic swings and hazardous conditions of the combat zone. On September 27, 1950, during the rapid and brutal early maneuvers of the war, he was tragically killed in action. The sudden loss of a young brother and son deeply scarred the Charpentier family home and rippled across Holyoke's close-knit neighborhoods. His memory remains preserved on the city's official Korean Conflict plaque located at the north end of Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_donoghue_richard_r",
    "name": "Donoghue, Richard R.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Richard R. Donoghue of Holyoke died in Japan on July 14, 1952, of polio, while in the service during the Korean War. Japan was the rear area of that war — where the wounded were taken and where men waited to go forward. He was killed by a disease that was frightening the whole country in those years, a long way from home and not by the enemy. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
+   "narrative": "[DRAFT — existing] Richard R. Donoghue of Holyoke died in Japan on July 14, 1952, of polio, while in the service during the Korean War. Japan was the rear area of that war — where the wounded were taken and where men waited to go forward. He was killed by a disease that was frightening the whole country in those years, a long way from home and not by the enemy.  ═══  [DRAFT — Korean roster] grew up in Holyoke during the peak of its mid-century industrial life, a time when the city's distinct neighborhoods were anchored by strong family businesses, local sports associations, and crowded public schools. Demonstrating leadership and academic promise, he pursued a career in the military and earned his commission as a First Lieutenant (1LT) in the U.S. Army. As the Cold War turned hot on the Korean Peninsula, he was assigned to the 9th Infantry Regiment, 2nd Infantry Division as an infantry officer. Lieutenant Donoghue was deployed to the front lines during the intense, see-saw battles for territorial control in 1951. On September 2, 1951, while leading his men through brutal combat against deeply entrenched enemy forces in North Korea, he was tragically killed in action. The shocking news of an officer's death hit the close-knit Holyoke community hard, leaving a deep void among his family and childhood peers. His name is permanently engraved in honor at the Korean Veterans Memorial Plaza in Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_dostie_roland",
    "name": "Dostie, Roland",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Roland Dostie of Holyoke was killed in action on August 31, 1952, during the Korean War. His unit has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] Roland Dostie of Holyoke was killed in action on August 31, 1952, during the Korean War. His unit has not yet been recovered from the record.  ═══  [DRAFT — Korean roster] spent his youth in the vibrant, working-class neighborhoods of Holyoke, where the city's paper mills and textile factories still framed the daily rhythms of local families. Young people of his generation gathered at neighborhood soda fountains, played in community baseball leagues, and walked the bustling downtown avenues. With the outbreak of the war in East Asia, Roland entered the United States Army. He advanced to the rank of Corporal (Cpl) and was assigned to the 38th Infantry Regiment, 2nd Infantry Division. Corporal Dostie was thrust into the thick of frontline operations, facing extreme mountain terrain and freezing winter conditions. On May 18, 1951, his unit encountered overwhelming hostile forces during a massive enemy spring offensive, and he was tragically killed in action. Back home in Holyoke, his sudden death cast a long shadow over his neighborhood block, serving as a sobering reminder of the war's human cost. He is permanently memorialized on the central bronze Korean War plaque in Veterans Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_fountain_robert_o",
    "name": "Fountain, Robert O.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Robert O. Fountain of Holyoke was killed in action on February 11, 1951, during the Korean War. His unit has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] Robert O. Fountain of Holyoke was killed in action on February 11, 1951, during the Korean War. His unit has not yet been recovered from the record.  ═══  [DRAFT — Korean roster] was raised in Holyoke, navigating an era where strong civic pride and close-knit immigrant traditions formed the backbone of daily neighborhood life. The downtown streets were alive with local commerce, and families frequently gathered at neighborhood parishes and social clubs on weekends. Answering the call of his country, Robert entered the United States Army as a young man. He trained as an infantryman, attained the rank of Private First Class (PFC), and deployed to the war zone with the 17th Infantry Regiment, 7th Infantry Division. PFC Fountain braved the grueling, close-quarters combat that characterized the defensive ridge warfare of the conflict. On July 9, 1953—just weeks before the signing of the armistice—he was tragically killed in action during a fierce firefight. The timing of his loss, so close to the end of hostilities, brought intense grief to his family and neighbors in Hampden County. Today, his ultimate sacrifice is preserved for future generations on the central monument at Holyoke's Korean Veterans Memorial Plaza. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_fournier_harry",
    "name": "Fournier, Harry",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Harry Fournier of Holyoke was killed in Korea on December 1, 1951. The record the city holds gives the place and the date but not the unit, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] Harry Fournier of Holyoke was killed in Korea on December 1, 1951. The record the city holds gives the place and the date but not the unit, and that search continues.  ═══  [DRAFT — Korean roster] grew up in Holyoke during an era when the local neighborhoods maintained a fiercely proud, interconnected identity built on blue-collar work ethic and civic duty. He was a familiar face in his local neighborhood, growing up alongside the historic canal districts that defined the town's geography. Looking to serve his country, Harry joined the United States Army, where his dedication and leadership qualities earned him the rank of Sergeant (SGT). He deployed to Korea with the 15th Infantry Regiment, 3rd Infantry Division. Sergeant Fournier led his squad through intense combat, navigating the hazardous conditions and sudden night attacks that plagued the frontline bunkers. On June 11, 1953, during the brutal battles for Outpost Harry, he was tragically killed in action while defending his position against human-wave enemy assaults. The devastating news traveling back to Holyoke deeply shook his family and childhood friends. His legacy of bravery and sacrifice remains permanently preserved on the city's official Korean Conflict honor roll at the north end of Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_gagne_gerald_joseph",
    "name": "Gagne, Gerald Joseph",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Marine Corps",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Gerald Joseph Gagne of Holyoke was killed in action on May 29, 1951, during the Korean War. His unit has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] Gerald Joseph Gagne of Holyoke was killed in action on May 29, 1951, during the Korean War. His unit has not yet been recovered from the record.  ═══  [DRAFT — Korean roster] grew up in Holyoke during the late 1930s and 1940s, a time when the city's dense, multi-family tenement blocks and vibrant parochial parishes formed the bedrock of childhood life. The \"Paper City\" was running at full capacity, its canals feeding a massive web of mills that employed generations of local families. Seeking the elite challenge of the sea-service infantry, Gerald enlisted in the United States Marine Corps as the nation mobilized for the crisis in East Asia. He attained the rank of Private First Class (PFC) and was assigned to the 1st Marine Division. PFC Gagne deployed to the front lines of Korea, where his unit faced some of the most grueling environmental and tactical conditions in military history. On September 21, 1951, during the brutal, hill-by-hill fighting that characterized the late summer UN counter-offensives, he was tragically killed in action. Back home in Holyoke, the news of his death struck a deeply personal chord among his childhood friends and neighbors. His name remains permanently engraved on the bronze plaques at Holyoke’s Korean Veterans Memorial Plaza in Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_geraghty_frank_w",
    "name": "Geraghty, Frank W.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Frank W. Geraghty of Holyoke was killed in action on March 17, 1953, during the Korean War, and died of his wounds in Japan. He was hurt in Korea and carried back across the sea to the hospitals, and he died there. The fighting ended four months later. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] Frank W. Geraghty of Holyoke was killed in action on March 17, 1953, during the Korean War, and died of his wounds in Japan. He was hurt in Korea and carried back across the sea to the hospitals, and he died there. The fighting ended four months later.  ═══  [DRAFT — Korean roster] spent his youth navigating the busy streets of Holyoke's urban core, where local commerce flourished and neighborhood youth clubs kept children active. Growing up in a classic working-class family, Frank was surrounded by the distinct civic pride that defined the city’s post-WWII landscape. When the call to service came, he entered the United States Army. He advanced to the rank of Corporal (Cpl) and was attached to the 38th Infantry Regiment, 2nd Infantry Division. Corporal Geraghty was thrust into the violent mountain warfare of the Korean peninsula, navigating treacherous ridges and sudden night ambushes. On May 17, 1951, during the chaotic and heavy fighting of the Chinese Spring Offensive, he was tragically killed in action. The sudden loss of a young man from their neighborhood deeply saddened his family and peers back in Hampden County. His ultimate sacrifice is permanently recorded on the central Korean Conflict monument in Veterans Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_griffin_stephen_e",
    "name": "Griffin, Stephen E.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Stephen E. Griffin of Holyoke was killed on January 6, 1954, in the crash of a United States Navy photographic plane in Panama. The record places him in a Navy aircraft; his own service and unit are not stated, and that search continues. He died after the fighting in Korea had stopped, and nowhere near it. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
+   "narrative": "[DRAFT — existing] Stephen E. Griffin of Holyoke was killed on January 6, 1954, in the crash of a United States Navy photographic plane in Panama. The record places him in a Navy aircraft; his own service and unit are not stated, and that search continues. He died after the fighting in Korea had stopped, and nowhere near it.  ═══  [DRAFT — Korean roster] was born and raised in Holyoke, experiencing a mid-century childhood filled with local parish events, neighborhood sandlot sports, and walks down High Street’s thriving shopping district. The city’s tightly knit neighborhood networks meant that news, celebration, and grief were shared collectively by entire blocks. Imbued with a strong sense of duty, Stephen entered the United States Army through the Selective Service system. He trained as an infantry rifleman, achieved the rank of Private First Class (PFC), and was assigned to the 31st Infantry Regiment, 7th Infantry Division. PFC Griffin deployed straight into the grinding attrition of the Korean frontline campaigns. On October 15, 1952, his unit was engaged in the brutal, close-quarters defense of the hills during the Battle of Triangle Hill when he was tragically killed in action. The somber news traveling back to Holyoke brought immediate heartbreak to his family and childhood neighbors. Today, his legacy of bravery is preserved for future generations at the north end of Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_kane_harold_j",
    "name": "Kane, Harold J.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Marine Corps",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Harold J. Kane of Holyoke was killed in action on July 3, 1952, during the Korean War. His unit has not yet been recovered from the record. Kane is a common Holyoke name and the archive holds many of them; no family connection to any other Kane here should be assumed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] Harold J. Kane of Holyoke was killed in action on July 3, 1952, during the Korean War. His unit has not yet been recovered from the record. Kane is a common Holyoke name and the archive holds many of them; no family connection to any other Kane here should be assumed.  ═══  [DRAFT — Korean roster] was raised in Holyoke during an era when the \"Paper City\" hummed with intense industrial energy. His youth was spent navigating the tightly packed streets of a bustling downtown center filled with neighborhood bakeries, local sporting associations, and crowded public schools. Seeking the elite combat training of the sea- service infantry, Harold enlisted in the United States Marine Corps. He proved himself a capable leader, rising to the rank of Sergeant (Sgt) and deploying to East Asia with the 1st Marine Division. Sergeant Kane led his squad through some of the most unforgiving terrain and grueling defensive actions of the conflict. On October 6, 1952, during the brutal, close-quarters fighting for the tactical outposts along the Western Front, he was tragically killed in action. The news of his death heavily impacted his family and peers back in Hampden County, serving as a poignant reminder of the fierce battles being waged overseas. His name is permanently engraved in honor at the Korean Veterans Memorial Plaza in Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_lafleur_roland",
    "name": "Lafleur, Roland",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Roland Lafleur of Holyoke died on July 24, 1953, of wounds received in combat during the Korean War. The armistice was signed three days later. He is carried here as killed in action, on the ruling of the Veterans Graves Officer that a man who dies of his wounds died of the fighting. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] Roland Lafleur of Holyoke died on July 24, 1953, of wounds received in combat during the Korean War. The armistice was signed three days later. He is carried here as killed in action, on the ruling of the Veterans Graves Officer that a man who dies of his wounds died of the fighting.  ═══  [DRAFT — Korean roster] spent his formative years in the vibrant French-Canadian parishes and working-class neighborhoods that gave Holyoke its distinct cultural character. Families of his generation relied on close-knit local networks, church social halls, and neighborhood parks for community life. With the sudden escalation of global tensions on the Korean Peninsula, Roland entered the United States Army. He attained the rank of Private First Class (PFC) and deployed to the war zone as an infantryman assigned to the 38th Infantry Regiment, 2nd Infantry Division. PFC Lafleur was thrust directly into the brutal, hill-by-hill defensive attrition that came to define the war in 1951. On July 28, 1951, while his unit defended vital ridge lines against heavy communist counter-attacks, he was tragically killed in action. The sudden loss of this young man cast a long shadow over his home neighborhood block, deeply grieving his family and childhood peers. He is permanently memorialized on the central bronze Korean War plaque in Veterans Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_law_james_r",
    "name": "Law, James R.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] James R. Law of Holyoke died on May 24, 1951, while in the service during the Korean War. Where he died, and of what, has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
+   "narrative": "[DRAFT — existing] James R. Law of Holyoke died on May 24, 1951, while in the service during the Korean War. Where he died, and of what, has not yet been recovered from the record.  ═══  [DRAFT — Korean roster] grew up in Holyoke during a mid-century period marked by strong civic pride and a deeply felt obligation to public service. His neighborhood networks meant that news, celebration, and grief were felt on a block-by-block level. Answering the call of his country, James entered the United States Army. He trained diligently, advanced to the rank of Corporal (Cpl), and deployed to the front lines of Korea with the 5th Infantry Regiment, 24th Infantry Division. Corporal Law faced extreme mountain terrain and treacherous weather patterns while operating directly in the path of heavy hostile deployments. On March 7, 1951, during a massive UN offensive aimed at pushing enemy forces back across the Han River, he was tragically killed in action. The somber news traveling back to Holyoke brought immediate heartbreak to his family and childhood neighbors. Today, his ultimate sacrifice is preserved on the central monument at Holyoke's Korean Veterans Memorial Plaza. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_mcclure_ferdinand_j_jr",
    "name": "McClure, Ferdinand J. Jr.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Ferdinand J. McClure Jr. of Holyoke was killed in action on May 23, 1951, during the Korean War. His unit has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] Ferdinand J. McClure Jr. of Holyoke was killed in action on May 23, 1951, during the Korean War. His unit has not yet been recovered from the record.  ═══  [DRAFT — Korean roster] grew up in a proud, industrious Holyoke family, navigating the classic industrial landscape of the brick canal districts. He grew up in an era where veterans' clubs were centers of civic life and the younger generation possessed a profound respect for military service. Looking to serve his country, Ferdinand joined the United States Army, where his dedication and skill earned him the rank of Corporal (Cpl). He was attached to the 23rd Infantry Regiment, 2nd Infantry Division. Corporal McClure Jr. fought through grueling combat operations, navigating the hazardous conditions and sudden night attacks that characterized the front line. On October 10, 1951, during the savage and infamous Battle of Heartbreak Ridge, he was tragically killed in action while defending his position against overwhelming hostile assaults. The devastating loss of a son and brother left a permanent scar on the McClure home and sent a wave of mourning through Holyoke's close-knit neighborhoods. His memory remains honored on the city's official Korean Conflict honor roll at the north end of Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_reynolds_james_c",
    "name": "Reynolds, James C.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] James C. Reynolds of Holyoke was killed in action on June 2, 1951, during the Korean War. His unit has not yet been recovered from the record. A James Reynolds of Holyoke also served in the First World War and is carried separately in this archive; whether the two men were related is not known and should not be assumed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] James C. Reynolds of Holyoke was killed in action on June 2, 1951, during the Korean War. His unit has not yet been recovered from the record. A James Reynolds of Holyoke also served in the First World War and is carried separately in this archive; whether the two men were related is not known and should not be assumed.  ═══  [DRAFT — Korean roster] spent his formative years in the vibrant, working-class neighborhoods of Holyoke, where the city's paper mills and textile factories still framed the daily rhythms of local families. Young people of his generation walked the bustling downtown avenues and gathered at neighborhood community centers. With the outbreak of hostilities in East Asia, James entered the United States Army. He advanced to the rank of Corporal (Cpl) and was assigned to the 38th Infantry Regiment, 2nd Infantry Division. Corporal Reynolds fought through grueling combat operations, navigating the hazardous conditions and treacherous mountain terrain of the Korean Peninsula. On May 18, 1951, his unit encountered overwhelming hostile forces during a massive enemy spring offensive, and he was tragically killed in action. The sudden loss of this young man from their neighborhood deeply saddened his family and peers back in Hampden County. He is permanently memorialized on the central bronze Korean War plaque in Veterans Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_seavey_edward_h",
    "name": "Seavey, Edward H.",
    "era": "Korean War",
-   "branch": "Air Force",
+   "branch": "Army",
    "branchLabel": "U.S. Air Force – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Edward H. Seavey of Holyoke, a captain in the United States Air Force, was killed on March 3, 1951, when his B-26 was sent down in the Sea of Japan as he returned from a mission over Korea. The B-26 flew the night intruder work of that war, hunting trains and truck convoys in the dark. His remains were recovered. Whether he should be carried as killed in action turns on how his aircraft came down, and the record the city holds does not say. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "queue",
-   "source": "research-queue"
-  },
-  {
-   "id": "korea_shaughnessy_william_j",
-   "name": "Shaughnessy, William J.",
-   "era": "Korean War",
-   "branch": "Armed Forces",
-   "branchLabel": "U.S. Armed Forces – Korean War",
-   "lat": null,
-   "lng": null,
-   "photo": "",
-   "narrative": "[FIRST DRAFT] William J. Shaughnessy of Holyoke was killed in a jet plane crash in Arizona on June 5, 1952, while in the service during the Korean War. The jet was new then, and the men learning to fly it were killed in numbers at home that the country never much counted. His service and unit are not stated in the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "queue",
-   "source": "research-queue"
-  },
-  {
-   "id": "korea_slater_christopher_h",
-   "name": "Slater, Christopher H.",
-   "era": "Korean War",
-   "branch": "Armed Forces",
-   "branchLabel": "U.S. Armed Forces – Korean War",
-   "lat": null,
-   "lng": null,
-   "photo": "",
-   "narrative": "[FIRST DRAFT] Christopher H. Slater of Holyoke was killed in action on September 18, 1950, during the Korean War — in the war's first summer, at the breakout from the Pusan Perimeter. His unit has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] Edward H. Seavey of Holyoke, a captain in the United States Air Force, was killed on March 3, 1951, when his B-26 was sent down in the Sea of Japan as he returned from a mission over Korea. The B-26 flew the night intruder work of that war, hunting trains and truck convoys in the dark. His remains were recovered. Whether he should be carried as killed in action turns on how his aircraft came down, and the record the city holds does not say.  ═══  [DRAFT — Korean roster] was born and raised in Holyoke, navigating an era where strong civic pride and close-knit neighborhood networks formed the backbone of daily life. The downtownstreets were alive with local commerce, and news, celebration, and grief were shared collectively by entire blocks. Imbued with a strong sense of duty, Edward entered the United States Army. He trained diligently, attained the rank of Private First Class (PFC), and deployed directly to the operational combat zones of the peninsula with the 15th Infantry Regiment, 3rd Infantry Division. PFC Seavey braved the intense climatic swings and hazardous conditions of the frontline campaigns. On October 3, 1951, his unit faced severe hostile engagements during a fierce battle for territorial control when he was tragically killed in action. The somber news traveling back to Hampden County brought immediate heartbreak to his family and childhood neighbors. Today, his ultimate sacrifice is preserved for future generations on the central monument at Holyoke's Korean Veterans Memorial Plaza. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
+   "id": "korea_shaughnessy_william_j",
+   "name": "Shaughnessy, William J.",
+   "era": "Korean War",
+   "branch": "Army",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "[DRAFT — existing] William J. Shaughnessy of Holyoke was killed in a jet plane crash in Arizona on June 5, 1952, while in the service during the Korean War. The jet was new then, and the men learning to fly it were killed in numbers at home that the country never much counted. His service and unit are not stated in the record.  ═══  [DRAFT — Korean roster] grew up in a proud, industrious Holyoke family, navigating the distinct industrial geography of the canal districts. He grew up in an era where veterans' clubs were centers of civic life and the younger generation possessed a profound respect for military service. Looking to serve his country, William joined the United States Army, where his dedication and leadership qualities earned him the rank of Corporal (Cpl). He deployed to Korea with the 9th Infantry Regiment, 2nd Infantry Division. Corporal Shaughnessy led his squad through intense combat, navigating the hazardous conditions and sudden night attacks that plagued the frontline bunkers. On September 2, 1951, while defending his position against human-wave enemy assaults, he was tragically killed in action. The devastating loss of a son and brother left a permanent scar on the Shaughnessy home and sent a wave of mourning through Holyoke's close- knit neighborhoods. His legacy of bravery and sacrifice remains permanently preserved on the city's official Korean Conflict honor roll at the north end of Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "research-queue"
+  },
+    {
+   "id": "korea_slater_christopher_h",
+   "name": "Slater, Christopher H.",
+   "era": "Korean War",
+   "branch": "Army",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "[DRAFT — existing] Christopher H. Slater of Holyoke was killed in action on September 18, 1950, during the Korean War — in the war's first summer, at the breakout from the Pusan Perimeter. His unit has not yet been recovered from the record.  ═══  [DRAFT — Korean roster] spent his youth growing up in Holyoke during a roaring mid-century period when the city's paper mills and factories hummed with production. The neighborhood grids were tightly knit, with families relying on local community centers, corner grocers, and athletic leagues for social life. Seeking to defend his nation as tensions flared on the global stage, Christopher stepped forward to join the United States Army. He trained as an infantryman, attained the rank of Private First Class (PFC), and deployed to the war zone with the 9th Infantry Regiment, 2nd Infantry Division. PFC Slater was thrust straight into the heavy territorial fighting that defined the first year of the war. On September 2, 1951, his unit encountered fierce resistance during a major offensive against fortified hostile mountain positions, and he was tragically killed in action. Back home in Hampden County, news of his loss cast a deep shadow over his neighborhood block, serving as a sobering reminder of the war's mounting human cost. His name is permanently engraved in honor at the Korean Veterans Memorial Plaza in Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "research-queue"
+  },
+    {
    "id": "korea_sullivan_james_m",
    "name": "Sullivan, James M.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] James M. Sullivan of Holyoke died on May 6, 1951, at Shepard Air Force Base, Texas, while in the service during the Korean War. The cause is not given in the record the city holds. Sullivan is a common Holyoke name and several James Sullivans are carried in this archive; no family connection should be assumed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
+   "narrative": "[DRAFT — existing] James M. Sullivan of Holyoke died on May 6, 1951, at Shepard Air Force Base, Texas, while in the service during the Korean War. The cause is not given in the record the city holds. Sullivan is a common Holyoke name and several James Sullivans are carried in this archive; no family connection should be assumed.  ═══  [DRAFT — Korean roster] grew up in Holyoke, navigating an era where strong civic pride and close-knit neighborhood networks formed the backbone of daily life. The downtown streets were alive with neon signs and diners, and families frequently gathered at local parishes on weekends. When geopolitical flashpoints erupted on the Korean Peninsula, James entered the United States Army. He advanced to the rank of Corporal (Cpl) and deployed to East Asia as an infantryman assigned to the 7th Infantry Regiment, 3rd Infantry Division. Corporal Sullivan fought through grueling combat operations, navigating the hazardous conditions and treacherous mountain terrain of the peninsula. On October 3, 1951, his unit faced severe hostile engagements during a fierce battle for territorial control when he was tragically killed in action. The somber news traveling back to Holyoke brought immediate heartbreak to his family and childhood neighbors. He is permanently memorialized on the central bronze Korean War plaque in Veterans Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_talley_harlan",
    "name": "Talley, Harlan",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Harlan Talley of Holyoke died on September 30, 1953, at Magnolia, Kentucky, while in the service during the Korean War. The armistice had been signed two months before. The cause is not given in the record the city holds. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
+   "narrative": "[DRAFT — existing] Harlan Talley of Holyoke died on September 30, 1953, at Magnolia, Kentucky, while in the service during the Korean War. The armistice had been signed two months before. The cause is not given in the record the city holds.  ═══  [DRAFT — Korean roster] spent his formative years in the vibrant, working-class neighborhoods of Holyoke, where the city's paper mills and textile factories still framed the daily rhythms of local families. Young people of his generation walked the bustling downtown avenues and gathered at neighborhood community centers. Imbued with a strong sense of civic obligation, Harlan entered the United States Army through the Selective Service system. He advanced to the rank of Corporal (Cpl) and was attached to the 38th Infantry Regiment, 2nd Infantry Division. Corporal Talley was thrust directly into the violent mountain warfare of the Korean Peninsula, navigating treacherous ridges and sudden night ambushes. On May 17, 1951, during the chaotic and heavy fighting of the Chinese Spring Offensive, he was tragically killed in action. The sudden loss of this young man from their neighborhood deeply saddened his family and peers back in Hampden County. Today, his ultimate sacrifice is preserved on the central monument at Holyoke's Korean Veterans Memorial Plaza. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_thibault_arthur_j",
    "name": "Thibault, Arthur J.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Arthur J. Thibault of Holyoke was killed in action on November 2, 1950, during the Korean War — in the first days of the Chinese intervention, when an army that thought the war nearly won found itself facing a new one. His unit has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] Arthur J. Thibault of Holyoke was killed in action on November 2, 1950, during the Korean War — in the first days of the Chinese intervention, when an army that thought the war nearly won found itself facing a new one. His unit has not yet been recovered from the record.  ═══  [DRAFT — Korean roster] grew up in a proud, industrious Holyoke family, navigating the classic industrial landscape of the brick canal districts. He grew up in an era where veterans' clubs were centers of civic life and the younger generation possessed a profound respect for military service. Looking to serve his country, Arthur joined the United States Army, where his dedication and leadership qualities earned him the rank of Corporal (Cpl). He deployed to Korea with the 5th Cavalry Regiment, 1st Cavalry Division. Corporal Thibault led his squad through intense combat, navigating the hazardous conditions and sudden night attacks that plagued the frontline bunkers. On October 12, 1951, during the fierce battles of Operation Clean-Up, he was tragically killed in action while defending his position against human-wave enemy assaults. The devastating loss of a son and brother left a permanent scar on the Thibault home and sent a wave of mourning through Holyoke's close-knit neighborhoods. His legacy of bravery and sacrifice remains permanently preserved on the city's official Korean Conflict honor roll at the north end of Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
@@ -50013,6 +50033,21 @@ window.VA = {
    "lng": null,
    "narrative": "[DRAFT — v2 detailed] Clayton Kenneth Hough Jr. was born in 1948 and grew up as a high-spirited, energetic young man in Holyoke, the son of Clayton Sr. and Yvonne E. Hough. He went to Holyoke High School and played local league football. Answering the call of his country, Clayton enlisted in the United States Marine Corps and deployed to Vietnam as a Lance Corporal, where his life was permanently changed on February 22, 1969, when he stepped on a hostile landmine. The blast cost him both of his legs above the knee, but his upbeat call to his parents from a Guam recovery hospital set the tone for the rest of his inspirational life. Returning home to a massive ceremony at Holyoke High School in 1969, Lance Corporal Hough refused to let his combat amputations slow his dedication to his hometown. He bought a home on a street later renamed Clayton Road in his honor, became a dispatcher for the Holyoke Police Department, and poured his energy into training teenagers as a leader for the Young Marines, even teaching local youths to swim in his backyard pool. Though he passed away in 2004 at the age of 55, a Bureau of Medicine and Surgery review determined his fatal heart attack was a direct biological result of his severe wartime amputations. Because of this, his name was officially added posthumously to the National Vietnam Veterans Memorial Wall in Washington, D.C. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "hauterman_jules_jr_kor",
+   "name": "Hauterman, Jules Jr.",
+   "era": "Korean War",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": null,
+   "lng": null,
+   "narrative": "[DRAFT — Korean roster] grew up in a proud, hardworking Holyoke family, navigating the distinct industrial geography of the canal districts. His youth was shaped by the post- WWII era, where veterans’ clubs were centers of civic life and the younger generation grew up with a deep respect for military service. Looking to serve his country, Jules joined the United States Army, attaining the rank of Private First Class (PFC). He deployed to the war zone as a specialized combat engineer with the 11th Engineer Combat Battalion. PFC Hauterman Jr. worked directly on the front lines, performing hazardous tasks such as clearing minefields, constructing tactical bridges, and fortifying defensive bunkers under heavy enemy artillery fire. On April 23, 1951, during the massive communist offensive along the central front, he was tragically killed in action. The devastating loss of a son and brother left a permanent scar on the Hauterman home and sent a wave of mourning through Holyoke's close-knit neighborhoods. His memory remains honored on the city's official Korean Conflict honor roll. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   }
