@@ -159,19 +159,21 @@ function openPopup(v, idx) {
   document.getElementById('pname').textContent = titleName(v.name);
   document.getElementById('pservice').textContent = serviceLine(v);
   const storyEl = document.getElementById('pstory');
-  storyEl.textContent = queued ? QUEUE_TEXT : v.narrative;
+  let story = queued ? QUEUE_TEXT : (v.narrative || '');
+  if (!queued && story && !story.includes('Veterans Graves Officer at (413) 322-5630')) {
+    story += ' ' + CONTACT_CLOSE;                 // the close is ALWAYS part of the narrative
+  }
+  storyEl.textContent = story;
   storyEl.classList.toggle('queued', queued);
 
   const srcEl = document.getElementById('psrc');
   srcEl.textContent = v.sourceNote || '';
   srcEl.style.display = v.sourceNote ? 'block' : 'none';
+  if (v.sourceNote) storyEl.after(srcEl);          // credits render separately, smaller, BELOW the narrative
 
   const conEl = document.getElementById('pcontact');
-  const narrHasClose = (v.narrative || '').includes('Veterans Graves Officer at (413) 322-5630');
-  const showContact = !!v.sourceNote && !narrHasClose;  // don't re-render the close if the narrative already carries it
-  conEl.textContent = showContact ? CONTACT_CLOSE : '';
-  conEl.style.display = showContact ? 'block' : 'none';
-  if (showContact) conEl.after(srcEl);            // footnote/credit renders BELOW the close
+  conEl.textContent = '';
+  conEl.style.display = 'none';                     // never render a standalone close
 
   const photo = document.getElementById('pphoto');
   const ph = document.getElementById('pphoto-ph');
