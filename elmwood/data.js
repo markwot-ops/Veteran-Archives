@@ -666,7 +666,7 @@ window.VA = {
    "status": "located",
    "source": "elmwood-migrate"
   },
-  {
+    {
    "id": "harper_rev_ball_charles",
    "name": "Ball, Charles",
    "era": "Revolutionary War",
@@ -675,14 +675,14 @@ window.VA = {
    "lat": 42.187317,
    "lng": -72.6293,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Charles Ball of Holyoke served as a sergeant in the Revolutionary War. His people had been on this ground since about 1707, when his forebears Francis and Captain Eli Ball took up lots in the general area of what are now Northampton and Cherry Streets; the corner where the family lived was called Ball's Corner for many years afterward. A Ball planted the elm there in 1751 that was marked on maps of the day long after. In the early years, when raids were still feared, six families — the Balls, Chapins, Days, Elys, Millers and Morgans — would fort together at night for safety. Nearly every one of those names now lies within a few rows of him. He married Merab Miller, and died on July 3, 1838. Sarah Rusk's record of Revolutionary patriots gives his rank; his company and regiment have not yet been recovered, and that search continues. A 1929 survey of the burial ground placed his marble stone in the eighteenth row from the South Drive, marker 16. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Charles Ball of Holyoke served as a sergeant in the Revolutionary War. His people had been on this ground since about 1707, when his forebears Francis and Captain Eli Ball took up lots in the general area of what are now Northampton and Cherry Streets; the corner where the family lived was called Ball's Corner for many years afterward. A Ball planted the elm there in 1751 that was marked on maps of the day long after. In the early years, when raids were still feared, six families — the Balls, Chapins, Days, Elys, Millers and Morgans — would fort together at night for safety. Nearly every one of those names now lies within a few rows of him. He married Merab Miller, and died on July 3, 1838. Sarah Rusk's record of Revolutionary patriots gives his rank; his company and regiment have not yet been recovered, and that search continues. A 1929 survey of the burial ground placed his marble stone in the eighteenth row from the South Drive, marker 16. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave.",
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
    "source": "harper-revolutionary-graves",
    "geo": "provisional"
   },
-  {
+    {
    "id": "harper_rev_chapin_asahel",
    "name": "Chapin, Asahel",
    "era": "Revolutionary War",
@@ -691,14 +691,14 @@ window.VA = {
    "lat": 42.187311,
    "lng": -72.629258,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Asahel Chapin was born in Wilbraham, a son of Stephen and Zebia Ely Chapin, and farmed in what is now Holyoke. When the alarm from Lexington reached the valley on April 19, 1775, he marched with Captain Enoch Chapin's company of Minutemen — eight days, and among the first men of this place to go. He went again in September 1777, in Captain Joseph Morgan's company of Colonel John Moseley's regiment: enlisted the 21st, discharged October 17, one month and three days including travel, on the expedition to the northern department. He married Sarah Frink in 1777. A son of his became the first pastor of the Second Baptist Church when it was formed in 1849 — twenty-one years after his father was in the ground. He died January 29, 1828. A 1929 survey placed his marble stone in the twelfth row from the South Drive, marker 6. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Asahel Chapin was born in Wilbraham, a son of Stephen and Zebia Ely Chapin, and farmed in what is now Holyoke. When the alarm from Lexington reached the valley on April 19, 1775, he marched with Captain Enoch Chapin's company of Minutemen — eight days, and among the first men of this place to go. He went again in September 1777, in Captain Joseph Morgan's company of Colonel John Moseley's regiment: enlisted the 21st, discharged October 17, one month and three days including travel, on the expedition to the northern department. He married Sarah Frink in 1777. A son of his became the first pastor of the Second Baptist Church when it was formed in 1849 — twenty-one years after his father was in the ground. He died January 29, 1828. A 1929 survey placed his marble stone in the twelfth row from the South Drive, marker 6. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave.",
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
    "source": "harper-revolutionary-graves",
    "geo": "provisional"
   },
-  {
+    {
    "id": "harper_rev_day_jedediah",
    "name": "Day, Jedediah",
    "era": "Revolutionary War",
@@ -707,14 +707,14 @@ window.VA = {
    "lat": 42.187294,
    "lng": -72.629222,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Jedediah Day, a son of Joel and Eunice Day, enlisted April 28, 1775 in Captain Enoch Chapin's company of Colonel Timothy Danielson's regiment and served three months and ten days. He was on the expedition to Ticonderoga from January 18 to April 3, 1777 — seventy-four days, through the worst of the winter. He served again under Captain Caleb Keep in Colonel William Shepard's regiment in 1778, and again from January to May of 1780. He came home; two of his brothers did not. He lived on the river bank where goods bound upriver for Ireland Parish were landed — when the water was low and the big ships could go no further, they unloaded there, and the farmers were called out with oxen, or horses in the winter, to cart the goods on to Northampton. In 1803 he was one of the men who met at Caleb Humeston's house on what is now Homestead Avenue to form the First Baptist Church. He died December 26, 1839. A 1929 survey placed his marble stone in the eleventh row from the South Drive, marker 4. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Jedediah Day, a son of Joel and Eunice Day, enlisted April 28, 1775 in Captain Enoch Chapin's company of Colonel Timothy Danielson's regiment and served three months and ten days. He was on the expedition to Ticonderoga from January 18 to April 3, 1777 — seventy-four days, through the worst of the winter. He served again under Captain Caleb Keep in Colonel William Shepard's regiment in 1778, and again from January to May of 1780. He came home; two of his brothers did not. He lived on the river bank where goods bound upriver for Ireland Parish were landed — when the water was low and the big ships could go no further, they unloaded there, and the farmers were called out with oxen, or horses in the winter, to cart the goods on to Northampton. In 1803 he was one of the men who met at Caleb Humeston's house on what is now Homestead Avenue to form the First Baptist Church. He died December 26, 1839. A 1929 survey placed his marble stone in the eleventh row from the South Drive, marker 4. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave.",
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
    "source": "harper-revolutionary-graves",
    "geo": "provisional"
   },
-  {
+    {
    "id": "harper_rev_day_joel",
    "name": "Day, Joel",
    "era": "Revolutionary War",
@@ -723,14 +723,14 @@ window.VA = {
    "lat": 42.187268,
    "lng": -72.629198,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Joel Day, son of John Day and Abigail Bagg of West Springfield, marched on April 20, 1775 with Captain Enoch Chapin's company of Minutemen in response to the alarm of the day before — one month and five days. What followed was five more years of it. Captain Joseph Morgan's company, Colonel John Mosley's Hampshire regiment, October to November 1776, twenty-eight days to reinforce the Northern Army. Captain Daniel Cadwell's company, Colonel Timothy Robinson's detachment of Hampshire County militia, December 1776 to April 1777 — ninety-nine days, at Ticonderoga, where the muster roll of February 24, 1777 found him still in the garrison. Then Captain John Carpenter's company of guards at Springfield, three months at a stretch, over and over: March to June 1779, July to October 1779, October 1779 to January 1780, January to April 1780, and June to December 1780. He married Eunice Day, daughter of Joseph Day and Elizabeth Mattoon of Northfield, in 1751. Five of their sons served. Two did not come home. He died February 14, 1803, in his seventy-third year. His brownstone at Elmwood carries the names of Edward and Robert beneath his own — the only stone either boy has. His service above is taken from the Commonwealth's own rolls, Massachusetts Soldiers and Sailors in the War of the Revolution. A 1929 survey placed him in the thirteenth row from the South Drive, marker 8. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Joel Day, son of John Day and Abigail Bagg of West Springfield, marched on April 20, 1775 with Captain Enoch Chapin's company of Minutemen in response to the alarm of the day before — one month and five days. What followed was five more years of it. Captain Joseph Morgan's company, Colonel John Mosley's Hampshire regiment, October to November 1776, twenty-eight days to reinforce the Northern Army. Captain Daniel Cadwell's company, Colonel Timothy Robinson's detachment of Hampshire County militia, December 1776 to April 1777 — ninety-nine days, at Ticonderoga, where the muster roll of February 24, 1777 found him still in the garrison. Then Captain John Carpenter's company of guards at Springfield, three months at a stretch, over and over: March to June 1779, July to October 1779, October 1779 to January 1780, January to April 1780, and June to December 1780. He married Eunice Day, daughter of Joseph Day and Elizabeth Mattoon of Northfield, in 1751. Five of their sons served. Two did not come home. He died February 14, 1803, in his seventy-third year. His brownstone at Elmwood carries the names of Edward and Robert beneath his own — the only stone either boy has. His service above is taken from the Commonwealth's own rolls, Massachusetts Soldiers and Sailors in the War of the Revolution. A 1929 survey placed him in the thirteenth row from the South Drive, marker 8. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave.",
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
    "source": "harper-revolutionary-graves",
    "geo": "provisional"
   },
-  {
+    {
    "id": "harper_rev_day_joel_jr",
    "name": "Day, Joel, Jr.",
    "era": "Revolutionary War",
@@ -739,14 +739,14 @@ window.VA = {
    "lat": 42.187237,
    "lng": -72.62919,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Joel Day, Jr., eldest son of Joel and Eunice Day, marched May 10, 1777 with Captain Salmon White's company of Colonel David Wells's regiment and served two months and ten days, travel included, on the expedition to Ticonderoga. In September he went out again, with Captain Seth Murray's company of Colonel Ezra May's regiment — one month, travel included, on the expedition to Saratoga, the campaign that ended in Burgoyne's surrender and brought France into the war. He came home. His brothers Edward and Robert did not. He died March 13, 1830, in his seventy-ninth year. His service is recorded in the Commonwealth's own rolls, Massachusetts Soldiers and Sailors in the War of the Revolution. A 1929 survey placed his marble stone in the twentieth row from the South Drive, marker 18. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Joel Day, Jr., eldest son of Joel and Eunice Day, marched May 10, 1777 with Captain Salmon White's company of Colonel David Wells's regiment and served two months and ten days, travel included, on the expedition to Ticonderoga. In September he went out again, with Captain Seth Murray's company of Colonel Ezra May's regiment — one month, travel included, on the expedition to Saratoga, the campaign that ended in Burgoyne's surrender and brought France into the war. He came home. His brothers Edward and Robert did not. He died March 13, 1830, in his seventy-ninth year. His service is recorded in the Commonwealth's own rolls, Massachusetts Soldiers and Sailors in the War of the Revolution. A 1929 survey placed his marble stone in the twentieth row from the South Drive, marker 18. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave.",
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
    "source": "harper-revolutionary-graves",
    "geo": "provisional"
   },
-  {
+    {
    "id": "harper_rev_ely_benjamin",
    "name": "Ely, Benjamin",
    "era": "Revolutionary War",
@@ -755,14 +755,14 @@ window.VA = {
    "lat": 42.187206,
    "lng": -72.629198,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Benjamin Ely was commissioned a major on February 8, 1776, in Colonel John Moseley's 3rd Hampshire regiment. He marched from home on October 21 that year and returned November 17 — twenty-eight days, his detachment going to Ticonderoga to reinforce the army by order of General Schuyler. He was a man of consequence here before ever he was a soldier. He was prominent in the town's affairs and served in the state legislature, and in 1773 he sat on the committee that sought to set this place off from West Springfield — the beginning of the long argument that eventually made Holyoke. For many years he kept a tavern in the Ingleside section, and it was on his farm that the last of the Indians in this area was allowed to live out his years. Rusk's record gives his rank as Major. His stone says Colonel. Both may be true of a long life in the militia, and the two have not been reconciled; both are set down here rather than one chosen. He died December 23, 1802, aged 72. A 1929 survey placed his brownstone in the twelfth row from the South Drive, marker 7. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Benjamin Ely was commissioned a major on February 8, 1776, in Colonel John Moseley's 3rd Hampshire regiment. He marched from home on October 21 that year and returned November 17 — twenty-eight days, his detachment going to Ticonderoga to reinforce the army by order of General Schuyler. He was a man of consequence here before ever he was a soldier. He was prominent in the town's affairs and served in the state legislature, and in 1773 he sat on the committee that sought to set this place off from West Springfield — the beginning of the long argument that eventually made Holyoke. For many years he kept a tavern in the Ingleside section, and it was on his farm that the last of the Indians in this area was allowed to live out his years. Rusk's record gives his rank as Major. His stone says Colonel. Both may be true of a long life in the militia, and the two have not been reconciled; both are set down here rather than one chosen. He died December 23, 1802, aged 72. A 1929 survey placed his brownstone in the twelfth row from the South Drive, marker 7. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave.",
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
    "source": "harper-revolutionary-graves",
    "geo": "provisional"
   },
-  {
+    {
    "id": "harper_rev_ely_enoch",
    "name": "Ely, Enoch",
    "era": "Revolutionary War",
@@ -771,14 +771,14 @@ window.VA = {
    "lat": 42.18718,
    "lng": -72.629222,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Enoch Ely enlisted on April 28, 1775, nine days after the alarm from Lexington, in Captain Enoch Chapin's company of Colonel Timothy Danielson's regiment, and served until the first of August — three months and ten days, the summer the siege of Boston was laid. He went out again from September 21 to October 17, 1777, in Captain Joseph Morgan's company of Colonel John Moseley's regiment: one month and three days on the expedition to the northern department. He held the land on Tannery Brook, and was the first owner of the house later known as the Old Brown House, after Horace Brown took it over. He died in 1842, sixty-seven years after he first marched. A 1929 survey placed his marble stone in the fourteenth row from the South Drive, marker 11. His service is taken from Sarah Rusk's 1980 record of Revolutionary patriots and their wives buried in Holyoke, reproduced by Canal Days. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Enoch Ely enlisted on April 28, 1775, nine days after the alarm from Lexington, in Captain Enoch Chapin's company of Colonel Timothy Danielson's regiment, and served until the first of August — three months and ten days, the summer the siege of Boston was laid. He went out again from September 21 to October 17, 1777, in Captain Joseph Morgan's company of Colonel John Moseley's regiment: one month and three days on the expedition to the northern department. He held the land on Tannery Brook, and was the first owner of the house later known as the Old Brown House, after Horace Brown took it over. He died in 1842, sixty-seven years after he first marched. A 1929 survey placed his marble stone in the fourteenth row from the South Drive, marker 11. His service is taken from Sarah Rusk's 1980 record of Revolutionary patriots and their wives buried in Holyoke, reproduced by Canal Days. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave.",
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
    "source": "harper-revolutionary-graves",
    "geo": "provisional"
   },
-  {
+    {
    "id": "harper_rev_ely_joseph",
    "name": "Ely, Joseph",
    "era": "Revolutionary War",
@@ -787,14 +787,14 @@ window.VA = {
    "lat": 42.187163,
    "lng": -72.629258,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Joseph Ely enlisted July 9, 1777 in Captain Nathan Rowley's company of Colonel John Moseley's regiment and was discharged on the 29th — twenty-one days, the company marching to reinforce the Northern Army. A family account names him one of the founders of the First Baptist Church and says he married Martha Chapin Smith. He died on June 19, 1850, aged ninety-three years and eight months. Seventy-three years lay between those twenty-one days and his death — long enough to see the canals cut and the mills rise on ground he had known as farmland. A 1929 survey placed his marble stone in the eleventh row from the South Drive, marker 5. His service is taken from Sarah Rusk's 1980 record of Revolutionary patriots and their wives buried in Holyoke, reproduced by Canal Days. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Joseph Ely enlisted July 9, 1777 in Captain Nathan Rowley's company of Colonel John Moseley's regiment and was discharged on the 29th — twenty-one days, the company marching to reinforce the Northern Army. A family account names him one of the founders of the First Baptist Church and says he married Martha Chapin Smith. He died on June 19, 1850, aged ninety-three years and eight months. Seventy-three years lay between those twenty-one days and his death — long enough to see the canals cut and the mills rise on ground he had known as farmland. A 1929 survey placed his marble stone in the eleventh row from the South Drive, marker 5. His service is taken from Sarah Rusk's 1980 record of Revolutionary patriots and their wives buried in Holyoke, reproduced by Canal Days. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave.",
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
    "source": "harper-revolutionary-graves",
    "geo": "provisional"
   },
-  {
+    {
    "id": "harper_rev_ely_jube",
    "name": "Ely, Jube",
    "era": "Revolutionary War",
@@ -803,14 +803,14 @@ window.VA = {
    "lat": 42.187157,
    "lng": -72.6293,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Jube Ely enlisted July 28, 1779 in Captain Preserved Leonard's company of Colonel Elisha Porter's regiment and served one month and ten days at New London, Connecticut. The following year he was on the list of men raised to reinforce the Continental Army for a term of six months: he marched August 4, 1780 and was discharged December 15 — four months and seventeen days. He had a house on Northampton Street, shown on the map of 1827. Rusk's record and the 1929 survey of the burial ground both give the year of his death as 1843; a newspaper account of the Ely family says 1841. The two have not been reconciled and both are set down here. A 1929 survey placed his marble stone in the seventh row from the South Drive, marker 1 — the first of the twenty-one. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Jube Ely enlisted July 28, 1779 in Captain Preserved Leonard's company of Colonel Elisha Porter's regiment and served one month and ten days at New London, Connecticut. The following year he was on the list of men raised to reinforce the Continental Army for a term of six months: he marched August 4, 1780 and was discharged December 15 — four months and seventeen days. He had a house on Northampton Street, shown on the map of 1827. Rusk's record and the 1929 survey of the burial ground both give the year of his death as 1843; a newspaper account of the Ely family says 1841. The two have not been reconciled and both are set down here. A 1929 survey placed his marble stone in the seventh row from the South Drive, marker 1 — the first of the twenty-one. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave.",
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
    "source": "harper-revolutionary-graves",
    "geo": "provisional"
   },
-  {
+    {
    "id": "harper_rev_fairfield_levi",
    "name": "Fairfield, Levi",
    "era": "Revolutionary War",
@@ -819,14 +819,14 @@ window.VA = {
    "lat": 42.187163,
    "lng": -72.629342,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Levi Fairfield fought in the Revolutionary War and died in 1817. A local account says plainly that little is known of him, and that is still true: his company, his regiment and his dates have not been recovered from the record. What is known is where he lies. A 1929 survey placed his marble stone in the twenty-second row from the South Drive, marker 19. The search for the rest of him continues. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Levi Fairfield fought in the Revolutionary War and died in 1817. A local account says plainly that little is known of him, and that is still true: his company, his regiment and his dates have not been recovered from the record. What is known is where he lies. A 1929 survey placed his marble stone in the twenty-second row from the South Drive, marker 19. The search for the rest of him continues. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave.",
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
    "source": "harper-revolutionary-graves",
    "geo": "provisional"
   },
-  {
+    {
    "id": "harper_rev_hitchcock_peresh",
    "name": "Hitchcock, Peresh",
    "era": "Revolutionary War",
@@ -835,14 +835,14 @@ window.VA = {
    "lat": 42.18718,
    "lng": -72.629378,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Peresh Hitchcock served in the Revolutionary War and died in 1831; his company, his regiment and his dates have not yet been recovered from the record. What is known is the life he built afterward. In 1803 he was one of the men who met at Caleb Humeston's house to help establish the Baptist Church; in 1805 he moderated a school meeting, and he was among those who established the Baptist Seminary. The map of 1827 shows him living on the Southampton Road near Rock Valley Road. He is said to have raised fourteen hundred bushels of rye in a single year, worth a dollar a bushel and a great deal of money then — so much rye, early historians said, that it led to the manufacture of whiskey, and the old map shows a distillery on Broad Brook in the Rock Valley section, right by the old school. His given name may stand in other records as Perez or Peris, which is one reason he is hard to find, and a caution against matching him to any similar name without proof. A 1929 survey placed his marble stone in the ninth row from the South Drive, marker 3. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Peresh Hitchcock served in the Revolutionary War and died in 1831; his company, his regiment and his dates have not yet been recovered from the record. What is known is the life he built afterward. In 1803 he was one of the men who met at Caleb Humeston's house to help establish the Baptist Church; in 1805 he moderated a school meeting, and he was among those who established the Baptist Seminary. The map of 1827 shows him living on the Southampton Road near Rock Valley Road. He is said to have raised fourteen hundred bushels of rye in a single year, worth a dollar a bushel and a great deal of money then — so much rye, early historians said, that it led to the manufacture of whiskey, and the old map shows a distillery on Broad Brook in the Rock Valley section, right by the old school. His given name may stand in other records as Perez or Peris, which is one reason he is hard to find, and a caution against matching him to any similar name without proof. A 1929 survey placed his marble stone in the ninth row from the South Drive, marker 3. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave.",
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
    "source": "harper-revolutionary-graves",
    "geo": "provisional"
   },
-  {
+    {
    "id": "harper_rev_jones_ebenezer",
    "name": "Jones, Ebenezer",
    "era": "Revolutionary War",
@@ -851,14 +851,14 @@ window.VA = {
    "lat": 42.187206,
    "lng": -72.629402,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Ebenezer Jones enlisted August 12, 1777 in Captain Ephraim Chapin's company of Colonel Ruggles Woodbridge's regiment and was discharged October 23 — two months and seventeen days under General Gates with the Northern Army, including five days and a hundred miles walking home. Those are the dates of Saratoga. He was with Gates through the campaign that broke Burgoyne and brought France into the war, and then he walked back to this valley. The roll was sworn to in Hampshire County. He died April 26, 1839, aged 90. Chicopee historians write of an Ebenezer Jones who in 1753 was paid for a drum of his that had been used, in the words of the record, to be beat to call the People to meeting at proper seasons; when the drum finally broke the people used a conch shell instead. Whether that man was this man, or his father, has not been established. A 1929 survey placed his marble stone in the twenty-fifth row from the South Drive, marker 20. His service is taken from Sarah Rusk's 1980 record of Revolutionary patriots and their wives buried in Holyoke, reproduced by Canal Days. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Ebenezer Jones enlisted August 12, 1777 in Captain Ephraim Chapin's company of Colonel Ruggles Woodbridge's regiment and was discharged October 23 — two months and seventeen days under General Gates with the Northern Army, including five days and a hundred miles walking home. Those are the dates of Saratoga. He was with Gates through the campaign that broke Burgoyne and brought France into the war, and then he walked back to this valley. The roll was sworn to in Hampshire County. He died April 26, 1839, aged 90. Chicopee historians write of an Ebenezer Jones who in 1753 was paid for a drum of his that had been used, in the words of the record, to be beat to call the People to meeting at proper seasons; when the drum finally broke the people used a conch shell instead. Whether that man was this man, or his father, has not been established. A 1929 survey placed his marble stone in the twenty-fifth row from the South Drive, marker 20. His service is taken from Sarah Rusk's 1980 record of Revolutionary patriots and their wives buried in Holyoke, reproduced by Canal Days. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave.",
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
    "source": "harper-revolutionary-graves",
    "geo": "provisional"
   },
-  {
+    {
    "id": "harper_rev_miller_abner",
    "name": "Miller, Abner",
    "era": "Revolutionary War",
@@ -867,14 +867,14 @@ window.VA = {
    "lat": 42.187237,
    "lng": -72.62941,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Abner Miller served in the Revolutionary War and died in 1829. The Millers were one of the six families — with the Balls, Chapins, Days, Elys and Morgans — who forted together at night in the years when raids were still feared, and Charles Ball, buried ten rows from him, married a Merab Miller. Whether Abner belonged to that household is not established and should not be assumed. His company, regiment and dates have not yet been recovered. A 1929 survey placed his marble stone in the eighth row from the South Drive, marker 2. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Abner Miller served in the Revolutionary War and died in 1829. The Millers were one of the six families — with the Balls, Chapins, Days, Elys and Morgans — who forted together at night in the years when raids were still feared, and Charles Ball, buried ten rows from him, married a Merab Miller. Whether Abner belonged to that household is not established and should not be assumed. His company, regiment and dates have not yet been recovered. A 1929 survey placed his marble stone in the eighth row from the South Drive, marker 2. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave.",
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
    "source": "harper-revolutionary-graves",
    "geo": "provisional"
   },
-  {
+    {
    "id": "harper_rev_morgan_jesse",
    "name": "Morgan, Jesse",
    "era": "Revolutionary War",
@@ -883,14 +883,14 @@ window.VA = {
    "lat": 42.187268,
    "lng": -72.629402,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Jesse Morgan marched in April 1775 with Captain Enoch Chapin's company of Minutemen answering the alarm from Lexington — five days. He went out again from September 20 to October 17, 1777 in Captain Joseph Morgan's company of Colonel John Moseley's regiment: one month and three days on the expedition to the northern department, six of those days and a hundred and twenty miles walking home. A local account says there is very little information about Jesse Morgan, and that is still true. He died June 16, 1810 — the earliest death among the Revolutionary men at Elmwood. A 1929 survey placed his marble stone in the fourteenth row from the South Drive, marker 13, in the same row as Joseph Morgan. His service is taken from Sarah Rusk's 1980 record of Revolutionary patriots and their wives buried in Holyoke, reproduced by Canal Days. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Jesse Morgan marched in April 1775 with Captain Enoch Chapin's company of Minutemen answering the alarm from Lexington — five days. He went out again from September 20 to October 17, 1777 in Captain Joseph Morgan's company of Colonel John Moseley's regiment: one month and three days on the expedition to the northern department, six of those days and a hundred and twenty miles walking home. A local account says there is very little information about Jesse Morgan, and that is still true. He died June 16, 1810 — the earliest death among the Revolutionary men at Elmwood. A 1929 survey placed his marble stone in the fourteenth row from the South Drive, marker 13, in the same row as Joseph Morgan. His service is taken from Sarah Rusk's 1980 record of Revolutionary patriots and their wives buried in Holyoke, reproduced by Canal Days. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave.",
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
    "source": "harper-revolutionary-graves",
    "geo": "provisional"
   },
-  {
+    {
    "id": "harper_rev_morgan_lucas",
    "name": "Morgan, Lucas",
    "era": "Revolutionary War",
@@ -899,14 +899,14 @@ window.VA = {
    "lat": 42.187294,
    "lng": -72.629378,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Lucas Morgan enlisted October 21, 1776 in Captain Joseph Morgan's company of Colonel John Moseley's regiment and was discharged November 17 — twenty-eight days, the company marching under Lieutenant Colonel Timothy Robinson of Granville to reinforce the Northern Army, the roll dated at West Springfield. He was out again from September 21 to October 17, 1777 with the same company: one month and three days on the expedition to the northern department, six of those days and a hundred and twenty miles walking home. A local account says he was among the recruits Captain Joseph Morgan gathered as soon as the war broke out, and that they became part of the Third Hampshire regiment. The same account tells a story of a Morgan at the homestead on Northampton Street who came home one winter night to a horse that would not enter the stable, and found by touch that a man was crouched inside; he ran for the house and barred the heavy door, which rang with tomahawk blows until he fired a shot into the dark. In the morning there were the tracks of three men in the snow and the farm dog dead. The account attaches that story to Lucas and dates it 1741, which cannot be right — Rusk's record has him born in 1748. The story belongs to the family; which Morgan it belongs to has not been established. He died March 17, 1817. A 1929 survey placed his marble stone in the nineteenth row from the South Drive, marker 17. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Lucas Morgan enlisted October 21, 1776 in Captain Joseph Morgan's company of Colonel John Moseley's regiment and was discharged November 17 — twenty-eight days, the company marching under Lieutenant Colonel Timothy Robinson of Granville to reinforce the Northern Army, the roll dated at West Springfield. He was out again from September 21 to October 17, 1777 with the same company: one month and three days on the expedition to the northern department, six of those days and a hundred and twenty miles walking home. A local account says he was among the recruits Captain Joseph Morgan gathered as soon as the war broke out, and that they became part of the Third Hampshire regiment. The same account tells a story of a Morgan at the homestead on Northampton Street who came home one winter night to a horse that would not enter the stable, and found by touch that a man was crouched inside; he ran for the house and barred the heavy door, which rang with tomahawk blows until he fired a shot into the dark. In the morning there were the tracks of three men in the snow and the farm dog dead. The account attaches that story to Lucas and dates it 1741, which cannot be right — Rusk's record has him born in 1748. The story belongs to the family; which Morgan it belongs to has not been established. He died March 17, 1817. A 1929 survey placed his marble stone in the nineteenth row from the South Drive, marker 17. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave.",
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
    "source": "harper-revolutionary-graves",
    "geo": "provisional"
   },
-  {
+    {
    "id": "harper_rev_morgan_titus",
    "name": "Morgan, Titus",
    "era": "Revolutionary War",
@@ -915,7 +915,7 @@ window.VA = {
    "lat": 42.187311,
    "lng": -72.629342,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Titus Morgan enlisted October 20, 1777 in Captain Jonathan Bardwell's company of Colonel Elisha Porter's regiment and served one month and two and a half days with the Northern Army; the roll was dated at Deerfield. After the war he and his brother Erastus built a saw mill above the site of the present dam, and were the first men to use the water power at the rapids there — the power that everything Holyoke afterward became was built on. The mill later became part of the Connecticut Valley Lumber Company. He died March 30, 1831. A 1929 survey placed his marble stone in the twenty-seventh row from the South Drive, marker 21 — the last of the twenty-one, and the furthest from the drive. His service is taken from Sarah Rusk's 1980 record of Revolutionary patriots and their wives buried in Holyoke, reproduced by Canal Days. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[FIRST DRAFT] Titus Morgan enlisted October 20, 1777 in Captain Jonathan Bardwell's company of Colonel Elisha Porter's regiment and served one month and two and a half days with the Northern Army; the roll was dated at Deerfield. After the war he and his brother Erastus built a saw mill above the site of the present dam, and were the first men to use the water power at the rapids there — the power that everything Holyoke afterward became was built on. The mill later became part of the Connecticut Valley Lumber Company. He died March 30, 1831. A 1929 survey placed his marble stone in the twenty-seventh row from the South Drive, marker 21 — the last of the twenty-one, and the furthest from the drive. His service is taken from Sarah Rusk's 1980 record of Revolutionary patriots and their wives buried in Holyoke, reproduced by Canal Days. This man's grave has not been surveyed. The pin is provisional — it marks the burial ground, not the grave.",
    "sourceNote": "Service record, from Wyatt E. Harper, The Story of Holyoke (published for the centennial of the City of Holyoke, 1973) — full researched narrative pending. Harper names him among the Revolutionary graves in this burial ground; the grave itself has not yet been located on the ground.",
    "badges": [],
    "status": "located",
