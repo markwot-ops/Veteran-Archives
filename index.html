@@ -779,17 +779,21 @@ function openPopup(v, idx) {
   document.getElementById('pname').textContent = titleName(v.name);
   document.getElementById('pservice').textContent = serviceLine(v);
   const storyEl = document.getElementById('pstory');
-  storyEl.textContent = queued ? QUEUE_TEXT : v.narrative;
+  let story = queued ? QUEUE_TEXT : (v.narrative || '');
+  if (!queued && story && !story.includes('Veterans Graves Officer at (413) 322-5630')) {
+    story += ' ' + CONTACT_CLOSE;                 // the close is ALWAYS part of the narrative
+  }
+  storyEl.textContent = story;
   storyEl.classList.toggle('queued', queued);
 
   const srcEl = document.getElementById('psrc');
   srcEl.textContent = v.sourceNote || '';
   srcEl.style.display = v.sourceNote ? 'block' : 'none';
+  if (v.sourceNote) storyEl.after(srcEl);          // credits render separately, smaller, BELOW the narrative
 
   const conEl = document.getElementById('pcontact');
-  const showContact = !!v.sourceNote;              // legacy entries carry the close inside narrative
-  conEl.textContent = showContact ? CONTACT_CLOSE : '';
-  conEl.style.display = showContact ? 'block' : 'none';
+  conEl.textContent = '';
+  conEl.style.display = 'none';                     // never render a standalone close
 
   const photo = document.getElementById('pphoto');
   const ph = document.getElementById('pphoto-ph');
