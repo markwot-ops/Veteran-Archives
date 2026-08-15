@@ -228,7 +228,7 @@ window.VA = {
    "status": "located",
    "source": "session10"
   },
-  {
+    {
    "id": "blaine__g_army_ww_i",
    "name": "George Blaine",
    "era": "World War I",
@@ -237,8 +237,9 @@ window.VA = {
    "lat": 42.187431,
    "lng": -72.627686,
    "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/blaine__g_army_ww_i.jpg",
-   "extraPhotos": [],
-   "narrative": "George Blaine served in the United States Army during World War I, attaining the rank of Private First Class. Born in 1893, Blaine was among the Massachusetts men who answered the call when America entered the Great War in 1917. If you have further details about his service, including unit assignment, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "extraPhotos": [
+   ],
+   "narrative": "George Blaine served in the United States Army during World War I, attaining the rank of Private First Class. Born in 1893, Blaine was among the Massachusetts men who answered the call when America entered the Great War in 1917. If you have further details about his service, including unit assignment, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "session10"
@@ -1318,7 +1319,7 @@ window.VA = {
    "status": "located",
    "source": ""
   },
-  {
+    {
    "id": "fetterman__s_cav",
    "name": "Samuel Fetterman",
    "era": "Civil War",
@@ -1327,8 +1328,9 @@ window.VA = {
    "lat": 42.1880528,
    "lng": -72.6295556,
    "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/fetterman_s_cav.jpg",
-   "extraPhotos": [],
-   "narrative": "Samuel Fetterman served in a Pennsylvania Cavalry regiment; the exact regiment number is too worn on the stone to confirm with confidence. No era is inscribed, but the marker's shape, the carved shield motif, and the abbreviated \"SAML\" for Samuel are all typical of Civil War-era military headstones, making that the most likely period of his service. If you have information about which regiment or campaign, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "extraPhotos": [
+   ],
+   "narrative": "Samuel Fetterman served in a Pennsylvania Cavalry regiment; the exact regiment number is too worn on the stone to confirm with confidence. No era is inscribed, but the marker's shape, the carved shield motif, and the abbreviated \"SAML\" for Samuel are all typical of Civil War-era military headstones, making that the most likely period of his service. If you have information about which regiment or campaign, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": ""
@@ -4220,7 +4222,7 @@ window.VA = {
    "status": "located",
    "source": "session8"
   },
-  {
+    {
    "id": "owen",
    "name": "Owen",
    "era": "Unknown Era",
@@ -4229,8 +4231,9 @@ window.VA = {
    "lat": 42.1868222,
    "lng": -72.6277472,
    "photo": "https://raw.githubusercontent.com/markwot-ops/calvary-map/main/owen.jpg",
-   "extraPhotos": [],
-   "narrative": "This stone is inscribed only with the family name OWEN — a family monument rather than an individual marker. A U.S. flag placed at the grave indicates a veteran is buried here, but no branch, rank, or service dates are visible on this stone. If you can identify which family member served, or have a photo of an individual footstone nearby, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "extraPhotos": [
+   ],
+   "narrative": "This stone is inscribed only with the family name OWEN — a family monument rather than an individual marker. A U.S. flag placed at the grave indicates a veteran is buried here, but no branch, rank, or service dates are visible on this stone. If you can identify which family member served, or have a photo of an individual footstone nearby, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "session7"
