@@ -77,6 +77,8 @@ footer .contact { color:#CD853F; }
   .hr-row:last-child { margin-bottom:0; }
   .hr-row:hover { opacity:0.72; transform:translateX(2px); }
   .hr-sym { width:13px; text-align:center; font-size:0.66rem; flex-shrink:0; }
+  .hr-ribbon { flex-shrink:0; width:24px; height:9px; line-height:0; display:flex; align-items:center; }
+  .hr-ribbon svg { width:24px; height:9px; display:block; border-radius:1px; box-shadow:0 0 2px rgba(0,0,0,.6); outline:.5px solid rgba(0,0,0,.35); }
   .hr-name { font-size:0.63rem; color:#d4c9b8; flex:1; padding-right:12px; }
   .hr-n { font-size:0.58rem; color:#d4c9b8; min-width:20px; text-align:right; }
   .hr-load { color:#8a8272; font-style:italic; font-size:0.75rem; }
@@ -318,6 +320,19 @@ function initVSearch(){
     'French Military Medal':'#5b7f8a','British Military Medal':'#8a7d5b','Died in Service':'#7a8a5b',
     'Female Veteran':'#c98aa8','Medical Officer':'#5bab9e'
   };
+  const RIBBONS = {
+  'Medal of Honor': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="88.0" height="26" fill="#5f77b0"/><polygon points="14.7,6.2 16.3,10.7 21.1,10.9 17.4,13.9 18.6,18.5 14.7,15.8 10.7,18.5 12.0,13.9 8.2,10.9 13.0,10.7" fill="#fff"/><polygon points="29.3,6.2 31.0,10.7 35.8,10.9 32.0,13.9 33.3,18.5 29.3,15.8 25.4,18.5 26.6,13.9 22.9,10.9 27.7,10.7" fill="#fff"/><polygon points="44.0,6.2 45.7,10.7 50.4,10.9 46.7,13.9 48.0,18.5 44.0,15.8 40.0,18.5 41.3,13.9 37.6,10.9 42.3,10.7" fill="#fff"/><polygon points="58.7,6.2 60.3,10.7 65.1,10.9 61.4,13.9 62.6,18.5 58.7,15.8 54.7,18.5 56.0,13.9 52.2,10.9 57.0,10.7" fill="#fff"/><polygon points="73.3,6.2 75.0,10.7 79.8,10.9 76.0,13.9 77.3,18.5 73.3,15.8 69.4,18.5 70.6,13.9 66.9,10.9 71.7,10.7" fill="#fff"/></svg>',
+  'Distinguished Service Cross': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="8.8" height="26" fill="#b31942"/><rect x="8.8" width="8.8" height="26" fill="#fff"/><rect x="17.6" width="52.8" height="26" fill="#0a2f66"/><rect x="70.4" width="8.8" height="26" fill="#fff"/><rect x="79.2" width="8.8" height="26" fill="#b31942"/></svg>',
+  'Croix de Guerre': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="6.8" height="26" fill="#b31942"/><rect x="6.8" width="13.5" height="26" fill="#2e6b3e"/><rect x="20.3" width="6.8" height="26" fill="#b31942"/><rect x="27.1" width="13.5" height="26" fill="#2e6b3e"/><rect x="40.6" width="6.8" height="26" fill="#b31942"/><rect x="47.4" width="13.5" height="26" fill="#2e6b3e"/><rect x="60.9" width="6.8" height="26" fill="#b31942"/><rect x="67.7" width="13.5" height="26" fill="#2e6b3e"/><rect x="81.2" width="6.8" height="26" fill="#b31942"/></svg>',
+  'Purple Heart': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="9.8" height="26" fill="#efe9e3"/><rect x="9.8" width="68.4" height="26" fill="#5b2a86"/><rect x="78.2" width="9.8" height="26" fill="#efe9e3"/></svg>',
+  'Distinguished Service Medal': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="6.8" height="26" fill="#0a2f66"/><rect x="6.8" width="33.8" height="26" fill="#b31942"/><rect x="40.6" width="6.8" height="26" fill="#fff"/><rect x="47.4" width="33.8" height="26" fill="#b31942"/><rect x="81.2" width="6.8" height="26" fill="#0a2f66"/></svg>',
+  'Cited for Bravery': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="17.6" height="26" fill="#8a6d1f"/><rect x="17.6" width="52.8" height="26" fill="#c9a227"/><rect x="70.4" width="17.6" height="26" fill="#8a6d1f"/><polygon points="44.0,6.2 45.7,10.7 50.4,10.9 46.7,13.9 48.0,18.5 44.0,15.8 40.0,18.5 41.3,13.9 37.6,10.9 42.3,10.7" fill="#fff"/></svg>',
+  'Air Medal': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="22.0" height="26" fill="#00308f"/><rect x="22.0" width="11.0" height="26" fill="#f4a41a"/><rect x="33.0" width="22.0" height="26" fill="#00308f"/><rect x="55.0" width="11.0" height="26" fill="#f4a41a"/><rect x="66.0" width="22.0" height="26" fill="#00308f"/></svg>',
+  'Silver Star': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="20.3" height="26" fill="#b31942"/><rect x="20.3" width="6.8" height="26" fill="#fff"/><rect x="27.1" width="6.8" height="26" fill="#0a2f66"/><rect x="33.8" width="6.8" height="26" fill="#fff"/><rect x="40.6" width="6.8" height="26" fill="#b31942"/><rect x="47.4" width="6.8" height="26" fill="#fff"/><rect x="54.2" width="6.8" height="26" fill="#0a2f66"/><rect x="60.9" width="6.8" height="26" fill="#fff"/><rect x="67.7" width="20.3" height="26" fill="#b31942"/><polygon points="44.0,6.2 45.7,10.7 50.4,10.9 46.7,13.9 48.0,18.5 44.0,15.8 40.0,18.5 41.3,13.9 37.6,10.9 42.3,10.7" fill="#c0c4c9"/></svg>',
+  'Bronze Star': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="6.8" height="26" fill="#fff"/><rect x="6.8" width="27.1" height="26" fill="#b31942"/><rect x="33.8" width="6.8" height="26" fill="#fff"/><rect x="40.6" width="6.8" height="26" fill="#0a2f66"/><rect x="47.4" width="6.8" height="26" fill="#fff"/><rect x="54.2" width="27.1" height="26" fill="#b31942"/><rect x="81.2" width="6.8" height="26" fill="#fff"/><polygon points="44.0,6.2 45.7,10.7 50.4,10.9 46.7,13.9 48.0,18.5 44.0,15.8 40.0,18.5 41.3,13.9 37.6,10.9 42.3,10.7" fill="#cd7f32"/></svg>',
+  'French Military Medal': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="12.6" height="26" fill="#2e6b3e"/><rect x="12.6" width="62.9" height="26" fill="#f2c14e"/><rect x="75.4" width="12.6" height="26" fill="#2e6b3e"/></svg>',
+  'British Military Medal': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="29.3" height="26" fill="#0a2f66"/><rect x="29.3" width="9.8" height="26" fill="#fff"/><rect x="39.1" width="9.8" height="26" fill="#b31942"/><rect x="48.9" width="9.8" height="26" fill="#fff"/><rect x="58.7" width="29.3" height="26" fill="#0a2f66"/></svg>'
+};
   const esc = s => { const d=document.createElement('div'); d.textContent = s==null?'':s; return d.innerHTML; };
 
   Promise.allSettled(SITES.map(async slug => {
@@ -340,11 +355,14 @@ function initVSearch(){
     const keys = ORDER.filter(k => counts[k]);   // only honors the map can actually filter
     document.getElementById('hr-rows').innerHTML = keys.map(k => {
       const c = COLOR[k] || '#888';
-      const sym = (k === 'KIA')
-        ? `<div class="hr-sym" style="color:#e6c14a;font-size:0.7rem;text-shadow:0 0 4px rgba(230,193,74,0.7)">★</div>`
-        : `<div class="hr-sym" style="color:${c};font-size:0.55rem">●</div>`;
+      const rib = RIBBONS[k];
+      const sym = rib
+        ? `<div class="hr-ribbon">${rib}</div>`
+        : (k === 'KIA')
+          ? `<div class="hr-sym" style="color:#e6c14a;font-size:0.7rem;text-shadow:0 0 4px rgba(230,193,74,0.7)">★</div>`
+          : `<div class="hr-sym" style="color:${c};font-size:0.55rem">●</div>`;
       return `<a class="hr-row" href="./honor-roll/index.html">` +
-             `${sym}<div class="hr-name">${esc(k)}</div><div class="hr-n">${counts[k]}</div></a>`;
+             `<div class="hr-name">${esc(k)}</div>${sym}<div class="hr-n">${counts[k]}</div></a>`;
     }).join('');
     const c = document.getElementById('hr-count');
     if (c) c.textContent = honoured.size + ' honored';
