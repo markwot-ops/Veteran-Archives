@@ -114,6 +114,19 @@ const DISTINCTION_COLORS = {
   'Croix de Guerre':'#4e8f63','KIA':'#c0392b','Cited for Bravery':'#c07a4a','British Military Medal':'#8a7d5b','French Military Medal':'#5b7f8a'
 };
 const DISTINCTION_SHORT = {};  // spell every distinction out in full
+const DISTINCTION_RIBBONS = {
+  'Medal of Honor': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="88.0" height="26" fill="#5f77b0"/><polygon points="14.7,6.2 16.3,10.7 21.1,10.9 17.4,13.9 18.6,18.5 14.7,15.8 10.7,18.5 12.0,13.9 8.2,10.9 13.0,10.7" fill="#fff"/><polygon points="29.3,6.2 31.0,10.7 35.8,10.9 32.0,13.9 33.3,18.5 29.3,15.8 25.4,18.5 26.6,13.9 22.9,10.9 27.7,10.7" fill="#fff"/><polygon points="44.0,6.2 45.7,10.7 50.4,10.9 46.7,13.9 48.0,18.5 44.0,15.8 40.0,18.5 41.3,13.9 37.6,10.9 42.3,10.7" fill="#fff"/><polygon points="58.7,6.2 60.3,10.7 65.1,10.9 61.4,13.9 62.6,18.5 58.7,15.8 54.7,18.5 56.0,13.9 52.2,10.9 57.0,10.7" fill="#fff"/><polygon points="73.3,6.2 75.0,10.7 79.8,10.9 76.0,13.9 77.3,18.5 73.3,15.8 69.4,18.5 70.6,13.9 66.9,10.9 71.7,10.7" fill="#fff"/></svg>',
+  'Distinguished Service Cross': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="8.8" height="26" fill="#b31942"/><rect x="8.8" width="8.8" height="26" fill="#fff"/><rect x="17.6" width="52.8" height="26" fill="#0a2f66"/><rect x="70.4" width="8.8" height="26" fill="#fff"/><rect x="79.2" width="8.8" height="26" fill="#b31942"/></svg>',
+  'Croix de Guerre': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="6.8" height="26" fill="#b31942"/><rect x="6.8" width="13.5" height="26" fill="#2e6b3e"/><rect x="20.3" width="6.8" height="26" fill="#b31942"/><rect x="27.1" width="13.5" height="26" fill="#2e6b3e"/><rect x="40.6" width="6.8" height="26" fill="#b31942"/><rect x="47.4" width="13.5" height="26" fill="#2e6b3e"/><rect x="60.9" width="6.8" height="26" fill="#b31942"/><rect x="67.7" width="13.5" height="26" fill="#2e6b3e"/><rect x="81.2" width="6.8" height="26" fill="#b31942"/></svg>',
+  'Purple Heart': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="9.8" height="26" fill="#efe9e3"/><rect x="9.8" width="68.4" height="26" fill="#5b2a86"/><rect x="78.2" width="9.8" height="26" fill="#efe9e3"/></svg>',
+  'Distinguished Service Medal': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="6.8" height="26" fill="#0a2f66"/><rect x="6.8" width="33.8" height="26" fill="#b31942"/><rect x="40.6" width="6.8" height="26" fill="#fff"/><rect x="47.4" width="33.8" height="26" fill="#b31942"/><rect x="81.2" width="6.8" height="26" fill="#0a2f66"/></svg>',
+  'Cited for Bravery': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="17.6" height="26" fill="#8a6d1f"/><rect x="17.6" width="52.8" height="26" fill="#c9a227"/><rect x="70.4" width="17.6" height="26" fill="#8a6d1f"/><polygon points="44.0,6.2 45.7,10.7 50.4,10.9 46.7,13.9 48.0,18.5 44.0,15.8 40.0,18.5 41.3,13.9 37.6,10.9 42.3,10.7" fill="#fff"/></svg>',
+  'Air Medal': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="22.0" height="26" fill="#00308f"/><rect x="22.0" width="11.0" height="26" fill="#f4a41a"/><rect x="33.0" width="22.0" height="26" fill="#00308f"/><rect x="55.0" width="11.0" height="26" fill="#f4a41a"/><rect x="66.0" width="22.0" height="26" fill="#00308f"/></svg>',
+  'Silver Star': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="20.3" height="26" fill="#b31942"/><rect x="20.3" width="6.8" height="26" fill="#fff"/><rect x="27.1" width="6.8" height="26" fill="#0a2f66"/><rect x="33.8" width="6.8" height="26" fill="#fff"/><rect x="40.6" width="6.8" height="26" fill="#b31942"/><rect x="47.4" width="6.8" height="26" fill="#fff"/><rect x="54.2" width="6.8" height="26" fill="#0a2f66"/><rect x="60.9" width="6.8" height="26" fill="#fff"/><rect x="67.7" width="20.3" height="26" fill="#b31942"/><polygon points="44.0,6.2 45.7,10.7 50.4,10.9 46.7,13.9 48.0,18.5 44.0,15.8 40.0,18.5 41.3,13.9 37.6,10.9 42.3,10.7" fill="#c0c4c9"/></svg>',
+  'Bronze Star': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="6.8" height="26" fill="#fff"/><rect x="6.8" width="27.1" height="26" fill="#b31942"/><rect x="33.8" width="6.8" height="26" fill="#fff"/><rect x="40.6" width="6.8" height="26" fill="#0a2f66"/><rect x="47.4" width="6.8" height="26" fill="#fff"/><rect x="54.2" width="27.1" height="26" fill="#b31942"/><rect x="81.2" width="6.8" height="26" fill="#fff"/><polygon points="44.0,6.2 45.7,10.7 50.4,10.9 46.7,13.9 48.0,18.5 44.0,15.8 40.0,18.5 41.3,13.9 37.6,10.9 42.3,10.7" fill="#cd7f32"/></svg>',
+  'French Military Medal': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="12.6" height="26" fill="#2e6b3e"/><rect x="12.6" width="62.9" height="26" fill="#f2c14e"/><rect x="75.4" width="12.6" height="26" fill="#2e6b3e"/></svg>',
+  'British Military Medal': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="29.3" height="26" fill="#0a2f66"/><rect x="29.3" width="9.8" height="26" fill="#fff"/><rect x="39.1" width="9.8" height="26" fill="#b31942"/><rect x="48.9" width="9.8" height="26" fill="#fff"/><rect x="58.7" width="29.3" height="26" fill="#0a2f66"/></svg>'
+};
 function canonBadge(b){ const low=(b||'').toLowerCase(); for(const n of DISTINCTION_ORDER){ if(n.toLowerCase()===low) return n; } return null; }
 function vetDistinctions(v){ return (v.badges||[]).map(canonBadge).filter(Boolean); }
 function isDistinguished(v){ return vetDistinctions(v).length>0; }
@@ -194,14 +207,26 @@ function openPopup(v, idx) {
   const flagsEl = document.getElementById('pflags');
   flagsEl.innerHTML = '';
   const fs = {'KIA':['#8B0000','#fff'],'Purple Heart':['#7B2D8B','#fff'],'Bronze Star':['#B8860B','#fff'],'Air Medal':['#1a6abf','#fff'],'Female Veteran':['#C71585','#fff'],'Silver Star':['#71797E','#fff'],'Distinguished Service Cross':['#2c1b4d','#fff'],'Croix de Guerre':['#2d5a3d','#fff'],'Died in Service':['#5a3d2d','#fff'],'Medical Officer':['#2d5a5a','#fff'],'Retake Needed':['#333','#c99'],'Cited for Bravery':['#7a4a24','#fff'],'French Military Medal':['#2d4a55','#fff'],'British Military Medal':['#4a442d','#fff'],'Medal of Honor':['#8a6d16','#fff'],'Distinguished Service Medal':['#3d356b','#fff']};
+  if (!document.getElementById('ribbon-badge-css')) {
+    const rbcss = document.createElement('style'); rbcss.id = 'ribbon-badge-css';
+    rbcss.textContent = '.fbadge.ribbon-badge{display:inline-flex;align-items:center;gap:5px;background:#f4efe6;color:#241f18;padding:2px 7px 2px 3px;border:1px solid #d8cdb5}.ribbon-badge .rbadge{line-height:0;display:inline-flex}.ribbon-badge .rbadge svg{width:26px;height:10px;display:block;border-radius:1px;outline:.5px solid rgba(0,0,0,.35)}.ribbon-badge .rbadge-name{font-size:.62rem;font-weight:bold}';
+    document.head.appendChild(rbcss);
+  }
   (v.badges||[]).forEach(f => {
+    const rib = (typeof DISTINCTION_RIBBONS!=='undefined') ? DISTINCTION_RIBBONS[f] : null;
+    if (rib) {
+      const box = document.createElement('span');
+      box.className = 'fbadge ribbon-badge';
+      box.innerHTML = '<span class="rbadge">'+rib+'</span><span class="rbadge-name">'+f+'</span>';
+      flagsEl.appendChild(box); return;
+    }
     const [bg,fg] = fs[f]||['#444','#fff'];
     const b = document.createElement('span');
     b.className='fbadge'; b.style.background=bg; b.style.color=fg; b.textContent=f;
     if (f === 'KIA') {
       const st = document.createElement('span');
       st.className = 'kia-badge-star'; st.textContent = '\u2605';
-      flagsEl.appendChild(st);            // outside the red chip, on the panel background
+      flagsEl.appendChild(st);
     }
     flagsEl.appendChild(b);
   });
