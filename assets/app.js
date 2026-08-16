@@ -127,6 +127,10 @@ const DISTINCTION_RIBBONS = {
   'French Military Medal': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="12.6" height="26" fill="#2e6b3e"/><rect x="12.6" width="62.9" height="26" fill="#f2c14e"/><rect x="75.4" width="12.6" height="26" fill="#2e6b3e"/></svg>',
   'British Military Medal': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="29.3" height="26" fill="#0a2f66"/><rect x="29.3" width="9.8" height="26" fill="#fff"/><rect x="39.1" width="9.8" height="26" fill="#b31942"/><rect x="48.9" width="9.8" height="26" fill="#fff"/><rect x="58.7" width="29.3" height="26" fill="#0a2f66"/></svg>'
 };
+
+function ensureRibbonCss(){ if(document.getElementById('va-ribbon-css'))return; var s=document.createElement('style'); s.id='va-ribbon-css'; s.textContent='.fbadge.ribbon-badge{display:inline-flex;align-items:center;gap:5px;background:#f4efe6;color:#241f18;padding:2px 7px 2px 3px;border:1px solid #d8cdb5}.ribbon-badge .rbadge{line-height:0;display:inline-flex}.ribbon-badge .rbadge svg{width:26px;height:10px;display:block;border-radius:1px;outline:.5px solid rgba(0,0,0,.35)}.ribbon-badge .rbadge-name{font-size:.62rem;font-weight:bold}.v-ribbons{display:inline-flex;gap:2px;margin-left:5px;vertical-align:middle}.v-ribbons svg{width:18px;height:7px;display:block;border-radius:1px;outline:.5px solid rgba(0,0,0,.3)}'; (document.head||document.documentElement).appendChild(s); }
+function vetRibbons(v){ if(typeof DISTINCTION_RIBBONS==='undefined')return ''; var rs=(v.badges||[]).map(function(b){return DISTINCTION_RIBBONS[b];}).filter(Boolean); return rs.length?'<span class="v-ribbons">'+rs.join('')+'</span>':''; }
+
 function canonBadge(b){ const low=(b||'').toLowerCase(); for(const n of DISTINCTION_ORDER){ if(n.toLowerCase()===low) return n; } return null; }
 function vetDistinctions(v){ return (v.badges||[]).map(canonBadge).filter(Boolean); }
 function isDistinguished(v){ return vetDistinctions(v).length>0; }
@@ -207,11 +211,7 @@ function openPopup(v, idx) {
   const flagsEl = document.getElementById('pflags');
   flagsEl.innerHTML = '';
   const fs = {'KIA':['#8B0000','#fff'],'Purple Heart':['#7B2D8B','#fff'],'Bronze Star':['#B8860B','#fff'],'Air Medal':['#1a6abf','#fff'],'Female Veteran':['#C71585','#fff'],'Silver Star':['#71797E','#fff'],'Distinguished Service Cross':['#2c1b4d','#fff'],'Croix de Guerre':['#2d5a3d','#fff'],'Died in Service':['#5a3d2d','#fff'],'Medical Officer':['#2d5a5a','#fff'],'Retake Needed':['#333','#c99'],'Cited for Bravery':['#7a4a24','#fff'],'French Military Medal':['#2d4a55','#fff'],'British Military Medal':['#4a442d','#fff'],'Medal of Honor':['#8a6d16','#fff'],'Distinguished Service Medal':['#3d356b','#fff']};
-  if (!document.getElementById('ribbon-badge-css')) {
-    const rbcss = document.createElement('style'); rbcss.id = 'ribbon-badge-css';
-    rbcss.textContent = '.fbadge.ribbon-badge{display:inline-flex;align-items:center;gap:5px;background:#f4efe6;color:#241f18;padding:2px 7px 2px 3px;border:1px solid #d8cdb5}.ribbon-badge .rbadge{line-height:0;display:inline-flex}.ribbon-badge .rbadge svg{width:26px;height:10px;display:block;border-radius:1px;outline:.5px solid rgba(0,0,0,.35)}.ribbon-badge .rbadge-name{font-size:.62rem;font-weight:bold}';
-    document.head.appendChild(rbcss);
-  }
+  ensureRibbonCss();
   (v.badges||[]).forEach(f => {
     const rib = (typeof DISTINCTION_RIBBONS!=='undefined') ? DISTINCTION_RIBBONS[f] : null;
     if (rib) {
@@ -346,7 +346,7 @@ function makeRow(v, idx) {
   el.className = 'vet-item' + (idx===activeIdx?' active':'') + (queued?' queued':'');
   el.dataset.i = idx;
   const q = queued ? `<div class="v-badge-q">\u25d4 queue</div>` : '';
-  el.innerHTML = `<div class="v-sym" style="color:${eraColor(v.era)}">${branchSym(v.branch)}</div><div style="flex:1;min-width:0"><div class="v-name">${titleName(v.name)}</div><div class="v-era">${eraLabel(v.era)}</div></div>${q}`;
+  el.innerHTML = `<div class="v-sym" style="color:${eraColor(v.era)}">${branchSym(v.branch)}</div><div style="flex:1;min-width:0"><div class="v-name">${titleName(v.name)}</div><div class="v-era">${eraLabel(v.era)}${vetRibbons(v)}</div></div>${q}`;
   el.dataset.idx = idx;
   return el;
 }
@@ -417,6 +417,7 @@ document.getElementById('vet-list').addEventListener('scroll', () => {
 window.addEventListener('resize', () => drawWindow(true));
 
 function buildSidebar() {
+  ensureRibbonCss();
   const list = document.getElementById('vet-list');
   const none = document.getElementById('no-results');
   const term = searchTerm.toLowerCase();
