@@ -409,3 +409,66 @@ body.sun #legend.in-sheet .leg-sym.kia-star {
   align-self:center; text-shadow:0 0 2px #fff6c4, 0 0 7px rgba(255,205,70,0.95); }
 body.sun .kia-badge-star { color:#c8860a !important;
   text-shadow:0 0 2px rgba(255,242,190,0.9), 0 0 5px rgba(200,134,10,0.5); }
+
+
+/* ==================== MOBILE MAP REDESIGN (phones only) ==================== */
+@media (max-width:640px){
+  /* 1 + 7 + 8: header row under the address -> [Veteran Locator button] ....... [Return to Landing] */
+  #site-nav { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-top:8px; }
+  #site-nav .nav-next { display:none !important; }                 /* 7: drop Next Site */
+  #site-nav .nav-back { font-size:0.8rem; text-transform:none; letter-spacing:0.02em; color:#CD853F; }
+  #header .mode-label {                                            /* 1: Veteran Locator is now a button, left */
+    display:flex; align-items:center; gap:6px; margin:0;
+    padding:8px 12px; border-radius:9px; cursor:pointer;
+    background:#182a3d; border:1.5px solid #6bb3f0; color:#9fd0ff;
+    font-size:0.82rem; letter-spacing:0.02em; white-space:nowrap;
+  }
+  #header .mode-label:active { background:#20364d; }
+  #header .mode-label svg { width:18px; height:18px; }
+
+  /* 5: remove the free-standing crosshair */
+  #locate-me { display:none !important; }
+
+  /* 2 + 6: the A–Z veteran list becomes a LEFT drawer under the map's layer control;
+     the search field / era filters / A–Z rail / drag sheet are all gone */
+  #sheet-handle, #sidebar-top, #search, #era-filters, #distinction-filters, #az-rail { display:none !important; }
+  #sidebar {
+    top:132px; left:8px; right:auto; bottom:auto;
+    width:min(66vw,262px); max-height:46vh;
+    border:1px solid #5a3f27; border-top:1px solid #5a3f27; border-radius:12px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.6); z-index:1250; overflow:hidden;
+    transform:translateX(-130%); transition:transform 0.22s ease; display:block;
+  }
+  body.vetlist-open #sidebar { transform:translateX(0); }
+  #list-wrap, body:not(.sheet-open) #list-wrap { display:block !important; max-height:46vh; overflow-y:auto; }
+  #vet-list { padding:4px 0; }
+  body.grave-focused #sidebar { transform:translateX(-130%); }     /* hide list once a vet box is up */
+
+  /* 3: the selected-veteran box sits at the BOTTOM, above the honors scroll */
+  #findBanner.show {
+    top:auto !important; bottom:calc(56px + env(safe-area-inset-bottom,0px)) !important;
+    left:8px !important; right:8px !important;
+  }
+  /* 4: Details on the LEFT, Veteran Locator on the RIGHT */
+  .fb-actions { flex-direction:row-reverse; }
+
+  /* 9: Honors scroll pinned along the very bottom (as on the Honors map) */
+  #legend {
+    display:block !important; position:absolute; left:0; right:0; bottom:0; top:auto;
+    width:auto; max-width:none; max-height:none; border-radius:0; border-left:none;
+    border-top:1px solid #5a3f27; background:rgba(10,10,10,0.96);
+    padding:5px 8px calc(5px + env(safe-area-inset-bottom,0px)); z-index:1150; overflow:hidden;
+  }
+  #legend h4 { display:none; }
+  #legend #leg-distinct {
+    display:flex; flex-direction:row; gap:15px; overflow-x:auto; overflow-y:hidden;
+    -webkit-overflow-scrolling:touch; scroll-snap-type:x proximity; padding-bottom:2px;
+  }
+  #legend #leg-distinct .leg-row {
+    flex:0 0 auto; flex-direction:row; align-items:center; margin:0;
+    scroll-snap-align:center; white-space:nowrap; opacity:1;
+  }
+  #legend #leg-distinct .leg-label { font-size:0.6rem; }
+  #legend #leg-distinct .leg-count { margin-left:4px; font-size:0.6rem; }
+  #legend #leg-distinct .leg-ribbon, #legend #leg-distinct .leg-ribbon svg { width:34px; height:12px; }
+}

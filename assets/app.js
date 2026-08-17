@@ -128,7 +128,7 @@ const DISTINCTION_RIBBONS = {
   'British Military Medal': '<svg viewBox="0 0 88 26" preserveAspectRatio="none"><rect x="0.0" width="29.3" height="26" fill="#0a2f66"/><rect x="29.3" width="9.8" height="26" fill="#fff"/><rect x="39.1" width="9.8" height="26" fill="#b31942"/><rect x="48.9" width="9.8" height="26" fill="#fff"/><rect x="58.7" width="29.3" height="26" fill="#0a2f66"/></svg>'
 };
 
-function ensureRibbonCss(){ if(document.getElementById('va-ribbon-css'))return; var s=document.createElement('style'); s.id='va-ribbon-css'; s.textContent='.fbadge.ribbon-badge{display:inline-flex;align-items:center;gap:5px;background:#f4efe6;color:#241f18;padding:2px 7px 2px 3px;border:1px solid #d8cdb5}.ribbon-badge .rbadge{line-height:0;display:inline-flex}.ribbon-badge .rbadge svg{width:26px;height:10px;display:block;border-radius:1px;outline:.5px solid rgba(0,0,0,.35)}.ribbon-badge .rbadge-name{font-size:.62rem;font-weight:bold}.v-ribbons{display:inline-flex;gap:2px;margin-left:5px;vertical-align:middle}.v-ribbons svg{width:18px;height:7px;display:block;border-radius:1px;outline:.5px solid rgba(0,0,0,.3)}.v-kia-star{color:#d4af37;font-size:11px;line-height:1;vertical-align:middle;text-shadow:0 0 2px rgba(0,0,0,.55)}.leg-ribbon{flex-shrink:0;width:24px;height:9px;line-height:0;display:flex;align-items:center}.leg-ribbon svg{width:24px;height:9px;display:block;border-radius:1px;box-shadow:0 0 2px rgba(0,0,0,.6);outline:.5px solid rgba(0,0,0,.35)}'; (document.head||document.documentElement).appendChild(s); }
+function ensureRibbonCss(){ if(document.getElementById('va-ribbon-css'))return; var s=document.createElement('style'); s.id='va-ribbon-css'; s.textContent='.fbadge.ribbon-badge{display:inline-flex;align-items:center;gap:5px;background:#f4efe6;color:#241f18;padding:2px 7px 2px 3px;border:1px solid #d8cdb5}.ribbon-badge .rbadge{line-height:0;display:inline-flex}.ribbon-badge .rbadge svg{width:26px;height:10px;display:block;border-radius:1px;outline:.5px solid rgba(0,0,0,.35)}.ribbon-badge .rbadge-name{font-size:.62rem;font-weight:bold}.v-ribbons{display:inline-flex;gap:2px;margin-left:5px;vertical-align:middle}.v-ribbons svg{width:18px;height:7px;display:block;border-radius:1px;outline:.5px solid rgba(0,0,0,.3)}.v-kia-star{color:#d4af37;font-size:11px;line-height:1;vertical-align:middle;text-shadow:0 0 2px rgba(0,0,0,.55)}.leg-ribbon{flex-shrink:0;width:24px;height:9px;line-height:0;display:flex;align-items:center}.leg-ribbon svg{width:24px;height:9px;display:block;border-radius:1px;box-shadow:0 0 2px rgba(0,0,0,.6);outline:.5px solid rgba(0,0,0,.35)}@media (max-width:640px){#legend.in-sheet .leg-ribbon{width:34px;height:12px}#legend.in-sheet .leg-ribbon svg{width:34px;height:12px}.ribbon-badge .rbadge svg{width:30px;height:11px}.v-ribbons svg{width:20px;height:8px}}'; (document.head||document.documentElement).appendChild(s); }
 function vetRibbons(v){ if(typeof DISTINCTION_RIBBONS==='undefined')return ''; var out=(v.badges||[]).map(function(b){return DISTINCTION_RIBBONS[b]||(b==='KIA'?'<span class="v-kia-star">\u2605</span>':'');}).filter(Boolean); return out.length?'<span class="v-ribbons">'+out.join('')+'</span>':''; }
 
 function canonBadge(b){ const low=(b||'').toLowerCase(); for(const n of DISTINCTION_ORDER){ if(n.toLowerCase()===low) return n; } return null; }
@@ -757,6 +757,7 @@ function focusGrave(match, idx){
   document.getElementById('dirBar').classList.remove('show');
   document.body.classList.remove('sheet-open');
   document.body.classList.add('grave-focused');
+  document.body.classList.remove('vetlist-open');
   setTimeout(function(){ try { map.invalidateSize(); } catch(e){} }, 80);
   if (_youMarker) updateDirections();
 }
@@ -898,4 +899,20 @@ function syncFieldButtons(){
     window.open(url, '_blank');
   });
   acts.appendChild(d);
+})();
+
+/* ---- MOBILE MAP REDESIGN wiring (phones only) ---- */
+(function(){
+  if (!(window.matchMedia && window.matchMedia('(max-width:640px)').matches)) return;
+  var nav = document.getElementById('site-nav');
+  var ml  = document.querySelector('#header .mode-label');
+  if (nav && ml) nav.insertBefore(ml, nav.firstChild);
+  if (ml) ml.addEventListener('click', function(){ document.body.classList.toggle('vetlist-open'); });
+  if (nav){
+    var back = nav.querySelector('.nav-back'); if (back){ back.textContent = 'Return to Landing Page'; }
+    var next = nav.querySelector('.nav-next'); if (next){ next.style.display = 'none'; }
+  }
+  var g = document.getElementById('fb-guide');
+  if (g) g.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="vertical-align:middle;margin-right:5px"><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="1.7" fill="currentColor" stroke="none"/><line x1="12" y1="1.5" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22.5"/><line x1="1.5" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22.5" y2="12"/></svg>Veteran Locator';
+  try { map.on('click', function(){ document.body.classList.remove('vetlist-open'); }); } catch(e){}
 })();
