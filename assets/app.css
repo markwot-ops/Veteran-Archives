@@ -428,6 +428,10 @@ body.sun .kia-badge-star { color:#c8860a !important;
 
   /* 5: remove the free-standing crosshair */
   #locate-me { display:none !important; }
+  /* remove +/- zoom; brightness takes its top-left spot; sat/street/terrain drops below */
+  .leaflet-control-zoom { display:none !important; }
+  body #sun-toggle { top:10px !important; left:10px !important; right:auto !important; bottom:auto !important; }
+  .leaflet-top.leaflet-left { margin-top:68px; }
 
   /* 2 + 6: the A–Z veteran list becomes a LEFT drawer under the map's layer control;
      the search field / era filters / A–Z rail / drag sheet are all gone */
