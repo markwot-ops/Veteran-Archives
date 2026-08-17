@@ -431,17 +431,19 @@ body.sun .kia-badge-star { color:#c8860a !important;
 
   /* 2 + 6: the A–Z veteran list becomes a LEFT drawer under the map's layer control;
      the search field / era filters / A–Z rail / drag sheet are all gone */
-  #sheet-handle, #sidebar-top, #search, #era-filters, #distinction-filters, #az-rail { display:none !important; }
+  #sheet-handle, #sidebar-top, #search, #era-filters, #distinction-filters { display:none !important; }
   #sidebar {
     top:132px; left:8px; right:auto; bottom:auto;
-    width:min(66vw,262px); max-height:46vh;
+    width:min(76vw,300px); max-height:56vh;
     border:1px solid #5a3f27; border-top:1px solid #5a3f27; border-radius:12px;
     box-shadow:0 10px 30px rgba(0,0,0,0.6); z-index:1250; overflow:hidden;
     transform:translateX(-130%); transition:transform 0.22s ease; display:block;
   }
   body.vetlist-open #sidebar { transform:translateX(0); }
-  #list-wrap, body:not(.sheet-open) #list-wrap { display:block !important; max-height:46vh; overflow-y:auto; }
-  #vet-list { padding:4px 0; }
+  #list-wrap, body:not(.sheet-open) #list-wrap { display:flex !important; flex-direction:row-reverse; max-height:56vh; }
+  #vet-list { flex:1; overflow-y:auto; padding:4px 0; }
+  #az-rail { display:flex !important; width:23px; flex-shrink:0; border-left:none; border-right:1px solid #1e1e1e; }
+  #az-rail .az-l { font-size:0.64rem; padding:0; }
   body.grave-focused #sidebar { transform:translateX(-130%); }     /* hide list once a vet box is up */
 
   /* 3: the selected-veteran box sits at the BOTTOM, above the honors scroll */
@@ -453,6 +455,7 @@ body.sun .kia-badge-star { color:#c8860a !important;
   .fb-actions { flex-direction:row-reverse; }
 
   /* 9: Honors scroll pinned along the very bottom (as on the Honors map) */
+  #legend, body.grave-focused #legend, body.vetlist-open #legend, body.sheet-open #legend, body.sun #legend { display:block !important; }
   #legend {
     display:block !important; position:absolute; left:0; right:0; bottom:0; top:auto;
     width:auto; max-width:none; max-height:none; border-radius:0; border-left:none;
