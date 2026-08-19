@@ -459,7 +459,13 @@ body.sun .kia-badge-star { color:#c8860a !important;
   .fb-actions { flex-direction:row-reverse; }
 
   /* 9: Honors scroll pinned along the very bottom (as on the Honors map) */
-  #legend, body.grave-focused #legend, body.vetlist-open #legend, body.sheet-open #legend, body.sun #legend { display:block !important; }
+  #legend, body.vetlist-open #legend, body.sheet-open #legend, body.sun #legend { display:block !important; }
+  body.grave-focused #legend { display:none !important; }
+  #fb-honors { margin-top:8px; }
+  #fb-honors:empty { display:none; }
+  #fb-honors .v-ribbons { display:flex; flex-wrap:wrap; gap:6px; margin:0; }
+  #fb-honors .v-ribbons svg { width:34px; height:13px; }
+  #fb-honors .v-kia-star { font-size:15px; }
   #legend {
     display:block !important; position:absolute; left:0; right:0; bottom:0; top:auto;
     width:auto; max-width:none; max-height:none; border-radius:0; border-left:none;

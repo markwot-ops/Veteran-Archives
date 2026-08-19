@@ -753,6 +753,8 @@ function focusGrave(match, idx){
   document.getElementById('fb-name').textContent = titleName(match.name);
   document.getElementById('fb-service').textContent =
     serviceLine(match) + (window.SITE_BASE ? ' \u00b7 ' + window.SITE_BASE : '');
+  var _fh = document.getElementById('fb-honors');
+  if (_fh) _fh.innerHTML = (typeof vetRibbons === 'function') ? vetRibbons(match) : '';
   document.getElementById('findBanner').classList.add('show');
   document.getElementById('dirBar').classList.remove('show');
   document.body.classList.remove('sheet-open');
@@ -914,5 +916,10 @@ function syncFieldButtons(){
   }
   var g = document.getElementById('fb-guide');
   if (g) g.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="vertical-align:middle;margin-right:5px"><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="1.7" fill="currentColor" stroke="none"/><line x1="12" y1="1.5" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22.5"/><line x1="1.5" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22.5" y2="12"/></svg>Veteran Locator';
+  var _fbs = document.getElementById('fb-service');
+  if (_fbs && !document.getElementById('fb-honors')) {
+    var _fhx = document.createElement('div'); _fhx.id = 'fb-honors';
+    _fbs.parentNode.insertBefore(_fhx, _fbs.nextSibling);
+  }
   /* list closes only when a veteran is selected, or by tapping Veteran Locator again */
 })();
