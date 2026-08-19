@@ -50,15 +50,15 @@ window.VA = {
    "branchLabel": "U.S. Army – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Raymond Ovila Beaudoin was born in Holyoke on July 15, 1918, and grew up with seven siblings. He worked as a salesman and joined the Massachusetts National Guard, going to active duty about a year before the United States entered the war. He served as a First Lieutenant with Company F, 119th Infantry, 30th Infantry Division — one of the first divisions to expand the beachhead at Normandy. On April 6, 1945, leading his platoon across flat, open ground toward Hamelin, Germany, his men were pinned by a devastating curtain of machine-gun and automatic-weapons fire from three directions. He rotated his men into firing positions so all could dig in, moving through the fire to encourage them and distribute ammunition, then dug in at the most advanced position himself, killing six enemy soldiers. Three runners sent back for help were killed by snipers. To save his platoon, Beaudoin decided to make a one-man attack on the deadliest sniper nest, ninety yards off, to draw fire from a fourth runner. He crawled over completely exposed ground under eight rounds of bazooka fire that threw mud and stones over him and rifle fire that ripped his uniform. Ten yards out he stood up and charged, killing two men at point-blank range, overpowering and killing a third who tried to bayonet him, while the fourth was cut down by his platoon. He ran on toward a dugout and was killed there by a burst of machine-gun fire. He was twenty-six. The runner got through, help came, and the platoon was saved. On January 25, 1946, his family accepted the Medal of Honor on his behalf. Raymond Ovila Beaudoin was born in Holyoke, one of eight children, and worked as a salesman before the war. He was in the Massachusetts National Guard, and went to the active-duty Army about a year before the United States entered the war, serving with Company F of the 119th Infantry, 30th Infantry Division — one of the first divisions to widen the beachhead at Normandy. On April 6, 1945, a month before the end in Europe, he was leading his platoon over flat open ground toward Hamelin when fire came at them from three directions and pinned them where they lay. He rotated his men through the firing positions so each of them could dig, and dug in himself at the most exposed spot. Three men sent back for ammunition and help were shot by snipers. To draw fire off a fourth runner, he made a one-man attack on the worst sniper nest, ninety yards to his right, crawling over open ground through eight rounds of bazooka fire. He reached it and cleared it. He went on to a dugout and was killed there by machine-gun fire. The runner got through and the platoon was saved. He was awarded the Medal of Honor posthumously; his family accepted it on January 25, 1946. He was born in this city but he is not buried in it — he lies in Notre Dame Cemetery in South Hadley, plot C-327. A Navy transport was named for him. In 2018 a memorial to Holyoke's three Medal of Honor men — Beaudoin, John MacKenzie and Joseph Muller — was unveiled in a park in the city. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/beaudoin_raymond_o_portrait.jpg",
+   "extraPhotos": [],
+   "narrative": "Raymond Ovila Beaudoin was born in Holyoke, one of eight children, and worked as a salesman before the war. He joined the Massachusetts National Guard, and went active-duty about a year before the United States entered the war. As a First Lieutenant with Company F, 119th Infantry, 30th Infantry Division — his was one of the first divisions to expand the beachhead at Normandy. On April 6, 1945, a month before the end in Europe, he was leading his platoon over flat open ground toward Hamelin, Germany when he and his men were pinned by a devastating curtain of machine-gun and automatic-weapons fire from three directions. He rotated his men through the firing positions so each of them could dig, and dug in himself at the most exposed spot. Three men sent back for ammunition and help were shot by snipers. To draw fire off a fourth runner, Beaudoin made a one-man attack on the worst sniper nest, ninety yards to his right, crawling over open ground through eight rounds of bazooka fire that threw mud and stones over him and rifle fire that ripped his uniform. Ten yards out he stood up and charged, killing two men at point-blank range, overpowering and killing a third who tried to bayonet him, while the fourth was cut down by his platoon. He ran on toward a dugout and was killed there by a burst of machine-gun fire. The runner got through and the platoon was saved. Lieutenant Raymond Ovila Beaudoin was awarded the Medal of Honor posthumously; his family accepted it on January 25, 1946. He was born in this city but he is not buried in it — he lies in Notre Dame Cemetery in South Hadley, plot C-327. A Navy transport was named for him. And in 2018 a memorial to Beaudoin, and Holyoke's two other Medal of Honor veterans — John MacKenzie and Joseph Muller — was unveiled in Veterans Park, in the city. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA",
     "Medal of Honor"
    ],
    "status": "queue",
-   "source": "research-queue",
-   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/beaudoin_raymond_o_portrait.jpg",
-   "extraPhotos": []
+   "source": "research-queue"
   },
   {
    "id": "beaudreau_raymond_v",
@@ -223,7 +223,7 @@ window.VA = {
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "bourque_valmore_w",
    "name": "Bourque, Valmore W.",
    "era": "Vietnam War",
@@ -231,14 +231,14 @@ window.VA = {
    "branchLabel": "U.S. Air Force – Vietnam War",
    "lat": null,
    "lng": null,
-   "narrative": "Valmore William Bourque, born in Holyoke on July 23, 1936, was a Captain and transport pilot in the United States Air Force. On October 24, 1964, at 28 years old, he was killed when his C-123 Provider — the workhorse that carried men and supplies into the rough forward strips of South Vietnam — was brought down by enemy gunfire. He died at the controls, in his country's service, one of the earliest losses of the Vietnam War from the Holyoke area. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — v1 original] Valmore William Bourque, born in Holyoke on July 23, 1936, was a Captain and transport pilot in the United States Air Force. On October 24, 1964, at 28 years old, he was killed when his C-123 Provider — the workhorse that carried men and supplies into the rough forward strips of South Vietnam — was brought down by enemy gunfire. He died at the controls, in his country's service, one of the earliest losses of the Vietnam War from the Holyoke area.  ═══  [DRAFT — v3 roster] Captain Valmore Bourque was born in Holyoke, Massachusetts, and was the son of Mr. and Mrs. Valmore Bourque of 381 North Main Street, South Hadley Falls. Serving as a pilot in the United States Air Force, Captain Bourque flew transport missions during the early stages of the Vietnam War. In October 1964, while piloting a C-123 transport aircraft over South Vietnam, his plane was hit by ground fire and brought down, resulting in his death in action. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
-    "Purple Heart"
+    "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "bousquet_robert_g",
    "name": "Bousquet, Robert G.",
    "era": "Vietnam War",
@@ -246,9 +246,9 @@ window.VA = {
    "branchLabel": "U.S. Marine Corps – Vietnam War",
    "lat": null,
    "lng": null,
-   "narrative": "Robert George Bousquet, born in Holyoke on September 30, 1940, was a Corporal in the United States Marine Corps, serving with Company A, 3rd Anti-Tank Battalion, 3rd Marine Division. On August 18, 1965 — the opening day of Operation Starlite, the first major ground battle American forces fought in the Vietnam War — he was killed at 24 years old as the Marines struck a Viet Cong regiment on the Van Tuong peninsula near Chu Lai. He fell in that first great clash of the ground war, a Holyoke Marine who died at the very moment America's war in Vietnam turned from skirmish to full-scale combat. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — v1 original] Robert George Bousquet, born in Holyoke on September 30, 1940, was a Corporal in the United States Marine Corps, serving with Company A, 3rd Anti-Tank Battalion, 3rd Marine Division. On August 18, 1965 — the opening day of Operation Starlite, the first major ground battle American forces fought in the Vietnam War — he was killed at 24 years old as the Marines struck a Viet Cong regiment on the Van Tuong peninsula near Chu Lai. He fell in that first great clash of the ground war, a Holyoke Marine who died at the very moment America's war in Vietnam turned from skirmish to full-scale combat.  ═══  [DRAFT — v2 detailed] Robert George Bousquet was born on September 30, 1940, growing up in Holyoke during an era when the “Paper City” was a bustling industrial powerhouse with active storefronts along High Street and families tightly packed into neighborhoods near the canals. In 1950, his family resided at 411 Main Street in Holyoke, a dense neighborhood center defined by multi-family tenements, local immigrant grocers, and nearby mills. Robert stepped away from civilian life to answer the call of service, enlisting in the United States Marine Corps. He attained the rank of Corporal and served as an anti-tank specialist with Alpha Company, 3rd Antitank Battalion, 3rd Marine Division. Corporal Bousquet was deployed to South Vietnam during the initial, pivotal buildup of American conventional combat forces in the region. On August 18, 1965, his unit was operating in the hostile environment of the Quảng Tín Province when he was tragically killed in action. At just 24 years of age, his loss reverberated back across the ocean to Main Street and the close-knit Holyoke community. Corporal Bousquet is honored permanently on Panel 2E, Line 54 of the Vietnam Veterans Memorial Wall in Washington, D.C.  ═══  [DRAFT — v3 roster] Corporal Robert Bousquet was the son of Mrs. Dorothy Bousquet of 411 Main Street and Raymond Bousquet of 275 Maple Street, Holyoke, Massachusetts. Serving as a Corporal in the United States Marine Corps, Bousquet deployed to South Vietnam during the major buildup of Marine forces in 1965. On August 18, 1965, Corporal Bousquet was killed in action during combat operations near Chu Lai. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
-    "Purple Heart"
+    "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
@@ -1454,7 +1454,7 @@ window.VA = {
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "giroux_ronald",
    "name": "Giroux, Ronald",
    "era": "Vietnam War",
@@ -1462,9 +1462,9 @@ window.VA = {
    "branchLabel": "U.S. Army – Vietnam War",
    "lat": null,
    "lng": null,
-   "narrative": "Ronald Giroux, born August 21, 1946, was a Private First Class in the United States Army, serving with the 1st Cavalry Division (Airmobile) — the helicopter-borne division that had written its name in blood in the Ia Drang Valley, the highland battleground where American and North Vietnamese regulars first met in force, and now carried the air-assault war across Vietnam's central highlands and coastal plains. The son of Joseph Wilfred Giroux, he was killed in action on December 28, 1966, at 20 years old. He died among the troopers of the Airmobile, in a new kind of war fought from the sky and settled on the ground. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — v1 original] Ronald Giroux, born August 21, 1946, was a Private First Class in the United States Army, serving with the 1st Cavalry Division (Airmobile) — the helicopter-borne division that had written its name in blood in the Ia Drang Valley, the highland battleground where American and North Vietnamese regulars first met in force, and now carried the air-assault war across Vietnam's central highlands and coastal plains. The son of Joseph Wilfred Giroux, he was killed in action on December 28, 1966, at 20 years old. He died among the troopers of the Airmobile, in a new kind of war fought from the sky and settled on the ground.  ═══  [DRAFT — v2 detailed] Ronald Giroux was born on August 21, 1946, and spent his formative youth embedded in the neighborhood grit of Holyoke’s historic grid. He grew up at 291 Walnut Street, the son of Joseph Wilfred Giroux and Leona Madelyn Proper. During his early years, Holyoke was transitioning away from its status as the world’s preeminent paper manufacturing city, yet the community’s dense, industrial neighborhood fabric remained deeply close-knit. Young men of his generation split time between local high school campuses, local sporting leagues, and the city’s vibrant downtown. Ronald was drafted or enlisted as the American military footprint in Southeast Asia radically accelerated. He deployed to Vietnam as a Private First Class assigned to the 15th Administration Replacement Company, 1st Cavalry Division (Airmobile), entering theater during a highly aggressive phase of the airmobile infantry campaigns. On December 28, 1966, at just 20 years old, PFC Giroux was tragically killed in action in the Bình Định province of South Vietnam. Back home in Holyoke, where news of the mounting war casualties was felt deeply on a block-by-block level, his loss struck the heart of the Walnut Street community. His remains were returned to his native city, and he was laid to rest in Forestdale Cemetery, where his name stands forever as a testament to the sacrifice of Holyoke’s youth. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
-    "Purple Heart"
+    "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
@@ -1984,7 +1984,7 @@ window.VA = {
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "kaster_leonard_l",
    "name": "Kaster, Leonard L.",
    "era": "Vietnam War",
@@ -1992,9 +1992,9 @@ window.VA = {
    "branchLabel": "U.S. Air Force – Vietnam War",
    "lat": null,
    "lng": null,
-   "narrative": "Leonard Lee Kaster, born in Holyoke on September 24, 1938, was a First Lieutenant in the United States Air Force. He died on August 6, 1964 — at just 25 years old — in an aircraft crash in South Vietnam, during the early years when American airmen were already flying and dying over a country most of their countrymen could not yet find on a map. He was among the very first Holyoke men lost in what would become the nation's longest war. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — v1 original] Leonard Lee Kaster, born in Holyoke on September 24, 1938, was a First Lieutenant in the United States Air Force. He died on August 6, 1964 — at just 25 years old — in an aircraft crash in South Vietnam, during the early years when American airmen were already flying and dying over a country most of their countrymen could not yet find on a map. He was among the very first Holyoke men lost in what would become the nation's longest war.  ═══  [DRAFT — v2 detailed] Leonard Lee Kaster was born in Holyoke on September 24, 1938. He grew up in an era when Holyoke was defined by its formidable metal and textile foundries. His mother, Mrs. Regina Y. Shea, lived locally at 7 Sylvia Lane, a suburban pocket representative of Holyoke’s post-WWII housing growth. Electing a path of military leadership, Leonard entered the U.S. Air Force via the Reserve Military program, pinning on the rank of First Lieutenant and training as an aircraft navigator. Lt. Kaster commenced his combat deployment on August 6, 1964 — coinciding exactly with the immediate geopolitical fallout of the Gulf of Tonkin incident. On that very first day of his official tour, his B-57B Canberra tactical bomber, piloted by Captain Fred C. Cutrer Jr., flew an operational mission over South Vietnam. The aircraft encountered severe hostile circumstances over Long Khanh Province and crashed northeast of Tan Son Nhut Airfield, killing both crewmen. For decades, Kaster was listed as Missing in Action (MIA). In Holyoke, his absence left an open wound for a generation, symbolized locally by residents wearing MIA bracelets to preserve his memory. The long period of uncertainty finally closed when a joint recovery team located the crash site; his remains were repatriated on May 21, 1997, and officially identified in 2001. His legacy continues to be honored locally along Holyoke’s designated Purple Heart Trail.  ═══  [DRAFT — v3 roster] First Lieutenant Leonard L. Kaster was born in Holyoke, Massachusetts, and was the son of Mrs. Regina Y. Shea of 7 Sylvia Lane, Holyoke. Serving as an officer in the United States military, First Lieutenant Kaster deployed to Southeast Asia during the opening year of major U.S. operational expansion. In August 1964, he was killed in an aircraft crash while on active duty in South Vietnam. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
-    "Purple Heart"
+    "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
@@ -2037,7 +2037,7 @@ window.VA = {
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "kierzek_stanley_p",
    "name": "Kierzek, Stanley P.",
    "era": "Vietnam War",
@@ -2045,9 +2045,9 @@ window.VA = {
    "branchLabel": "U.S. Army – Vietnam War",
    "lat": null,
    "lng": null,
-   "narrative": "Stanley P. Kierzek, born in Holyoke on April 20, 1942, served as a Specialist Five in the United States Army Special Forces — the Green Berets. Theirs was the hardest duty of the early war. Formed to train and fight alongside indigenous forces, the Special Forces manned isolated camps in the mountains and jungles of the Central Highlands, a dozen Americans among hundreds of Montagnard tribesmen, days from reinforcement and surrounded by an enemy that owned the ground between them. President Kennedy himself had authorized the green beret they wore, calling it a mark of distinction and a badge of courage. Kierzek was killed on July 20, 1965, at just 23 years old, and holds a somber distinction: he was the first Holyoke man to die in the Vietnam War. His death marked the moment the war stopped being a distant advisory mission and became, for Holyoke, a war that took its sons. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — v1 original] Stanley P. Kierzek, born in Holyoke on April 20, 1942, served as a Specialist Five in the United States Army Special Forces — the Green Berets. Theirs was the hardest duty of the early war. Formed to train and fight alongside indigenous forces, the Special Forces manned isolated camps in the mountains and jungles of the Central Highlands, a dozen Americans among hundreds of Montagnard tribesmen, days from reinforcement and surrounded by an enemy that owned the ground between them. President Kennedy himself had authorized the green beret they wore, calling it a mark of distinction and a badge of courage. Kierzek was killed on July 20, 1965, at just 23 years old, and holds a somber distinction: he was the first Holyoke man to die in the Vietnam War. His death marked the moment the war stopped being a distant advisory mission and became, for Holyoke, a war that took its sons.  ═══  [DRAFT — v2 detailed] Stanley P. Kierzek was born on April 20, 1942, growing up in Holyoke during a vibrant mid-century era. During his youth, the “Paper City” was active with local neighborhoods strongly defined by their cultural clubs, neighborhood parishes, and bustling shopping storefronts along High Street. Stanley pursued a path toward higher education, completing two years of study at the University of Massachusetts before stepping forward to enlist in military service. He rose to the rank of Specialist Five (SP5) in the U.S. Army, applying his intelligence and dedication to his assigned unit duties. Specialist Kierzek deployed to South Vietnam during the early operational buildup of American ground forces. On July 20, 1965, at 23 years of age, Stanley lost his life. News of his passing hit Holyoke deeply, reinforcing the immediate and personal impact of the expanding foreign conflict on local working-class households. Decades later, his ultimate sacrifice is preserved on the local Purple Heart Trail and on Panel 2E, Line 41 of the national Vietnam Veterans Memorial Wall.  ═══  [DRAFT — v3 roster] Sergeant Stanley J. Kierzek, Jr. was born to Mr. and Mrs. Stanley J. Kierzek of 119 Walnut Street, Holyoke, Massachusetts. Enlisting in the United States Army, Sergeant Kierzek qualified for elite service with the U.S. Army Special Forces (Green Berets). Deployed to South Vietnam, he was killed in action on July 20, 1965. Sergeant Kierzek holds the solemn distinction of being the first service member from Holyoke to die in the Vietnamese ground war. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
-    "Purple Heart"
+    "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
@@ -2091,7 +2091,7 @@ window.VA = {
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "labonte_donald_a",
    "name": "Labonte, Donald A.",
    "era": "Vietnam War",
@@ -2099,9 +2099,9 @@ window.VA = {
    "branchLabel": "U.S. Navy – Vietnam War",
    "lat": null,
    "lng": null,
-   "narrative": "Donald Arthur Labonte, born March 9, 1944, was a Navy Hospital Corpsman — one of the \"Docs\" who served alongside the Marines and were the first hope of every wounded man on the battlefield. He was the son of Louis A. and Lucey A. (Mercier) Labonte and the husband of Patricia Marie (McAuley) Labonte, and he left two small sons, Michael Daniel and Robert Donald — the younger only seven months old — whom he had never seen. On February 28, 1968, at 23 years old, he was killed in a helicopter crash near Khe Sanh while aiding in the evacuation and treatment of casualties, dying as corpsmen so often died: going toward the wounded, not away. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — v1 original] Donald Arthur Labonte, born March 9, 1944, was a Navy Hospital Corpsman — one of the \"Docs\" who served alongside the Marines and were the first hope of every wounded man on the battlefield. He was the son of Louis A. and Lucey A. (Mercier) Labonte and the husband of Patricia Marie (McAuley) Labonte, and he left two small sons, Michael Daniel and Robert Donald — the younger only seven months old — whom he had never seen. On February 28, 1968, at 23 years old, he was killed in a helicopter crash near Khe Sanh while aiding in the evacuation and treatment of casualties, dying as corpsmen so often died: going toward the wounded, not away.  ═══  [DRAFT — v2 detailed] Donald Arthur Labonte was born on March 9, 1944, and spent his formative years in a bustling, industrious Holyoke. The city’s landscape featured large multi-family tenements and brick canal mills, undergoing post-WWII shifts but still retaining a deeply interconnected civic pride. Choosing a specialized and vital military pathway, Donald trained as a Navy Hospitalman, serving as an embedded medical corpsman directly alongside ground combat forces. He was assigned to Headquarters and Service Company, 2nd Battalion, 26th Marines, 3rd Marine Division. Hospitalman Labonte deployed to the fierce combat environments of the Quảng Trị Province during the height of the 1968 Tet Offensive. On February 28, 1968, he was aboard a CH-46D Sea Knight helicopter en route from Đông Hà to Khê Sanh on a critical transport mission. The aircraft was struck by intense hostile automatic weapons fire near the Cam Lộ border, catching fire and crashing. Donald was killed alongside 22 fellow servicemen at 24 years old. He was brought home to his grieving community and laid to rest locally in Saint Jerome Cemetery, while his name remains etched on Panel 41E, Line 68 of the Vietnam Wall.  ═══  [DRAFT — v3 roster] Hospitalman Donald Arthur LaBonte was born on March 9, 1944, and claimed Holyoke, Hampden County, Massachusetts as his home city of record. Serving as a medical corpsman in the United States Navy, HN LaBonte was deployed in support of combat units in South Vietnam. He was killed in the line of duty on February 28, 1968. His remains were recovered. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
-    "Purple Heart"
+    "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
@@ -2150,7 +2150,7 @@ window.VA = {
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "lacus_george_d_jr",
    "name": "Lacus, George D., Jr.",
    "era": "Vietnam War",
@@ -2158,10 +2158,8 @@ window.VA = {
    "branchLabel": "U.S. Marine Corps – Vietnam War",
    "lat": null,
    "lng": null,
-   "narrative": "George Donald Lacus Jr., born August 8, 1947, was a Private First Class in the United States Marine Corps, 3rd Marine Division, and the son of George Sr. and Pauline (St. Laurent) Lacus. He was serving his second tour of duty in Vietnam when he was killed in action at Da Nang on October 26, 1967, at just 20 years old. That he had already served one tour and returned to the war speaks to the kind of man he was; he died at Da Nang, the great Marine base in I Corps — the northernmost military region of South Vietnam, where the Marines held the line against North Vietnamese regulars. He was a Holyoke Marine who gave more than once and, in the end, gave everything. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [
-    "Purple Heart"
-   ],
+   "narrative": "[DRAFT — v1 original] George Donald Lacus Jr., born August 8, 1947, was a Private First Class in the United States Marine Corps, 3rd Marine Division, and the son of George Sr. and Pauline (St. Laurent) Lacus. He was serving his second tour of duty in Vietnam when he was killed in action at Da Nang on October 26, 1967, at just 20 years old. That he had already served one tour and returned to the war speaks to the kind of man he was; he died at Da Nang, the great Marine base in I Corps — the northernmost military region of South Vietnam, where the Marines held the line against North Vietnamese regulars. He was a Holyoke Marine who gave more than once and, in the end, gave everything.  ═══  [DRAFT — v2 detailed] George Donald Lacus Jr. was born on August 8, 1947, entering a post-war Holyoke experiencing suburban expansion alongside its dense, historic downtown core. The Lacus family was deeply rooted locally, with his father, George Lacus Sr., an active member of the community and the Marine Corps League. Imbued with this family tradition of military dedication, George Jr. enlisted in the regular Marine Corps as an infantry rifleman. He attained the rank of Private First Class and deployed for duty assigned to Hotel Company, 2nd Battalion, 3rd Marines, 3rd Marine Division. PFC Lacus served in the hazardous terrain of South Vietnam during his second tour of duty. On October 26, 1967, at just 20 years old, his life was tragically cut short in a non-hostile accidental incident in the Quảng Nam province. His sudden loss brought immediate grief to his family and neighbors back home in Hampden County. Today, PFC Lacus is remembered by his community for his dedicated service, with his name permanently honored on Panel 28E, Line 75 of the Vietnam Veterans Memorial.  ═══  [DRAFT — v3 roster] Private First Class George Donald Lacus Jr. was born on August 8, 1947, and recorded Holyoke, Hampden County, Massachusetts as his home city. Enlisting in the United States Marine Corps, PFC Lacus deployed to South Vietnam, where he was killed in action on October 26, 1967. His remains were recovered. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
@@ -2653,7 +2651,7 @@ window.VA = {
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "mccann_vincent_o_jr",
    "name": "McCann, Vincent O., Jr.",
    "era": "Vietnam War",
@@ -2661,9 +2659,9 @@ window.VA = {
    "branchLabel": "U.S. Army – Vietnam War",
    "lat": null,
    "lng": null,
-   "narrative": "Vincent Owen McCann Jr., born January 10, 1948, was a Corporal in the United States Army, serving with F Troop, 17th Cavalry — the armored reconnaissance troop of the 196th Light Infantry Brigade, Americal Division. As a cavalry scout he rode with the unit that ranged ahead of the brigade, probing for the enemy and screening its flanks — dangerous, exposed work that put the recon troopers in contact before anyone else. He was the husband of Christine (Petit) McCann and the son of Vincent and Frances (LaPierre) McCann, and he left a daughter, Kathleen, who would grow up knowing her father only through the memories of others. He was killed in Vietnam on December 26, 1969 — the day after Christmas — at just 21 years old. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — v1 original] Vincent Owen McCann Jr., born January 10, 1948, was a Corporal in the United States Army, serving with F Troop, 17th Cavalry — the armored reconnaissance troop of the 196th Light Infantry Brigade, Americal Division. As a cavalry scout he rode with the unit that ranged ahead of the brigade, probing for the enemy and screening its flanks — dangerous, exposed work that put the recon troopers in contact before anyone else. He was the husband of Christine (Petit) McCann and the son of Vincent and Frances (LaPierre) McCann, and he left a daughter, Kathleen, who would grow up knowing her father only through the memories of others. He was killed in Vietnam on December 26, 1969 — the day after Christmas — at just 21 years old.  ═══  [DRAFT — v2 detailed] Vincent Owen McCann Jr. was born on January 10, 1948, growing up in a post-WWII Holyoke that was transitioning its heavy industrial core into modern civic infrastructure. The McCann name was tightly woven into the local public landscape; his father, Vincent O. McCann Sr., was a proud World War II veteran who spent decades with the city’s Department of Public Works. Vincent Jr. attended the local public schools during a decade defined by cultural transformation and the growing shadow of the draft. In the late 1960s, he entered the United States Army through Selective Service. Corporal McCann arrived in South Vietnam on September 21, 1969, serving as an Armor Intelligence Specialist with F Troop, 17th Cavalry, 196th Light Infantry Brigade, within the Americal Division. He was operating in the highly contested Quảng Tín Province when he was killed by hostile action from multiple fragmentation wounds on December 26, 1969. His sudden loss devastated his close-knit family, leaving behind an eight-month-old daughter and casting a somber mood across Holyoke over the holidays. His legacy remains permanently chiseled on Panel 15W, Line 95 of the National Vietnam Veterans Memorial.  ═══  [DRAFT — v3 roster] Corporal Vincent Owen McCann Jr. was born on January 10, 1948, and listed Holyoke, Hampden County, Massachusetts as his home city of record. Serving in the United States Army during the Vietnam War, Cpl McCann was killed in the line of duty on December 26, 1969. His remains were recovered. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
-    "Purple Heart"
+    "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
@@ -2885,20 +2883,15 @@ window.VA = {
    "branchLabel": "U.S. Army – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Joseph E. Muller was born on June 23, 1908, a Holyoke native. He joined the Army in March 1942 and served as a Sergeant with Company B, 305th Infantry Regiment, 77th Infantry Division. On May 15, 1945, in the battle for a ridge near Ishimmi on Okinawa, he exposed himself to enemy fire and charged the Japanese positions alone. The next morning, when Japanese soldiers attempted to retake the ridge, he charged and routed them again. When an enemy soldier threw a hand grenade into his foxhole, Muller threw himself onto it to shield two of his comrades. He was killed in the explosion. He was thirty-six years old. The Medal of Honor was awarded posthumously on July 17, 1946. The Joseph E. Muller Bridge in Holyoke carries his name. Joseph Edward Muller was born in Holyoke, the fourth of eleven children. His father died of influenza when he was ten. He could not find work in the Depression and went into the Civilian Conservation Corps, moving from camp to camp, and he was thirty-three — old for a rifleman — when he joined the Army from New York City in March 1942. He was a sergeant in Company B, 305th Infantry, 77th Infantry Division. On May 15, 1945, near Ishimmi on Okinawa, his platoon was stopped by fire from a defended ridge. He placed his men where they could shoot, then went forward alone and drove the enemy into the open, where his squad cut them down. The next morning they came back to retake the ridge and he routed them again. Then a grenade came into the foxhole he was sharing with two other men, and he threw himself onto it. The two men lived. He was awarded the Medal of Honor posthumously on July 17, 1946; his mother received it that August. He was born in this city but he is not buried in it — he lies in the National Memorial Cemetery of the Pacific, the Punchbowl, in Honolulu, Section N, Grave 1259. The bridge over the Connecticut River between Holyoke and South Hadley carries his name, and in 2018 a memorial to Holyoke's three Medal of Honor men was unveiled in a park in the city. The portrait on this entry is not a photograph of him: it is an artificial-intelligence reconstruction drawn from the one sketch that survives, and it should not be mistaken for his face. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/muller_joseph_e_ai_portrait.jpg",
+   "extraPhotos": [{"src": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/muller_joseph_e_moh_sketch.jpg", "caption": "✏️ The sketch the portrait was drawn from"}],
+   "narrative": "Joseph Edward Muller was born in Holyoke, the fourth of eleven children. His father died of influenza when he was ten. He could not find work in the Depression and went into the Civilian Conservation Corps, moving from camp to camp. He was thirty-three — old for a rifleman — when he joined the Army from New York City in March 1942. He was a sergeant in Company B, 305th Infantry, 77th Infantry Division, when on May 15, 1945, near Ishimmi on Okinawa, his platoon was stopped by fire from a defended ridge. He placed his men where they could shoot, then went forward alone and drove the enemy into the open, where his squad cut them down. The next morning they came back to retake the ridge and he routed them again. Then a grenade came into the foxhole he was sharing with two other men, and he threw himself onto it. The two men lived. He was awarded the Medal of Honor posthumously on July 17, 1946; his mother received it that August. He was born in this city but — he lies in the National Memorial Cemetery of the Pacific, the Punchbowl, in Honolulu, Section N, Grave 1259. The bridge over the Connecticut River between Holyoke and South Hadley carries his name, and in 2018 a memorial to Holyoke's three Medal of Honor men was unveiled in Veterans Park. The portrait on this entry is not a photograph of him: it is an AI reconstruction drawn from the one sketch that survives. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA",
     "Medal of Honor"
    ],
    "status": "queue",
-   "source": "research-queue",
-   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/muller_joseph_e_ai_portrait.jpg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/muller_joseph_e_moh_sketch.jpg",
-     "caption": "✏️ The sketch the portrait was drawn from"
-    }
-   ]
+   "source": "research-queue"
   },
   {
    "id": "murphy_william_j",
@@ -2915,20 +2908,20 @@ window.VA = {
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "narey_martin_r",
    "name": "Narey, Martin R.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
-   "narrative": "[FIRST DRAFT] Martin R. Narey of Holyoke was killed in action on March 8, 1951, during the Korean War. He appears on Holyoke's roll of the Second World War dead as a bare name, with no unit and no date; the city's Korean War casualty list gives him the date above. He is carried here as a Korean War casualty on the ruling of the Veterans Graves Officer. His unit and his resting place have not yet been recovered from the record, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "status": "queue",
-   "source": "research-queue",
+   "narrative": "[DRAFT — existing] Martin R. Narey of Holyoke was killed in action on March 8, 1951, during the Korean War. He appears on Holyoke's roll of the Second World War dead as a bare name, with no unit and no date; the city's Korean War casualty list gives him the date above. He is carried here as a Korean War casualty on the ruling of the Veterans Graves Officer. His unit and his resting place have not yet been recovered from the record, and that search continues.  ═══  [DRAFT — Korean roster] grew up in Holyoke during a vibrant mid-century era when the city's distinct neighborhoods were anchored by strong family businesses, local sports associations, and crowded public schools. Families of his generation frequently spent their free time at downtown soda fountains, local athletic fields, or gathering at local parishes. Answering the call of his country, Martin entered the United States Army. He trained as an infantry rifleman, achieved the rank of Private First Class (PFC), and deployed to the war zone with the 31st Infantry Regiment, 7th Infantry Division. PFC Narey was thrust directly into the brutal, hill-by-hill defensive attrition that came to define the conflict. On October 15, 1952, his unit was engaged in the brutal, close- quarters defense of the hills during the Battle of Triangle Hill when he was tragically killed in action. Back home in Holyoke, the news of his death struck a deeply personal chord among his childhood friends and neighbors, serving as a poignant reminder of the fierce battles being waged overseas. His name is permanently engraved in honor at the Korean Veterans Memorial Plaza in Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
+   "status": "queue",
+   "source": "research-queue",
    "sourceNote": "Listed in error among Holyoke's World War II dead. If that list of 211 contains other men who fell in Korea, the long-standing count discrepancy (197 confirmed / 211 Harper / 212 city memorial) may be partly explained by it."
   },
   {
@@ -3406,7 +3399,7 @@ window.VA = {
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "richey_neal_o",
    "name": "Richey, Neal O.",
    "era": "Vietnam War",
@@ -3414,9 +3407,9 @@ window.VA = {
    "branchLabel": "U.S. Marine Corps – Vietnam War",
    "lat": null,
    "lng": null,
-   "narrative": "Neal O. Richey, born January 19, 1936, was a Staff Sergeant in the United States Marine Corps — a career noncommissioned officer, one of the seasoned Marines who anchored their units and led younger men in the field. At twenty-nine, in the early days of America's ground war, he gave his life in his country's service on October 20, 1965. He is honored here among Holyoke's own who did not return from Vietnam. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — v1 original] Neal O. Richey, born January 19, 1936, was a Staff Sergeant in the United States Marine Corps — a career noncommissioned officer, one of the seasoned Marines who anchored their units and led younger men in the field. At twenty-nine, in the early days of America's ground war, he gave his life in his country's service on October 20, 1965. He is honored here among Holyoke's own who did not return from Vietnam.  ═══  [DRAFT — v3 roster] Staff Sergeant Neal Olin Richey was born on January 19, 1936, and claimed Holyoke, Hampden County, Massachusetts as his home city of record. Serving in the United States Marine Corps, SSgt Richey deployed to South Vietnam during the expansion of Marine ground operations. He was killed in action on October 20, 1965. His remains were recovered. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
-    "Purple Heart"
+    "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
@@ -3562,7 +3555,7 @@ window.VA = {
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "seklecki_thomas_m",
    "name": "Seklecki, Thomas M.",
    "era": "Vietnam War",
@@ -3570,9 +3563,11 @@ window.VA = {
    "branchLabel": "U.S. Army – Vietnam War",
    "lat": null,
    "lng": null,
-   "narrative": "Thomas Martin Seklecki, born May 11, 1946, was a Specialist 4 in the United States Army. He was killed on March 21, 1967, at 20 years old, near a base camp in Vietnam — the kind of place where American soldiers were never truly out of the fight, exposed to mortar fire, sappers, and ambush even behind the wire. He gave his life in the service of his country, a young Holyoke man lost in the war's hardest years of escalation. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — v1 original] Thomas Martin Seklecki, born May 11, 1946, was a Specialist 4 in the United States Army. He was killed on March 21, 1967, at 20 years old, near a base camp in Vietnam — the kind of place where American soldiers were never truly out of the fight, exposed to mortar fire, sappers, and ambush even behind the wire. He gave his life in the service of his country, a young Holyoke man lost in the war's hardest years of escalation.  ═══  [DRAFT — v2 detailed] Thomas Martin Seklecki was born on May 11, 1946, the son of Chester H. Seklecki. He spent his early life exploring Holyoke’s brick canal districts and active streetcar grids, in an era when the “Paper City” possessed an expansive public and parochial school system that nurtured strong bonds of community, athletic competition, and civic duty among its working-class children. After completing his schooling, Thomas entered the United States Army, where he specialized as a wireman and technical signals specialist. Specialist Four Seklecki was assigned to A Battery, 2nd Battalion, 77th Artillery, 4th Infantry Division. He deployed to the frontline combat zones of Southeast Asia, working directly under fire to establish and maintain crucial command communications. On March 21, 1967, at 20 years old, SP4 Seklecki was killed in action by small arms fire during intense operations in the Tây Ninh Province of South Vietnam. His sacrifice hit the heart of Holyoke’s Polish-American community. He was posthumously awarded the Purple Heart and the Combat Infantryman Badge, and his name remains permanently chiseled on Panel 17E, Line 13 of the National Vietnam Wall.  ═══  [DRAFT — v3 roster] Specialist Four Thomas Martin Seklecki was born on May 11, 1946, and listed Holyoke, Hampden County, Massachusetts as his home city of record. Enlisting in the United States Army, SP4 Seklecki deployed to South Vietnam, where he was killed in action on March 21, 1967. His remains were recovered. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
-    "Purple Heart"
+    "KIA",
+    "Purple Heart",
+    "Combat Infantryman Badge"
    ],
    "status": "queue",
    "source": "research-queue"
@@ -5331,25 +5326,24 @@ window.VA = {
    "source": "zack-roster-placeholder",
    "narrative": "[FIRST DRAFT] George D. Crosby of Holyoke served as a private in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
   },
-  {
+    {
    "id": "zack_roster_crosier_william",
    "name": "Crosier, William J.",
-   "era": [
-    "Spanish-American War",
-    "World War I"
-   ],
+   "era": ["Spanish-American War", "World War I"],
+   "branch": "Army",
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
    "extraPhotos": [
     {
-     "caption": "📜 San Juan and El Caney (1898)",
-     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html"
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/company-d-1898.html",
+     "caption": "📜 San Juan and El Caney (1898)"
     }
    ],
+   "narrative": "William J. Crosier was a cornerstone of Holyoke’s late-19th-century civic and military architecture. Long before the 1898 mobilization, he was deeply embedded in the “Paper City’s” local color, working as a skilled regional artisan while dedicating his evenings to the Massachusetts Volunteer Militia. When President McKinley called for volunteers to answer the crisis in Cuba, Crosier was elected to lead Company D of the 2nd Massachusetts Infantry as its Captain. He marched his men out of the local armory on May 3, 1898, surrounded by thousands of cheering citizens packing High and Dwight streets. Capt. Crosier guided his hometown company through grueling training camp conditions in the American South and into the tropical combat theater of Cuba. He led them directly through the chaotic and malaria-ridden elements of the Santiago Campaign, demonstrating unwavering leadership until the company was safely mustered out in the autumn of 1898. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
    "status": "queue",
-   "source": "zack-roster-placeholder",
-   "narrative": "[FIRST DRAFT] William J. Crosier of Holyoke served as a captain in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
+   "source": "zack-roster-placeholder"
   },
   {
    "id": "zack_roster_cutler_willard",
@@ -5619,19 +5613,18 @@ window.VA = {
    "status": "queue",
    "source": "zack-roster-placeholder"
   },
-  {
+    {
    "id": "zack_roster_hunter_robert",
-   "name": "Hunter, Robert M.",
-   "era": [
-    "Spanish-American War",
-    "World War I"
-   ],
+   "name": "Hunter, Robert W.",
+   "era": ["Spanish-American War", "World War I"],
+   "branch": "Army",
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
+   "narrative": "Robert W. Hunter grew up in a rapidly expanding Holyoke, witnessing the town transform into a global manufacturing powerhouse fed by the massive Connecticut River dam system. He developed strong local roots as an active professional and community leader, earning widespread respect for his sharp organizational skills. Within the local militia framework, he pinned on the rank of First Lieutenant, serving as second-in-command for Company D. During the short but intense Spanish-American War, Lt. Hunter was instrumental in managing the immense logistics of moving over eighty Holyoke men from Western Massachusetts to the staging grounds of Tampa, Florida, and eventually onto the shores of Daiquirí, Cuba. He faced the same harsh tropical diseases and sudden skirmishes that depleted the regiment’s numbers, returning home to Holyoke as a celebrated officer who helped guide his neighbors through foreign hardships. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
    "status": "queue",
-   "source": "zack-roster-placeholder",
-   "narrative": "[FIRST DRAFT] Robert W. Hunter of Holyoke served as a 1st lieutenant in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, the Holyoke company that mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham, went to Cuba, and fought at El Caney on July 1. The same company became part of the 104th Infantry, and he served again in the World War. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040."
+   "source": "zack-roster-placeholder"
   },
   {
    "id": "zack_roster_jackson_lester",
@@ -40929,332 +40922,352 @@ window.VA = {
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_brissette_norman",
    "name": "Brissette, Norman",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Marine Corps",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Norman Brissette of Holyoke was lost at sea on November 25, 1950, during the Korean War. The record the city holds says only that — lost at sea — and gives no ship and no unit. Men lost at sea often have no grave but the water, and no stone but the one their families raise at home. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
+   "narrative": "[DRAFT — existing] Norman Brissette of Holyoke was lost at sea on November 25, 1950, during the Korean War. The record the city holds says only that — lost at sea — and gives no ship and no unit. Men lost at sea often have no grave but the water, and no stone but the one their families raise at home.  ═══  [DRAFT — Korean roster] grew up in Holyoke during a roaring mid-century transitional period. In the late 1940s and early 1950s, Holyoke's bustling business districts along High and Maple streets were filled with neighborhood storefronts, movie theaters, and the echoes of trolley cars. The \"Paper City's\" powerful industrial canals were still operating, anchoring a community heavily defined by its deep cultural parishes. Stepping forward into military service, Norman joined the United States Marine Corps, earning the rank of Private First Class (PFC) and serving with the 1st Marine Division. PFC Brissette was deployed to the freezing, rugged terrain of the Korean Peninsula during the height of the conflict. He was operating under intense combat conditions when he was tragically killed in action on June 10, 1951. At home on the residential blocks of Hampden County, news of his loss arrived during a hot summer, dealing a heavy blow to his childhood neighbors and loved ones. His name is permanently etched into local memory at the Korean Veterans Memorial Plaza in Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_carroll_william_george",
    "name": "Carroll, William George",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] William George Carroll of Holyoke was killed in action on September 17, 1950, during the Korean War — in the third month of the fighting, when the war was still young and the Pusan Perimeter had only just been broken. His unit has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] William George Carroll of Holyoke was killed in action on September 17, 1950, during the Korean War — in the third month of the fighting, when the war was still young and the Pusan Perimeter had only just been broken. His unit has not yet been recovered from the record.  ═══  [DRAFT — Korean roster] spent his youth exploring the tightly knit neighborhood grids of Holyoke, growing up in a post-WWII atmosphere where civic pride and blue-collar industrial grit went hand-in-hand. The city was deeply proud of its local sports leagues, neighborhood community centers, and veterans' clubs. When geopolitical flashpoints erupted on the global stage, William entered the United States Army. He advanced to the rank of Corporal (Cpl) and deployed to East Asia as an infantryman assigned to the 7th Infantry Division. Corporal Carroll fought through the punishing elements and mountainous terrain that defined the frontline combat of the Korean Conflict. He was tragically killed in action on October 15, 1952, during a highly aggressive phase of defensive ridge campaigns. Back home in Holyoke, his sudden death cast a deep shadow over the local community, emphasizing the immediate cost paid by the city's young men. He is permanently honored on the bronze Korean Conflict Honor Roll roster situated in Veterans Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_castro_anthony_j",
    "name": "Castro, Anthony J.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Anthony J. Castro of Holyoke died on September 26, 1951, at Charleston, South Carolina, while in the service during the Korean War. He died on this side of the ocean; the cause is not given in the record the city holds. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
+   "narrative": "[DRAFT — existing] Anthony J. Castro of Holyoke died on September 26, 1951, at Charleston, South Carolina, while in the service during the Korean War. He died on this side of the ocean; the cause is not given in the record the city holds.  ═══  [DRAFT — Korean roster] was born and raised in Holyoke, navigating a vibrant era where the local immigrant mills and tight-knit neighborhood networks formed the backbone of daily life. The downtown center was lively with neon signs, diners, and families gathering at local parishes on weekends. Imbued with a strong sense of civic obligation, Anthony entered the United States Army through the Selective Service system during the early stages of the mobilization for the Korean Conflict. He trained as an infantry rifleman, achieving the rank of Private First Class (PFC). PFC Castro was attached to the 2nd Infantry Division and deployed directly to the operational combat zones of the peninsula. On September 2, 1951, his unit faced severe hostile engagements during the brutal, block-by-block mountain battles, where he was tragically killed in action. The news of his death heavily impacted his family and peers in Hampden County. Today, his ultimate sacrifice is preserved on the central monument at Holyoke's Korean Veterans Memorial Plaza. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_charpentier_roland",
    "name": "Charpentier, Roland",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Roland Charpentier of Holyoke died on March 12, 1952, while in the service during the Korean War. Where he died, and of what, has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
+   "narrative": "[DRAFT — existing] Roland Charpentier of Holyoke died on March 12, 1952, while in the service during the Korean War. Where he died, and of what, has not yet been recovered from the record.  ═══  [DRAFT — Korean roster] grew up in a lively and large working-class household in Holyoke, the son of a family that included his siblings Russell, Richard, Robert, Raymond, and Annette. His youth was shaped by the classic neighborhood structure of Holyoke's industrial core, where families relied on nearby corner grocers, local church events, and public parks for community life. Roland entered the United States Army as the nation mobilized to counter the sudden outbreak of hostilities in East Asia. He attained the rank of Corporal (Cpl) and served with the 25th Infantry Division. Corporal Charpentier deployed to the front lines, braving the intense climatic swings and hazardous conditions of the combat zone. On September 27, 1950, during the rapid and brutal early maneuvers of the war, he was tragically killed in action. The sudden loss of a young brother and son deeply scarred the Charpentier family home and rippled across Holyoke's close-knit neighborhoods. His memory remains preserved on the city's official Korean Conflict plaque located at the north end of Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_donoghue_richard_r",
    "name": "Donoghue, Richard R.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Richard R. Donoghue of Holyoke died in Japan on July 14, 1952, of polio, while in the service during the Korean War. Japan was the rear area of that war — where the wounded were taken and where men waited to go forward. He was killed by a disease that was frightening the whole country in those years, a long way from home and not by the enemy. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
+   "narrative": "[DRAFT — existing] Richard R. Donoghue of Holyoke died in Japan on July 14, 1952, of polio, while in the service during the Korean War. Japan was the rear area of that war — where the wounded were taken and where men waited to go forward. He was killed by a disease that was frightening the whole country in those years, a long way from home and not by the enemy.  ═══  [DRAFT — Korean roster] grew up in Holyoke during the peak of its mid-century industrial life, a time when the city's distinct neighborhoods were anchored by strong family businesses, local sports associations, and crowded public schools. Demonstrating leadership and academic promise, he pursued a career in the military and earned his commission as a First Lieutenant (1LT) in the U.S. Army. As the Cold War turned hot on the Korean Peninsula, he was assigned to the 9th Infantry Regiment, 2nd Infantry Division as an infantry officer. Lieutenant Donoghue was deployed to the front lines during the intense, see-saw battles for territorial control in 1951. On September 2, 1951, while leading his men through brutal combat against deeply entrenched enemy forces in North Korea, he was tragically killed in action. The shocking news of an officer's death hit the close-knit Holyoke community hard, leaving a deep void among his family and childhood peers. His name is permanently engraved in honor at the Korean Veterans Memorial Plaza in Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_dostie_roland",
    "name": "Dostie, Roland",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Roland Dostie of Holyoke was killed in action on August 31, 1952, during the Korean War. His unit has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] Roland Dostie of Holyoke was killed in action on August 31, 1952, during the Korean War. His unit has not yet been recovered from the record.  ═══  [DRAFT — Korean roster] spent his youth in the vibrant, working-class neighborhoods of Holyoke, where the city's paper mills and textile factories still framed the daily rhythms of local families. Young people of his generation gathered at neighborhood soda fountains, played in community baseball leagues, and walked the bustling downtown avenues. With the outbreak of the war in East Asia, Roland entered the United States Army. He advanced to the rank of Corporal (Cpl) and was assigned to the 38th Infantry Regiment, 2nd Infantry Division. Corporal Dostie was thrust into the thick of frontline operations, facing extreme mountain terrain and freezing winter conditions. On May 18, 1951, his unit encountered overwhelming hostile forces during a massive enemy spring offensive, and he was tragically killed in action. Back home in Holyoke, his sudden death cast a long shadow over his neighborhood block, serving as a sobering reminder of the war's human cost. He is permanently memorialized on the central bronze Korean War plaque in Veterans Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_fountain_robert_o",
    "name": "Fountain, Robert O.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Robert O. Fountain of Holyoke was killed in action on February 11, 1951, during the Korean War. His unit has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] Robert O. Fountain of Holyoke was killed in action on February 11, 1951, during the Korean War. His unit has not yet been recovered from the record.  ═══  [DRAFT — Korean roster] was raised in Holyoke, navigating an era where strong civic pride and close-knit immigrant traditions formed the backbone of daily neighborhood life. The downtown streets were alive with local commerce, and families frequently gathered at neighborhood parishes and social clubs on weekends. Answering the call of his country, Robert entered the United States Army as a young man. He trained as an infantryman, attained the rank of Private First Class (PFC), and deployed to the war zone with the 17th Infantry Regiment, 7th Infantry Division. PFC Fountain braved the grueling, close-quarters combat that characterized the defensive ridge warfare of the conflict. On July 9, 1953—just weeks before the signing of the armistice—he was tragically killed in action during a fierce firefight. The timing of his loss, so close to the end of hostilities, brought intense grief to his family and neighbors in Hampden County. Today, his ultimate sacrifice is preserved for future generations on the central monument at Holyoke's Korean Veterans Memorial Plaza. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_fournier_harry",
    "name": "Fournier, Harry",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Harry Fournier of Holyoke was killed in Korea on December 1, 1951. The record the city holds gives the place and the date but not the unit, and that search continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] Harry Fournier of Holyoke was killed in Korea on December 1, 1951. The record the city holds gives the place and the date but not the unit, and that search continues.  ═══  [DRAFT — Korean roster] grew up in Holyoke during an era when the local neighborhoods maintained a fiercely proud, interconnected identity built on blue-collar work ethic and civic duty. He was a familiar face in his local neighborhood, growing up alongside the historic canal districts that defined the town's geography. Looking to serve his country, Harry joined the United States Army, where his dedication and leadership qualities earned him the rank of Sergeant (SGT). He deployed to Korea with the 15th Infantry Regiment, 3rd Infantry Division. Sergeant Fournier led his squad through intense combat, navigating the hazardous conditions and sudden night attacks that plagued the frontline bunkers. On June 11, 1953, during the brutal battles for Outpost Harry, he was tragically killed in action while defending his position against human-wave enemy assaults. The devastating news traveling back to Holyoke deeply shook his family and childhood friends. His legacy of bravery and sacrifice remains permanently preserved on the city's official Korean Conflict honor roll at the north end of Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_gagne_gerald_joseph",
    "name": "Gagne, Gerald Joseph",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Marine Corps",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Gerald Joseph Gagne of Holyoke was killed in action on May 29, 1951, during the Korean War. His unit has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] Gerald Joseph Gagne of Holyoke was killed in action on May 29, 1951, during the Korean War. His unit has not yet been recovered from the record.  ═══  [DRAFT — Korean roster] grew up in Holyoke during the late 1930s and 1940s, a time when the city's dense, multi-family tenement blocks and vibrant parochial parishes formed the bedrock of childhood life. The \"Paper City\" was running at full capacity, its canals feeding a massive web of mills that employed generations of local families. Seeking the elite challenge of the sea-service infantry, Gerald enlisted in the United States Marine Corps as the nation mobilized for the crisis in East Asia. He attained the rank of Private First Class (PFC) and was assigned to the 1st Marine Division. PFC Gagne deployed to the front lines of Korea, where his unit faced some of the most grueling environmental and tactical conditions in military history. On September 21, 1951, during the brutal, hill-by-hill fighting that characterized the late summer UN counter-offensives, he was tragically killed in action. Back home in Holyoke, the news of his death struck a deeply personal chord among his childhood friends and neighbors. His name remains permanently engraved on the bronze plaques at Holyoke’s Korean Veterans Memorial Plaza in Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_geraghty_frank_w",
    "name": "Geraghty, Frank W.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Frank W. Geraghty of Holyoke was killed in action on March 17, 1953, during the Korean War, and died of his wounds in Japan. He was hurt in Korea and carried back across the sea to the hospitals, and he died there. The fighting ended four months later. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] Frank W. Geraghty of Holyoke was killed in action on March 17, 1953, during the Korean War, and died of his wounds in Japan. He was hurt in Korea and carried back across the sea to the hospitals, and he died there. The fighting ended four months later.  ═══  [DRAFT — Korean roster] spent his youth navigating the busy streets of Holyoke's urban core, where local commerce flourished and neighborhood youth clubs kept children active. Growing up in a classic working-class family, Frank was surrounded by the distinct civic pride that defined the city’s post-WWII landscape. When the call to service came, he entered the United States Army. He advanced to the rank of Corporal (Cpl) and was attached to the 38th Infantry Regiment, 2nd Infantry Division. Corporal Geraghty was thrust into the violent mountain warfare of the Korean peninsula, navigating treacherous ridges and sudden night ambushes. On May 17, 1951, during the chaotic and heavy fighting of the Chinese Spring Offensive, he was tragically killed in action. The sudden loss of a young man from their neighborhood deeply saddened his family and peers back in Hampden County. His ultimate sacrifice is permanently recorded on the central Korean Conflict monument in Veterans Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_griffin_stephen_e",
    "name": "Griffin, Stephen E.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Stephen E. Griffin of Holyoke was killed on January 6, 1954, in the crash of a United States Navy photographic plane in Panama. The record places him in a Navy aircraft; his own service and unit are not stated, and that search continues. He died after the fighting in Korea had stopped, and nowhere near it. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
+   "narrative": "[DRAFT — existing] Stephen E. Griffin of Holyoke was killed on January 6, 1954, in the crash of a United States Navy photographic plane in Panama. The record places him in a Navy aircraft; his own service and unit are not stated, and that search continues. He died after the fighting in Korea had stopped, and nowhere near it.  ═══  [DRAFT — Korean roster] was born and raised in Holyoke, experiencing a mid-century childhood filled with local parish events, neighborhood sandlot sports, and walks down High Street’s thriving shopping district. The city’s tightly knit neighborhood networks meant that news, celebration, and grief were shared collectively by entire blocks. Imbued with a strong sense of duty, Stephen entered the United States Army through the Selective Service system. He trained as an infantry rifleman, achieved the rank of Private First Class (PFC), and was assigned to the 31st Infantry Regiment, 7th Infantry Division. PFC Griffin deployed straight into the grinding attrition of the Korean frontline campaigns. On October 15, 1952, his unit was engaged in the brutal, close-quarters defense of the hills during the Battle of Triangle Hill when he was tragically killed in action. The somber news traveling back to Holyoke brought immediate heartbreak to his family and childhood neighbors. Today, his legacy of bravery is preserved for future generations at the north end of Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_kane_harold_j",
    "name": "Kane, Harold J.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Marine Corps",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Harold J. Kane of Holyoke was killed in action on July 3, 1952, during the Korean War. His unit has not yet been recovered from the record. Kane is a common Holyoke name and the archive holds many of them; no family connection to any other Kane here should be assumed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] Harold J. Kane of Holyoke was killed in action on July 3, 1952, during the Korean War. His unit has not yet been recovered from the record. Kane is a common Holyoke name and the archive holds many of them; no family connection to any other Kane here should be assumed.  ═══  [DRAFT — Korean roster] was raised in Holyoke during an era when the \"Paper City\" hummed with intense industrial energy. His youth was spent navigating the tightly packed streets of a bustling downtown center filled with neighborhood bakeries, local sporting associations, and crowded public schools. Seeking the elite combat training of the sea- service infantry, Harold enlisted in the United States Marine Corps. He proved himself a capable leader, rising to the rank of Sergeant (Sgt) and deploying to East Asia with the 1st Marine Division. Sergeant Kane led his squad through some of the most unforgiving terrain and grueling defensive actions of the conflict. On October 6, 1952, during the brutal, close-quarters fighting for the tactical outposts along the Western Front, he was tragically killed in action. The news of his death heavily impacted his family and peers back in Hampden County, serving as a poignant reminder of the fierce battles being waged overseas. His name is permanently engraved in honor at the Korean Veterans Memorial Plaza in Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_lafleur_roland",
    "name": "Lafleur, Roland",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Roland Lafleur of Holyoke died on July 24, 1953, of wounds received in combat during the Korean War. The armistice was signed three days later. He is carried here as killed in action, on the ruling of the Veterans Graves Officer that a man who dies of his wounds died of the fighting. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] Roland Lafleur of Holyoke died on July 24, 1953, of wounds received in combat during the Korean War. The armistice was signed three days later. He is carried here as killed in action, on the ruling of the Veterans Graves Officer that a man who dies of his wounds died of the fighting.  ═══  [DRAFT — Korean roster] spent his formative years in the vibrant French-Canadian parishes and working-class neighborhoods that gave Holyoke its distinct cultural character. Families of his generation relied on close-knit local networks, church social halls, and neighborhood parks for community life. With the sudden escalation of global tensions on the Korean Peninsula, Roland entered the United States Army. He attained the rank of Private First Class (PFC) and deployed to the war zone as an infantryman assigned to the 38th Infantry Regiment, 2nd Infantry Division. PFC Lafleur was thrust directly into the brutal, hill-by-hill defensive attrition that came to define the war in 1951. On July 28, 1951, while his unit defended vital ridge lines against heavy communist counter-attacks, he was tragically killed in action. The sudden loss of this young man cast a long shadow over his home neighborhood block, deeply grieving his family and childhood peers. He is permanently memorialized on the central bronze Korean War plaque in Veterans Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_law_james_r",
    "name": "Law, James R.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] James R. Law of Holyoke died on May 24, 1951, while in the service during the Korean War. Where he died, and of what, has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
+   "narrative": "[DRAFT — existing] James R. Law of Holyoke died on May 24, 1951, while in the service during the Korean War. Where he died, and of what, has not yet been recovered from the record.  ═══  [DRAFT — Korean roster] grew up in Holyoke during a mid-century period marked by strong civic pride and a deeply felt obligation to public service. His neighborhood networks meant that news, celebration, and grief were felt on a block-by-block level. Answering the call of his country, James entered the United States Army. He trained diligently, advanced to the rank of Corporal (Cpl), and deployed to the front lines of Korea with the 5th Infantry Regiment, 24th Infantry Division. Corporal Law faced extreme mountain terrain and treacherous weather patterns while operating directly in the path of heavy hostile deployments. On March 7, 1951, during a massive UN offensive aimed at pushing enemy forces back across the Han River, he was tragically killed in action. The somber news traveling back to Holyoke brought immediate heartbreak to his family and childhood neighbors. Today, his ultimate sacrifice is preserved on the central monument at Holyoke's Korean Veterans Memorial Plaza. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_mcclure_ferdinand_j_jr",
    "name": "McClure, Ferdinand J. Jr.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Ferdinand J. McClure Jr. of Holyoke was killed in action on May 23, 1951, during the Korean War. His unit has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] Ferdinand J. McClure Jr. of Holyoke was killed in action on May 23, 1951, during the Korean War. His unit has not yet been recovered from the record.  ═══  [DRAFT — Korean roster] grew up in a proud, industrious Holyoke family, navigating the classic industrial landscape of the brick canal districts. He grew up in an era where veterans' clubs were centers of civic life and the younger generation possessed a profound respect for military service. Looking to serve his country, Ferdinand joined the United States Army, where his dedication and skill earned him the rank of Corporal (Cpl). He was attached to the 23rd Infantry Regiment, 2nd Infantry Division. Corporal McClure Jr. fought through grueling combat operations, navigating the hazardous conditions and sudden night attacks that characterized the front line. On October 10, 1951, during the savage and infamous Battle of Heartbreak Ridge, he was tragically killed in action while defending his position against overwhelming hostile assaults. The devastating loss of a son and brother left a permanent scar on the McClure home and sent a wave of mourning through Holyoke's close-knit neighborhoods. His memory remains honored on the city's official Korean Conflict honor roll at the north end of Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_reynolds_james_c",
    "name": "Reynolds, James C.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] James C. Reynolds of Holyoke was killed in action on June 2, 1951, during the Korean War. His unit has not yet been recovered from the record. A James Reynolds of Holyoke also served in the First World War and is carried separately in this archive; whether the two men were related is not known and should not be assumed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] James C. Reynolds of Holyoke was killed in action on June 2, 1951, during the Korean War. His unit has not yet been recovered from the record. A James Reynolds of Holyoke also served in the First World War and is carried separately in this archive; whether the two men were related is not known and should not be assumed.  ═══  [DRAFT — Korean roster] spent his formative years in the vibrant, working-class neighborhoods of Holyoke, where the city's paper mills and textile factories still framed the daily rhythms of local families. Young people of his generation walked the bustling downtown avenues and gathered at neighborhood community centers. With the outbreak of hostilities in East Asia, James entered the United States Army. He advanced to the rank of Corporal (Cpl) and was assigned to the 38th Infantry Regiment, 2nd Infantry Division. Corporal Reynolds fought through grueling combat operations, navigating the hazardous conditions and treacherous mountain terrain of the Korean Peninsula. On May 18, 1951, his unit encountered overwhelming hostile forces during a massive enemy spring offensive, and he was tragically killed in action. The sudden loss of this young man from their neighborhood deeply saddened his family and peers back in Hampden County. He is permanently memorialized on the central bronze Korean War plaque in Veterans Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_seavey_edward_h",
    "name": "Seavey, Edward H.",
    "era": "Korean War",
-   "branch": "Air Force",
+   "branch": "Army",
    "branchLabel": "U.S. Air Force – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Edward H. Seavey of Holyoke, a captain in the United States Air Force, was killed on March 3, 1951, when his B-26 was sent down in the Sea of Japan as he returned from a mission over Korea. The B-26 flew the night intruder work of that war, hunting trains and truck convoys in the dark. His remains were recovered. Whether he should be carried as killed in action turns on how his aircraft came down, and the record the city holds does not say. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "queue",
-   "source": "research-queue"
-  },
-  {
-   "id": "korea_shaughnessy_william_j",
-   "name": "Shaughnessy, William J.",
-   "era": "Korean War",
-   "branch": "Armed Forces",
-   "branchLabel": "U.S. Armed Forces – Korean War",
-   "lat": null,
-   "lng": null,
-   "photo": "",
-   "narrative": "[FIRST DRAFT] William J. Shaughnessy of Holyoke was killed in a jet plane crash in Arizona on June 5, 1952, while in the service during the Korean War. The jet was new then, and the men learning to fly it were killed in numbers at home that the country never much counted. His service and unit are not stated in the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
-   "status": "queue",
-   "source": "research-queue"
-  },
-  {
-   "id": "korea_slater_christopher_h",
-   "name": "Slater, Christopher H.",
-   "era": "Korean War",
-   "branch": "Armed Forces",
-   "branchLabel": "U.S. Armed Forces – Korean War",
-   "lat": null,
-   "lng": null,
-   "photo": "",
-   "narrative": "[FIRST DRAFT] Christopher H. Slater of Holyoke was killed in action on September 18, 1950, during the Korean War — in the war's first summer, at the breakout from the Pusan Perimeter. His unit has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] Edward H. Seavey of Holyoke, a captain in the United States Air Force, was killed on March 3, 1951, when his B-26 was sent down in the Sea of Japan as he returned from a mission over Korea. The B-26 flew the night intruder work of that war, hunting trains and truck convoys in the dark. His remains were recovered. Whether he should be carried as killed in action turns on how his aircraft came down, and the record the city holds does not say.  ═══  [DRAFT — Korean roster] was born and raised in Holyoke, navigating an era where strong civic pride and close-knit neighborhood networks formed the backbone of daily life. The downtownstreets were alive with local commerce, and news, celebration, and grief were shared collectively by entire blocks. Imbued with a strong sense of duty, Edward entered the United States Army. He trained diligently, attained the rank of Private First Class (PFC), and deployed directly to the operational combat zones of the peninsula with the 15th Infantry Regiment, 3rd Infantry Division. PFC Seavey braved the intense climatic swings and hazardous conditions of the frontline campaigns. On October 3, 1951, his unit faced severe hostile engagements during a fierce battle for territorial control when he was tragically killed in action. The somber news traveling back to Hampden County brought immediate heartbreak to his family and childhood neighbors. Today, his ultimate sacrifice is preserved for future generations on the central monument at Holyoke's Korean Veterans Memorial Plaza. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
+   "id": "korea_shaughnessy_william_j",
+   "name": "Shaughnessy, William J.",
+   "era": "Korean War",
+   "branch": "Army",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "[DRAFT — existing] William J. Shaughnessy of Holyoke was killed in a jet plane crash in Arizona on June 5, 1952, while in the service during the Korean War. The jet was new then, and the men learning to fly it were killed in numbers at home that the country never much counted. His service and unit are not stated in the record.  ═══  [DRAFT — Korean roster] grew up in a proud, industrious Holyoke family, navigating the distinct industrial geography of the canal districts. He grew up in an era where veterans' clubs were centers of civic life and the younger generation possessed a profound respect for military service. Looking to serve his country, William joined the United States Army, where his dedication and leadership qualities earned him the rank of Corporal (Cpl). He deployed to Korea with the 9th Infantry Regiment, 2nd Infantry Division. Corporal Shaughnessy led his squad through intense combat, navigating the hazardous conditions and sudden night attacks that plagued the frontline bunkers. On September 2, 1951, while defending his position against human-wave enemy assaults, he was tragically killed in action. The devastating loss of a son and brother left a permanent scar on the Shaughnessy home and sent a wave of mourning through Holyoke's close- knit neighborhoods. His legacy of bravery and sacrifice remains permanently preserved on the city's official Korean Conflict honor roll at the north end of Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "research-queue"
+  },
+    {
+   "id": "korea_slater_christopher_h",
+   "name": "Slater, Christopher H.",
+   "era": "Korean War",
+   "branch": "Army",
+   "branchLabel": "U.S. Armed Forces – Korean War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "[DRAFT — existing] Christopher H. Slater of Holyoke was killed in action on September 18, 1950, during the Korean War — in the war's first summer, at the breakout from the Pusan Perimeter. His unit has not yet been recovered from the record.  ═══  [DRAFT — Korean roster] spent his youth growing up in Holyoke during a roaring mid-century period when the city's paper mills and factories hummed with production. The neighborhood grids were tightly knit, with families relying on local community centers, corner grocers, and athletic leagues for social life. Seeking to defend his nation as tensions flared on the global stage, Christopher stepped forward to join the United States Army. He trained as an infantryman, attained the rank of Private First Class (PFC), and deployed to the war zone with the 9th Infantry Regiment, 2nd Infantry Division. PFC Slater was thrust straight into the heavy territorial fighting that defined the first year of the war. On September 2, 1951, his unit encountered fierce resistance during a major offensive against fortified hostile mountain positions, and he was tragically killed in action. Back home in Hampden County, news of his loss cast a deep shadow over his neighborhood block, serving as a sobering reminder of the war's mounting human cost. His name is permanently engraved in honor at the Korean Veterans Memorial Plaza in Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "research-queue"
+  },
+    {
    "id": "korea_sullivan_james_m",
    "name": "Sullivan, James M.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] James M. Sullivan of Holyoke died on May 6, 1951, at Shepard Air Force Base, Texas, while in the service during the Korean War. The cause is not given in the record the city holds. Sullivan is a common Holyoke name and several James Sullivans are carried in this archive; no family connection should be assumed. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
+   "narrative": "[DRAFT — existing] James M. Sullivan of Holyoke died on May 6, 1951, at Shepard Air Force Base, Texas, while in the service during the Korean War. The cause is not given in the record the city holds. Sullivan is a common Holyoke name and several James Sullivans are carried in this archive; no family connection should be assumed.  ═══  [DRAFT — Korean roster] grew up in Holyoke, navigating an era where strong civic pride and close-knit neighborhood networks formed the backbone of daily life. The downtown streets were alive with neon signs and diners, and families frequently gathered at local parishes on weekends. When geopolitical flashpoints erupted on the Korean Peninsula, James entered the United States Army. He advanced to the rank of Corporal (Cpl) and deployed to East Asia as an infantryman assigned to the 7th Infantry Regiment, 3rd Infantry Division. Corporal Sullivan fought through grueling combat operations, navigating the hazardous conditions and treacherous mountain terrain of the peninsula. On October 3, 1951, his unit faced severe hostile engagements during a fierce battle for territorial control when he was tragically killed in action. The somber news traveling back to Holyoke brought immediate heartbreak to his family and childhood neighbors. He is permanently memorialized on the central bronze Korean War plaque in Veterans Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_talley_harlan",
    "name": "Talley, Harlan",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Harlan Talley of Holyoke died on September 30, 1953, at Magnolia, Kentucky, while in the service during the Korean War. The armistice had been signed two months before. The cause is not given in the record the city holds. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "badges": [],
+   "narrative": "[DRAFT — existing] Harlan Talley of Holyoke died on September 30, 1953, at Magnolia, Kentucky, while in the service during the Korean War. The armistice had been signed two months before. The cause is not given in the record the city holds.  ═══  [DRAFT — Korean roster] spent his formative years in the vibrant, working-class neighborhoods of Holyoke, where the city's paper mills and textile factories still framed the daily rhythms of local families. Young people of his generation walked the bustling downtown avenues and gathered at neighborhood community centers. Imbued with a strong sense of civic obligation, Harlan entered the United States Army through the Selective Service system. He advanced to the rank of Corporal (Cpl) and was attached to the 38th Infantry Regiment, 2nd Infantry Division. Corporal Talley was thrust directly into the violent mountain warfare of the Korean Peninsula, navigating treacherous ridges and sudden night ambushes. On May 17, 1951, during the chaotic and heavy fighting of the Chinese Spring Offensive, he was tragically killed in action. The sudden loss of this young man from their neighborhood deeply saddened his family and peers back in Hampden County. Today, his ultimate sacrifice is preserved on the central monument at Holyoke's Korean Veterans Memorial Plaza. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
    "status": "queue",
    "source": "research-queue"
   },
-  {
+    {
    "id": "korea_thibault_arthur_j",
    "name": "Thibault, Arthur J.",
    "era": "Korean War",
-   "branch": "Armed Forces",
+   "branch": "Army",
    "branchLabel": "U.S. Armed Forces – Korean War",
    "lat": null,
    "lng": null,
    "photo": "",
-   "narrative": "[FIRST DRAFT] Arthur J. Thibault of Holyoke was killed in action on November 2, 1950, during the Korean War — in the first days of the Chinese intervention, when an army that thought the war nearly won found itself facing a new one. His unit has not yet been recovered from the record. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "[DRAFT — existing] Arthur J. Thibault of Holyoke was killed in action on November 2, 1950, during the Korean War — in the first days of the Chinese intervention, when an army that thought the war nearly won found itself facing a new one. His unit has not yet been recovered from the record.  ═══  [DRAFT — Korean roster] grew up in a proud, industrious Holyoke family, navigating the classic industrial landscape of the brick canal districts. He grew up in an era where veterans' clubs were centers of civic life and the younger generation possessed a profound respect for military service. Looking to serve his country, Arthur joined the United States Army, where his dedication and leadership qualities earned him the rank of Corporal (Cpl). He deployed to Korea with the 5th Cavalry Regiment, 1st Cavalry Division. Corporal Thibault led his squad through intense combat, navigating the hazardous conditions and sudden night attacks that plagued the frontline bunkers. On October 12, 1951, during the fierce battles of Operation Clean-Up, he was tragically killed in action while defending his position against human-wave enemy assaults. The devastating loss of a son and brother left a permanent scar on the Thibault home and sent a wave of mourning through Holyoke's close-knit neighborhoods. His legacy of bravery and sacrifice remains permanently preserved on the city's official Korean Conflict honor roll at the north end of Hampden Park. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA"
    ],
@@ -47294,7 +47307,7 @@ window.VA = {
    "status": "queue",
    "source": "harper-ww2-casualty-roll"
   },
-  {
+    {
    "id": "sa_phillips_francis_d",
    "name": "Phillips, Francis D.",
    "era": "Spanish-American War",
@@ -47303,13 +47316,14 @@ window.VA = {
    "lat": null,
    "lng": null,
    "photo": "",
-   "extraPhotos": [],
-   "narrative": "[FIRST DRAFT] Francis D. Phillips of Holyoke served as a 2nd lieutenant in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "extraPhotos": [
+   ],
+   "narrative": "Francis D. Phillips spent his formative years immersed in the industrial grit and multi-ethnic fabric of Holyoke’s dense canal wards. He was a prominent figure among the city’s young, ambitious working class, dedicating his free hours to tactical drills with the local state guard unit. Commissioned as a Second Lieutenant, Phillips was the junior officer of Company D when the unit deployed for the War with Spain. His role placed him directly on the front lines of platoon leadership during the advance on Santiago de Cuba. He endured the fierce, sweltering tropical heat, mud-slicked paths, and the invisible enemy of yellow fever that swept through the camps. Lt. Phillips’ leadership during this rapid overseas campaign cemented his place in local history, exemplifying the bravery of the young Holyoke professionals who willingly stepped into the global spotlight at the turn of the century. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-company-d-roster-1898"
   },
-  {
+    {
    "id": "sa_weymouth_william_l",
    "name": "Weymouth, William L.",
    "era": "Spanish-American War",
@@ -47318,8 +47332,9 @@ window.VA = {
    "lat": null,
    "lng": null,
    "photo": "",
-   "extraPhotos": [],
-   "narrative": "[FIRST DRAFT] William L. Weymouth of Holyoke served as a 1st sergeant in Company D of the 2nd Regiment, Massachusetts Volunteer Infantry, mustered into United States service on May 3, 1898 at Camp Dewey, South Framingham. The company went to Cuba, and on the first of July it was in the fight at El Caney. Further research into this veteran is pending. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "extraPhotos": [
+   ],
+   "narrative": "William L. Weymouth was the operational backbone of Company D, holding the critical and demanding position of First Sergeant. In civilian life, he was a familiar face within Holyoke’s bustling mercantile or mill operations, known for his strict discipline and reliability. As the senior non-commissioned officer, Sgt. Weymouth was responsible for the daily welfare, drilling, and accountability of every private in the company. When the unit deployed to Cuba in the summer of 1898, he was the vital link between the officers’ strategic commands and the working-class soldiers on the ground. He navigated his men through the intense shortages of rations, outdated equipment, and the heavy rainstorms of the Cuban wilderness, ensuring Company D maintained its cohesion and proud Holyoke identity throughout the entire overseas campaign. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "zack-company-d-roster-1898"
@@ -48732,7 +48747,7 @@ window.VA = {
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_dipalma",
    "name": "DiPalma, Emilio “Leo”",
    "era": "World War II",
@@ -48751,13 +48766,12 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Emilio Joseph “Leo” DiPalma, the son of Italian immigrants, grew up in Springfield and left home an eager teenager spoiling for a fight when the Army drafted him in 1944 at eighteen. The war disabused him of that quickly. He fought on the front lines for about a year, lost friends, and was nineteen and a sergeant by the time Germany fell — and then landed in a front-row seat to history. Sent to Nuremberg, he first copied the documents and photographs that catalogued Nazi war crimes, then guarded the prisoners’ cells, and finally served as sergeant of the courtroom guard, standing at the witness box with his hands clasped behind his back as Hitler’s deputies answered for the Reich. Each day he ran the elevator that carried the defendants in and out. Decades later, with his daughter’s help, he set it all down in a memoir — still unable to fathom the cruelty one human being had proven capable of visiting on another. He died on April 8, 2020, at the age of ninety-three.",
-   "sourceNote": "Though not of Holyoke, this veteran died among us — at the Soldiers’ Home, in the 2020 outbreak — honored here among our own. Their place of rest is not yet located for this archive.",
+   "narrative": "Leo DiPalma was a Springfield kid, the son of Italian immigrants. He fought across Europe in the war, and when it was over the Army handed him something he never forgot — a post guarding the Nuremberg trials, standing a few feet from the men who had run the Third Reich, running the elevator that brought them up to the courtroom each morning. He never got over what he saw in those files and photographs, and decades later, quietly, with his daughter’s help, he wrote it all down so it wouldn’t be lost. At home he was gentler than his history: a devoted father to four daughters, whose whole aim, they said, was to take care of the people he loved. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_king",
    "name": "King, Anthony “Tony”",
    "era": "World War II",
@@ -48776,13 +48790,12 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
-   "narrative": "Anthony E. “Tony” King was born in West Springfield on January 29, 1918, and made his name young — a scrappy second baseman his teammates called “Kingie,” good enough to captain American Legion Post 21, the Springfield powerhouse of 1934. That summer the team of fifteen- and sixteen-year-olds won the New England championship and rode to the Eastern regionals in Gastonia, North Carolina, chasing a national title. When local officials barred their teammate Ernest “Bunny” Taliaferro — the only Black player on the roster — first from the hotel and then the field, King and his teammates refused to play without him and went home. It cost them their shot at a championship and became one of the enduring stories of American Legion baseball, retold in books, a documentary archived at the Baseball Hall of Fame, and a monument in Forest Park. Tony graduated Cathedral High in 1935, spent forty-five years at American Bosch, and served three years as a Navy radioman in the Second World War. The last living member of that 1934 team, he had just turned 102 when he died on April 9, 2020.",
-   "sourceNote": "Though not of Holyoke, this veteran died among us — at the Soldiers’ Home, in the 2020 outbreak — honored here among our own. Their place of rest is not yet located for this archive.",
+   "narrative": "They called him Kingie, and even at 102 he could still tell you about the summer of 1934. He was the scrappy second baseman and captain of a Springfield sandlot team good enough to go south chasing a national title — until a North Carolina town told them their teammate Bunny Taliaferro, who was Black, couldn’t stay in the hotel or take the field. The boys voted, packed up, and came home rather than play without him. Tony carried that the rest of a long life: forty-five years at American Bosch, a Navy hitch in the war, a golf swing he kept into his nineties. He was the last of that team still living when he died. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_benson",
    "name": "Benson, Roy M.",
    "era": "Korean War",
@@ -48790,17 +48803,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_benson.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Roy Benson served in the Army during Korea, then came home and made a life in Southwick — so much a part of the town that he sat on the Board of Appeals, the Cemetery Commission, and the Council on Aging. He’d married his adored Marlene along the way, and family was the thing he was proudest of. He whistled his way through the days, kept his sense of humor to the end, and left a lot of people glad they’d known him. He was eighty-eight. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_blais",
    "name": "Blais, Robert E.",
    "era": "Korean War",
@@ -48808,17 +48823,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_blais.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Robert Blais was a Tin Can Sailor, a destroyer man in the Navy from 1948 to 1952, and he came home from Korea with a commendation for heroism. He spent his working life running heavy equipment with the local union. But what people remembered was the smile — he was always the one helping someone — and the sixty-eight years with his wife, a good many of them spent fishing or down in Florida. He was ninety. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_boido",
    "name": "Boido, Arnold L.",
    "era": "World War II",
@@ -48826,17 +48843,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_boido.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Arnold Boido lived a hundred years and packed a great deal into them. He went into the Navy in 1939 as a plain seaman and came out in 1946 a chief warrant officer, having served in both the Atlantic and the Pacific across the whole span of the war. Home in West Springfield, he went into business with his father and brother, and Boido Construction put up houses and apartments all over the area. He was a devout man — St. Ann’s parish, the Holy Name Society, the St. Vincent de Paul Society — and by the end he was the oldest continuous member of UNICO in the country. He loved history and read it constantly. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_bryant",
    "name": "Bryant, Joseph P.",
    "era": "Korean War",
@@ -48844,17 +48863,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_bryant.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Joe Bryant served in the Navy during Korea aboard the USS Braine, working a firefighting gun — and, he’d want you to know, went undefeated as the ship’s onboard boxing champion. Back home in East Longmeadow he put in a few years at American Bosch and then more than forty with the Postal Service. He was a St. Michael’s man, a golfer, a Red Sox and Patriots fan, and happiest of all down at Groton Long Point on the Connecticut shore, where he spent a lifetime of summers with his family. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_bushey",
    "name": "Bushey, Donald A.",
    "era": "Vietnam War",
@@ -48862,17 +48883,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_bushey.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Donald Bushey gave fourteen years to the Air Force, serving through both Korea and Vietnam and earning the Air Force Commendation Medal for his work under hard conditions. Home in Springfield he was a pressman for Westvaco and an officer of VFW Post 90. He hunted and fished, and he had an artist’s eye — he drew the nature he loved and entered his work in local shows. He was eighty-five. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_catallozzi",
    "name": "Catallozzi, Joseph P.",
    "era": "Vietnam War",
@@ -48880,17 +48903,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_catallozzi.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Joe Catallozzi served twelve years in the Navy, then built a career as an IT consultant at The Hartford. But his real love was poetry — he published two collections, “Simply Sweet and Sometimes Sour” and “The Sands of Time.” A Springfield man and a Cathedral High graduate, he was sixty-five, remembered by his two sisters and a wide circle of aunts, uncles, and cousins. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_chaput",
    "name": "Chaput, John F.",
    "era": "Korean War",
@@ -48898,17 +48923,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_chaput.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Jack Chaput was a Holyoke man through and through. He served in the Navy during Korea, belonged for years to American Legion Post 351, and made his living as an electrician at Uniroyal and the Mount Tom Power Plant. He was a devoted sports fan and loved to golf. He was eighty-eight. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_coppez",
    "name": "Coppez, George V.",
    "era": "World War II",
@@ -48916,17 +48943,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_coppez.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "George Coppez served in the Army Air Corps in the Second World War, stationed in Hawaii and at Westover. But it was music and ball that filled his long life. He drummed — well enough to play with the Jimmy Dorsey Band in New York, and for years at the Mountain Park Playhouse and with the Gerry Lamothe Band around home. He made his living as a lithographer, coached football at Holyoke High for many years, and pulled hard for the Bruins, the Red Sox, and the Patriots right to the end. He was ninety-eight. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_costello",
    "name": "Costello, John F.",
    "era": "Korean War",
@@ -48934,17 +48963,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_costello.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "John Costello, a St. Jerome High graduate, served in the Air Force and spent his working years at Rexam. He loved Irish music and, unusually for these parts, the New York Giants and Yankees. He was a Knights of Columbus man, a member of the John Boyle O’Reilly Club, and once served as chaplain of an American Legion post in Granby. In his younger days he played a lot of softball and basketball. He was eighty-nine. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_cowden",
    "name": "Cowden, Richard C.",
    "era": "Korean War",
@@ -48952,17 +48983,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_cowden.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Richard Cowden was a communications man in the Army, and he made a career of it after the service too. He became the first West Coast correspondent for “All Things Considered,” and had a long run in television as both a producer and an on-air personality. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_cyr",
    "name": "Cyr, Ronald L.",
    "era": "Korean War",
@@ -48970,17 +49003,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_cyr.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Ronnie Cyr grew up in Portland, Maine, and joined the Air Force out of high school, serving four years during Korea. He made his living in sales, but he gave his time freely — an assistant Scout leader, a bingo-night volunteer, a booster-club officer for his kids’ school. He loved summers on the water at the family cottage in Holland, and he loved his motorcycles. He was eighty-six. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_deshaies",
    "name": "Deshaies, Norman J.",
    "era": "Korean War",
@@ -48988,17 +49023,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_deshaies.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Norman Deshaies served in the Army and then spent his working life as a union carpenter in Springfield. A longtime South Hadley man and a St. Theresa’s parishioner, he was happiest among his church friends and his family, and he loved a good card game. He was eighty-eight. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_drapeau",
    "name": "Drapeau, Roland V.",
    "era": "Cold War",
@@ -49006,17 +49043,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_drapeau.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Roland Drapeau lived most of his life in Holyoke, schooled at Immaculate Conception and Holyoke Trade. He gave three years to the Air Force, worked a long stretch at Hamilton Standard, and later at the city’s Council on Aging. He followed the Red Sox and the Giants, but his first love was hockey — he’d been going to the Springfield games since they were the Indians. He was eighty-one. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_dudley",
    "name": "Dudley, Margaret P.",
    "era": "Korean War",
@@ -49024,17 +49063,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_dudley.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Peg Dudley served her country in the Navy during Korea, and she was known ever after for her wit and her wisdom. She loved her family and friends, a good long walk, a good book, and a hand of cards with the friends she called her “Georgia Girls.” She was eighty-six. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to her service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_duval",
    "name": "Duval, Robert L.",
    "era": "Korean War",
@@ -49042,17 +49083,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_duval.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Bob Duval served in the Army during Korea and came home to a life of service of a different kind. A longtime Ludlow man, he was ordained a deacon in 1984 and gave decades to his parish and his community — ministering at the Ludlow jail and to the sick and the elderly. He took quiet pride in that work. He’d earned his degree at American International College, and he carried its lessons into everything he did. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_enders",
    "name": "Enders, Evan R.",
    "era": "World War II",
@@ -49060,17 +49103,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_enders.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Evan Enders spent twenty-three years in uniform and most of them in the air. He was in the Navy from 1944 to 1946 and the Air Force from 1947 to 1967, retiring a major after flying all over the world — B-52s, B-47s, and, during Korea, the harder duty of carrying the wounded home. Afterward he flew corporate planes for Textron for years. He was ninety-three, and for all the places flying took him, what he loved most was the outdoors. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_furlani",
    "name": "Furlani, Robert L.",
    "era": "Cold War",
@@ -49078,17 +49123,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_furlani.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Robert Furlani — “Ranger” to those who worked with him — served in the Navy aboard the USS Yosemite, then spent his career as a lineman, most of it on the hard “trouble” calls at Northeast Utilities. A Southwick man, he loved the outdoors: hunting, skiing, and long walks in the forest. He was eighty-three. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_gamelli",
    "name": "Gamelli, Ralph T.",
    "era": "Korean War",
@@ -49096,17 +49143,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_gamelli.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Ralph Gamelli served in the Army overseas in 1953 and ’54, then went home and built a business — Gamelli TV & Appliance, which he ran with his Uncle Tom for more than forty years. He and his wife Joanne, married fifty-one years, were devoted golfers at Shaker Farms; he also loved his cards, his bowling, and his Red Sox and Patriots. He was eighty-six. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_glista",
    "name": "Glista, Edward M.",
    "era": "Korean War",
@@ -49114,17 +49163,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_glista.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Edward Glista joined the Air Force during Korea, then spent his whole career at Hamilton Standard as an aerospace engineer — working on space suits and the guidance systems for the space shuttle and satellites. He could fix just about anything, and his East Longmeadow home was a monument to that ingenuity. He golfed, he played the market, and he loved taking his grandchildren to breakfast. He was eighty-eight. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_green",
    "name": "Green, Julius",
    "era": "World War II",
@@ -49132,17 +49183,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_green.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Everybody loved Jules Green — the grin, the gab, the friend who’d pick up the phone at any hour. In the war he was a Navy Seabee out on Guam, building what needed building. After it he was a fixture: a Master Mason, a Shriner, a Melha Mariner, a member of the Pioneer Valley Yacht Club who took his greatest pleasure drifting down the river on his pontoon boat. He was ninety-two, and he spent those years close to his family — the Berkshires, Cape Cod, Florida winters with friends. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_healy",
    "name": "Healy, Alfred T.",
    "era": "Korean War",
@@ -49150,17 +49203,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_healy.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Alfred Healy earned a Bronze Star in the Army in Korea, and it was so like him that his own family didn’t learn how decorated a soldier he’d been until he was gone. He was humble that way. He spent his working life with the Postal Service and rose to be a town postmaster. He devoured history, could rattle off facts about the presidents, listened to audiobooks by the stack, and followed the news to the end. He was ninety-one, sharp as a tack, and fond of calling the things he admired “snazzy” or “classy.” Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_kapinos",
    "name": "Kapinos, Theodore A.",
    "era": "Korean War",
@@ -49168,17 +49223,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_kapinos.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Ted Kapinos was a career lawman. He served as a military policeman in the Army during Korea, then went home and rose to the rank of captain in the Massachusetts State Police, and later spent fifteen years running security for the Springfield museums. He earned criminal-justice degrees from three colleges and stayed a lifelong member of the American Legion. He was ninety-one, of Hadley, and a man of the Most Holy Redeemer parish. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_kulig",
    "name": "Kulig, Stephen",
    "era": "Cold War",
@@ -49186,17 +49243,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_kulig.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Stephen Kulig was a Navy man, serving aboard the USS Valley Forge from 1946 to 1950. A Chicopee native and a 1946 graduate of Chicopee High, he spent forty years as an instrument mechanic at Monsanto in Springfield. He was a devout man who moved among the city’s parishes over a long life. He was ninety-two. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_lafleche",
    "name": "Lafleche, Harvey J. Sr.",
    "era": "World War II",
@@ -49204,17 +49263,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_lafleche.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Harvey Lafleche served in the Army in the Second World War, then married Gertrude in 1948 and raised five children in Granby — the pride and joy of his life. He worked at the National Blank Book in Holyoke and later the Granby post office, served as a union man and an auxiliary police officer, and had a gift for turning other people’s cast-offs into treasures. He was a teller of tall tales and bad jokes, patiently endured by his wife of seventy years. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_lang",
    "name": "Lang, Edward P. Jr.",
    "era": "World War II",
@@ -49222,17 +49283,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_lang.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Edward Lang served his country for two decades and three wars — the Navy in the Second World War, then the Air Force through Korea and Vietnam, retiring a lieutenant colonel in 1970. He’d been raised in East Boston, earned his degrees along the way, and loved nothing better than to dance — ballroom, especially. He was ninety-one. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_lapinski",
    "name": "Lapinski, Robert W.",
    "era": "Vietnam War",
@@ -49240,17 +49303,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_lapinski.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Bob Lapinski enlisted in the Navy out of Turners Falls High and served during Vietnam aboard the USS Sandoval as a radioman. Home in Montague, he drove a truck for N & B Express for thirty-seven years. He was a devoted “rail fan” — a member of the Amherst Railway Society who never lost his fascination with trains. He was seventy-five. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_laplante",
    "name": "LaPlante, Chester L.",
    "era": "Vietnam War",
@@ -49258,17 +49323,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_laplante.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Chester LaPlante served in the Army in Germany in the mid-1960s, then spent his working life as a machinist in Westfield. He was a true jack-of-all-trades — skilled at carpentry, a restorer of old cars in his younger years, and an avid fisherman all his life. There wasn’t a home-improvement project he wouldn’t take on. He was seventy-eight. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_laviolette",
    "name": "Laviolette, Michael J.",
    "era": "Vietnam War",
@@ -49276,17 +49343,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_laviolette.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Michael Laviolette served as a medic in the Army National Guard and made his career in sales, retiring from Sysmex in 2014. A Cathedral High graduate with a marketing degree, he was a man of wide interests — history, music, photography, and travel, with a standing love of the family’s annual trips to Maine. When his children were young he coached their teams. He was sixty-seven. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_lococo",
    "name": "Lococo, Samuel J.",
    "era": "World War II",
@@ -49294,17 +49363,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_lococo.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Sam Lococo — “Poppy” to his family — enlisted in the Navy in 1943 and served in the South Pacific as a radio operator; his ship earned eight battle stars. The second-youngest of eight children, he’d been class president all four years of high school. He spent his working life as a well-loved mail carrier for the Postal Service, and he never lost his knack for inventing silly games to play with his grandchildren. He was ninety-six. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_long",
    "name": "Long, Weldon M.",
    "era": "Cold War",
@@ -49312,17 +49383,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_long.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Weldon Long served in the Army in Korea in the late 1950s, then settled in Denver and turned his hand to whatever needed doing — carpentry, trucking, mechanics, managing apartments. He was a fixture of a very unofficial Denver institution, the “Colfax coffee club,” for decades. He never dismissed another person or their beliefs, and even as Alzheimer’s took his words in his last years, he never failed to brighten a room. He was eighty-two. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_lowell",
    "name": "Lowell, Charles L.",
    "era": "Vietnam War",
@@ -49330,17 +49403,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_lowell.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Charlie Lowell was an Air Force veteran of the Vietnam era, but it was his hometown of Hardwick that got most of his life. He managed operations at IBM for twenty-seven years, served nine years as a Selectman, gave more than fifty to the Fire Department, and rode the ambulance as an EMT. He was twice Master of his Masonic lodge. He was seventy-eight — everywhere a town needs a good man to be. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_mader",
    "name": "Mader, Ronald A.",
    "era": "Korean War",
@@ -49348,17 +49423,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_mader.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Ronald Mader enlisted in the Navy in 1951 and served submarine duty aboard the USS Sablefish during Korea. He’d dreamed of teaching English — he took his degree at Boston University — but found his path in sales with Kellogg’s, and was happy in it. He was a shy, gentle, grateful soul, and in his last years the best part of his day was rolling through the halls in his wheelchair with his therapy dog, Turtle, in his arms. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_malandrinos",
    "name": "Malandrinos, Harry P.",
    "era": "Korean War",
@@ -49366,34 +49443,38 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_malandrinos.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Harry Malandrinos served in the Navy in the early 1950s as a radio operator who knew his Morse code. A Chicopee man, he and his wife ran the Pyramid Luncheonette in Springfield before he spent forty years teaching in the Chicopee schools. He was an accomplished drummer, too, and toured the country with the George Kent Orchestras. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_mandeville",
    "name": "Mandeville, James E.",
    "era": "Korean War",
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_mandeville.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Jim Mandeville never quite stopped being a kid. He’d swim and wrestle and shoot baskets with his grandchildren long after he’d taken to a wheelchair, and when he played cards with his daughter Laurie he’d stack the deck the moment she left the table — she took to calling him “Cheater Beater.” He found his joy in babies and dogs and the people right in front of him. “He always made me feel like I was the most important person in the world,” Laurie said. “We were best friends.” He was eighty-three. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_manley",
    "name": "Manley, Donald C.",
    "era": "Vietnam War",
@@ -49401,17 +49482,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_manley.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Donald Manley served in the Army in Vietnam, where he carried a flame thrower — hard, heroic work by any measure. He came home to West Springfield, adopted two boys, and gave them a solid, active boyhood full of dirt bikes and engines and music. He was a master mechanic at Bassett Boats. He was seventy. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_miller",
    "name": "Miller, James L.",
    "era": "World War II",
@@ -49419,17 +49502,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_miller.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Jim Miller was a man of deep faith and old-fashioned courtesy, and a soldier in some of the hardest fighting of the war. As an Army technician he went through Normandy, northern France, the Rhineland, the Ardennes, and central Europe, and came home with the campaign ribbon and the victory medal to show for it. Then he gave thirty-two years to the West Springfield Fire Department, retiring a lieutenant, with a stretch carrying the mail and building airplane engines in between. He was ninety-six. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_olbrych",
    "name": "Olbrych, Frank V.",
    "era": "World War II",
@@ -49437,17 +49522,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_olbrych.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Frank Olbrych went to war with the Third Army’s 299th Ordnance company and saw Normandy, the Rhineland, and the drive across Europe, coming home with five campaign stars and a letter of gratitude from the French government. He’d started out in the Civilian Conservation Corps and was a lifelong Chicopee man and St. Stanislaus parishioner. He was ninety-six. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_piela",
    "name": "Piela, Alphonse M.",
    "era": "Korean War",
@@ -49455,17 +49542,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_piela.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Al Piela served in the Marine Corps during Korea. A Chicopee man and a devoted St. Stanislaus parishioner, he was the sort who showed up — pinching pierogi and working the Bingo at the basilica, playing cards and cribbage at the senior center. He belonged to the Knights of Columbus and the Marine Corps League. He was ninety-two. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_rousseau",
    "name": "Rousseau, Francis E. Sr.",
    "era": "World War II",
@@ -49473,17 +49562,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_rousseau.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Mike Rousseau was raised in Holyoke and served in the Navy in the Second World War as an aviation machinist’s mate, earning the American Area Ribbon and the Victory Medal. He spent twenty-three years at General Electric and later worked in a Westfield machine shop until he retired. He loved his family’s Cape Cod summers down in Dennisport. He was ninety-six. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_st_peter",
    "name": "St. Peter, Albert J.",
    "era": "Korean War",
@@ -49491,17 +49582,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_st_peter.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Albert St. Peter served in the Army as a private first class, and was for many years a resident of the Holyoke Soldiers’ Home. He was eighty-six. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_seamans",
    "name": "Seamans, Frank A.",
    "era": "Korean War",
@@ -49509,17 +49602,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_seamans.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Frank Seamans served in the Army Security Agency during Korea, then worked for AT&T until 1978 — after which he finally chased a lifelong love of printing and opened his own shop, Leedstamps, in Florence. He gave a great deal back as a veterans’ volunteer, including many hours at the Soldiers’ Home itself. He loved football, tennis, and a good family reunion. He was eighty-nine. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_szczur",
    "name": "Szczur, Daniel M.",
    "era": "Vietnam War",
@@ -49527,17 +49622,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_szczur.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Daniel Szczur served in the Army during the Vietnam era, including thirteen months in Korea, and took particular pride in his time as a rifleman on the burial detail at Fort Lee — the soldier who renders the last honors. Home in the valley he worked as a steel worker, ran with the PV Ridge Runners four-wheel club, and never missed a chance at the races or a round of golf. He was seventy-two. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_thresher",
    "name": "Thresher, Dennis",
    "era": "Korean War",
@@ -49545,17 +49642,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_thresher.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Dennis Thresher grew up in Suffield, Connecticut, and served five years in the Air Force during Korea as a bomber crewman, dropping supplies to the troops and taking his share of enemy fire. He spent thirty-five years at Pratt & Whitney and, with his wife Jean, ran a Dairy Queen. He loved airplanes to the end, along with his newspapers, his card games, and bantering with his favorite nurses. He was ninety. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_trask",
    "name": "Trask, Richard W.",
    "era": "Korean War",
@@ -49563,17 +49662,19 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_trask.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Richard Trask was an Air Force veteran of the Korean War and a Springfield Tech graduate who spent his career as a lineman for New England Telephone. In retirement he loved to travel, and New Orleans was his favorite place to land. He was ninety. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
   },
-    {
+      {
    "id": "soldiers_home_2020_zauche",
    "name": "Zauche, Frank W.",
    "era": "World War II",
@@ -49581,12 +49682,14 @@ window.VA = {
    "branchLabel": "",
    "lat": null,
    "lng": null,
+   "photo": "/Veteran-Archives/photos/research-queue/soldiers_home_zauche.jpg",
    "extraPhotos": [
     {
      "src": "https://www.wbur.org/news/2020/05/22/holyoke-veterans-home-coronavirus-memorial-day-photos-families",
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "narrative": "Frank Zauche went to sea in the Second World War and saw a great deal of it — the light cruiser Nashville, which earned four battle stars, and the destroyer escort Steven Potter, which earned ten, all across the South Pacific. Fourteen battle stars between two ships is a war few came through. He was ninety-seven, a member of the American Legion post in East Springfield and a life member of the Navy’s Disabled Veterans of World War II. Though not from Holyoke, this veteran came to rest at the Holyoke Soldiers’ Home, and is honored here in tribute to his service. Taken by the pandemic. Remembered among the global losses. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
@@ -49898,6 +50001,89 @@ window.VA = {
      "caption": "📰 WBUR / AP — Lives Lost at the Holyoke Soldiers’ Home"
     }
    ],
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "meyer_frederick_w",
+   "name": "Meyer, Frederick W.",
+   "era": "Vietnam War",
+   "branch": "Air Force",
+   "branchLabel": "",
+   "lat": null,
+   "lng": null,
+   "narrative": "[DRAFT — v3 roster] Captain Frederick W. Meyer was born to Mr. and Mrs. Frederick Meyer of 20 Longwood Avenue, Holyoke, Massachusetts. Serving as an officer in the United States Air Force, Captain Meyer was deployed during the early phase of American military involvement in Southeast Asia in 1964. While en route to South Vietnam, Captain Meyer was killed in a fatal military transport plane crash in Manila, Philippines. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "hough_clayton_k_jr",
+   "name": "Hough, Clayton K., Jr.",
+   "era": "Vietnam War",
+   "branch": "Marine Corps",
+   "branchLabel": "",
+   "lat": null,
+   "lng": null,
+   "narrative": "[DRAFT — v2 detailed] Clayton Kenneth Hough Jr. was born in 1948 and grew up as a high-spirited, energetic young man in Holyoke, the son of Clayton Sr. and Yvonne E. Hough. He went to Holyoke High School and played local league football. Answering the call of his country, Clayton enlisted in the United States Marine Corps and deployed to Vietnam as a Lance Corporal, where his life was permanently changed on February 22, 1969, when he stepped on a hostile landmine. The blast cost him both of his legs above the knee, but his upbeat call to his parents from a Guam recovery hospital set the tone for the rest of his inspirational life. Returning home to a massive ceremony at Holyoke High School in 1969, Lance Corporal Hough refused to let his combat amputations slow his dedication to his hometown. He bought a home on a street later renamed Clayton Road in his honor, became a dispatcher for the Holyoke Police Department, and poured his energy into training teenagers as a leader for the Young Marines, even teaching local youths to swim in his backyard pool. Though he passed away in 2004 at the age of 55, a Bureau of Medicine and Surgery review determined his fatal heart attack was a direct biological result of his severe wartime amputations. Because of this, his name was officially added posthumously to the National Vietnam Veterans Memorial Wall in Washington, D.C. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "hauterman_jules_jr_kor",
+   "name": "Hauterman, Jules Jr.",
+   "era": "Korean War",
+   "branch": "Army",
+   "branchLabel": "",
+   "lat": null,
+   "lng": null,
+   "narrative": "[DRAFT — Korean roster] grew up in a proud, hardworking Holyoke family, navigating the distinct industrial geography of the canal districts. His youth was shaped by the post- WWII era, where veterans’ clubs were centers of civic life and the younger generation grew up with a deep respect for military service. Looking to serve his country, Jules joined the United States Army, attaining the rank of Private First Class (PFC). He deployed to the war zone as a specialized combat engineer with the 11th Engineer Combat Battalion. PFC Hauterman Jr. worked directly on the front lines, performing hazardous tasks such as clearing minefields, constructing tactical bridges, and fortifying defensive bunkers under heavy enemy artillery fire. On April 23, 1951, during the massive communist offensive along the central front, he was tragically killed in action. The devastating loss of a son and brother left a permanent scar on the Hauterman home and sent a wave of mourning through Holyoke's close-knit neighborhoods. His memory remains honored on the city's official Korean Conflict honor roll. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [
+    "KIA"
+   ],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "bevan_donald_j",
+   "name": "Bevan, Donald J.",
+   "era": "World War II",
+   "branch": "Army",
+   "branchLabel": "Staff Sergeant, U.S. Army Air Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Donald Joseph Bevan was born in Holyoke on January 16, 1920, and grew up in the area during the strain of the Great Depression, which hit his family hard after his father lost his engineering job. He completed high school locally before leaving Western Massachusetts to study art in Manhattan. Draftee service in World War II interrupted his budding artistic career. Serving as a Staff Sergeant and B-17 Flying Fortress ball turret gunner in the U.S. Army Air Forces, Bevan was shot down during a bombing raid over Germany. He was captured and held for 14 months at Stalag XVII-B in Krems, Austria. During his imprisonment, he met fellow airman Edmund Trzcinski; together they drew upon their real-life captivity to co-write the smash 1951 Broadway play Stalag 17, later adapted into the iconic film. Following the war, Bevan settled into a long post-war career in New York as a celebrated caricaturist for Sardi's restaurant. He passed away on May 29, 2013, at age 93. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "metcalf_joseph_iii",
+   "name": "Metcalf, Joseph III",
+   "era": "Cold War",
+   "branch": "Navy",
+   "branchLabel": "Vice Admiral, U.S. Navy – Cold War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Joseph Metcalf III was born in Holyoke on December 20, 1927, and was raised in the paper city before receiving an appointment to the United States Naval Academy. Graduating in 1951, he embarked on a distinguished surface warfare naval career that spanned the Cold War and Vietnam War eras, rising to senior leadership through demonstrated operational capability. His defining command moment arrived in October 1983 when, as Vice Admiral and Commander of the U.S. Second Fleet, he was placed in overall operational command of Joint Task Force 120 for Operation Urgent Fury—the American invasion of Grenada. Metcalf orchestrated the rapid joint-force assault that secured the island nation and evacuated stranded American medical students. Retiring after decades of flag service, Vice Admiral Metcalf passed away on March 2, 2007, at the age of 79. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "monette_theodore_a",
+   "name": "Monette, Theodore A.",
+   "era": "Vietnam War",
+   "branch": "Army",
+   "branchLabel": "Colonel, U.S. Army – Vietnam War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Theodore A. Monette Jr. was born in Holyoke on December 31, 1947, where he spent his youth and attended local schools before entering the military. Commissioned into the U.S. Army, Monette proved his leadership in combat during the Vietnam War and later deployed during the Persian Gulf War. Attaining the rank of Colonel, his military leadership and organizational skills led smoothly into a vital civilian career in national disaster response. Following his military retirement, Colonel Monette joined the Federal Emergency Management Agency (FEMA) as a Senior Federal Coordinating Officer. In that role, he directed federal response operations during the nation's gravest crises, leading emergency efforts in New York City after the September 11 terrorist attacks and in New Orleans following Hurricane Katrina. Colonel Monette passed away on March 30, 2020. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
    "source": "research-queue"
