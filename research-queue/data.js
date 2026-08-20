@@ -50,15 +50,15 @@ window.VA = {
    "branchLabel": "U.S. Army – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Raymond Ovila Beaudoin was born in Holyoke on July 15, 1918, and grew up with seven siblings. He worked as a salesman and joined the Massachusetts National Guard, going to active duty about a year before the United States entered the war. He served as a First Lieutenant with Company F, 119th Infantry, 30th Infantry Division — one of the first divisions to expand the beachhead at Normandy. On April 6, 1945, leading his platoon across flat, open ground toward Hamelin, Germany, his men were pinned by a devastating curtain of machine-gun and automatic-weapons fire from three directions. He rotated his men into firing positions so all could dig in, moving through the fire to encourage them and distribute ammunition, then dug in at the most advanced position himself, killing six enemy soldiers. Three runners sent back for help were killed by snipers. To save his platoon, Beaudoin decided to make a one-man attack on the deadliest sniper nest, ninety yards off, to draw fire from a fourth runner. He crawled over completely exposed ground under eight rounds of bazooka fire that threw mud and stones over him and rifle fire that ripped his uniform. Ten yards out he stood up and charged, killing two men at point-blank range, overpowering and killing a third who tried to bayonet him, while the fourth was cut down by his platoon. He ran on toward a dugout and was killed there by a burst of machine-gun fire. He was twenty-six. The runner got through, help came, and the platoon was saved. On January 25, 1946, his family accepted the Medal of Honor on his behalf. Raymond Ovila Beaudoin was born in Holyoke, one of eight children, and worked as a salesman before the war. He was in the Massachusetts National Guard, and went to the active-duty Army about a year before the United States entered the war, serving with Company F of the 119th Infantry, 30th Infantry Division — one of the first divisions to widen the beachhead at Normandy. On April 6, 1945, a month before the end in Europe, he was leading his platoon over flat open ground toward Hamelin when fire came at them from three directions and pinned them where they lay. He rotated his men through the firing positions so each of them could dig, and dug in himself at the most exposed spot. Three men sent back for ammunition and help were shot by snipers. To draw fire off a fourth runner, he made a one-man attack on the worst sniper nest, ninety yards to his right, crawling over open ground through eight rounds of bazooka fire. He reached it and cleared it. He went on to a dugout and was killed there by machine-gun fire. The runner got through and the platoon was saved. He was awarded the Medal of Honor posthumously; his family accepted it on January 25, 1946. He was born in this city but he is not buried in it — he lies in Notre Dame Cemetery in South Hadley, plot C-327. A Navy transport was named for him. In 2018 a memorial to Holyoke's three Medal of Honor men — Beaudoin, John MacKenzie and Joseph Muller — was unveiled in a park in the city. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/beaudoin_raymond_o_portrait.jpg",
+   "extraPhotos": [],
+   "narrative": "Raymond Ovila Beaudoin was born in Holyoke, one of eight children, and worked as a salesman before the war. He joined the Massachusetts National Guard, and went active-duty about a year before the United States entered the war. As a First Lieutenant with Company F, 119th Infantry, 30th Infantry Division — his was one of the first divisions to expand the beachhead at Normandy. On April 6, 1945, a month before the end in Europe, he was leading his platoon over flat open ground toward Hamelin, Germany when he and his men were pinned by a devastating curtain of machine-gun and automatic-weapons fire from three directions. He rotated his men through the firing positions so each of them could dig, and dug in himself at the most exposed spot. Three men sent back for ammunition and help were shot by snipers. To draw fire off a fourth runner, Beaudoin made a one-man attack on the worst sniper nest, ninety yards to his right, crawling over open ground through eight rounds of bazooka fire that threw mud and stones over him and rifle fire that ripped his uniform. Ten yards out he stood up and charged, killing two men at point-blank range, overpowering and killing a third who tried to bayonet him, while the fourth was cut down by his platoon. He ran on toward a dugout and was killed there by a burst of machine-gun fire. The runner got through and the platoon was saved. Lieutenant Raymond Ovila Beaudoin was awarded the Medal of Honor posthumously; his family accepted it on January 25, 1946. He was born in this city but he is not buried in it — he lies in Notre Dame Cemetery in South Hadley, plot C-327. A Navy transport was named for him. And in 2018 a memorial to Beaudoin, and Holyoke's two other Medal of Honor veterans — John MacKenzie and Joseph Muller — was unveiled in Veterans Park, in the city. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA",
     "Medal of Honor"
    ],
    "status": "queue",
-   "source": "research-queue",
-   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/beaudoin_raymond_o_portrait.jpg",
-   "extraPhotos": []
+   "source": "research-queue"
   },
   {
    "id": "beaudreau_raymond_v",
@@ -2883,20 +2883,15 @@ window.VA = {
    "branchLabel": "U.S. Army – World War II",
    "lat": null,
    "lng": null,
-   "narrative": "Joseph E. Muller was born on June 23, 1908, a Holyoke native. He joined the Army in March 1942 and served as a Sergeant with Company B, 305th Infantry Regiment, 77th Infantry Division. On May 15, 1945, in the battle for a ridge near Ishimmi on Okinawa, he exposed himself to enemy fire and charged the Japanese positions alone. The next morning, when Japanese soldiers attempted to retake the ridge, he charged and routed them again. When an enemy soldier threw a hand grenade into his foxhole, Muller threw himself onto it to shield two of his comrades. He was killed in the explosion. He was thirty-six years old. The Medal of Honor was awarded posthumously on July 17, 1946. The Joseph E. Muller Bridge in Holyoke carries his name. Joseph Edward Muller was born in Holyoke, the fourth of eleven children. His father died of influenza when he was ten. He could not find work in the Depression and went into the Civilian Conservation Corps, moving from camp to camp, and he was thirty-three — old for a rifleman — when he joined the Army from New York City in March 1942. He was a sergeant in Company B, 305th Infantry, 77th Infantry Division. On May 15, 1945, near Ishimmi on Okinawa, his platoon was stopped by fire from a defended ridge. He placed his men where they could shoot, then went forward alone and drove the enemy into the open, where his squad cut them down. The next morning they came back to retake the ridge and he routed them again. Then a grenade came into the foxhole he was sharing with two other men, and he threw himself onto it. The two men lived. He was awarded the Medal of Honor posthumously on July 17, 1946; his mother received it that August. He was born in this city but he is not buried in it — he lies in the National Memorial Cemetery of the Pacific, the Punchbowl, in Honolulu, Section N, Grave 1259. The bridge over the Connecticut River between Holyoke and South Hadley carries his name, and in 2018 a memorial to Holyoke's three Medal of Honor men was unveiled in a park in the city. The portrait on this entry is not a photograph of him: it is an artificial-intelligence reconstruction drawn from the one sketch that survives, and it should not be mistaken for his face. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/muller_joseph_e_ai_portrait.jpg",
+   "extraPhotos": [{"src": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/muller_joseph_e_moh_sketch.jpg", "caption": "✏️ The sketch the portrait was drawn from"}],
+   "narrative": "Joseph Edward Muller was born in Holyoke, the fourth of eleven children. His father died of influenza when he was ten. He could not find work in the Depression and went into the Civilian Conservation Corps, moving from camp to camp. He was thirty-three — old for a rifleman — when he joined the Army from New York City in March 1942. He was a sergeant in Company B, 305th Infantry, 77th Infantry Division, when on May 15, 1945, near Ishimmi on Okinawa, his platoon was stopped by fire from a defended ridge. He placed his men where they could shoot, then went forward alone and drove the enemy into the open, where his squad cut them down. The next morning they came back to retake the ridge and he routed them again. Then a grenade came into the foxhole he was sharing with two other men, and he threw himself onto it. The two men lived. He was awarded the Medal of Honor posthumously on July 17, 1946; his mother received it that August. He was born in this city but — he lies in the National Memorial Cemetery of the Pacific, the Punchbowl, in Honolulu, Section N, Grave 1259. The bridge over the Connecticut River between Holyoke and South Hadley carries his name, and in 2018 a memorial to Holyoke's three Medal of Honor men was unveiled in Veterans Park. The portrait on this entry is not a photograph of him: it is an AI reconstruction drawn from the one sketch that survives. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [
     "KIA",
     "Medal of Honor"
    ],
    "status": "queue",
-   "source": "research-queue",
-   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/muller_joseph_e_ai_portrait.jpg",
-   "extraPhotos": [
-    {
-     "src": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/muller_joseph_e_moh_sketch.jpg",
-     "caption": "✏️ The sketch the portrait was drawn from"
-    }
-   ]
+   "source": "research-queue"
   },
   {
    "id": "murphy_william_j",
@@ -50048,6 +50043,48 @@ window.VA = {
    "badges": [
     "KIA"
    ],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "bevan_donald_j",
+   "name": "Bevan, Donald J.",
+   "era": "World War II",
+   "branch": "Army",
+   "branchLabel": "Staff Sergeant, U.S. Army Air Forces – World War II",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Donald Joseph Bevan was born in Holyoke on January 16, 1920, and grew up in the area during the strain of the Great Depression, which hit his family hard after his father lost his engineering job. He completed high school locally before leaving Western Massachusetts to study art in Manhattan. Draftee service in World War II interrupted his budding artistic career. Serving as a Staff Sergeant and B-17 Flying Fortress ball turret gunner in the U.S. Army Air Forces, Bevan was shot down during a bombing raid over Germany. He was captured and held for 14 months at Stalag XVII-B in Krems, Austria. During his imprisonment, he met fellow airman Edmund Trzcinski; together they drew upon their real-life captivity to co-write the smash 1951 Broadway play Stalag 17, later adapted into the iconic film. Following the war, Bevan settled into a long post-war career in New York as a celebrated caricaturist for Sardi's restaurant. He passed away on May 29, 2013, at age 93. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "metcalf_joseph_iii",
+   "name": "Metcalf, Joseph III",
+   "era": "Cold War",
+   "branch": "Navy",
+   "branchLabel": "Vice Admiral, U.S. Navy – Cold War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Joseph Metcalf III was born in Holyoke on December 20, 1927, and was raised in the paper city before receiving an appointment to the United States Naval Academy. Graduating in 1951, he embarked on a distinguished surface warfare naval career that spanned the Cold War and Vietnam War eras, rising to senior leadership through demonstrated operational capability. His defining command moment arrived in October 1983 when, as Vice Admiral and Commander of the U.S. Second Fleet, he was placed in overall operational command of Joint Task Force 120 for Operation Urgent Fury—the American invasion of Grenada. Metcalf orchestrated the rapid joint-force assault that secured the island nation and evacuated stranded American medical students. Retiring after decades of flag service, Vice Admiral Metcalf passed away on March 2, 2007, at the age of 79. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "queue",
+   "source": "research-queue"
+  },
+  {
+   "id": "monette_theodore_a",
+   "name": "Monette, Theodore A.",
+   "era": "Vietnam War",
+   "branch": "Army",
+   "branchLabel": "Colonel, U.S. Army – Vietnam War",
+   "lat": null,
+   "lng": null,
+   "photo": "",
+   "narrative": "Theodore A. Monette Jr. was born in Holyoke on December 31, 1947, where he spent his youth and attended local schools before entering the military. Commissioned into the U.S. Army, Monette proved his leadership in combat during the Vietnam War and later deployed during the Persian Gulf War. Attaining the rank of Colonel, his military leadership and organizational skills led smoothly into a vital civilian career in national disaster response. Following his military retirement, Colonel Monette joined the Federal Emergency Management Agency (FEMA) as a Senior Federal Coordinating Officer. In that role, he directed federal response operations during the nation's gravest crises, leading emergency efforts in New York City after the September 11 terrorist attacks and in New Orleans following Hurricane Katrina. Colonel Monette passed away on March 30, 2020. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
    "status": "queue",
    "source": "research-queue"
   }
