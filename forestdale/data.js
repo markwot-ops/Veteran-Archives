@@ -3825,6 +3825,18 @@ window.VA = {
    "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/fd_mackenzie_john_stone.jpg",
    "extraPhotos": [
     {
+     "caption": "Chief Boatswain's Mate John MacKenzie, U.S. Navy — wearing the Medal of Honor",
+     "src": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/fd_mackenzie_john_portrait.jpg"
+    },
+    {
+     "caption": "His grave at Forestdale Cemetery — Section R, Lot 113",
+     "src": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/fd_mackenzie_john_grave2.jpg"
+    },
+    {
+     "caption": "Forestdale Cemetery — Beers 1871 map and plot layout (Section R)",
+     "src": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/fd_mackenzie_john_map.jpg"
+    },
+    {
      "caption": "🎖️ His Medal of Honor Story — the Remlik depth charge, 1917",
      "src": "https://markwot-ops.github.io/Veteran-Archives/stories/mackenzie.html"
     }
