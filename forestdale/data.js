@@ -3822,7 +3822,7 @@ window.VA = {
    "branchLabel": "",
    "lat": 42.207128,
    "lng": -72.622925,
-   "photo": "",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/fd_mackenzie_john_stone.jpg",
    "extraPhotos": [
     {
      "caption": "🎖️ His Medal of Honor Story — the Remlik depth charge, 1917",
