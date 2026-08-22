@@ -337,14 +337,14 @@ function titleName(n){ return displayName(stripRank(n)); }
 var VET_CHECK_GREEN = {
   beaudoin_raymond_o:1, davitt__w_ww_i_kia:1, fd_mackenzie_john:1, muller_joseph_e:1,
   aaron_f_baldwin_cw:1, harper_rev_how_ichabod:1, harper_rev_ludington_daniel:1,
-  harper_rev_perkins_elish:1, harper_rev_wood_david:1
+  harper_rev_perkins_elish:1, harper_rev_wood_david:1, dowd__f_mass:1
 };
 var VET_CHECK_YELLOW = {
   carlton_r_baush_wwi:1, george_a_baush_wwii:1, harold_c_baush_wwii:1
 };
 function vetCheck(v){
   var c = VET_CHECK_GREEN[v.id] ? '#16a34a' : (VET_CHECK_YELLOW[v.id] ? '#eab308' : '');
-  return c ? '<span class="v-check" style="color:'+c+';font-weight:700;margin-left:5px">\u2713</span>' : '';
+  return c ? '<span class="v-check" style="color:'+c+';font-weight:700;margin-left:24px">\u2713</span>' : '';
 }
 
 
