@@ -50055,7 +50055,7 @@ window.VA = {
    "branchLabel": "Staff Sergeant, U.S. Army Air Forces – World War II",
    "lat": null,
    "lng": null,
-   "photo": "",
+   "photo": "/Veteran-Archives/photos/research-queue/bevan_donald_j.jpg",
    "narrative": "Donald Joseph Bevan was born in Holyoke on January 16, 1920, and grew up in the area during the strain of the Great Depression, which hit his family hard after his father lost his engineering job. He completed high school locally before leaving Western Massachusetts to study art in Manhattan. Draftee service in World War II interrupted his budding artistic career. Serving as a Staff Sergeant and B-17 Flying Fortress ball turret gunner in the U.S. Army Air Forces, Bevan was shot down during a bombing raid over Germany. He was captured and held for 14 months at Stalag XVII-B in Krems, Austria. During his imprisonment, he met fellow airman Edmund Trzcinski; together they drew upon their real-life captivity to co-write the smash 1951 Broadway play Stalag 17, later adapted into the iconic film. Following the war, Bevan settled into a long post-war career in New York as a celebrated caricaturist for Sardi's restaurant. He passed away on May 29, 2013, at age 93. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "queue",
