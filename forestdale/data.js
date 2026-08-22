@@ -3820,8 +3820,8 @@ window.VA = {
    "era": "World War I",
    "branch": "Navy",
    "branchLabel": "",
-   "lat": 42.207128,
-   "lng": -72.622925,
+   "lat": 42.209,
+   "lng": -72.6251,
    "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/fd_mackenzie_john_stone.jpg",
    "extraPhotos": [
     {
