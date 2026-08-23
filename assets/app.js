@@ -338,7 +338,7 @@ var VET_CHECK_GREEN = {
   beaudoin_raymond_o:1, davitt__w_ww_i_kia:1, fd_mackenzie_john:1, muller_joseph_e:1,
   aaron_f_baldwin_cw:1, harper_rev_how_ichabod:1, harper_rev_ludington_daniel:1,
   harper_rev_perkins_elish:1, harper_rev_wood_david:1, dowd__f_mass:1,
-  zack_connor_george_s_l:1
+  zack_connor_george_s_l:1, kierzek_stanley_p:1
 };
 var VET_CHECK_YELLOW = {
   carlton_r_baush_wwi:1, george_a_baush_wwii:1, harold_c_baush_wwii:1,
