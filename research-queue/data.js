@@ -2004,7 +2004,8 @@ window.VA = {
      "src": "https://www.latimes.com/archives/la-xpm-2002-jun-07-na-briefs7.2-story.html",
      "caption": "📰 Repatriation & Arlington honors (Los Angeles Times, 2002)"
     }
-   ]
+   ],
+   "photo": "/Veteran-Archives/photos/research-queue/kaster_leonard_l.jpg"
   },
   {
    "id": "kelly_john_j",
