@@ -108,12 +108,12 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
-   "narrative": "Joseph E. Blair of Holyoke entered the service on May 8, 1917, in Orange, and served with Company E, 104th Infantry. On April 12, 1918, during a bombardment, he refused to take shelter in a dugout. He stayed at his exposed post and waited for the enemy attack he knew was coming, and he was killed there. For that act the French awarded him the Croix de Guerre a few days after his death, and on July 12, 1918, the United States Government awarded him the Distinguished Service Medal posthumously. He was decorated twice by two nations for a single act of courage he did not live to hear about. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Nineteen-year-old Private Joseph E. Blair, a Holyoke mill worker who left his trade to serve in World War I, was posthumously decorated by both the United States and France following his death during a front-line artillery bombardment. Blair entered the military service on May 8, 1917, enlisting in Orange, Massachusetts. He was deployed to France as a Private with Company E of the 104th Infantry Regiment, 26th “Yankee” Division. His unit was among the American Expeditionary Forces engaged in front-line trench warfare operations when his position came under attack. On April 12, 1918, during a heavy enemy bombardment, Blair’s unit was ordered to seek shelter in an underground dugout. Blair refused to take cover, choosing instead to remain at his exposed post to watch for an anticipated enemy ground assault. He was killed at his position during the shelling. A few days after his death, the French government recognized Blair’s actions by awarding him the Croix de Guerre. On July 12, 1918, the United States Government posthumously awarded him the Distinguished Service Cross for his actions. Blair was decorated twice by two separate nations for a single combat action. Blair’s death was felt closely throughout his Holyoke neighborhood. His name is maintained locally as a symbol of the community's wartime losses during the Great War. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
    "badges": [
     "KIA",
     "Croix de Guerre",
-    "Distinguished Service Medal"
+    "Distinguished Service Cross"
    ],
    "status": "queue",
    "source": "research-queue",
