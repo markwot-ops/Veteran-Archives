@@ -3822,7 +3822,7 @@ window.VA = {
    "branchLabel": "",
    "lat": 42.209,
    "lng": -72.6251,
-   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/fd_mackenzie_john_stone.jpg",
+   "photo": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/fd_mackenzie_john_stone_v2.jpg",
    "extraPhotos": [
     {
      "caption": "Chief Boatswain's Mate John MacKenzie, U.S. Navy — wearing the Medal of Honor",
