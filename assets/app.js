@@ -620,21 +620,78 @@ if (!Object.keys(distCounts).length) {
   });
 }
 
+// ===== Site-wide search shared helpers (used by the desktop search box) =====
+var _VA_ALL=null, _VA_LOADING=false, _VA_CBS=[];
+function vaCurSlug(){ var pp=location.pathname.replace(/\/+$/,'').split('/'); var last=pp[pp.length-1]; return /\.html?$/.test(last)?pp[pp.length-2]:last; }
+function vaEsc(s){ var d=document.createElement('div'); d.textContent=s==null?'':s; return d.innerHTML; }
+function vaFmtName(n){ if(!n) return n; if(n.indexOf(',')>-1) return n; var p=n.trim().split(/\s+/); return p.length>1?p[p.length-1]+', '+p.slice(0,-1).join(' '):n; }
+function vaSiteLabel(s){ return ({calvary:'Calvary',forestdale:'Forestdale',elmwood:'Elmwood','rock-valley':'Rock Valley','smiths-ferry':'Smiths Ferry','research-queue':'Research Queue'})[s]||s; }
+function loadAllVets(cb){
+  if(_VA_ALL){ cb(_VA_ALL); return; }
+  _VA_CBS.push(cb); if(_VA_LOADING) return; _VA_LOADING=true;
+  var SITES=['calvary','forestdale','elmwood','rock-valley','smiths-ferry','research-queue'], CUR=vaCurSlug();
+  Promise.allSettled(SITES.map(function(slug){
+    if(slug===CUR) return Promise.resolve((typeof veterans!=='undefined'?veterans:[]).map(function(v){return {name:v.name,slug:slug,id:v.id};}));
+    return fetch('../'+slug+'/data.js',{cache:'no-store'}).then(function(r){ if(!r.ok) throw 0; return r.text(); }).then(function(t){ var sb={}; new Function('window',t)(sb); return ((sb.VA&&sb.VA.veterans)||[]).map(function(v){return {name:v.name,slug:slug,id:v.id};}); });
+  })).then(function(rs){
+    var all=[]; rs.forEach(function(r){ if(r.status==='fulfilled') all.push.apply(all,r.value); });
+    _VA_ALL=all.filter(function(m){return m.id&&m.name;});
+    _VA_CBS.forEach(function(f){ f(_VA_ALL); }); _VA_CBS=[];
+  });
+}
+function vaGoMatch(m){
+  var CUR=vaCurSlug();
+  if(m.slug===CUR){
+    var arr=(typeof veterans!=='undefined')?veterans:[], idx=-1;
+    for(var i=0;i<arr.length;i++){ if(arr[i].id===m.id){ idx=i; break; } }
+    if(idx>-1 && typeof selectVet==='function') selectVet(arr[idx], idx);
+  } else { location.href='../'+m.slug+'/index.html?v='+encodeURIComponent(m.id); }
+}
+
+// keep the in-place list filter for the current site
 document.getElementById('search').addEventListener('input', e => {
   searchTerm = e.target.value;
   clearTimeout(searchTimer);
   searchTimer = setTimeout(buildSidebar, 120);
 });
+// Enter jumps to the first match ANYWHERE on the site
 document.getElementById('search').addEventListener('keydown', e => {
   if (e.key==='Enter') {
-    const term = e.target.value.toLowerCase();
-    const idx = veterans.findIndex(v => v.name.toLowerCase().includes(term));
-    if (idx>=0) {
-      const match = veterans[idx];
-      selectVet(match, idx);
-    }
+    var q=e.target.value.trim().toLowerCase(); if(!q) return;
+    loadAllVets(function(all){
+      var m=all.filter(function(x){return (x.name||'').toLowerCase().indexOf(q)>-1;})[0];
+      if(m) vaGoMatch(m);
+    });
   }
 });
+// site-wide results dropdown under the desktop search box
+(function(){
+  var input=document.getElementById('search'), top=document.getElementById('sidebar-top');
+  if(!input||!top) return;
+  top.style.position='relative';
+  var box=document.createElement('div'); box.id='site-results'; top.appendChild(box);
+  var matches=[];
+  function render(){
+    var q=input.value.trim();
+    if(!q){ box.classList.remove('show'); box.innerHTML=''; return; }
+    if(!matches.length){ box.innerHTML='<div class="sr-none">No veteran by that name.</div>'; box.classList.add('show'); return; }
+    box.innerHTML=matches.map(function(m,i){ return '<div class="sr-row" data-i="'+i+'"><span class="sr-name">'+vaEsc(vaFmtName(m.name))+'</span><span class="sr-site">'+vaSiteLabel(m.slug)+'</span></div>'; }).join('');
+    box.classList.add('show');
+  }
+  function run(){
+    var q=input.value.trim().toLowerCase();
+    if(!q){ matches=[]; render(); return; }
+    loadAllVets(function(all){
+      if(input.value.trim().toLowerCase()!==q) return;
+      matches=all.filter(function(m){return (m.name||'').toLowerCase().indexOf(q)>-1;}).slice(0,40);
+      render();
+    });
+  }
+  input.addEventListener('input', run);
+  input.addEventListener('focus', function(){ if(input.value.trim()) run(); });
+  input.addEventListener('blur', function(){ setTimeout(function(){ box.classList.remove('show'); }, 180); });
+  box.addEventListener('mousedown', function(e){ var r=e.target.closest('.sr-row'); if(!r) return; e.preventDefault(); var m=matches[+r.dataset.i]; box.classList.remove('show'); if(m) vaGoMatch(m); });
+})();
 
 updateCount();
 buildMarkers();
