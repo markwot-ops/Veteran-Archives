@@ -936,4 +936,70 @@ function syncFieldButtons(){
     _fbs.parentNode.insertBefore(_fhx, _fbs.nextSibling);
   }
   /* list closes only when a veteran is selected, or by tapping Veteran Locator again */
+
+  /* 2: open the veteran list with the map (unless deep-linking straight to a grave) */
+  if (!/[?&]v=/.test(location.search)) document.body.classList.add('vetlist-open');
+
+  /* 3: site-wide veteran search inside the drawer — finds a vet on ANY page */
+  (function(){
+    var sidebar = document.getElementById('sidebar');
+    if (!sidebar) return;
+    var res  = document.createElement('div'); res.id = 'mob-search-res';
+    var wrap = document.createElement('div'); wrap.id = 'mob-search-wrap';
+    wrap.innerHTML = '<input id="mob-search" type="search" autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="Find a veteran \u2014 any site\u2026">';
+    sidebar.insertBefore(res, sidebar.firstChild);
+    sidebar.insertBefore(wrap, sidebar.firstChild);
+    var input = document.getElementById('mob-search');
+
+    var SITES  = ['calvary','forestdale','elmwood','rock-valley','smiths-ferry','research-queue'];
+    var LABELS = {calvary:'Calvary',forestdale:'Forestdale',elmwood:'Elmwood','rock-valley':'Rock Valley','smiths-ferry':'Smiths Ferry','research-queue':'Research Queue'};
+    var pp = location.pathname.replace(/\/+$/,'').split('/'); var lastp = pp[pp.length-1];
+    var CUR = /\.html?$/.test(lastp) ? pp[pp.length-2] : lastp;
+    var INDEX = null, loading = false, matches = [];
+
+    function fmt(n){ if(!n) return n; if(n.indexOf(',')>-1) return n; var p=n.trim().split(/\s+/); return p.length>1 ? p[p.length-1]+', '+p.slice(0,-1).join(' ') : n; }
+    function esc(s){ var d=document.createElement('div'); d.textContent = s==null?'':s; return d.innerHTML; }
+
+    function load(){
+      if (INDEX || loading) return; loading = true;
+      input.setAttribute('placeholder','Loading veterans\u2026');
+      Promise.allSettled(SITES.map(function(slug){
+        if (slug===CUR) return Promise.resolve((typeof veterans!=='undefined'?veterans:[]).map(function(v){return {name:v.name,slug:slug,id:v.id};}));
+        return fetch('../'+slug+'/data.js',{cache:'no-store'}).then(function(r){ if(!r.ok) throw 0; return r.text(); }).then(function(t){ var sb={}; new Function('window',t)(sb); return ((sb.VA&&sb.VA.veterans)||[]).map(function(v){return {name:v.name,slug:slug,id:v.id};}); });
+      })).then(function(rs){
+        var all=[]; rs.forEach(function(r){ if(r.status==='fulfilled') all.push.apply(all,r.value); });
+        INDEX = all.filter(function(m){ return m.id && m.name; });
+        input.setAttribute('placeholder','Find a veteran \u2014 any site\u2026');
+        search();
+      });
+    }
+    function go(m){
+      if (m.slug===CUR){
+        var arr = (typeof veterans!=='undefined')?veterans:[], idx=-1;
+        for (var i=0;i<arr.length;i++){ if(arr[i].id===m.id){ idx=i; break; } }
+        input.value=''; matches=[]; render();
+        document.body.classList.remove('vetlist-open');
+        if (idx>-1 && typeof selectVet==='function') selectVet(arr[idx], idx);
+      } else {
+        location.href = '../'+m.slug+'/index.html?v='+encodeURIComponent(m.id);
+      }
+    }
+    function render(){
+      if (!matches.length){
+        res.innerHTML = input.value.trim() ? '<div class="mob-none">No veteran by that name.</div>' : '';
+        var on = !!input.value.trim(); res.classList.toggle('show', on); document.body.classList.toggle('mob-searching', on);
+        return;
+      }
+      res.innerHTML = matches.map(function(m,i){ return '<div class="mob-res" data-i="'+i+'"><span class="mob-res-name">'+esc(fmt(m.name))+'</span><span class="mob-res-site">'+(LABELS[m.slug]||m.slug)+'</span></div>'; }).join('');
+      res.classList.add('show'); document.body.classList.add('mob-searching');
+    }
+    function search(){
+      var t = input.value.trim().toLowerCase();
+      matches = (INDEX && t) ? INDEX.filter(function(m){ return (m.name||'').toLowerCase().indexOf(t)>-1; }).slice(0,30) : [];
+      render();
+    }
+    input.addEventListener('focus', load);
+    input.addEventListener('input', function(){ if(!INDEX) load(); search(); });
+    res.addEventListener('click', function(e){ var r=e.target.closest('.mob-res'); if(!r) return; var m=matches[+r.dataset.i]; if(m) go(m); });
+  })();
 })();
