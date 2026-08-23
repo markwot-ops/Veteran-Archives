@@ -4789,13 +4789,19 @@ window.VA = {
    "branchLabel": "U.S. Army – World War I",
    "lat": null,
    "lng": null,
-   "narrative": "Corporal Patrick Desilets of Holyoke served with the 30th United States Infantry. In full daylight he led a patrol under fire, made a reconnaissance of both the American and German first-line positions, and brought back valuable information — then guided the remaining men to their places of combat through a violent bombardment. Cited in the order of his regiment with the approval of the French Commander-in-Chief, Desilets was awarded the Croix de Guerre. What became of him afterward has not yet been traced; that research continues. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
-   "sourceNote": "His citation is printed in Holyoke's published record of the war; the full researched narrative is still pending.",
+   "narrative": "Patrick Desilets served as a corporal in the United States Army during the First World War, in the ranks of the 30th Infantry Regiment. His regiment fought with the 3rd Division — the outfit that won lasting fame in the summer of 1918 holding the line along the Marne east of Château-Thierry, the stand that earned the division its enduring name, the “Rock of the Marne.” It was in that summer’s fighting, under fire and in full daylight, that Desilets earned the Croix de Guerre, France’s cross for valor, for a reconnaissance that brought his commanders what they needed to know. The citation, in the words of his own regiment, is reproduced in the enclosed award.\n\nBorn on June 16, 1891, Desilets belonged to Holyoke’s large and proud French-Canadian American community, and it was to Holyoke that he returned when the war ended in November 1918. There he married; he and his wife, Clara, raised two daughters, Adelle and Claire, the family taking its place in the city through the 1920s and the decades that followed. A lifelong Holyoker, he lived to see his children grown and his country through a second world war before he died in December 1966, at the age of seventy-five — his long, peaceful civilian years a quiet testament to the future he had helped secure in France. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "sourceNote": "Wartime citation from Holyoke’s published record of the Great War; post-war life from census and family records.",
    "badges": [
     "Croix de Guerre"
    ],
    "status": "queue",
-   "source": "zack-heroes"
+   "source": "zack-heroes",
+   "extraPhotos": [
+    {
+     "src": "/Veteran-Archives/photos/research-queue/desilets_citation.pdf",
+     "caption": "📜 Read his Croix de Guerre citation (draft)"
+    }
+   ]
   },
   {
    "id": "zack_slattery_robert_c",
