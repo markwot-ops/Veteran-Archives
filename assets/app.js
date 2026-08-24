@@ -343,7 +343,8 @@ var VET_CHECK_GREEN = {
 };
 var VET_CHECK_YELLOW = {
   carlton_r_baush_wwi:1, george_a_baush_wwii:1, harold_c_baush_wwii:1,
-  zack_desilets_patrick:1
+  zack_desilets_patrick:1,
+  altenkirch__a_navy_great_white_fleet:1, ackronis__j_navy_ww_ii:1, allen__w_ct_inf_span_am_war:1, anderson__j_sr_army_ww_ii:1, anderstrom__a_navy_ww_i:1, baldassaro__g_jr_usaf:1, barnett__c_army_ww_ii:1, barnett__j_navy_ww_i:1, barrett__e_army_ww_ii:1, bartley__j_mass_usnrf:1, batchelor__h_army_ww_ii:1, beaulieu__w_f_air_force:1, bedard__e_jr_usmc_vietnam:1
 };
 function vetCheck(v){
   var c = VET_CHECK_GREEN[v.id] ? '#16a34a' : (VET_CHECK_YELLOW[v.id] ? '#eab308' : '');
