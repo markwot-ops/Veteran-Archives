@@ -940,6 +940,16 @@ function serviceLine(v){
 // Title: rank stripped, "Last, First" — identical to the index.
 function titleName(n){ return displayName(stripRank(n)); }
 
+var VET_CHECK_GREEN = {beaudoin_raymond_o:1, fd_mackenzie_john:1, muller_joseph_e:1,
+  aaron_f_baldwin_cw:1, harper_rev_how_ichabod:1, harper_rev_ludington_daniel:1,
+  harper_rev_perkins_elish:1, harper_rev_wood_david:1, dowd__f_mass:1,
+  zack_connor_george_s_l:1, kierzek_stanley_p:1, kaster_leonard_l:1,
+  anderson_alfred_s:1, begley__d_ww_i_kia:1, blair_joseph_e:1};
+var VET_CHECK_YELLOW = {carlton_r_baush_wwi:1, george_a_baush_wwii:1, harold_c_baush_wwii:1,
+  zack_desilets_patrick:1, davitt__w_ww_i_kia:1,
+  altenkirch__a_navy_great_white_fleet:1, ackronis__j_navy_ww_ii:1, allen__w_ct_inf_span_am_war:1, anderson__j_sr_army_ww_ii:1, anderstrom__a_navy_ww_i:1, baldassaro__g_jr_usaf:1, barnett__c_army_ww_ii:1, barnett__j_navy_ww_i:1, barrett__e_army_ww_ii:1, bartley__j_mass_usnrf:1, batchelor__h_army_ww_ii:1, beaulieu__w_f_air_force:1, bedard__e_jr_usmc_vietnam:1};
+function vetCheck(v){ var c=VET_CHECK_GREEN[v.id]?'#16a34a':(VET_CHECK_YELLOW[v.id]?'#eab308':''); return c?'<span class="v-check" style="color:'+c+';font-weight:700;margin-left:24px">\u2713</span>':''; }
+
 
 function sortedList() {
   if (!SORTED) SORTED = veterans.map((v,i)=>({v,i})).sort((a,b)=>
@@ -956,7 +966,7 @@ function makeRow(v, idx) {
   const q = queued ? `<div class="v-badge-q">\u25d4 queue</div>` : '';
   const g = geo ? `<div class="v-geo" title="Grave located">\u25c9</div>`
                 : `<div class="v-nogeo">not located</div>`;
-  el.innerHTML = `<div class="v-sym" style="color:${eraColor(v.era)}">${branchSym(v.branch)}</div><div style="flex:1;min-width:0"><div class="v-name">${titleName(v.name)}</div><div class="v-era">${eraLabel(v.era)}${vetRibbons(v)}</div></div>${q}${g}`;
+  el.innerHTML = `<div class="v-sym" style="color:${eraColor(v.era)}">${branchSym(v.branch)}</div><div style="flex:1;min-width:0"><div class="v-name">${titleName(v.name)}${vetCheck(v)}</div><div class="v-era">${eraLabel(v.era)}${vetRibbons(v)}</div></div>${q}${g}`;
   el.dataset.idx = idx;
   return el;
 }
