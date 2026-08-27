@@ -467,23 +467,26 @@ body.sun .kia-badge-star { color:#c8860a !important;
   #fb-honors .v-ribbons svg { width:34px; height:13px; }
   #fb-honors .v-kia-star { font-size:15px; }
   #legend {
-    display:block !important; position:absolute; left:0; right:0; bottom:0; top:auto;
+    display:flex !important; align-items:center; gap:9px; position:absolute; left:0; right:0; bottom:0; top:auto;
     width:auto; max-width:none; max-height:none; border-radius:0; border-left:none;
-    border-top:1px solid #5a3f27; background:rgba(10,10,10,0.96);
-    padding:5px 8px calc(5px + env(safe-area-inset-bottom,0px)); z-index:1150; overflow:hidden;
+    border-top:1px solid #6b4a2e; background:rgba(14,12,9,0.97); box-shadow:0 -3px 10px rgba(0,0,0,0.5);
+    padding:8px 10px calc(10px + env(safe-area-inset-bottom,0px)); z-index:1150; overflow:hidden;
   }
-  #legend h4 { display:none; }
+  #legend h4 { display:flex !important; flex:0 0 auto; margin:0; padding:0; border:none;
+    font-size:0.56rem; line-height:1.1; text-transform:uppercase; letter-spacing:0.09em;
+    color:#e8c98a; font-weight:bold; align-items:center; }
+  #legend h4 .all-hint { display:none; }
   #legend #leg-distinct {
-    display:flex; flex-direction:row; gap:15px; overflow-x:auto; overflow-y:hidden;
+    display:flex; flex-direction:row; gap:14px; overflow-x:auto; overflow-y:hidden; flex:1 1 auto; min-width:0;
     -webkit-overflow-scrolling:touch; scroll-snap-type:x proximity; padding-bottom:2px;
   }
   #legend #leg-distinct .leg-row {
     flex:0 0 auto; flex-direction:row; align-items:center; margin:0;
-    scroll-snap-align:center; white-space:nowrap; opacity:1;
+    scroll-snap-align:start; white-space:nowrap; opacity:1;
   }
-  #legend #leg-distinct .leg-label { font-size:0.6rem; }
-  #legend #leg-distinct .leg-count { margin-left:4px; font-size:0.6rem; }
-  #legend #leg-distinct .leg-ribbon, #legend #leg-distinct .leg-ribbon svg { width:34px; height:12px; }
+  #legend #leg-distinct .leg-label { font-size:0.62rem; }
+  #legend #leg-distinct .leg-count { margin-left:4px; font-size:0.62rem; }
+  #legend #leg-distinct .leg-ribbon, #legend #leg-distinct .leg-ribbon svg { width:36px; height:13px; }
 
   /* site-wide veteran search inside the drawer (phones) */
   #mob-search-wrap { flex:0 0 auto; padding:8px; border-bottom:1px solid #222; background:#0a0a0a; }
