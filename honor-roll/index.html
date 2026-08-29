@@ -247,6 +247,9 @@ body.sun .leg-ribbon svg { outline:0.5px solid rgba(0,0,0,.5); }
   #sheet-handle .hbar { width:38px; height:4px; border-radius:2px; background:#5a4a34; }
   #sheet-handle .sheet-hint { font-size:0.93rem; color:#8a8272; letter-spacing:0.04em; }
   body:not(.sheet-open) #list-wrap { display:none; }
+  /* collapsed sheet shows only handle + search (map-dominant), like the cemetery pages;
+     the Honors filter strip appears once the sheet is pulled up */
+  body:not(.sheet-open) #legend.in-sheet { display:none; }
   body.sheet-open #sheet-handle .sheet-hint::after { content:' — tap to close'; }
   body:not(.sheet-open) #sheet-handle .sheet-hint::after { content:' — tap to open'; }
   #sidebar-top { padding:9px 12px 10px; }
