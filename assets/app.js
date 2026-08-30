@@ -342,20 +342,22 @@ var VET_CHECK_GREEN = {
   harper_rev_perkins_elish:1, harper_rev_wood_david:1, dowd__f_mass:1,
   zack_connor_george_s_l:1, kierzek_stanley_p:1, kaster_leonard_l:1,
   anderson_alfred_s:1, begley__d_ww_i_kia:1, blair_joseph_e:1, concannon__l_usaf_ww_ii_korea:1,
-  buckley__d_navy_ww_ii:1
+  buckley__d_navy_ww_ii:1, davitt__w_ww_i_kia:1
 };
 var VET_CHECK_YELLOW = {
   carlton_r_baush_wwi:1, george_a_baush_wwii:1, harold_c_baush_wwii:1,
-  zack_desilets_patrick:1, davitt__w_ww_i_kia:1,
+  zack_desilets_patrick:1,
   altenkirch__a_navy_great_white_fleet:1, ackronis__j_navy_ww_ii:1, allen__w_ct_inf_span_am_war:1, anderson__j_sr_army_ww_ii:1, anderstrom__a_navy_ww_i:1, baldassaro__g_jr_usaf:1, barnett__c_army_ww_ii:1, barnett__j_navy_ww_i:1, barrett__e_army_ww_ii:1, bartley__j_mass_usnrf:1, batchelor__h_army_ww_ii:1, beaulieu__w_f_air_force:1, bedard__e_jr_usmc_vietnam:1,
   abbey__l_army_ww_ii:1, ww2_babyak_john_michael:1, biela_max_e:1, boczon_francis_j:1, brovarek_frank:1, bruder_emil:1, carlow_john:1,
   hillman_merle_c:1, baillargeon__l_military:1, ww2_banas_charles_w:1, fd_batchelor_charles_f:1, zack_blais_albert:1, breton_joseph_j:1, brouillette_george_r:1, zack_brown_henry_a:1, brown_joseph_j:1, brown_kenneth_r:1, burgess_leon_f:1,
-  zack_boudreau_alexander:1, elisha_chapin_colonial:1, bogusz_stanley_j:1, chartier_leo_george:1, chatterton_arthur:1, ww2_clark_james_g:1, zack_enl_collins_danielj:1
+  zack_boudreau_alexander:1, elisha_chapin_colonial:1, bogusz_stanley_j:1, chartier_leo_george:1, chatterton_arthur:1, ww2_clark_james_g:1, collins__d_vietnam_bronze_star:1,
+  zack_comeau_joseph_e:1, cordeau_harold_w:1, corrigan_john_j:1, coughlin_kirwin:1, croteau_louis_m:1, proteau_rene_a:1, ww2_cuddy_joseph_f:1, harper_cw_cushing_patrick:1, cw_cushing_pat:1, czech_henry_f:1, dalton_john:1
 };
 var VET_CHECK_RED = {
   bousquet_robert_g:1, korea_castro_anthony_j:1,
   bourque_valmore_w:1, harper_cw_boyington_herbert_j:1, cw_boyington_h_j:1, breault_alfred_a:1, korea_brissette_norman:1,
-  korea_carroll_william_george:1, korea_charpentier_roland:1, chevrette_albert_e:1, chivas_stanley:1, cleary_james_t:1
+  korea_carroll_william_george:1, korea_charpentier_roland:1, chevrette_albert_e:1, chivas_stanley:1, cleary_james_t:1,
+  davidson_william_g:1, dec_walter:1
 };
 function vetCheck(v){
   var c = VET_CHECK_GREEN[v.id] ? '#16a34a' : (VET_CHECK_YELLOW[v.id] ? '#eab308' : (VET_CHECK_RED[v.id] ? '#dc2626' : ''));
