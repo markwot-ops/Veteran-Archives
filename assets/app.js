@@ -348,10 +348,12 @@ var VET_CHECK_YELLOW = {
   carlton_r_baush_wwi:1, george_a_baush_wwii:1, harold_c_baush_wwii:1,
   zack_desilets_patrick:1, davitt__w_ww_i_kia:1,
   altenkirch__a_navy_great_white_fleet:1, ackronis__j_navy_ww_ii:1, allen__w_ct_inf_span_am_war:1, anderson__j_sr_army_ww_ii:1, anderstrom__a_navy_ww_i:1, baldassaro__g_jr_usaf:1, barnett__c_army_ww_ii:1, barnett__j_navy_ww_i:1, barrett__e_army_ww_ii:1, bartley__j_mass_usnrf:1, batchelor__h_army_ww_ii:1, beaulieu__w_f_air_force:1, bedard__e_jr_usmc_vietnam:1,
-  abbey__l_army_ww_ii:1, ww2_babyak_john_michael:1, biela_max_e:1, boczon_francis_j:1, brovarek_frank:1, bruder_emil:1, carlow_john:1
+  abbey__l_army_ww_ii:1, ww2_babyak_john_michael:1, biela_max_e:1, boczon_francis_j:1, brovarek_frank:1, bruder_emil:1, carlow_john:1,
+  hillman_merle_c:1, baillargeon__l_military:1, ww2_banas_charles_w:1, fd_batchelor_charles_f:1, zack_blais_albert:1, breton_joseph_j:1, brouillette_george_r:1, zack_brown_henry_a:1, brown_joseph_j:1, brown_kenneth_r:1, burgess_leon_f:1
 };
 var VET_CHECK_RED = {
-  bousquet_robert_g:1, korea_castro_anthony_j:1
+  bousquet_robert_g:1, korea_castro_anthony_j:1,
+  bourque_valmore_w:1, harper_cw_boyington_herbert_j:1, cw_boyington_h_j:1, breault_alfred_a:1, korea_brissette_norman:1, carroll__r_mass_signal_corps_ww_ii:1
 };
 function vetCheck(v){
   var c = VET_CHECK_GREEN[v.id] ? '#16a34a' : (VET_CHECK_YELLOW[v.id] ? '#eab308' : (VET_CHECK_RED[v.id] ? '#dc2626' : ''));
