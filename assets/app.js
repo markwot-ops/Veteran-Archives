@@ -271,6 +271,8 @@ function closePopup() {
   if (activeMarker) { activeMarker.getElement()?.classList.remove('marker-pulse'); activeMarker = null; }
   document.querySelectorAll('.vet-item').forEach(el => el.classList.remove('active'));
   activeIdx = null;
+  // On phones, closing a veteran returns to the index instead of leaving a bare map.
+  if (isMobile()) clearFocus();
 }
 map.on('click', () => {
   if (document.getElementById('popup').classList.contains('show')) closePopup();
@@ -339,15 +341,20 @@ var VET_CHECK_GREEN = {
   aaron_f_baldwin_cw:1, harper_rev_how_ichabod:1, harper_rev_ludington_daniel:1,
   harper_rev_perkins_elish:1, harper_rev_wood_david:1, dowd__f_mass:1,
   zack_connor_george_s_l:1, kierzek_stanley_p:1, kaster_leonard_l:1,
-  anderson_alfred_s:1, begley__d_ww_i_kia:1, blair_joseph_e:1, concannon__l_usaf_ww_ii_korea:1
+  anderson_alfred_s:1, begley__d_ww_i_kia:1, blair_joseph_e:1, concannon__l_usaf_ww_ii_korea:1,
+  buckley__d_navy_ww_ii:1
 };
 var VET_CHECK_YELLOW = {
   carlton_r_baush_wwi:1, george_a_baush_wwii:1, harold_c_baush_wwii:1,
   zack_desilets_patrick:1, davitt__w_ww_i_kia:1,
-  altenkirch__a_navy_great_white_fleet:1, ackronis__j_navy_ww_ii:1, allen__w_ct_inf_span_am_war:1, anderson__j_sr_army_ww_ii:1, anderstrom__a_navy_ww_i:1, baldassaro__g_jr_usaf:1, barnett__c_army_ww_ii:1, barnett__j_navy_ww_i:1, barrett__e_army_ww_ii:1, bartley__j_mass_usnrf:1, batchelor__h_army_ww_ii:1, beaulieu__w_f_air_force:1, bedard__e_jr_usmc_vietnam:1
+  altenkirch__a_navy_great_white_fleet:1, ackronis__j_navy_ww_ii:1, allen__w_ct_inf_span_am_war:1, anderson__j_sr_army_ww_ii:1, anderstrom__a_navy_ww_i:1, baldassaro__g_jr_usaf:1, barnett__c_army_ww_ii:1, barnett__j_navy_ww_i:1, barrett__e_army_ww_ii:1, bartley__j_mass_usnrf:1, batchelor__h_army_ww_ii:1, beaulieu__w_f_air_force:1, bedard__e_jr_usmc_vietnam:1,
+  abbey__l_army_ww_ii:1, ww2_babyak_john_michael:1, biela_max_e:1, boczon_francis_j:1, brovarek_frank:1, bruder_emil:1, carlow_john:1
+};
+var VET_CHECK_RED = {
+  bousquet_robert_g:1, korea_castro_anthony_j:1
 };
 function vetCheck(v){
-  var c = VET_CHECK_GREEN[v.id] ? '#16a34a' : (VET_CHECK_YELLOW[v.id] ? '#eab308' : '');
+  var c = VET_CHECK_GREEN[v.id] ? '#16a34a' : (VET_CHECK_YELLOW[v.id] ? '#eab308' : (VET_CHECK_RED[v.id] ? '#dc2626' : ''));
   return c ? '<span class="v-check" style="color:'+c+';font-weight:700;margin-left:24px">\u2713</span>' : '';
 }
 
@@ -853,6 +860,8 @@ function clearFocus(){
   if (_targetHalo){ map.removeLayer(_targetHalo); _targetHalo=null; }
   if (_guideLine){ map.removeLayer(_guideLine); _guideLine=null; }
   stopCompass(); _bearingToGrave = null;
+  // Phones: bring the veteran index back when a grave/banner is dismissed.
+  if (isMobile()) document.body.classList.add('vetlist-open');
 }
 function updateDirections(){
   var bar = document.getElementById('dirBar');
