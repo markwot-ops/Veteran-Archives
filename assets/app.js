@@ -202,9 +202,16 @@ function openPopup(v, idx) {
   extEl.innerHTML = '';
   (v.extraPhotos||[]).forEach(ep => {
     const link = document.createElement('a');
-    link.href = ep.src; link.target = '_blank';
+    link.href = ep.src; link.target = '_blank'; link.rel = 'noopener';
     link.style.cssText = 'display:block;margin-bottom:10px;color:#c8b97a;font-size:0.82rem;text-decoration:none;border:1px solid #444;border-radius:6px;padding:8px 12px;background:#1a1a1a;';
     link.textContent = ep.caption || 'View document';
+    // Installed app (iOS standalone) traps in-scope PDFs with no back button.
+    // Force a separate browsing context so the reader can return to the app.
+    link.addEventListener('click', function(e){
+      var standalone = (window.navigator.standalone === true) ||
+                       (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches);
+      if (standalone) { e.preventDefault(); window.open(ep.src, '_blank'); }
+    });
     extEl.appendChild(link);
   });
 
@@ -343,7 +350,8 @@ var VET_CHECK_GREEN = {
   zack_connor_george_s_l:1, kierzek_stanley_p:1, kaster_leonard_l:1,
   anderson_alfred_s:1, begley__d_ww_i_kia:1, blair_joseph_e:1, concannon__l_usaf_ww_ii_korea:1,
   buckley__d_navy_ww_ii:1, davitt__w_ww_i_kia:1,
-  fred_k_burnham_cw:1, g_burnham_cw:1, lo_carpenter_cw:1, patrick_j_curran_wwi:1, william_r_dempsey_wwii:1, hugo_dudman_wwi_wwii:1, jno_eveleth_cw:1, arthur_emil_ezold_wwii:1
+  fred_k_burnham_cw:1, g_burnham_cw:1, lo_carpenter_cw:1, patrick_j_curran_wwi:1, william_r_dempsey_wwii:1, hugo_dudman_wwi_wwii:1, jno_eveleth_cw:1, arthur_emil_ezold_wwii:1,
+  demers_nazaire:1
 };
 var VET_CHECK_YELLOW = {
   carlton_r_baush_wwi:1, george_a_baush_wwii:1, harold_c_baush_wwii:1,
@@ -353,7 +361,8 @@ var VET_CHECK_YELLOW = {
   hillman_merle_c:1, baillargeon__l_military:1, ww2_banas_charles_w:1, fd_batchelor_charles_f:1, zack_blais_albert:1, breton_joseph_j:1, brouillette_george_r:1, zack_brown_henry_a:1, brown_joseph_j:1, brown_kenneth_r:1, burgess_leon_f:1,
   zack_boudreau_alexander:1, elisha_chapin_colonial:1, bogusz_stanley_j:1, chartier_leo_george:1, chatterton_arthur:1, ww2_clark_james_g:1, collins__d_vietnam_bronze_star:1,
   zack_comeau_joseph_e:1, cordeau_harold_w:1, corrigan_john_j:1, coughlin_kirwin:1, croteau_louis_m:1, proteau_rene_a:1, ww2_cuddy_joseph_f:1, harper_cw_cushing_patrick:1, cw_cushing_pat:1, czech_henry_f:1, dalton_john:1,
-  harper_rev_chapin_asahel:1, lt_martin_chapin_rev:1, edward_day_rev:1, harper_rev_day_jedediah:1, harper_rev_day_joel:1, harper_rev_day_joel_jr:1, capt_joseph_day_rev:1, robert_day_rev:1, harper_rev_ely_benjamin:1, harper_rev_ely_enoch:1, harper_rev_ely_joseph:1, harper_rev_ely_jube:1, harper_rev_fairfield_levi:1, oswald_f_friedrich:1
+  harper_rev_chapin_asahel:1, lt_martin_chapin_rev:1, edward_day_rev:1, harper_rev_day_jedediah:1, harper_rev_day_joel:1, harper_rev_day_joel_jr:1, capt_joseph_day_rev:1, robert_day_rev:1, harper_rev_ely_benjamin:1, harper_rev_ely_enoch:1, harper_rev_ely_joseph:1, harper_rev_ely_jube:1, harper_rev_fairfield_levi:1, oswald_f_friedrich:1,
+  deffew_percy_w:1, felsentreger__h_t_usmc_vietnam:1, mccormack__g_mass_amb_div_ww_i_ss:1, fd_littlejohn_louis_b:1, owens_david_l:1
 };
 var VET_CHECK_RED = {
   bousquet_robert_g:1, korea_castro_anthony_j:1,

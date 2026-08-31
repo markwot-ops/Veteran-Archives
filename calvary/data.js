@@ -3317,7 +3317,7 @@ window.VA = {
   },
   {
    "id": "mccormack__g_mass_amb_div_ww_i_ss",
-   "name": "G. McCormack",
+   "name": "George McCormack",
    "era": "World War I",
    "branch": "Massachusetts Ambulance Division",
    "branchLabel": "MA Amb. Div. · WWI",
