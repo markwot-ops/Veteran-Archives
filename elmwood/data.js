@@ -241,7 +241,7 @@ window.VA = {
   },
   {
    "id": "g_burnham_cw",
-   "name": "G. Burnham",
+   "name": "George Burnham",
    "era": "Civil War",
    "branch": "Army",
    "branchLabel": "",
