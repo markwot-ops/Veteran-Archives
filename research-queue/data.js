@@ -2613,7 +2613,7 @@ window.VA = {
    "photo": "/Veteran-Archives/photos/research-queue/maternowski_ignatius_grave.jpg",
    "extraPhotos": [
     {
-     "src": "/Veteran-Archives/photos/research-queue/maternowski_narrative.pdf",
+     "src": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/research-queue/maternowski_narrative.pdf",
      "caption": "📖 Full narrative: D-Day and legacy"
     }
    ]
