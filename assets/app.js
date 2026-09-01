@@ -205,13 +205,9 @@ function openPopup(v, idx) {
     link.href = ep.src; link.target = '_blank'; link.rel = 'noopener';
     link.style.cssText = 'display:block;margin-bottom:10px;color:#c8b97a;font-size:0.82rem;text-decoration:none;border:1px solid #444;border-radius:6px;padding:8px 12px;background:#1a1a1a;';
     link.textContent = ep.caption || 'View document';
-    // Installed app (iOS standalone) traps in-scope PDFs with no back button.
-    // Force a separate browsing context so the reader can return to the app.
-    link.addEventListener('click', function(e){
-      var standalone = (window.navigator.standalone === true) ||
-                       (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches);
-      if (standalone) { e.preventDefault(); window.open(ep.src, '_blank'); }
-    });
+    // Always open documents in a separate tab/window so the app view is never
+    // replaced — prevents the "frozen out" trap on desktop, mobile and the installed app.
+    link.addEventListener('click', function(e){ e.preventDefault(); window.open(ep.src, '_blank', 'noopener'); });
     extEl.appendChild(link);
   });
 
