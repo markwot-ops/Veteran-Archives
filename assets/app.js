@@ -205,9 +205,9 @@ function openPopup(v, idx) {
     link.href = ep.src; link.target = '_blank'; link.rel = 'noopener';
     link.style.cssText = 'display:block;margin-bottom:10px;color:#c8b97a;font-size:0.82rem;text-decoration:none;border:1px solid #444;border-radius:6px;padding:8px 12px;background:#1a1a1a;';
     link.textContent = ep.caption || 'View document';
-    // Always open documents in a separate tab/window so the app view is never
-    // replaced — prevents the "frozen out" trap on desktop, mobile and the installed app.
-    link.addEventListener('click', function(e){ e.preventDefault(); window.open(ep.src, '_blank', 'noopener'); });
+    // Open the document in an in-app overlay with an [X] close button —
+    // stays inside the app, no separate window to manage, no trap.
+    link.addEventListener('click', function(e){ e.preventDefault(); openDocOverlay(ep.src, ep.caption); });
     extEl.appendChild(link);
   });
 
@@ -280,6 +280,50 @@ function closePopup() {
 map.on('click', () => {
   if (document.getElementById('popup').classList.contains('show')) closePopup();
 });
+
+// In-app document viewer: shows a PDF/doc on the page with an [X] to close.
+// No separate browser window; closing returns straight to the veteran.
+function openDocOverlay(src, caption){
+  var ov = document.getElementById('doc-overlay');
+  if (!ov){
+    ov = document.createElement('div');
+    ov.id = 'doc-overlay';
+    ov.style.cssText = 'position:fixed;inset:0;z-index:5000;background:rgba(0,0,0,0.92);display:flex;flex-direction:column;';
+    var bar = document.createElement('div');
+    bar.style.cssText = 'display:flex;align-items:center;gap:12px;padding:calc(env(safe-area-inset-top,0px) + 10px) 14px 10px;background:#111;color:#e8dcc0;font-family:Georgia,serif;';
+    var title = document.createElement('div');
+    title.id = 'doc-overlay-title';
+    title.style.cssText = 'flex:1;min-width:0;font-size:0.9rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;';
+    var newtab = document.createElement('a');
+    newtab.id = 'doc-overlay-newtab';
+    newtab.target = '_blank'; newtab.rel = 'noopener';
+    newtab.textContent = 'Open in new tab \u2197';
+    newtab.style.cssText = 'color:#c8b97a;font-size:0.78rem;text-decoration:none;white-space:nowrap;';
+    var x = document.createElement('button');
+    x.type = 'button'; x.setAttribute('aria-label','Close'); x.textContent = '\u2715';
+    x.style.cssText = 'background:none;border:0;color:#fff;font-size:1.6rem;line-height:1;cursor:pointer;padding:2px 6px;';
+    x.addEventListener('click', closeDocOverlay);
+    var frame = document.createElement('iframe');
+    frame.id = 'doc-overlay-frame';
+    frame.setAttribute('title','Document');
+    frame.style.cssText = 'flex:1;width:100%;border:0;background:#fff;';
+    bar.appendChild(title); bar.appendChild(newtab); bar.appendChild(x);
+    ov.appendChild(bar); ov.appendChild(frame);
+    document.body.appendChild(ov);
+    document.addEventListener('keydown', function(e){ if (e.key === 'Escape') closeDocOverlay(); });
+  }
+  document.getElementById('doc-overlay-title').textContent = caption || 'Document';
+  document.getElementById('doc-overlay-newtab').href = src;
+  document.getElementById('doc-overlay-frame').src = src;
+  ov.style.display = 'flex';
+}
+function closeDocOverlay(){
+  var ov = document.getElementById('doc-overlay');
+  if (!ov) return;
+  var f = document.getElementById('doc-overlay-frame');
+  if (f) f.src = 'about:blank';
+  ov.style.display = 'none';
+}
 
 const SUF = /^(Sr|Jr|II|III|IV|MD)\.?$/i;
 function sortKey(n){
