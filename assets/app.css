@@ -437,8 +437,8 @@ body.sun .kia-badge-star { color:#c8860a !important;
      the search field / era filters / A–Z rail / drag sheet are all gone */
   #sheet-handle, #sidebar-top, #search, #era-filters, #distinction-filters { display:none !important; }
   #sidebar {
-    top:132px; left:8px; right:auto; bottom:auto;
-    width:min(76vw,300px); max-height:56vh;
+    top:132px; left:8px; right:auto; bottom:calc(56px + env(safe-area-inset-bottom));
+    width:min(76vw,300px); max-height:none;
     border:1px solid #5a3f27; border-top:1px solid #5a3f27; border-radius:12px;
     box-shadow:0 10px 30px rgba(0,0,0,0.6); z-index:1250; overflow:hidden;
     transform:translateX(-130%); transition:transform 0.22s ease; display:flex; flex-direction:column;
@@ -461,6 +461,8 @@ body.sun .kia-badge-star { color:#c8860a !important;
   /* 9: Honors scroll pinned along the very bottom (as on the Honors map) */
   #legend, body.vetlist-open #legend, body.sheet-open #legend, body.sun #legend { display:block !important; }
   body.grave-focused #legend { display:block !important; }        /* honors bar stays up always */
+  body.no-honors #main #legend { display:none !important; }        /* no honors on this map -> no empty bar */
+  body.no-honors #sidebar { bottom:calc(10px + env(safe-area-inset-bottom)); }  /* reclaim the space */
   #fb-honors { margin-top:8px; }
   #fb-honors:empty { display:none; }
   #fb-honors .v-ribbons { display:flex; flex-wrap:wrap; gap:6px; margin:0; }

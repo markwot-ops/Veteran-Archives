@@ -592,7 +592,9 @@ ensureRibbonCss();
 const legDistinct = document.getElementById('leg-distinct');
 if (!Object.keys(distCounts).length) {
   document.getElementById('legend').style.display = 'none';
+  document.body.classList.add('no-honors');
 } else {
+  document.body.classList.remove('no-honors');
   DISTINCTION_ORDER.forEach(d => {
     if (!distCounts[d]) return;
     const row = document.createElement('div');
