@@ -223,12 +223,13 @@ footer .contact { color:#CD853F; }
       <div class="foot"><span class="count">3,565 Veterans in Queue</span><span class="cta">Open queue →</span></div>
     </div>
 
-    <div class="card coming">
-      <div class="status"><i class="dot coming"></i> In progress</div>
+    <div class="card link">
+      <a class="stretch" href="./st-jerome/index.html" aria-label="Open St. Jerome Cemetery map"></a>
+      <div class="status"><i class="dot live"></i> Live</div>
       <h2>St. Jerome Cemetery</h2>
       <div class="addr">125 Saint Jerome Avenue · Est. 1864</div>
       <div class="desc">Opened in 1864, originally known as the Catholic Cemetery of Holyoke. Served Irish and French Canadian immigrant communities. Eight victims of the 1875 Precious Blood Church fire are buried here.</div>
-      <div class="foot"><span class="count">Coming soon</span><span class="cta">Soon</span></div>
+      <div class="foot"><span class="count">10 Veterans of Record</span><span class="cta">Open map &rarr;</span></div>
     </div>
 
     <div class="card link">
@@ -306,7 +307,7 @@ function initVSearch(){
   document.addEventListener('click', e => { if(!e.target.closest('.vsearch')) box.classList.remove('show'); });
 }
 (function honorRoll(){
-  const SITES = ['calvary','forestdale','elmwood','rock-valley','smiths-ferry','research-queue'];
+  const SITES = ['calvary','forestdale','elmwood','rock-valley','smiths-ferry','st-jerome','research-queue'];
   const NOT_AN_HONOR = new Set(['Retake Needed','Needs Photo','Needs GPS','Duplicate']);
   // MUST match DISTINCTION_ORDER in the map shell. Anything listed here that the map
   // cannot filter would open to every man with no lit row to explain why.

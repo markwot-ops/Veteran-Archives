@@ -7,7 +7,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="apple-mobile-web-app-title" content="Veteran Archives">
-<title>Holyoke Veterans Honor Roll — Holyoke, MA</title>
+<title>Veteran Archives — Holyoke, MA</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <link rel="stylesheet" href="../assets/app.css?v=r22">
@@ -75,71 +75,8 @@
   </div>
 </div>
 
-<!-- Every site's data, in order. Each file assigns window.VA; each shim below
-     grabs it before the next one overwrites it. No fetch, no async, no eval. -->
-<script>window.SITES_DATA = [];</script>
-<script src="../calvary/data.js"></script>
-<script>SITES_DATA.push({slug:'calvary', label:'Calvary Cemetery', VA:window.VA});</script>
-<script src="../forestdale/data.js"></script>
-<script>SITES_DATA.push({slug:'forestdale', label:'Forestdale Cemetery', VA:window.VA});</script>
-<script src="../elmwood/data.js"></script>
-<script>SITES_DATA.push({slug:'elmwood', label:'Elmwood Cemetery', VA:window.VA});</script>
-<script src="../rock-valley/data.js"></script>
-<script>SITES_DATA.push({slug:'rock-valley', label:'Rock Valley Cemetery', VA:window.VA});</script>
-<script src="../smiths-ferry/data.js"></script>
-<script>SITES_DATA.push({slug:'smiths-ferry', label:'Smiths Ferry Cemetery', VA:window.VA});</script>
-<script src="../st-jerome/data.js"></script>
-<script>SITES_DATA.push({slug:'st-jerome', label:'St. Jerome Cemetery', VA:window.VA});</script>
-<script src="../research-queue/data.js"></script>
-<script>SITES_DATA.push({slug:'research-queue', label:null, VA:window.VA});</script>
-
-<script>
-/* ------------------------------------------------------------------
-   Holyoke Veterans Honor Roll — the whole archive on one map of the city.
-   EVERY honored man is always loaded. ?honor=X does not cut the data down;
-   it only arrives with that honor lit in the Honors box, exactly as if you
-   had clicked it there yourself. Click it again and all of them come back.
-   ------------------------------------------------------------------ */
-(function honorRollMap(){
-  const honor = new URLSearchParams(location.search).get('honor');
-  // MUST match DISTINCTION_ORDER in the shell below. A man carried here whose honor
-  // the box cannot filter would sit on the map unreachable.
-  const HONORS = new Set(['Medal of Honor','Distinguished Service Cross','Croix de Guerre','KIA',
-    'Purple Heart','Distinguished Service Medal','Cited for Bravery','Air Medal','Silver Star',
-    'Bronze Star','French Military Medal','British Military Medal']);
-  const men = [];
-  (window.SITES_DATA || []).forEach(({slug, label, VA}) => {
-    ((VA && VA.veterans) || []).forEach(v => {
-      if (!(v.badges || []).some(b => HONORS.has(b))) return;   // honored men only
-      const c = Object.assign({}, v);
-      c._site = slug;
-      // photos are absolute raw URLs, so they travel unchanged; append where he lies.
-      // Fall back to branch + era the way the shell would, or the label alone would
-      // silently replace his service line.
-      const era = Array.isArray(c.era) ? c.era.join(' \u00b7 ') : (c.era || '');
-      const base = c.branchLabel || [c.branch, era].filter(Boolean).join(' \u2022 ');
-      c.branchLabel = label
-        ? (base ? base + ' \u2014 ' + label : label)
-        : (base ? base + ' \u2014 resting place not yet known' : 'Resting place not yet known');
-      men.push(c);
-    });
-  });
-  const located = men.filter(v => typeof v.lat === 'number' && typeof v.lng === 'number').length;
-  window.INIT_DISTINCTION = honor || null;     // the shell lights this row on load
-  window.VA = {
-    site: {
-      name:  'Holyoke Veterans Honor Roll',
-      title: honor || 'Holyoke Veterans Honor Roll',
-      address: men.length + ' honored \u00b7 ' + located + ' located in Holyoke',
-      kind: 'honor',
-      center: [42.2043, -72.6162],   // the city, not one burial ground
-      zoom: 13,
-      nameField: 'bio'
-    },
-    veterans: men
-  };
-})();
-</script>
+<!-- Per-site data. This is the ONLY file that changes between sites. -->
+<script src="data.js?v=1"></script>
 <script src="../assets/app.js?v=r22"></script>
 </body>
 </html>

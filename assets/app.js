@@ -648,7 +648,7 @@ function vaSiteLabel(s){ return ({calvary:'Calvary',forestdale:'Forestdale',elmw
 function loadAllVets(cb){
   if(_VA_ALL){ cb(_VA_ALL); return; }
   _VA_CBS.push(cb); if(_VA_LOADING) return; _VA_LOADING=true;
-  var SITES=['calvary','forestdale','elmwood','rock-valley','smiths-ferry','research-queue'], CUR=vaCurSlug();
+  var SITES=['calvary','forestdale','elmwood','rock-valley','smiths-ferry','st-jerome','research-queue'], CUR=vaCurSlug();
   Promise.allSettled(SITES.map(function(slug){
     if(slug===CUR) return Promise.resolve((typeof veterans!=='undefined'?veterans:[]).map(function(v){return {name:v.name,slug:slug,id:v.id};}));
     return fetch('../'+slug+'/data.js',{cache:'no-store'}).then(function(r){ if(!r.ok) throw 0; return r.text(); }).then(function(t){ var sb={}; new Function('window',t)(sb); return ((sb.VA&&sb.VA.veterans)||[]).map(function(v){return {name:v.name,slug:slug,id:v.id};}); });
@@ -1029,7 +1029,7 @@ function syncFieldButtons(){
     sidebar.insertBefore(wrap, sidebar.firstChild);
     var input = document.getElementById('mob-search');
 
-    var SITES  = ['calvary','forestdale','elmwood','rock-valley','smiths-ferry','research-queue'];
+    var SITES  = ['calvary','forestdale','elmwood','rock-valley','smiths-ferry','st-jerome','research-queue'];
     var LABELS = {calvary:'Calvary',forestdale:'Forestdale',elmwood:'Elmwood','rock-valley':'Rock Valley','smiths-ferry':'Smiths Ferry','research-queue':'Research Queue'};
     var pp = location.pathname.replace(/\/+$/,'').split('/'); var lastp = pp[pp.length-1];
     var CUR = /\.html?$/.test(lastp) ? pp[pp.length-2] : lastp;
