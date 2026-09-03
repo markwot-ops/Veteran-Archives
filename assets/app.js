@@ -342,7 +342,7 @@ var VET_CHECK_GREEN = {
   anderson_alfred_s:1, begley__d_ww_i_kia:1, blair_joseph_e:1, concannon__l_usaf_ww_ii_korea:1,
   buckley__d_navy_ww_ii:1, davitt__w_ww_i_kia:1,
   fred_k_burnham_cw:1, g_burnham_cw:1, lo_carpenter_cw:1, patrick_j_curran_wwi:1, william_r_dempsey_wwii:1, hugo_dudman_wwi_wwii:1, jno_eveleth_cw:1, arthur_emil_ezold_wwii:1,
-  demers_nazaire:1
+  demers_nazaire:1, sj_clarke_walter_j:1, sj_gorman_louis_o:1
 };
 var VET_CHECK_YELLOW = {
   carlton_r_baush_wwi:1, george_a_baush_wwii:1, harold_c_baush_wwii:1,
@@ -359,7 +359,8 @@ var VET_CHECK_RED = {
   bousquet_robert_g:1, korea_castro_anthony_j:1,
   bourque_valmore_w:1, harper_cw_boyington_herbert_j:1, cw_boyington_h_j:1, breault_alfred_a:1, korea_brissette_norman:1,
   korea_carroll_william_george:1, korea_charpentier_roland:1, chevrette_albert_e:1, chivas_stanley:1, cleary_james_t:1,
-  davidson_william_g:1, dec_walter:1
+  davidson_william_g:1, dec_walter:1,
+  sj_obrien_edward_f:1
 };
 function vetCheck(v){
   var c = VET_CHECK_GREEN[v.id] ? '#16a34a' : (VET_CHECK_YELLOW[v.id] ? '#eab308' : (VET_CHECK_RED[v.id] ? '#dc2626' : ''));

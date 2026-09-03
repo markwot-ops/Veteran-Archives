@@ -1006,7 +1006,7 @@ window.VA = {
      "caption": "📷 Chaplain Davitt"
     },
     {
-     "src": "https://raw.githubusercontent.com/markwot-ops/Veteran-Archives/main/photos/davitt_last_officer_aef_killed.png",
+     "src": "https://markwot-ops.github.io/Veteran-Archives/stories/davitt.html",
      "caption": "📜 Last Officer in the A.E.F. Killed"
     },
     {

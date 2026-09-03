@@ -102,7 +102,7 @@ window.VA = {
    "geo": "provisional",
    "photo": "/Veteran-Archives/photos/st-jerome/gorman_louis_o.jpg",
    "extraPhotos": [],
-   "narrative": "Louis O. Gorman served as a Private in the United States Army during World War II (1924–1991). If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Louis O. Gorman (1924–1991) served as a Private in the United States Army during World War II. Serving as a Private in the U.S. Army, Louis’s experience was defined by the raw, unvarnished mud, heavy packs, and marching orders of the ground infantry during the height of the European or Pacific liberation campaigns. Louis Gorman was part of the greatest generation of working-class Holyoke families. He married Anne Gyursky, and together they built a life centered around neighborhood institutions, raising their children to become prominent community leaders. The Gormans were fixtures of the community of St. Jerome parish. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "st-jerome-field-batch1"
@@ -118,7 +118,7 @@ window.VA = {
    "geo": "provisional",
    "photo": "/Veteran-Archives/photos/st-jerome/clarke_walter_j.jpg",
    "extraPhotos": [],
-   "narrative": "Walter J. Clarke served as a Quartermaster Second Class in the United States Navy during World War II (1923–1990). If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "narrative": "Walter J. Clarke (1923–1990) served as a Quartermaster Second Class in the United States Navy during World War II. As a Quartermaster, Walter fought on the bridge of a ship. His hands on the wheel, navigating vessels, tracking weather, and reading the signals through binoculars across hazardous ocean expanses. Walter was a man deeply woven into the spiritual fabric of Holyoke. Following his wartime service he returned home to plant deep roots in Elmwood on Merrick Avenue. He found his ultimate calling as a member of the Catholic clergy, becoming ordained as a Permanent Deacon in the Roman Catholic Church. The Reverend Mr. Walter J. Clarke spent the rest of his life serving the local Catholic community alongside his wife, Theresa - a dedicated nurse at Providence and Holyoke Hospitals. Walter passed away in 1990 at the age of 67. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "st-jerome-field-batch1"
@@ -209,7 +209,7 @@ window.VA = {
   {
    "id": "sj_eckart_emil_a",
    "name": "Emil A. Eckart",
-   "era": "",
+   "era": "World War I",
    "branch": "",
    "branchLabel": "",
    "lat": 42.2073222,
@@ -285,6 +285,21 @@ window.VA = {
    "photo": "/Veteran-Archives/photos/st-jerome/orourke_richard_w.jpg",
    "extraPhotos": [],
    "narrative": "Richard W. O'Rourke served as a Corporal in the United States Army during World War I (1896–1972). He also appears in the research records among Holyoke's World War I men. If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
+   "badges": [],
+   "status": "located",
+   "source": "st-jerome-field-batch2-geo"
+  },
+  {
+   "id": "sj_obrien_edward_f",
+   "name": "Edward F. O'Brien",
+   "era": "",
+   "branch": "",
+   "branchLabel": "",
+   "lat": 42.2071889,
+   "lng": -72.6278833,
+   "photo": "/Veteran-Archives/photos/st-jerome/obrien_edward_f.jpg",
+   "extraPhotos": [],
+   "narrative": "Edward F. O'Brien (died December 2, 1951) rests here with his wife, Anna Joyce (died January 14, 1998). His marker carries no military insignia, so his veteran status is unconfirmed; he lies beside World War II veteran Frank J. O'Brien (1918–1981). If you have further information about this veteran, please contact the City of Holyoke Veterans Graves Officer at (413) 322-5630 at 310 Appleton Street, 1st Floor, Holyoke, MA 01040.",
    "badges": [],
    "status": "located",
    "source": "st-jerome-field-batch2-geo"
