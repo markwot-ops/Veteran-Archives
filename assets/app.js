@@ -353,7 +353,7 @@ var VET_CHECK_YELLOW = {
   zack_boudreau_alexander:1, elisha_chapin_colonial:1, bogusz_stanley_j:1, chartier_leo_george:1, chatterton_arthur:1, ww2_clark_james_g:1, collins__d_vietnam_bronze_star:1,
   zack_comeau_joseph_e:1, cordeau_harold_w:1, corrigan_john_j:1, coughlin_kirwin:1, croteau_louis_m:1, proteau_rene_a:1, ww2_cuddy_joseph_f:1, harper_cw_cushing_patrick:1, cw_cushing_pat:1, czech_henry_f:1, dalton_john:1,
   harper_rev_chapin_asahel:1, lt_martin_chapin_rev:1, edward_day_rev:1, harper_rev_day_jedediah:1, harper_rev_day_joel:1, harper_rev_day_joel_jr:1, capt_joseph_day_rev:1, robert_day_rev:1, harper_rev_ely_benjamin:1, harper_rev_ely_enoch:1, harper_rev_ely_joseph:1, harper_rev_ely_jube:1, harper_rev_fairfield_levi:1, oswald_f_friedrich:1,
-  deffew_percy_w:1, felsentreger__h_t_usmc_vietnam:1, mccormack__g_mass_amb_div_ww_i_ss:1, fd_littlejohn_louis_b:1, owens_david_l:1, sj_whalen_joseph_l:1, sj_oleary_vincent:1, sj_murray_charles:1, sj_smith_dav:1
+  deffew_percy_w:1, felsentreger__h_t_usmc_vietnam:1, mccormack__g_mass_amb_div_ww_i_ss:1, fd_littlejohn_louis_b:1, owens_david_l:1, sj_whalen_joseph_l:1, sj_oleary_vincent:1, sj_murray_charles:1, sj_smith_dav:1, sj_narey_francis_h:1, sj_pare_richard_a:1, sj_lynch_daniel_e:1, sj_sullivan_paul_e:1, sj_smith_william_d:1
 };
 var VET_CHECK_RED = {
   bousquet_robert_g:1, korea_castro_anthony_j:1,
