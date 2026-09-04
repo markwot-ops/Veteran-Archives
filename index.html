@@ -193,7 +193,7 @@ footer .contact { color:#CD853F; }
       <h2>Calvary Cemetery</h2>
       <div class="addr">1040 Northampton Street · Est. c. 1870s</div>
       <div class="desc">Holyoke's principal Catholic burial ground, serving Sacred Heart, Our Lady of the Holy Rosary, and Blessed Sacrament parishes. Spans the Civil War through Vietnam.</div>
-      <div class="foot"><span class="count">375 Veterans Geolocated</span><span class="cta">Open map →</span></div>
+      <div class="foot"><span class="count" id="count-calvary">375 Veterans of Record</span><span class="cta">Open map →</span></div>
     </div>
 
     <div class="card link">
@@ -202,7 +202,7 @@ footer .contact { color:#CD853F; }
       <h2>Forestdale Cemetery</h2>
       <div class="addr">304 Cabot Street · Est. 1860</div>
       <div class="desc">Holyoke's public secular cemetery, organized in 1860 and dedicated in 1862. Contains GAR plots, a potter's field, and the grave of Medal of Honor recipient John MacKenzie (WWI).</div>
-      <div class="foot"><span class="count">363 Veterans Geolocated</span><span class="cta">Open map →</span></div>
+      <div class="foot"><span class="count" id="count-forestdale">437 Veterans of Record</span><span class="cta">Open map →</span></div>
     </div>
 
     <div class="card link">
@@ -211,7 +211,7 @@ footer .contact { color:#CD853F; }
       <h2>Elmwood Cemetery</h2>
       <div class="addr">2190 Northampton Street · Oldest burial 1755</div>
       <div class="desc">The oldest burial ground in Holyoke, given to the city in 1955. Home to veterans of the French &amp; Indian War, Revolutionary War, and Civil War through World War II — including two veterans killed in 1777 and a WWI Navy Yeomanette.</div>
-      <div class="foot"><span class="count">60 Veterans of Record</span><span class="cta">Open map →</span></div>
+      <div class="foot"><span class="count" id="count-elmwood">59 Veterans of Record</span><span class="cta">Open map →</span></div>
     </div>
 
     <div class="card queue link">
@@ -220,7 +220,7 @@ footer .contact { color:#CD853F; }
       <h2>Research Queue</h2>
       <div class="addr">Burial location unknown · Research ongoing</div>
       <div class="desc">Holyoke veterans identified in the records but not yet located, listed alphabetically — those approved and awaiting geolocation, and those of record whose research is ongoing.</div>
-      <div class="foot"><span class="count">3,565 Veterans in Queue</span><span class="cta">Open queue →</span></div>
+      <div class="foot"><span class="count" id="count-research-queue">3,641 Veterans in Queue</span><span class="cta">Open queue →</span></div>
     </div>
 
     <div class="card link">
@@ -229,7 +229,7 @@ footer .contact { color:#CD853F; }
       <h2>St. Jerome Cemetery</h2>
       <div class="addr">125 Saint Jerome Avenue · Est. 1864</div>
       <div class="desc">Opened in 1864, originally known as the Catholic Cemetery of Holyoke. Served Irish and French Canadian immigrant communities. Eight victims of the 1875 Precious Blood Church fire are buried here.</div>
-      <div class="foot"><span class="count">10 Veterans of Record</span><span class="cta">Open map &rarr;</span></div>
+      <div class="foot"><span class="count" id="count-st-jerome">28 Veterans of Record</span><span class="cta">Open map &rarr;</span></div>
     </div>
 
     <div class="card link">
@@ -238,7 +238,7 @@ footer .contact { color:#CD853F; }
       <h2>Rock Valley Cemetery</h2>
       <div class="addr">Rock Valley Road · Some burials from 1700s</div>
       <div class="desc">A small burial ground in West Holyoke near the Southampton line, with early interments dating to the 18th century. Four soldiers of the Revolution lie here.</div>
-      <div class="foot"><span class="count">4 Veterans of Record</span><span class="cta">Open map →</span></div>
+      <div class="foot"><span class="count" id="count-rock-valley">4 Veterans of Record</span><span class="cta">Open map →</span></div>
     </div>
 
     <div class="card link">
@@ -247,7 +247,7 @@ footer .contact { color:#CD853F; }
       <h2>Smiths Ferry Cemetery</h2>
       <div class="addr">Smiths Ferry · Holyoke's northern reach</div>
       <div class="desc">An early burying ground at Smiths Ferry, in the north of the city. Four soldiers of the Revolution lie here.</div>
-      <div class="foot"><span class="count">4 Veterans of Record</span><span class="cta">Open map →</span></div>
+      <div class="foot"><span class="count" id="count-smiths-ferry">4 Veterans of Record</span><span class="cta">Open map →</span></div>
     </div>
 
     <div class="card hr-card">
@@ -346,6 +346,13 @@ function initVSearch(){
     const men = [];
     res.forEach(r => r.status === 'fulfilled' && men.push(...r.value));
     SEARCH_INDEX = men.map(m => ({name:m.v.name, slug:m.slug, id:m.v.id})).filter(m => m.id && m.name);
+    res.forEach((r, i) => {                       // live card counts
+      if (r.status !== 'fulfilled') return;
+      const el = document.getElementById('count-' + SITES[i]);
+      if (!el) return;
+      const n = r.value.length;
+      el.textContent = n.toLocaleString() + (SITES[i] === 'research-queue' ? ' Veterans in Queue' : ' Veterans of Record');
+    });
     const vin = document.getElementById('vsearch-input');
     if(vin){ vin.disabled = false; vin.placeholder = 'Search by Name'; }
     const counts = {}, honoured = new Set();
