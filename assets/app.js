@@ -341,11 +341,11 @@ var VET_CHECK_GREEN = {
   zack_connor_george_s_l:1, kierzek_stanley_p:1, kaster_leonard_l:1,
   anderson_alfred_s:1, begley__d_ww_i_kia:1, blair_joseph_e:1, concannon__l_usaf_ww_ii_korea:1,
   buckley__d_navy_ww_ii:1, davitt__w_ww_i_kia:1,
-  fred_k_burnham_cw:1, g_burnham_cw:1, lo_carpenter_cw:1, patrick_j_curran_wwi:1, william_r_dempsey_wwii:1, hugo_dudman_wwi_wwii:1, jno_eveleth_cw:1, arthur_emil_ezold_wwii:1,
+  fred_k_burnham_cw:1, g_burnham_cw:1, lo_carpenter_cw:1, patrick_j_curran_wwi:1, william_r_dempsey_wwii:1, hugo_dudman_wwi_wwii:1, jno_eveleth_cw:1, arthur_emil_ezold_wwii:1, george_a_baush_wwii:1,
   demers_nazaire:1, sj_clarke_walter_j:1, sj_gorman_louis_o:1, welch_gar:1, sj_welch_edward_j:1, sj_mcintyre_patrick_f:1, sj_rigali_joseph_w:1, sj_eckart_emil_a:1, sj_griffin_thomas_j:1, sj_kelley_william_t:1, sj_netkovick_adolph_c:1, sj_obrien_frank_j:1, sj_orourke_richard_w:1, sj_mcnee_john_g:1, sj_kane_joseph_d:1, sj_enright_william_f:1, wotton__f_army_ww_ii:1, sj_duquette_normand:1, sj_boudreau_james_f:1, sj_cuddy_james_e:1, sj_bassett_merlon:1, sj_brodeur_raymond_roy:1, sj_wilmot_frederick_b:1, sj_kerin_michael_f:1, sj_rohan_john_f:1, sj_beaudry_wilfred_r:1, sj_fonseca_joseph_c:1, sj_lajoie_lawrence_v_jr:1, sj_quirk_robert_michael:1, sj_burns_cornelius_d:1, sj_aurnhammer_richard_a:1, sj_collins_joseph_f:1, sj_deane_patrick_f:1, sj_ducharme_william_m:1, sj_sullivan_james_j:1, sj_hardaker_leonard:1, sj_bernard_george_j_jr:1, sj_pare_richard_a:1, sj_donoghue_roger_p:1, seklecki_thomas_m:1, richey_neal_o:1, mccann_vincent_o_jr:1, labonte_donald_a:1, giroux_ronald:1, zack_doyle_william:1, mcnally_william_h:1, zack_mcnulty_john:1, zack_read_harry_david:1, zack_roy_ernest_j:1, zack_ryan_william_p:1, zack_stack_william_a:1, zack_boudreau_alexander:1, harper_rev_day_eli:1, harper_rev_parsons_asahel:1, harper_rev_parsons_jonathon:1, harper_rev_smith_lewis:1
 };
 var VET_CHECK_YELLOW = {
-  carlton_r_baush_wwi:1, george_a_baush_wwii:1, harold_c_baush_wwii:1,
+  carlton_r_baush_wwi:1, harold_c_baush_wwii:1,
   zack_desilets_patrick:1,
   altenkirch__a_navy_great_white_fleet:1, ackronis__j_navy_ww_ii:1, allen__w_ct_inf_span_am_war:1, anderson__j_sr_army_ww_ii:1, anderstrom__a_navy_ww_i:1, baldassaro__g_jr_usaf:1, barnett__c_army_ww_ii:1, barnett__j_navy_ww_i:1, barrett__e_army_ww_ii:1, bartley__j_mass_usnrf:1, batchelor__h_army_ww_ii:1, beaulieu__w_f_air_force:1, bedard__e_jr_usmc_vietnam:1,
   abbey__l_army_ww_ii:1, ww2_babyak_john_michael:1, biela_max_e:1, boczon_francis_j:1, brovarek_frank:1, bruder_emil:1, carlow_john:1,
