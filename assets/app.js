@@ -335,6 +335,7 @@ function titleName(n){ return displayName(stripRank(n)); }
 
 // --- index progress checks: small colored check to the right of the name ---
 var VET_CHECK_GREEN = {
+  richard_j_powers_navy:1, otto_ernest_riedel_wwii:1, lawrence_w_robinson_wwii:1, josiah_rogers_rev:1, william_f_tauscher_wwi:1,
   lo_white_cw:1,
   harold_c_baush_wwii:1,
   mcnally_william_h:1, zack_mcnulty_john:1, zack_read_harry_david:1, zack_roy_ernest_j:1, zack_ryan_william_p:1, zack_stack_william_a:1, zack_boudreau_alexander:1, aaron_f_baldwin_cw:1, harper_rev_ball_charles:1,
