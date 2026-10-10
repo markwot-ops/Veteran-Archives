@@ -335,6 +335,7 @@ function titleName(n){ return displayName(stripRank(n)); }
 
 // --- index progress checks: small colored check to the right of the name ---
 var VET_CHECK_GREEN = {
+  capt_joseph_day_rev:1,
   harper_rev_miller_abner:1, jno_montgomery_cw:1, harper_rev_morgan_jesse:1, capt_joseph_morgan_colonial:1, harper_rev_morgan_lucas:1, harper_rev_morgan_titus:1,
   richard_j_powers_navy:1, otto_ernest_riedel_wwii:1, lawrence_w_robinson_wwii:1, josiah_rogers_rev:1, william_f_tauscher_wwi:1,
   lo_white_cw:1,
@@ -359,7 +360,7 @@ var VET_CHECK_YELLOW = {
   abbey__l_army_ww_ii:1, ww2_babyak_john_michael:1, biela_max_e:1, boczon_francis_j:1, brovarek_frank:1, bruder_emil:1, carlow_john:1,
   hillman_merle_c:1, baillargeon__l_military:1, ww2_banas_charles_w:1, fd_batchelor_charles_f:1, zack_blais_albert:1, breton_joseph_j:1, brouillette_george_r:1, zack_brown_henry_a:1, brown_joseph_j:1, brown_kenneth_r:1, burgess_leon_f:1, bogusz_stanley_j:1, chartier_leo_george:1, chatterton_arthur:1, ww2_clark_james_g:1, collins__d_vietnam_bronze_star:1,
   zack_comeau_joseph_e:1, cordeau_harold_w:1, corrigan_john_j:1, coughlin_kirwin:1, croteau_louis_m:1, proteau_rene_a:1, ww2_cuddy_joseph_f:1, harper_cw_cushing_patrick:1, cw_cushing_pat:1, czech_henry_f:1, dalton_john:1,
-  capt_joseph_day_rev:1, harper_rev_ely_jube:1, harper_rev_fairfield_levi:1, oswald_f_friedrich:1,
+  harper_rev_ely_jube:1, harper_rev_fairfield_levi:1, oswald_f_friedrich:1,
   deffew_percy_w:1, felsentreger__h_t_usmc_vietnam:1, mccormack__g_mass_amb_div_ww_i_ss:1, fd_littlejohn_louis_b:1, owens_david_l:1, sj_whalen_joseph_l:1, sj_oleary_vincent:1, sj_murray_charles:1, sj_smith_dav:1, sj_narey_francis_h:1, sj_lynch_daniel_e:1, sj_sullivan_paul_e:1, sj_smith_william_d:1, sj_quinney_edward_j:1, sj_seklecki_frederick_r:1, sj_gately_peter_t:1, sj_lynch_walter_a:1, sj_nelson_edward_l:1, sj_nelson_edward_l:1
 };
 var VET_CHECK_RED = {
