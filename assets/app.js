@@ -335,6 +335,7 @@ function titleName(n){ return displayName(stripRank(n)); }
 
 // --- index progress checks: small colored check to the right of the name ---
 var VET_CHECK_GREEN = {
+  harper_rev_miller_abner:1, jno_montgomery_cw:1, harper_rev_morgan_jesse:1, capt_joseph_morgan_colonial:1, harper_rev_morgan_lucas:1, harper_rev_morgan_titus:1,
   richard_j_powers_navy:1, otto_ernest_riedel_wwii:1, lawrence_w_robinson_wwii:1, josiah_rogers_rev:1, william_f_tauscher_wwi:1,
   lo_white_cw:1,
   harold_c_baush_wwii:1,
@@ -351,6 +352,7 @@ var VET_CHECK_GREEN = {
   demers_nazaire:1, sj_clarke_walter_j:1, sj_gorman_louis_o:1, welch_gar:1, sj_welch_edward_j:1, sj_mcintyre_patrick_f:1, sj_rigali_joseph_w:1, sj_eckart_emil_a:1, sj_griffin_thomas_j:1, sj_kelley_william_t:1, sj_netkovick_adolph_c:1, sj_obrien_frank_j:1, sj_orourke_richard_w:1, sj_mcnee_john_g:1, sj_kane_joseph_d:1, sj_enright_william_f:1, wotton__f_army_ww_ii:1, sj_duquette_normand:1, sj_boudreau_james_f:1, sj_cuddy_james_e:1, sj_bassett_merlon:1, sj_brodeur_raymond_roy:1, sj_wilmot_frederick_b:1, sj_kerin_michael_f:1, sj_rohan_john_f:1, sj_beaudry_wilfred_r:1, sj_fonseca_joseph_c:1, sj_lajoie_lawrence_v_jr:1, sj_quirk_robert_michael:1, sj_burns_cornelius_d:1, sj_aurnhammer_richard_a:1, sj_collins_joseph_f:1, sj_deane_patrick_f:1, sj_ducharme_william_m:1, sj_sullivan_james_j:1, sj_hardaker_leonard:1, sj_bernard_george_j_jr:1, sj_pare_richard_a:1, sj_donoghue_roger_p:1, seklecki_thomas_m:1, richey_neal_o:1, mccann_vincent_o_jr:1, labonte_donald_a:1, giroux_ronald:1, zack_doyle_william:1, harper_rev_day_eli:1, harper_rev_parsons_asahel:1, harper_rev_parsons_jonathon:1, harper_rev_smith_lewis:1
 };
 var VET_CHECK_YELLOW = {
+  david_w_mulligan_unk:1,
   frank_h_wade:1, paul_f_wagner:1, unknown_soldier_3:1, unknown_soldier_4:1,
   carlton_r_baush_wwi:1, zack_desilets_patrick:1,
   altenkirch__a_navy_great_white_fleet:1, ackronis__j_navy_ww_ii:1, allen__w_ct_inf_span_am_war:1, anderson__j_sr_army_ww_ii:1, anderstrom__a_navy_ww_i:1, baldassaro__g_jr_usaf:1, barnett__c_army_ww_ii:1, barnett__j_navy_ww_i:1, barrett__e_army_ww_ii:1, bartley__j_mass_usnrf:1, batchelor__h_army_ww_ii:1, beaulieu__w_f_air_force:1, bedard__e_jr_usmc_vietnam:1,
