@@ -181,6 +181,18 @@ function openPopup(v, idx) {
     story += ' ' + CONTACT_CLOSE;                 // the close is ALWAYS part of the narrative
   }
   storyEl.textContent = story;
+  // Bold the geolocation-pending note for placeholder-coordinate (unsurveyed) graves.
+  (function(){
+    var re = /((?:[^.]*\bgeolocat\w*[^.]*?\bpending\b|[^.]*\bpending\b[^.]*?\bgeolocat\w*)[^.]*\.)/i;
+    var t = storyEl.textContent, m = re.exec(t);
+    if (m) {
+      var i = m.index, j = i + m[0].length;
+      storyEl.textContent = '';
+      if (i > 0) storyEl.appendChild(document.createTextNode(t.slice(0, i)));
+      var b = document.createElement('strong'); b.textContent = t.slice(i, j); storyEl.appendChild(b);
+      if (j < t.length) storyEl.appendChild(document.createTextNode(t.slice(j)));
+    }
+  })();
   storyEl.classList.toggle('queued', queued);
 
   const srcEl = document.getElementById('psrc');
