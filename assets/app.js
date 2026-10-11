@@ -347,6 +347,7 @@ function titleName(n){ return displayName(stripRank(n)); }
 
 // --- index progress checks: small colored check to the right of the name ---
 var VET_CHECK_GREEN = {
+  carlton_r_baush_wwi:1,
   capt_joseph_day_rev:1,
   harper_rev_miller_abner:1, jno_montgomery_cw:1, harper_rev_morgan_jesse:1, capt_joseph_morgan_colonial:1, harper_rev_morgan_lucas:1, harper_rev_morgan_titus:1,
   richard_j_powers_navy:1, otto_ernest_riedel_wwii:1, lawrence_w_robinson_wwii:1, josiah_rogers_rev:1, william_f_tauscher_wwi:1,
@@ -367,7 +368,7 @@ var VET_CHECK_GREEN = {
 var VET_CHECK_YELLOW = {
   david_w_mulligan_unk:1,
   frank_h_wade:1, paul_f_wagner:1, unknown_soldier_3:1, unknown_soldier_4:1,
-  carlton_r_baush_wwi:1, zack_desilets_patrick:1,
+  zack_desilets_patrick:1,
   altenkirch__a_navy_great_white_fleet:1, ackronis__j_navy_ww_ii:1, allen__w_ct_inf_span_am_war:1, anderson__j_sr_army_ww_ii:1, anderstrom__a_navy_ww_i:1, baldassaro__g_jr_usaf:1, barnett__c_army_ww_ii:1, barnett__j_navy_ww_i:1, barrett__e_army_ww_ii:1, bartley__j_mass_usnrf:1, batchelor__h_army_ww_ii:1, beaulieu__w_f_air_force:1, bedard__e_jr_usmc_vietnam:1,
   abbey__l_army_ww_ii:1, ww2_babyak_john_michael:1, biela_max_e:1, boczon_francis_j:1, brovarek_frank:1, bruder_emil:1, carlow_john:1,
   hillman_merle_c:1, baillargeon__l_military:1, ww2_banas_charles_w:1, fd_batchelor_charles_f:1, zack_blais_albert:1, breton_joseph_j:1, brouillette_george_r:1, zack_brown_henry_a:1, brown_joseph_j:1, brown_kenneth_r:1, burgess_leon_f:1, bogusz_stanley_j:1, chartier_leo_george:1, chatterton_arthur:1, ww2_clark_james_g:1, collins__d_vietnam_bronze_star:1,
