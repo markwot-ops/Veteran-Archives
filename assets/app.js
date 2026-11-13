@@ -347,6 +347,7 @@ function titleName(n){ return displayName(stripRank(n)); }
 
 // --- index progress checks: small colored check to the right of the name ---
 var VET_CHECK_GREEN = {
+  farrell_james_j:1, collamore_william_r:1, sj_lavelle_bernard_m:1,
   mausel_robert_s:1,
   carlton_r_baush_wwi:1,
   capt_joseph_day_rev:1,
