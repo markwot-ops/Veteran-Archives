@@ -347,6 +347,7 @@ function titleName(n){ return displayName(stripRank(n)); }
 
 // --- index progress checks: small colored check to the right of the name ---
 var VET_CHECK_GREEN = {
+  mausel_robert_s:1,
   carlton_r_baush_wwi:1,
   capt_joseph_day_rev:1,
   harper_rev_miller_abner:1, jno_montgomery_cw:1, harper_rev_morgan_jesse:1, capt_joseph_morgan_colonial:1, harper_rev_morgan_lucas:1, harper_rev_morgan_titus:1,
